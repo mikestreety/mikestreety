@@ -3,3 +3,5 @@
 1. `npm i`
 1. `npm run watch`
 1. edit `app/data/meta.json`
+
+Favicon generator: https://realfavicongenerator.net/
