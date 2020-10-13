@@ -1,0 +1,36 @@
+---
+permalink: rss.xml
+sitemapIgnore: true
+---
+{# <?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ meta.site.title }}</title>
+		<link>{{ meta.site.url }}</link>
+		<description>{{ meta.site.description }}</description>
+		<language>en-us</language>
+		<pubDate>{{ page.date.toUTCString() }}</pubDate>
+		<lastBuildDate>{{ page.date.toUTCString() }}</lastBuildDate>
+		<atom:link href="{{ siteUrl }}/{{ permalink }}" rel="alternate" type="application/xml" />
+		<image>
+			<url>{{ siteUrl }}assets/img/android-chrome-512x512.png</url>
+			<title>{{ siteName }}</title>
+			<link>{{ siteUrl }}</link>
+			<width>144</width>
+			<height>144</height>
+			<description>{{ description }}</description>
+		</image>
+		{% for entry in collections.all %}
+		<item>
+			<title>{{ entry.title }} - {{ entry.heading }}</title>
+			<link>{{ siteUrl }}/{{ entry.slug }}</link>
+			<pubDate>{{ entry.postDate }}</pubDate>
+			<guid>{{ siteUrl }}/{{ entry.slug }}</guid>
+			<description><![CDATA[
+
+			]]></description>
+		</item>
+		{% endfor %}
+
+	</channel>
+</rss> #}

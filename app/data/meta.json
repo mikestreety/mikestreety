@@ -1,0 +1,11 @@
+{
+	"author": "Mike Street",
+	"themeColour": "#f00",
+	"site": {
+		"title": "Mike's 11ty Starter",
+		"url": "https://www.mikestreety.co.uk"
+	},
+	"social": {
+		"twitter": "mikestreety"
+	}
+}
