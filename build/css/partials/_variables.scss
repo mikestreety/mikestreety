@@ -1,0 +1,48 @@
+$baseFont: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+$phone: 'screen and (min-width: 27em)';
+$tablet: 'screen and (min-width: 45em)';
+$desktop: 'screen and (min-width: 60em)';
+
+@mixin mq($device) {
+	@media #{unquote($device)} {
+		@content;
+	}
+}
+
+:root {
+	--base: #2a2a2a;
+
+	--primary: #2b76b9;
+	--primaryLighter: #9AD8EA;
+	--primaryLight: #2cacd1;
+	--primaryDark: #1F5584;
+	--primaryDarker: #133553;
+
+	--secondary: #3d3393;
+	--secondaryDark: #26205B;
+
+	--tertiary: #35eb93;
+	--tertiaryLight: #6AF0B0;
+
+	--quaternary: #cf2226;
+
+	--neutralDark: #666;
+	--neutralMid: #bbb;
+	--neutralLight: #eee;
+	--neutralLighter: #f2f2f2;
+	--neutralLightest: #fff;
+
+	--siteWidth: 50rem;
+	--siteWidthThin: 40rem;
+
+	--gutter: 1rem;
+	--gutterLarge: 2rem;
+	@include mq($tablet) {
+		--gutter: 1.5rem;
+		--gutterLarge: 3rem;
+	}
+	@include mq($desktop) {
+		--gutterLarge: 4rem;
+	}
+}

@@ -1,0 +1,40 @@
+.info {
+	padding: 1rem var(--gutter);
+	border-bottom: 0.2rem solid var(--primary);
+	margin-bottom: var(--gutter);
+	position: relative;
+	z-index: 1;
+
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: var(--primary);
+		opacity: 0.1;
+		z-index: -1;
+	}
+
+	&.alt {
+		border-bottom-color: var(--secondary);
+		&::before {
+			background: var(--secondary);
+		}
+	}
+	&.success {
+		border-bottom-color: var(--tertiary);
+		&::before {
+			background: var(--tertiary);
+		}
+	}
+	&.warning,
+	&.error {
+		border-bottom-color: var(--quaternary);
+		&::before {
+			background: var(--quaternary);
+		}
+	}
+}

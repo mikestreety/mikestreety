@@ -1,0 +1,21 @@
+p {
+	margin: 0 0 1rem;
+}
+
+.subtitle {
+	margin-top: -1rem;
+	color: var(--neutralDark);
+	font-size: 1.1rem;
+	margin-bottom: 2rem;
+	font-family: 'Mikestreety', $baseFont;
+
+	h1 + p {
+		margin-bottom: var(--gutter);
+	}
+}
+
+b,
+optgroup,
+strong {
+	font-weight: 800;
+}

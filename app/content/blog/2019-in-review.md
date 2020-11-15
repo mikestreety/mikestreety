@@ -1,0 +1,144 @@
+---
+title: 2019 In Review
+published: 2020-1-6
+updated: 2020-1-27
+intro: 2019 was a strange year, new kitchen, bathroom car and bike. But overall it was good. I enjoyed it.
+tags:
+ - General
+---
+
+2019 was a strange year, and quiet for me "publicly". My blog post output dropped from previous years, writing **11** (although I've just looked and I only wrote **7** in 2018, so not sure what happened there!), my bike miles dropped (I barely did any weekend rides this year, it was just my commute propping up my miles) and my steps were less.
+
+But that is OK. I've had a fantastic year, watching my boy grow from a helpless blob to a crawling, chatty, high-fiving, eating monster. Weekends have been spent at home, either playing with him on the kitchen floor, or sleeping in while my wife takes the graveyard shift (this is a pre-arranged agreement we have). 2019 overall was good. I enjoyed it.
+
+In terms of things that have happened this year for me, my family and my home, there are a few:
+
+### New Kitchen and Bathroom
+
+At the beginning of the year, the three of us up-sticks and moved in with my parents and the in-laws over a 3 month stint. While we were out, some builders transformed our avocado green bathroom and yellow carpeted kitchen into two of my most favourite rooms in the house. We were so very fortunate to be able to have family close-by who were willing to put up with our stuff taking over their house, but the new kitchen and bathroom have made such a difference and I love them both.
+
+### The Garden
+
+With a full summer passing us by, I had a couple of opportunities to get out in the garden and start making it nice. I made 20 bags of gravel which I took to the tip and turned a weird platform of flowerpots into a proper bed. The wind caught one of our fence panels so replaced all of them (the rest were rotten) and I also got rid of _a lot_ of dead plants and horrible flower pots.  I bought a new BBQ (after the old one rusted through) and we had plenty of parties and gatherings to make the most of our west-facing garden.
+
+### Transport
+
+2019 saw two new vehicles make it into the street household. We sold our Volkswagen Golf and made way for a Volkswagen Tiguan. A bigger, better family car which means we can fit all of the stuff in that we take everywhere. I also used some of the profit from the [book I wrote back in 2017](https://www.packtpub.com/gb/application-development/vuejs-2x-example) to buy myself a [new commuter bike](https://www.instagram.com/p/B0dA_UTn4_Y/). I've been in persuit for the perfect commuter for a few years now (buying a couple of bikes that weren't quite right), but it feels like I've finally got it right.
+
+### New routines
+
+In September, my wife returned to work after having a few months off for maternity leave. This saw a big change in our routine (and tolerance for each other), but after a few months of getting the hang of our new duties we seem to have landed on something that works. It's hard and tiring and sometimes tedious but it works for both of us.
+
+## Blog Posts
+
+I like to reflect on my most popular blog posts and below are the most popular ones I've written on my personal blog and their position in comparison to where they were at the end of 2018.  Oddly, the Github for Windows blog post from 2012 made a strong appearance, despite being completely irrelevant now. 2017 seemed to be my year for blogs posts (back when I was renting a flat, had no child and was writing a book) as most of the top 10 seem to be from that year.
+
+<table>
+<tr><td><strong>1</strong></td><td> - </td><td><a href="https://www.mikestreety.co.uk/blog/vue-js-using-localstorage-with-the-vuex-store">Vue: Using localStorage with Vuex store</a></td><td>13/10/17</td></tr>
+<tr><td><strong>2</strong></td><td class="winner">↑ 4</td><td><a href="https://www.mikestreety.co.uk/blog/multiple-transition-delay">Multiple transition delays</a></td><td>03/05/17</td></tr>
+<tr><td><strong>3</strong></td><td><small>New!<small></td><td><a href="https://www.mikestreety.co.uk/blog/github-for-pc-and-setting-up-a-local-testing-environment">Github for PC and setting up a local testing environment</a></td><td>05/05/12</td></tr>
+<tr><td><strong>4</strong></td><td class="winner">↑ 1</td><td><a href="https://www.mikestreety.co.uk/blog/get-background-image-information-if-element-has-a-one-in-jquery">Get background image information if element has a one in jQuery</a></td><td>04/03/16</td></tr>
+<tr><td><strong>5</strong></td><td class="loser">↓ 3</td><td><a href="https://www.mikestreety.co.uk/blog/use-a-raspberry-pi-with-multiple-wifi-networks">Use a Raspberry Pi with multiple WiFi networks</a></td><td>11/10/15</td></tr>
+<tr><td><strong>6</strong></td><td class="loser">↓ 3</td><td><a href="https://www.mikestreety.co.uk/blog/introduction-to-vuex-managing-state-storage-and-sharing-data-between-components">Introduction to Vuex Part 1 - managing state, storage and sharing data between components</a></td><td>18/12/17</td></tr>
+<tr><td><strong>7</strong></td><td> - </td><td><a href="https://www.mikestreety.co.uk/blog/vue-js-filters-what-are-they-how-do-you-use-them-and-how-do-you-make-them-video">Filters in Vue.js: What are they, how do you use them, and how do you make them?</a></td><td>08/11/17</td></tr>
+<tr><td><strong>8</strong></td><td> - </td><td><a href="https://www.mikestreety.co.uk/blog/filtering-tables">Filtering Tables</a></td><td>12/02/15</td></tr>
+<tr><td><strong>9</strong></td><td><small>New!<small></td><td><a href="https://www.mikestreety.co.uk/blog/using-dynamic-and-static-attributes-and-props-with-components-and-html-elements-video">Vue.js: Using dynamic and static attributes and props with components and HTML elements (video)</a></td><td>26/10/17</td></tr>
+<tr><td><strong>10</strong></td><td><small>New!<small></td><td><a href="https://www.mikestreety.co.uk/blog/dont-require-password-for-sudo-commands-as-non-root-user">Don't require password for sudo commands as non-root user</a></td><td>23/7/17</td></tr>
+</table>
+
+### Liquid Light
+
+I've written a few blogs posts for the company I work for (sorry, am director of!), so thought I would dig through the analytics there and try and work out my top 10 posts. If you would like to look at all the posts I've written for Liquid Light, you can check out my [author page](https://www.liquidlight.co.uk/blog/author/mike-street/). It is no surprise my Gulp 4 post is top.  This is the first year I've done this, so no comparison unfortunately! 
+
+<table>
+    <tr>
+        <td><strong>1</strong></td>
+        <td><a href="https://www.liquidlight.co.uk/blog/how-do-i-update-to-gulp-4/">How do I update to Gulp 4?</a></td>
+        <td>22/03/2016</td>
+    </tr>
+    <tr>
+        <td><strong>2</strong></td>
+        <td><a href="https://www.liquidlight.co.uk/blog/raspberry-pi-what-is-it-and-why-do-i-need-one/">Raspberry Pi: what is it and why do i need one?</a></td>
+        <td>15/02/2016</td>
+    </tr>
+    <tr>
+        <td><strong>3</strong></td>
+        <td><a href="https://www.liquidlight.co.uk/blog/using-vue-js-with-a-lumen-powered-api/">Using Vue.js with a Lumen powered API</a></td>
+        <td>18/10/2018</td>
+    </tr>
+    <tr>
+        <td><strong>4</strong></td>
+        <td><a href="https://www.liquidlight.co.uk/blog/how-can-i-verify-my-google-event-tracking-is-working/">How can I verify my Google Event Tracking is working?</a></td>
+        <td>03/10/2017</td>
+    </tr>
+    <tr>
+        <td><strong>5</strong></td>
+        <td><a href="https://www.liquidlight.co.uk/blog/using-a-post-merge-git-hook-to-clean-up-old-branches/">Using a post-merge git hook to clean up old branches</a></td>
+        <td>28/03/2019</td>
+    </tr>
+    <tr>
+        <td><strong>6</strong></td>
+        <td><a href="https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-basic-workflow/">Git for Beginners: An Overview and Basic Workflow</a></td>
+        <td>10/03/2015</td>
+    </tr>
+    <tr>
+        <td><strong>7</strong></td>
+        <td><a href="https://www.liquidlight.co.uk/blog/navigation-drop-downs-should-they-be-hover-or-click/">Navigation drop-downs. Should they be hover or click?</a></td>
+        <td>24/07/2017</td>
+    </tr>
+    <tr>
+        <td><strong>8</strong></td>
+        <td><a href="https://www.liquidlight.co.uk/blog/why-were-not-dropping-slack-for-google-hangouts-chat-yet/">Why we're not dropping Slack for Google Hangouts Chat...yet.</a></td>
+        <td>15/03/2018</td>
+    </tr>
+    <tr>
+        <td><strong>9</strong></td>
+        <td><a href="https://www.liquidlight.co.uk/blog/creating-a-custom-mailchimp-template-with-layout-variations/">Creating a custom Mailchimp template with layout variations</a></td>
+        <td>04/05/2016</td>
+    </tr>
+    <tr>
+        <td><strong>10</strong></td>
+        <td><a href="https://www.liquidlight.co.uk/blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/">YouTube videos vs self-hosted: Which one is better for you?</a></td>
+        <td>25/01/2016</td>
+    </tr>
+</table>
+
+## Stats
+
+The stats, the facts, the figures.
+
+### Instagram
+
+How many posts did I do on my Instagram accounts this year?
+
+<table class="fixed">
+<tr><th></th><th><a href="https://www.instagram.com/mikestreety/">Personal</a></th><th><a href="https://www.instagram.com/ale_house_rock/">Ale House Rock</a></th></tr>
+<tr><td class="center"><strong>2019</strong></td><td class="center">29</td><td class="center">77</td></tr>
+<tr><td class="center"><strong>2018</strong></td><td class="center">24</td><td class="center">101</td></tr>
+<tr><td class="center"><strong>2017</strong></td><td class="center">39</td><td class="center">91</td></tr>
+</table>
+
+### Cycling
+
+As mentioned, my cycling struggled this year but I'm ok with that as it was for a good reason. In 2020 I'm going to try and get out more (and force myself to cycle in bad weather).
+
+<table class="fixed">
+
+<tr><th></th><th><strong>Distance</strong></th><th><strong>Time spent on rides</strong></th><th><strong>Elevation gain</strong></th><th><strong>Total number of rides</strong></th></tr>
+<tr><td class="center"><strong>2017</strong></td><td class="loser center">2,249.7 mi</td><td class="center">180h 16m</td><td class="winner center">134,459 ft</td><td class="center">443</td></tr>
+<tr><td class="center"><strong>2018</strong></td><td class="winner center">3,273.5 mi</td><td class="winner center">235h 24m</td><td class="center">112,178 ft</td><td class="center">291</td></tr>
+<tr><td class="center"><strong>2019</strong></td><td class="center">2,689.4 mi</td><td  class="loser center">178h 45m</td><td  class="loser center">46,368 ft</td><td class="center">288</td></tr></table>
+
+### Walking
+
+I've now exclusively switched to Garmin for my wearable, which doesn't track steps when I cycle so I've started this table again. Steps aren't really my thing though, so this is purely for record.
+
+<table class="fixed">
+<tr><th></th><th>Steps stepped</th><th>Floors climbed</th><th>Calories burned</th></tr>
+<tr><td class="center"><strong>2019</strong><td class="center">2,659,838</td><td class="center">4,583</td><td class="center">1,033,167</td></tr>
+</table>
+
+<style>
+.fixed {table-layout: fixed;}
+.fixed td {width: 100%;}
+</style>

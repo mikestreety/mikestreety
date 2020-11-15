@@ -1,0 +1,20 @@
+.footer {
+	color: var(--neutralDark);
+	margin-top: vaR(--gutterLarge);
+
+	.container {
+		font-size: 0.9rem;
+		position: relative;
+		padding: var(--gutter);
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 1.5rem;
+			right: 1.5rem;
+			height: 0.2rem;
+			background: linear-gradient(to right, var(--secondary), var(--primary), var(--primaryLight), var(--tertiary));
+		}
+	}
+}

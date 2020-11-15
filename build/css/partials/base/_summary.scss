@@ -1,0 +1,10 @@
+details {
+	margin-bottom: var(--gutter);
+	margin-top: var(--gutter);
+}
+summary {
+	padding: calc(var(--gutter) / 3) var(--gutter);
+	background: var(--primaryLighter);
+	font-weight: 700;
+	cursor: pointer;
+}

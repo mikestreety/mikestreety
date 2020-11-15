@@ -1,0 +1,31 @@
+.title {
+	font-family: 'Mikestreety', serif;
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 1.4rem;
+	a {
+		color: var(--base);
+		box-shadow: inset 0 -0.1em 0 0 var(--tertiary);
+
+		&:hover {
+			box-shadow: inset 0 -0.9em 0 0 var(--tertiaryLight);
+		}
+	}
+}
+
+
+
+.header {
+	position: relative;
+	z-index: 1;
+	margin-top: var(--gutter);
+	margin-bottom: var(--gutterLarge);
+
+	.container {
+		overflow: hidden;
+		padding: 0 var(--gutter);
+		text-align: left;
+		width: 100%;
+	}
+}

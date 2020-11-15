@@ -1,0 +1,54 @@
+.intro {
+	position: relative;
+
+	&::after {
+		content: '';
+		display: block;
+		width: 100%;
+	}
+}
+.introWrapper {
+	padding: 1.5rem;
+	max-width: var(--siteWidth);
+	align-items: flex-start;
+	margin: 0 auto var(--gutterLarge);
+	flex-direction: row-reverse;
+
+	@include mq($phone) {
+		display: flex;
+	}
+	img {
+		display: block;
+		border-radius: 50%;
+		border: 0.2rem solid var(--neutralMid);
+		width: 33.33%;
+		margin: 0 auto 1rem;
+		padding: 0.2rem;
+		height: auto;
+
+		@include mq($phone) {
+			margin-bottom: 0;
+		}
+	}
+
+	.introText {
+		@include mq($phone) {
+			margin-right: 1.5rem;
+		}
+
+		a {
+			font-weight: 800;
+		}
+	}
+
+	h1 {
+		margin-bottom: 0.5rem;
+	}
+	p {
+		font-size: 1.3rem;
+		line-height: 1.6;
+	}
+	p span {
+		line-height: 1.4;
+	}
+}

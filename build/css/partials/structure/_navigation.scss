@@ -1,0 +1,30 @@
+.menu {
+	margin-top: 0.5rem;
+	font-size: 1.1rem;
+	font-weight: 800;
+	ul,
+	li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	ul {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	li {
+		margin-right: var(--gutter);
+	}
+
+	a {
+		--color: var(--neutralDark);
+	}
+	li a.active {
+		--color: var(--base);
+	}
+}
+.header:hover a {
+	--color: var(--primary);
+}

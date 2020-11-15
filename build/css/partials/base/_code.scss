@@ -1,0 +1,36 @@
+code {
+	position: relative;
+	z-index: 1;
+	color: var(--primaryDarker);
+	display: inline-block;
+	padding: 0 0.3rem;
+	font-size: 0.9rem;
+}
+code::before {
+	content: '';
+	position: absolute;
+	bottom: 0.1em;
+	top: 0.1em;
+	left: 0;
+	right: 0;
+	background: var(--neutralLight);
+	z-index: -1;
+	border-radius: 0.2rem;
+}
+
+pre {
+	font-size: 0.9rem;
+}
+pre code {
+	color: var(--neutralLight);
+	display: block;
+	overflow-x: auto;
+	padding: 0;
+}
+pre code::before {
+	display: none;
+}
+
+pre[class*=language-] {
+	margin-bottom: var(--gutter);
+}

@@ -1,0 +1,33 @@
+.breadcrumb.meta {
+	text-align: left;
+	text-transform: none;
+	line-height: 1;
+	margin-bottom: 0.5rem;
+	border: none;
+
+	&:hover li a {
+		--color: var(--primary);
+	}
+}
+.breadcrumb.meta ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.breadcrumb.meta li {
+	display: inline-block;
+	margin-bottom: 0;
+
+	a {
+		--color: var(--neutralDark);
+		box-shadow: none;
+	}
+
+	&.isHidden {
+		display: none;
+	}
+}
+.breadcrumb.meta li + li::before {
+	content: '/';
+	padding: 0 0.5rem 0 0.4rem;
+}

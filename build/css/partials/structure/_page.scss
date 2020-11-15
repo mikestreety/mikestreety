@@ -1,0 +1,38 @@
+.container {
+	max-width: var(--siteWidth);
+	margin: 0 auto;
+	padding: 0 var(--gutter);
+
+	&.post-listing {
+		padding-top: 0;
+	}
+}
+.center {
+	text-align: center;
+}
+
+.section {
+	position: relative;
+	padding: var(--gutter) 0;
+	padding-top: 0.5rem;
+	min-height: 90vh;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.section > .container {
+	padding: var(--gutter);
+}
+.section::before {
+	content: '';
+	border-top: 0.5rem solid var(--neutralLight);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	display: block;
+	transition: border ease 0.3s;
+}

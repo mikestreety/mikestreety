@@ -1,0 +1,18 @@
+.search {
+	input[name="q"] {
+		flex-grow: 1;
+		border: 0.2rem solid currentColor;
+		transition: 0.3s ease border;
+		padding: 0.5rem;
+
+		&:focus {
+			border-color: var(--tertiary);
+			outline: none;
+		}
+	}
+	.button {
+		margin-top: 0;
+		float: right;
+		text-align: center;
+	}
+}

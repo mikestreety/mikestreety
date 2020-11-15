@@ -1,0 +1,78 @@
+---
+layout: default.njk
+pagination:
+  data: collections.blog
+  size: 5
+  reverse: true
+---
+
+<div class="intro">
+	<div class="introWrapper" class="h-card">
+		<img src="/assets/img/mike.jpg" width="300" height="300" class="u-photo" alt="Mike Street">
+		<div class="introText">
+			<h1 class="p-name">Mike Street</h1>
+			<div class="p-note">
+				<p>I am CTO and lead developer for Brighton-based web agency <a href="http://www.liquidlight.co.uk">Liquid Light</a>. I am a serial tinkerer, productivity hipster, procrastiner side-projectahoic and amateur phone photographer</p>
+			</div>
+			{% include 'social.njk' %}
+		</div>
+	</div>
+</div>
+
+<section class="post-listing">
+	<div class="container">
+		<h2>Latest Posts</h2>
+	</div>
+	<div class="horizonal-listing container">
+		<div class="post-listing">
+			<ul class="post-listing-full">
+			{%- for entry in pagination.items -%}
+				{% include 'entry.njk' %}
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<a href="/blog" class="button">View more blog posts</a>
+	</div>
+</section>
+{#
+<section class="post-listing">
+	<div class="container">
+		<h2>Notes</h2>
+	</div>
+	<div class="horizonal-listing container">
+		{% set pageEntries = craft.entries.section(['notes']).limit(5).all() %}
+		{% include 'snippets/_post-listing' %}
+	</div>
+	<div class="container">
+		<a href="/notes" class="button">View more notes</a>
+	</div>
+</section>
+
+<section class="post-listing">
+	<div class="container">
+		<h2>Projects</h2>
+	</div>
+	<div class="horizonal-listing container">
+		{% set pageEntries = craft.entries.section(['projects']).all() %}
+		<div class="post-listing">
+			<ul class="post-listing-full">
+				{% for entry in pageEntries %}
+				<li>
+					<article class="article {{ (entry.externalUrl) ? 'externalArticle' : '' }}">
+						<h3>
+							<a href="{{ entry.externalUrl }}">{{ entry.title }}</a>
+						</h3>
+
+						{{ entry.body }}
+
+						<p><strong><a href="{{ entry.externalUrl }}">Visit {{ entry.title }}</a></strong></p>
+					</article>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+#}

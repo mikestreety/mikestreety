@@ -39,12 +39,77 @@
 	<meta property="og:description" property="twitter:description" content="{{ description }}">
 
 	<link rel="stylesheet" href="/assets/css/style.css">
+
+	<script>
+	var _paq = _paq || [];
+	_paq.push(['trackPageView']);
+
+	_paq.push(['enableLinkTracking']);
+	_paq.push(['enableHeartBeatTimer', 30]);
+	_paq.push(['trackVisibleContentImpressions', true, 750]);
+
+	(function() {
+		var u="//analytics.mikestreety.co.uk/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', '1']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	})();
+
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker.register('/sw.js?1');
+	}
+	</script>
 </head>
 
 <body {% if bodyclass is defined %}class="{{ bodyclass }}"{% endif %}>
-	<main class="content">
-		{{ content | safe }}
-	</main>
+	<div class="page" itemscope itemtype="http://schema.org/WebSite">
+		<header class="header">
+			<div class="container">
+				<div class="title">
+					<a href="/">
+						{{ meta.site.title }}
+					</a>
+				</div>
+				<nav class="menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+					<meta itemprop="name" content="Navigation Menu">
+					{% set pages = collections.all | eleventyNavigation %}
+					<ul>
+					{%- for entry in pages %}
+						<li>
+							<a href="{{ entry.url | url }}" itemprop="url" {% if entry.url == page.url %}class="active"{% endif %}>{{ entry.title }}</a>
+						</li>
+					{%- endfor %}
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="content">
+			{{ content | safe }}
+		</main>
+		<footer class="footer">
+			<div class="container">
+				{% include 'social.njk' %}
+				<p><a class="h-card" rel="me" href="https://www.mikestreety.co.uk/">{{ meta.site.title }}</a>. <a href="/rss">RSS Feed</a>. </p>
+			</div>
+		</footer>
+	</div>
+	<link itemprop="url" href="https://www.mikestreety.co.uk/"/>
 	<script src="/assets/js/app.js"></script>
+	<script type="application/ld+json">
+	{
+		"@context" : "http://schema.org",
+		"@type" : "Person",
+		"name" : "Mike Street",
+		"url" : "http://www.mikestreety.co.uk",
+		"homeLocation": "Brighton",
+		"sameAs" : [
+			"https://twitter.com/mikestreety",
+			"https://www.instagram.com/mikestreety/"
+		]
+	}
+	</script>
+
 </body>
 </html>

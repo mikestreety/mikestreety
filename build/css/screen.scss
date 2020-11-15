@@ -1,11 +1,39 @@
-body {
-	padding: 2vw;
-	background: #f2f2f2;
-}
-h1 {
-	font-size: 2rem;
-	font-family: 'Times New Roman', Times, serif;
-	text-align: center;
-	background: #fff;
-	padding: 2vw;
-}
+@import './partials/lib/highlight';
+
+@import './partials/variables';
+@import './partials/normalize';
+
+@import './partials/base/document';
+@import './partials/base/fonts';
+
+@import './partials/base/button';
+@import './partials/base/code';
+@import './partials/base/divider';
+@import './partials/base/forms';
+@import './partials/base/headings';
+@import './partials/base/images';
+@import './partials/base/links';
+@import './partials/base/quotes';
+@import './partials/base/summary';
+@import './partials/base/svg';
+@import './partials/base/tables';
+@import './partials/base/typography';
+
+@import './partials/structure/footer';
+@import './partials/structure/header';
+@import './partials/structure/navigation';
+@import './partials/structure/page';
+
+@import './partials/components/breadcrumb';
+@import './partials/components/info';
+@import './partials/components/intro';
+@import './partials/components/listing';
+@import './partials/components/meta';
+@import './partials/components/note';
+@import './partials/components/pagination';
+@import './partials/components/post';
+@import './partials/components/search';
+@import './partials/components/social';
+@import './partials/components/video';
+
+@import './partials/components/overrides';

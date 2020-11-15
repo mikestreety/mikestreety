@@ -1,0 +1,13 @@
+.social {
+	margin: 0 0 var(--gutter);
+	padding: 0;
+	list-style: none;
+
+	li {
+		display: inline-block;
+	}
+	li + li {
+		padding-left: 1rem;
+	}
+
+}

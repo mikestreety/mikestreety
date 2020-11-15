@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $baseFont;
+	line-height: 1.7;
+	color: var(--base);
+
+	@include mq($desktop) {
+		font-size: 1.125rem;
+	}
+}

@@ -1,0 +1,47 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+	overflow: scroll;
+	display: block;
+	font-size: 0.95rem;
+	margin-bottom: var(--gutterLarge);
+	@include mq($phone) {
+		display: table;
+	}
+
+	th,
+	td {
+		padding: 0.5rem;
+		@include mq($phone) {
+			padding: 0.5rem 1rem;
+		}
+	}
+
+	tr:nth-child(even) td {
+		background: var(--neutralLight);
+	}
+
+	.winner {
+		background: #cdfde9;
+	}
+	tr:nth-child(even) .winner {
+		background: #ccf2df;
+	}
+
+	.loser {
+		background: #ffd8d6;
+	}
+	tr:nth-child(even) .loser {
+		background: #fdcfcd;
+	}
+
+	&.fixed {
+		table-layout: fixed;
+	}
+	&.fixed td {
+		width: 100%;
+	}
+}
+tbody {
+	width: 100%;
+}
