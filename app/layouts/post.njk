@@ -1,0 +1,36 @@
+---
+layout: default.njk
+---
+<div class="container">
+	<h1>{{ title }}</h1>
+
+	<div class="meta post-meta">
+		<time class="dt-published is-hidden">{{ published | isoDate }}</time>
+			Posted on <strong>{{ published | readableDate }}</strong>.
+	</div>
+
+	{{ content | safe }}
+
+	<div class="meta categories">
+		{% for tag in tags %}
+			{% include 'tag.njk' %}
+		{% endfor %}
+	</div>
+</div>
+<section class="post-listing">
+	<div class="container">
+		<h2>You might also enjoy</h2>
+	</div>
+	<div class="horizonal-listing container">
+		<div class="post-listing">
+			<ul class="post-listing-full">
+			{%- for entry in related -%}
+				{% include 'entry.njk' %}
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<a href="/blog" class="button">View more blog posts</a>
+	</div>
+</section>

@@ -3,23 +3,21 @@
 		<h3>
 			<a href="{{ entry.url }}">{{ entry.data.title }}</a>
 		</h3>
-{#
 		<p class="date">
-			<time class="dt-published is-hidden">{{ entry.dateUpdated.format('c') }}</time>
-			Posted on <strong>{{ entry.postDate.format('jS F Y') }}</strong>.
-			{% if entry.data.websiteName %}Written For <strong>{{ entry.data..websiteName }}</strong>{% endif %}
+			<time class="dt-published is-hidden">{{ entry.data.published | isoDate }}</time>
+			Posted on <strong>{{ entry.data.published | readableDate }}</strong>.
+			{% if entry.data.websiteName %}Written For <strong>{{ entry.data.websiteName }}</strong>{% endif %}
 		</p>
 
 		<p class="abstract">
-			{% set output = entry.body | replace({"&nbsp;": " "}) | striptags | raw | split(" ") | slice(0, 50) | join(" ") %}
-			{{ output }}&hellip;
+			{{ entry.data.intro }}
 		</p>
 
 		<div class="meta categories">
-			{% for category in craft.categories.relatedTo(entry).all() %}
-			<span><a href="{{ category.url }}">{{ category.title }}</a></span>
+			{% for tag in entry.data.tags %}
+				{% include 'tag.njk' %}
 			{% endfor %}
 		</div>
-#}
+
 	</article>
 </li>

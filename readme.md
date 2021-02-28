@@ -1,7 +1,9 @@
-1. `git clone`
-1. `rm -rf .git`
-1. `npm i`
-1. `npm run watch`
-1. edit `app/data/meta.json`
+# Mikestreety
 
-Favicon generator: https://realfavicongenerator.net/
+## Todo:
+
+### Importing
+
+- Make sure dates have the "padding"
+- Add intro for each blog post
+- dd canonical URL

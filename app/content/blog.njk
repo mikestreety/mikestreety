@@ -1,0 +1,31 @@
+---
+layout: page.njk
+eleventyNavigation:
+  key: Blog
+pagination:
+  data: collections.blog
+  size: 10
+  reverse: true
+  order: 2
+---
+
+<div class="post-listing">
+	<ul class="post-listing-full">
+	{% for entry in pagination.items %}
+		{% include 'entry.njk' %}
+	{% endfor %}
+	</ul>
+
+	<nav class="pagination">
+		{% if pagination.href.previous %}
+		<a class="button button-small" rel="prev" href="{{ pagination.href.previous }}">
+			Newer Posts
+		</a>
+		{% endif %}
+		{% if pagination.href.next %}
+		<a class="button button-small historical" rel="next" href="{{ pagination.href.next }}">
+			Older Posts
+		</a>
+		{% endif %}
+	</nav>
+</div>

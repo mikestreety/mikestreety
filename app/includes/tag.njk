@@ -1,0 +1,4 @@
+{% if tag !== 'blog' %}
+	{% set tagUrl %}/category/{{ tag | lower }}/{% endset %}
+	<span><a href="{{ tagUrl | url }}">{{ tag }}</a></span>
+{% endif %}
