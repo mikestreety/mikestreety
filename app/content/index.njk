@@ -2,11 +2,6 @@
 layout: default.njk
 eleventyNavigation:
   key: Home
-pagination:
-  data: collections.blog
-  size: 5
-  reverse: true
-  order: 1
 ---
 
 <div class="intro">
@@ -29,7 +24,8 @@ pagination:
 	<div class="horizonal-listing container">
 		<div class="post-listing">
 			<ul class="post-listing-full">
-			{%- for entry in pagination.items -%}
+			{% set postslist = collections.blog | limit(5) %}
+			{%- for entry in postslist -%}
 				{% include 'entry.njk' %}
 			{% endfor %}
 			</ul>
