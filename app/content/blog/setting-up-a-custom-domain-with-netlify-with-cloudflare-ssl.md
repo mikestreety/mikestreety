@@ -1,7 +1,7 @@
 ---
 title: Setting up a custom domain with Netlify with Cloudflare SSL
 date: 2021-01-14
-updated: 2021-01-14
+updated: 2021-03-02
 intro: In this post we are going to set up a custom domain in Netlify using Cloudflare. We will also install a self signed Cloudflare certificate on Netlify to ensure end-to-end encryption.
 tags:
  - Web
@@ -42,7 +42,7 @@ We are going to:
 1. If you get asked if your domain "already has an owner. Is it you?", proceed with **Yes, add domain**
 1. You'll be redirected back to the domains section, this time with your domain greyed out and an ⚠️ asking you to check your DNS configuration
 1. <strong class="warning-inline">Before you proceed</strong>, the easiest way to forward a domain from Cloudflare to Netlify is via a `CNAME` record. This will use the name of your current Netlify site, so make sure it is something you are happy with. You can change it at a later date, but it will save time if you do it now
-1. Set up the DNS record(s) desired in Cloudflare - the default would be to have one for the main domain and a second for the `www` subdomain. I tend to put a `CNAME` for the main domain (e.g. `viewthesource.dev`) pointing to the Netlify domain (`viewthesource.netlify.app`) and then the `www` subdomain as a `CNAME` to `viewthesource.dev` {% image 'Cloudflare DNS panel showing CNAME records', 'dns-records.png' %}
+1. Set up the DNS record(s) desired in Cloudflare - the default would be to have one for the main domain and a second for the `www` subdomain. I tend to put a `CNAME` for the main domain (e.g. `viewthesource.dev`) pointing to the Netlify domain (`viewthesource.netlify.app`) and then the `www` subdomain as a `CNAME` to `viewthesource.dev`
 1. Once the DNS records are set up, navigate to **SSL/TLS** and click **Origin Server**.
 1. Under the **Origin Certificates** section, if you haven't already, click **Create Certificate**. Leave the default settings and click **Next**
 1. In a new tab, open up the Netlify website and navigate to the **Domain Management** settings page and scroll down to **Provide your own certificate**
@@ -53,6 +53,8 @@ We are going to:
 1. Lastly, click **Install certificate**
 1. Once complete, you should see the details of the certificate displayed e.g: `Domains *.viewthesource.dev, viewthesource.dev, CloudFlare Origin Certificate`
 1. There may be a call to action to force HTTPS redirects in Netlify - click this as this ensures your site will always be served over `https`.
+
+<div class="info warning">If you use the Cloudflare auto-import function, it will "hard-code" some IP addresses for Netlify, which change as Netlify itself is a CDN. Make sure you use the CNAME records provided by Netlify</div>
 
 ## Conclusion
 

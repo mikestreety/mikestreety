@@ -3,8 +3,9 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 module.exports = function (config) {
 	// config.addFilter('date', require('./app/filters/date.js'));
 
-	config.addFilter('limit', require('./app/filters/limit.js'));
 	config.addFilter('isoDate', require('./app/filters/isoDate.js'));
+	config.addFilter('limit', require('./app/filters/limit.js'));
+	config.addFilter('oldPost', require('./app/filters/oldPost.js'));
 	config.addFilter('readableDate', require('./app/filters/readableDate.js'));
 
 
