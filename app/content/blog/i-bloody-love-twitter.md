@@ -2,6 +2,7 @@
 title: I bloody love twitter
 date: 2016-03-08
 updated: 2016-04-08
+intro: I bloody love twitter. It's great. Now, I'm not some twitter addict or nerd, well I am, but that's by the by. Some people just don't get twitter and its ...
 tags:
  - General
  - Thoughts

@@ -2,6 +2,7 @@
 title: Get an 'Even' Class
 date: 2016-03-08
 updated: 2016-06-17
+intro: This  PHP statement applies class="even" to every other element when in a loop. Since this post was originally created, CSS has somewhat evolved, allowing you to do div&#58;...
 tags:
  - Web
  - PHP

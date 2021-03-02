@@ -2,6 +2,7 @@
 title: A placeholder mixin - for Less and Scss
 date: 2016-03-07
 updated: 2016-04-09
+intro: I had a tricky predicament at work today - wanting to extend the boss framework with a placeholder styling attribute. After a lengthy twitter discussion with loads of people (most ...
 tags:
  - Web
  - CSS

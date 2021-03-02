@@ -2,6 +2,7 @@
 title: Geeks
 date: 2016-03-08
 updated: 2016-03-20
+intro: I feel geeks are somewhat underestimated in the continuum of time and space. But, in reality, they are amazing. I'm not ashamed to admit I'm a geek, I got an ...
 tags:
  - General
  - Thoughts

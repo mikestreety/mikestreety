@@ -2,6 +2,7 @@
 title: Redirect to one central domain - htaccess
 date: 2016-03-08
 updated: 2016-04-08
+intro: If you would like to 'redirect' all your users to a central domain (for example if you would like all users to browse your site with the www or you ...
 tags:
  - Web
 ---

@@ -2,6 +2,7 @@
 title: Fixing an IP address on a Raspberry Pi (and Debian in General)
 date: 2020-06-08
 updated: 2020-06-08
+intro: pi@raspberrypi&#58;~ $ ip a 1&#58; lo&#58; mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000 link/loopback 00&#58;00&#58;00&#58;00&#58;00&#58;00 brd 00&#58;00&#58;00&#58;00&#58;00&#58;00 inet 127.0.0.1/8 scope host lo valid_lft forever preferred_lft forever inet6 &#58;&#58;1/128 scope host valid_...
 draft: true
 ---
 

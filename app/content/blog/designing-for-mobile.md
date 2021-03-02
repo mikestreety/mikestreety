@@ -2,6 +2,7 @@
 title: Designing for Mobile
 date: 2016-03-08
 updated: 2016-04-08
+intro: Recently I was tasked to transform a full website into a stripped down mobile version for those visiting on their i-whatsits. Having never designed for mobile before, i set ...
 tags:
  - Web
  - Front-end Development

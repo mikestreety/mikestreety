@@ -20,14 +20,14 @@ https://support.plex.tv/hc/en-us/articles/235974187
 `sudo apt-get install plexmediaserver`
 http://192.168.0.2:32400/web/index.html
 
-VPN: 
+VPN:
 
 I use nordvpn
 sudo apt-get install openvpn openssl openresolv
 Follow these instructions: https://support.cyberghostvpn.com/hc/en-us/articles/213190009-How-to-configure-OpenVPN-for-Linux-Debian-Terminal- and https://nordvpn.com/tutorials/linux/openvpn/
 Created a folder somewhere
 Downloaded nord stuff
-Found and replaced: 
+Found and replaced:
 `perl -pi -w -e 's/auth-user-pass/auth-user-pass \/home\/vpn\/client\/NordVPN_cred.txt/g;' ./NordVPN/*.ovpn`
 
 
@@ -59,7 +59,7 @@ sudo service transmission-daemon start
 If you wish to run it as a different user:
 
 `sudo service transmission-daemon stop`
-`sudo vim /etc/init.d/transmission-daemon` - change user at the top 
+`sudo vim /etc/init.d/transmission-daemon` - change user at the top
 `sudo cp /etc/transmission-daemon/settings.json /var/lib/transmission-daemon/settings.json`
 `sudo rm /etc/transmission-daemon/settings.json`
 `sudo rm /var/lib/transmission-daemon/.config/transmission-daemon`

@@ -2,6 +2,7 @@
 title: My Media Centre Solution
 date: 2016-03-07
 updated: 2016-04-08
+intro: About a year ago, my nerdiness got upgraded. I purchased a second hand NAS. This sat behind my TV and stored my music and films and meant we could stream ...
 tags:
  - Geekery
  - Raspberry Pi

@@ -2,6 +2,7 @@
 title: Tidying up a git repo
 date: 2020-09-08
 updated: 2020-09-08
+intro: git clone --bare --mirror [path] du -h [folder] 10 largest commits ` git verify-pack -v objects/pack/[file].idx | sort -k 3 -n | tail -10 ` `git rev-list --objects --all | grep [hash]` - find ...
 draft: true
 ---
 

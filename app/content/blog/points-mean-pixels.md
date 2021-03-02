@@ -2,6 +2,7 @@
 title: Points mean Pixels
 date: 2016-03-08
 updated: 2016-04-08
+intro: Points. A simple, barely-a-conference conference. For ease of reading, this post will follow a traditional approach with a modern twist&#58; Who, What, How Much, Where, When, Speakers, Sponsors Why. ...
 tags:
  - Web
  - Events

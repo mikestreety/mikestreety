@@ -2,6 +2,7 @@
 title: Be a Better Road User
 date: 2016-03-07
 updated: 2016-04-09
+intro: Preface&#58; By writing this blog post I am no way saying that I am the best road user, but I believe I am more thoughtful than some The Blog Post&#58; ...
 tags:
  - General
  - Ramblings

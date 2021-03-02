@@ -2,7 +2,7 @@
 title: Rarely handy Git commands
 date: 2017-05-08
 updated: 2017-07-06
-intro: There are rare times when you need a slightly obscure git command. You spent several minutes googling, crafting and constructing your command only to run it once and not need it again for a while. This blog post will serve as my dumping ground for those odd commands I seldom need, but when I&nbsp;do I&nbsp;can then copy and paste. Feel free to get in touch with your favourite curve-ball command and I'll do my best to add it to the list!
+intro: There are rare times when you need a slightly obscure git command. You spent several minutes googling, crafting and constructing your command only to run it once and not need it again for a while. This blog post will serve as my dumping ground for those odd commands I seldom need, but when I do I can then copy and paste. Feel free to get in touch with your favourite curve-ball command and I'll do my best to add it to the list!
 tags:
  - Web
  - Command Line

@@ -2,6 +2,7 @@
 title: \"HD\" cheap action cam - you get what you pay for
 date: 2016-12-12
 updated: 2016-12-12
+intro: Recently, a friend and I purchased a cheap action camera from eBay (this link will probably expire). To give you a rundown in case it does, it was a ...
 tags:
  - Geekery
  - General

@@ -2,6 +2,7 @@
 title: Using PHP to get the dimensions of an image
 date: 2016-03-08
 updated: 2016-04-08
+intro: The following code will get the dimensions of an image&#58; &lt;?php list($width, $height, $type, $attr) = getimagesize(PATH_TO_IMAGE); I found this useful when using a lightbox to ...
 tags:
  - Web
  - PHP

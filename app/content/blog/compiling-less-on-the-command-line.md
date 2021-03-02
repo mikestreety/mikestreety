@@ -2,6 +2,7 @@
 title: Compiling Less on the Command Line
 date: 2016-03-07
 updated: 2016-04-09
+intro: We've recently changed the way we operate at Bozboz with regards to front-end development. We have been using LESS for a while now, but our process involved including the less....
 tags:
  - Web
  - Command Line

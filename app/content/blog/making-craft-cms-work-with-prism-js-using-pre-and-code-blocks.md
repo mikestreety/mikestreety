@@ -2,6 +2,7 @@
 title: Making Craft CMS work with Prism JS using pre and code blocks
 date: 2016-04-20
 updated: 2017-05-03
+intro: You may (or may not) have noticed that my site had a massive overhaul. With that overhaul, I changed CMS from Anchor to Craft. Anchor was great, but didn't ...
 tags:
  - Web
  - Javascript

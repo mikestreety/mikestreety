@@ -2,7 +2,7 @@
 title: Socket RSS - The Gleefreshing answer to your Doomscrolling habits
 date: 2021-02-20
 updated: 2021-02-23
-intro: I&nbsp;have recently made a side project called "Socket RSS".&nbsp;The idea is it becomes a place for Gleefreshing, not Doomscrolling.
+intro: I have recently made a side project called "Socket RSS". The idea is it becomes a place for Gleefreshing, not Doomscrolling.
 tags:
  - Web
  - General

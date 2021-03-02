@@ -2,6 +2,7 @@
 title: An Introduction to CSS Preprocessors
 date: 2017-06-22
 updated: 2017-06-22
+intro: Writing and updating CSS can be a repetitive, tedious and arduous task - especially for big projects. CSS preprocessors can help with that - amalgamating related styles and helping you ...
 tags:
  - Web
  - CSS

@@ -2,6 +2,7 @@
 title: Exporting entries from Craft and showing them in Eleventy
 date: 2020-10-12
 updated: 2020-10-13
+intro: - Export button in craft - Tidy up the output - Add as json - Loop through - Single view - - - - Download entries as CSV from craft - `"[0...
 draft: true
 ---
 

@@ -4,8 +4,8 @@
 			<a href="{{ entry.url }}">{{ entry.data.title }}</a>
 		</h3>
 		<p class="date">
-			<time class="dt-published is-hidden">{{ entry.data.published | isoDate }}</time>
-			Posted on <strong>{{ entry.data.published | readableDate }}</strong>.
+			<time class="dt-published is-hidden">{{ entry.date | isoDate }}</time>
+			Posted on <strong>{{ entry.date | readableDate }}</strong>.
 			{% if entry.data.websiteName %}Written For <strong>{{ entry.data.websiteName }}</strong>{% endif %}
 		</p>
 

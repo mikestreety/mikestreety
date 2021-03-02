@@ -2,6 +2,7 @@
 title: Domains - Pitfalls and Propagation
 date: 2016-03-08
 updated: 2016-04-08
+intro: Many a times I have dealt with various companies and agencies about pointing different domains at our servers - what shocked me is the basic level of understanding, most of ...
 tags:
  - Web
 ---

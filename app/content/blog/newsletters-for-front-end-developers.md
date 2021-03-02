@@ -2,6 +2,7 @@
 title: Newsletters for Front-end developers
 date: 2016-04-11
 updated: 2016-11-17
+intro: There is so much information on the web these days about development, that I often miss out on things on twitter. For that reason, I find HTML newsletters amazingly simple ...
 tags:
  - Web
  - Front-end Development

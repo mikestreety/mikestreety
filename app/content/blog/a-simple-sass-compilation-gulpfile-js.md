@@ -2,6 +2,7 @@
 title: A simple Sass compilation gulpfile.js
 date: 2016-03-07
 updated: 2019-03-27
+intro: This post is not about setting up gulp for the first time - as there are plenty of good blog posts out there explaining that. Instead, this is about getting ...
 tags:
  - Web
  - CSS

@@ -24,7 +24,7 @@ sitemapIgnore: true
 		<item>
 			<title>{{ entry.data.title }}</title>
 			<link>{{ siteUrl }}/{{ entry.url }}</link>
-			<pubDate>{{ entry.data.published | isoDate }}</pubDate>
+			<pubDate>{{ entry.date | isoDate }}</pubDate>
 			<guid>{{ siteUrl }}/{{ entry.url }}</guid>
 			<description><![CDATA[
 

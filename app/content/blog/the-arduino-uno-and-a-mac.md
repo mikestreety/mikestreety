@@ -2,6 +2,7 @@
 title: The Arduino Uno and a Mac
 date: 2016-03-07
 updated: 2016-04-09
+intro: I finally managed to get my hands on an Arduino board a couple of days ago and have been playing around with it this evening. Arduinos run one bit of ...
 tags:
  - Geekery
  - Arduino

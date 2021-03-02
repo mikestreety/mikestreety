@@ -2,6 +2,7 @@
 title: Music obsessions
 date: 2017-08-01
 updated: 2018-10-19
+intro: The table below details what I've been listening to, what I am listening to, or albums I've discovered. There is no shame in this list, these are things you'll catch ...
 tags:
  - General
  - Music

@@ -2,6 +2,7 @@
 title: Points Brighton - The Aftermath
 date: 2016-03-08
 updated: 2016-04-08
+intro: Last night was the second of my mini-conferences, Points Brighton. It featured speakers and keynotes of all different varieties, and the infamous Points Bazaar (the raffle) was, once more, a ...
 tags:
  - Web
  - Events

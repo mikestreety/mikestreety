@@ -2,6 +2,7 @@
 title: Mikestreety's New Clothes
 date: 2020-04-15
 updated: 2020-12-11
+intro: For regular readers, you will notice a fresh new face on the old dog (my first blog post that made the many migrations was from 2009!). This has been a long ...
 tags:
  - General
  - Ramblings

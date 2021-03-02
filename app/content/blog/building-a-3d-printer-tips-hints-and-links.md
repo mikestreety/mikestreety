@@ -2,6 +2,7 @@
 title: Building a 3D printer - tips, hints and links
 date: 2016-03-08
 updated: 2016-04-09
+intro: Recently a friend, Chris, and I have embarked on the journey of building our own 3D printer. This is something I hugely recommend if you are into that kind of ...
 tags:
  - Geekery
  - 3D Printer

@@ -2,6 +2,7 @@
 title: Raspberry Pi Timelapse
 date: 2016-03-07
 updated: 2016-04-09
+intro: I recently acquired a Raspberry Pi camera and the first thing I wanted to do was set up a timelapse. The brains behind this is a slight modification of the ...
 tags:
  - Geekery
  - Raspberry Pi

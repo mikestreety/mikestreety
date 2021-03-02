@@ -2,7 +2,7 @@
 title: Useful command line MySQL commands
 date: 2020-07-05
 updated: 2020-07-06
-intro: It seems I have been doing a lot of command line work on Debian with MySQL recently and have been having to search the internet (or my bash history) every time I&nbsp;need to do something. Here is a collection of commands I&nbsp;have been using
+intro: It seems I have been doing a lot of command line work on Debian with MySQL recently and have been having to search the internet (or my bash history) every time I need to do something. Here is a collection of commands I have been using
 tags:
  - Web
  - Command Line

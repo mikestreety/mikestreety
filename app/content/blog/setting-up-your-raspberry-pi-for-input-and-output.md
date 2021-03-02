@@ -2,6 +2,7 @@
 title: Setting Up Your Raspberry Pi for Input and Output
 date: 2016-03-07
 updated: 2016-10-20
+intro: Make sure you read the introduction to this series So you want the start hacking with your Raspberry Pi? There are a few things you need to do before you ...
 tags:
  - Geekery
  - Raspberry Pi

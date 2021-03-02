@@ -2,6 +2,7 @@
 title: #PHPFED - Includes
 date: 2016-03-08
 updated: 2016-06-17
+intro: Before you continue - make sure you understand the story. When developing static sites (i.e. sites without any sort of CMS - be it Wordpress, Drupal etc.) the ...
 tags:
  - Web
  - Front-end Development

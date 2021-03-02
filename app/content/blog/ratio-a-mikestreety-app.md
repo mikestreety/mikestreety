@@ -2,6 +2,7 @@
 title: ratio - a mikestreety app
 date: 2016-03-08
 updated: 2016-04-08
+intro: I've been cleaning up my sever space recently and found a few apps i've made that i may have tweeted about before, but aren't linked anywhere. So in the interest ...
 tags:
  - Web
  - Projects

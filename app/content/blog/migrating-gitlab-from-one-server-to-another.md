@@ -2,7 +2,7 @@
 title: How to migrate your Gitlab instance to a new server
 date: 2021-02-07
 updated: 2021-02-20
-intro: I&nbsp;recently migrated our Gitlab server install from one server to another. With the help of a few tutorials it was fairly painless, however I thought I&nbsp;would outline the steps here
+intro: I recently migrated our Gitlab server install from one server to another. With the help of a few tutorials it was fairly painless, however I thought I would outline the steps here
 tags:
  - Web
  - DevOps

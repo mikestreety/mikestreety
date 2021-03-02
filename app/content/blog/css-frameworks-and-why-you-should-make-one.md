@@ -2,6 +2,7 @@
 title: CSS Frameworks are like sex...
 date: 2016-04-25
 updated: 2016-06-20
+intro: Religion is like a penis [Original Source] Since I read it a couple of years ago, this quote has really stuck with me. With recent front-end twitter conversation turning to ...
 tags:
  - Web
  - CSS

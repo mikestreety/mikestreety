@@ -2,6 +2,7 @@
 title: Making a filming, photographing, auto-tweeting bot
 date: 2016-03-07
 updated: 2017-07-03
+intro: At Liquid Light, we often have hack days - a day where we down client work and hack something together for a day. Working on Kensington Street, the graffiti is ...
 tags:
  - Geekery
  - Raspberry Pi

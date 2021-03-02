@@ -2,6 +2,7 @@
 title: People are cyclists - a community hub
 date: 2017-07-26
 updated: 2017-07-26
+intro: I’m not sure if this is a thing or just a pipe-dream but bear with me. I want to create an unbiased service, a factual hub where cyclists and ...
 ---
 
 <p><em>I’m not sure if this is a thing or just a pipe-dream but bear with me.</em></p>

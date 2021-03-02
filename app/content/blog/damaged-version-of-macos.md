@@ -2,7 +2,7 @@
 title: Damaged version of macOS
 date: 2017-08-10
 updated: 2017-08-10
-intro: I was recently trying to install a copy of macOS from a USB stick I'd made and kept getting an error saying the OS was damaged. I created the stick using both the command line and the OSX Install Disk Creator and whatever I&nbsp;did I&nbsp;got the error.
+intro: I was recently trying to install a copy of macOS from a USB stick I'd made and kept getting an error saying the OS was damaged. I created the stick using both the command line and the OSX Install Disk Creator and whatever I did I got the error.
 tags:
  - Geekery
 ---

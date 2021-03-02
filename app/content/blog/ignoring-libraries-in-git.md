@@ -2,6 +2,7 @@
 title: Ignoring libraries in git
 date: 2016-03-07
 updated: 2016-06-17
+intro: Far too often recently I've noticed people committing libraries and packages to their main application (website) repository. If you use composer, bower, npm or any other dependency manager, then you ...
 tags:
  - Web
  - Command Line

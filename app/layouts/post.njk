@@ -5,8 +5,8 @@ layout: default.njk
 	<h1>{{ title }}</h1>
 
 	<div class="meta post-meta">
-		<time class="dt-published is-hidden">{{ published | isoDate }}</time>
-			Posted on <strong>{{ published | readableDate }}</strong>.
+		<time class="dt-published is-hidden">{{ date | isoDate }}</time>
+			Posted on <strong>{{ date | readableDate }}</strong>.
 	</div>
 
 	{{ content | safe }}

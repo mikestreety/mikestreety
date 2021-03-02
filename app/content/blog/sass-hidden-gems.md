@@ -2,6 +2,7 @@
 title: Sass - Hidden Gems
 date: 2016-03-08
 updated: 2016-04-08
+intro: I've recently been getting into pre-processors for CSS and I have been using LESS for sometime - getting to grips with the nesting and variables while keeping a library of ...
 tags:
  - Web
  - Front-end Development

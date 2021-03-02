@@ -2,6 +2,7 @@
 title: The Real World of Web Development
 date: 2019-07-31
 updated: 2019-11-11
+intro: I read "The Real Dark Web", a blog post from @sonniesedge and within a few paragraphs it really hit home. There are a few noisy web developers who are innovating, ...
 tags:
  - Web
  - General

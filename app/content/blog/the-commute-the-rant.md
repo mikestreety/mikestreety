@@ -2,6 +2,7 @@
 title: The Commute&#58; The Rant
 date: 2016-03-08
 updated: 2016-04-08
+intro: I’ve been commuting for nearly a year now. Proper commuting that is. Getting up at some unearthly hour to sit on a train for a bit. Living in a ...
 tags:
  - General
  - Thoughts
