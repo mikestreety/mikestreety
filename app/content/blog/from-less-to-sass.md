@@ -1,7 +1,7 @@
 ---
 title: From Less to Sass
-published: 2016-3-7
-updated: 2016-9-27
+date: 2016-03-07
+updated: 2016-09-27
 tags:
  - Web
  - CSS

@@ -1,7 +1,7 @@
 ---
 title: Raspberry Pi Timelapse
-published: 2016-3-7
-updated: 2016-4-9
+date: 2016-03-07
+updated: 2016-04-09
 tags:
  - Geekery
  - Raspberry Pi

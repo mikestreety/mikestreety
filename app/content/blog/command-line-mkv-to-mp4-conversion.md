@@ -1,7 +1,7 @@
 ---
 title: Command line MKV to mp4 conversion
-published: 2017-7-26
-updated: 2017-7-26
+date: 2017-07-26
+updated: 2017-07-26
 draft: true
 ---
 

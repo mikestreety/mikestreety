@@ -1,7 +1,7 @@
 ---
 title: Setting up Homebrew, NPM and Eleventy on a fresh mac
-published: 2020-10-5
-updated: 2020-10-5
+date: 2020-10-05
+updated: 2020-10-05
 intro: Walking through setting up Homebrew on your Mac, so you can install NPM and Eleventy.
 tags:
  - Web

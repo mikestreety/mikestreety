@@ -1,7 +1,7 @@
 ---
 title: Wordpress - Pulling An Archive
-published: 2016-3-7
-updated: 2020-4-15
+date: 2016-03-07
+updated: 2020-04-15
 tags:
  - Web
  - PHP

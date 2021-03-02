@@ -1,6 +1,6 @@
 ---
 title: Music obsessions
-published: 2017-8-1
+date: 2017-08-01
 updated: 2018-10-19
 tags:
  - General

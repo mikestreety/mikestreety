@@ -1,7 +1,7 @@
 ---
 title: Designing for Mobile
-published: 2016-3-8
-updated: 2016-4-8
+date: 2016-03-08
+updated: 2016-04-08
 tags:
  - Web
  - Front-end Development

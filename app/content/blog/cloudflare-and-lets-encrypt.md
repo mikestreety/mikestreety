@@ -1,7 +1,7 @@
 ---
 title: Generating a Lets Encrypt SSL certificate with Cloudflare
-published: 2020-4-11
-updated: 2020-7-7
+date: 2020-04-11
+updated: 2020-07-07
 draft: true
 ---
 

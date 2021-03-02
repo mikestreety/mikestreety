@@ -1,7 +1,7 @@
 ---
 title: Getting a Slack helper running with Netlify&#58; Part 2
-published: 2020-7-22
-updated: 2020-7-22
+date: 2020-07-22
+updated: 2020-07-22
 intro: Part 2 of the Slack status updater with Netlify. This walks through using dotenv and locking the function down to "local" use. There is also a crude UI that has been made
 tags:
  - Web

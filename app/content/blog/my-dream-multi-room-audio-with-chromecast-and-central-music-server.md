@@ -1,7 +1,7 @@
 ---
 title: My Dream&#58; Multi-room audio with Chromecast and central music server
-published: 2016-3-8
-updated: 2017-5-4
+date: 2016-03-08
+updated: 2017-05-04
 tags:
  - Geekery
  - General

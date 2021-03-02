@@ -1,7 +1,7 @@
 ---
 title: Linux Debian user commands
-published: 2019-6-20
-updated: 2019-7-23
+date: 2019-06-20
+updated: 2019-07-23
 intro: To save me Googling, I have collated all the user-related commands I often use - particularly useful when setting up a new VM!
 tags:
  - Web

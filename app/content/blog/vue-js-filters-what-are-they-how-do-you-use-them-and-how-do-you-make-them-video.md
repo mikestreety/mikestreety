@@ -1,7 +1,7 @@
 ---
 title: Filters in Vue.js&#58; What are they, how do you use them, and how do you make them? (video)
-published: 2017-11-8
-updated: 2018-1-4
+date: 2017-11-08
+updated: 2018-01-04
 intro: There are many ways to manipulate a value to make it user-friendly using Vue.js. In this tutorial, I show you how you can use Vue filters to alter the appearance of a variable without affecting its data.
 tags:
  - Web

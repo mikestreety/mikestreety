@@ -1,7 +1,7 @@
 ---
 title: Fixing an IP address on a Raspberry Pi (and Debian in General)
-published: 2020-6-8
-updated: 2020-6-8
+date: 2020-06-08
+updated: 2020-06-08
 draft: true
 ---
 

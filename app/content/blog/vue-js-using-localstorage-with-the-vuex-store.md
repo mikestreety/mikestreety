@@ -1,7 +1,7 @@
 ---
 title: Vue&#58; Using localStorage with Vuex store
-published: 2017-10-13
-updated: 2020-6-11
+date: 2017-10-13
+updated: 2020-06-11
 intro: Using the browser's localStorage we can create a Vue app which has its Vuex store cached. This allows the user to navigate away from the app and not lose their preferences.
 tags:
  - Web

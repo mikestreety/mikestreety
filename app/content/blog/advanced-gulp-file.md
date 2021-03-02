@@ -1,7 +1,7 @@
 ---
 title: Advanced Gulp File
-published: 2016-3-7
-updated: 2019-3-27
+date: 2016-03-07
+updated: 2019-03-27
 tags:
  - Web
  - Front-end Development

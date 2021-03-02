@@ -1,7 +1,7 @@
 ---
 title: Build your own \"share this\" component
-published: 2019-5-3
-updated: 2019-5-23
+date: 2019-05-03
+updated: 2019-05-23
 intro: Using a Share This plugin (or similar) or the native sharing widgets from social networks can really bloat your page and look ugly. This code is how we, at Liquid Light, implement social sharing widgets
 tags:
  - Web

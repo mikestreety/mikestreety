@@ -1,6 +1,6 @@
 ---
 title: Newsletters for Front-end developers
-published: 2016-4-11
+date: 2016-04-11
 updated: 2016-11-17
 tags:
  - Web

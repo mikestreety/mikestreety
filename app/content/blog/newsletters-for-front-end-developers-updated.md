@@ -1,7 +1,7 @@
 ---
 title: Newsletters for Front-end Developers - 2019 edition
-published: 2019-2-4
-updated: 2019-8-12
+date: 2019-02-04
+updated: 2019-08-12
 intro: Newsletters that I, as a front-end developer, have found extremely useful and insightful. This is a new list compared to the original from 2016!
 tags:
  - Web

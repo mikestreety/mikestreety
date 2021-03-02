@@ -1,6 +1,6 @@
 ---
 title: Uses
-published: 2018-8-13
+date: 2018-08-13
 updated: 2018-11-21
 intro: I've had a few questions regarding what apps I use with which themes and settings. This is an up-to-date blog post with the answers.
 tags:

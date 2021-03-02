@@ -1,7 +1,7 @@
 ---
 title: Making a filming, photographing, auto-tweeting bot
-published: 2016-3-7
-updated: 2017-7-3
+date: 2016-03-07
+updated: 2017-07-03
 tags:
  - Geekery
  - Raspberry Pi

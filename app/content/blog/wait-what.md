@@ -1,7 +1,7 @@
 ---
 title: Wait, What?
-published: 2016-3-7
-updated: 2016-4-8
+date: 2016-03-07
+updated: 2016-04-08
 tags:
  - General
  - Ramblings

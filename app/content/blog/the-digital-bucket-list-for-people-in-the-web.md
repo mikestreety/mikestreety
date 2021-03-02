@@ -1,7 +1,7 @@
 ---
 title: The Digital Bucket List for People in the Web
-published: 2017-6-14
-updated: 2017-7-3
+date: 2017-06-14
+updated: 2017-07-03
 intro: Last September I&nbsp;gave a talk at Bytes 2016, a mini-conference for people in the web about my digital bucket list for people who work with the internet.
 tags:
  - Web

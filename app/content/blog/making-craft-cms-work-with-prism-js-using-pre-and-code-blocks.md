@@ -1,7 +1,7 @@
 ---
 title: Making Craft CMS work with Prism JS using pre and code blocks
-published: 2016-4-20
-updated: 2017-5-3
+date: 2016-04-20
+updated: 2017-05-03
 tags:
  - Web
  - Javascript

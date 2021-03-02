@@ -1,7 +1,7 @@
 ---
 title: #PHPFED - Includes
-published: 2016-3-8
-updated: 2016-6-17
+date: 2016-03-08
+updated: 2016-06-17
 tags:
  - Web
  - Front-end Development

@@ -1,7 +1,7 @@
 ---
 title: Download files via command line
-published: 2016-3-8
-updated: 2016-7-8
+date: 2016-03-08
+updated: 2016-07-08
 tags:
  - Web
  - Command Line

@@ -1,10 +1,11 @@
 ---
 title: What are Cloud Functions, Cloudflare Workers and Serverless?
-published: 2020-2-26
-updated: 2020-2-26
+date: 2020-02-26
+updated: 2021-01-14
 intro: Serverless & Cloudflare workers have been cropping up a lot recently. I try to organise my thoughts into what they are and how you can use them
 tags:
  - Web
+ - DevOps
 ---
 
 *Disclaimer: I don't have a clue.*

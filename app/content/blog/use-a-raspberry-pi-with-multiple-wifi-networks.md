@@ -1,7 +1,7 @@
 ---
 title: Use a Raspberry Pi with multiple WiFi networks
-published: 2016-3-8
-updated: 2017-6-21
+date: 2016-03-08
+updated: 2017-06-21
 tags:
  - Geekery
  - Raspberry Pi

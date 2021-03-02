@@ -1,7 +1,7 @@
 ---
 title: How to use fetch in JavaScript to GET or POST data
-published: 2019-4-19
-updated: 2019-4-20
+date: 2019-04-19
+updated: 2019-04-20
 intro: Fetch is a fantastic JavaScript function which allows you to natively get and post data from the browser. This post includes some examples of how to use it.
 tags:
  - Web

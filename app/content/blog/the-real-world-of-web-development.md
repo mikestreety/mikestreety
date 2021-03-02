@@ -1,6 +1,6 @@
 ---
 title: The Real World of Web Development
-published: 2019-7-31
+date: 2019-07-31
 updated: 2019-11-11
 tags:
  - Web

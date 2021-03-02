@@ -1,7 +1,7 @@
 ---
 title: Getting started with Xen - setting up virtual machines
-published: 2019-6-20
-updated: 2019-6-24
+date: 2019-06-20
+updated: 2019-06-24
 intro: Xen is a basic but powerful package for linux which allows you to create virtual machines, A rival to Vagrant, Xen has less configuration (but is potentially less "agile")
 tags:
  - Web

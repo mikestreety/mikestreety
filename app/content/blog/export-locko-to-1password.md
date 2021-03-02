@@ -1,7 +1,7 @@
 ---
 title: Export Locko to 1Password
-published: 2016-3-7
-updated: 2020-6-16
+date: 2016-03-07
+updated: 2020-06-16
 intro: Getting your passwords out of Locko into something else can be tricky due to their unique export format. This post helps with&nbsp;PHP
 tags:
  - Web

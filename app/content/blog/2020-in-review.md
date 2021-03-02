@@ -1,0 +1,190 @@
+---
+title: 2020 In Review
+date: 2021-01-07
+updated: 2021-01-11
+intro: 2020 brought the first pandemic of my lifetime, but plenty of good things too
+tags:
+ - General
+ - Thoughts
+---
+
+2020 was an absolute bellend of a year. It will go down in history books and probably be taught in schools in years to come. 2021 isn’t going to be much better, but at least those that make New Year's resolutions are going to be able to be more realistic, as they have acclimatised themselves to this new normal.
+
+Word of warning: This post isn’t really going to be an interesting/gipping/thrilling post. It is a place for me to gather my thoughts after a year and allow myself somewhere to create something to look back upon to reminisce. Also as a side-note, the date of the post is the last day of 2020 for organisational sake but I am writing this a few days into January.
+
+## The pandemic
+
+2020 saw the eruption of the COVID-19 virus (Corona virus). What started in a faraway land at the beginning of the year, COVID soon spread across the globe and essentially shut the world down.
+
+March saw the first lockdown in the UK, which lasted longer than anyone anticipated, with a second lockdown following at the end of the year in December. There was a brief period over the summer where we could socialise, but even that felt odd.
+
+Birthdays and celebrations were had over video calls and, suddenly, everyone got familiar with the people they lived with and the spaces they lived in (and quickly learnt that you only needed to be presentable from the waist up).
+
+I miss going to the pub. Going to the pub with friends was something I used to relish and apparently didn’t appreciate fully until it was taken away from me. I feel like I’ve handled being without physical friendships quite well, but putting the worlds to right after a few beers just doesn’t seem the same over Zoom.
+
+## Liquid Light
+
+As with the rest of the world, we pivoted to working from home in March as swiftly as we could. I spent the week leading up to, and the week after, our decision to work from home trying to work out tech, logistics and infrastructure. The government announced you should work from home if you can which gave us time to sort ourselves out before a couple of days later, announcing a national lockdown.
+
+Liquid Light had always, traditionally, been an office-based business and setting up the technology to enable a whole workforce to work from home took a bit of co-ordination. One of the things required was to collect all the computers from work and drive them round to all our employees.
+
+When lockdown started, there was an initial drop in work as companies tightened their belts while heading into the unknown. Since then, business has picked up again as everyone gets used to the “new normal” and realised websites aren’t going anywhere.
+
+We had a front-end developer. Minna, start 3 days before we took the decision to work from home. It’s been interesting teaching remotely but it seems to have worked (certainly helps that Minna is so easy going and a quick learner) and hasn’t put us off working & onboarding from home in the future.
+
+We also took on a new backend-developer, Zaq, in December. He’s hit the ground running and already feels like one of the team. Again, remote onboarding (while not perfect) seems to have worked. I did spend a week in the office with him on his first week pointing at things on the screen in a pysical world, which felt weird.
+
+With regards to my personal professional progression, 2020 saw the 3 new directors (Myself, Owen and Matt) fully run the company, with the existing directors transitioning into more of a safety net role. It was good to finally step up and take charge and it was reassuring to get positive feedback in our end-of-year internal 360 reviews.
+
+## Side projects & writing
+
+2020 saw peaks and troughs with both blog post writing and side projects on my part.
+
+The year was a slow start but March & April saw plenty of blog posts appearing while I was initially stuck at home. The lockdown then started to wear me down a little, my output pretty much bottomed out and has stayed there. One of my goals for this year is to write more (this post doesn’t count…).
+
+With regards to side projects, [Behind the Source](https://www.behindthesource.co.uk/) was a success and went from inception to delivery in the first few months of 2020. I also re-wrote the backend of [email.subscribeto](https://email.subscribeto.at/) to be powered by Craft CMS. I’m still not that happy with it so it might get pulled apart again this year. With regards to new projects, I am working on an RSS SaaS app and some more blog posts/tutorials.
+
+## Appearances
+
+Despite the pandemic and lack of blog posts, 2020 did have a couple of firsts.
+
+It was the first time I was on a Podcast - [Make Life Work](https://makelifeworkpodcast.com/mike-street/) with Si Jobling talking about working from home during a lockdown and other things. I also gave my first virtual talk at [PHP Sussex](https://www.meetup.com/PHP-Sussex/events/269482580/). It was a more honed, practiced (and better quality) version than the one I [gave at Bytes Conf](https://www.youtube.com/watch?v=FnYL-QEoi68) many years ago.
+
+I'm hoping 2021 contains a few more podcast appearances, now I am at home and able to record them on my lunch break in silence.
+
+## House and Family
+
+With working from home the new norm (and an impending expansion to our family), my wife and I took the decision to have an office built in the garden for me. Its a great little space to focus on work (and get out the way of being inside the house). My "commute" to work now involves walking down the garden and thinking about decking. We weren’t ready to move (we considered it) as we had only just felt like we were settled after having a new kitchen (which we [only got in 2019](https://www.mikestreety.co.uk/blog/2019-in-review)).
+
+Lockdown also saw the start of Alfie walking and talking properly. He is now an unstoppable chatting machine. It’s so much better now he can express his wants and desires (even if we don’t always grant them) rather than the grunting he had developed. This was one of the silver linings to the cloud of the pandemic - being at home to watch him take his first steps and for him to be there when I make a cup of tea. He is now showing off with his talking - counting up to 20 (sometimes 30 with a couple of prompts) and knowing all the letters of the alphabet.
+
+## Interests
+
+Despite being at home more, my cycling dwindled. The cycling "club" I co-founded ran a couple of events with set routes you rode solo and then compared times. This gave me targets of places to go, but as everyone lived in Brighton the routes were very much geared towards starting and finishing there - I live a 10 mile bike ride from most starts, so it meant additional mileage (and more importantly time) which I didn't always have.
+
+We did, however, go on plenty more walks. All you were allowed to do is exercise and, with everywhere closed, walking the streets is all we could do. Again, despite this, my annual step count was down (more on that later...).
+
+In terms of what piqued my interest digitally, it mainly revolved around sparks created from requests at work. I now understand serverless workers thanks to Syntax FM and some work I did for Liquid Light. This started on Cloudflare workers but has expanded into Netlify functions as well. I have also deployed (and have running) a couple of sites on Netlify, including a statically generated 11ty site (Behind the Source) - which I'm super proud of.
+
+I am also much more familiar and comfortable with writing and structuring PHP. I've been working a lot on the TYPO3 backend (plus writing my own RSS app and Craft CMS to 11ty converter).
+
+## Stats
+
+Each year I gather and reflect on various stats such as steps, miles cycled and blog post popularity.
+
+### Blog Posts
+
+The most popular posts on [mikestreety.co.uk](https://www.mikestreety.co.uk/) for 2020:
+
+Interesting number 7 has stayed at 7 for 2 years running. No surprise the rest of the top 10 have remained the same due to my low blog post output this year.
+
+<table>
+<tr><td><strong>1</strong></td><td> - </td><td><a href="https://www.mikestreety.co.uk/blog/vue-js-using-localstorage-with-the-vuex-store">Vue: Using localStorage with Vuex store</a></td><td>13/10/17</td></tr>
+<tr><td><strong>2</strong></td><td><small>New!<small></td><td><a href="https://www.mikestreety.co.uk/blog/how-to-use-fetch-in-javascript-to-get-or-post-data">How to use fetch in JavaScript to GET or POST data</a></td><td>20/4/19</td></tr>
+<tr><td><strong>3</strong></td><td><small>New!<small></td><td><a href="https://www.mikestreety.co.uk/blog/the-git-commit-hash">The Git Commit Hash</a></td><td>28/5/20</td></tr>
+<tr><td><strong>4</strong></td><td class="loser">↓ 2</td><td><a href="https://www.mikestreety.co.uk/blog/multiple-transition-delay">Multiple transition delays</a></td><td>03/05/17</td></tr>
+<tr><td><strong>5</strong></td><td class="loser">↓ 2</td><td><a href="https://www.mikestreety.co.uk/blog/github-for-pc-and-setting-up-a-local-testing-environment">Github for PC and setting up a local testing environment</a></td><td>05/05/12</td></tr>
+<tr><td><strong>6</strong></td><td class="loser">↓ 1</td><td><a href="https://www.mikestreety.co.uk/blog/use-a-raspberry-pi-with-multiple-wifi-networks">Use a Raspberry Pi with multiple WiFi networks</a></td><td>11/10/15</td></tr>
+<tr><td><strong>7</strong></td><td> - </td><td><a href="https://www.mikestreety.co.uk/blog/vue-js-filters-what-are-they-how-do-you-use-them-and-how-do-you-make-them-video">Filters in Vue.js: What are they, how do you use them, and how do you make them?</a></td><td>08/11/17</td></tr>
+<tr><td><strong>8</strong></td><td class="loser">↓ 4</td><td><a href="https://www.mikestreety.co.uk/blog/get-background-image-information-if-element-has-a-one-in-jquery">Get background image information if element has a one in jQuery</a></td><td>04/03/16</td></tr>
+<tr><td><strong>9</strong></td><td class="loser">↓ 1</td><td><a href="https://www.mikestreety.co.uk/blog/filtering-tables">Filtering Tables</a></td><td>12/02/15</td></tr>
+<tr><td><strong>10</strong></td><td><small>New!<small></td><td><a href="https://www.mikestreety.co.uk/blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path">Using Cloudflare Workers to set a cookie based on a GET parameter or path</a></td><td>5/3/20</td></tr>
+</table>
+
+
+### Liquid Light
+
+And what about the posts on [Liquid Light](https://www.liquidlight.co.uk/blog/author/mike-street/)?
+
+The top 10 stayed exactly the same with just a couple of shuffles. I should really write some more posts all round!
+
+<table>
+    <tr>
+        <td><strong>1</strong></td><td> - </td>
+        <td><a href="https://www.liquidlight.co.uk/blog/how-do-i-update-to-gulp-4/">How do I update to Gulp 4?</a></td>
+        <td>22/03/2016</td>
+    </tr>
+    <tr>
+        <td><strong>2</strong></td><td class="winner">↑ 1</td>
+        <td><a href="https://www.liquidlight.co.uk/blog/using-vue-js-with-a-lumen-powered-api/">Using Vue.js with a Lumen powered API</a></td>
+        <td>18/10/2018</td>
+    </tr>
+    <tr>
+        <td><strong>3</strong></td><td class="winner">↑ 1</td>
+        <td><a href="https://www.liquidlight.co.uk/blog/how-can-i-verify-my-google-event-tracking-is-working/">How can I verify my Google Event Tracking is working?</a></td>
+        <td>03/10/2017</td>
+    </tr>
+    <tr>
+        <td><strong>4</strong></td><td class="winner">↑ 1</td>
+        <td><a href="https://www.liquidlight.co.uk/blog/using-a-post-merge-git-hook-to-clean-up-old-branches/">Using a post-merge git hook to clean up old branches</a></td>
+        <td>28/03/2019</td>
+    </tr>
+    <tr>
+        <td><strong>5</strong></td><td class="loser">↓ 3</td>
+        <td><a href="https://www.liquidlight.co.uk/blog/raspberry-pi-what-is-it-and-why-do-i-need-one/">Raspberry Pi: what is it and why do i need one?</a></td>
+        <td>15/02/2016</td>
+    </tr>
+    <tr>
+        <td><strong>6</strong></td><td> - </td>
+        <td><a href="https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-basic-workflow/">Git for Beginners: An Overview and Basic Workflow</a></td>
+        <td>10/03/2015</td>
+    </tr>
+    <tr>
+        <td><strong>7</strong></td><td> - </td>
+        <td><a href="https://www.liquidlight.co.uk/blog/navigation-drop-downs-should-they-be-hover-or-click/">Navigation drop-downs. Should they be hover or click?</a></td>
+        <td>24/07/2017</td>
+    </tr>
+    <tr>
+        <td><strong>8</strong></td><td class="winner">↑ 1</td>
+        <td><a href="https://www.liquidlight.co.uk/blog/creating-a-custom-mailchimp-template-with-layout-variations/">Creating a custom Mailchimp template with layout variations</a></td>
+        <td>04/05/2016</td>
+    </tr>
+    <tr>
+        <td><strong>9</strong></td><td class="loser">↓ 1</td>
+        <td><a href="https://www.liquidlight.co.uk/blog/why-were-not-dropping-slack-for-google-hangouts-chat-yet/">Why we're not dropping Slack for Google Hangouts Chat...yet.</a></td>
+        <td>15/03/2018</td>
+    </tr>
+    <tr>
+        <td><strong>10</strong></td><td> - </td>
+        <td><a href="https://www.liquidlight.co.uk/blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/">YouTube videos vs self-hosted: Which one is better for you?</a></td>
+        <td>25/01/2016</td>
+    </tr>
+</table>
+
+
+
+### Instagram
+
+It's no surprise with plenty of lockdowns and lack of socialising (and going places) that my personal instagram suffered and my beer review account thrived
+
+<table class="fixed">
+<tr><th></th><th><a href="https://www.instagram.com/mikestreety/">Personal</a></th><th><a href="https://www.instagram.com/ale_house_rock/">Ale House Rock</a></th></tr>
+<tr><td class="center"><strong>2017</strong></td><td class="center">39</td><td class="center">91</td></tr>
+<tr><td class="center"><strong>2018</strong></td><td class="center">24</td><td class="center">101</td></tr>
+<tr><td class="center"><strong>2019</strong></td><td class="center">29</td><td class="center">77</td></tr>
+<tr><td class="center"><strong>2020</strong></td><td class="center">6</td><td class="center">138</td></tr>
+</table>
+
+### Cycling
+
+As mentioned at the beginning, my cycling dropped a lot over 2020. With working from home the regular 60-100 miles a week I was doing while commuting disappeared, so it is no surprise all the stats are down (makes it easier to beat in 2021 though :wink:).
+
+Interesting that, because the rides I did in 2020 were _rides_ and not flat commutes, the elevation gain is much higher this year!
+
+<table class="fixed">
+<tr><th></th><th><strong>Distance</strong></th><th><strong>Time spent on rides</strong></th><th><strong>Elevation gain</strong></th><th><strong>Total number of rides</strong></th></tr>
+<tr><td class="center"><strong>2017</strong></td><td class="loser center">2,249.7 mi</td><td class="center">180h 16m</td><td class="winner center">134,459 ft</td><td class="center">443</td></tr>
+<tr><td class="center"><strong>2018</strong></td><td class="winner center">3,273.5 mi</td><td class="winner center">235h 24m</td><td class="center">112,178 ft</td><td class="center">291</td></tr>
+<tr><td class="center"><strong>2019</strong></td><td class="loser center">2,689.4 mi</td><td  class="loser center">178h 45m</td><td  class="loser center">46,368 ft</td><td class="center">288</td></tr>
+<tr><td class="center"><strong>2020</strong></td><td class="loser center">1,927.3 mi</td><td  class="loser center">132h 56m</td><td  class="winner center">69,400 ft</td><td class="center">	149</td></tr>
+</table>
+
+### Walking
+
+Once again, there is no surprise all the walking stats are lower
+
+<table class="fixed">
+<tr><th></th><th>Steps stepped</th><th>Floors climbed</th><th>Calories burned</th></tr>
+<tr><td class="center"><strong>2019</strong><td class="center">2,659,838</td><td class="center">4,583</td><td class="center">1,033,167</td></tr>
+<tr><td class="center"><strong>2020</strong><td class="center loser">2,126,312</td><td class="center loser">2,690</td><td class="center loser">1,020,728</td></tr>
+</table>

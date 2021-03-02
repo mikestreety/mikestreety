@@ -1,7 +1,7 @@
 ---
 title: CSS Custom Properties - everyday applications
-published: 2017-4-26
-updated: 2017-6-7
+date: 2017-04-26
+updated: 2017-06-07
 intro: CSS&nbsp;Custom properties are now supported in Edge, meaning you can use them nearly everywhere. However, there are some cases where further browser support is required. Using PostCSS we can use CSS&nbsp;custom properties in development while still maintaining cross browser support.
 tags:
  - Web

@@ -1,6 +1,6 @@
 ---
 title: \"HD\" cheap action cam - you get what you pay for
-published: 2016-12-12
+date: 2016-12-12
 updated: 2016-12-12
 tags:
  - Geekery

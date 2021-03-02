@@ -1,7 +1,7 @@
 ---
 title: Creating a home server to run plex and vpn
-published: 2017-7-19
-updated: 2017-8-9
+date: 2017-07-19
+updated: 2017-08-09
 draft: true
 ---
 

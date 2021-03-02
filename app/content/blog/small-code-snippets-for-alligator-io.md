@@ -1,7 +1,7 @@
 ---
 title: Small code snippets for Alligator.io
-published: 2016-5-4
-updated: 2016-5-4
+date: 2016-05-04
+updated: 2016-05-04
 tags:
  - Web
  - Front-end Development

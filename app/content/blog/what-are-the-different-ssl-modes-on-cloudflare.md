@@ -1,10 +1,11 @@
 ---
 title: What are the different SSL modes on Cloudflare?
-published: 2020-4-17
-updated: 2020-4-20
+date: 2020-04-17
+updated: 2021-01-14
 intro: Cloudflare has a few different options when it comes to selecting which TLS/SSL mode you should choose.
 tags:
  - Web
+ - DevOps
 ---
 
 Cloudflare offers free SSL certificates as part of its service, even on the free tier. There are 4 options when in the SSL/TLS section of Cloudflare and, depending on the selected option, will determine which port your server will be required to serve traffic. By default on any web server (unless specifically changed otherwise):

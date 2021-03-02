@@ -1,7 +1,7 @@
 ---
 title: Xbox One vs PlayStation 4
-published: 2018-10-19
-updated: 2019-4-8
+date: 2018-10-19
+updated: 2019-04-08
 intro: I recently sold my Xbox One S and bout a PlayStation 4 Pro. Why did I do this and what are the differences? This post outlines my thoughts from an "everyday consumer".
 tags:
  - General

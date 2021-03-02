@@ -1,7 +1,7 @@
 ---
 title: People are cyclists - a community hub
-published: 2017-7-26
-updated: 2017-7-26
+date: 2017-07-26
+updated: 2017-07-26
 ---
 
 <p><em>I’m not sure if this is a thing or just a pipe-dream but bear with me.</em></p>

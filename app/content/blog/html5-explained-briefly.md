@@ -1,7 +1,7 @@
 ---
 title: HTML5 - Explained. Briefly
-published: 2016-3-8
-updated: 2019-3-27
+date: 2016-03-08
+updated: 2019-03-27
 tags:
  - Web
  - Front-end Development

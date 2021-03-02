@@ -1,7 +1,7 @@
 ---
 title: Change ownership of all folders and subfolders or files
-published: 2017-7-25
-updated: 2017-9-5
+date: 2017-07-25
+updated: 2017-09-05
 intro: Changing permissions on files and folders can be tedious, so why not do it in one fell swoop?
 tags:
  - Web

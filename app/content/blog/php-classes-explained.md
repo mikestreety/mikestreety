@@ -1,7 +1,7 @@
 ---
 title: PHP Classes - Explained
-published: 2016-3-7
-updated: 2017-5-3
+date: 2016-03-07
+updated: 2017-05-03
 tags:
  - Web
  - PHP

@@ -1,7 +1,7 @@
 ---
 title: Ignoring libraries in git
-published: 2016-3-7
-updated: 2016-6-17
+date: 2016-03-07
+updated: 2016-06-17
 tags:
  - Web
  - Command Line

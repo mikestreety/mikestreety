@@ -1,7 +1,7 @@
 ---
 title: Getting a Slack helper running with Netlify&#58; Part 1
-published: 2020-7-20
-updated: 2020-7-22
+date: 2020-07-20
+updated: 2020-07-22
 intro: So I'm a bit of a dinosaur when it comes to web stacks - I'm all about LAMP (Linux, Apache, MySQL, PHP). I had an idea for a small little web app and thought it would be the perfect opportunity to give Netlify a go.
 tags:
  - Web

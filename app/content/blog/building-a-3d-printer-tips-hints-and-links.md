@@ -1,7 +1,7 @@
 ---
 title: Building a 3D printer - tips, hints and links
-published: 2016-3-8
-updated: 2016-4-9
+date: 2016-03-08
+updated: 2016-04-09
 tags:
  - Geekery
  - 3D Printer

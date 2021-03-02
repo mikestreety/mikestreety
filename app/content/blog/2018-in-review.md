@@ -1,7 +1,7 @@
 ---
 title: 2018 in review
-published: 2019-1-8
-updated: 2020-1-20
+date: 2019-01-08
+updated: 2020-01-20
 intro: 2018 was a big year for me, in all sorts of ways. This blog post summarises one of the most life-changing years of my life.
 tags:
  - General

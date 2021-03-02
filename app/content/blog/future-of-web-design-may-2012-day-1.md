@@ -1,7 +1,7 @@
 ---
 title: Future of Web Design - May 2012 - Day 1
-published: 2016-3-8
-updated: 2016-4-8
+date: 2016-03-08
+updated: 2016-04-08
 tags:
  - General
  - Thoughts

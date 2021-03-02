@@ -4,6 +4,8 @@
 
 ### Importing
 
-- Make sure dates have the "padding"
 - Add intro for each blog post
-- dd canonical URL
+- change "published" to "date"
+- add `draft: true` for draft posts
+
+- add canonical URL for external posts

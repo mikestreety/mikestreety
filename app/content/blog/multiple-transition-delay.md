@@ -1,7 +1,7 @@
 ---
 title: Multiple transition delays
-published: 2017-5-3
-updated: 2017-5-3
+date: 2017-05-03
+updated: 2017-05-03
 intro: Being able to animate with CSS transitions is great, although there are a few gotchas when using them. This one with transition-delay had me scratching my head for a while.
 tags:
  - Web

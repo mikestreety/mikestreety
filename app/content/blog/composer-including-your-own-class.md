@@ -1,7 +1,7 @@
 ---
 title: Composer - creating a private package to include your own PHP class
-published: 2019-7-16
-updated: 2020-9-15
+date: 2019-07-16
+updated: 2020-09-15
 tags:
  - Web
  - PHP

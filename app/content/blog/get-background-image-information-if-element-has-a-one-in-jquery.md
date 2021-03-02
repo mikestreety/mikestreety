@@ -1,7 +1,7 @@
 ---
 title: Get background image information if element has a one in jQuery
-published: 2016-3-8
-updated: 2016-4-9
+date: 2016-03-08
+updated: 2016-04-09
 tags:
  - Web
  - Javascript

@@ -1,7 +1,7 @@
 ---
 title: Setting up Tiny Tiny RSS to collate feeds
-published: 2020-4-15
-updated: 2020-6-12
+date: 2020-04-15
+updated: 2020-06-12
 intro: I set up Tiny Tiny RSS as a self-hosted feed reader, but it wasn't clear how get the application to fetch RSS feeds in the background. This blog post gives a walkthrough
 tags:
  - Web

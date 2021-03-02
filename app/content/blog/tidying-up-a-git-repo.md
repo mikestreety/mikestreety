@@ -1,7 +1,7 @@
 ---
 title: Tidying up a git repo
-published: 2020-9-8
-updated: 2020-9-8
+date: 2020-09-08
+updated: 2020-09-08
 draft: true
 ---
 

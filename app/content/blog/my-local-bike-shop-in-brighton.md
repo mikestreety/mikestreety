@@ -1,7 +1,7 @@
 ---
 title: My Local Bike Shop in Brighton
-published: 2016-3-7
-updated: 2016-4-9
+date: 2016-03-07
+updated: 2016-04-09
 tags:
  - Cycling
 ---

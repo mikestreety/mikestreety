@@ -1,7 +1,7 @@
 ---
 title: Git tab autocomplete
-published: 2018-1-24
-updated: 2018-1-24
+date: 2018-01-24
+updated: 2018-01-24
 intro: A quick tip on how to enable git autocompletion on the command line
 tags:
  - Web

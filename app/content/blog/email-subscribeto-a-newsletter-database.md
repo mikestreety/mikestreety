@@ -1,6 +1,6 @@
 ---
 title: email.subscribeto - a newsletter database
-published: 2019-8-22
+date: 2019-08-22
 updated: 2019-11-13
 intro: I've always been keen to discover new newsletters and have always kept my eye out for recommendations. I decided to collate these recommendations and build a directory.
 tags:

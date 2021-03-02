@@ -1,7 +1,7 @@
 ---
 title: Hovélo - a new Hove-based cycling group
-published: 2016-3-7
-updated: 2019-4-8
+date: 2016-03-07
+updated: 2019-04-08
 tags:
  - Cycling
 ---

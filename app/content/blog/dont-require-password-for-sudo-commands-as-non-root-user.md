@@ -1,7 +1,7 @@
 ---
 title: Don't require password for sudo commands as non-root user
-published: 2017-7-24
-updated: 2017-7-24
+date: 2017-07-24
+updated: 2017-07-24
 intro: Sometimes you don't want to have to enter your password every time you run a sudo command - this blog post walks you through disabling that.
 tags:
  - Web

@@ -1,7 +1,7 @@
 ---
 title: Set up a new Virtual Private Server (VPS)
-published: 2016-10-23
-updated: 2019-7-25
+date: 2016-10-23
+updated: 2019-07-25
 intro: How to set up a new VPS with all the expected features and functionality
 tags:
  - Web

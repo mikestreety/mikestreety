@@ -1,6 +1,6 @@
 ---
 title: Find and remove vendor prefixes in your CSS using Regex
-published: 2016-11-17
+date: 2016-11-17
 updated: 2016-11-24
 intro: I recently set out to remove all of the vendor prefixes from the CSS for all of our clients at work. This is because we use Gulp with Autoprefixer - which means we have up-to-date prefixes and cleaner SCSS. One way of doing this would be to open every CSS file, search for `-moz`, then search for `-webkit` etc. Some of the CSS I was searching through is well over 5 years old and is rife with vendor prefixes.
 tags:

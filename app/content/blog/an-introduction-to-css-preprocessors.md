@@ -1,7 +1,7 @@
 ---
 title: An Introduction to CSS Preprocessors
-published: 2017-6-22
-updated: 2017-6-22
+date: 2017-06-22
+updated: 2017-06-22
 tags:
  - Web
  - CSS

@@ -1,7 +1,7 @@
 ---
 title: Restoring a bricked/broken Unifi CloudKey/Unifi Controller
-published: 2019-12-1
-updated: 2019-12-1
+date: 2019-12-01
+updated: 2019-12-01
 draft: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Introduction to Vuex Part 2 - implementation (video)
-published: 2017-12-18
-updated: 2018-2-22
+date: 2017-12-18
+updated: 2018-02-22
 intro: In the second part of this series, we cover implementing a Vuex Store into a Vue.js application
 tags:
  - Web

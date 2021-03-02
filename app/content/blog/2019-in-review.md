@@ -1,7 +1,7 @@
 ---
 title: 2019 In Review
-published: 2020-1-6
-updated: 2020-1-27
+date: 2020-01-06
+updated: 2020-01-27
 intro: 2019 was a strange year, new kitchen, bathroom car and bike. But overall it was good. I enjoyed it.
 tags:
  - General
