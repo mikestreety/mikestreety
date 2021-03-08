@@ -1,6 +1,6 @@
 ---
 title: The cleanest way of handling user authentication with Nuxt.js
-date: 2021-01-25
+date: 2021-04-05
 updated: 2021-02-21
 intro: Rather than client-side user authentication, this blog post works through how to catch a user authentication error with Nuxt
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Raspberry Pi&#58; what is it and why do i need one?
-date: 2016-03-08
+date: 2016-02-15
 updated: 2019-03-27
 intro: The Raspberry Pi is a credit card sized computer which has taken the technical world by storm. Originally developed to encourage children and schools to get into programming - the ...
 canonical: https://www.liquidlight.co.uk/blog/raspberry-pi-what-is-it-and-why-do-i-need-one/

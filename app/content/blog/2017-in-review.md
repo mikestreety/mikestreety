@@ -1,6 +1,6 @@
 ---
 title: 2017 in review
-date: 2018-01-11
+date: 2017-12-31
 updated: 2020-01-20
 intro: It seems to be the done thing to do a "year in review" post. I initially scoffed at the idea, but the more I thought about it, the more I thought about how keeping track of accomplishments can be a little encouragement and ego boost. So here goes!
 tags:

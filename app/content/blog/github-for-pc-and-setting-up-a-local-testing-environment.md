@@ -1,6 +1,6 @@
 ---
 title: Github for PC and setting up a local testing environment
-date: 2016-03-08
+date: 2012-05-05
 updated: 2019-03-27
 intro: Update&#58; Although this blog says it was updated in 2019, the only change I have done is to remove the missing images. This blog post is most likely out of date....
 tags:

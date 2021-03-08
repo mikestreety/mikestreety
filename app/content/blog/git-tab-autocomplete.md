@@ -1,6 +1,6 @@
 ---
 title: Git tab autocomplete
-date: 2018-01-24
+date: 2013-10-19
 updated: 2018-01-24
 intro: A quick tip on how to enable git autocompletion on the command line
 tags:

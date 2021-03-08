@@ -1,6 +1,6 @@
 ---
 title: How do I update to Gulp 4?
-date: 2016-04-03
+date: 2016-03-22
 updated: 2019-03-27
 intro: Gulp is a fantastic build tool for compiling your SCSS, Less and SVG sprites that we use at Liquid Light. For a while now, the gulpJS team have been working ...
 canonical: https://www.liquidlight.co.uk/blog/how-do-i-update-to-gulp-4/

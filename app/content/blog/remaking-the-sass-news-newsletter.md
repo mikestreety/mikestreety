@@ -1,6 +1,6 @@
 ---
 title: Remaking the Sass News Newsletter
-date: 2016-03-07
+date: 2014-06-10
 updated: 2016-06-17
 intro: With the weekly golden nectar of Sass News winging its way into my inbox every week, I decided to take on the challenge of giving the newsletter a facelift (if ...
 tags:

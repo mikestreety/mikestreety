@@ -1,6 +1,6 @@
 ---
 title: Thoughts...
-date: 2016-03-08
+date: 2009-01-27
 updated: 2016-03-20
 intro: Thoughts are someone’s heart, someone’s soul, someone’s hero trapped inside the body of their worshiper, their disciple, and their devotee. Thoughts can make someone’s day, someone ...
 tags:

@@ -1,6 +1,6 @@
 ---
 title: CSS - The basics
-date: 2016-03-08
+date: 2009-01-25
 updated: 2016-03-20
 intro: CSS, or Cascading Style Sheets are the easiest, cleanest and most accessible way of styling a website. Tables were previously used to position objects on the page and CSS used ...
 tags:

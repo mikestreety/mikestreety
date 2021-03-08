@@ -1,6 +1,6 @@
 ---
 title: The Git Commit Hash
-date: 2020-05-03
+date: 2020-05-28
 updated: 2020-06-11
 intro: The magic 40 character string that is attached to every commit you do. What is it, where does it come from and will understanding it help you with Git in the future?
 tags:

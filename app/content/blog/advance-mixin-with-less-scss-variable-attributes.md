@@ -1,6 +1,6 @@
 ---
 title: Advance mixin with Less && SCSS- Variable attributes
-date: 2018-01-24
+date: 2014-07-29
 updated: 2018-01-24
 intro: Setting many attributes via a mixin
 tags:

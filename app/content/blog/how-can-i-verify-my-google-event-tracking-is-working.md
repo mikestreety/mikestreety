@@ -1,6 +1,6 @@
 ---
 title: How can I verify my Google Event Tracking is working?
-date: 2017-09-25
+date: 2017-09-18
 updated: 2019-03-27
 intro: This blog post does go slightly technical - you should hopefully be familiar with seeing Chrome Developer Web Tools open - or know someone that does. Google Analytics (GA) is ...
 canonical: https://www.liquidlight.co.uk/blog/how-can-i-verify-my-google-event-tracking-is-working/

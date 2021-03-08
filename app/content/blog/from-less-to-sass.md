@@ -1,6 +1,6 @@
 ---
 title: From Less to Sass
-date: 2016-03-07
+date: 2014-02-04
 updated: 2016-09-27
 intro: Recently we've decided a change in preprocessor to help optimise our workflow. Within this blog post, I am going to type Sass, but really I mean Scss. Originally we were ...
 tags:

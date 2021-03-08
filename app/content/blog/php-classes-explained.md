@@ -1,6 +1,6 @@
 ---
 title: PHP Classes - Explained
-date: 2016-03-07
+date: 2014-12-03
 updated: 2017-05-03
 intro: To put it very simply, a PHP class is a way of grouping a set of functions and variables into entities,allowing them to be used as self-contained instances . It ...
 tags:

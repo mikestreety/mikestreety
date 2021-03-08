@@ -1,6 +1,6 @@
 ---
 title: PHP for Front-End Devs&#58; The Story
-date: 2016-03-08
+date: 2012-05-06
 updated: 2016-04-08
 intro: Recently, a few friends of mine have been asking questions about PHP and want to learn the basics. I am a front-end developer for a web design agency. i.e. ...
 tags:

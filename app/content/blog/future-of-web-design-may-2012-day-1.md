@@ -1,6 +1,6 @@
 ---
 title: Future of Web Design - May 2012 - Day 1
-date: 2016-03-08
+date: 2012-07-11
 updated: 2016-04-08
 intro: In the middle of May, I attended my first big web conference – the Future of Web Design. I’ve been to a few small-scale conferences before, but never one ...
 tags:

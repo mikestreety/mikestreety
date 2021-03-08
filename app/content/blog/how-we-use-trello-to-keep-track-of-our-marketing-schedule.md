@@ -1,6 +1,6 @@
 ---
 title: How we use Trello to keep track of our marketing schedule
-date: 2016-08-04
+date: 2016-08-02
 updated: 2019-03-27
 intro: Trello is a simple project management app which has taken the world by storm. It is not a complex SaaS (Software as a Service) by any means and does what ...
 canonical: https://www.liquidlight.co.uk/blog/how-we-use-trello-to-keep-track-of-our-marketing-schedule/

@@ -35,19 +35,26 @@ eleventyNavigation:
 		<a href="/blog" class="button">View more blog posts</a>
 	</div>
 </section>
-{#
+
 <section class="post-listing">
 	<div class="container">
 		<h2>Notes</h2>
 	</div>
 	<div class="horizonal-listing container">
-		{% set pageEntries = craft.entries.section(['notes']).limit(5).all() %}
-		{% include 'snippets/_post-listing' %}
+		<div class="post-listing grid-listing">
+			<ul class="post-listing-full">
+			{% set postslist = collections.notes | limit(5) %}
+			{%- for entry in postslist -%}
+				{% include 'entry.njk' %}
+			{% endfor %}
+			</ul>
+		</div>
 	</div>
 	<div class="container">
 		<a href="/notes" class="button">View more notes</a>
 	</div>
 </section>
+{#
 
 <section class="post-listing">
 	<div class="container">

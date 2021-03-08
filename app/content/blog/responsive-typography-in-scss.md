@@ -1,6 +1,6 @@
 ---
 title: Responsive Typography in SCSS
-date: 2016-03-08
+date: 2015-11-02
 updated: 2016-06-20
 intro: Making sure your typography is readable on every display is arguably one of the most important aspects of front-end development. If your users can’t read the content on the ...
 canonical: https://www.liquidlight.co.uk/blog/article/responsive-typography-in-scss/

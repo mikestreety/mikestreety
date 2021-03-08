@@ -1,6 +1,6 @@
 ---
 title: Get background image information if element has a one in jQuery
-date: 2016-03-08
+date: 2016-03-04
 updated: 2016-04-09
 intro: Recently I need to loop through elements on a page and, if the element had a background image apply a jQuery plugin. The plugin required the background image path & dimensions ...
 tags:

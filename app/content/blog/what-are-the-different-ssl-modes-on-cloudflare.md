@@ -1,6 +1,6 @@
 ---
 title: What are the different SSL modes on Cloudflare?
-date: 2020-04-17
+date: 2020-04-19
 updated: 2021-01-14
 intro: Cloudflare has a few different options when it comes to selecting which TLS/SSL mode you should choose.
 tags:

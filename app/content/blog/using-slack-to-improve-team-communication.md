@@ -1,6 +1,6 @@
 ---
 title: Using Slack to Improve Team Communication
-date: 2016-03-08
+date: 2015-04-30
 updated: 2016-06-20
 intro: Slack is a hugely popular communication team tool which has grown from strength to strength over the last year. It was publicly released in February 2014 and has recently been valued ...
 canonical: https://www.liquidlight.co.uk/blog/article/using-slack-to-improve-team-communication/

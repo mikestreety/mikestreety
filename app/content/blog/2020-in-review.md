@@ -1,6 +1,6 @@
 ---
 title: 2020 In Review
-date: 2021-01-07
+date: 2020-12-31
 updated: 2021-01-11
 intro: 2020 brought the first pandemic of my lifetime, but plenty of good things too
 tags:

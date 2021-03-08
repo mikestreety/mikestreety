@@ -1,6 +1,6 @@
 ---
 title: How can I score 100 on Google PageSpeed Insights?
-date: 2017-03-15
+date: 2017-03-13
 updated: 2019-03-27
 intro: PageSpeed Insights (PSI) is a tool developed by Google to rank the speed of your website. There are a few things it doesn’t look out for, such as code ...
 canonical: https://www.liquidlight.co.uk/blog/how-can-i-score-100-on-google-pagespeed-insights/

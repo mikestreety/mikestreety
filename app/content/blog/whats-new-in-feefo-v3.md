@@ -1,6 +1,6 @@
 ---
 title: What's new in Feefo v3?
-date: 2017-01-23
+date: 2016-12-15
 updated: 2019-03-27
 intro: Feefo, the customer feedback and review website, launched version 3 of their product at the end of September. Although customers had no choice to be updated to version 3, what does this ...
 canonical: https://www.liquidlight.co.uk/blog/whats-new-in-feefo-v3/

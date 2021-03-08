@@ -1,6 +1,6 @@
 ---
 title: HTML Newsletters - Design Considerations
-date: 2016-03-08
+date: 2014-12-15
 updated: 2016-06-20
 intro: Email newsletters are an effective way of letting your subscribers and customers know about news or upcoming offers. Normal text emails (or plain text emails) get the message across, but ...
 canonical: https://www.liquidlight.co.uk/blog/article/html-newsletters-design-considerations/

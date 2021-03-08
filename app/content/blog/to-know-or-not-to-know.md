@@ -1,6 +1,6 @@
 ---
 title: To Know or Not To Know
-date: 2016-03-08
+date: 2009-01-28
 updated: 2016-03-20
 intro: Knowledge is a powerful thing. I can turn worlds into war, it can turn people to power, and it can turn children to critics, humans into inhabitants. Its one of ...
 tags:

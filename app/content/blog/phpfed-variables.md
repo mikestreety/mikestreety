@@ -1,6 +1,6 @@
 ---
 title: #PHPFED - Variables
-date: 2016-03-08
+date: 2012-05-18
 updated: 2016-06-17
 intro: Before you continue - make sure you understand the story. The next thing is that php lines always need to end with a semi-colon (;). This tells php that the line ...
 tags:

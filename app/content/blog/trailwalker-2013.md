@@ -1,6 +1,6 @@
 ---
 title: Trailwalker 2013
-date: 2016-03-07
+date: 2013-07-29
 updated: 2016-04-09
 intro: The Trailwalker event is something I've had my eye on for a while. 100km over 30 hours seemed like a sporting challenge I could do. I was 16 when a friend started ...
 tags:

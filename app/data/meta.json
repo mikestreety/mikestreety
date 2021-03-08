@@ -3,7 +3,8 @@
 	"themeColour": "#2b76b9",
 	"site": {
 		"title": "Mike Street",
-		"url": "https://www.mikestreety.co.uk"
+		"url": "https://www.mikestreety.co.uk",
+		"description": "Lead Developer and CTO"
 	},
 	"social": {
 		"twitter": "mikestreety"

@@ -1,6 +1,6 @@
 ---
 title: Chilly's Dip
-date: 2016-03-08
+date: 2011-05-19
 updated: 2016-04-08
 intro: I found this in an old recipe book I found in a charity shop. Not quite sure what happened to it, but I've tweaked the recipe ...
 tags:

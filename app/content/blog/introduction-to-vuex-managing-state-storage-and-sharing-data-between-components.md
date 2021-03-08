@@ -1,6 +1,6 @@
 ---
 title: Introduction to Vuex Part 1 - managing state, storage and sharing data between components
-date: 2017-12-12
+date: 2017-12-18
 updated: 2018-01-04
 intro: This blog post covers the initialisation and basic usage of Vuex - a central store for your Vue applications. It covers the basics of the four main components of Vuex&#58; the state, mutations, actions and getters.
 tags:

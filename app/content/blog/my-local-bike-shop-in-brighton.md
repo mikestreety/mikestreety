@@ -1,6 +1,6 @@
 ---
 title: My Local Bike Shop in Brighton
-date: 2016-03-07
+date: 2014-09-22
 updated: 2016-04-09
 intro: Living in Brighton, there is a huge array of bike shops to choose from. Ask any local cyclist and the phrase "Support your local bike shop" is often muttered - ...
 tags:

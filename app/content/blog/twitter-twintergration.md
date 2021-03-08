@@ -1,6 +1,6 @@
 ---
 title: Twitter; Twintergration
-date: 2016-03-08
+date: 2010-04-21
 updated: 2016-04-08
 intro: Twitter, Twitter Twitter. How you have taken over the world? (And my life?) I have recently properly got into Twitter. Before it was just a laborious update to show I ...
 tags:

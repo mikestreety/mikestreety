@@ -1,6 +1,6 @@
 ---
 title: Creating a home server to run plex and vpn
-date: 2017-07-19
+date: 2021-03-08
 updated: 2017-08-09
 intro:  Buy thin client - install debian - Installed on a hard drive, USB stick tricky. - skipped root but made user with password - edit /etc/sudoers (last line to ...
 draft: true

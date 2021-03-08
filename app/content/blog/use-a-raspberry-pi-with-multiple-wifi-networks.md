@@ -1,6 +1,6 @@
 ---
 title: Use a Raspberry Pi with multiple WiFi networks
-date: 2016-03-08
+date: 2015-10-11
 updated: 2017-06-21
 intro: I have recently been carrying my Raspberry Pi back and forth between my home and my local hack space - BuildBrighton. Both places have WiFi and with a Raspberry Pi ...
 tags:

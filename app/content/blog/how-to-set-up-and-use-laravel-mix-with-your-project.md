@@ -1,6 +1,6 @@
 ---
 title: How to set up and use Laravel Mix with your project
-date: 2021-01-14
+date: 2021-02-01
 updated: 2021-01-14
 intro: Despite the name, Laravel Mix isn't just for Laravel. It is a tidy, succinct task runner with understandable syntax and a single config file. This tutorial will run through setting it up with your project
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Developing websites locally with Docker
-date: 2019-02-04
+date: 2019-02-14
 updated: 2019-03-27
 intro: Docker allows you to host websites locally, which allows you can develop them within an environment which can be an exact replica of the live one. This blog post explores my first experience with Docker.
 tags:

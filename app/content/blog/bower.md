@@ -1,6 +1,6 @@
 ---
 title: Bower
-date: 2016-03-07
+date: 2014-05-08
 updated: 2016-06-17
 intro: Please note&#58; When I have written commands for terminal/command line, I have preceded them with a $. This is not to be typed but signifies a terminal command I have ...
 tags:

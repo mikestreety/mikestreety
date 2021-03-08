@@ -1,6 +1,6 @@
 ---
 title: Creating a custom Mailchimp template with layout variations
-date: 2017-05-18
+date: 2016-05-04
 updated: 2019-03-27
 intro: Creating a responsive, HTML email template is not as easy as it first appears. Email clients are still behind with web standards and supporting latest web technologies, so HTML emails ...
 canonical: https://www.liquidlight.co.uk/blog/creating-a-custom-mailchimp-template-with-layout-variations/

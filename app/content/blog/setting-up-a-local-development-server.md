@@ -1,6 +1,6 @@
 ---
 title: Setting up a local development server
-date: 2016-03-08
+date: 2013-01-03
 updated: 2016-06-20
 intro: There are plenty of articles on the web about how to become a web designer, how to build sites and how to sell them. What this article opens up, is ...
 canonical: http://12devsofxmas.co.uk/post/2013-01-04-day-10-setting-up-a-local-development-server

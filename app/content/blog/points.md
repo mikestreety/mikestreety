@@ -1,6 +1,6 @@
 ---
 title: Points
-date: 2016-03-07
+date: 2013-05-13
 updated: 2016-04-08
 intro: This week I announced that I was closing the curtain on my mini-conference Points Brighton. Points has been my baby, my creation. I feel, now it has found its end, ...
 tags:

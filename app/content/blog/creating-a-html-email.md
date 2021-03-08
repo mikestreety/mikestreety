@@ -1,6 +1,6 @@
 ---
 title: Creating a HTML Email
-date: 2016-03-08
+date: 2010-11-17
 updated: 2016-04-08
 intro: Creating a HTML email is like going back to the nineties with web design – you have to go against all your natural instincts as a web designer. Floats don’...
 tags:

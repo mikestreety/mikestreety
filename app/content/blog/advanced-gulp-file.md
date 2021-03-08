@@ -1,6 +1,6 @@
 ---
 title: Advanced Gulp File
-date: 2016-03-07
+date: 2014-05-22
 updated: 2019-03-27
 intro: With gulp starting to find itself into my everyday workflow - I've started to understand its quirks and twists, and how to get along with it. My baseline gulpfile.js ...
 tags:

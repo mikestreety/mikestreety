@@ -1,6 +1,6 @@
 ---
 title: Limit Items (e.g. News posts)
-date: 2016-03-08
+date: 2011-03-10
 updated: 2016-04-08
 intro: If you would like to limit the amount of items coming out of an array (for example the first 5 news items), then before your loop (e.g. while), specify your ...
 tags:

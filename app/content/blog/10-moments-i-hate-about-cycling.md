@@ -1,6 +1,6 @@
 ---
 title: 10 Moments I Hate About Cycling
-date: 2016-03-07
+date: 2014-06-19
 updated: 2017-05-03
 intro: A little while ago, Evans Cycles blogged 10 Moments Every Cyclist Hates and before I had even read the blog, plenty of moments popped into my head - but none of ...
 tags:

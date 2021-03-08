@@ -1,6 +1,6 @@
 ---
 title: Composer - creating a private package to include your own PHP class
-date: 2019-07-16
+date: 2020-09-15
 updated: 2020-09-15
 intro: I am currently in the midst of developing a new side-project and wanted to use the same class as a base for two separate elements of the project. This class ...
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Dahon Vitesse Speed D7
-date: 2016-03-08
+date: 2012-02-26
 updated: 2016-04-08
 intro: Whenever I am thinking about making a significant purchase, I always hunt around for reviews, check out blogs and generally search the web for word, be it good or bad. ...
 tags:

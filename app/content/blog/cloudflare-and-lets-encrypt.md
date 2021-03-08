@@ -1,6 +1,6 @@
 ---
 title: Generating a Lets Encrypt SSL certificate with Cloudflare
-date: 2020-04-11
+date: 2020-04-20
 updated: 2020-07-07
 intro: This blog post walks through generating an SSL certificate with `certbot` from Let's Encrypt, specifically, when your DNS is with Cloudflare. For those on Cloudflare wondering why you would want ...
 draft: true

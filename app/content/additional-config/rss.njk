@@ -11,11 +11,11 @@ sitemapIgnore: true
 		<language>en-us</language>
 		<pubDate>{{ page.date.toUTCString() }}</pubDate>
 		<lastBuildDate>{{ page.date.toUTCString() }}</lastBuildDate>
-		<atom:link href="{{ siteUrl }}/{{ permalink }}" rel="alternate" type="application/xml" />
+		<atom:link href="{{ meta.site.url }}/{{ permalink }}" rel="alternate" type="application/xml" />
 		<image>
-			<url>{{ siteUrl }}assets/img/android-chrome-512x512.png</url>
-			<title>{{ siteName }}</title>
-			<link>{{ siteUrl }}</link>
+			<url>{{ meta.site.url }}assets/img/android-chrome-512x512.png</url>
+			<title>{{ meta.site.name }}</title>
+			<link>{{ meta.site.url }}</link>
 			<width>144</width>
 			<height>144</height>
 			<description>{{ description }}</description>
@@ -23,9 +23,9 @@ sitemapIgnore: true
 		{% for entry in collections.blog %}
 		<item>
 			<title>{{ entry.data.title }}</title>
-			<link>{{ siteUrl }}/{{ entry.url }}</link>
+			<link>{{ meta.site.url }}{{ entry.url }}</link>
 			<pubDate>{{ entry.date | isoDate }}</pubDate>
-			<guid>{{ siteUrl }}/{{ entry.url }}</guid>
+			<guid>{{ meta.site.url }}{{ entry.url }}</guid>
 			<description><![CDATA[
 
 			]]></description>

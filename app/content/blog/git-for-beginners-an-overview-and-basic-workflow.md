@@ -1,6 +1,6 @@
 ---
 title: Git for Beginners&#58; An Overview and Basic Workflow
-date: 2016-03-08
+date: 2015-03-10
 updated: 2016-06-20
 intro: Git is a tricky subject to get your head around. Knowing the commands is one thing, but knowing how to use them is another. This article will walk you through ...
 canonical: https://www.liquidlight.co.uk/blog/article/git-for-beginners-an-overview-and-basic-workflow/

@@ -1,6 +1,6 @@
 ---
 title: YouTube videos vs self-hosted&#58; Which one is better for you?
-date: 2016-03-08
+date: 2016-01-25
 updated: 2019-03-27
 intro: We are often asked whether videos for your website should be uploaded and hosted on your own website and server or if they should be uploaded to a social website ...
 canonical: https://www.liquidlight.co.uk/blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/

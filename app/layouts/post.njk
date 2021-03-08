@@ -1,43 +1,46 @@
 ---
 layout: default.njk
 ---
-<div class="container">
-	<div class="breadcrumb meta">
-		<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
-			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-			<a itemprop="item" href="{{ meta.site.url }}/">
-				<span itemprop="name">Home</span></a>
-				<meta itemprop="position" content="1">
-			</li>
-			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-			<a itemprop="item" href="{{ meta.site.url }}/blog"><span itemprop="name">Blog</span></a>
-				<meta itemprop="position" content="2">
-			</li>
-			<li class="isHidden" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemprop="item" href="{{ meta.site.url }}{{ page.url }}">
-					<span itemprop="name">{{ title }}</span>
-				</a>
-				<meta itemprop="position" content="3">
-			</li>
-		</ol>
-	</div>
+<div class="container blog-container h-entry">
+	<article class="article single-article">
+		<div class="breadcrumb meta">
+			<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemprop="item" href="{{ meta.site.url }}/">
+					<span itemprop="name">Home</span></a>
+					<meta itemprop="position" content="1">
+				</li>
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemprop="item" href="{{ meta.site.url }}/blog"><span itemprop="name">Blog</span></a>
+					<meta itemprop="position" content="2">
+				</li>
+				<li class="isHidden" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+					<a itemprop="item" href="{{ meta.site.url }}{{ page.url }}">
+						<span itemprop="name">{{ title }}</span>
+					</a>
+					<meta itemprop="position" content="3">
+				</li>
+			</ol>
+		</div>
 
+		<h1>{{ title }}</h1>
+		<h3 class="is-hidden">
+			By <span>{{ meta.author }}</span>
+		</h3>
 
-	<h1>{{ title }}</h1>
+		<div class="meta post-meta">
+			<time class="dt-published is-hidden">{{ date | isoDate }}</time>
+				Posted on <strong>{{ date | readableDate }}</strong>.
+		</div>
 
-	<div class="meta post-meta">
-		<time class="dt-published is-hidden">{{ date | isoDate }}</time>
-			Posted on <strong>{{ date | readableDate }}</strong>.
-	</div>
+		{{ content | safe }}
 
-	{{ content | safe }}
+		<div class="meta categories">
+			{% for tag in tags %}{% include 'tag.njk' %}{% endfor %}
+		</div>
+	</article>
 
-	<div class="meta categories">
-		{% for tag in tags %}
-			{% include 'tag.njk' %}
-		{% endfor %}
-	</div>
-
+	<h2 class="h3">You might also enjoy&hellip;</h2>
 	<div class="post-listing grid-listing">
 		<ul class="post-listing-full">
 		{% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
@@ -53,4 +56,48 @@ layout: default.njk
 		{% endif %}
 		</ul>
 	</div>
+
+	<div class="container">
+		<div class="author h-card">
+			<img src="https://www.mikestreety.co.uk/assets/img/mike.jpg" class="u-photo" width="100" alt="Mike Street">
+			<div class="auhtor-details">
+				<h4>Written by <span class="p-author">{{ meta.author }}</span></h4>
+				<p class="p-note">Mike is a front-end developer from Brighton, UK. He spends his time writing, cycling and coding. You can find Mike on <a href="https://twitter.com/mikestreety">Twitter</a>.</p>
+			</div>
+		</div>
+	</div>
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "NewsArticle",
+		"mainEntityOfPage":{
+			"@type":"WebPage",
+			"@id":"{{ meta.site.url }}{{ page.url }}"
+		},
+		"headline": "{{ title }}",
+		"image": {
+			"@type": "ImageObject",
+			"url": "https://www.mikestreety.co.uk/assets/img/mike.jpg",
+			"height": 800,
+			"width": 800
+		},
+		"datePublished": "{{ date | isoDate }}",
+		"dateModified": "{{ updated | isoDate }}",
+		"author": {
+			"@type": "Person",
+			"name": "Mike Street"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "Mike Street",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://www.mikestreety.co.uk/assets/images/logo.png",
+				"width": 244,
+				"height": 60
+			}
+		},
+		"description": "{{ intro }}"
+	}
+	</script>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: Building a Vue v2 JS app using Vue-router
-date: 2017-01-23
+date: 2016-11-03
 updated: 2019-03-27
 intro: Vue is a great javascript framework which I picked up to learn a couple of weeks back. I was after a simple framework which I could build an internal ...
 canonical: https://www.liquidlight.co.uk/blog/building-a-vue-v2-js-app-using-vue-router/

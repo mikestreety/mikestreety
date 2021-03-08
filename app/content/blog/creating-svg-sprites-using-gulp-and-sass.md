@@ -1,6 +1,6 @@
 ---
 title: Creating SVG Sprites using Gulp and Sass
-date: 2016-03-08
+date: 2014-11-11
 updated: 2016-06-20
 intro: Following on from our recent blog post about SVG Sprites which gave an introduction and overview to using SVGs in a sprite, this post will outline the processes and tools ...
 canonical: https://www.liquidlight.co.uk/blog/article/creating-svg-sprites-using-gulp-and-sass/

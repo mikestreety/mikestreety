@@ -1,6 +1,6 @@
 ---
 title: Compiling your front-end assets with Laravel Mix while your 11ty site builds, so you don't have to switch between processes
-date: 2020-10-12
+date: 2021-02-15
 updated: 2021-02-11
 intro: Laravel Mix is a great asset compiler from the creators of Laravel - but you don't have to be using their framework to benefit from it. This blog walks through setting it up to run with 11ty.
 tags:
