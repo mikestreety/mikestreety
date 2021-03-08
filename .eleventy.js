@@ -5,9 +5,7 @@ module.exports = function (config) {
 
 	config.addFilter('isoDate', require('./app/filters/isoDate.js'));
 	config.addFilter('limit', require('./app/filters/limit.js'));
-	config.addFilter('oldPost', require('./app/filters/oldPost.js'));
 	config.addFilter('readableDate', require('./app/filters/readableDate.js'));
-
 
 	const livePosts = p => p.date <= now && !p.data.draft;
 	const now = new Date();

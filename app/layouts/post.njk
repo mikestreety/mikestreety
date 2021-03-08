@@ -2,6 +2,27 @@
 layout: default.njk
 ---
 <div class="container">
+	<div class="breadcrumb meta">
+		<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+			<a itemprop="item" href="{{ meta.site.url }}/">
+				<span itemprop="name">Home</span></a>
+				<meta itemprop="position" content="1">
+			</li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+			<a itemprop="item" href="{{ meta.site.url }}/blog"><span itemprop="name">Blog</span></a>
+				<meta itemprop="position" content="2">
+			</li>
+			<li class="isHidden" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemprop="item" href="{{ meta.site.url }}{{ page.url }}">
+					<span itemprop="name">{{ title }}</span>
+				</a>
+				<meta itemprop="position" content="3">
+			</li>
+		</ol>
+	</div>
+
+
 	<h1>{{ title }}</h1>
 
 	<div class="meta post-meta">
@@ -17,8 +38,19 @@ layout: default.njk
 		{% endfor %}
 	</div>
 
-	{% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
-	{{ previousPost.url }}
-	{% set nextPost = collections.blog | getNextCollectionItem(page) %}
-	{{ nextPost.url }}
+	<div class="post-listing grid-listing">
+		<ul class="post-listing-full">
+		{% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+		{% if previousPost %}
+			{% set entry = previousPost %}
+			{% include 'entry.njk' %}
+		{% endif %}
+
+		{% set nextPost = collections.blog | getNextCollectionItem(page) %}
+		{% if nextPost %}
+			{% set entry = nextPost %}
+			{% include 'entry.njk' %}
+		{% endif %}
+		</ul>
+	</div>
 </div>
