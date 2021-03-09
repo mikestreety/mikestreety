@@ -6,7 +6,7 @@
 		<p class="date">
 			<time class="dt-published is-hidden">{{ entry.date | isoDate }}</time>
 			Posted on <strong>{{ entry.date | readableDate }}</strong>.
-			{% if entry.data.websiteName %}Written For <strong>{{ entry.data.websiteName }}</strong>{% endif %}
+			{% if entry.data.publication %}Written For <strong>{{ entry.data.publication }}</strong>{% endif %}
 		</p>
 
 		<p class="abstract">
