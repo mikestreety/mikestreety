@@ -81,59 +81,8 @@
 		}
 
 		.abstract {
-			display: none;
+			font-size: 0.9em;
 		}
 	}
 
-
-	@supports(display: grid) {
-		.horizonal-listing {
-			grid-column: 1 / -1;
-			max-width: none;
-			padding: 0 0 var(--gutter);
-			position: relative;
-
-			&::before,
-			&::after {
-				content: '';
-				position: absolute;
-				top: 0;
-				height: 100%;
-				width: var(--gutter);
-				background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-				z-index: 10;
-				left: 0;
-			}
-			&::after {
-				right: 0;
-				transform: rotate(180deg);
-				left: auto;
-			}
-
-			ul {
-				display: grid;
-				grid-gap: calc(var(--gutter) / 2);
-				grid-template-columns: 1rem repeat(5, 75%) 1rem;
-				grid-template-rows: minmax(15rem, 1fr);
-				overflow-x: scroll;
-				padding-bottom: calc(.75 * var(--gutter));
-				margin-bottom: calc(-.5 * var(--gutter));
-				padding-left: calc(50vw - 25rem - var(--gutter));
-
-				@include mq($tablet) {
-					grid-template-columns: var(--gutter) repeat(5, 27rem) var(--gutter);
-				}
-
-				li {
-					width: 100%;
-				}
-
-				&::before,
-				&::after {
-					content: '';
-					display: block;
-				}
-			}
-		}
-	}
 }

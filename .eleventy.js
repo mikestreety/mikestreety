@@ -5,6 +5,7 @@ module.exports = function (config) {
 
 	config.addFilter('isoDate', require('./app/filters/isoDate.js'));
 	config.addFilter('limit', require('./app/filters/limit.js'));
+	config.addFilter('livePosts', require('./app/filters/livePosts.js'));
 	config.addFilter('readableDate', require('./app/filters/readableDate.js'));
 	config.addFilter('slugify', require('./app/filters/slugify.js'));
 
@@ -18,13 +19,12 @@ module.exports = function (config) {
 			.reverse();
 	});
 
-	config.addCollection('notes', collection => {
+	config.addCollection('drafts', collection => {
 		return collection
-			.getFilteredByGlob('./app/content/notes/*.md')
-			.filter(livePosts)
+			.getFilteredByGlob('./app/content/blog/*.md')
+			.filter(p => !livePosts(p))
 			.reverse();
 	});
-
 
 	config.addPlugin(eleventyNavigationPlugin);
 	config.setDataDeepMerge(true);

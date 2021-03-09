@@ -24,7 +24,7 @@ eleventyNavigation:
 	<div class="horizonal-listing container">
 		<div class="post-listing grid-listing">
 			<ul class="post-listing-full">
-			{% set postslist = collections.blog | limit(5) %}
+			{% set postslist = collections.blog | limit(6) %}
 			{%- for entry in postslist -%}
 				{% include 'entry.njk' %}
 			{% endfor %}
@@ -36,24 +36,6 @@ eleventyNavigation:
 	</div>
 </section>
 
-<section class="post-listing">
-	<div class="container">
-		<h2>Notes</h2>
-	</div>
-	<div class="horizonal-listing container">
-		<div class="post-listing grid-listing">
-			<ul class="post-listing-full">
-			{% set postslist = collections.notes | limit(5) %}
-			{%- for entry in postslist -%}
-				{% include 'entry.njk' %}
-			{% endfor %}
-			</ul>
-		</div>
-	</div>
-	<div class="container">
-		<a href="/notes" class="button">View more notes</a>
-	</div>
-</section>
 {#
 
 <section class="post-listing">

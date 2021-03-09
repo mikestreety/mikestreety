@@ -11,7 +11,7 @@ layout: default.njk
 					<meta itemprop="position" content="1">
 				</li>
 				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemprop="item" href="{{ meta.site.url }}/blog"><span itemprop="name">Blog</span></a>
+				<a itemprop="item" href="{{ meta.site.url }}/{{ parent }}"><span itemprop="name">{{ parentTitle }}</span></a>
 					<meta itemprop="position" content="2">
 				</li>
 				<li class="isHidden" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
@@ -24,6 +24,11 @@ layout: default.njk
 		</div>
 
 		<h1>{{ title }}</h1>
+
+		{% if publication is defined  %}
+		<p class="subtitle">Originally posted for <strong><a href="{{ canonical }}">{{ publication }}</a></strong></p>
+		{% endif %}
+
 		<h3 class="is-hidden">
 			By <span>{{ meta.author }}</span>
 		</h3>
@@ -33,7 +38,9 @@ layout: default.njk
 				Posted on <strong>{{ date | readableDate }}</strong>.
 		</div>
 
-		{{ content | safe }}
+		<div class="single-content">
+			{{ content | safe }}
+		</div>
 
 		<div class="meta categories">
 			{% for tag in tags %}{% include 'tag.njk' %}{% endfor %}
@@ -43,13 +50,13 @@ layout: default.njk
 	<h2 class="h3">You might also enjoy&hellip;</h2>
 	<div class="post-listing grid-listing">
 		<ul class="post-listing-full">
-		{% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+		{% set group = collections[ parent ] %}
+		{% set previousPost = group | getPreviousCollectionItem(page) %}
 		{% if previousPost %}
 			{% set entry = previousPost %}
 			{% include 'entry.njk' %}
 		{% endif %}
-
-		{% set nextPost = collections.blog | getNextCollectionItem(page) %}
+		{% set nextPost = group | getNextCollectionItem(page) %}
 		{% if nextPost %}
 			{% set entry = nextPost %}
 			{% include 'entry.njk' %}
@@ -57,13 +64,11 @@ layout: default.njk
 		</ul>
 	</div>
 
-	<div class="container">
-		<div class="author h-card">
-			<img src="https://www.mikestreety.co.uk/assets/img/mike.jpg" class="u-photo" width="100" alt="Mike Street">
-			<div class="auhtor-details">
-				<h4>Written by <span class="p-author">{{ meta.author }}</span></h4>
-				<p class="p-note">Mike is a front-end developer from Brighton, UK. He spends his time writing, cycling and coding. You can find Mike on <a href="https://twitter.com/mikestreety">Twitter</a>.</p>
-			</div>
+	<div class="author h-card">
+		<img src="https://www.mikestreety.co.uk/assets/img/mike.jpg" class="u-photo" width="100" alt="Mike Street">
+		<div class="auhtor-details">
+			<h4>Written by <span class="p-author">{{ meta.author }}</span></h4>
+			<p class="p-note">Mike is a front-end developer from Brighton, UK. He spends his time writing, cycling and coding. You can find Mike on <a href="https://twitter.com/mikestreety">Twitter</a>.</p>
 		</div>
 	</div>
 	<script type="application/ld+json">

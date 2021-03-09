@@ -1,3 +1,6 @@
 {
-	"layout": "post.njk"
+	"layout": "single.njk",
+
+	"parent": "blog",
+	"parentTitle": "Blog"
 }

@@ -1,5 +1,7 @@
 ---
 layout: page.njk
+title: Blog
+description: Blog posts by Mike Street
 eleventyNavigation:
   key: Blog
   order: 2
@@ -7,6 +9,24 @@ pagination:
   data: collections.blog
   size: 10
 ---
+<h1>Blog</h1>
+
+<div class="breadcrumb meta">
+	<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+		<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+			<a itemprop="item" href="{{ meta.site.url }}/">
+				<span itemprop="name">Home</span>
+			</a>
+			<meta itemprop="position" content="1">
+		</li>
+		<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+			<a itemprop="item" href="{{ meta.site.url }}{{ page.url }}">
+				<span itemprop="name">Blog</span>
+			</a>
+			<meta itemprop="position" content="2">
+		</li>
+	</ol>
+</div>
 
 <div class="post-listing">
 	<ul class="post-listing-full">

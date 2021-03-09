@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>{{ title }} - {{ meta.site.title }} - {{ meta.site.description }}</title>
+	<title>{{ title }}{{ " - " if title }}{{ meta.site.title }} - {{ meta.site.description }}</title>
 	<link rel="home" href="{{ meta.site.url }}/" />
 
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
@@ -40,6 +40,10 @@
 	<meta property="og:image" property="twitter:image" name="image" content="{{ meta.site.url }}/assets/img/social-media/default.jpg">
 	{% endif %}
 	<meta property="og:description" property="twitter:description" content="{{ description }}">
+
+	{% if canonical is defined  %}
+	<link rel="canonical" href="{{ canonical }}" />
+	{% endif %}
 
 	<link rel="stylesheet" href="/assets/css/style.css">
 
@@ -91,6 +95,7 @@
 		<main class="content">
 			{{ content | safe }}
 		</main>
+
 		<footer class="footer">
 			<div class="container">
 				{% include 'social.njk' %}
