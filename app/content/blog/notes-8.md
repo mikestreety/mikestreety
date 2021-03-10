@@ -2,6 +2,8 @@
 title: '#8'
 date: 2020-09-24
 updated: 2020-09-24
+tags:
+  - Notes
 ---
 
 <p>With only 8 days between this and my previous notes, there isn't much to be writing about.</p>

@@ -2,6 +2,8 @@
 title: '#7'
 date: 2020-09-16
 updated: 2020-09-15
+tags:
+  - Notes
 ---
 
 <p>So this isn't really "#7", it's more <a href="{entry:1073@1:url}">#6</a> part 2 as I am writing them both at the same time. However, this note tries to fill the July - Mid-September void.</p>

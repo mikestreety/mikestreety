@@ -2,6 +2,8 @@
 title: '#6'
 date: 2020-07-07
 updated: 2020-09-15
+tags:
+  - Notes
 ---
 
 <p>Wow. Notes #6. I started so well and then haven't published anything in <em>months</em>. The draft of this post was made on 7th July (hence the published date) and this is actually written on 15th September.</p>

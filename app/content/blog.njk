@@ -9,7 +9,7 @@ pagination:
   data: collections.blog
   size: 10
 ---
-<h1>Blog</h1>
+<h1>Blog {% if pagination.pageNumber %}- page {{ (pagination.pageNumber + 1) }}{% endif %}</h1>
 
 <div class="breadcrumb meta">
 	<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">

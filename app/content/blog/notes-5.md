@@ -2,6 +2,8 @@
 title: '#5'
 date: 2020-06-06
 updated: 2020-06-06
+tags:
+  - Notes
 ---
 
 <h3>Black lives matter</h3>
