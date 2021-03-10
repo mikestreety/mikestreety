@@ -9,7 +9,7 @@ p {
 	margin-bottom: 2rem;
 	font-family: 'Mikestreety', $baseFont;
 
-	h1 + p {
+	h1 + & {
 		margin-bottom: var(--gutter);
 	}
 }
