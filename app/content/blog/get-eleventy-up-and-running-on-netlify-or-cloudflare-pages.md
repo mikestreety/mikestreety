@@ -1,9 +1,11 @@
 ---
 title: Get your Eleventy Site into the real world (Netlify, Cloudflare pages or any host)
-date: 2020-10-12
+date: 2021-05-19
 updated: Last modified
-intro:
-draft: true
+intro: There are plenty of ways to get your 11ty site live depending on preferences and skill set, this blog walks through a few of the popular ones
+tags:
+ - DevOps
+ - 11ty
 ---
 
 Eleventy (11ty) is a great entry point for getting a markdown or JSON content from files to a website. There are plenty of tutorials out in the world to get 11ty up and running in a development environment.
@@ -102,6 +104,21 @@ CI/CD should fire and compile your pages, you website should then be available a
 
 ## Cloudflare Pages
 
+[Cloudflare pages](https://pages.cloudflare.com/) are the new kids on the block and (at time of writing) in beta. Looking like a direct competitor to Netlify, it appeals to me as an avid Cloudflare user to keep everything in one place.
+
+Currently they only support Github (but [Gitlab and other things](https://developers.cloudflare.com/pages/platform/known-issues) are planned), however the workflow should be very familiar.
+
+1. Sign up to Cloudflare and ensure your git repository is on Github
+1. Connect your Github account and select your repository
+1. Give it a name and select the branch
+1. Enter the build command (e.g. `npx @11ty/eleventy`) and your output directory
+1. Click save and deploy
+
+You'll get a `pages.dev` domain, but this can be replaced with a custom domain name if desired.
+
+- - -
+
+And there we have it. 4 methods for getting your Eleventy site out into the wild. You have no excuse now!
 
 
 
