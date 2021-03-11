@@ -1,7 +1,6 @@
 ---
 title: Get your Eleventy Site into the real world (Netlify, Cloudflare pages or any host)
-date: 2021-05-19
-updated: Last modified
+date: 2021-04-19
 intro: There are plenty of ways to get your 11ty site live depending on preferences and skill set, this blog walks through a few of the popular ones
 tags:
  - DevOps

@@ -45,6 +45,11 @@
 
 .article {
 	margin-bottom: var(--gutterLarge);
+
+	img {
+		display: inline-block;
+		max-width: 100%;
+	}
 }
 
 .author {
