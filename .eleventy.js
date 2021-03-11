@@ -1,4 +1,5 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const readingTime = require('eleventy-plugin-reading-time');
 
 module.exports = function (config) {
 	// config.addFilter('date', require('./app/filters/date.js'));
@@ -27,6 +28,7 @@ module.exports = function (config) {
 	});
 
 	config.addPlugin(eleventyNavigationPlugin);
+	config.addPlugin(readingTime);
 	config.setDataDeepMerge(true);
 
 	return {

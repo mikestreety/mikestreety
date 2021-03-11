@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "dayjs": "^1.10.4",
+    "eleventy-plugin-reading-time": "0.0.1",
     "highlight.js": "^10.6.0",
     "laravel-mix-imagemin": "^1.0.3"
   }

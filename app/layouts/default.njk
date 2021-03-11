@@ -28,7 +28,7 @@
 	<meta property="twitter:creator" content="@{{ meta.social.twitter }}">
 
 	<meta property="og:type" content="website">
-	<meta property="og:title" property="twitter:title" content="{{ title }} - {{ meta.site.title }}">
+	<meta property="og:title" property="twitter:title" content="{{ title }}{{ " - " if title }}{{ meta.site.title }} - {{ meta.site.description }}">
 	<meta property="og:url" content="{{ meta.site.url }}{{ page.url }}">
 	<meta property="og:site_name" content="{{ meta.site.title }}">
 	<meta property="og:title" content="{{ title }}">
@@ -37,9 +37,36 @@
 	<meta property="og:image:width" content="1300">
 	<meta property="og:image:height" content="650">
 	{% else %}
-	<meta property="og:image" property="twitter:image" name="image" content="{{ meta.site.url }}/assets/img/social-media/default.jpg">
+	<meta property="og:image" property="twitter:image" name="image" content="{{ meta.site.url }}/assets/img/mike.jpg">
 	{% endif %}
-	<meta property="og:description" property="twitter:description" content="{{ description }}">
+	<meta property="og:description" property="twitter:description" content="{{ intro if intro else description }}">
+
+	{% set count = 1 %}
+
+	{% if tags %}
+	{% set comma = joiner() %}
+	<meta property="twitter:label{{ count }}" value="Tags">
+	<meta property="twitter:data{{ count }}" value="{% for tag in tags -%}{{ comma() }} {{ tag }}{%- endfor %}">
+	{% set count = count + 1 %}
+	{% endif %}
+
+	{% if tags %}
+	<meta property="twitter:label{{ count }}" value="Reading time">
+	<meta property="twitter:data{{ count }}" value="{{ content | readingTime }}">
+	{% set count = count + 1 %}
+	{% endif %}
+
+	{% if publication %}
+	<meta property="twitter:label{{ count }}" value="Written for">
+	<meta property="twitter:data{{ count }}" value="{{ publication }}">
+	{% set count = count + 1 %}
+	{% endif %}
+
+	{% if canonical %}
+	<meta property="twitter:label{{ count }}" value="Original link">
+	<meta property="twitter:data{{ count }}" value="{{ canonical }}">
+	{% set count = count + 1 %}
+	{% endif %}
 
 	<!-- Coil -->
 	<meta name="monetization" content="$ilp.uphold.com/R6wFMN3kXQbL">

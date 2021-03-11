@@ -34,8 +34,11 @@ layout: default.njk
 		</h3>
 
 		<div class="meta post-meta">
+			{% if date %}
 			<time class="dt-published is-hidden">{{ date | isoDate }}</time>
 				Posted on <strong>{{ date | readableDate }}</strong>.
+			{% endif %}
+			<strong>{{ content | readingTime }}</strong> reading time
 		</div>
 
 		<div class="single-content">
@@ -71,6 +74,7 @@ layout: default.njk
 			<p class="p-note">Mike is a front-end developer from Brighton, UK. He spends his time writing, cycling and coding. You can find Mike on <a href="https://twitter.com/mikestreety">Twitter</a>.</p>
 		</div>
 	</div>
+	{% if not draft %}
 	<script type="application/ld+json">
 	{
 		"@context": "http://schema.org",
@@ -87,7 +91,7 @@ layout: default.njk
 			"width": 800
 		},
 		"datePublished": "{{ date | isoDate }}",
-		"dateModified": "{{ updated | isoDate }}",
+		"dateModified": "{{ updated if updated else date | isoDate }}",
 		"author": {
 			"@type": "Person",
 			"name": "Mike Street"
@@ -105,4 +109,5 @@ layout: default.njk
 		"description": "{{ intro }}"
 	}
 	</script>
+	{% endif %}
 </div>
