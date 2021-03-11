@@ -18,6 +18,7 @@ import shell from 'highlight.js/lib/languages/shell';
 import smali from 'highlight.js/lib/languages/smali';
 import sql from 'highlight.js/lib/languages/sql';
 import xml from 'highlight.js/lib/languages/xml';
+import yaml from 'highlight.js/lib/languages/yaml';
 
 hljs.registerLanguage('apache', apache);
 hljs.registerLanguage('xml', xml);
@@ -37,6 +38,7 @@ hljs.registerLanguage('scss', scss);
 hljs.registerLanguage('shell', shell);
 hljs.registerLanguage('smali', smali);
 hljs.registerLanguage('sql', sql);
+hljs.registerLanguage('yaml', yaml);
 
 /**
  * Prism setup
@@ -44,7 +46,9 @@ hljs.registerLanguage('sql', sql);
 var elements = document.querySelectorAll('pre');
 if (elements !== null) {
 	Array.prototype.forEach.call(elements, function(el) {
-		el.innerHTML = '<code class="' + el.className + '">' + el.innerHTML + '</code>';
+		if(el.firstChild.tagName !== 'CODE') {
+			el.innerHTML = '<code class="' + el.className + '">' + el.innerHTML + '</code>';
+		}
 	});
 
 	hljs.highlightAll();

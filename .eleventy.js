@@ -1,4 +1,5 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const readingTime = require('eleventy-plugin-reading-time');
 
 module.exports = function (config) {
@@ -28,6 +29,7 @@ module.exports = function (config) {
 	});
 
 	config.addPlugin(eleventyNavigationPlugin);
+	config.addPlugin(syntaxHighlight);
 	config.addPlugin(readingTime);
 	config.setDataDeepMerge(true);
 
