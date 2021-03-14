@@ -39,4 +39,4 @@ For those interested, I’ve broken down the expression below:
 
 For those interested in how I quickly deleted the lines, I installed the [delete-lines](https://atom.io/packages/delete-lines) plugin and passed the same regex into the field when I had the file open.
 
-<img src="http://www.mikestreety.co.uk/assets/content/regex/atom.png" style="width: 100%" alt="Regex in Atom">
+<img src="/assets/content/regex/atom.png" style="width: 100%" alt="Regex in Atom">

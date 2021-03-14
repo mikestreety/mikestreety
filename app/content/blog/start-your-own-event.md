@@ -11,7 +11,7 @@ tags:
  - Events
 ---
 
-<p><em>This article first appeared in <a href="http://www.netmagazine.com/shop/magazines/august-2012-230" class="hawk-link-parsed">issue 230</a> of .net magazine – the world's best-selling magazine for web designers and developers.</em></p>
+<p><em>This article first appeared in <a href="https://www.netmagazine.com/shop/magazines/august-2012-230" class="hawk-link-parsed">issue 230</a> of .net magazine – the world's best-selling magazine for web designers and developers.</em></p>
 
 <p>Conferences are great. You get to meet fantastic people, you learn amazing things, you gain experiences and forge friendships that would never have happened without you attending.<br><br> However, not everyone can afford the big ones, not everyone can justify spending one or two days away from the computer and not everyone can convince their boss it’s a great thing for the company, even when their boss is them.<br><br> So let’s start a new type of event – a cheap, small, evening event open to everyone. To set one up, all you need is motivation and a concept. It may seem like a daunting task putting on an event, but once you break it down into simple stages it all falls together.<br><br> Don’t be afraid to ask for help. People in this industry are always willing to give you a hand – be it venue finding, website building, sponsoring or any other tasks that need doing.</p>
 
