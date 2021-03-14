@@ -23,7 +23,7 @@ module.exports = function (config) {
 
 	config.addCollection('drafts', collection => {
 		return collection
-			.getFilteredByGlob('./app/content/blog/*.md')
+			.getFilteredByGlob('./app/content/{blog,drafts}/*.md')
 			.filter(p => !livePosts(p))
 			.reverse();
 	});

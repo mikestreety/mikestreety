@@ -1,12 +1,13 @@
 <li>
 	<article class="article">
 		<h3>
-			<a href="{{ entry.url }}">{{ entry.data.title }}</a>
+			<a href="{{ entry.url }}">{{ entry.data.title if entry.data.title else entry.url }}</a>
 		</h3>
 		<p class="date">
 			<time class="dt-published is-hidden">{{ entry.date | isoDate }}</time>
 			Posted on <strong>{{ entry.date | readableDate }}</strong>.
 			{% if entry.data.publication %}Written For <strong>{{ entry.data.publication }}</strong>{% endif %}
+			{% if entry.url.includes('/drafts/') %}<span class="info">Draft</span>{% endif %}
 		</p>
 
 		<p class="abstract">
