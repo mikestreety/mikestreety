@@ -14,11 +14,11 @@ sitemapIgnore: true
 		<atom:link href="{{ meta.site.url }}/{{ permalink }}" rel="alternate" type="application/xml" />
 		<image>
 			<url>{{ meta.site.url }}assets/img/favicon-512.png</url>
-			<title>{{ meta.site.name }}</title>
+			<title>{{ meta.site.title }}</title>
 			<link>{{ meta.site.url }}</link>
 			<width>144</width>
 			<height>144</height>
-			<description>{{ description }}</description>
+			<description>{{ meta.site.description }}</description>
 		</image>
 		{% for entry in collections.blog %}
 		<item>
@@ -27,7 +27,7 @@ sitemapIgnore: true
 			<pubDate>{{ entry.date | isoDate }}</pubDate>
 			<guid>{{ meta.site.url }}{{ entry.url }}</guid>
 			<description><![CDATA[
-				{{ entry.templateContent }}
+				{{ entry.templateContent | safe }}
 			]]></description>
 		</item>
 		{% endfor %}
