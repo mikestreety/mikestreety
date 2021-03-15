@@ -20,12 +20,19 @@ code::before {
 
 pre {
 	font-size: 0.9rem;
+	tab-size: 4;
 }
 pre code {
 	color: var(--neutralLight);
 	display: block;
 	overflow-x: auto;
 	padding: 0;
+
+	mark {
+		color: inherit;
+		background: rgba(255, 255, 255, 0.1);
+		padding: 0.1em;
+	}
 }
 pre code::before {
 	display: none;

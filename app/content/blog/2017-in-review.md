@@ -6,6 +6,7 @@ intro: It seems to be the done thing to do a "year in review" post. I initially 
 tags:
  - General
  - Ramblings
+ - Annual Review
 ---
 
 It seems to be the done thing to do a "year in review" post. I initially scoffed at the idea, but the more I thought about it, the more I thought about how keeping track of accomplishments can be a little encouragement and ego boost. So here goes!

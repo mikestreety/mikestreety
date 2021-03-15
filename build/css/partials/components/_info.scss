@@ -22,12 +22,22 @@
 		opacity: 0.1;
 		z-index: -1;
 	}
-
-	@at-root span#{&} {
-		padding: 0.3rem 0.4rem;
-		border-bottom-width: 0.125rem;
-	}
-
+}
+div.info,
+div.warning,
+div.alt,
+div.success,
+div.error {
+	margin-left: calc(var(--gutter) * -1);
+	width: calc(100% + calc(var(--gutter) * 2));
+}
+span.info,
+span.warning,
+span.alt,
+span.success,
+span.error {
+	padding: 0.3rem 0.4rem;
+	border-bottom-width: 0.125rem;
 }
 
 .alt {

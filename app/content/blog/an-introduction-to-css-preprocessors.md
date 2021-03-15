@@ -2,7 +2,7 @@
 title: An Introduction to CSS Preprocessors
 date: 2014-03-24
 updated: 2017-06-22
-intro: Writing and updating CSS can be a repetitive, tedious and arduous task - especially for big projects. CSS preprocessors can help with that - amalgamating related styles and helping you ...
+intro: Writing and updating CSS can be a repetitive, tedious and arduous task - especially for big projects. CSS preprocessors can help with that - amalgamating related styles and helping you make your style sheets more DRY
 tags:
  - Web
  - CSS
@@ -181,5 +181,3 @@ $line-height: 1.4;
 <p>Along with the functionality outlined above, there are plenty of other features in Sass including <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#import">File Imports</a> and <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend">@extends</a> (these are also available in <a href="http://lesscss.org/features/">Less</a> if you choose that route). I would advise having a skim over the documentation before embarking on a project with one of them. However, nothing teaches you quicker than getting your hands dirty.</p>
 <p>if you’re still unsure about which preprocessor to go for, I wrote about Bozboz moving from <a href="http://www.mikestreety.co.uk/blog/from-less-to-sass">Less to Sass</a> which might help you sway one way or the other.</p>
 <p>Picking up a preprocessor can be tricky, but once you’ve started using one you’ll never go back.</p>
-<hr>
-<p>This post was originally posted on <a href="https://www.bozboz.co.uk/insight">Bozboz</a> in 2014</p>

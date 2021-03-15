@@ -26,7 +26,7 @@ layout: default.njk
 		<h1>{{ title }}</h1>
 
 		{% if publication is defined  %}
-		<p class="subtitle">Originally posted for <strong><a href="{{ canonical }}">{{ publication }}</a></strong></p>
+		<p class="subtitle">Originally posted on <strong><a href="{{ canonical }}">{{ publication }}</a></strong></p>
 		{% endif %}
 
 		<h3 class="is-hidden">
@@ -44,6 +44,8 @@ layout: default.njk
 		<div class="single-content">
 			{{ content | safe }}
 		</div>
+
+		<div class="alt">This website is currently having a full content audit - apologies if some of the code or content looks a bit funky!</div>
 
 		<div class="meta categories">
 			{% for tag in tags %}{% include 'tag.njk' %}{% endfor %}

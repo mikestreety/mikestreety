@@ -5,6 +5,8 @@ updated: 2020-01-27
 intro: 2019 was a strange year, new kitchen, bathroom car and bike. But overall it was good. I enjoyed it.
 tags:
  - General
+ - Ramblings
+ - Annual Review
 ---
 
 2019 was a strange year, and quiet for me "publicly". My blog post output dropped from previous years, writing **11** (although I've just looked and I only wrote **7** in 2018, so not sure what happened there!), my bike miles dropped (I barely did any weekend rides this year, it was just my commute propping up my miles) and my steps were less.
@@ -48,59 +50,59 @@ I like to reflect on my most popular blog posts and below are the most popular o
 
 ### Liquid Light
 
-I've written a few blogs posts for the company I work for (sorry, am director of!), so thought I would dig through the analytics there and try and work out my top 10 posts. If you would like to look at all the posts I've written for Liquid Light, you can check out my [author page](https://www.liquidlight.co.uk/blog/author/mike-street/). It is no surprise my Gulp 4 post is top.  This is the first year I've done this, so no comparison unfortunately! 
+I've written a few blogs posts for the company I work for (sorry, am director of!), so thought I would dig through the analytics there and try and work out my top 10 posts. If you would like to look at all the posts I've written for Liquid Light, you can check out my [author page](https://www.liquidlight.co.uk/blog/author/mike-street/). It is no surprise my Gulp 4 post is top.  This is the first year I've done this, so no comparison unfortunately!
 
 <table>
-    <tr>
-        <td><strong>1</strong></td>
-        <td><a href="https://www.liquidlight.co.uk/blog/how-do-i-update-to-gulp-4/">How do I update to Gulp 4?</a></td>
-        <td>22/03/2016</td>
-    </tr>
-    <tr>
-        <td><strong>2</strong></td>
-        <td><a href="https://www.liquidlight.co.uk/blog/raspberry-pi-what-is-it-and-why-do-i-need-one/">Raspberry Pi: what is it and why do i need one?</a></td>
-        <td>15/02/2016</td>
-    </tr>
-    <tr>
-        <td><strong>3</strong></td>
-        <td><a href="https://www.liquidlight.co.uk/blog/using-vue-js-with-a-lumen-powered-api/">Using Vue.js with a Lumen powered API</a></td>
-        <td>18/10/2018</td>
-    </tr>
-    <tr>
-        <td><strong>4</strong></td>
-        <td><a href="https://www.liquidlight.co.uk/blog/how-can-i-verify-my-google-event-tracking-is-working/">How can I verify my Google Event Tracking is working?</a></td>
-        <td>03/10/2017</td>
-    </tr>
-    <tr>
-        <td><strong>5</strong></td>
-        <td><a href="https://www.liquidlight.co.uk/blog/using-a-post-merge-git-hook-to-clean-up-old-branches/">Using a post-merge git hook to clean up old branches</a></td>
-        <td>28/03/2019</td>
-    </tr>
-    <tr>
-        <td><strong>6</strong></td>
-        <td><a href="https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-basic-workflow/">Git for Beginners: An Overview and Basic Workflow</a></td>
-        <td>10/03/2015</td>
-    </tr>
-    <tr>
-        <td><strong>7</strong></td>
-        <td><a href="https://www.liquidlight.co.uk/blog/navigation-drop-downs-should-they-be-hover-or-click/">Navigation drop-downs. Should they be hover or click?</a></td>
-        <td>24/07/2017</td>
-    </tr>
-    <tr>
-        <td><strong>8</strong></td>
-        <td><a href="https://www.liquidlight.co.uk/blog/why-were-not-dropping-slack-for-google-hangouts-chat-yet/">Why we're not dropping Slack for Google Hangouts Chat...yet.</a></td>
-        <td>15/03/2018</td>
-    </tr>
-    <tr>
-        <td><strong>9</strong></td>
-        <td><a href="https://www.liquidlight.co.uk/blog/creating-a-custom-mailchimp-template-with-layout-variations/">Creating a custom Mailchimp template with layout variations</a></td>
-        <td>04/05/2016</td>
-    </tr>
-    <tr>
-        <td><strong>10</strong></td>
-        <td><a href="https://www.liquidlight.co.uk/blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/">YouTube videos vs self-hosted: Which one is better for you?</a></td>
-        <td>25/01/2016</td>
-    </tr>
+	<tr>
+		<td><strong>1</strong></td>
+		<td><a href="https://www.liquidlight.co.uk/blog/how-do-i-update-to-gulp-4/">How do I update to Gulp 4?</a></td>
+		<td>22/03/2016</td>
+	</tr>
+	<tr>
+		<td><strong>2</strong></td>
+		<td><a href="https://www.liquidlight.co.uk/blog/raspberry-pi-what-is-it-and-why-do-i-need-one/">Raspberry Pi: what is it and why do i need one?</a></td>
+		<td>15/02/2016</td>
+	</tr>
+	<tr>
+		<td><strong>3</strong></td>
+		<td><a href="https://www.liquidlight.co.uk/blog/using-vue-js-with-a-lumen-powered-api/">Using Vue.js with a Lumen powered API</a></td>
+		<td>18/10/2018</td>
+	</tr>
+	<tr>
+		<td><strong>4</strong></td>
+		<td><a href="https://www.liquidlight.co.uk/blog/how-can-i-verify-my-google-event-tracking-is-working/">How can I verify my Google Event Tracking is working?</a></td>
+		<td>03/10/2017</td>
+	</tr>
+	<tr>
+		<td><strong>5</strong></td>
+		<td><a href="https://www.liquidlight.co.uk/blog/using-a-post-merge-git-hook-to-clean-up-old-branches/">Using a post-merge git hook to clean up old branches</a></td>
+		<td>28/03/2019</td>
+	</tr>
+	<tr>
+		<td><strong>6</strong></td>
+		<td><a href="https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-basic-workflow/">Git for Beginners: An Overview and Basic Workflow</a></td>
+		<td>10/03/2015</td>
+	</tr>
+	<tr>
+		<td><strong>7</strong></td>
+		<td><a href="https://www.liquidlight.co.uk/blog/navigation-drop-downs-should-they-be-hover-or-click/">Navigation drop-downs. Should they be hover or click?</a></td>
+		<td>24/07/2017</td>
+	</tr>
+	<tr>
+		<td><strong>8</strong></td>
+		<td><a href="https://www.liquidlight.co.uk/blog/why-were-not-dropping-slack-for-google-hangouts-chat-yet/">Why we're not dropping Slack for Google Hangouts Chat...yet.</a></td>
+		<td>15/03/2018</td>
+	</tr>
+	<tr>
+		<td><strong>9</strong></td>
+		<td><a href="https://www.liquidlight.co.uk/blog/creating-a-custom-mailchimp-template-with-layout-variations/">Creating a custom Mailchimp template with layout variations</a></td>
+		<td>04/05/2016</td>
+	</tr>
+	<tr>
+		<td><strong>10</strong></td>
+		<td><a href="https://www.liquidlight.co.uk/blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/">YouTube videos vs self-hosted: Which one is better for you?</a></td>
+		<td>25/01/2016</td>
+	</tr>
 </table>
 
 ## Stats
@@ -123,7 +125,6 @@ How many posts did I do on my Instagram accounts this year?
 As mentioned, my cycling struggled this year but I'm ok with that as it was for a good reason. In 2020 I'm going to try and get out more (and force myself to cycle in bad weather).
 
 <table class="fixed">
-
 <tr><th></th><th><strong>Distance</strong></th><th><strong>Time spent on rides</strong></th><th><strong>Elevation gain</strong></th><th><strong>Total number of rides</strong></th></tr>
 <tr><td class="center"><strong>2017</strong></td><td class="loser center">2,249.7 mi</td><td class="center">180h 16m</td><td class="winner center">134,459 ft</td><td class="center">443</td></tr>
 <tr><td class="center"><strong>2018</strong></td><td class="winner center">3,273.5 mi</td><td class="winner center">235h 24m</td><td class="center">112,178 ft</td><td class="center">291</td></tr>
@@ -137,8 +138,3 @@ I've now exclusively switched to Garmin for my wearable, which doesn't track ste
 <tr><th></th><th>Steps stepped</th><th>Floors climbed</th><th>Calories burned</th></tr>
 <tr><td class="center"><strong>2019</strong><td class="center">2,659,838</td><td class="center">4,583</td><td class="center">1,033,167</td></tr>
 </table>
-
-<style>
-.fixed {table-layout: fixed;}
-.fixed td {width: 100%;}
-</style>

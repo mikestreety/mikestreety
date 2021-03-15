@@ -6,6 +6,7 @@ intro: 2018 was a big year for me, in all sorts of ways. This blog post summaris
 tags:
  - General
  - Ramblings
+ - Annual Review
 ---
 
 <p class="featured">2018 was a <em>big</em> year for me and my family. Lots of exciting news and bucket list items </p>

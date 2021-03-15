@@ -5,7 +5,8 @@ updated: 2021-01-11
 intro: 2020 brought the first pandemic of my lifetime, but plenty of good things too
 tags:
  - General
- - Thoughts
+ - Ramblings
+ - Annual Review
 ---
 
 2020 was an absolute bellend of a year. It will go down in history books and probably be taught in schools in years to come. 2021 isn’t going to be much better, but at least those that make New Year's resolutions are going to be able to be more realistic, as they have acclimatised themselves to this new normal.
@@ -32,7 +33,7 @@ When lockdown started, there was an initial drop in work as companies tightened 
 
 We had a front-end developer. Minna, start 3 days before we took the decision to work from home. It’s been interesting teaching remotely but it seems to have worked (certainly helps that Minna is so easy going and a quick learner) and hasn’t put us off working & onboarding from home in the future.
 
-We also took on a new backend-developer, Zaq, in December. He’s hit the ground running and already feels like one of the team. Again, remote onboarding (while not perfect) seems to have worked. I did spend a week in the office with him on his first week pointing at things on the screen in a pysical world, which felt weird.
+We also took on a new backend-developer, Zaq, in December. He’s hit the ground running and already feels like one of the team. Again, remote onboarding (while not perfect) seems to have worked. I did spend a week in the office with him on his first week pointing at things on the screen in a physical world, which felt weird.
 
 With regards to my personal professional progression, 2020 saw the 3 new directors (Myself, Owen and Matt) fully run the company, with the existing directors transitioning into more of a safety net role. It was good to finally step up and take charge and it was reassuring to get positive feedback in our end-of-year internal 360 reviews.
 
@@ -79,16 +80,56 @@ The most popular posts on [mikestreety.co.uk](https://www.mikestreety.co.uk/) fo
 Interesting number 7 has stayed at 7 for 2 years running. No surprise the rest of the top 10 have remained the same due to my low blog post output this year.
 
 <table>
-<tr><td><strong>1</strong></td><td> - </td><td><a href="https://www.mikestreety.co.uk/blog/vue-js-using-localstorage-with-the-vuex-store">Vue: Using localStorage with Vuex store</a></td><td>13/10/17</td></tr>
-<tr><td><strong>2</strong></td><td><small>New!<small></td><td><a href="https://www.mikestreety.co.uk/blog/how-to-use-fetch-in-javascript-to-get-or-post-data">How to use fetch in JavaScript to GET or POST data</a></td><td>20/4/19</td></tr>
-<tr><td><strong>3</strong></td><td><small>New!<small></td><td><a href="https://www.mikestreety.co.uk/blog/the-git-commit-hash">The Git Commit Hash</a></td><td>28/5/20</td></tr>
-<tr><td><strong>4</strong></td><td class="loser">↓ 2</td><td><a href="https://www.mikestreety.co.uk/blog/multiple-transition-delay">Multiple transition delays</a></td><td>03/05/17</td></tr>
-<tr><td><strong>5</strong></td><td class="loser">↓ 2</td><td><a href="https://www.mikestreety.co.uk/blog/github-for-pc-and-setting-up-a-local-testing-environment">Github for PC and setting up a local testing environment</a></td><td>05/05/12</td></tr>
-<tr><td><strong>6</strong></td><td class="loser">↓ 1</td><td><a href="https://www.mikestreety.co.uk/blog/use-a-raspberry-pi-with-multiple-wifi-networks">Use a Raspberry Pi with multiple WiFi networks</a></td><td>11/10/15</td></tr>
-<tr><td><strong>7</strong></td><td> - </td><td><a href="https://www.mikestreety.co.uk/blog/vue-js-filters-what-are-they-how-do-you-use-them-and-how-do-you-make-them-video">Filters in Vue.js: What are they, how do you use them, and how do you make them?</a></td><td>08/11/17</td></tr>
-<tr><td><strong>8</strong></td><td class="loser">↓ 4</td><td><a href="https://www.mikestreety.co.uk/blog/get-background-image-information-if-element-has-a-one-in-jquery">Get background image information if element has a one in jQuery</a></td><td>04/03/16</td></tr>
-<tr><td><strong>9</strong></td><td class="loser">↓ 1</td><td><a href="https://www.mikestreety.co.uk/blog/filtering-tables">Filtering Tables</a></td><td>12/02/15</td></tr>
-<tr><td><strong>10</strong></td><td><small>New!<small></td><td><a href="https://www.mikestreety.co.uk/blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path">Using Cloudflare Workers to set a cookie based on a GET parameter or path</a></td><td>5/3/20</td></tr>
+<tr><td><strong>1</strong></td>
+<td> - </td>
+<td><a href="https://www.mikestreety.co.uk/blog/vue-js-using-localstorage-with-the-vuex-store">Vue: Using localStorage with Vuex store</a></td>
+<td>13/10/17</td>
+</tr>
+<tr><td><strong>2</strong></td>
+<td><small>New!<small></td>
+<td><a href="https://www.mikestreety.co.uk/blog/how-to-use-fetch-in-javascript-to-get-or-post-data">How to use fetch in JavaScript to GET or POST data</a></td>
+<td>20/4/19</td>
+</tr>
+<tr><td><strong>3</strong></td>
+<td><small>New!<small></td>
+<td><a href="https://www.mikestreety.co.uk/blog/the-git-commit-hash">The Git Commit Hash</a></td>
+<td>28/5/20</td>
+</tr>
+<tr><td><strong>4</strong></td>
+<td class="loser">↓ 2</td>
+<td><a href="https://www.mikestreety.co.uk/blog/multiple-transition-delay">Multiple transition delays</a></td>
+<td>03/05/17</td>
+</tr>
+<tr><td><strong>5</strong></td>
+<td class="loser">↓ 2</td>
+<td><a href="https://www.mikestreety.co.uk/blog/github-for-pc-and-setting-up-a-local-testing-environment">Github for PC and setting up a local testing environment</a></td>
+<td>05/05/12</td>
+</tr>
+<tr><td><strong>6</strong></td>
+<td class="loser">↓ 1</td>
+<td><a href="https://www.mikestreety.co.uk/blog/use-a-raspberry-pi-with-multiple-wifi-networks">Use a Raspberry Pi with multiple WiFi networks</a></td>
+<td>11/10/15</td>
+</tr>
+<tr><td><strong>7</strong></td>
+<td> - </td>
+<td><a href="https://www.mikestreety.co.uk/blog/vue-js-filters-what-are-they-how-do-you-use-them-and-how-do-you-make-them-video">Filters in Vue.js: What are they, how do you use them, and how do you make them?</a></td>
+<td>08/11/17</td>
+</tr>
+<tr><td><strong>8</strong></td>
+<td class="loser">↓ 4</td>
+<td><a href="https://www.mikestreety.co.uk/blog/get-background-image-information-if-element-has-a-one-in-jquery">Get background image information if element has a one in jQuery</a></td>
+<td>04/03/16</td>
+</tr>
+<tr><td><strong>9</strong></td>
+<td class="loser">↓ 1</td>
+<td><a href="https://www.mikestreety.co.uk/blog/filtering-tables">Filtering Tables</a></td>
+<td>12/02/15</td>
+</tr>
+<tr><td><strong>10</strong></td>
+<td><small>New!<small></td>
+<td><a href="https://www.mikestreety.co.uk/blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path">Using Cloudflare Workers to set a cookie based on a GET parameter or path</a></td>
+<td>5/3/20</td>
+</tr>
 </table>
 
 
@@ -99,56 +140,66 @@ And what about the posts on [Liquid Light](https://www.liquidlight.co.uk/blog/au
 The top 10 stayed exactly the same with just a couple of shuffles. I should really write some more posts all round!
 
 <table>
-    <tr>
-        <td><strong>1</strong></td><td> - </td>
-        <td><a href="https://www.liquidlight.co.uk/blog/how-do-i-update-to-gulp-4/">How do I update to Gulp 4?</a></td>
-        <td>22/03/2016</td>
-    </tr>
-    <tr>
-        <td><strong>2</strong></td><td class="winner">↑ 1</td>
-        <td><a href="https://www.liquidlight.co.uk/blog/using-vue-js-with-a-lumen-powered-api/">Using Vue.js with a Lumen powered API</a></td>
-        <td>18/10/2018</td>
-    </tr>
-    <tr>
-        <td><strong>3</strong></td><td class="winner">↑ 1</td>
-        <td><a href="https://www.liquidlight.co.uk/blog/how-can-i-verify-my-google-event-tracking-is-working/">How can I verify my Google Event Tracking is working?</a></td>
-        <td>03/10/2017</td>
-    </tr>
-    <tr>
-        <td><strong>4</strong></td><td class="winner">↑ 1</td>
-        <td><a href="https://www.liquidlight.co.uk/blog/using-a-post-merge-git-hook-to-clean-up-old-branches/">Using a post-merge git hook to clean up old branches</a></td>
-        <td>28/03/2019</td>
-    </tr>
-    <tr>
-        <td><strong>5</strong></td><td class="loser">↓ 3</td>
-        <td><a href="https://www.liquidlight.co.uk/blog/raspberry-pi-what-is-it-and-why-do-i-need-one/">Raspberry Pi: what is it and why do i need one?</a></td>
-        <td>15/02/2016</td>
-    </tr>
-    <tr>
-        <td><strong>6</strong></td><td> - </td>
-        <td><a href="https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-basic-workflow/">Git for Beginners: An Overview and Basic Workflow</a></td>
-        <td>10/03/2015</td>
-    </tr>
-    <tr>
-        <td><strong>7</strong></td><td> - </td>
-        <td><a href="https://www.liquidlight.co.uk/blog/navigation-drop-downs-should-they-be-hover-or-click/">Navigation drop-downs. Should they be hover or click?</a></td>
-        <td>24/07/2017</td>
-    </tr>
-    <tr>
-        <td><strong>8</strong></td><td class="winner">↑ 1</td>
-        <td><a href="https://www.liquidlight.co.uk/blog/creating-a-custom-mailchimp-template-with-layout-variations/">Creating a custom Mailchimp template with layout variations</a></td>
-        <td>04/05/2016</td>
-    </tr>
-    <tr>
-        <td><strong>9</strong></td><td class="loser">↓ 1</td>
-        <td><a href="https://www.liquidlight.co.uk/blog/why-were-not-dropping-slack-for-google-hangouts-chat-yet/">Why we're not dropping Slack for Google Hangouts Chat...yet.</a></td>
-        <td>15/03/2018</td>
-    </tr>
-    <tr>
-        <td><strong>10</strong></td><td> - </td>
-        <td><a href="https://www.liquidlight.co.uk/blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/">YouTube videos vs self-hosted: Which one is better for you?</a></td>
-        <td>25/01/2016</td>
-    </tr>
+	<tr>
+		<td><strong>1</strong></td>
+		<td> - </td>
+		<td><a href="https://www.liquidlight.co.uk/blog/how-do-i-update-to-gulp-4/">How do I update to Gulp 4?</a></td>
+		<td>22/03/2016</td>
+	</tr>
+	<tr>
+		<td><strong>2</strong></td>
+		<td class="winner">↑ 1</td>
+		<td><a href="https://www.liquidlight.co.uk/blog/using-vue-js-with-a-lumen-powered-api/">Using Vue.js with a Lumen powered API</a></td>
+		<td>18/10/2018</td>
+	</tr>
+	<tr>
+		<td><strong>3</strong></td>
+		<td class="winner">↑ 1</td>
+		<td><a href="https://www.liquidlight.co.uk/blog/how-can-i-verify-my-google-event-tracking-is-working/">How can I verify my Google Event Tracking is working?</a></td>
+		<td>03/10/2017</td>
+	</tr>
+	<tr>
+		<td><strong>4</strong></td>
+		<td class="winner">↑ 1</td>
+		<td><a href="https://www.liquidlight.co.uk/blog/using-a-post-merge-git-hook-to-clean-up-old-branches/">Using a post-merge git hook to clean up old branches</a></td>
+		<td>28/03/2019</td>
+	</tr>
+	<tr>
+		<td><strong>5</strong></td>
+		<td class="loser">↓ 3</td>
+		<td><a href="https://www.liquidlight.co.uk/blog/raspberry-pi-what-is-it-and-why-do-i-need-one/">Raspberry Pi: what is it and why do i need one?</a></td>
+		<td>15/02/2016</td>
+	</tr>
+	<tr>
+		<td><strong>6</strong></td>
+		<td> - </td>
+		<td><a href="https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-basic-workflow/">Git for Beginners: An Overview and Basic Workflow</a></td>
+		<td>10/03/2015</td>
+	</tr>
+	<tr>
+		<td><strong>7</strong></td>
+		<td> - </td>
+		<td><a href="https://www.liquidlight.co.uk/blog/navigation-drop-downs-should-they-be-hover-or-click/">Navigation drop-downs. Should they be hover or click?</a></td>
+		<td>24/07/2017</td>
+	</tr>
+	<tr>
+		<td><strong>8</strong></td>
+		<td class="winner">↑ 1</td>
+		<td><a href="https://www.liquidlight.co.uk/blog/creating-a-custom-mailchimp-template-with-layout-variations/">Creating a custom Mailchimp template with layout variations</a></td>
+		<td>04/05/2016</td>
+	</tr>
+	<tr>
+		<td><strong>9</strong></td>
+		<td class="loser">↓ 1</td>
+		<td><a href="https://www.liquidlight.co.uk/blog/why-were-not-dropping-slack-for-google-hangouts-chat-yet/">Why we're not dropping Slack for Google Hangouts Chat...yet.</a></td>
+		<td>15/03/2018</td>
+	</tr>
+	<tr>
+		<td><strong>10</strong></td>
+		<td> - </td>
+		<td><a href="https://www.liquidlight.co.uk/blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/">YouTube videos vs self-hosted: Which one is better for you?</a></td>
+		<td>25/01/2016</td>
+	</tr>
 </table>
 
 
@@ -158,11 +209,31 @@ The top 10 stayed exactly the same with just a couple of shuffles. I should real
 It's no surprise with plenty of lockdowns and lack of socialising (and going places) that my personal instagram suffered and my beer review account thrived
 
 <table class="fixed">
-<tr><th></th><th><a href="https://www.instagram.com/mikestreety/">Personal</a></th><th><a href="https://www.instagram.com/ale_house_rock/">Ale House Rock</a></th></tr>
-<tr><td class="center"><strong>2017</strong></td><td class="center">39</td><td class="center">91</td></tr>
-<tr><td class="center"><strong>2018</strong></td><td class="center">24</td><td class="center">101</td></tr>
-<tr><td class="center"><strong>2019</strong></td><td class="center">29</td><td class="center">77</td></tr>
-<tr><td class="center"><strong>2020</strong></td><td class="center">6</td><td class="center">138</td></tr>
+	<tr>
+		<th></th>
+		<th><a href="https://www.instagram.com/mikestreety/">Personal</a></th>
+		<th><a href="https://www.instagram.com/ale_house_rock/">Ale House Rock</a></th>
+	</tr>
+	<tr>
+		<td class="center"><strong>2017</strong></td>
+		<td class="center">39</td>
+		<td class="center">91</td>
+	</tr>
+	<tr>
+		<td class="center"><strong>2018</strong></td>
+		<td class="center">24</td>
+		<td class="center">101</td>
+	</tr>
+	<tr>
+		<td class="center"><strong>2019</strong></td>
+		<td class="center">29</td>
+		<td class="center">77</td>
+	</tr>
+	<tr>
+		<td class="center"><strong>2020</strong></td>
+		<td class="center">6</td>
+		<td class="center">138</td>
+	</tr>
 </table>
 
 ### Cycling
@@ -172,11 +243,41 @@ As mentioned at the beginning, my cycling dropped a lot over 2020. With working 
 Interesting that, because the rides I did in 2020 were _rides_ and not flat commutes, the elevation gain is much higher this year!
 
 <table class="fixed">
-<tr><th></th><th><strong>Distance</strong></th><th><strong>Time spent on rides</strong></th><th><strong>Elevation gain</strong></th><th><strong>Total number of rides</strong></th></tr>
-<tr><td class="center"><strong>2017</strong></td><td class="loser center">2,249.7 mi</td><td class="center">180h 16m</td><td class="winner center">134,459 ft</td><td class="center">443</td></tr>
-<tr><td class="center"><strong>2018</strong></td><td class="winner center">3,273.5 mi</td><td class="winner center">235h 24m</td><td class="center">112,178 ft</td><td class="center">291</td></tr>
-<tr><td class="center"><strong>2019</strong></td><td class="loser center">2,689.4 mi</td><td  class="loser center">178h 45m</td><td  class="loser center">46,368 ft</td><td class="center">288</td></tr>
-<tr><td class="center"><strong>2020</strong></td><td class="loser center">1,927.3 mi</td><td  class="loser center">132h 56m</td><td  class="winner center">69,400 ft</td><td class="center">	149</td></tr>
+	<tr>
+		<th></th>
+		<th><strong>Distance</strong></th>
+		<th><strong>Time spent on rides</strong></th>
+		<th><strong>Elevation gain</strong></th>
+		<th><strong>Total number of rides</strong></th>
+	</tr>
+	<tr>
+		<td class="center"><strong>2017</strong></td>
+		<td class="loser center">2,249.7 mi</td>
+		<td class="center">180h 16m</td>
+		<td class="winner center">134,459 ft</td>
+		<td class="center">443</td>
+	</tr>
+	<tr>
+		<td class="center"><strong>2018</strong></td>
+		<td class="winner center">3,273.5 mi</td>
+		<td class="winner center">235h 24m</td>
+		<td class="center">112,178 ft</td>
+		<td class="center">291</td>
+	</tr>
+	<tr>
+		<td class="center"><strong>2019</strong></td>
+		<td class="loser center">2,689.4 mi</td>
+		<td  class="loser center">178h 45m</td>
+		<td  class="loser center">46,368 ft</td>
+		<td class="center">288</td>
+	</tr>
+	<tr>
+		<td class="center"><strong>2020</strong></td>
+		<td class="loser center">1,927.3 mi</td>
+		<td  class="loser center">132h 56m</td>
+		<td  class="winner center">69,400 ft</td>
+		<td class="center">149</td>
+	</tr>
 </table>
 
 ### Walking
@@ -184,7 +285,20 @@ Interesting that, because the rides I did in 2020 were _rides_ and not flat comm
 Once again, there is no surprise all the walking stats are lower
 
 <table class="fixed">
-<tr><th></th><th>Steps stepped</th><th>Floors climbed</th><th>Calories burned</th></tr>
-<tr><td class="center"><strong>2019</strong><td class="center">2,659,838</td><td class="center">4,583</td><td class="center">1,033,167</td></tr>
-<tr><td class="center"><strong>2020</strong><td class="center loser">2,126,312</td><td class="center loser">2,690</td><td class="center loser">1,020,728</td></tr>
+	<tr>
+		<th></th>
+		<th>Steps stepped</th>
+		<th>Floors climbed</th>
+		<th>Calories burned</th>
+	</tr>
+	<tr>
+		<td class="center"><strong>2019</strong><td class="center">2,659,838</td>
+		<td class="center">4,583</td>
+		<td class="center">1,033,167</td>
+	</tr>
+	<tr>
+		<td class="center"><strong>2020</strong><td class="center loser">2,126,312</td>
+		<td class="center loser">2,690</td>
+		<td class="center loser">1,020,728</td>
+	</tr>
 </table>
