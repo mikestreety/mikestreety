@@ -7,6 +7,7 @@ tags:
  - Javascript
 ---
 
+
 I spent a good half-hour searching for a solution to my problem the other night, only to realise it was a Javascript solution, not an 11ty problem.
 
 My website contains [several filters](https://gitlab.com/mikestreety/mikestreety/-/tree/master/app/filters) which allow me to process data (e.g. `slugify`).
@@ -15,8 +16,11 @@ These allow me to process data in my 11ty templates, layouts and content.
 
 For example, with the `slugify` filter and the Nunjucks templating language, I can do
 
-<pre><code>entry.title | slugify</code></pre>
-
+{% raw %}
+```
+{{ entry.title | slugify }}
+```
+{% endraw %}
 
 If `entry.title` was "This is a Title!", then it would become "this-is-a-title".
 

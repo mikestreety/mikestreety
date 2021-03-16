@@ -1,5 +1,5 @@
 ---
-title: Build your own \"share this\" component
+title: Build your own "share this" component
 date: 2019-05-03
 updated: 2019-05-23
 intro: Using a Share This plugin (or similar) or the native sharing widgets from social networks can really bloat your page and look ugly. This code is how we, at Liquid Light, implement social sharing widgets
@@ -8,7 +8,9 @@ tags:
  - Javascript
 ---
 
-_Note: The Javascript examples in this post are written with jQuery as we still use it at [Liquid Light](https://www.liquidlight.co.uk/)_
+{% raw %}
+
+_Note: The Javascript examples in this post are written with jQuery as we use it at [Liquid Light](https://www.liquidlight.co.uk/)_
 
 Codepen just shared a blog post about [sharing to dev](https://blog.codepen.io/2019/05/02/share-to-dev/) with a snippet of how to share to Twitter without needing their embed/iframe widget thing and it reminded me of some code we use at Liquid Light instead of ShareThis or the native sharing widgets from social media platforms.
 
@@ -27,17 +29,20 @@ The `SHARINGTEXT` we use is generally the `h1` from the page.
 
 If you were to use this in a template for your blog or webpage, you could use them like so:
 
-<pre class="language-html">&lt;ul class="socialShare"&gt;
-	&lt;li&gt;&lt;a href="https://www.facebook.com/sharer.php?u=URL" class="facebook" title="Share on Facebook"&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="https://twitter.com/intent/tweet?text=SHARINGTEXT+-+URL" class="twitter" title="Share on Twitter"&gt; &lt;span&gt;Twitter&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href="https://www.linkedin.com/shareArticle?url=URL&amp;title=SHARINGTEXT" class="linkedIn" title="Share on LinkedIn"&gt;&lt;span&gt;LinkedIn&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</pre>
+```html
+<ul class="socialShare">
+	<li><a href="https://www.facebook.com/sharer.php?u=URL" class="facebook" title="Share on Facebook"><span>Facebook</span></a></li>
+	<li><a href="https://twitter.com/intent/tweet?text=SHARINGTEXT+-+URL" class="twitter" title="Share on Twitter"> <span>Twitter</span></a></li>
+	<li><a href="https://www.linkedin.com/shareArticle?url=URL&title=SHARINGTEXT" class="linkedIn" title="Share on LinkedIn"><span>LinkedIn</span></a></li>
+</ul>
+```
 
 ## A little bit of JavaScript
 
 These sharing URLs are designed to be opened in smaller windows, however, so opening on a big screen might make them look a little bit awkward. With a snipped of JavaScript, we can make them appear in smaller "popup" windows, this makes it feel a bit more native with its sharing:
 
-<pre class="language-js">var popupCenter = function (url, title, w, h) {
+```js
+var popupCenter = function (url, title, w, h) {
 	var dualScreenLeft = window.screenLeft !== undefined ? window.screenLeft : screen.left;
 	var dualScreenTop = window.screenTop !== undefined ? window.screenTop : screen.top;
 
@@ -55,21 +60,21 @@ These sharing URLs are designed to be opened in smaller windows, however, so ope
 	if (window.focus) {
 		newWindow.focus();
 	}
-};</pre>
+};
+```
 
 _Code from [Github](https://github.com/kni-labs/rrssb)_
 
 You can then instantiate it with the following:
 
-
-
-<pre class="language-js">$('.socialShare a').on('click.socialShare', function(e) {
+```js
+$('.socialShare a').on('click.socialShare', function(e) {
 	e.preventDefault();
 
 	var self = $(this);
 	PopupCenter(self.attr('href'), self.find('.text').html(), 600, 450);
-});</pre>
-
+});
+```
 
 ## More JavaScript
 
@@ -77,16 +82,19 @@ If you wanted to abstract the code even further you can move the template buildi
 
 ### The HTML code
 
-<pre class="language-html">&lt;div class="shareThis" data-services="twitter, facebook, linkedin, email"&gt;&lt;/div&gt;</pre>
+```html
+<div class="shareThis" data-services="twitter, facebook, linkedin, email"></div>
+```
 
 ### The Javascript (jQuery) code
 
-<pre class="language-js">if($('.shareThis').length) {
+```js
+if($('.shareThis').length) {
 	var container = $('.shareThis'),
 		services = container.data('services').split(',').map(function(elem) {
 			return elem.trim().toLowerCase();
 		}),
-		shareLinks = $('&lt;div /&gt;'), // Placeholder content
+		shareLinks = $('<div />;'), // Placeholder content
 		shareUrls = {
 			facebook: 'https://www.facebook.com/sharer.php?u={{ url }}',
 			twitter: 'https://twitter.com/intent/tweet?text={{ title }}&url={{ url }}',
@@ -100,17 +108,20 @@ If you wanted to abstract the code even further you can move the template buildi
 			.replace(/{{ title }}/g, encodeURI($('h1').first().text().trim()));
 
 		shareLinks.append(
-			'&lt;li&gt' +
-				'&lt;a href="' + url + '" class="' + services[i] + '"&gt' +
-					'&lt;span>' + services[i] + '&lt;/span&gt' +
-				'&lt;/a&gt' +
-			'&lt;/li&gt'
+			'<li>' +
+				'<a href="' + url + '" class="' + services[i] + '">' +
+					'<span>' + services[i] + '</span>' +
+				'</a>' +
+			'</li>'
 		);
 	}
 
 	container.html(
-		'&lt;ul class="socialShare"&gt' +
+		'<ul class="socialShare">' +
 			shareLinks.html() +
-		'&lt;/ul&gt'
+		'</ul>'
 	);
-}</pre>
+}
+```
+
+{% endraw %}

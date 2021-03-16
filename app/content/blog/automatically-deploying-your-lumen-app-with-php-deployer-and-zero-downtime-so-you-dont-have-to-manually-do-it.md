@@ -6,7 +6,10 @@ intro: PHP Deployer is a great little utility for deploying your PHP app via com
 tags:
  - Web
  - PHP
+ - Lumen
+ - Laravel
 ---
+{% raw %}
 
 [PHP Deployer](https://deployer.org/) is a great little utility for deploying your PHP app via command line. It doesn't force you to use any specific tech stack and simplifies the process of getting your app live.
 
@@ -23,7 +26,7 @@ I have a Lumen app which I will be deploying with Deployer in this blog post, so
 
 ## Install
 
-There are a couple of ways you can [install](https://deployer.org/docs/installation.html) deployer. To keep my code device & environment agnostic, I have opted for the [composer](https://deployer.org/docs/installation.html#distribution-composer-installation) method. 
+There are a couple of ways you can [install](https://deployer.org/docs/installation.html) deployer. To keep my code device & environment agnostic, I have opted for the [composer](https://deployer.org/docs/installation.html#distribution-composer-installation) method.
 
 This means I don't have to set up deployer on the machine if I wish to deploy my app, just SSH access and composer.
 
@@ -38,15 +41,15 @@ Once deployed (the example below has a couple of deployments), a PHP Deployer ap
 - current -> releases/2
 - .dep/
 - releases/
-  - 1/
-     - ... your application code
-     - .env -> ../../shared/.env
-   - 2/
-     - ... your application code
-     - .env -> ../../shared/.env
+	- 1/
+		- ... your application code
+		- .env -> ../../shared/.env
+	- 2/
+		- ... your application code
+		- .env -> ../../shared/.env
 - shared/
-   - .env
-   - storage/
+	 - .env
+	 - storage/
 
 (I hope that makes sense).
 
@@ -62,7 +65,9 @@ I negated the server reconfiguration by using PHP deployed to deploy alongside m
 
 Deployer has an init function you can run
 
-<pre class="language-bash">dep init</pre>
+```bash
+dep init
+```
 
 This asks for the framework you are using and creates a default `deploy.php` in the root of the project. As my app is Lumen, I chose Laravel.
 
@@ -72,8 +77,10 @@ Open up the `deploy.php` and update the `host()` section. The contents of `host`
 
 You can, if required, add a `->user` to the host, if it is not the same as your current user (or you haven't set up the ssh config file). For example:
 
-<pre class="language-php">host('123.456.789.100')
-	->user('mike')</pre>
+```php
+host('123.456.789.100')
+	->user('mike')
+```
 
 With the `deploy_path`, make sure this is an absolute path. The rest of the default `deploy.php` can be left as is.
 
@@ -87,7 +94,8 @@ Lumen, although built by the creators of Laravel, has several differences in the
 
 The Laravel recipe comes with a lot of `artisan` ready commands, which don't work with lumen. To remove them from the `dep` help screen, you can make them empty functions and set them private.
 
-<pre class="language-php">task('artisan:config:cache', function() {})->setPrivate();
+```php
+task('artisan:config:cache', function() {})->setPrivate();
 task('artisan:down', function() {})->setPrivate();
 task('artisan:event:cache', function() {})->setPrivate();
 task('artisan:event:clear', function() {})->setPrivate();
@@ -98,21 +106,25 @@ task('artisan:route:cache', function() {})->setPrivate();
 task('artisan:storage:link', function() {})->setPrivate();
 task('artisan:up', function() {})->setPrivate();
 task('artisan:view:cache', function() {})->setPrivate();
-task('artisan:view:clear', function() {})->setPrivate();</pre>
+task('artisan:view:clear', function() {})->setPrivate();
+```
 
 ### Creating a cache:clear task
 
 The next step is to utilise the `cache:clear` artisan command available. We can make a new task at the end of our `deploy.php`:
 
-<pre class="language-php">task('artisan:cache:clear', function () {
+```php
+task('artisan:cache:clear', function () {
 	run('{{bin/php}} {{release_path}}/artisan cache:clear');
-})->desc('Execute artisan cache:clear');</pre>
+})->desc('Execute artisan cache:clear');
+```
 
 ### Overriding `deploy` task
 
 Lastly, we override the `deploy` task, which removes the Laravel commands and adds in our `artisan:cache:clear` command.
 
-<pre class="language-php">task('deploy', [
+```php
+task('deploy', [
 	'deploy:info',
 	'deploy:prepare',
 	'deploy:lock',
@@ -125,13 +137,15 @@ Lastly, we override the `deploy` task, which removes the Laravel commands and ad
 	'deploy:symlink',
 	'deploy:unlock',
 	'cleanup',
-]);</pre>
+]);
+```
 
 ## Final file
 
 With our Lumen customisations in place, the `deploy.php` file should look like the below (note, I've capitalised the variables you should change).
 
-<pre class="language-php">&lt;?php
+```php
+&lt;?php
 namespace Deployer;
 
 require 'recipe/laravel.php';
@@ -179,4 +193,6 @@ task('deploy', [
 	'deploy:symlink',
 	'deploy:unlock',
 	'cleanup',
-]);</pre>
+]);
+```
+{% endraw %}
