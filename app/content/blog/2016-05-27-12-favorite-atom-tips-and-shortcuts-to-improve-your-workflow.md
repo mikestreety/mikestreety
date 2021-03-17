@@ -5,6 +5,7 @@ updated: 2021-03-11
 intro: Atom is a fantastic IDE and is hugely powerful. I share my favourite, time-saving tips, packages and shortcuts for GitHub's Atom code editor.
 canonical: https://www.sitepoint.com/12-favorite-atom-tips-and-shortcuts-to-improve-your-workflow/
 publication: Sitepoint
+permalink: "blog/12-favorite-atom-tips-and-shortcuts-to-improve-your-workflow/"
 tags:
  - Web
  - IDE

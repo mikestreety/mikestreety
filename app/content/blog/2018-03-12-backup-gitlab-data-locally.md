@@ -3,6 +3,7 @@ title: Backup Gitlab data locally
 date: 2018-03-12
 updated: 2018-03-12
 intro: I've recently moved all of my git repositories to Gitlab, this blog post walks through a script I have written to clone all of my repositories locally as a backup.
+permalink: "blog/backup-gitlab-data-locally"
 tags:
  - Web
  - PHP
@@ -29,7 +30,7 @@ The first line is a `shebang`. This allows you to just run the file without to s
 
 ```php
 #!/usr/bin/php
-&lt;?php
+<?php
 	// Function to make any Gitlab cURL requests easier and it just requires
 	// the path to be passed in. No need to use a full API composer package
 	// for these commands

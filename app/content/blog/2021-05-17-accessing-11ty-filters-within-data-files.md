@@ -2,6 +2,7 @@
 title: Accessing 11ty filters within data files to keep your code DRY
 date: 2021-05-17
 intro: 11ty filters can exist as JS functions inside the declared filters directory - these can be accessed by other files not processed by 11ty
+permalink: "blog/accessing-11ty-filters-within-data-files/"
 tags:
  - 11ty
  - Javascript

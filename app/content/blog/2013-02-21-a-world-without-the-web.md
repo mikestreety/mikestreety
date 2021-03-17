@@ -3,6 +3,7 @@ title: A world without the web
 date: 2013-02-21
 updated: 2016-04-08
 intro: For those of you that know me, you would be aware that I have recently moved house. For those of you that don't, I have recently moved house.
+permalink: "blog/a-world-without-the-web/"
 tags:
  - General
  - Ramblings

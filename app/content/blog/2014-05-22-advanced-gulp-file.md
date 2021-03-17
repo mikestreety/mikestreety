@@ -3,6 +3,7 @@ title: Advanced Gulp File
 date: 2014-05-22
 updated: 2019-03-27
 intro: With gulp starting to find itself into my everyday workflow - I've started to understand its quirks and twists, and how to get along with it. This is an advancement on my original gulpfile from a few months ago
+permalink: "blog/advanced-gulp-file/"
 tags:
  - Web
  - Front-end Development

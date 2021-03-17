@@ -3,6 +3,7 @@ title: A basic SCSS compilation gulpfile.js
 date: 2014-03-17
 updated: 2019-03-27
 intro: This post introduces how to compile SCSS with Gulp along with some core concepts
+permalink: "blog/a-simple-sass-compilation-gulpfile-js/"
 tags:
  - Web
  - CSS
