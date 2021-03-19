@@ -3,6 +3,7 @@ title: Don't require password for sudo commands as non-root user
 date: 2017-07-23
 updated: 2017-07-24
 intro: Sometimes you don't want to have to enter your password every time you run a sudo command - this blog post walks you through disabling that.
+permalink: "blog/dont-require-password-for-sudo-commands-as-non-root-user/"
 tags:
  - Web
  - Command Line
@@ -18,50 +19,69 @@ It is possible to disable the need for a password when running `sudo` commands. 
 
 This is the preferred option and means your changes won't get wiped out by an OS update or upgrade. For the next few steps (and to make sure you only have to enter your password one last time) switch to the _super user_
 
-<pre class="language-bash">$ sudo su</pre>
+```bash
+$ sudo su
+```
 
 Next, change directory to the `/etc` folder and list the contents:
 
-<pre class="language-bash">$ cd /etc
-$ ls</pre>
+```bash
+$ cd /etc
+$ ls
+```
 
-Have a look and see if a `sudoers.d` folder exists - if it does, carry on. If not, switch to **[Option 2](#option-2)**. 
+Have a look and see if a `sudoers.d` folder exists - if it does, carry on. If not, switch to **[Option 2](#option-2)**.
 
 If you're still here, make a new file in the `sudoers.d` folder - I called mine the name of the user (e.g. mike). To work on `sudoers` files, we need to use `visudo`. The commands are very similar to `nano` but I'll cover what you need to do anyway.
 
-<pre class="language-bash">$ visudo -f /etc/sudoers.d/mike</pre>
+```bash
+$ visudo -f /etc/sudoers.d/mike
+```
 
 Copy and paste the below line, changing `mike` to the name of your user
 
-<pre class="language-bash">mike ALL=(ALL) NOPASSWD: ALL</pre>
+```bash
+mike ALL=(ALL) NOPASSWD: ALL
+```
 
 Press **Ctrl + X** then **y** then **Enter**  - this saves and exits the file. Now change the permissions of the file:
 
-<pre class="language-bash">chmod 0440 /etc/sudoers.d/mike</pre>
+```bash
+chmod 0440 /etc/sudoers.d/mike
+```
 
 The next step is to ensure this file is being loaded. Open the `sudoers` file:
 
-<pre class="language-bash">$ visudo -f /etc/sudoers</pre>
+```bash
+$ visudo -f /etc/sudoers
+```
 
 And look for the following line (the `#` is part of the include, not a comment!)
 
-<pre class="language-bash">#includedir /etc/sudoers.d</pre>
+```bash
+#includedir /etc/sudoers.d
+```
 
-If it is not present, add it to the bottom of the file. 
+If it is not present, add it to the bottom of the file.
 
 Type `exit` to exit out of super user and try a `sudo` command - hopefully, it should do it without any issues!
 
+<div id="option-2"></div>
 ## Option 2
 
 The second option is a lot simpler than the first but is prone to be reset during an update or upgrade.
 
 Open the sudoers file (you'll be prompted for your password - this is the last time!)
 
-<pre class="language-bash">$ sudo visudo -f /etc/sudoers</pre>
+```bash
+$ sudo visudo -f /etc/sudoers
+```
 
 And add the following line to the bottom of the file (changing `mike` to your username)
 
-<pre class="language-bash">mike ALL=(ALL) NOPASSWD: ALL</pre>
+```bash
+mike ALL=(ALL) NOPASSWD: ALL
+```
 
 Press **Ctrl + X** then **y** then **Enter**  - this saves and exits the file.
 

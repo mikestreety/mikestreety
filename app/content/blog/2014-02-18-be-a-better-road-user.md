@@ -3,7 +3,7 @@ title: Be a Better Road User
 date: 2014-02-18
 updated: 2016-04-09
 intro: I've been cycling since I can remember, and driving since 2009. Over the last few years, I've believed something more and more and I would like to make a bold statement - Cyclists make better drivers, drivers make better cyclists
-permalink: "blog/be-a-better-road-user"
+permalink: "blog/be-a-better-road-user/"
 tags:
  - General
  - Ramblings

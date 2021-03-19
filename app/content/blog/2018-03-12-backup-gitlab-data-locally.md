@@ -3,7 +3,7 @@ title: Backup Gitlab data locally
 date: 2018-03-12
 updated: 2018-03-12
 intro: I've recently moved all of my git repositories to Gitlab, this blog post walks through a script I have written to clone all of my repositories locally as a backup.
-permalink: "blog/backup-gitlab-data-locally"
+permalink: "blog/backup-gitlab-data-locally/"
 tags:
  - Web
  - PHP

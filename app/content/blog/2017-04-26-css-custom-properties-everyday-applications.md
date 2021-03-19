@@ -3,6 +3,7 @@ title: CSS Custom Properties - everyday applications
 date: 2017-04-26
 updated: 2017-06-07
 intro: CSS Custom properties are now supported in Edge, meaning you can use them nearly everywhere. However, there are some cases where further browser support is required. Using PostCSS we can use CSS custom properties in development while still maintaining cross browser support.
+permalink: "blog/css-custom-properties-everyday-applications/"
 tags:
  - Web
  - CSS
@@ -24,7 +25,7 @@ The big advantage to me for using custom properties is not having to specify new
 
 #### Written CSS
 
-<pre class="language-scss">
+```scss
 :root {
 	--gutter: 1rem;
 
@@ -43,11 +44,11 @@ div {
 h2 {
 	margin-bottom: var(--gutter);
 }
-</pre>
+```
 
 #### Output CSS
 
-<pre class="language-css">
+```css
 div {
 	padding: 1rem;
 }
@@ -72,7 +73,7 @@ h2 {
 		margin-bottom: 2rem;
 	}
 }
-</pre>
+```
 
 As you can see, the written CSS is smaller, cleaner and easier to understand while producing the same CSS as to what you would normally write.
 
@@ -82,7 +83,7 @@ I had a gradient the other day which needed to change direction on a certain scr
 
 #### Written CSS
 
-<pre class="language-scss">
+```scss
 div {
 	--direction: to bottom; // Change the direction of the gradient on mobile
 
@@ -96,11 +97,11 @@ div {
 		--direction: to right;
 	}
 }
-</pre>
+```
 
 #### Output CSS
 
-<pre class="language-css">
+```css
 div {
 	background: linear-gradient(
 		to bottom,
@@ -118,7 +119,7 @@ div {
 		);
 	}
 }
-</pre>
+```
 
 This makes it easier for me and other developers to see the only thing changing is the direction (rather than having to compare the two gradient declarations).
 
@@ -128,7 +129,7 @@ You may wish to change the font size of your headings at various breakpoints - C
 
 #### Written CSS
 
-<pre class="language-scss">
+```scss
 :root {
 	--size: 1rem;
 
@@ -147,11 +148,11 @@ h1 {
 h2 {
 	font-size: var(--size);
 }
-</pre>
+```
 
 #### Output CSS
 
-<pre class="language-css">
+```css
 h1 {
 	font-size: calc(var(--size) * 2);
 }
@@ -175,7 +176,7 @@ h2 {
 		font-size: 2rem;
 	}
 }
-</pre>
+```
 
 _I realise the `calc` are slightly useless in this example as it's simple maths that could be converted, this is just a proof of concept. Plus, when using actual CSS custom properties, `calc` would be required._
 
