@@ -1,7 +1,8 @@
 ---
 layout: page.njk
-title: Blog
-description: Blog posts by Mike Street
+eleventyComputed:
+  title: "{% if pagination.pageNumber %}Page {{ (pagination.pageNumber + 1) }} - {% endif %}Blog"
+  description: "{% if pagination.pageNumber %}Page {{ (pagination.pageNumber + 1) }} of blog{% else %}Blog{% endif %} posts by Mike Street, developer and side-project-aholic from the South of England"
 eleventyNavigation:
   key: Blog
   order: 2
