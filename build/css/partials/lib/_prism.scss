@@ -6,6 +6,7 @@
 * @homepage https://github.com/ArmandPhilippot/coldark-prism
 * @license MIT
 */
+pre,
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #e3eaf2;
@@ -41,6 +42,7 @@ code[class*="language-"] ::selection {
 }
 
 /* Code blocks */
+pre,
 pre[class*="language-"] {
 	padding: 1em;
 	margin: 0.5em 0;
@@ -48,7 +50,8 @@ pre[class*="language-"] {
 }
 
 :not(pre) > code[class*="language-"],
-pre[class*="language-"] {
+pre[class*="language-"],
+pre {
 	background: #111b27;
 }
 

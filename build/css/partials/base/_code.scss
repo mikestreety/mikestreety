@@ -5,6 +5,7 @@ code {
 	display: inline-block;
 	padding: 0 0.3rem;
 	font-size: 0.9em;
+	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
 code::before {
 	content: '';
@@ -38,6 +39,6 @@ pre code::before {
 	display: none;
 }
 
-pre[class*=language-] {
+pre {
 	margin-bottom: var(--gutter);
 }

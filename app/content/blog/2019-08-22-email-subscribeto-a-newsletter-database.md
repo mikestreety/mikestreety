@@ -3,6 +3,7 @@ title: email.subscribeto - a newsletter database
 date: 2019-08-22
 updated: 2019-11-13
 intro: I've always been keen to discover new newsletters and have always kept my eye out for recommendations. I decided to collate these recommendations and build a directory.
+permalink: "blog/email-subscribeto-a-newsletter-database/"
 tags:
  - Web
  - General
@@ -20,11 +21,11 @@ After 2 years a new version is now live, bigger, better and more user-friendly. 
 
 For those interested, I've broken down the tech stack behind the site below. Feel free to [get in touch](https://twitter.com/mikestreety) if you have any questions.
 
-- - - 
+- - -
 
 ## Objective
 
-With version 2 of the newsletter directory, my aim was to have a fast, light, accessible website which works everywhere and I feel like I have achieved this. I didn't want to have to learn a new framework or language and I definitely didn't want to be relying on JavaScript to render the content. Un-conventionally, the website is powered by *PHP*. There is JavaScript on the site, but only to progressively enhance the site (auto submission of filters & add a fancier select box).  
+With version 2 of the newsletter directory, my aim was to have a fast, light, accessible website which works everywhere and I feel like I have achieved this. I didn't want to have to learn a new framework or language and I definitely didn't want to be relying on JavaScript to render the content. Un-conventionally, the website is powered by *PHP*. There is JavaScript on the site, but only to progressively enhance the site (auto submission of filters & add a fancier select box).
 
 My aim when building it was not to be bogged down with writing code perfection - there are a lot of enhancements behind the scene that could be done, but as long as the website itself worked well, I wasn't going to get hung up on it.
 

@@ -17,15 +17,15 @@ Knowing the download would take a few hours (and not needing it immediately) I s
 
 First step is to ensure [SSH is enabled](http://support.wdc.com/KnowledgeBase/answer.aspx?ID=10435) (and make sure you have a little command line experience for this next bit...)
 
-SSH into your box and `cd` to
-
-/mnt/HD/HD_a2/[Share]/[folder]
+SSH into your box and `cd` to `/mnt/HD/HD_a2/[Share]/[folder]`
 
 My "Share" is called **Media** and the folder was called **Downloads** - so this is where I navigated to.
 
 The command line application we're going to use is `wget`. This is an application found on most Linux based computers - so if you get used to this, you can learn a lot. If it's not installed, you can install it via [Homebrew](http://brew.sh/) or `apt-get`.
 
+```bash
 $ wget --no-check-certificate -b -i "[url]"
+```
 
 Where the `[url]` part is the path to your file. **Make sure the `url` is wrapped in quotes** `"`. A break down of what is going on here:
 

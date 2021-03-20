@@ -3,12 +3,13 @@ title: Getting a Slack helper running with Netlify&#58; Part 2
 date: 2020-07-22
 updated: 2020-07-22
 intro: Part 2 of the Slack status updater with Netlify. This walks through using dotenv and locking the function down to "local" use. There is also a crude UI that has been made
+permalink: "blog/getting-a-slack-helper-running-with-netlify-part-2/"
 tags:
  - Web
  - Javascript
 ---
 
-<div class="info">This is carrying on from <a href="https://www.mikestreety.co.uk/blog/live-blog-getting-a-slack-helper-running-with-netlify">Part 1</a> which was a "live blog" style (at the time)</div>
+<div class="info">This is carrying on from <a href="/blog/live-blog-getting-a-slack-helper-running-with-netlify">Part 1</a> which was a "live blog" style (at the time)</div>
 
 One thing I missed out from the end of the previous post is deploying - `netlify deploy` will give you a staging/preview URL. From there you can do a `netlify deploy --prod` to get your work live
 
@@ -16,13 +17,17 @@ One thing I missed out from the end of the previous post is deploying - `netlify
 
 One issue I was having last time was I didn't want to commit my Slack API token. I was recommended by [@davshoward](https://twitter.com/davshoward/status/1285313410499059715) to check out [dotenv](https://www.npmjs.com/package/dotenv) which is exactly what I did.
 
-Installed the package in my functions directory 
+Installed the package in my functions directory
 
-<pre class="language-bash">npm i dotenv --save</pre>
+```bash
+npm i dotenv --save
+```
 
 Created a `.env` file in the same folder with the contents of:
 
-<pre class="language-bash">SLACK_API_TOKEN=xoxp-XXXX</pre>
+```bash
+SLACK_API_TOKEN=xoxp-XXXX
+```
 
 **Add `.env` to the gitignore**
 
@@ -36,12 +41,14 @@ The next thing we want is to lock down the function to only be accessed from the
 
 For now, as I will only be using the Web interface, I have restricted the function to only allow requests from the same site:
 
-<pre class="language-js">if(event.headers['sec-fetch-site'] !== 'same-origin') {
+```js
+if(event.headers['sec-fetch-site'] !== 'same-origin') {
 	return {
 		statusCode: 401,
 		body: 'You are not authorized to access this function'
 	};
-}</pre>
+}
+```
 
 This can be seen in [this commit](https://gitlab.com/mikestreety/sitrep/-/commit/832d4e49e551440498e497ddb37fbf075a6a813a).
 

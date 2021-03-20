@@ -3,13 +3,16 @@ title: Developing websites locally with Docker
 date: 2019-02-14
 updated: 2019-03-27
 intro: Docker allows you to host websites locally, which allows you can develop them within an environment which can be an exact replica of the live one. This blog post explores my first experience with Docker.
+permalink: "blog/getting-started-with-docker-and-developing-websites-locally/"
 tags:
  - Web
  - Command Line
  - Back-end Development
 ---
 
-I've never used Docker before and found it quite daunting getting started. It is something I've had my eye on for a while for developing my personal website in a consistent environment. 
+I've never used Docker before and found it quite daunting getting started. It is something I've had my eye on for a while for developing my personal website in a consistent environment.
+
+<div class="info"><strong>Update 20/03/2021</strong>: Since writing this post I have had more experience with Docker and have since realised several issues with these methods - proceed with caution</div>
 
 Docker can be used to create a custom environment for each project, allowing you to "spin" up services depending on your requirements. To develop this website, which runs on Craft CMS, I was after the following:
 
@@ -33,9 +36,10 @@ The next step is to create your docker file. In the root of your website (where 
 
 The following is my configuration in two versions. The first is uncommented and the second includes detail comments - within the comments there are several square brackets which reference further explanation afterwards..
 
-<details>
-<summary>`docker-compose.yml` <em>without</em> comments</summary>
-<pre class="language-yaml">version: '3'
+### `docker-compose.yml` <em>without</em> comments
+
+```yaml
+version: '3'
 services:
 
     web:
@@ -71,12 +75,13 @@ services:
         environment:
             MYSQL_ROOT_PASSWORD: craft
 volumes:
-    db-data:</pre>
-</details>
+    db-data:
+```
 
-<details>
-<summary>`docker-compose.yml`  <em>with</em> comments</summary>
-<pre class="language-yaml">version: '3'
+### `docker-compose.yml`  <em>with</em> comments
+
+```yaml
+version: '3'
 services:
 
     ## Create the web service
@@ -140,8 +145,8 @@ services:
 
 ## Placeholder for the persistent db storage [3]
 volumes:
-    db-data:</pre>
-</details>
+    db-data:
+```
 
 **[1]**  When using the standard apache settings on a linux server, the web root for the default site is located in `/var/www/web` (or `/var/www/html`). This line maps the present working directory (`pwd`- the one where your dockerfile is located) to the default `/var/www` folder.
 
@@ -153,7 +158,9 @@ volumes:
 
 Once you have installed Docker Desktop and created your `docker-compose` file, you are ready to get started. Open up your terminal and navigate to the folder where your docker file is located and type:
 
-<pre class="language-bash">$ docker up</pre>
+```
+$ docker up
+```
 
 The first time you run this command, it will download the necessary images and start your web server. You should then be able to go to `http://localhost` (or `https://localhost` for SSL site) and view the contents of your `html` folder in the browser.
 
@@ -165,11 +172,15 @@ To stop the docker process, you can press `ctrl + c` and to process will stop.
 
 If you would like to run docker in the background, you can do so by running:
 
-<pre class="language-bash">$ docker-compose up -d</pre>
+```
+$ docker-compose up -d
+```
 
 If you have done this, you can then stop docker with:
 
-<pre class="language-bash">$ docker-compose down</pre>
+```
+$ docker-compose down
+```
 
 ### Conclusion
 

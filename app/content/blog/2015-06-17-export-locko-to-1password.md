@@ -3,6 +3,7 @@ title: Export Locko to 1Password
 date: 2015-06-17
 updated: 2020-06-16
 intro: Getting your passwords out of Locko into something else can be tricky due to their unique export format. This post helps with PHP
+permalink: "blog/export-locko-to-1password/"
 tags:
  - Web
  - PHP
@@ -10,7 +11,7 @@ tags:
 
 <div class="info"><strong>Update: 16th June 2020:</strong> Since I wrote this post in 2015, it seems Locko has updated its export slightly. Many thanks to <a href="https://www.twitter.com/evatar">@evatar</a> for pointing out it doesn't work and helping me update the code.</div>
 
-I <s>recently</s> changed password managers going from Locko, created by Binary Nights to 1Password from Agile Bits. Most password managers offer an Export/Import options (normally JSON being the file type of choice) however, Locko does not, and only exports its own format.
+I changed password managers going from Locko, created by Binary Nights to 1Password from Agile Bits. Most password managers offer an Export/Import options (normally JSON being the file type of choice) however, Locko does not, and only exports its own format.
 
 I have written a PHP script to transform the file from Locko into 1Password (or other password manager with some tweaking) compatible files. It takes the Locko files and converts them to a flat CSV file. You may find that if you had any custom folders/groups that they get lost.
 
@@ -31,7 +32,8 @@ I have written a PHP script to transform the file from Locko into 1Password (or 
 
 ## The PHP Code
 
-<pre class="language-php">&lt;?php
+```php
+<?php
 	// The name of the folder where the logins are
 	$folder = './passwords';
 
@@ -83,4 +85,5 @@ I have written a PHP script to transform the file from Locko into 1Password (or 
 	echo 'Nice work - thats ' . count($data) . ' logins ready for anything!' . PHP_EOL;
 
 	// Convert array to CSV and output
-	convert_to_csv($data, $title . '.csv', ',');</pre>
+	convert_to_csv($data, $title . '.csv', ',');
+```

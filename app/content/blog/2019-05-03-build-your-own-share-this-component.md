@@ -7,6 +7,7 @@ permalink: "blog/build-your-own-share-this-component/"
 tags:
  - Web
  - Javascript
+ - jQuery
 ---
 
 {% raw %}

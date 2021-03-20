@@ -2,6 +2,7 @@
 title: Get your Eleventy Site into the real world (Netlify, Cloudflare pages or any host)
 date: 2021-04-19
 intro: There are plenty of ways to get your 11ty site live depending on preferences and skill set, this blog walks through a few of the popular ones
+permalink: "blog/get-eleventy-up-and-running-on-netlify-or-cloudflare-pages/"
 tags:
  - DevOps
  - 11ty
@@ -50,8 +51,8 @@ To get your 11ty site onto Netlify with git:
 1. Connect to your git repository host & select the repository
 1. Choose the branch you want to use for deployment
 1. Enter the build command and publish directory
- - Build command is `npx @11ty/eleventy`
- - Publish directory is your `output` directory specified in your `.eleventy.js` file
+	- Build command is `npx @11ty/eleventy`
+	- Publish directory is your `output` directory specified in your `.eleventy.js` file
 1. Click "deploy site"
 
 Netlify will take a few minutes to deploy your website but, once complete you are provided with a random `.netlify.app` URL to view your website. You can rename this or you can link a custom domain (even [using Cloudflare](https://www.mikestreety.co.uk/blog/setting-up-a-custom-domain-with-netlify-with-cloudflare-ssl)).
@@ -118,8 +119,3 @@ You'll get a `pages.dev` domain, but this can be replaced with a custom domain n
 - - -
 
 And there we have it. 4 methods for getting your Eleventy site out into the wild. You have no excuse now!
-
-
-
-
-
