@@ -1,0 +1,14 @@
+---
+permalink: "pending.json"
+---
+[
+	{%- for post in collections.drafts -%}
+	{%- if not post.data.draft -%}
+	{% if not loop.first %},{%- endif -%}
+	{
+		"title": "{{ post.data.title }}",
+		"date": "{{ post.date | isoDate}}"
+	}
+	{%- endif -%}
+	{%- endfor -%}
+]
