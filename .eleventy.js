@@ -11,8 +11,8 @@ module.exports = function (config) {
 	config.addFilter('readableDate', require('./app/filters/readableDate.js'));
 	config.addFilter('slugify', require('./app/filters/slugify.js'));
 
-	const livePosts = p => p.date <= now && !p.data.draft;
 	const now = new Date();
+	const livePosts = p => p.date <= now && !p.data.draft;
 
 	config.addCollection('blog', collection => {
 		return collection
