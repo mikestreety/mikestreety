@@ -42,7 +42,7 @@ Just want to copy and paste? In a rush and just need the bullet points?
 	- Run `npm run prod:assets`
 	- Check your compiled assets exist, and include them in your template (`<link rel="stylesheet" href="/assets/css/style.css">`)
 - **Image Optimisation**
-	- Include the [image optimisation](image-optimisation) config to your `laravel.mix.js` file
+	- Include the [image optimisation](#image-optimisation) config to your `laravel.mix.js` file
 	- Recompile your assets
 
 ## Steps

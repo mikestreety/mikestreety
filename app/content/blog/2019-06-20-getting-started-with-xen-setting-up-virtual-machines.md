@@ -59,7 +59,7 @@ This now creates the VM and brings it "online". This can be verified by using `x
 
 ### Access the VM
 
-By default, the latest Debian image comes with one user - `root`. `root` has remote access disabled, so you will need to access the VM from the host machine and [create a new user for yourself](/blog/linux-debian-user-commandss).
+By default, the latest Debian image comes with one user - `root`. `root` has remote access disabled, so you will need to access the VM from the host machine and [create a new user for yourself](/blog/linux-debian-user-commands).
 
 ```bash
 $ xl console mikevm
