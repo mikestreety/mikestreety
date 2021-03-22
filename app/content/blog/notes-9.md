@@ -6,4 +6,16 @@ tags:
   - Notes
 ---
 
-<p>Long time no notes 🙄</p><ul><li>I have pushed a beta to my <a href="{entry:1240@1:url||https://www.mikestreety.co.uk/blog/socket-rss-making-rss-your-mindless-scrolling-app}">Socket RSS</a> reader out to the public. I've already had a bit of feedback which is a great little incentive to keep working on it</li><li>Over the last few weeks, me and a couple of friends have been <a href="https://makelifeworkpodcast.com/">recording a podcast</a>. It's an <a href="http://ontheside.network">OnTheSide</a> takeover, so the conversation circles around side projects (I talk a lot about RSS...)</li><li>Turns out using a <a href="https://twitter.com/i/timeline">controversial podcast title</a> gets a lot of attention. Who knew click baiting worked?!</li><li><a href="https://www.instagram.com/ale_house_rock/">Ale House Rock</a> has been filling up nicely since Lockdown 3.0 started</li><li>I've been really enjoying the <a href="https://workingcode.dev/">Working Code</a> podcast. Lack of commuting has not left much space for podcasts, but this one has shot to the top of the "must listen" list (along with <a href="https://www.nosuchthingasafish.com/">No Such Thing as a Fish</a>)</li></ul><h3>Useful links</h3><ul><li><a href="https://darekkay.com/blog/rss-subscriber-count/">How many people subscribed to your RSS feed?</a></li><li><a href="https://github.com/g12n/colors-and-palettes">Using 11ty to auto generate SVG OG Images</a></li><li><a href="https://www.11ty.dev/docs/plugins/image/">11ty image</a> (I'm planning on converting my personal site to 11ty)</li></ul>
+Long time no notes 🙄
+
+- I have pushed a beta to my [Socket RSS](/blog/socket-rss-making-rss-your-mindless-scrolling-app) reader out to the public. I've already had a bit of feedback which is a great little incentive to keep working on it
+- Over the last few weeks, me and a couple of friends have been [recording a podcast](https://makelifeworkpodcast.com/). It's an [OnTheSide](http://ontheside.network) takeover, so the conversation circles around side projects (I talk a lot about RSS...)
+- Turns out using a [controversial podcast title](https://twitter.com/MakeLifeWorkPod/status/1363780845581070336) gets a lot of attention. Who knew click baiting worked?!
+- [Ale House Rock](https://www.instagram.com/ale_house_rock/) has been filling up nicely since Lockdown 3.0 started
+- I've been really enjoying the [Working Code](https://workingcode.dev/) podcast. Lack of commuting has not left much space for podcasts, but this one has shot to the top of the "must listen" list (along with [No Such Thing as a Fish](https://www.nosuchthingasafish.com/))
+
+### Useful links
+
+- [How many people subscribed to your RSS feed?](https://darekkay.com/blog/rss-subscriber-count/)
+- [Using 11ty to auto generate SVG OG Images](https://github.com/g12n/colors-and-palettes)
+- [11ty image](https://www.11ty.dev/docs/plugins/image/) (I'm planning on converting my personal site to 11ty)

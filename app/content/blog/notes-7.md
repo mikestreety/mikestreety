@@ -6,7 +6,7 @@ tags:
   - Notes
 ---
 
-<p>So this isn't really "#7", it's more <a href="{entry:1073@1:url}">#6</a> part 2 as I am writing them both at the same time. However, this note tries to fill the July - Mid-September void.</p>
+<p>So this isn't really "#7", it's more <a href="/blog/notes-7/">#6</a> part 2 as I am writing them both at the same time. However, this note tries to fill the July - Mid-September void.</p>
 <h3>No Coding</h3>
 <p>July and August kind of saw me down-tools on my side projects while I focused on the house. The garage (inside and out) needed painting, a long with the back of the house - so that occupied my mind which was a nice change. Half the inside of the garage is done (waiting for it to fully dry & for me to go to the tip before I do the other half) but the exterior walls are all finished.</p>
 <p>The next project is building a garden office. It looks like we're going to be working from home for a while now, so to give more space indoors, my wife and I decided on getting a garden room built for me to work from. I'm not doing the building, but there is plenty of prep work needed to do beforehand.</p>
