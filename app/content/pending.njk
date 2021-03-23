@@ -1,14 +1,16 @@
----
-permalink: "pending.json"
----
-[
-	{%- for post in collections.drafts -%}
-	{%- if not post.data.draft -%}
-	{% if not loop.first %},{%- endif -%}
-	{
-		"title": "{{ post.data.title }}",
-		"date": "{{ post.date | isoDate}}"
+---js
+{
+	permalink: "pending.json",
+	post: function() {
+		let pending = this.ctx.collections['drafts']
+			.reverse()
+			.filter(p => !p.data.draft);
+
+		return {
+			title: pending[0].data.title,
+			date: pending[0].date
+		};
 	}
-	{%- endif -%}
-	{%- endfor -%}
-]
+}
+---
+{{ post() | dump | safe }}
