@@ -1,7 +1,9 @@
 ---
-layout: default.njk
+layout: page.njk
 description: Sorry, it seems like there was an issue showing you the webpage you requested
 title: There appears to be an issue
+permalink: "offline/"
+sitemapIgnore: true
 ---
 
 # You are (or I am) offline
