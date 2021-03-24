@@ -2,6 +2,7 @@
 title: Using Cloudflare workers to publish your scheduled 11ty posts
 date: 2021-04-05
 intro: Learn how to schedule blog posts and other items to go live with your static site generator without having to rebuild the whole site. Get all the benefits of a dynamic CSS with static files
+permalink: "blog/deploy-11ty-scheduled-posts-with-cloudflare-workers/"
 tags:
  - Javascript
  - DevOps
