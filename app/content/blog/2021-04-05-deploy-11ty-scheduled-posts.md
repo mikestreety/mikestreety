@@ -9,22 +9,6 @@ tags:
  - 11ty
 ---
 
-<a name="table-of-contents"></a>
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Intro](#intro)
-- [Objectives](#objectives)
-- [TL:DR;](#tldr)
-- [Steps](#steps)
-	- [Create an "upcoming" endpoint](#create-an-upcoming-endpoint)
-	- [Get the build hook](#get-the-build-hook)
-	- [Make the Worker](#make-the-worker)
-	- [Using the UI](#using-the-ui)
-		- [Worker JavaScript](#worker-javascript)
-	- [Cloudflare Wrangler CLI](#cloudflare-wrangler-cli)
-- [Conclusion](#conclusion)
-
 <a name="intro"></a>
 ## Intro
 
@@ -41,6 +25,23 @@ The next approach was to use the Netlify [build hook](https://docs.netlify.com/c
 I could schedule a build every fortnight, but for those times I have a [Notes post](/category/notes) scheduled or similar, it would potentially be 2 weeks before it appears (unless I publish there and then).
 
 What I wanted is for a system to know when my next scheduled post is and regularly check for that date. It can then trigger a build if required.
+
+<a name="table-of-contents"></a>
+## Table of Contents
+
+- [Intro](#intro)
+- [Table of Contents](#table-of-contents)
+- [Objectives](#objectives)
+- [TL:DR;](#tldr)
+- [Steps](#steps)
+	- [Create an "upcoming" endpoint](#create-an-upcoming-endpoint)
+	- [Get the build hook](#get-the-build-hook)
+	- [Make the Worker](#make-the-worker)
+	- [Using the UI](#using-the-ui)
+		- [Worker JavaScript](#worker-javascript)
+	- [Cloudflare Wrangler CLI](#cloudflare-wrangler-cli)
+- [Conclusion](#conclusion)
+
 <a name="objectives"></a>
 ## Objectives
 
