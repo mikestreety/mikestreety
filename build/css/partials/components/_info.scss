@@ -35,7 +35,12 @@ span.info,
 span.warning,
 span.alt,
 span.success,
-span.error {
+span.error,
+strong.info,
+strong.warning,
+strong.alt,
+strong.success,
+strong.error  {
 	padding: 0.3rem 0.4rem;
 	border-bottom-width: 0.125rem;
 }
