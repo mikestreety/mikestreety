@@ -3,6 +3,7 @@ title: How to set up and use Laravel Mix with your project
 date: 2021-02-01
 updated: 2021-01-14
 intro: Despite the name, Laravel Mix isn't just for Laravel. It is a tidy, succinct task runner with understandable syntax and a single config file. This tutorial will run through setting it up with your project
+permalink: "blog/how-to-set-up-and-use-laravel-mix-with-your-project/"
 tags:
  - Web
  - Front-end Development
@@ -13,7 +14,7 @@ Despite the name, Laravel Mix isn't just for Laravel. It is a tidy, succinct tas
 
 ## Intro
 
-I am a massive advocate of Gulp and have used it for years. However, there is a new player in town and. for all my side projects it knocks the socks off Gulp. [Laravel Mix](https://laravel-mix.com/) is a Webpack wrapper - this means it uses its own config files while benefitting from the greatness that is Webpack.
+I am a massive advocate of Gulp and have used it for years. However, there is a new player in town and. for all my side projects it knocks the socks off Gulp. [Laravel Mix](https://laravel-mix.com/) is a Webpack wrapper - this means it uses its own config files while benefiting from the greatness that is Webpack.
 
 It's created by Jeffery Way, the author of Laravel, which is where I assume it gets its name from but you don't need to have a Laravel powered app to utilise its power. There are plenty of plugins available too. We will set up Laravel Mix with SCSS, ES6 compilation, image optimisation and run it alongside Eleventy.
 
@@ -51,23 +52,28 @@ Just want to copy and paste? In a rush and just need the bullet points?
 
 As with any "cool" tech these days, we need to start with `npm`. If you haven't done so already, run the following on the command line (make sure you have `cd`d to the correct directory). If you are unsure whether this is required, look for a `package.json` file in your folder.
 
-<pre class="language-bash">npm init</pre>
+```bash
+npm init
+```
 
 This will run you through some questions and set up a `package.json` file for you.
 
 Next we need to install `laravel-mix`. This can be done by entering the following command:
 
-<pre class="language-bash">npm install laravel-mix --save</pre>
+```bash
+npm install laravel-mix --save
+```
 
 This will take a few minutes to install as it has several dependencies to install itself.
 
 Next, using the your editor, IDE or the command line, create a new file called `webpack.mix.js` in the root of your projects
 
-### <a id="file-structure"></a>SCSS and JS file setup
+### <a name="file-structure"></a>SCSS and JS file setup
 
 The code below assumes you have the following file structure (if not, you should should adjust the code to suit)
 
-<pre>- build/
+```
+- build/
 	- css/
 		- screen.scss
 	- js/
@@ -76,51 +82,66 @@ The code below assumes you have the following file structure (if not, you should
 	- index.html (or similar)
 	- assets/ (this will be auto generated)
 - webpack.mix.js
-- package.json</pre>
+- package.json
+```
 
-### <a id="sass-js"></a>SCSS and JS Compilation
+### <a name="sass-js"></a>SCSS and JS Compilation
 
 Open the `webpack.mix.js` file and put the following in (not forgetting to update the paths if yours are different).
 
-<pre class="language-js">let mix = require('laravel-mix');
+```js
+let mix = require('laravel-mix');
 
 mix
 	.sass('build/css/screen.scss', 'public/assets/css/style.css')
-	.js('build/js/app.js', 'public/assets/js/app.js');</pre>
+	.js('build/js/app.js', 'public/assets/js/app.js');
+```
 
 This defines a new "mix" (using `laravel-mix`) and then specifies a sass (scss) and JS processor.
 
 Once saved (and the file structure set up) you can run the following command to compile and generate your assets
 
-<pre class="language-bash">NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js</pre>
+```bash
+NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js
+```
 
 To make this less hassle (and easier to remember), you can create a script in your `package.json` file. Open up the file and replace the `scripts` block with the following:
 
-<a id="npm-script"></a>
-<pre class="language-json">"scripts": {
+<a name="npm-script"></a>
+
+```json
+"scripts": {
   "prod:assets": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
   "watch:assets": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-}</pre>
+}
+```
 
 This lets you now run the following instead of that lengthy command:
 
-<pre class="language-bash">npm run prod:assets</pre>
+```bash
+npm run prod:assets
+```
 
 This will create your assets for production. As a bonus, this also includes a **watcher** script, which will compile as you save either the `scss` or `js` files. This can be activated, by running the command:
 
-<pre class="language-bash">npm run watch:assets</pre>
+```bash
+npm run watch:assets
+```
 
 With your assets hopefully compiling, they can be included in your template, as you would with other CSS and JS files
 
-<pre class="language-html">&lt;link rel="stylesheet" href="/assets/css/style.css"&gt;</pre>
+```html
+<link rel="stylesheet" href="/assets/css/style.css">
+```
 
-### <a id="image-optimisation"></a>Image Optimisation
+### <a name="image-optimisation"></a>Image Optimisation
 
 The next step is to add image optimisation to our build process. This will minify the jp(e)gs and pngs and also generate webp images. Serving up the webp images can either be hardcoded in your files, templates & content or you can use browser sniffing to serve up the right versions. We'll cover that in another post.
 
 Add the following to your `laravel.mix.js` file, after the JavaScript configuration (included in the snippet below for reference). Be careful of your semi-colons (the one after `js()` has been removed)
 
-<pre class="language-js">.js('build/js/app.js', 'html/assets/js/app.js')
+```js
+.js('build/js/app.js', 'html/assets/js/app.js')
 .imagemin({
 	from: 'img/**/*'
 }, {
@@ -141,7 +162,7 @@ Add the following to your `laravel.mix.js` file, after the JavaScript configurat
 	]
 })
 .setPublicPath('html/assets');
-</pre>
+```
 
 `imagemin` has slightly different syntax for the to and from, so if your paths change be sure to update the `context` and the `setPublicPath` paths at the end. With the `context`, this is folder your image folder is in.
 

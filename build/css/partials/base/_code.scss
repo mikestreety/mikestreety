@@ -19,9 +19,11 @@ code::before {
 	border-radius: 0.2rem;
 }
 
-pre {
+pre,
+pre[class*="language-"] {
 	font-size: 0.9rem;
 	tab-size: 4;
+	margin: var(--gutter) 0;
 }
 pre code {
 	color: var(--neutralLight);
@@ -29,16 +31,13 @@ pre code {
 	overflow-x: auto;
 	padding: 0;
 
+	&::before {
+		display: none;
+	}
 	mark {
 		color: inherit;
 		background: rgba(255, 255, 255, 0.1);
 		padding: 0.1em;
 	}
 }
-pre code::before {
-	display: none;
-}
 
-pre {
-	margin-bottom: var(--gutter);
-}

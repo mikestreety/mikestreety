@@ -3,6 +3,7 @@ title: How I kicked a millennial habit
 date: 2017-06-22
 updated: 2017-07-25
 intro: Changing habits is hard - especially when it's being part of your lifestyle for so long. After watching a video, I decided to address my reliance on social media and mobile phones.
+permalink: "blog/how-i-kicked-a-millennial-habit/"
 tags:
  - General
  - Ramblings
@@ -24,7 +25,7 @@ The points in the video Simon raised resonated with me, and I started looking at
 
 It's not just this video that made me decide to do this. I've just got back from a camping trip and it was so nice to just sit, let your mind wander. Doing this made me not so scared to be bored and device-less.
 
-My first step was my Fitbit. I own a [Blaze](https://www.fitbit.com/uk/blaze) which one of its selling points for me were all the notifications you could receive. These had to stop, as the moment my gadget buzzed I would lose track of the conversation to read my watch. I turned off all notifications except phone calls (as per the point above). 
+My first step was my Fitbit. I own a [Blaze](https://www.fitbit.com/uk/blaze) which one of its selling points for me were all the notifications you could receive. These had to stop, as the moment my gadget buzzed I would lose track of the conversation to read my watch. I turned off all notifications except phone calls (as per the point above).
 
 My phone also stays on silent all the time so I can get to notifications when I want to address them, not when my phone demands.
 
@@ -32,7 +33,7 @@ The next point to address was my constant "dual screening" in the evenings. I wo
 
 When I got into work and sat down at my desk, my first action was not to check my emails but to pull out my phone and rest it in front of me. During the day I would then instantly pick up my device whenever it's little screen lit up - getting that hit of dopamine Simon mentions, answering to its every beck and call. This now doesn't happen and the phone stays firmly in my pocket until I'm ready to look at it.
 
-These are all just small steps but already, a week later I'm noticing a difference. I do find myself slipping up every now and then, but I'm getting better (I think). I've also mentioned it to my wife and have noticed a difference in her "presence". 
+These are all just small steps but already, a week later I'm noticing a difference. I do find myself slipping up every now and then, but I'm getting better (I think). I've also mentioned it to my wife and have noticed a difference in her "presence".
 
 To some people, this blog post may seem like a "poor me" or "well done you" attention seeking post and in a small way it is but I post it in the hope it makes someone else aware and helps someone else break that "habit".
 
