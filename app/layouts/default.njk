@@ -41,6 +41,10 @@
 	{% endif %}
 	<meta property="og:description" property="twitter:description" content="{{ intro if intro else description }}">
 
+	{% if sitemapIgnore or draft %}
+	<meta name="robots" content="noindex, nofollow" />
+	{% endif %}
+
 	{% set count = 1 %}
 
 	{% if tags %}
