@@ -1,12 +1,9 @@
 ---
-title: Reminder&#58; Git, Analytics, Tina and JS
+title: 'Notes: #0'
 date: 2019-11-13
-updated: 2019-11-13
-intro: With #ffconf and podcasts, there are a few things I've come across this week that I wanted to make a note of. These include Analytics, Git and a JS Library
+updated: 2021-03-28
 tags:
- - Web
- - General
- - Thoughts
+ - Notes
 ---
 
 ## Performance in Analytics

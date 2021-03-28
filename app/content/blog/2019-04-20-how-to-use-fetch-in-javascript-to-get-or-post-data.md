@@ -1,10 +1,12 @@
 ---
 title: How to use fetch in JavaScript to GET or POST data
 date: 2019-04-20
-updated: 2019-04-20
+updated: 2021-03-28
 intro: Fetch is a fantastic JavaScript function which allows you to natively get and post data from the browser. This post includes some examples of how to use it.
+permalink: "blog/how-to-use-fetch-in-javascript-to-get-or-post-data/"
 tags:
  - Web
+ - Javascript
  - PHP
 ---
 
@@ -18,26 +20,30 @@ The default method for `fetch` is `GET`. This allows you to pass in a URL and ge
 
 The thing to note with asynchronous functions (in laymen's terms) is, although they fire when executed, they do not stop the rendering of the page. If part of your code requires the `fetch` to be complete before firing, ensure it is triggered in the promise (the `then` function).
 
-<pre class="language-js">fetch(URL)
-     .then(data => data.json())
-     .then(data => {
-          // data is your API data
-     });</pre>
+```js
+fetch(URL)
+	.then(data => data.json())
+	.then(data => {
+		// data is your API data
+	});
+	```
 
 ## POST data
 
 There may be instances when your JavaScript code or app may wish to POST data to your backend code. This can be achieved using `fetch` also. Consider this example which includes the `JSON.stringify()` function - this [converts a json object into a JSON string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify).
 
-<pre class="language-js">let data = {
-     key: "value"
+```js
+let data = {
+	key: "value"
 };
 
 fetch(URL, {
-     method: 'post',
-     body: JSON.stringify(data)
+	method: 'post',
+	body: JSON.stringify(data)
 }).then(data => {
-     // data is anything returned by your API/backend code
-});</pre>
+	// data is anything returned by your API/backend code
+});
+```
 
 ## Bonus: PHP example
 
@@ -45,9 +51,11 @@ This one took me a while to figure out, but capturing the POST variables from yo
 
 The key is using `php://input` - which is a [readable stream](https://www.php.net/manual/en/wrappers.php.php#wrappers.php.input) which contains the data as a JSON string (as sent with the fetch function). This can be decoded using the native PHP function.
 
-<pre class="language-php">&lt;?php
+```php
+<?php
 
  $input = json_decode(file_get_contents('php://input'), true);
- // $input['key'] would equal "value"</pre>
+ // $input['key'] would equal "value"
+ ```
 
-If you were to remove the `true` from the end of the `json_decode`, your data would be availible as a PHP object instead, meaning you would access "value" using `$input->key`.
+If you were to remove the `true` from the end of the `json_decode`, your data would be available as a PHP object instead, meaning you would access "value" using `$input->key`.

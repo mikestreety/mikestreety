@@ -1,4 +1,5 @@
 hr {
-	margin: var(--gutterLarge) 0;
-	border: 0.125rem solid var(--neutralMid);
+	margin: var(--gutter) 0;
+	border: 0;
+	border-bottom: 0.25rem solid var(--neutralLight);
 }

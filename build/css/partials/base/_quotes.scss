@@ -1,36 +1,42 @@
 blockquote {
-	border-left: calc(var(--gutter) / 2.5) solid var(--neutralMid);
-	font-style: normal;
-	color: var(--base);
+	--color: vaR(--neutralMid);
+	padding: 1rem var(--gutter);
+	border-bottom: 0.2rem solid var(--color);
 	margin: 0 0 var(--gutter);
-	padding: var(--gutter) calc(var(--gutter) * 2);
 	position: relative;
-	z-index: 1;
-	font-weight: 400;
-	font-family: 'Poppins', serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	&::before,
-	&::after {
+	font-family: 'Mikestreety', $baseFont;
+
+	p {
+		margin-bottom: 0;
+		+ p {
+			margin-top: var(--gutter);
+		}
+	}
+
+	&::before {
 		content: '';
+		display: block;
+		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
+		background: var(--color);
+		opacity: 0.1;
 		z-index: -1;
-		position: absolute;
-		background: var(--neutralLight);
-		// opacity: 0.2;
 	}
+
 	&::after {
 		content: '\201C';
-		left: 0.75rem;
+		left: 0;
+		top: 0;
 		font-size: 600%;
-		color: var(--neutralMid);
-		opacity: 1;
+		color: var(--neutralDark);
+		position: absolute;
+		opacity: 0.2;
+		z-index: -1;
 		line-height: 1;
 		background: none;
-		transform: rotate(-15deg);
 		width: auto;
 		height: auto;
 	}

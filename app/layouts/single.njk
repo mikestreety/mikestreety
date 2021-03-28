@@ -93,7 +93,7 @@ layout: default.njk
 			"width": 800
 		},
 		"datePublished": "{{ date | isoDate }}",
-		"dateModified": "{{ updated if updated else date | isoDate }}",
+		"dateModified": "{{ (updated if updated else date) | isoDate }}",
 		"author": {
 			"@type": "Person",
 			"name": "Mike Street"
