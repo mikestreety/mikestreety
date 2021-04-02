@@ -6,6 +6,10 @@ permalink: "blog/get-eleventy-up-and-running-on-netlify-or-cloudflare-pages/"
 tags:
  - DevOps
  - 11ty
+ - Netlify
+ - Github
+ - Gitlab
+ - Cloudflare
 ---
 
 Eleventy (11ty) is a great entry point for getting a markdown or JSON content from files to a website. There are plenty of tutorials out in the world to get 11ty up and running in a development environment.
@@ -16,10 +20,10 @@ There were 3 main contenders when I planned this post a few weeks ago, however a
 
 - [Self-hosted](#self-hosted)
 - [Netlify](#netlify)
-- [Github/Gitlab pages](#gitpages)
-- [Cloudflare pages](#cloudflare)
+- [Github/Gitlab pages](#githubgitlab-pages)
+- [Cloudflare Pages](#cloudflare-pages)
 
-<div id="self-hosted"></div>
+<a name="self-hosted"></a>
 
 ## Self-hosted
 
@@ -37,7 +41,7 @@ This will compile your site into your `output` dir as specified in your `.eleven
 
 The other option is to `git clone` or similar your source files and run the compile step on the server you are hosting it on - some shared hosting environments, however, might not let you install npm/node.
 
-<div id="netlify"></div>
+<a name="netlify"></a>
 
 ## Netlify
 
@@ -61,7 +65,7 @@ If you don't want to/can't connect your git provider (or your 11ty site isn't in
 
 Side note: This site, [Behind the Source](https://www.behindthesource.co.uk/) and [Hovélo](https://hovelo.co.uk/) are all hosted on Netlify.
 
-<div id="gitpages"></div>
+<a name="gitpages"></a>
 
 ## Github/Gitlab pages
 
@@ -100,7 +104,7 @@ pages:
 
 CI/CD should fire and compile your pages, you website should then be available at `<username>.gitlab.io/path/to/repo`. You can add a custom domain in the Gitlab pages config if that is the route you choose to take.
 
-<div id="cloudflare"></div>
+<a name="cloudflare"></a>
 
 ## Cloudflare Pages
 
