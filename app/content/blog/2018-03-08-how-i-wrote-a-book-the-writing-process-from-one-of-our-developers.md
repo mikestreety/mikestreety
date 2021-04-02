@@ -9,6 +9,7 @@ permalink: "blog/how-i-wrote-a-book-the-writing-process-from-one-of-our-develope
 tags:
  - General
  - Thoughts
+ - VueJS
 ---
 
 {% raw %}
