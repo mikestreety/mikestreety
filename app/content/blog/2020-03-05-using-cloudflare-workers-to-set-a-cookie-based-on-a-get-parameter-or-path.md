@@ -1,12 +1,14 @@
 ---
 title: Using Cloudflare Workers to set a cookie based on a GET parameter or path
 date: 2020-03-05
-updated: 2020-04-11
+updated: 2021-04-01
 intro: An example of how to use Cloudflare Workers to set a cookie on your page without modifying code on your server. This Worker can set a cookie based on either a GET parameter in the URL or a particular file path
+permalink: "blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path/"
 tags:
  - Web
  - Front-end Development
  - Back-end Development
+ - Cloudflare
 ---
 
 Just over a week has passed since I wrote a blog post on [what Cloudflare Workers were](https://www.mikestreety.co.uk/blog/what-are-cloud-functions-cloudflare-workers-and-serverless) and I already have a practical example. Last week was a rollercoaster, going from not even understanding one to deploying one in production in 5 days. There is a [tweet thread](https://twitter.com/mikestreety/status/1231994282988449792) of my journey.
@@ -33,7 +35,7 @@ Click "Create your worker". For this tutorial, we'll be using the **Quick Edit**
 
 ## The Code
 
-Click "Create a worker" and you are faced with a text editor on one site and a debugging suite on another. 
+Click "Create a worker" and you are faced with a text editor on one site and a debugging suite on another.
 
 Use the code below and click Save. This code assumes the url is one of the following:
 
@@ -46,9 +48,10 @@ If either of these URLs are accessed, it will set a cookie with a key of `source
 
 **Be sure to update [DOMAIN] for the cookie**
 
-<pre class="language-js">/*
+```js
+/*
  * Set a cookie based on the URL
- * 
+ *
  * This worker intercepts the request and adds the cookie if required
  */
 
@@ -94,7 +97,8 @@ async function fetchAndApply(request) {
 	// Return the response of the URL requested
 	// Maybe with an extra cookie
 	return response;
-}</pre>
+}
+```
 
 ## Activate the Worker
 
