@@ -1,14 +1,16 @@
 ---
 title: Linux Debian user commands
 date: 2019-06-20
-updated: 2019-07-23
+updated: 2021-04-02
 intro: To save me Googling, I have collated all the user-related commands I often use - particularly useful when setting up a new VM!
+permalink: "blog/linux-debian-user-commands/"
 tags:
  - Web
  - Command Line
+ - Linux
 ---
 
-These commands have come in handy a lot over the last couple of days, as I have been [setting up Xen](https://www.mikestreety.co.uk/blog/getting-started-with-xen-setting-up-virtual-machines) with a few Virtual Machines.
+These commands have come in handy a lot over the last couple of days, as I have been [setting up Xen](/blog/getting-started-with-xen-setting-up-virtual-machines) with a few Virtual Machines.
 
 Replace `[user]` in the commands below with the name of your user (e.g. `mike`). If you need a good password it is recommended you [use a strong one](https://passwordsgenerator.net/).
 
@@ -16,19 +18,25 @@ Replace `[user]` in the commands below with the name of your user (e.g. `mike`).
 
 How to add a user on linux via command line:
 
-<pre class="language-bash">$ adduser [name]</pre>
+```bash
+adduser [name]
+```
 
 ## Reset password
 
 How to reset a user's password on command line:
 
-<pre class="language-bash">$ passwd [name]</pre>
+```bash
+passwd [name]
+```
 
 ## Delete user
 
 Delete a linux user via command line:
 
-<pre class="language-bash">$ deluser [name]</pre>
+```bash
+deluser [name]
+```
 
 ## Give user sudo privileges
 
@@ -36,31 +44,43 @@ There are several ways you can add a user to the sudoers group - it is advised y
 
 You can see if there are users in the sudoers group with the following command:
 
-<pre class="language-bash">$ grep -i --color sudo /etc/group</pre>
+```bash
+grep -i --color sudo /etc/group
+```
 
 ### Add the user to the sudo "group"
 
 _If this is on a brand new server, you may need to `apt-get install sudo`_
 
-<pre class="language-bash">$ adduser [name] sudo</pre>
+```bash
+adduser [name] sudo
+```
 
 ### Add the user to the sudoers file
 
 Edit the following file (must be done as `root` or someone with existing `sudo` privileges
 
-<pre class="language-bash">sudo visudo</pre>
+```bash
+sudo visudo
+```
 
 And add the following to the file:
 
-<pre class="language-bash">username ALL=(ALL)   ALL</pre>
+```bash
+username ALL=(ALL)   ALL
+```
 
 Alternatively, you can do it with one command:
 
-<pre class="language-bash">echo ' username ALL=(ALL)   ALL' >> /etc/sudoers</pre>
+```bash
+echo ' username ALL=(ALL)   ALL' >> /etc/sudoers
+```
 
 ## List all the users on the system
 
-<pre class="language-bash">$ cut -d: -f1 /etc/passwd</pre>
+```bash
+cut -d: -f1 /etc/passwd
+```
 
 This will list out _all_ the users - including system ones
 
@@ -68,21 +88,28 @@ This will list out _all_ the users - including system ones
 
 Open the sudoers file:
 
-<pre class="language-bash">$ sudo visudo</pre>
+```bash
+sudo visudo
+```
 
 And add one of the following lines to the bottom of the file:
 
 **For a specific user:**
 
-<pre class="language-bash">[name] ALL=(ALL) NOPASSWD: ALL</pre>
+```bash
+[name] ALL=(ALL) NOPASSWD: ALL
+```
 
 **For a group:** (e.g. if the user is in the `sudo` group
 
-<pre class="language-bash">%sudo ALL=(ALL) NOPASSWD: ALL</pre>
+```bash
+%sudo ALL=(ALL) NOPASSWD: ALL
+```
 
 To confirm, the `visudo` file (which is really `/etc/sudoers` should look something like:
 
-<pre class="language-bash">#
+```bash
+#
 # This file MUST be edited with the 'visudo' command as root.
 #
 # Please consider adding local content in /etc/sudoers.d/ instead of
@@ -108,4 +135,5 @@ root	ALL=(ALL:ALL) ALL
 
 # See sudoers(5) for more information on "#include" directives:
 
-#includedir /etc/sudoers.d</pre>
+#includedir /etc/sudoers.d
+```

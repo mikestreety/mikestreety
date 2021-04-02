@@ -1,12 +1,14 @@
 ---
-title: Getting a Slack helper running with Netlify&#58; Part 1
+title: "Getting a Slack helper running with Netlify: Part 1"
 date: 2020-07-20
-updated: 2020-07-22
+updated: 2021-03-02
 intro: So I'm a bit of a dinosaur when it comes to web stacks - I'm all about LAMP (Linux, Apache, MySQL, PHP). I had an idea for a small little web app and thought it would be the perfect opportunity to give Netlify a go.
+permalink: "blog/live-blog-getting-a-slack-helper-running-with-netlify/"
 tags:
  - Web
  - Javascript
  - Front-end Development
+ - Netlify
 ---
 
 <div class="info">This post was written as a "Live blog". I.e. I was updating as I went. There may be typos & coding errors, but the timestamps at the top of each section should help</div>
@@ -33,9 +35,11 @@ I don't want to use auto deployments from Gitlab/Gitlab (because...reasons), so 
 
 I've created a `netlify.toml` file so I can specify my site root and where the functions are going to live - the contents is just the following. I've made the folders.
 
-<pre class="language-bash">[build]
+```bash
+[build]
   publish = "html/"
-  functions = "functions/"</pre>
+  functions = "functions/"
+```
 
 You can then run `netlify dev` to give you a server to serve your files. As the actual "website" is going to be static HTML I don't need to run any build tools. Just need to figure out how I can trigger a function call locally...
 
@@ -45,12 +49,14 @@ OK, so with `netlify dev` running, the URLs are the same as they would be on liv
 
 This is because in the `netlify.toml` file, I told it where the functions lived. The contents of this file needs to look something like:
 
-<pre class="language-js">exports.handler = function(event, context, callback) {
+```js
+exports.handler = function(event, context, callback) {
 	return {
 		statusCode: 200,
 		body: 'POW'
 	};
-};</pre>
+};
+```
 
 Inside the `event` variable is all the good stuff you might need (and I might need to make this web app sound). Things like `httpMethod`, `client-ip` etc.
 
@@ -62,7 +68,7 @@ Next step, getting on with the [Slack API](https://api.slack.com/docs/presence-a
 
 So you need to make an App in Slack to get the right API details. It's a faff and I don't really have a link to share as it is tied to my workspace. However, somehow, I made an app.
 
-Once you have that app you can give it permissions - there are two in particular we need 
+Once you have that app you can give it permissions - there are two in particular we need
 
 - `users.profile:read` - for reading the status
 - `users.profile:write` - for writing the status
@@ -75,7 +81,9 @@ Turns out you can't use `fetch` natively in Netlify functions. So I moved my `js
 
 I then `cd`'d into that directory and ran
 
-<pre class="language-bash">npm init && npm i node-fetch --save</pre>
+```bash
+npm init && npm i node-fetch --save
+```
 
 My folder structure is now
 
@@ -92,7 +100,8 @@ Managed to get and update my user status using a function. Took some tomfoolery,
 
 #### Reading a status
 
-<pre class="language-js">return fetch('https://slack.com/api/users.profile.get', {
+```js
+return fetch('https://slack.com/api/users.profile.get', {
 	headers: {
 		'content-type': 'application/json; charset=utf-8',
 		'authorization': 'Bearer xoxp-XXXXXXX'
@@ -107,12 +116,14 @@ Managed to get and update my user status using a function. Took some tomfoolery,
 	.catch(error => ({
 		statusCode: 422,
 		body: `Oops! Something went wrong. ${error}`
-	}));</pre>
+	}));
+```
 
 
 #### Updating a status
 
-<pre class="language-js">return fetch('https://slack.com/api/users.profile.set', {
+```js
+return fetch('https://slack.com/api/users.profile.set', {
 	headers: {
 		'content-type': 'application/json; charset=utf-8',
 		'authorization': 'Bearer xoxp-XXXXX'
@@ -134,7 +145,8 @@ Managed to get and update my user status using a function. Took some tomfoolery,
 	.catch(error => ({
 		statusCode: 422,
 		body: `Oops! Something went wrong. ${error}`
-	}));</pre>
+	}));
+```
 
 This then gives you the whole profile back but the status is in there :yes:.
 
