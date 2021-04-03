@@ -37,15 +37,19 @@ I've created a `netlify.toml` file so I can specify my site root and where the f
 
 ```bash
 [build]
-  publish = "html/"
-  functions = "functions/"
+	publish = "html/"
+	functions = "functions/"
 ```
 
 You can then run `netlify dev` to give you a server to serve your files. As the actual "website" is going to be static HTML I don't need to run any build tools. Just need to figure out how I can trigger a function call locally...
 
 ### 7:55pm
 
-OK, so with `netlify dev` running, the URLs are the same as they would be on live. So I have made a file (`functions/sitrep.js`) which can then be called from http://localhost:8888/.netlify/functions/sitrep
+OK, so with `netlify dev` running, the URLs are the same as they would be on live. So I have made a file (`functions/sitrep.js`) which can then be called from:
+
+```
+http://localhost:8888/.netlify/functions/sitrep
+```
 
 This is because in the `netlify.toml` file, I told it where the functions lived. The contents of this file needs to look something like:
 
