@@ -2,9 +2,7 @@
 {
 	permalink: "upcoming.json",
 	post: function() {
-		let pending = this.ctx.collections['drafts']
-			.reverse()
-			.filter(p => !p.data.draft);
+		let pending = this.ctx.collections['scheduled'];
 
 		return {
 			title: pending[0].data.title,

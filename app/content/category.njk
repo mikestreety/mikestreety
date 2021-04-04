@@ -39,7 +39,7 @@ eleventyComputed:
 
 	<div class="post-listing">
 		<ul class="post-listing-full">
-		{% set categoryList = collections[ tag ] | livePosts %}
+		{% set categoryList = collections[ tag ] %}
 		{% for entry in categoryList | reverse %}
 			{% include 'entry.njk' %}
 		{% endfor %}

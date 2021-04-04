@@ -1,0 +1,31 @@
+---
+title: Scheduled Posts
+description: Posts which are written, finished and scheduled to go live in the future
+layout: page.njk
+pagination:
+  data: collections.scheduled
+  size: 10
+---
+
+<h1>Scheduled</h1>
+<p>Finished posts that are scheduled for future release.</p>
+<div class="post-listing">
+	<ul class="post-listing-full">
+	{% for entry in pagination.items %}
+		{% include 'entry.njk' %}
+	{% endfor %}
+	</ul>
+
+	<nav class="pagination">
+		{% if pagination.href.previous %}
+		<a class="button button-small" rel="prev" href="{{ pagination.href.previous }}">
+			Newer Posts
+		</a>
+		{% endif %}
+		{% if pagination.href.next %}
+		<a class="button button-small historical" rel="next" href="{{ pagination.href.next }}">
+			Older Posts
+		</a>
+		{% endif %}
+	</nav>
+</div>

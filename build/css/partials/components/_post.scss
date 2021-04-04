@@ -1,9 +1,9 @@
 // .post
 .post-meta {
-
 	position: relative;
 	margin-bottom: var(--gutter);
 	padding-bottom: var(--gutter);
+	font-size: 0.9rem;
 	time {
 		font-weight: bold;
 	}
@@ -27,6 +27,14 @@
 	font-size: 0.9rem;
 }
 
+.hiddenMessage {
+	display: none;
+
+	&:target {
+		display: block;
+	}
+}
+
 .single-article .categories {
 	padding: 1rem 0 1.5rem;
 	position: relative;
@@ -41,6 +49,10 @@
 		height: 0.2rem;
 		background: linear-gradient(to right, var(--secondary), var(--primary), var(--primaryLight), var(--tertiary));
 	}
+}
+
+.single-article .source {
+	margin-top:  var(--gutter);
 }
 
 .article {

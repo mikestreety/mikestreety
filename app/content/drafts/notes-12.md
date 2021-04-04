@@ -1,0 +1,3 @@
+- Full on post schedule, writing process
+- seeing opportunities for 11ty sites everywhere
+-

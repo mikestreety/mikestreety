@@ -36,10 +36,21 @@ layout: default.njk
 		<div class="meta post-meta">
 			{% if date %}
 			<time class="dt-published is-hidden">{{ date | isoDate }}</time>
-				Posted on <strong>{{ date | readableDate }}</strong>.
+				Posted on <strong>{{ date | readableDate }}</strong>{% if page.date > now %}
+					<a href="#future">(from the future?)</a>
+				{% endif %}.
 			{% endif %}
 			<strong>{{ content | readingTime }}</strong> reading time
 		</div>
+
+		{% if page.date > now %}
+		<div class="success hiddenMessage" id="future">
+			<p><strong>A post from the future!</strong></p>
+
+			<p>You may have noticed this post is dated in the future. I do this to keep myself on a regular writing schedule and to mask the flurries of activity I'm prone to. You can see all of my <a href="/scheduled/">upcoming posts</a> if you want a sneak peak</p>
+			<p>Please feel free to read and share as you normally would</p>
+		</div>
+		{% endif %}
 
 		<div class="single-content">
 			{{ content | safe }}
@@ -50,6 +61,9 @@ layout: default.njk
 		<div class="meta categories">
 			{% for tag in tags %}{% include 'tag.njk' %}{% endfor %}
 		</div>
+		<p class="meta source">
+			<a href="https://gitlab.com/mikestreety/mikestreety/-/tree/master/{{ page.inputPath }}">View this post on Gitlab</a>
+		</p>
 	</article>
 
 	<h2 class="h3">You might also enjoy&hellip;</h2>

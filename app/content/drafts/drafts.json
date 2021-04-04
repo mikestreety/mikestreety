@@ -2,5 +2,6 @@
 	"layout": "single.njk",
 
 	"parent": "blog",
-	"parentTitle": "Blog"
+	"parentTitle": "Blog",
+	"draft": true
 }

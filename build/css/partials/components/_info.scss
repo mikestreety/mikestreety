@@ -3,9 +3,9 @@
 .alt,
 .success,
 .error {
-	--color: var(--primary);
+	--boxcolor: var(--primary);
 	padding: 1rem var(--gutter);
-	border-bottom: 0.2rem solid var(--color);
+	border-bottom: 0.2rem solid var(--boxcolor);
 	margin-bottom: var(--gutter);
 	position: relative;
 	z-index: 1;
@@ -18,7 +18,7 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: var(--color);
+		background: var(--boxcolor);
 		opacity: 0.1;
 		z-index: -1;
 	}
@@ -46,14 +46,14 @@ strong.error  {
 }
 
 .alt {
-	--color: var(--secondary);
+	--boxcolor: var(--secondary);
 }
 .success {
-	--color: var(--tertiary);
+	--boxcolor: var(--tertiary);
 }
 .warning {
-	--color: var(--quinary);
+	--boxcolor: var(--quinary);
 }
 .error {
-	--color: var(--quaternary);
+	--boxcolor: var(--quaternary);
 }
