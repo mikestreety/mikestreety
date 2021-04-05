@@ -40,7 +40,7 @@ layout: default.njk
 					<a href="#future">(from the future?)</a>
 				{% endif %}.
 			{% endif %}
-			<strong>{{ content | readingTime }}</strong> reading time
+			<strong>{{ content | emojiReadTime }}</strong> reading time
 		</div>
 
 		{% if page.date > now %}

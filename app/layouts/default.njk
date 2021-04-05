@@ -56,7 +56,7 @@
 
 	{% if tags %}
 	<meta property="twitter:label{{ count }}" value="Reading time">
-	<meta property="twitter:data{{ count }}" value="{{ content | readingTime }}">
+	<meta property="twitter:data{{ count }}" value="{{ content | emojiReadTime }}">
 	{% set count = count + 1 %}
 	{% endif %}
 

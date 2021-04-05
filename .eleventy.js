@@ -11,7 +11,11 @@ module.exports = function (config) {
 
 	config.addPlugin(require('@11ty/eleventy-navigation'));
 	config.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
-	config.addPlugin(require('eleventy-plugin-reading-time'));
+	config.addPlugin(require('@11tyrocks/eleventy-plugin-emoji-readtime'), {
+		showEmoji: false,
+		label: "mins",
+		wpm: 250
+	});
 	config.setDataDeepMerge(true);
 
 	return {
