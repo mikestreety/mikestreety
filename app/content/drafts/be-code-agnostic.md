@@ -1,7 +1,3 @@
----
-draft: true
----
-
 I have previously written about being [device agnostic](https://www.liquidlight.co.uk/blog/how-to-become-device-agnostic-and-what-it-means-for-your-data/) which is a notion which ensures your data is not tied to one kind of device, or one manufacturer. You should be able to export your data regularly (in a generic format) or tying your data to a more device-fluid service. The idea is you can move between devices (or lose a phone) and not be ground to a halt (or be worried about where your data has gone).
 
 While converting my website from Craft CMS to 11ty, a similar concept approached me. When creating websites, we should try and make our content as **code agnostic** as possible. This not only applies to our personal websites, but should apply to our clients sites as well.

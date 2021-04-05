@@ -3,14 +3,13 @@ title: Generating a Lets Encrypt SSL certificate with Cloudflare
 date: 2020-04-20
 updated: 2020-07-07
 intro: This blog post walks through generating an SSL certificate with `certbot` from Let's Encrypt, specifically, when your DNS is with Cloudflare. For those on Cloudflare wondering why you would want ...
-draft: true
 ---
 
 This blog post walks through generating an SSL certificate with `certbot` from Let's Encrypt, specifically, when your DNS is with Cloudflare. For those on Cloudflare wondering why you would want to generate an SSL certificate, it is if you want to run Cloudflare on "Full" SSL mode. More about the modes in my blog [What are the different SSL modes on Cloudflare?](https://www.mikestreety.co.uk/blog/what-are-the-different-ssl-modes-on-cloudflare). Alternatively, if you are using Cloudflare for just DNS or wish to have a sub-sub domain, then an SSL certificate will need to be generated for it to be available.
 
 This post assumes you know what [SSL certificates are](https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate/), and who [Let's Encrypt](https://letsencrypt.org/) are
 
-Certbot generates an SSL certificate by contacting the Let's Encrypt servers for a challenge. Using the API, the challenge is then placed in your Cloudflare DNS entries as a TXT entry. The Let's Encrypt servers then accept this challenge (if the domain name matches) and issue the certificate.  
+Certbot generates an SSL certificate by contacting the Let's Encrypt servers for a challenge. Using the API, the challenge is then placed in your Cloudflare DNS entries as a TXT entry. The Let's Encrypt servers then accept this challenge (if the domain name matches) and issue the certificate.
 
 ## Set up the API
 
@@ -20,7 +19,7 @@ Go to https://dash.cloudflare.com/profile/api-tokens
 
 Make a new one called certbot (create custom token)
 
-Permissions: 
+Permissions:
 
 zone | dns | edit
 zone | zone | read
@@ -45,9 +44,9 @@ Copy the key
 dns_cloudflare_email = admin@liquidlight.co.uk
 dns_cloudflare_api_key = ccf454044628751621a5dfc14271f98c95bbe
 
-- - - 
+- - -
 
-switch to root, make a new folder in /root/.secrets/certbot/ 
+switch to root, make a new folder in /root/.secrets/certbot/
 
 Make file called cloudflare.ini
 
@@ -57,7 +56,7 @@ dns_cloudflare_api_token = "XXXXX"
 
 chmod (chmod 600 .serects -r)
 
-- - - 
+- - -
 
 apt install python3-pip
 pip3 install certbot
@@ -68,7 +67,7 @@ sudo certbot certonly \
 	-d mikestreety.co.uk,*.mikestreety.co.uk --preferred-challenges dns-01
 
 
-- - - 
+- - -
 
 Edit apache conf file
 

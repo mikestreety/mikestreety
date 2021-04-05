@@ -1,6 +1,6 @@
 ---
 title: 2021 in Review
-draft: true
+permalink: "blog/2021-in-review/"
 ---
 
 - mikestreety now 11ty
