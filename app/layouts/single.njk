@@ -36,9 +36,12 @@ layout: default.njk
 		<div class="meta post-meta">
 			{% if date %}
 			<time class="dt-published is-hidden">{{ date | isoDate }}</time>
-				Posted on <strong>{{ date | readableDate }}</strong>{% if page.date > now %}
-					<a href="#future">(from the future?)</a>
-				{% endif %}.
+			{% if page.date > now %}
+				Scheduled for <strong>{{ date | readableDate }}</strong>.
+				<a href="#future">(from the future?)</a>
+			{% else %}
+				Posted on <strong>{{ date | readableDate }}</strong>.
+			{% endif %}
 			{% endif %}
 			<strong>{{ content | emojiReadTime }}</strong> reading time
 		</div>
@@ -46,9 +49,8 @@ layout: default.njk
 		{% if page.date > now %}
 		<div class="success hiddenMessage" id="future">
 			<p><strong>A post from the future!</strong></p>
-
 			<p>You may have noticed this post is dated in the future. I do this to keep myself on a regular writing schedule and to mask the flurries of activity I'm prone to. You can see all of my <a href="/scheduled/">upcoming posts</a> if you want a sneak peak</p>
-			<p>Please feel free to read and share as you normally would</p>
+			<p>Please feel free to read and share as you normally would.</p>
 		</div>
 		{% endif %}
 
