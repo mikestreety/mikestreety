@@ -20,7 +20,8 @@ sitemapIgnore: true
 			<height>144</height>
 			<description>{{ meta.site.description }}</description>
 		</image>
-		{% for entry in collections.blog %}
+		{% for entry in collections.blog | limit(15) %}
+		{% set comma = joiner() %}
 		<item>
 			<title>{{ entry.data.title }}</title>
 			<link>{{ meta.site.url }}{{ entry.url }}</link>
@@ -28,6 +29,8 @@ sitemapIgnore: true
 			<guid>{{ meta.site.url }}{{ entry.url }}</guid>
 			<description><![CDATA[
 				{{ entry.templateContent | safe }}
+				<p><strong>Read time:</strong> {{ entry.templateContent | emojiReadTime }}</p>
+				<p><strong>Tags:</strong>{% for tag in entry.data.tags -%}{{ comma() }} {{ tag }}{%- endfor %}</p>
 			]]></description>
 		</item>
 		{% endfor %}
