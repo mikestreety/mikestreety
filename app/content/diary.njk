@@ -1,0 +1,86 @@
+---js
+{
+	title: "Diary",
+	description: "All of my posts in one place, by year and month",
+	layout: "page.njk",
+	diary: function() {
+		let entries = this.ctx.collections.blog;
+		let output = [];
+
+		const month_names = Array.from({length: 12}, (e, i) => {
+			return new Date(null, i + 1, null).toLocaleDateString("en", {month: "long"});
+		})
+
+		const nth = function(d) {
+			if (d > 3 && d < 21) return 'th';
+			switch (d % 10) {
+				case 1:  return "st";
+				case 2:  return "nd";
+				case 3:  return "rd";
+				default: return "th";
+			}
+		}
+
+		for(let item of entries) {
+			if(item.data.title && item.date) {
+				let year = item.date.getFullYear(),
+					month = item.date.getMonth(),
+					month_name = month_names[month];
+
+				if(!output[year]) {
+					output[year] = {
+						title: year,
+						months: []
+					};
+				}
+
+				if(!output[year].months[month]) {
+					output[year].months[month] = {
+						title: month_names[month],
+						entries: []
+					};
+				}
+
+				output[year].months[month].entries.push({
+					title: item.data.title,
+					url: item.url,
+					date: item.date.getDate() + nth(item.date.getDate()),
+				});
+			}
+		}
+
+		return output
+			.map(y => {
+				y.months.reverse();
+
+				return y;
+			})
+			.filter(a => a).reverse();
+ 	}
+}
+---
+
+<h1>Diary</h1>
+<p>All my blog posts, chronologically ordered from now back in time.
+<div class="post-listing">
+	<ul class="diary">
+	{% for year in diary() %}
+		<li>
+			<div><h2 id="{{ year.title }}">{{ year.title }}</h2></div>
+
+			<ul>
+			{% for month in year.months %}
+				<div><h3>{{ month.title }}</h3></div>
+
+				<ul class="diaryEntries">
+				{% for entry in month.entries %}
+					<li>{{ entry.date }} - <a href="{{ entry.url }}">{{ entry.title }}</a></li>
+				{% endfor %}
+				</ul>
+			{% endfor %}
+			</ul>
+		</li>
+	{% endfor %}
+	</ul>
+</div>
+

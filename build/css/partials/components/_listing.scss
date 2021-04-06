@@ -85,4 +85,47 @@
 		}
 	}
 
+	.diary {
+		font-size: 0.9rem;
+		ul,
+		li {
+			margin: 0;
+		}
+
+		> li {
+			margin-bottom: 1rem;
+			align-items: stretch;
+
+			@include mq($phone) {
+				display: flex;
+			}
+
+			> div {
+				border-right: thin solid var(--neutralLight);
+				margin-right: 1rem;
+			}
+		}
+
+		h2 {
+			font-size: 1.1rem;
+			margin-right: var(--gutter);
+			position: sticky;
+			top: 0;
+			margin-top: 1rem;
+			width: 3rem;
+			text-align: right;
+		}
+
+		h3 {
+			font-size: 1.1rem;
+			line-height: 1.25;
+			margin-bottom: 0.5rem;
+			color: var(--neutralDark);
+			margin-top: 1rem;
+		}
+
+		.diaryEntries li {
+			margin-top: 0.3rem;
+		}
+	}
 }
