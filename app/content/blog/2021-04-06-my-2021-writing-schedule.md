@@ -2,6 +2,7 @@
 title: My 2021 writing schedule
 intro: Since 2021, I have stuck to a writing schedule - not only has it helped write more posts, it prevents the flurry of inactivity
 date: 2021-04-06
+permalink: "blog/my-2021-writing-schedule/"
 tags:
  - General
  - Ramblings
