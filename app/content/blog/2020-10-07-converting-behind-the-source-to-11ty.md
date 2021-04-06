@@ -1,7 +1,7 @@
 ---
 title: Converting Behind the Source to 11ty
 date: 2020-10-07
-updated: 2020-10-18
+updated: 2021-03-19
 intro: I spent the week converting Behind the Source from Craft to Eleventy (a static site generator). Will I use it again?
 permalink: "blog/converting-behind-the-source-to-11ty/"
 tags:

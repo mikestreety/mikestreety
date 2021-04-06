@@ -1,7 +1,7 @@
 ---
 title: Find folders on a linux server that do not have a file
 date: 2017-05-19
-updated: 2017-05-19
+updated: 2021-03-20
 intro: I needed to locate any folder following a particular pattern that did not have a particular file. The command allows you to locate the folders and perform actions on them.
 permalink: "blog/find-folders-on-a-linux-server-that-do-not-have-a-file/"
 tags:

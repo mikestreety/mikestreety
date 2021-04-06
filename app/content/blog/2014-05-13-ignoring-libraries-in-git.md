@@ -1,7 +1,7 @@
 ---
 title: Ignoring libraries in git
 date: 2014-05-13
-updated: 2021-03-29
+updated: 2021-03-30
 intro: Far too often recently I've noticed people committing libraries and packages to their main application (website) repository.
 permalink: "blog/ignoring-libraries-in-git/"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Hacking with a Raspberry Pi: An Introduction"
 date: 2015-04-01
-updated: 2016-10-20
+updated: 2021-03-21
 intro: I've recently been playing around with Raspberry Pi and some hardware - seeing what else can be done with the tiny computer.
 permalink: "blog/hacking-with-a-raspberry-pi-an-introduction/"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Building a 3D printer - tips, hints and links
 date: 2015-12-10
-updated: 2016-04-09
+updated: 2021-03-19
 intro: Recently a friend, Chris, and I have embarked on the journey of building our own 3D printer. This is something I hugely recommend if you are into that kind of thing. It's taught me many things already and is amazing to see something moving that you've built.
 permalink: "blog/building-a-3d-printer-tips-hints-and-links/"
 tags:

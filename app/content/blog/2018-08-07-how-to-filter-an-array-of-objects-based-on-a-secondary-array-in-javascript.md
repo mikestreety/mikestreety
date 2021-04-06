@@ -1,6 +1,7 @@
 ---
 title: How to filter an array of objects based on a secondary array in JavaScript
 date: 2018-08-07
+updated: 2021-03-25
 intro: Sounds confusing, but there is a use-case, honest! Imagine you have an array with a set number of items in and you wanted to filter another array of objects based on that in your JavaScript. The post explains more!
 permalink: "blog/how-to-filter-an-array-of-objects-based-on-a-secondary-array-in-javascript/"
 tags:

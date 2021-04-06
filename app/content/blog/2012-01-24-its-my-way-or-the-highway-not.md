@@ -1,7 +1,7 @@
 ---
 title: It's My Way or the Highway. Not.
 date: 2012-01-24
-updated: 2016-04-08
+updated: 2021-03-25
 intro: Recently with the spate of CSS3 and media queries, there has been a few debates over how development should be done.
 permalink: "blog/its-my-way-or-the-highway-not/"
 tags:

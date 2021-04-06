@@ -1,7 +1,7 @@
 ---
 title: I bloody love twitter
 date: 2012-05-16
-updated: 2016-04-08
+updated: 2021-03-25
 intro: I bloody love twitter. It's great. Now, I'm not some twitter addict or nerd, well I am, but that's by the by.
 permalink: "blog/i-bloody-love-twitter/"
 tags:

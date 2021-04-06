@@ -1,7 +1,7 @@
 ---
 title: How I kicked a millennial habit
 date: 2017-06-22
-updated: 2017-07-25
+updated: 2021-03-25
 intro: Changing habits is hard - especially when it's being part of your lifestyle for so long. After watching a video, I decided to address my reliance on social media and mobile phones.
 permalink: "blog/how-i-kicked-a-millennial-habit/"
 tags:

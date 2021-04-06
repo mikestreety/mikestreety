@@ -1,7 +1,7 @@
 ---
 title: Download files via command line
 date: 2016-03-06
-updated: 2016-07-08
+updated: 2021-03-20
 intro: I recently purchased a Western Digital EX2 NAS box for my home storage. This device is a low powered file server which is on all the time - perfect for taking care of those hefty downloads and long running tasks so I don't need to keep my laptop on.
 permalink: "blog/download-files-via-command-line/"
 tags:

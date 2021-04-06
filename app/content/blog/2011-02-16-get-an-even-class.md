@@ -1,7 +1,7 @@
 ---
 title: Get an 'Even' Class
 date: 2011-02-16
-updated: 2016-06-17
+updated: 2021-03-20
 intro: This  PHP statement applies class="even" to every other element when in a loop.
 permalink: "blog/get-an-even-class/"
 tags:

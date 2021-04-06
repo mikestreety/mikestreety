@@ -1,7 +1,7 @@
 ---
 title: Future of Web Design - May 2012 - Day 1
 date: 2012-07-11
-updated: 2016-04-08
+updated: 2021-03-20
 intro: In the middle of May, I attended my first big web conference – the Future of Web Design. I’ve been to a few small-scale conferences before, but never one but never one of the big boys
 permalink: "blog/future-of-web-design-may-2012-day-1/"
 tags:

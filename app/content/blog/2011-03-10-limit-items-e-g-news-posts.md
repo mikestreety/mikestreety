@@ -1,7 +1,7 @@
 ---
 title: Limit Items (e.g. News posts)
 date: 2011-03-10
-updated: 2016-04-08
+updated: 2021-03-25
 intro: If you would like to limit the amount of items coming out of an array (for example the first 5 news items)
 permalink: "blog/limit-items-e-g-news-posts/"
 tags:

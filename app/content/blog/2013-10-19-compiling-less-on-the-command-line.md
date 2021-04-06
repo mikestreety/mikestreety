@@ -1,7 +1,7 @@
 ---
 title: Compiling Less on the Command Line
 date: 2013-10-19
-updated: 2016-04-09
+updated: 2021-03-17
 intro: We have been using LESS for a while now, but our process involved including the less.js in the header during development, compiling the LESS using an app before launch and then maintaining the site using the css.
 permalink: "blog/compiling-less-on-the-command-line/"
 tags:

@@ -1,6 +1,7 @@
 ---
 title: '"HD" cheap action cam - you get what you pay for'
 date: 2016-12-12
+updated: 2021-03-24
 intro: Recently, a friend and I purchased a cheap action camera from eBay to see what quality you get for £14
 permalink: "blog/hd-cheap-action-cam-you-get-what-you-pay-for/"
 tags:
