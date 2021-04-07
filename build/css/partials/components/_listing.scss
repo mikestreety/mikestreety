@@ -87,9 +87,10 @@
 
 	.diary {
 		font-size: 0.9rem;
-		ul,
+		ol,
 		li {
 			margin: 0;
+			padding: 0;
 		}
 
 		> li {

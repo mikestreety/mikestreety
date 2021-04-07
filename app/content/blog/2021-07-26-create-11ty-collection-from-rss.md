@@ -11,7 +11,10 @@ tags:
 
 {% raw %}
 
-Following on from my previous post on [Creating an 11ty collection from a JSON API](/blog/creating-an-11ty-collection-from-json-api/), this post will cover creating a collection from an RSS feed instead.
+<div class="info">
+<p>This method parses the RSS feed as actual RSS which makes the feed slightly easier to process. If you are looking to extract more meta data or unconventional information stored in the feed, it might be worth reading the next post, <a href="/blog/making-an-11ty-collection-from-a-remote-xml-file/">Making an 11ty collection from a remote XML file</a>.</p>
+<p>This post also builds on previous methodologies covered in a previous post - <a href="/blog/creating-an-11ty-collection-from-json-api/">Creating an 11ty collection from a JSON API</a></p>
+</div>
 
 A friend of mine is a [YouTuber](https://www.youtube.com/feeds/videos.xml?channel_id=UCEFZ7yABV_j9Ts3U18pZ1vw) and was enquiring about having a landing page which auto updated with his latest videos. My mind immediately jumped to 11ty and have a static site which rebuilds on a new feed item.
 
