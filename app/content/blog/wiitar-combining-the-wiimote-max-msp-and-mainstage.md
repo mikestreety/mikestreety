@@ -1,5 +1,5 @@
 ---
-title: Wiitar&#58; Combining the Wiimote, MAX/MSP and Mainstage
+title: "Wiitar: Combining the Wiimote, MAX/MSP and Mainstage"
 date: 2010-06-25
 updated: 2016-04-08
 intro: For the final year of my degree, I was required to create an Experimental System Design. At the time, I was heavily involved with a live version of  The ...
@@ -58,4 +58,4 @@ tags:
 
 
 
-<div class="video"><iframe width="640" height="360" src="https://www.youtube.com/embed/HKg-A42Mvqw?feature=player_embedded" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="video"><iframe width="640" height="360" src="https://www.youtube.com/embed/a5rPoinVbjMfeature=player_embedded" frameborder="0" allowfullscreen=""></iframe></div>
