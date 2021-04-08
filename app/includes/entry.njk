@@ -4,12 +4,12 @@
 			<a href="{{ entry.url }}">{{ entry.data.title if entry.data.title else entry.url }}</a>
 		</h3>
 		<p class="date">
-			{% if date %}
-				<time class="dt-published is-hidden">{{ date | dateISO }}</time>
-				{% if page.date > now %}
-					Scheduled for <strong>{{ date | dateFull }}</strong>.
+			{% if entry.date %}
+				<time class="dt-published is-hidden">{{ entry.date | dateISO }}</time>
+				{% if entry.date > now %}
+					Scheduled for <strong>{{ entry.date | dateFull }}</strong>.
 				{% else %}
-					Posted on <strong>{{ date | dateFull }}</strong>.
+					Posted on <strong>{{ entry.date | dateFull }}</strong>.
 				{% endif %}
 			{% endif %}
 			{% if entry.data.publication %}Written For <strong>{{ entry.data.publication }}</strong>{% endif %}
