@@ -1,8 +1,12 @@
+const {iso, utc, full} = require('./app/filters/date');
+
 module.exports = function (config) {
 
-	config.addFilter('isoDate', require('./app/filters/isoDate.js'));
+	config.addFilter('dateISO', iso);
+	config.addFilter('dateUTC', utc);
+	config.addFilter('dateFull', full);
+
 	config.addFilter('limit', require('./app/filters/limit.js'));
-	config.addFilter('readableDate', require('./app/filters/readableDate.js'));
 	config.addFilter('slugify', require('./app/filters/slugify.js'));
 
 	config.addCollection('blog', require('./app/filters/blog.js'));

@@ -35,12 +35,12 @@ layout: default.njk
 
 		<div class="meta post-meta">
 			{% if date %}
-			<time class="dt-published is-hidden">{{ date | isoDate }}</time>
+			<time class="dt-published is-hidden">{{ date | dateISO }}</time>
 			{% if page.date > now %}
-				Scheduled for <strong>{{ date | readableDate }}</strong>.
+				Scheduled for <strong>{{ date | dateFull }}</strong>.
 				<a href="#future">(from the future?)</a>
 			{% else %}
-				Posted on <strong>{{ date | readableDate }}</strong>.
+				Posted on <strong>{{ date | dateFull }}</strong>.
 			{% endif %}
 			{% endif %}
 			<strong>{{ content | emojiReadTime }}</strong> reading time
@@ -108,8 +108,8 @@ layout: default.njk
 			"height": 800,
 			"width": 800
 		},
-		"datePublished": "{{ date | isoDate }}",
-		"dateModified": "{{ (updated if updated else date) | isoDate }}",
+		"datePublished": "{{ date | dateISO }}",
+		"dateModified": "{{ (updated if updated else date) | dateISO }}",
 		"author": {
 			"@type": "Person",
 			"name": "Mike Street"

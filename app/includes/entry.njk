@@ -5,11 +5,11 @@
 		</h3>
 		<p class="date">
 			{% if date %}
-				<time class="dt-published is-hidden">{{ date | isoDate }}</time>
+				<time class="dt-published is-hidden">{{ date | dateISO }}</time>
 				{% if page.date > now %}
-					Scheduled for <strong>{{ date | readableDate }}</strong>.
+					Scheduled for <strong>{{ date | dateFull }}</strong>.
 				{% else %}
-					Posted on <strong>{{ date | readableDate }}</strong>.
+					Posted on <strong>{{ date | dateFull }}</strong>.
 				{% endif %}
 			{% endif %}
 			{% if entry.data.publication %}Written For <strong>{{ entry.data.publication }}</strong>{% endif %}

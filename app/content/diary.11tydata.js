@@ -1,24 +1,4 @@
-// Get month names
-const month_names = Array.from({length: 12}, (e, i) => {
-	return new Date(null, i + 1, null).toLocaleDateString("en", {month: "long"});
-})
-
-// Work out date ordinal
-const nth = function(d) {
-	if (d > 3 && d < 21) {
-		return 'th';
-	}
-	switch (d % 10) {
-		case 1:
-			return 'st';
-		case 2:
-			return 'nd';
-		case 3:
-			return 'rd';
-		default:
-			return 'th';
-	}
-}
+const {year, month, monthName, dayOrdinal} = require('./../filters/date');
 
 module.exports = {
 	diary: function() {
@@ -32,32 +12,32 @@ module.exports = {
 			// Check we have both a date and title
 			if(item.data.title && item.date) {
 				// Extract the year and month number (Jan = 0)
-				let year = item.date.getFullYear(),
-					month = item.date.getMonth();
+				let y = year(item.date),
+					m = month(item.date);
 
 				// If the year hasn't been seen before, make a stub object
-				if(!output[year]) {
-					output[year] = {
-						title: year,
+				if(!output[y]) {
+					output[y] = {
+						title: y,
 						months: []
 					};
 				}
 
 				// If the month hasn't been seen before, make a stub object
 				// with a nice month name as the title
-				if(!output[year].months[month]) {
-					output[year].months[month] = {
-						title: month_names[month],
+				if(!output[y].months[m]) {
+					output[y].months[m] = {
+						title: monthName(item.date),
 						entries: []
 					};
 				}
 
 				// Add the entry to the keyed year/month array - only add the info we need
-				output[year].months[month].entries.push({
+				output[y].months[m].entries.push({
 					title: item.data.title,
 					url: item.url,
 					// This is just the date plus ordinal (e.g. 23rd)
-					date: item.date.getDate() + nth(item.date.getDate()),
+					date: dayOrdinal(item.date),
 				});
 			}
 		}
