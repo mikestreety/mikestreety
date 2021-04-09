@@ -15,9 +15,20 @@ const nth = function(d) {
 	}
 };
 
-const month_names = (length) => Array.from({length: 12}, (e, i) => {
-	return new Date(null, i + 1, null).toLocaleDateString('en', {month: length});
-});
+const month_names = [
+	'January',
+	'February',
+	'March',
+	'April',
+	'May',
+	'June',
+	'July',
+	'August',
+	'September',
+	'October',
+	'November',
+	'December'
+];
 
 module.exports = {
 	iso: (date) => {
@@ -33,7 +44,7 @@ module.exports = {
 	full: (date) => {
 		date = new Date(Date.parse(date));
 		let day = date.getDate();
-		return `${day}${nth(day)} ${month_names('long')[date.getMonth()]} ${date.getFullYear()}`;
+		return `${day}${nth(day)} ${month_names[date.getMonth()]} ${date.getFullYear()}`;
 	},
 
 	day: (date) => {
@@ -54,7 +65,7 @@ module.exports = {
 
 	monthName: (date) => {
 		date = new Date(Date.parse(date));
-		return month_names('long')[date.getMonth()];
+		return month_names[date.getMonth()];
 	},
 
 	year: (date) => {
