@@ -30,46 +30,41 @@ const month_names = [
 	'December'
 ];
 
+const parse = date => new Date(Date.parse(date));
+
 module.exports = {
 	iso: (date) => {
-		date = new Date(Date.parse(date));
-		return date.toISOString();
+		return parse(date).toISOString();
 	},
 
 	utc: (date) => {
-		date = new Date(Date.parse(date));
-		return date.toUTCString();
+		return parse(date).toUTCString();
 	},
 
 	full: (date) => {
-		date = new Date(Date.parse(date));
+		date = parse(date);
 		let day = date.getDate();
 		return `${day}${nth(day)} ${month_names[date.getMonth()]} ${date.getFullYear()}`;
 	},
 
 	day: (date) => {
-		date = new Date(Date.parse(date));
-		return date.getDate();
+		return parse(date).getDate();
 	},
 
 	dayOrdinal: (date) => {
-		date = new Date(Date.parse(date));
-		let day = date.getDate();
+		let day = parse(date).getDate();
 		return day + nth(day);
 	},
 
 	month: (date) => {
-		date = new Date(Date.parse(date));
-		return date.getMonth() + 1;
+		return parse(date).getMonth() + 1;
 	},
 
 	monthName: (date) => {
-		date = new Date(Date.parse(date));
-		return month_names[date.getMonth()];
+		return month_names[parse(date).getMonth()];
 	},
 
 	year: (date) => {
-		date = new Date(Date.parse(date));
-		return date.getFullYear();
+		return parse(date).getFullYear();
 	},
 }
