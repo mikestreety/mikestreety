@@ -11,7 +11,7 @@ module.exports = function (config) {
 	config.addPlugin(require('@11tyrocks/eleventy-plugin-emoji-readtime'), {
 		showEmoji: false,
 		label: "mins",
-		wpm: 250
+		wpm: 290
 	});
 
 	config.setDataDeepMerge(true);
