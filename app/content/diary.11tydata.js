@@ -1,4 +1,4 @@
-const {year, month, monthName, dayOrdinal} = require('./../filters/date');
+const {year, month, monthName, dayOrdinal} = require('@mikestreety/11ty-utils/filters/date');
 
 module.exports = {
 	diary: function() {

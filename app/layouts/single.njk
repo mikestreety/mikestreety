@@ -37,10 +37,10 @@ layout: default.njk
 			{% if date %}
 			<time class="dt-published is-hidden">{{ date | dateISO }}</time>
 			{% if page.date > now %}
-				Scheduled for <strong>{{ date | dateFull }}</strong>.
+				Scheduled for <strong>{{ date | dateLong }}</strong>.
 				<a href="#future">(from the future?)</a>
 			{% else %}
-				Posted on <strong>{{ date | dateFull }}</strong>.
+				Posted on <strong>{{ date | dateLong }}</strong>.
 			{% endif %}
 			{% endif %}
 			<strong>{{ content | emojiReadTime }}</strong> reading time

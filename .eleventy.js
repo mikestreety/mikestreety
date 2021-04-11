@@ -1,18 +1,11 @@
-const {iso, utc, full} = require('./app/filters/date');
+const {blog, drafts, scheduled} = require('./app/filters/posts');
 
 module.exports = function (config) {
+	config.addCollection('blog', blog);
+	config.addCollection('drafts', drafts);
+	config.addCollection('scheduled', scheduled);
 
-	config.addFilter('dateISO', iso);
-	config.addFilter('dateUTC', utc);
-	config.addFilter('dateFull', full);
-
-	config.addFilter('limit', require('./app/filters/limit.js'));
-	config.addFilter('slugify', require('./app/filters/slugify.js'));
-
-	config.addCollection('blog', require('./app/filters/blog.js'));
-	config.addCollection('drafts', require('./app/filters/drafts.js'));
-	config.addCollection('scheduled', require('./app/filters/scheduled.js'));
-
+	config.addPlugin(require('@mikestreety/11ty-utils'));
 	config.addPlugin(require('@11ty/eleventy-navigation'));
 	config.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 	config.addPlugin(require('@11tyrocks/eleventy-plugin-emoji-readtime'), {
@@ -20,6 +13,7 @@ module.exports = function (config) {
 		label: "mins",
 		wpm: 250
 	});
+
 	config.setDataDeepMerge(true);
 
 	return {

@@ -20,6 +20,7 @@
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
+    "@mikestreety/11ty-utils": "^1.2.0",
     "copy-webpack-plugin": "^8.0.0",
     "cross-env": "^7.0.3",
     "laravel-mix": "^5.0.9",

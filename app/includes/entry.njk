@@ -7,9 +7,9 @@
 			{% if entry.date %}
 				<time class="dt-published is-hidden">{{ entry.date | dateISO }}</time>
 				{% if entry.date > now %}
-					Scheduled for <strong>{{ entry.date | dateFull }}</strong>.
+					Scheduled for <strong>{{ entry.date | dateLong }}</strong>.
 				{% else %}
-					Posted on <strong>{{ entry.date | dateFull }}</strong>.
+					Posted on <strong>{{ entry.date | dateLong }}</strong>.
 				{% endif %}
 			{% endif %}
 			{% if entry.data.publication %}Written For <strong>{{ entry.data.publication }}</strong>{% endif %}
