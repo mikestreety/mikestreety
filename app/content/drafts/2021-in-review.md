@@ -7,4 +7,4 @@ permalink: "blog/2021-in-review/"
 - ale house rock now 11ty
 - new bike
 - on make life work podcast
--
+- new child
