@@ -65,7 +65,7 @@ If you don't want to/can't connect your git provider (or your 11ty site isn't in
 
 Side note: This site, [Behind the Source](https://www.behindthesource.co.uk/) and [Hovélo](https://hovelo.co.uk/) are all hosted on Netlify.
 
-<a name="gitpages"></a>
+<a name="githubgitlab-pages"></a>
 
 ## Github/Gitlab pages
 
@@ -104,7 +104,7 @@ pages:
 
 CI/CD should fire and compile your pages, you website should then be available at `<username>.gitlab.io/path/to/repo`. You can add a custom domain in the Gitlab pages config if that is the route you choose to take.
 
-<a name="cloudflare"></a>
+<a name="cloudflare-pages"></a>
 
 ## Cloudflare Pages
 
