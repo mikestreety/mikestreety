@@ -1,7 +1,7 @@
 ---
-title: Get your Eleventy Site into the real world (Netlify, Cloudflare pages or any host)
+title: Get your Eleventy Site into the real world using a hosting provider like Netlify or Git pages
 date: 2021-04-19
-intro: There are plenty of ways to get your 11ty site live depending on preferences and skill set, this blog walks through a few of the popular ones
+intro: There are plenty of ways to get your 11ty site live depending on preferences and skill set, this blog walks through a few of the popular ones including Gitlab pages, Vercel, Netlify and Cloudflare pages
 permalink: "blog/get-eleventy-up-and-running-on-netlify-or-cloudflare-pages/"
 tags:
  - DevOps
@@ -20,6 +20,7 @@ There were 3 main contenders when I planned this post a few weeks ago, however a
 
 - [Self-hosted](#self-hosted)
 - [Netlify](#netlify)
+- [Vercel](#vercel)
 - [Github/Gitlab pages](#githubgitlab-pages)
 - [Cloudflare Pages](#cloudflare-pages)
 
@@ -64,6 +65,22 @@ Netlify will take a few minutes to deploy your website but, once complete you ar
 If you don't want to/can't connect your git provider (or your 11ty site isn't in a git repo), Netlify offer a drag and drop interface (at the bottom of the "Sites" page). Run the 11ty compilation steps locally and upload the output directory.
 
 Side note: This site, [Behind the Source](https://www.behindthesource.co.uk/) and [Hovélo](https://hovelo.co.uk/) are all hosted on Netlify.
+
+<a name="vercel"></a>
+
+## Vercel
+
+[Vercel](https://vercel.com/) (formally Zeit) is very similar to Netlify in that you can deploy with a branch push from a git provider, so the instructions may seem very similar to above. The deployment is quick and entirely managed through the UI.
+
+1. Push your git repository to Github, Gitlab or Bitbucket
+2. Sign up for a Vercel account
+3. Click "New project"
+4. Connect to your git repository host & search for your repository by clicking "Import"
+5. Select the team you wish to deploy this to (most likely it will be the personal account)
+6. Set a name and choose a framework preset - this populates default commands for building the site and if you haven't changed any of the default 11ty settings you won't have to change anything otherwise, expand "Build and Output Settings" to tweak to your needs
+7. Click "Deploy"
+
+You can then watch the build and, once complete, you will be presented with a celebratory screen with a link to your website (which will be presented as a `vercel.app` domain). You can then navigate to the dashboard and tweak settings, including setting a custom domain for the site. Vercel themselves have a tutorial on [How to Use Cloudflare with Vercel](https://vercel.com/support/articles/using-cloudflare-with-vercel).
 
 <a name="githubgitlab-pages"></a>
 
