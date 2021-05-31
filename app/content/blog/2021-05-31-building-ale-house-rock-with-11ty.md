@@ -1,6 +1,6 @@
 ---
 title: Building Ale House Rock with 11ty
-date: 2021-06-28
+date: 2021-05-31
 intro: I rebuilt my beer review website using a JSON API and 11ty. This is a rundown of how I tackled it
 permalink: "blog/building-ale-house-rock-with-11ty/"
 tags:
