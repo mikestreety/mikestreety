@@ -1,7 +1,7 @@
 ---
 title: Making an 11ty collection from a remote XML file
 intro: RSS is XML with a specification, however not all RSS feeds follow the spec. In this post, we process the feed as an XML document meaning we can access the extra attributes and values
-date: 2021-07-29
+date: 2021-07-26
 permalink: "blog/making-an-11ty-collection-from-a-remote-xml-file/"
 tags:
  - RSS

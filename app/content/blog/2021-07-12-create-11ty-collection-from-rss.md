@@ -1,7 +1,7 @@
 ---
 title: Create an 11ty collection from any RSS feed
 intro: Using 11ty global data files, we create an 11ty collection from an RSS feed. As an example, we show the latest YouTube videos on our website
-date: 2021-07-26
+date: 2021-07-12
 permalink: "blog/create-11ty-collection-from-rss/"
 tags:
  - 11ty

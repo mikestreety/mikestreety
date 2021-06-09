@@ -2,6 +2,7 @@
 title: Server tools - htop and apache server status
 date: 2021-06-15
 intro: As a starting point with the server tool debugging, this blog post explores htop and setting up a server status page with Apache
+draft: true
 permalink: "blog/server-tools-htop-and-apache-server-status/"
 tags:
  - DevOps

@@ -2,6 +2,7 @@
 title: Server tools - an introduction
 intro: I'm investigating a Linux server which has performance issues and walking through the processes and steps I am doing to find a solution
 date: 2021-06-14
+draft: true
 tags:
  - Server Tools
 ---

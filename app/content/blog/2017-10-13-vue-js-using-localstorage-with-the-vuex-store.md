@@ -1,8 +1,9 @@
 ---
-title: Vue&#58; Using localStorage with Vuex store
+title: "Vue: Using localStorage with Vuex store"
 date: 2017-10-13
 updated: 2020-06-11
 intro: Using the browser's localStorage we can create a Vue app which has its Vuex store cached. This allows the user to navigate away from the app and not lose their preferences.
+permalink: "blog/vue-js-using-localstorage-with-the-vuex-store/"
 tags:
  - Web
  - Javascript
@@ -18,12 +19,14 @@ _This tutorial uses Vue v2.4.4 and Vuex v2.5.0 - although I'm sure it will work 
 
 `localStorage` is a cache in the browser which persists even after the browser is closed. It allows you to store data on a page and later access it - it's especially easy to do using JavaScript. More information about `localStorage` can be found on the [MDN Website](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), but the basics are as follows. The `key` is an identifiable string for you to access the saved data later.
 
-<pre class="language-js">// Store the "value" under the ID of "key"
+```js
+// Store the "value" under the ID of "key"
 localStorage.setItem('key', 'value');
 
 // Load the data back and store as a variable
 let val = localStorage.getItem('key');
-// val will equal "value"</pre>
+// val will equal "value"
+```
 
 **Note:**
 
@@ -31,11 +34,13 @@ let val = localStorage.getItem('key');
 
 For example:
 
-<pre class="language-js"> // Convert the object into a JSON string and store
+```js
+// Convert the object into a JSON string and store
 localStorage.setItem('key', JSON.stringify(object));
 
 // Retrieve the data and convert from JSOn string to object/array
-let obj = JSON.parse(localStorage.getItem('key'));</pre>
+let obj = JSON.parse(localStorage.getItem('key'));
+```
 
 ## Vuex
 
@@ -49,7 +54,8 @@ On the latest Vue app I'm developing, I wanted the Vuex contents (or `state`) to
 
 If you're reading this I would assume you've got your store already initialised. However you've built your app, the _store_ should have a variable assigned to it.
 
-<pre class="language-js">// Initialise your store
+```js
+// Initialise your store
 const store new Vuex.Store({
 	// You state might be more complex than this
 	state: {
@@ -57,7 +63,8 @@ const store new Vuex.Store({
 	},
 	mutations: {},
 	getters: {}
-});</pre>
+});
+```
 
 ### Storing data
 
@@ -65,11 +72,13 @@ We now wish to cache the data whenever the store updated. Fortunately, Vuex offe
 
 _After_ your store has been initialised, register the subscribe method on your `store` variable. This function accepts two parameters - the mutation which was fired and the state _after_ the mutation. We wish to store this state in our `localStorage`. As `localStorage` is specific to each domain name, we can use a variable name to reference the contents - such as `store`. Don't forget to convert your object to a string.
 
-<pre class="language-js">// Subscribe to store updates
+```js
+// Subscribe to store updates
 store.subscribe((mutation, state) => {
 	// Store the state object as a JSON string
 	localStorage.setItem('store', JSON.stringify(state));
-});</pre>
+});
+```
 
 ### Retrieving data
 
@@ -79,7 +88,8 @@ To do this, we are going to create a mutation within the store, which updates th
 
 Create a new mutation called `initialiseStore`. Inside this mutation, check if the `localStorage` item exists
 
-<pre class="language-js">const store new Vuex.Store({
+```js
+const store new Vuex.Store({
 	state: {
 		count: 1
 	},
@@ -87,16 +97,18 @@ Create a new mutation called `initialiseStore`. Inside this mutation, check if t
 		initialiseStore(state) {
 			// Check if the ID exists
 			if(localStorage.getItem('store')) {
-				
+
 			}
 		}
 	},
 	getters: {}
-});</pre>
+});
+```
 
 We now need to replace the current state if it does exist. To do this, we are going to use the `replaceState` Vuex method. Within here, we are going to merge both the current, blank, state and the stored data. The reason for this is so that if there are any new properties which were added since the last time the user visited, they don't get any dreaded `undefined` errors.
 
-<pre class="language-js">const store new Vuex.Store({
+```js
+const store new Vuex.Store({
 	state: {
 		count: 1
 	},
@@ -112,13 +124,15 @@ We now need to replace the current state if it does exist. To do this, we are go
 		}
 	},
 	getters: {}
-});</pre>
+});
+```
 
 The last stage is to call this mutation when the Vue app is created. We want this to happen at the _earliest_ point which, based on the [Vue lifecycle hooks](https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram) is during the `beforeCreate()` method.
 
 Add this method to your Vue instance and trigger the mutation:
 
-<pre class="language-js">new Vue({
+```js
+new Vue({
 	el: '#app',
 
 	store,
@@ -126,7 +140,8 @@ Add this method to your Vue instance and trigger the mutation:
 	beforeCreate() {
 		this.$store.commit('initialiseStore');
 	}
-});</pre>
+});
+```
 
 Huzzah! You now have an app with a Vuex store cached in `localStorage`.
 
@@ -150,25 +165,30 @@ If on load, the user had the same version number as that of my app, then the cac
 
 The first step is to load our version number. Ours is stored in the `package.json` so, using ES6, this is as simple as:
 
-<pre class="language-js">import {version} from './package.json';</pre>
+```js
+import {version} from './package.json';
+```
 
 However, you may wish to cache yours from a git tag or have it somewhere as a variable. Ideally, it needs to be accessed separately from the store so that the cache doesn't end up overwriting it.
 
 Next, create an empty string in your store - for the version to be saved once verified.
 
-<pre class="language-js">state: {
+```js
+state: {
 	// Cache version
 	version: '',
 	count: 1
-},</pre>
+},
+```
 
 We can now update our `initialiseStore` mutation to check the version with that of the one in the cache and take appropriate action based on the result
 
-<pre class="language-js">initialiseStore(state) {
+```js
+initialiseStore(state) {
 	// Check if the store exists
 	if(localStorage.getItem('store')) {
 		let store = JSON.parse(localStorage.getItem('store'));
-		
+
 		// Check the version stored against current. If different, don't
 		// load the cached version
 		if(store.version == version) {
@@ -179,7 +199,8 @@ We can now update our `initialiseStore` mutation to check the version with that 
 			state.version = version;
 		}
 	}
-}</pre>
+}
+```
 
 - - -
 
@@ -189,11 +210,13 @@ We can now update our `initialiseStore` mutation to check the version with that 
 
 You may only wish to cache a few elements from your store, this can be achieved by creating a new object in your `subscribe` function and storing that. We are already merging the cache with the current store state on load, so that doesn't need to change.
 
-<pre class="language-js">store.subscribe((mutation, state) => {
+```js
+store.subscribe((mutation, state) => {
 	let store = {
 		version: state.version,
 		count: 1
 	};
 
 	localStorage.setItem('store', JSON.stringify(store));
-});</pre>
+});
+```

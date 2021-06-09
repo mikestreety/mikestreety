@@ -1,7 +1,7 @@
 ---
 title: Creating an 11ty collection from a JSON API
 intro: Using 11ty Global data files, you can make collections from JSON APIs, allowing you to make whole websites from one endpoint
-date: 2021-07-12
+date: 2021-06-28
 permalink: "blog/creating-an-11ty-collection-from-json-api/"
 tags:
  - JSON
