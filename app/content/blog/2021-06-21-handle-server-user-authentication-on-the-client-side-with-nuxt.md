@@ -92,7 +92,7 @@ This is done by adding the following to our `nuxt.config.js`:
 
 ```js
 router: {
-  middleware: ['auth']
+	middleware: ['auth']
 }
 ```
 
