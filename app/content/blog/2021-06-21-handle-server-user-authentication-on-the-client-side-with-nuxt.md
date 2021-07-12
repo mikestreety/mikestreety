@@ -1,6 +1,6 @@
 ---
 title: The cleanest way of handling user authentication with Nuxt.js
-date: 2021-06-28
+date: 2021-06-21
 intro: Rather than client-side user authentication, this blog post works through how to catch a user authentication error with Nuxt
 permalink: "blog/handle-server-user-authentication-on-the-client-side-with-nuxt/"
 tags:
@@ -92,7 +92,7 @@ This is done by adding the following to our `nuxt.config.js`:
 
 ```js
 router: {
-  middleware: ['auth']
+	middleware: ['auth']
 }
 ```
 
