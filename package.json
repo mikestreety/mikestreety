@@ -6,8 +6,8 @@
   "scripts": {
     "prod:11ty": "npx @11ty/eleventy",
     "watch:11ty": "set DEBUG=Eleventy* && npx @11ty/eleventy  --serve",
-    "prod:assets": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch:assets": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod:assets": "mix --production",
+    "watch:assets": "mix watch",
     "watch": "npm run watch:assets & npm run watch:11ty",
     "dev": "npm run watch",
     "prod": "npm run prod:assets && npm run prod:11ty"
@@ -21,13 +21,11 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "@mikestreety/11ty-utils": "^1.2.0",
-	"laravel-mix": "^5.0.6",
     "cross-env": "^7.0.3",
+    "dayjs": "^1.10.4",
+    "laravel-mix": "^6.0.25",
     "resolve-url-loader": "^3.1.0",
     "sass": "^1.32.8",
     "sass-loader": "^8.0.2"
-  },
-  "dependencies": {
-    "dayjs": "^1.10.4"
   }
 }
