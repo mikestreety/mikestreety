@@ -30,7 +30,7 @@ layout: default.njk
 		{% endif %}
 
 		<h3 class="is-hidden">
-			By <span>{{ meta.author }}</span>
+			By <span>{{ meta.author.first_name }} {{ meta.author.last_name }}</span>
 		</h3>
 
 		<div class="meta post-meta">
@@ -88,7 +88,7 @@ layout: default.njk
 	<div class="author h-card">
 		<img src="https://www.mikestreety.co.uk/assets/img/mike.jpg" class="u-photo" width="100" alt="Mike Street">
 		<div class="auhtor-details">
-			<h4>Written by <span class="p-author">{{ meta.author }}</span></h4>
+			<h4>Written by <span class="p-author">{{ meta.author.first_name }} {{ meta.author.last_name }}</span></h4>
 			<p class="p-note">Mike is a front-end developer from Brighton, UK. He spends his time writing, cycling and coding. You can find Mike on <a href="https://twitter.com/mikestreety">Twitter</a>.</p>
 		</div>
 	</div>

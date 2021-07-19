@@ -1,5 +1,8 @@
 {
-	"author": "Mike Street",
+	"author": {
+		"first_name": "Mike",
+		"last_name": "Street"
+	},
 	"themeColour": "#2b76b9",
 	"site": {
 		"title": "Mike Street",
