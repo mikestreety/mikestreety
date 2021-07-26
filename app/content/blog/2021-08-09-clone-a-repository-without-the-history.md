@@ -1,7 +1,7 @@
 ---
 title: Quickly clone a git repository without the history
 intro: Sometimes you want to git clone a repository without needing the full log. Not only does this save space it speeds up the clone too
-date: 2021-07-26
+date: 2021-08-09
 permalink: "blog/git-clone-a-repository-without-the-history/"
 tags:
  - Git
