@@ -3,6 +3,7 @@ title: Make Anchor CMS work with its files elsewhere
 date: 2014-06-06
 updated: 2016-04-09
 intro: Recently I wanted to tidy up my public_html directory - as the folders were getting too much and I like a clean directory.
+permalink: "blog/make-anchor-cms-work-with-its-files-elsewhere/"
 tags:
  - Web
  - CMS

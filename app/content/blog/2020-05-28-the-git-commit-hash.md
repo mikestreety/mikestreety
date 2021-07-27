@@ -3,18 +3,19 @@ title: The Git Commit Hash
 date: 2020-05-28
 updated: 2020-06-11
 intro: The magic 40 character string that is attached to every commit you do. What is it, where does it come from and will understanding it help you with Git in the future?
+permalink: "blog/the-git-commit-hash/"
 tags:
  - Web
  - Git
 ---
 
-<pre class="language-bash">commit 13c988d4f15e06bcdd0b0af290086a3079cdadb0
+```bash
+commit 13c988d4f15e06bcdd0b0af290086a3079cdadb0
 Author: Mike Street
 Date:   Sun Mar 3 16:04:33 2019 +0000
 
     Initial commit
-
-</pre>
+```
 
 This might look familiar to you. The sign of a commit which is built up of a few components: the commit hash - a 40 character long string, followed by the author, date and lastly the commit message.
 
@@ -28,7 +29,7 @@ Reading this, I assume you have basic knowledge of Git and have at least committ
 
 Before we dive into the git specifics, I thought I would give a very brief overview of what a hash is.
 
-There are many different hashing algorithms - `MD5` and `SHA-1` are examples of these. What a hash allows you to do is take an arbitrary amount of content (be it one word, 100 words or the whole contents of a JavaScript library) and produce a unique fixed string of characters representing that. The length of the string is dependent on which method you choose. 
+There are many different hashing algorithms - `MD5` and `SHA-1` are examples of these. What a hash allows you to do is take an arbitrary amount of content (be it one word, 100 words or the whole contents of a JavaScript library) and produce a unique fixed string of characters representing that. The length of the string is dependent on which method you choose.
 
 The string (in “theory”) cannot be reverse engineered (e.g. given the hash it is difficult to work out the contents), but would allow you to compare two things to see if they are the same.
 
@@ -50,7 +51,7 @@ The git hash is made up of the following:
 - The date
 - The parent commit hash
 
-When you take all these into consideration, hopefully you will begin to see how various actions might impact how the commit hash is formed. 
+When you take all these into consideration, hopefully you will begin to see how various actions might impact how the commit hash is formed.
 
 One other thing to note is the Git tree doesn't really "exist" as such - it is constructed by following the parent hash. This may seem like the same thing, but there are some slight nuances.
 
@@ -80,7 +81,7 @@ Rebasing one branch onto another will have a similar effect to cherry picking. W
 
 This changes the parent commit of your first commit and so, all of the following commits also need new hashes generating as their parent has changed.
 
-Rebasing can quickly become a mess! It's a hugely powerful tool, but with great power comes great responsibility. 
+Rebasing can quickly become a mess! It's a hugely powerful tool, but with great power comes great responsibility.
 
 ### Squash
 

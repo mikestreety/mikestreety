@@ -3,12 +3,13 @@ title: How to migrate your Gitlab instance to a new server
 date: 2021-03-08
 updated: 2021-02-20
 intro: I recently migrated our Gitlab server install from one server to another. With the help of a few tutorials it was fairly painless, however I thought I would outline the steps here
+permalink: "blog/migrating-gitlab-from-one-server-to-another/"
 tags:
  - Web
  - DevOps
 ---
 
-I ﻿recently migrated our Gitlab server install from one server to another. With the help of a few tutorials scattered around, it was fairly painless. I thought I ﻿would outline the steps here as there were a couple of bits that tripped me up.
+I recently migrated our Gitlab server install from one server to another. With the help of a few tutorials scattered around, it was fairly painless. I thought I would outline the steps here as there were a couple of bits that tripped me up.
 
 This tutorial assumes you are running a self-hosted **Omnibus** version of [Gitlab](https://about.gitlab.com/) and are comfortable with the command-line. It also assumes you have SSH access to both the existing server and a new server you wish to migrate too. Lastly, sudo/root access is required on both servers for this process to work.
 
@@ -16,11 +17,11 @@ It also goes without saying that you should make sure no-one is utilising your G
 
 ### 1. Update your current install
 
-You can only backup & restore to/from Gitlab running the same versions. To avoid having to find an older version for your new server, it makes this process smoother if your current version of Gitlab is up-to-date. 
+You can only backup & restore to/from Gitlab running the same versions. To avoid having to find an older version for your new server, it makes this process smoother if your current version of Gitlab is up-to-date.
 
 ### 2. Set up a new server
 
-All the tutorials tell you to create your backup first, however I found it easier to set the new server up as the first step. **Make sure you are installing the correct version**. I lost a couple of hours after I had followed the [Gitlab tutorial](https://about.gitlab.com/install/) - this sets up the Enterprise Edition as default, however I was running the **community edition**. 
+All the tutorials tell you to create your backup first, however I found it easier to set the new server up as the first step. **Make sure you are installing the correct version**. I lost a couple of hours after I had followed the [Gitlab tutorial](https://about.gitlab.com/install/) - this sets up the Enterprise Edition as default, however I was running the **community edition**.
 
 I was able to do this by replacing `gitlab-ee` in the documentation with `gitlab-ce`. For example, the Debian install requires a script which is then piped through bash - it can be updated to the following:
 

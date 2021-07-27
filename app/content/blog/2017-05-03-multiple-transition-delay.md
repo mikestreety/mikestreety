@@ -3,6 +3,7 @@ title: Multiple transition delays
 date: 2017-05-03
 updated: 2017-05-03
 intro: Being able to animate with CSS transitions is great, although there are a few gotchas when using them. This one with transition-delay had me scratching my head for a while.
+permalink: "blog/multiple-transition-delay/"
 tags:
  - Web
  - CSS
@@ -14,7 +15,8 @@ Today I was working with `transition-delay` to make something expand before it g
 
 To give you an example of this, the below code makes the width and height have different transition delays:
 
-<pre class="language-css">div {
+```css
+div {
 	width: 50vmin;
 	height: 50vmin;
 	background: red;
@@ -27,7 +29,8 @@ div:hover {
 	width: 80vmin;
 	height: 80vmin;
 	transition-delay: 0.5s, 0s;
-}</pre>
+}
+```
 
 See an example on Codepen:
 

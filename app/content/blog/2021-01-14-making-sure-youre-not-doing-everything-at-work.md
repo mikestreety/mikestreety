@@ -3,6 +3,7 @@ title: Making sure you're not doing everything at work
 date: 2021-01-14
 updated: 2021-01-14
 intro: Delegation is hard for people who find themselves in management roles. The trick is to be the overflow, not the gatekeeper.
+permalink: "blog/making-sure-youre-not-doing-everything-at-work/"
 tags:
  - General
  - Thoughts
@@ -24,21 +25,21 @@ When you become a manager through the routes I have, you start to think very hig
 
 The danger with thinking these things is you will get very busy very quickly and you will find yourself always the one the tasks (and normally they are the most boring ones).
 
-Rather than being the gatekeeper of work, i.e. the manager that only passes things on when you are too busy, be the overflow that takes work when your team is too busy. On paper, it seems like if your team is doing all of your work, you will be twiddling your thumbs - but it gives you time to organise and, most importantly, check-in on your team. 
+Rather than being the gatekeeper of work, i.e. the manager that only passes things on when you are too busy, be the overflow that takes work when your team is too busy. On paper, it seems like if your team is doing all of your work, you will be twiddling your thumbs - but it gives you time to organise and, most importantly, check-in on your team.
 
 **Delegation should be the default state**.
 
 Something I've found asking myself daily, if not hourly, is "Do **I** need to do this?". If the answer is no (and it probably will be), then it gets passed on. If it is the knowledge or skills that are preventing someone else from doing this work then pass it on and train them. You are there to train or assist them in getting the job done so they can do it in future. This also prevents so much reliance on you - what if you're not around to do it next time?
 
-There will always be edge cases where you _do_ need to do the task; time constraints (e.g. it is urgent, or your team doesn't have time), historical knowledge, or, you just simply want to do it yourself because it looks like fun (managers prerogative). 
+There will always be edge cases where you _do_ need to do the task; time constraints (e.g. it is urgent, or your team doesn't have time), historical knowledge, or, you just simply want to do it yourself because it looks like fun (managers prerogative).
 
-Delegating by default is also a great way of quickly seeing where the gaps are in your team. When the chance arises, I will reassign work which I know is a knowledge gap for one of the developers. 
+Delegating by default is also a great way of quickly seeing where the gaps are in your team. When the chance arises, I will reassign work which I know is a knowledge gap for one of the developers.
 
 Rather than me picking up the work, I let the developers read through (and they often try to resolve) the task, before coming to me for help. I can then show them when _they_ are in the right mindset. As the manager, I expect my day to be jumping around switching gears - I want the developers to feel comfortable and thinking about the task when we sit down to work it out together. More often then not, the developers either solve the issue without my intervention or need a lot less assistance than I was expecting, which is a win-win and gives you more confidence in your team.
 
 In time, you will find yourself training less and less and being able to pass on more and more of the edge-cases. These not only give you the time to train your team further, but free up more of your time to focus on the wellbeing of your team.
 
-I'm sure this is a mishmash of quotes, but I strongly believe that **you should train your team to be as good as you, and then push them to be better**. 
+I'm sure this is a mishmash of quotes, but I strongly believe that **you should train your team to be as good as you, and then push them to be better**.
 
 The other quote I often think of is _"What if we train them and they leave? What if we don’t and they stay?"_. You are doing nobody any favours by keeping tasks to yourself. If you don't "trust" the work your team do, then assign the work but get them to check it with you before it leaves the office (but if you don't trust your team, there is something else there...).
 

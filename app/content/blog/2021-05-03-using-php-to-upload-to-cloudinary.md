@@ -2,6 +2,7 @@
 title: Using a few lines of PHP to programmatically upload an image to Cloudinary
 date: 2021-05-03
 intro: This quick block post shows how to upload an image to Cloudinary using PHP, using their provided SDK
+permalink: "blog/using-php-to-upload-to-cloudinary/"
 tags:
  - Composer
  - PHP
