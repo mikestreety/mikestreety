@@ -23,6 +23,8 @@ You can only backup & restore to/from Gitlab running the same versions. To avoid
 
 All the tutorials tell you to create your backup first, however I found it easier to set the new server up as the first step. **Make sure you are installing the correct version**. I lost a couple of hours after I had followed the [Gitlab tutorial](https://about.gitlab.com/install/) - this sets up the Enterprise Edition as default, however I was running the **community edition**.
 
+**Edit:** Thanks to @mstoy on Twitter, it was pointed out there is a [**community edition** tutorial](https://about.gitlab.com/install/?version=ce) available.
+
 I was able to do this by replacing `gitlab-ee` in the documentation with `gitlab-ce`. For example, the Debian install requires a script which is then piped through bash - it can be updated to the following:
 
 <pre class="language-bash">curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash</pre>
