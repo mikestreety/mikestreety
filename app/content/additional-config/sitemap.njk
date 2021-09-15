@@ -8,7 +8,7 @@ sitemapIgnore: true
 {%- if (item.data.sitemapIgnore !== true) and (item.data.draft !== true) %}
 	<url>
 		<loc>{{ meta.site.url }}{{ item.url }}</loc>
-		<lastmod>{{ item.data.updated or item.date }}</lastmod>
+		<lastmod>{{ item?.data?.updated or item.date | dateISOShort }}</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

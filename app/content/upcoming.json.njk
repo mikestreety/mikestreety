@@ -5,8 +5,8 @@
 		let pending = this.ctx.collections['scheduled'];
 
 		return {
-			title: pending[0].data.title,
-			date: pending[0].date
+			title: pending[0]?.data?.title,
+			date: pending[0]?.date
 		};
 	}
 }
