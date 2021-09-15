@@ -1,7 +1,7 @@
 ---
 title: Build and release Composer packages using a self-hosted Gitlab
 intro: When developing with Composer, you may wish to create private packages and host them with Gitlab
-date: 2021-09-06
+date: 2021-09-15
 permalink: "blog/build-and-release-composer-packages-using-a-self-hosted-gitlab/"
 tags:
  - Gitlab
