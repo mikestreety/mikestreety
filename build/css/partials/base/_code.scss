@@ -36,8 +36,12 @@ pre code {
 	}
 	mark {
 		color: inherit;
-		background: rgba(255, 255, 255, 0.1);
+		background: rgba(255, 255, 255, 0.15);
 		padding: 0.1em;
+		display: block;
+		+ br {
+			display: none;
+		}
 	}
 }
 

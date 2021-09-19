@@ -3,14 +3,13 @@ title: Newsletters for Front-end Developers - 2019 edition
 date: 2019-02-04
 updated: 2019-08-12
 intro: Newsletters that I, as a front-end developer, have found extremely useful and insightful. This is a new list compared to the original from 2016!
+permalink: "blog/newsletters-for-front-end-developers-updated/"
 tags:
  - Web
  - Front-end Development
 ---
 
-<div class="info">Since writing this post, I have since create a <a href="https://email.subscribeto.at/">email newsletter directory</a>.<br><br> I have created a <strong><a href="https://email.subscribeto.at/front-end-development">front-end developer specific page</a></strong> for recommended newsletters :raised_hands:</div>
-
-Back in 2016 I wrote a blog post listing the [newsletters front-end developers should subscribe too](https://www.mikestreety.co.uk/blog/newsletters-for-front-end-developers). A few years have passed and my interests have changed, so here is an updated list of email newsletters that I think front-end developers would benefit from:
+Back in 2016 I wrote a blog post listing the [newsletters front-end developers should subscribe too](/blog/newsletters-for-front-end-developers). A few years have passed and my interests have changed, so here is an updated list of email newsletters that I think front-end developers would benefit from:
 
 - [Alligator.io](https://alligator.io/)
 - [CSS Layout](http://csslayout.news/)
