@@ -25,7 +25,7 @@ _This list will be constantly updated & sorted in alphabetical order_
 - [Pony Foo](https://ponyfoo.com/weekly) - If i'm honest, I only signed up to this for the name, but has become a great resource for articles
 - [Responsive Design Weekly](https://responsivedesign.is/) - All things responsive
 - [Smashing Email Newsletter](https://www.smashingmagazine.com/the-smashing-newsletter/) - A round-up of Smashing Mag content, code examples and opinions
-- [SVG Weekly](https://svgweekly.com/) - Exactly what it says on the tin
+- ~[SVG Weekly](https://svgweekly.com/)~ - Exactly what it says on the tin
 - [Sass News](http://sassnews.com/) - News about Sass and SCSS
 - [Versioning](https://www.sitepoint.com/versioning) - from Sitepoint, not always "web dev" links, but an interesting _daily_ collection
 - [WebAIM](http://webaim.org/newsletter/) - A newsletter focused on web accessibility
