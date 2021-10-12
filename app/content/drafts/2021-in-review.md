@@ -7,3 +7,7 @@ permalink: "blog/2021-in-review/"
 - ale house rock now 11ty
 - on make life work podcast
 - new child
+- new cargo bike
+- crashed commuter bike
+- lost eyesight
+- cargo bike recalled
