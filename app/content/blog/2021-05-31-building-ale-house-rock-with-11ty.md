@@ -28,10 +28,10 @@ With that in mind, I set out to make the following new website:
 
 <span class="info">Hey!</span> Feel free to have a play with the JSON API:
 
-- Beers: [https://beer.mikestreety.co.uk/api/beers.json](https://beer.mikestreety.co.uk/api/beers.json)
-- Breweries: [https://beer.mikestreety.co.uk/api/breweries.json](https://beer.mikestreety.co.uk/api/breweries.json)
+- Beers: [https://alehouse.rocks/api/beers.json](https://alehouse.rocks/api/beers.json)
+- Breweries: [https://alehouse.rocks/api/breweries.json](https://alehouse.rocks/api/breweries.json)
 
-There are several transformations I do to the [Brewery data](https://gitlab.com/mikestreety-sites/ale-house-rock/-/blob/master/app/data/breweries.js) to the website, but the JSON above is more than enough to play with.
+There are several transformations I do to the [Brewery data](https://gitlab.com/mikestreety-sites/ale-house-rock/-/blob/master/functions/api/process-beers-and-breweries.js) to the website, but the JSON above is more than enough to play with.
 
 ## Platform of choice
 
@@ -61,7 +61,7 @@ This is an enhancement from the one used for my [personal site](/blog/deploy-11t
 
 ```js
 // Get the beer JSON
-let beers = await fetch('https://beer.mikestreety.co.uk/api/beers.json')
+let beers = await fetch('https://alehouse.rocks/api/beers.json')
 	.then(data => data.json()),
 
 // Get the latest ID from the JSON
@@ -85,4 +85,3 @@ With 11ty powering it (and treating myself to a new domain name), all the beer r
 **[Ale House Rock](https://alehouse.rocks/)**
 
 If you're interested, the source code is accessible on [Gitlab](https://gitlab.com/mikestreety-sites/ale-house-rock).
-

@@ -5,13 +5,13 @@ tags:
   - Notes
 ---
 
-I was looking through my [diary](/diary) the other day and te how little I hast posted over the last month or so compared to the rest of the year. I also remembered that I had gone through a blog writing marathon earlier in the year and scheduled posts for months to come - so it's not that I have _recently_ stopped writing, I've just not written anything (except the odd post here or there) since about April.
+I was looking through my [diary](/diary) the other day and noted how little I hast posted over the last month or so compared to the rest of the year. I also remembered that I had gone through a blog writing marathon earlier in the year and scheduled posts for months to come - so it's not that I have _recently_ stopped writing, I've just not written anything (except the odd post here or there) since about April.
 
 Over the last few weeks, however, there have been a couple of events I wanted to make a note of. Not for anyone, really, except myself.
 
 ### Commuter Bike Crash
 
-About a month ago I experienced a rather embarrassing crash on the way to work. I was still close enough to home to hobble back after, but the accident broke my bike frame. I was avoiding a dog walker and another cyclist and didn't see a pothole masked by grass. The pothole caused me to lose control of the bike, after which I went head first into a low wall - which threw me over the handlebars and over the wall. 
+About a month ago I experienced a rather embarrassing crash on the way to work. I was still close enough to home to hobble back after, but the accident broke my bike frame. I was avoiding a dog walker and another cyclist and didn't see a pothole masked by grass. The pothole caused me to lose control of the bike, after which I went head first into a low wall - which threw me over the handlebars and over the wall.
 
 I was ok - bruised ego and legs. Fortunately there was a A&E nurse who saw the whole thing and gave me a quick check up before we headed in different directions.
 
@@ -30,4 +30,3 @@ While on holiday a couple of weeks ago (yes, the same week the cargo bike got re
 What it does mean is that I can't drive, I can't cycle, I can't read small writing on packaging. Fortunately, I can still work, look after my children and do most other day-to-day activities.
 
 It's been a pain - not being able to pop out in the car or cycle anywhere. Hopefully it will be better soon and I can start doing fun things again.
-
