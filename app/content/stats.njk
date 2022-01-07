@@ -1,0 +1,108 @@
+---
+title: Year in Review Stats
+description: Cycling, walking, blog and instagram stats, broken down by year
+layout: page.njk
+---
+
+<h1>Year in Review Statistics</h1>
+<p>Every year, I write a <a href="/category/annual-review/">summary of the year</a> (more for my benefit than anyone else's). In previous years, I've collated stats and displayed via tables. I thought it about time I made some charts with the data.</p>
+
+<h2>Blog Posts</h2>
+<div class="chartWrap">
+	<div class="chart">
+		<h3>Personal blog</h3>
+		<div id="postsPersonal"></div>
+	</div>
+	<div class="chart">
+		<h3>Liquid Light</h3>
+		<div id="postsLiquidLight"></div>
+	</div>
+</div>
+
+<div class="chart">
+	<h2>Blog Posts</h2>
+	<div class="js-tabs" id="tabs">
+		<ul class="js-tabs__header">
+			<li><a class="js-tabs__title" href="#">2021</a></li>
+			<li><a class="js-tabs__title" href="#">2020</a></li>
+			<li><a class="js-tabs__title" href="#">2019</a></li>
+			<li><a class="js-tabs__title" href="#">2018</a></li>
+		</ul>
+		<div class="js-tabs__content">
+			<h2>2021</h2>
+		</div>
+		<div class="js-tabs__content">
+			<h2>2020</h2>
+		</div>
+		<div class="js-tabs__content">
+			<h2>2019</h2>
+		</div>
+		<div class="js-tabs__content">
+			<h2>2018</h2>
+			<table>
+				<tbody><tr><td><strong>1</strong></td><td class="winner">↑ 4</td><td><a href="https://www.mikestreety.co.uk/blog/vue-js-using-localstorage-with-the-vuex-store">Vue: Using localStorage with Vuex store</a></td><td>13/10/17</td></tr>
+				<tr><td><strong>2</strong></td><td class="loser">↓ 1</td><td><a href="https://www.mikestreety.co.uk/blog/use-a-raspberry-pi-with-multiple-wifi-networks">Use a Raspberry Pi with multiple WiFi networks</a></td><td>11/10/15</td></tr>
+				<tr><td><strong>3</strong></td><td><small>New!<small></small></small></td><td><a href="https://www.mikestreety.co.uk/blog/introduction-to-vuex-managing-state-storage-and-sharing-data-between-components">Introduction to Vuex Part 1 - managing state, storage and sharing data between components</a></td><td>18/12/17</td></tr>
+				<tr><td><strong>4</strong></td><td class="loser">↓ 2</td><td><a href="https://www.mikestreety.co.uk/blog/advanced-gulp-file">Advanced Gulp File</a></td><td>22/05/14</td></tr>
+				<tr><td><strong>5</strong></td><td><small>New!<small></small></small></td><td><a href="https://www.mikestreety.co.uk/blog/get-background-image-information-if-element-has-a-one-in-jquery">Get background image information if element has a one in jQuery</a></td><td>04/03/16</td></tr>
+				<tr><td><strong>6</strong></td><td><small>New!<small></small></small></td><td><a href="https://www.mikestreety.co.uk/blog/multiple-transition-delay">Multiple transition delays</a></td><td>03/05/17</td></tr>
+				<tr><td><strong>7</strong></td><td> - </td><td><a href="https://www.mikestreety.co.uk/blog/vue-js-filters-what-are-they-how-do-you-use-them-and-how-do-you-make-them-video">Filters in Vue.js: What are they, how do you use them, and how do you make them?</a></td><td>08/11/17</td></tr>
+				<tr><td><strong>8</strong></td><td class="winner">↑ 2</td><td><a href="https://www.mikestreety.co.uk/blog/filtering-tables">Filtering Tables</a></td><td>12/02/15</td></tr>
+				<tr><td><strong>9</strong></td><td class="loser">↓6</td><td><a href="https://www.mikestreety.co.uk/blog/a-simple-sass-compilation-gulpfile-js">A simple Sass compilation gulpfile.js</a></td><td>17/03/14</td></tr>
+				<tr><td><strong>10</strong></td><td><small>New!<small></small></small></td><td><a href="https://www.mikestreety.co.uk/blog/introduction-to-vuex-implementation-part-2-video">Introduction to Vuex Part 2 - implementation</a></td><td>18/12/17</td></tr>
+				</tbody></table>
+		</div>
+	</div>
+</div>
+
+<h2>Instagram</h2>
+<div class="chartWrap">
+	<div class="chart">
+		<h3><a href="https://www.instagram.com/mikestreety/">Personal</a></h3>
+		<div id="instagramPersonal"></div>
+	</div>
+	<div class="chart">
+		<h3><a href="https://www.instagram.com/ale_house_rock/">Ale House Rock</a></h3>
+		<div id="instagramAleHouseRock"></div>
+	</div>
+</div>
+
+<h2>Cycling</h2>
+<div class="chartWrap">
+	<div class="chart">
+		<h3>Distance</h3>
+		<div id="cyclingDistance"></div>
+	</div>
+	<div class="chart">
+		<h3>Time Spent on Rides</h3>
+		<div id="cyclingTime"></div>
+	</div>
+	<div class="chart">
+		<h3>Elevation</h3>
+		<div id="cyclingElevation"></div>
+	</div>
+	<div class="chart">
+		<h3>Number of Rides</h3>
+		<div id="cyclingRides"></div>
+	</div>
+</div>
+
+<h2>Walking</h2>
+<div class="chartWrap chartWrapThirds">
+	<div class="chart">
+		<h3>Steps stepped</h3>
+		<div id="walkingSteps"></div>
+	</div>
+	<div class="chart">
+		<h3>Floors climbed</h3>
+		<div id="walkingFloors"></div>
+	</div>
+	<div class="chart">
+		<h3>Calories burned</h3>
+		<div id="walkingCalories"></div>
+	</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="/assets/js/charts.js"></script>

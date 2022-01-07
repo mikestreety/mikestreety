@@ -38,3 +38,20 @@
 @import './partials/components/video';
 
 @import './partials/components/overrides';
+
+
+.chartWrap {
+	display: flex;
+	flex-wrap: wrap;
+	> * {
+		width: 50%;
+	}
+
+	&.chartWrapThirds > * {
+		width: 33.33%;
+	}
+
+	h3 {
+		font-size: 1.1rem;
+	}
+}
