@@ -146,11 +146,11 @@ new ApexCharts(document.querySelector("#cyclingRides"), {
  * Walking
  */
 
-let walkingChartOptions = {
-	...chartOptions,
-	colors: ['#000']
-};
-walkingChartOptions.xaxis.categories = chartOptions.xaxis.categories.filter(x => ![2017, 2018].includes(x));
+let walkingChartOptions = JSON.parse(JSON.stringify(chartOptions));
+walkingChartOptions.colors = ['#000'];
+walkingChartOptions.xaxis.categories = walkingChartOptions.xaxis.categories.filter(
+	x => ![2017, 2018].includes(x)
+);
 
 new ApexCharts(document.querySelector("#walkingSteps"), {
 	...walkingChartOptions,
