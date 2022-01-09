@@ -14,6 +14,9 @@ var chartOptions = {
 		type: 'area',
 		toolbar: {
 			show: false
+		},
+		zoom: {
+			enabled: false,
 		}
 	},
 	stroke: {
@@ -71,15 +74,19 @@ new ApexCharts(document.querySelector("#postsLiquidLight"), {
 new ApexCharts(document.querySelector("#instagramPersonal"), {
 	...chartOptions,
 	series: [{
+		name: 'Photos',
 		data: [39, 24, 29, 6, 17]
 	}],
+	colors: ['#35eb93']
 }).render();
 
 new ApexCharts(document.querySelector("#instagramAleHouseRock"), {
 	...chartOptions,
 	series: [{
+		name: 'Reviews',
 		data: [91, 101, 77, 138, 195]
 	}],
+	colors: ['#2b76b9']
 }).render();
 
 /**
@@ -88,49 +95,75 @@ new ApexCharts(document.querySelector("#instagramAleHouseRock"), {
 new ApexCharts(document.querySelector("#cyclingDistance"), {
 	...chartOptions,
 	series: [{
+		name: 'Distance (miles)',
 		data: ['2249.7', '3273.5', '2689.4', '1927.3', '1004']
 	}],
+	colors: ['#fc5200']
 }).render();
 
 new ApexCharts(document.querySelector("#cyclingTime"), {
 	...chartOptions,
 	series: [{
+		name: 'Time spent cycling',
 		data: ['10816', '14124', '10725', '7976', '4375']
 	}],
+	colors: ['#fc5200'],
+	yaxis: {
+		labels: {
+			formatter: function(val) {
+				return (val / 60)
+			}
+		}
+	},
+	tooltip: {
+		y: {
+			formatter: function(val) {
+				return Math.floor(val / 60) + 'h ' + (val % 60) + 'm';
+			}
+		}
+	}
 }).render();
 
 new ApexCharts(document.querySelector("#cyclingElevation"), {
 	...chartOptions,
 	series: [{
-		data: ['134,459', '112178', '46368', '69400', '19925']
+		name: 'Elevation (ft)',
+		data: ['134459', '112178', '46368', '69400', '19925']
 	}],
+	colors: ['#fc5200']
 }).render();
 
 new ApexCharts(document.querySelector("#cyclingRides"), {
 	...chartOptions,
 	series: [{
+		name: 'Number of rides',
 		data: [443, 291, 288, 149, 111]
 	}],
+	colors: ['#fc5200']
 }).render();
+
+/**
+ * Walking
+ */
 
 let walkingChartOptions = {
 	...chartOptions,
-	xaxis: {
-		categories: [2019, 2020, 2021]
-	},
+	colors: ['#000']
 };
-
+walkingChartOptions.xaxis.categories = chartOptions.xaxis.categories.filter(x => ![2017, 2018].includes(x));
 
 new ApexCharts(document.querySelector("#walkingSteps"), {
 	...walkingChartOptions,
 	series: [{
-		data: ['2659,838', '2126312', '2562958']
+		name: 'Steps',
+		data: ['2659838', '2126312', '2562958']
 	}],
 }).render();
 
 new ApexCharts(document.querySelector("#walkingFloors"), {
 	...walkingChartOptions,
 	series: [{
+		name: 'Floors climbed',
 		data: ['4583', '2690', '3393']
 	}],
 }).render();
@@ -138,6 +171,22 @@ new ApexCharts(document.querySelector("#walkingFloors"), {
 new ApexCharts(document.querySelector("#walkingCalories"), {
 	...walkingChartOptions,
 	series: [{
+		name: 'Calories',
 		data: ['1033167', '1020728', '1052978']
 	}],
+}).render();
+
+/**
+ * Geocaches
+ */
+new ApexCharts(document.querySelector("#geocaches"), {
+	...chartOptions,
+	series: [{
+		name: 'Geocaches Found',
+		data: [1, 0 , 5, 210, 375, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18]
+	}],
+	colors: ['#02874d'],
+	xaxis: {
+		categories: [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
+	}
 }).render();
