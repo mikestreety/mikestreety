@@ -5,6 +5,10 @@ module.exports = function (config) {
 	config.addCollection('drafts', drafts);
 	config.addCollection('scheduled', scheduled);
 
+	config.addFilter('findPost', function(slug) {
+		return this.ctx.collections.blog.filter(a => a.url == slug)[0];
+	})
+
 	config.addPlugin(require('@mikestreety/11ty-utils'));
 	config.addPlugin(require('@11ty/eleventy-navigation'));
 	config.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));

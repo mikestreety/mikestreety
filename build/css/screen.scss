@@ -26,6 +26,7 @@
 @import './partials/structure/page';
 
 @import './partials/components/breadcrumb';
+@import './partials/components/charts';
 @import './partials/components/info';
 @import './partials/components/intro';
 @import './partials/components/listing';
@@ -38,21 +39,3 @@
 @import './partials/components/video';
 
 @import './partials/components/overrides';
-
-
-.chartWrap {
-	display: flex;
-	flex-wrap: wrap;
-
-	> * {
-		width: 50%;
-	}
-
-	> .chartFullwidth {
-		width: 100%;
-	}
-
-	h3 {
-		font-size: 1.1rem;
-	}
-}

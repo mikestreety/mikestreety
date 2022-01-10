@@ -18,6 +18,7 @@ It also redeploys automatically if there is a new beer (rather than just rebuild
 On that note, this very blog only rebuilds when necessary too. I often schedule blog posts for the future (weirdly, I've found this helps me write more) and that was one thing that was missing from a "traditional" CMS.
 
 Using Cloudflare workers and an extra JSON page on my site, I've been able to set a scheduled worker to only trigger a build when needed - again, saving Netlify build minutes (and saving the planet 😉)
+
 ### Docker
 
 For a project at work, I've been having to get into and understand Docker. There is still a lot I don't understand and I still struggle to see the benefits for it in production (when having to be hooked up to a single database instance). If anyone has used it with a traditional LAMP stack in production, I'd love to pick your brains
@@ -29,4 +30,3 @@ With the move to 11ty, I set myself a task of auditing _all_ my blogs posts. Tha
 ### Podcast Wrap-up
 
 On that note, the [On the Side](https://ontheside.network) vs Make Life Work crew have decided to take a hiatus [on the podcast](https://makelifeworkpodcast.com/) while we go and settle in new jobs (not me) and have a child (me). Was great fun talking about side-projects weekly.
-
