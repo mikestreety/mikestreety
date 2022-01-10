@@ -36,6 +36,38 @@
 			{
 				"slug": "/blog/creating-an-11ty-collection-from-json-api/"
 			}
+		],
+		"2020": [
+			{
+				"slug": "/blog/vue-js-using-localstorage-with-the-vuex-store/"
+			},
+			{
+				"slug": "/blog/how-to-use-fetch-in-javascript-to-get-or-post-data/"
+			},
+			{
+				"slug": "/blog/the-git-commit-hash/"
+			},
+			{
+				"slug": "/blog/multiple-transition-delay/"
+			},
+			{
+				"slug": "/blog/github-for-pc-and-setting-up-a-local-testing-environment/"
+			},
+			{
+				"slug": "/blog/use-a-raspberry-pi-with-multiple-wifi-networks/"
+			},
+			{
+				"slug": "/blog/vue-js-filters-what-are-they-how-do-you-use-them-and-how-do-you-make-them-video/"
+			},
+			{
+				"slug": "/blog/get-background-image-information-if-element-has-a-one-in-jquery/"
+			},
+			{
+				"slug": "/blog/filtering-tables/"
+			},
+			{
+				"slug": "/blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path/"
+			}
 		]
 	}
 }
