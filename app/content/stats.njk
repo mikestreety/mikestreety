@@ -23,26 +23,26 @@ layout: page.njk
 	<h2>Blog Posts</h2>
 	<div class="js-tabs" id="tabs">
 		<ul class="js-tabs__header">
-			{% for year, posts in stats.posts %}
-			<li><a class="js-tabs__title" href="#">{{ year }}</a></li>
+			{% for posts in stats.posts %}
+			<li><a class="js-tabs__title" href="#">{{ posts.title }}</a></li>
 			{% endfor %}
 		</ul>
-		{% for year, posts in stats.posts %}
+
+		{% for posts in stats.posts %}
 		<div class="js-tabs__content">
-			<h3>{{ year }}</h3>
+			<h3>{{ posts.title }}</h3>
 			<table>
-			{% for post in posts %}
+			{% for post in posts.posts %}
 			{% set entry = post.slug | findPost %}
+
 			<tr>
-				<td><strong>{{ loop.index }}</strong></td>
+				<td><strong>{{ post.position }}</strong></td>
 
-				{% if post.previous %}
-					{% set place = post.previous - loop.index %}
-
-					{% if place > 0 %}
-						<td class="winner">↑ {{ place }}</td>
-					{% elif place < 0 %}
-						<td class="loser">↓ {{ place * -1 }}</td>
+				{% if post.position_change !== false %}
+					{% if post.position_change > 0 %}
+						<td class="winner">↑ {{ post.position_change }}</td>
+					{% elif post.position_change < 0 %}
+						<td class="loser">↓ {{ post.position_change * -1 }}</td>
 					{% else %}
 						<td> - </td>
 					{% endif %}
