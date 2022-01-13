@@ -36,6 +36,7 @@ module.exports = {
 				output[y].months[m].entries.push({
 					title: item.data.title,
 					url: item.url,
+					publication: item.data?.publication,
 					// This is just the date plus ordinal (e.g. 23rd)
 					date: dayOrdinal(item.date),
 				});
