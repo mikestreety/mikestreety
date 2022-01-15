@@ -24,6 +24,7 @@ layout: page.njk
 
 <div class="chart">
 	<h2>Blog Posts</h2>
+	<p>My 10 most popular blog posts of the year and their rank in comparison to the previous year</p>
 	<div class="js-tabs" id="tabs">
 		<ul class="js-tabs__header">
 			{% for posts in stats.posts %}
@@ -54,7 +55,7 @@ layout: page.njk
 				{% endif %}
 
 				<td><a href="{{ entry.url }}">{{ entry.data.title }}</a></td>
-				<td><small>{{ entry.date | dateLong }}</small></td>
+				<td><small style="white-space: nowrap">{{ entry.date | dateLong }}</small></td>
 			</tr>
 			{% endfor %}
 			</table>
