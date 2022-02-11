@@ -2,9 +2,10 @@
 title: Schema - what is it and how do I use it?
 date: 2017-10-25
 updated: 2019-03-27
-intro: ## What is Schema? Schema ([schema.org](http&#58;//schema.org/)) is a way of structuring your code to make your content available in a "richer" format. It allows you to provide ...
+intro: Schema is a way of structuring your code to make your content available in a "richer" format.
 canonical: https://www.liquidlight.co.uk/blog/schema-what-is-it-and-how-do-i-use-it/
 publication: Liquid Light
+permalink: "blog/schema-what-is-it-and-how-do-i-use-it/"
 tags:
  - Web
  - Front-end Development
@@ -43,33 +44,41 @@ Most Schema objects inherit off of other objects. This means that although there
 
 Local Business is an overarching umbrella which can contain many different aspects of your schema. From contact details to reviews, the Local Business `itemtype` is crucial to adding Schema markup to your website.
 
-<pre class="language-html"><code>&lt;div itemscope itemtype="http://schema.org/LocalBusiness"&gt;
+```html
+&lt;div itemscope itemtype="http://schema.org/LocalBusiness"&gt;
 	&lt;span itemprop="name"&gt;Liquid Light&lt;/span&gt;
-&lt;/div&gt;</code></pre>
- 
+&lt;/div&gt;
+```
 
-With the basic shell added, there are a few properties of note it might be worth considering adding: 
+
+With the basic shell added, there are a few properties of note it might be worth considering adding:
 
 
 #### sameAs
 
 These are links to social media networks and other sites which you have public profiles - these tell Google where else people can find you
 
-<pre class="language-html"><code> 
-&lt;link itemprop="sameAs" href="https://twitter.com/liquidlightuk"&gt;</code></pre>
+```html
+
+&lt;link itemprop="sameAs" href="https://twitter.com/liquidlightuk"&gt;
+```
 
 #### hasMap
 
 This links to a Google map to tell Google where to find your physical location
 
-<pre class="language-html"><code>&lt;link itemprop="hasMap" href="https://goo.gl/maps/WoVnkKgg6w12"&gt;</code></pre>
+```html
+&lt;link itemprop="hasMap" href="https://goo.gl/maps/WoVnkKgg6w12"&gt;
+```
 
 
 #### telephone
 
 The telephone number for your business
 
-<pre class="language-html"><code>&lt;span itemprop="telephone"&gt;+44 (0) 1273 623 303&lt;/span&gt;</code></pre>
+```html
+&lt;span itemprop="telephone"&gt;+44 (0) 1273 623 303&lt;/span&gt;
+```
 
 Once you have provided an all-round overview of your business, there are some more advanced Schema types which can be added to give your website more context and rich metadata.
 
@@ -82,61 +91,72 @@ Below are a few examples of how you might structure the opening times:
 
 **Open Monday - Friday, 9am until 6pm**
 
-<pre class="language-html"><code>&lt;div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+```html
+&lt;div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
 	&lt;span itemprop="name"&gt;Liquid Light&lt;/span&gt;
-	&lt;span itemprop="openingHours" content="Mo,Tu,We,Th,Fr 09:00-18:00"&gt;Monday - Friday, 9am - 6pm&lt;/span&gt; 
-&lt;/div&gt;</code></pre>
+	&lt;span itemprop="openingHours" content="Mo,Tu,We,Th,Fr 09:00-18:00"&gt;Monday - Friday, 9am - 6pm&lt;/span&gt;
+&lt;/div&gt;
+```
 
 **Open 24/7**
 
-<pre class="language-html"><code>&lt;div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+```html
+&lt;div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
 	&lt;span itemprop="name"&gt;Liquid Light&lt;/span&gt;
 	&lt;time itemprop="openingHours" datetime="Mo-Su"&gt;Open 24 hours&lt;/time&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+```
 
 **Various opening times**
 
-<pre class="language-html"><code>&lt;div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+```html
+&lt;div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
 	&lt;span itemprop="name"&gt;Liquid Light&lt;/span&gt;
 	&lt;time itemprop="openingHours" datetime="Mo,Tu 10:00-13:00"&gt;Monday and Tuesday, 10am - 1pm&lt;/time&gt;
 	&lt;time itemprop="openingHours" datetime="Fi-Su 11:00-14:00"&gt;Friday to Sunday, 11am - 2pm&lt;/time&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+```
 
 ### Address {[Schema link](http://schema.org/PostalAddress)}
 
 The address schema allows you to give a physical location to your business and can be used independently or within the LocalBusiness `itemtype`.
 
-<pre class="language-html"><code>&lt;div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+```html
+&lt;div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
 	&lt;span itemprop="name"&gt;Liquid Light&lt;/span&gt;
 	&lt;span itemprop="streetAddress"&gt;28 Kensington Street&lt;/span&gt;
 	&lt;span itemprop="addressLocality"&gt;Brighton&lt;/span&gt;
 	&lt;span itemprop="addressRegion"&gt;East Sussex&lt;/span&gt;
 	&lt;span itemprop="postalCode"&gt;BN1 4AJ&lt;/span&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+```
 
 ### People {[Schema link](http://schema.org/Person)}
 
-The person schema is used for marking up people on your website, such as on an about or contact page. It can also be used, for example, on a film database when listing actors or on a website listing deaths and births. 
+The person schema is used for marking up people on your website, such as on an about or contact page. It can also be used, for example, on a film database when listing actors or on a website listing deaths and births.
 
 The official description is _"alive, dead, undead, or fictional"_ and, because of this, features a lot of properties!
 
-<pre class="language-html"><code>&lt;div itemprop="customer" itemscope itemtype="http://schema.org/Person"&gt;
+```html
+&lt;div itemprop="customer" itemscope itemtype="http://schema.org/Person"&gt;
     &lt;h1&gt;
 	    &lt;span itemprop="givenName"&gt;Mike&lt;/span&gt;
 	    &lt;span itemprop="familyName"&gt;Street&lt;/span&gt;
     &lt;/h1&gt;
     &lt;h3 itemprop="jobTitle"&gt;Front-end developer&lt;/h3&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+```
 
 Within the person schema, you can have several schemas already covered, such as a company and/or an address. This would be placed _within_ the People scope. For example:
 
-<pre class="language-html"><code>&lt;div itemprop="customer" itemscope itemtype="http://schema.org/Person"&gt;
+```html
+&lt;div itemprop="customer" itemscope itemtype="http://schema.org/Person"&gt;
 	&lt;h1&gt;
 		&lt;span itemprop="givenName"&gt;Mike&lt;/span&gt;
 		&lt;span itemprop="familyName"&gt;Street&lt;/span&gt;
 	&lt;/h1&gt;
 	&lt;h3 itemprop="jobTitle"&gt;Front-end developer&lt;/h3&gt;
-    
+
 	&lt;div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
 		&lt;span itemprop="name"&gt;Liquid Light&lt;/span&gt;
 		&lt;span itemprop="streetAddress"&gt;28 Kensington Street&lt;/span&gt;
@@ -144,7 +164,8 @@ Within the person schema, you can have several schemas already covered, such as 
 		&lt;span itemprop="addressRegion"&gt;East Sussex&lt;/span&gt;
 		&lt;span itemprop="postalCode"&gt;BN1 4AJ&lt;/span&gt;
 	&lt;/div&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+```
 
 ### Reviews {[Schema link](http://schema.org/Review)}
 
@@ -160,7 +181,8 @@ Your web page can contain either one or many reviews and the markup is the same 
 
 _Note the `Rating` and `Person` item types within the Review. These can contain any of the elements from these types._
 
-<pre class="language-html"><code>&lt;div itemprop="review" itemscope itemtype="http://schema.org/Review"&gt;
+```html
+&lt;div itemprop="review" itemscope itemtype="http://schema.org/Review"&gt;
 	&lt;div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"&gt;
 		&lt;span itemprop="ratingValue"&gt;5&lt;/span&gt;
 	&lt;/div&gt;
@@ -168,11 +190,12 @@ _Note the `Rating` and `Person` item types within the Review. These can contain 
 	&lt;h4 itemprop="author" itemtype="http://schema.org/Person"&gt;
 		&lt;span itemprop="name"&gt;Reviewer Name&lt;/span&gt;
 	&lt;/h4&gt;
-		
+
 	&lt;p itemprop="reviewBody"&gt;Review text&lt;/p&gt;
 
 	&lt;time itemprop="datePublished" datetime="1970-01-01T12:00"&gt;2 hours ago&lt;/time&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+```
 
 #### AggregateRating
 
@@ -180,16 +203,18 @@ The `AggregateRating` provides an overall rating for the item or business being 
 
 Although there are several attributes available for the `AggregateRating` type, there are only two which are required - the average rating value (this should be out of **5**) and the total number of reviews.
 
-<pre class="language-html"><code>&lt;div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"&gt;
-	&lt;strong itemprop="ratingValue"&gt;4.82&lt;/strong&gt; 
+```html
+&lt;div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"&gt;
+	&lt;strong itemprop="ratingValue"&gt;4.82&lt;/strong&gt;
 	average rating out of
-	&lt;strong itemprop="ratingCount"&gt;786&lt;/strong&gt; 
+	&lt;strong itemprop="ratingCount"&gt;786&lt;/strong&gt;
 	total reviews
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+```
 
 If the aggregate rating is not within a "Thing", you can specify   an `itemReviewed` itemtype with any attributes from the [Thing](http://schema.org/Thing) object.
 
-- - - 
+- - -
 
 Although we've only scraped the surface of the Schema objects, I hope this article helps you get started with making your website more search-engine friendly. I also hope it helps you become familiar with the Schema markup.
 

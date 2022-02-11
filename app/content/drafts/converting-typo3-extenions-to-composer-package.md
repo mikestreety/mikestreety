@@ -1,4 +1,0 @@
-- run convert.php
-- uses emconf
-- ci to release composer
-- require it

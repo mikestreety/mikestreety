@@ -5,6 +5,7 @@ updated: 2016-06-20
 intro: There are plenty of articles on the web about how to become a web designer, how to build sites and how to sell them. What this article opens up, is ...
 canonical: https://12devsofxmas.co.uk/2013/01/day-10-setting-up-a-local-development-server/index.html
 publication: 12 Devs of Christmas
+permalink: "blog/setting-up-a-local-development-server/"
 tags:
  - Web
  - Command Line

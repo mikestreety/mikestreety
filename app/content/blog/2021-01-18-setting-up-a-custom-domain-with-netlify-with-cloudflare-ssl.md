@@ -3,9 +3,12 @@ title: Setting up a custom domain with Netlify with Cloudflare SSL
 date: 2021-01-18
 updated: 2021-03-02
 intro: In this post we are going to set up a custom domain in Netlify using Cloudflare. We will also install a self signed Cloudflare certificate on Netlify to ensure end-to-end encryption.
+permalink: "blog/2021-01-18-setting-up-a-custom-domain-with-netlify-with-cloudflare-ssl/"
 tags:
  - Web
  - DevOps
+ - Cloudflare
+ - Netlify
 ---
 
 In this post we are going to set up a custom domain in Netlify using Cloudflare. We will also install a self signed Cloudflare certificate on Netlify to ensure end-to-end encryption.
@@ -22,7 +25,7 @@ Running on Cloudflare, you can leave your domain in "Flexible" mode - this would
 
 <div class="info">If you would like to know more about Cloudflare's different SSL modes, you can read more in this blog: <a href="https://www.mikestreety.co.uk/blog/what-are-the-different-ssl-modes-on-cloudflare">What are the different SSL modes on Cloudflare?</a></div>
 
-## Objectives 
+## Objectives
 
 We are going to:
 
@@ -33,7 +36,7 @@ We are going to:
 
 <div class="info warning">Because Cloudflare uses its own CDN & IP Addresses to serve your site, Netlify won't be able to detect that the domain is correctly set up.</div>
 
-## Steps 
+## Steps
 
 <div class="info alt">For this tutorial, make sure you have your domain set up in Cloudflare and a site running on Netlify</div>
 
