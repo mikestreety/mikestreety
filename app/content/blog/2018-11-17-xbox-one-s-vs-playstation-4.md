@@ -72,6 +72,4 @@ As mentioned, we used the Xbox as our main entertainment system, our lounge TV a
 - The remote control & integration was better with the Xbox
 - The featured/trending TV shows on the PlayStation gets a thumbs up
 
- 
-
 Have you made the switch? What do you think?
