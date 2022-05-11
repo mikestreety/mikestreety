@@ -7,7 +7,7 @@ tags:
  - Composer
 ---
 
-Packagist is a great resource for Composer packages; the NPM of the PHP world and composer is already set up to work with it. However, there may be times where you wish to include a local package or pull in a package from somwhere else - such as a self-hosted [Private Packagist](https://packagist.com/) or [Gitlab](https://gitlab.com/) package repository.
+Packagist is a great resource for Composer packages; the NPM of the PHP world and composer is already set up to work with it. However, there may be times where you wish to include a local package or pull in a package from somewhere else - such as a self-hosted [Private Packagist](https://packagist.com/) or [Gitlab](https://gitlab.com/) package repository.
 
 With Composer, you can specify in your `composer.json` where you wish to pull the packages from.
 
@@ -56,7 +56,7 @@ When using this method, Composer creates a symlink to the package inside of the 
 
 ## Custom remote repositories - type: composer (Gitlab)
 
-We use a self-hosted version of Gitlab to publish and host our private packages. This saves us having to use git repositories or symlinkining and keeps us as close to the Composer ecosystem as possible.
+We use a self-hosted version of Gitlab to publish and host our private packages. This saves us having to use git repositories or symlinking and keeps us as close to the Composer ecosystem as possible.
 
 Once our packages are [built and released using Gitlab CI](https://www.mikestreety.co.uk/blog/build-and-release-composer-packages-using-a-self-hosted-gitlab/), we set a custom composer location in our "repositories" section of the `composer.json`.
 
@@ -93,7 +93,7 @@ Once you've included your custom repository you can include your packages as you
 
 ## Git repository - type: git
 
-The last type we're going to cover in this post is `type: git`. This is useful if you are devloping a package which will be uploaded. It tells Composer to _clone_ the repostitory instead of downloading the package or creating a symlink.
+The last type we're going to cover in this post is `type: git`. This is useful if you are developing a package which will be uploaded. It tells Composer to _clone_ the repository instead of downloading the package or creating a symlink.
 
 First step, as before is to include the custom repository location. Make sure you include this **before** it's original source (e.g. the Gitlab API) as composer works on a **first come, first served** basis when searching for packages
 
@@ -114,7 +114,7 @@ First step, as before is to include the custom repository location. Make sure yo
 }
 ```
 
-This uses your SSH key, so if you have access to the repo it will clone it down. You can then choose which branch to use (by preceeding it with `dev-`) or you can still use a tag. This is useful if you've not published your package yet.
+This uses your SSH key, so if you have access to the repo it will clone it down. You can then choose which branch to use (by preceding it with `dev-`) or you can still use a tag. This is useful if you've not published your package yet.
 
 ## Other means
 
