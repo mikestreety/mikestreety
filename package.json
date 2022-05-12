@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prod:11ty": "npx @11ty/eleventy",
-    "watch:11ty": "set DEBUG=Eleventy* && npx @11ty/eleventy  --serve",
+    "watch:11ty": "npx @11ty/eleventy --serve",
     "prod:assets": "mix --production",
     "watch:assets": "mix watch",
     "watch": "npm run watch:assets & npm run watch:11ty",
@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0",
     "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
