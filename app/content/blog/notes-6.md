@@ -1,5 +1,5 @@
 ---
-title: '#6'
+title: 'Notes #6'
 date: 2020-07-07
 updated: 2020-09-15
 tags:
