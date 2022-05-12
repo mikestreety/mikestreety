@@ -43,5 +43,13 @@ pre code {
 			display: none;
 		}
 	}
+	.token.deleted:not(.prefix), .token.inserted:not(.prefix) {
+		display: block;
+	}
+	.token.inserted {
+		background-color: hsl(120deg 73% 75% / 20%);
+	}
+	.token.deleted {
+		background-color: hsl(350deg 100% 88% / 20%);
+	}
 }
-
