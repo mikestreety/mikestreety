@@ -27,18 +27,24 @@ All the tutorials tell you to create your backup first, however I found it easie
 
 I was able to do this by replacing `gitlab-ee` in the documentation with `gitlab-ce`. For example, the Debian install requires a script which is then piped through bash - it can be updated to the following:
 
-<pre class="language-bash">curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash</pre>
+```bash
+curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+```
 
 We can then install `gitlab-ce` in the next step
 
-<pre class="language-bash">sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install gitlab-ce
-</pre>
+```bash
+sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install gitlab-ce
+
+```
 
 ### 3. Create a backup
 
 If you are up-to-date, you can use the following to make a backup. Run this on your exiting Gitlab server.
 
-<pre class="language-bash">sudo gitlab-backup create</pre>
+```bash
+sudo gitlab-backup create
+```
 
 You will see it loop through all of the projects on your Gitlab server and eventually create a `tar` file. This tar filename contains the date and the Gitlab version - so you can double check your versions are in sync.
 
@@ -60,14 +66,30 @@ Move the files you have just transferred to the places where you found them. The
 
 The restoration is details in the [Gitlab documentation](https://docs.gitlab.com/ee/raketasks/backup_restore.html#restore-for-omnibus-gitlab-installations), however once you have stopped the services listed, you can run
 
-<pre class="language-bash">sudo gitlab-backup restore </pre>
+```bash
+sudo gitlab-backup restore
+```
 
 This will restore the one and only backup that exists. If you do pass in the name of the file (if you, say, took a backup of the new server), you need to omit the `_gitlab_backup.tar` at the end of the name.
 
 For example, if the file was `1612726810_2021_02_07_13.8.3_gitlab_backup.tar` you would do:
 
-<pre class="language-bash">sudo gitlab-backup restore BACKUP=1612726810_2021_02_07_13.8.3</pre>
+```bash
+sudo gitlab-backup restore BACKUP=1612726810_2021_02_07_13.8.3
+```
+
+## Non-main branches
+
+As [Tom pointed out](https://gitlab.com/mikestreety/mikestreety/-/issues/2), if you have any branches which don't use `main` as their default branch, you may get an error when cloning down a repo from your new instance.
+
+If that is the case there is a solution, which was posted in the official [Gitlab Issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/343905#note_770735311)
+
+```bash
+Project.all.each {|p| p.change_head(p.default_branch) }
+``
+
+_Note: I\'m not quite sure where you would run this_
 
 ## Finished
 
-You should now have a Gitlab instance that walks ands talks like your old one, but on a new server instead.
+You should now have a Gitlab instance that walks and talks like your old one, but on a new server instead.
