@@ -3,6 +3,7 @@ title: Xbox One vs PlayStation 4
 date: 2018-11-17
 updated: 2019-04-08
 intro: I recently sold my Xbox One S and bout a PlayStation 4 Pro. Why did I do this and what are the differences? This post outlines my thoughts from an "everyday consumer".
+permalink: "blog/xbox-one-s-vs-playstation-4/"
 tags:
  - General
  - Thoughts
@@ -16,7 +17,7 @@ In my twenties I purchased an Xbox 360 Slim. From there I bought an Xbox One and
 
 ## Breakdown
 
-As with all "verses" blog posts, I've broken down the comparison into different categories and declared a winner for each. 
+As with all "verses" blog posts, I've broken down the comparison into different categories and declared a winner for each.
 
 ### Controllers (Winner: Xbox One S)
 
@@ -24,17 +25,17 @@ Straight off, the Xbox controllers are more comfortable. Much like Xbox, PlaySta
 
 For the first few days of playing PlayStation, I had pains in my hand from having to stretch so far and, in some cases, had to stop playing because of this (first world problems, I know). 4 weeks down the line, however, and my hand seems to have adapted to this new position.
 
-Despite this, I will still stand by that the Xbox controllers are better. 
+Despite this, I will still stand by that the Xbox controllers are better.
 
 ### Games (Winner: Draw)
 
 A lot of the games between the two are the same, most game manufacturers release games on multiple platforms. There are a few differences and a couple of games that I miss. Sony's PlayStation seems to be more geared towards story adventure games - Unchartered, Horizon Zero 4 and Spiderman. Xbox has got the monopoly on racing games - the ones exclusive to PS4 don't compare anywhere near to the Forza franchise. However, most platform exclusive games have a counter-part on the other side.
 
-Cross-platform games like FIFA and GTAV are identical. The controls & gameplay are, as far as I can tell, exactly the same. For that reason, the games are not a reason to switch on their own. 
+Cross-platform games like FIFA and GTAV are identical. The controls & gameplay are, as far as I can tell, exactly the same. For that reason, the games are not a reason to switch on their own.
 
 ### Apps (Winner: Draw)
 
-Non-games apps were as important to me as games themselves. Both consoles have Netflix, Plex, Now TV and All 4 and, once in the app, behave the same between them. 
+Non-games apps were as important to me as games themselves. Both consoles have Netflix, Plex, Now TV and All 4 and, once in the app, behave the same between them.
 
 The Xbox One does also have a TV tuner if you purchase the hardware, which made it an all encompassing solution (more on that in the Media Centre section). As we can watch everything we want to on both - this section is also a draw.
 
@@ -46,7 +47,7 @@ For a complete media centre solution, the Xbox wins hands down. The UI is more i
 
 The internet claims you can use a Sony TV remote for your PS4, by controlling it through ARC HDMI. It works perfectly well until you enter an app such as Netflix. Once you do, there is no way of going "home" without using a complex navigation menu system. The PS4 remote has the PlayStation button allowing you to return.
 
-The PS4 is also lacking a TV tuner, meaning the TV remote is required when wanting to watch television. 
+The PS4 is also lacking a TV tuner, meaning the TV remote is required when wanting to watch television.
 
 With the PlayStion's tagline being "For the Players", it's no surprise the media side is lacking.
 

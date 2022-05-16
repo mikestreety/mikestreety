@@ -3,6 +3,7 @@ title: Socket RSS - The Gleefreshing answer to your Doomscrolling habits
 date: 2021-02-22
 updated: 2021-02-23
 intro: I have recently made a side project called "Socket RSS". The idea is it becomes a place for Gleefreshing, not Doomscrolling.
+permalink: "blog/socket-rss-making-rss-your-mindless-scrolling-app/"
 tags:
  - Web
  - General
@@ -13,7 +14,7 @@ I love RSS, I love how it is like a social network without any of the nonsense. 
 
 Because of this, I wanted an RSS reader for my phone. Something that, when I reach for twitter, I can reach for instead. Something that makes me want to [Gleefresh](https://mashable.com/article/gleefreshing-opposite-of-doomscrolling-election-news/), not Doomscroll.
 
-However, I am a notification/unread marker fiend. If it says I have something unread, I have to read it/clear it (side note: those screenshots where people have hundreds of unread emails make me feel as nervous as intentionally [odd socks](https://www.flamingogifts.co.uk/united-oddsocks-m46)). 
+However, I am a notification/unread marker fiend. If it says I have something unread, I have to read it/clear it (side note: those screenshots where people have hundreds of unread emails make me feel as nervous as intentionally [odd socks](https://www.flamingogifts.co.uk/united-oddsocks-m46)).
 
 Because of this, and because I love a side project, I built [Socket RSS](https://app.socketrss.com/).
 
