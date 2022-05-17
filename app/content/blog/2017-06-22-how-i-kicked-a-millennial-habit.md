@@ -25,7 +25,7 @@ The points in the video Simon raised resonated with me, and I started looking at
 
 It's not just this video that made me decide to do this. I've just got back from a camping trip and it was so nice to just sit, let your mind wander. Doing this made me not so scared to be bored and device-less.
 
-My first step was my Fitbit. I own a [Blaze](https://www.fitbit.com/uk/blaze) which one of its selling points for me were all the notifications you could receive. These had to stop, as the moment my gadget buzzed I would lose track of the conversation to read my watch. I turned off all notifications except phone calls (as per the point above).
+My first step was my Fitbit. I own a [Blaze](https://www.fitbit.com/pl/shop/blaze) which one of its selling points for me were all the notifications you could receive. These had to stop, as the moment my gadget buzzed I would lose track of the conversation to read my watch. I turned off all notifications except phone calls (as per the point above).
 
 My phone also stays on silent all the time so I can get to notifications when I want to address them, not when my phone demands.
 

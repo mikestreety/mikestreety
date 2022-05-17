@@ -9,7 +9,7 @@ tags:
  - CSS
 ---
 
-<figure class="block-img"><img src="/assets/img/content/css-frameworks/religion_is_like_a_penis.jpg" alt="Religion is like a penis"><figcaption>Religion is like a penis [<a href="http://dearblankpleaseblank.com/permalink.php?viewid=20720">Original Source</a>]</figcaption></figure>
+<figure class="block-img"><img src="/assets/img/content/css-frameworks/religion_is_like_a_penis.jpg" alt="Religion is like a penis"><figcaption>Religion is like a penis</figcaption></figure>
 
 Since I read it a couple of years ago, this quote has really stuck with me.
 

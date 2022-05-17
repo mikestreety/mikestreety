@@ -27,7 +27,7 @@ I have a Lumen app which I will be deploying with Deployer in this blog post, so
 
 ## Install
 
-There are a couple of ways you can [install](https://deployer.org/docs/installation.html) deployer. To keep my code device & environment agnostic, I have opted for the [composer](https://deployer.org/docs/installation.html#distribution-composer-installation) method.
+There are a couple of ways you can [install](https://deployer.org/docs/7.x/installation) deployer. To keep my code device & environment agnostic, I have opted for the [composer](https://deployer.org/docs/7.x/installation#distribution-composer-installation) method.
 
 This means I don't have to set up deployer on the machine if I wish to deploy my app, just SSH access and composer.
 
@@ -85,7 +85,7 @@ host('123.456.789.100')
 
 With the `deploy_path`, make sure this is an absolute path. The rest of the default `deploy.php` can be left as is.
 
-<div class="info">If you are using a public repo, it might be worth considering having your host & user in the advised <a href="https://deployer.org/docs/hosts.html#inventory-file">yaml</a> configuration and utilising <code>.gitignore</code> to prevent someone trying to hack your server. However, if your SSH key security & firewall is good enough, then the convenience of having your host details fixed might prevail</div>
+<div class="info">If you are using a public repo, it might be worth considering having your host & user in the advised <a href="https://deployer.org/docs/7.x/hosts">yaml</a> configuration and utilising <code>.gitignore</code> to prevent someone trying to hack your server. However, if your SSH key security & firewall is good enough, then the convenience of having your host details fixed might prevail</div>
 
 ## Lumen customisations
 

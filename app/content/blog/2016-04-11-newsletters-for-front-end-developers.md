@@ -24,7 +24,7 @@ _This list will be constantly updated & sorted in alphabetical order_
 - [Performance Email](https://perf.email/) - Web performance tools, tips, talks and resources
 - [Pony Foo](https://ponyfoo.com/weekly) - If i'm honest, I only signed up to this for the name, but has become a great resource for articles
 - [Responsive Design Weekly](https://responsivedesign.is/) - All things responsive
-- [Smashing Email Newsletter](https://www.smashingmagazine.com/the-smashing-newsletter/) - A round-up of Smashing Mag content, code examples and opinions
+- [Smashing Email Newsletter](https://www.smashingmagazine.com/2010/01/the-smashing-newsletter/) - A round-up of Smashing Mag content, code examples and opinions
 - [Sass News](http://sassnews.com/) - News about Sass and SCSS
 - [Versioning](https://www.sitepoint.com/versioning) - from Sitepoint, not always "web dev" links, but an interesting _daily_ collection
 - [WebAIM](http://webaim.org/newsletter/) - A newsletter focused on web accessibility

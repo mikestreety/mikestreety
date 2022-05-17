@@ -16,7 +16,7 @@ Many people would run away at the thought of designing and making a HTML newslet
 
 ### Start with a template
 
-Mailchimp have a _fantastic_ resource of [email blueprints](https://github.com/mailchimp/Email-Blueprints) to get you started. You can pick and chose from a whole myriad of templates - with cross-client compatibility. The other sites i've often referenced and used are [Zurb's Ink framework](http://zurb.com/ink/) and [Antwort](http://internations.github.io/antwort/)
+Mailchimp have a _fantastic_ resource of [email blueprints](https://github.com/mailchimp/Email-Blueprints) to get you started. You can pick and chose from a whole myriad of templates - with cross-client compatibility. The other sites i've often referenced and used are [Zurb's Ink framework](https://zurb.com/blog/introducing-ink-our-new-responsive-email-) and [Antwort](http://internations.github.io/antwort/)
 
 With mobiles and emails taking off, responsive mailouts are paramount. No-one wants to be zooming in and out on a mobile just to read the text!
 

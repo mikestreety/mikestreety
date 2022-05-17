@@ -25,7 +25,7 @@ Different email clients support different features, which is why some emails wil
 
 ## Think responsively
 
-With a staggering amount of emails [read on mobile](https://litmus.com/blog/mobile-email-is-here-to-stay-what-comes-next) (48% in fact) - ensuring your email looks good on a smartphone is paramount. Giving your email a simple layout and reducing the number of assets needed to be downloaded (images, attachments etc) will help with the conversion of your email. You should also make sure your email has a clear call to action - so mobile users have a simple action to carry out. For example, making sure you don’t have a huge header image the user has to scroll past to get to the content.
+With a staggering amount of emails [read on mobile](https://www.litmus.com/blog/email-client-market-share-may-2021/) (48% in fact) - ensuring your email looks good on a smartphone is paramount. Giving your email a simple layout and reducing the number of assets needed to be downloaded (images, attachments etc) will help with the conversion of your email. You should also make sure your email has a clear call to action - so mobile users have a simple action to carry out. For example, making sure you don’t have a huge header image the user has to scroll past to get to the content.
 
 ## Reduce images
 
