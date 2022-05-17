@@ -11,7 +11,7 @@ tags:
 
 I've recently been playing around with Raspberry Pi and some hardware - seeing what else can be done with the tiny computer.
 
-I previously wrote about using the pi as a [media centre](http://www.mikestreety.co.uk/blog/my-media-centre-solution), but I wanted to try something else (after seeing a friend using his for house temperature readings).
+I previously wrote about using the pi as a [media centre](/blog/my-media-centre-solution), but I wanted to try something else (after seeing a friend using his for house temperature readings).
 
 I've always wanted a basic weather station, one that just told me the temperature outside so that I knew what to wear for cycling, and this is what I set out to create.
 
@@ -33,12 +33,12 @@ I also picked up a [starter kit](http://www.amazon.co.uk/Sintron-T-Cobbler-Exten
 I'm also keeping track of the code i'm using
 
 - [pypi-lcdscreen](https://github.com/mikestreety/pypi-lcdscreen) is my pip (python package manager) module for using an LCD screen (like the one found in the starter kit)
-- [WeatherStation](https://github.com/mikestreety/WeatherStation) - The code which runs and powers the weather station
+- [WeatherStation](https://gitlab.com/mikestreety/WeatherStation) - The code which runs and powers the weather station
 
 ### Blog Posts in the Series
 
-- [Hacking with a Raspberry Pi: An Introduction](http://www.mikestreety.co.uk/blog/hacking-with-a-raspberry-pi-an-introduction)
-- [Setting Up Your Raspberry Pi for Input and Output](http://www.mikestreety.co.uk/blog/setting-up-your-raspberry-pi-for-input-and-output)
-- [Raspberry Pi Timelapse](http://www.mikestreety.co.uk/blog/raspberry-pi-timelapse)
-- [Use a Raspberry Pi with multiple WiFi networks](http://www.mikestreety.co.uk/blog/use-a-raspberry-pi-with-multiple-wifi-networks)
+- [Hacking with a Raspberry Pi: An Introduction](/blog/hacking-with-a-raspberry-pi-an-introduction)
+- [Setting Up Your Raspberry Pi for Input and Output](/blog/setting-up-your-raspberry-pi-for-input-and-output)
+- [Raspberry Pi Timelapse](/blog/raspberry-pi-timelapse)
+- [Use a Raspberry Pi with multiple WiFi networks](/blog/use-a-raspberry-pi-with-multiple-wifi-networks)
 - [Raspberry Pi: what is it and why do i need one?](https://www.liquidlight.co.uk/blog/article/raspberry-pi-what-is-it-and-why-do-i-need-one/)

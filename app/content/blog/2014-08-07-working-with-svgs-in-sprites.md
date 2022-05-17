@@ -32,7 +32,7 @@ Every single major browser supports SVG icons. On 12th January 2016, Microsoft [
 
 SVGs can be generated in a number of ways with web apps and Adobe Illustrator being the most popular - this is covered later on. Once created, SVGs can substitute any image in your HTML by being embedded in a similar fashion to images (Chris Coyier does a brilliant job at [explaining the basics](http://css-tricks.com/using-svg/)).
 
-Embedding the image enables you to have full responsive control over the proportions and colours - we have set up a [Codepen](http://codepen.io/liquidlight/pen/ExFjb) to demonstrate how this can be achieved. This also demonstrates the scalability of SVGs as the original SVG is just `38px x 38px` - but is being resized to `320px` wide without any loss in quality.
+Embedding the image enables you to have full responsive control over the proportions and colours - we have set up a [Codepen](https://codepen.io/liquidlight/pen/ExFjb) to demonstrate how this can be achieved. This also demonstrates the scalability of SVGs as the original SVG is just `38px x 38px` - but is being resized to `320px` wide without any loss in quality.
 
 ## Why use SVGs?
 
@@ -122,7 +122,7 @@ For the sprite to function properly in IE8 and below, however, pixel size and di
 
 With creating and using SVG sprites, there is a fair bit of manual grunt work involved - but the advantages of having smaller, scaleable sprites outweigh this.
 
-For those wanted to see the code in action - a [Codepen](http://codepen.io/liquidlight/pen/Emcun) has been created, showing the SVG icons scaling beautifully with the change in font size.
+For those wanted to see the code in action - a [Codepen](https://codepen.io/liquidlight/pen/Emcun) has been created, showing the SVG icons scaling beautifully with the change in font size.
 
 ---
 

@@ -17,7 +17,7 @@ I had a dilemma today - I wanted to create a mixin which has variable properties
 
 ### Using Less
 
-Styling the placeholder attribute in CSS requires no less that 4 vendor prefixed properties. This can be a pain to try and remember them. I wanted to create a mixin for our [less library](https://github.com/bozboz/boss) so that we could style it with a simple class.
+Styling the placeholder attribute in CSS requires no less that 4 vendor prefixed properties. This can be a pain to try and remember them. I wanted to create a mixin for our less library so that we could style it with a simple class.
 
 However, the problem arose when I wanted to leave the mixin open to be able to pass in whatever I wanted - imagined it working much like a PHP function passing in an array:
 
@@ -103,4 +103,4 @@ input {
 }
 ```
 
-As with the other one, a [Codepen](http://codepen.io/hugo/pen/qfuGB) was created to demonstrate the code.
+As with the other one, a [Codepen](https://codepen.io/hugo/pen/ANBWqO) was created to demonstrate the code.

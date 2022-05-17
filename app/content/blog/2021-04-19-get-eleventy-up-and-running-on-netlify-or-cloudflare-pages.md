@@ -1,6 +1,7 @@
 ---
 title: Get your Eleventy Site into the real world using a hosting provider like Netlify or Git pages
 date: 2021-04-19
+updated: 2022-05-17
 intro: There are plenty of ways to get your 11ty site live depending on preferences and skill set, this blog walks through a few of the popular ones including Gitlab pages, Vercel, Netlify and Cloudflare pages
 permalink: "blog/get-eleventy-up-and-running-on-netlify-or-cloudflare-pages/"
 tags:
@@ -136,6 +137,8 @@ Currently they only support Github (but [Gitlab and other things](https://develo
 1. Click save and deploy
 
 You'll get a `pages.dev` domain, but this can be replaced with a custom domain name if desired.
+
+<div class="info">Cloudflare Pages now supports Gitlab! This very blog is using it</div>
 
 - - -
 

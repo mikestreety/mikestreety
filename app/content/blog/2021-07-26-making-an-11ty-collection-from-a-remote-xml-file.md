@@ -13,7 +13,7 @@ tags:
 
 <div class="info">This method processes the RSS feed as raw XML which exposes more information but could be a bit more fragile. If you are looking for a way to process the RSS in a more robust, straight-forward way then read the previous blog post - <a href="/blog/create-11ty-collection-from-rss/">create an 11ty collection from any RSS feed</a>.</div>
 
-After I wrote my previous post on [creating a collection from RSS](blog/create-11ty-collection-from-rss/), I noticed there was a disparity between the RSS feed I was given and the data I was getting out of the Javascript.
+After I wrote my previous post on [creating a collection from RSS](/blog/create-11ty-collection-from-rss/), I noticed there was a disparity between the RSS feed I was given and the data I was getting out of the Javascript.
 
 <strong class="info">TL:DR;</strong> I don't need the intro fluff, <a href="#final-code">take me to the finished code</a>!
 

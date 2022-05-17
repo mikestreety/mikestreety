@@ -102,7 +102,7 @@ $('select').on('change', function(e){
 filterTable($('select'));
 ```
 
-This working example can be found on [Codepen](http://codepen.io/mikestreety/pen/OPOVma)
+This working example can be found on [Codepen](https://codepen.io/mikestreety/pen/OPOVma)
 
 - - -
 

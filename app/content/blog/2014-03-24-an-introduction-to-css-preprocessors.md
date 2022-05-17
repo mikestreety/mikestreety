@@ -221,7 +221,7 @@ As with any language, defining internal conventions and code layout is paramount
 
 At Bozboz, the front-end developers have worked hard to define a set of conventions of how files and code should be laid out - for both back and front end.
 
-We also include Luigi in every project. This is our in-house [Sass Library](https://github.com/bozboz/luigi) which contains mixins and functions utilised. This was originally a translation from our Less Library - [Boss](https://github.com/bozboz/boss).
+We also include Luigi in every project. This is our in-house [Sass Library](https://github.com/bozboz/luigi) which contains mixins and functions utilised.
 
 Along with the functionality outlined above, there are plenty of other features in Sass including [File Imports](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#import) and [@extends](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#extend) (these are also available in [Less](http://lesscss.org/features/) if you choose that route). I would advise having a skim over the documentation before embarking on a project with one of them. However, nothing teaches you quicker than getting your hands dirty.
 

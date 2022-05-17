@@ -65,7 +65,7 @@ So will you be dropping support for IE8? If you want help making your site faste
 
 #### Update 7th December 2015:
 
-Microsoft is not just dropping support for IE8 on 12th January 2016, but are only support the _latest_ browser for each of their operating systems. This means if none of your users use Vista to access your website; [Internet Explorer 9 and 10 are also out](https://support.microsoft.com/en-us/gp/microsoft-internet-explorer). The difference between IE8 and IE11 when it comes to what a developer can use is [substantial](http://caniuse.com/#compare=ie+8,ie+11).
+Microsoft is not just dropping support for IE8 on 12th January 2016, but are only support the _latest_ browser for each of their operating systems. This means if none of your users use Vista to access your website; [Internet Explorer 9 and 10 are also out](https://docs.microsoft.com/en-GB/lifecycle/faq/internet-explorer-microsoft-edge). The difference between IE8 and IE11 when it comes to what a developer can use is [substantial](http://caniuse.com/#compare=ie+8,ie+11).
 
 Ultimately it comes down to analytics - if no-one access your website in legacy browsers, there is no need to support and develop for them.
 

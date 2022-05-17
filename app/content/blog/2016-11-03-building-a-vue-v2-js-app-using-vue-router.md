@@ -39,7 +39,7 @@ The `guid` attribute will be used as the URL
 
 The first step is to set up our Vue app, looping through the data and outputting the name of each of our users. If you’ve used Vue before, the following should look fairly familiar:
 
-<p data-height="300" data-theme-id="light" data-slug-hash="rrgqmk" data-default-tab="js,result" data-user="liquidlight" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/liquidlight/pen/rrgqmk/">Vue Router - Loop through data</a> by Liquid Light (<a href="http://codepen.io/liquidlight">@liquidlight</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="300" data-theme-id="light" data-slug-hash="MjdPmq" data-default-tab="js,result" data-user="liquidlight" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/liquidlight/pen/MjdPmq">Vue Router - Loop through data</a> by Liquid Light (<a href="https://codepen.io/liquidlight">@liquidlight</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 The above code is looping through the data and outputting the `name` attribute for each user. You could chose to output other details such as the email address or company name by inserting `{{ person.email }}` into the HTML code.
 
@@ -47,7 +47,7 @@ The above code is looping through the data and outputting the `name` attribute f
 
 When using Vue Router, it requires each "page" to be a Vue component. In preparation for this, let’s create a component for the user listing we've just created.
 
-<p data-height="300" data-theme-id="light" data-slug-hash="KgLGqR" data-default-tab="js,result" data-user="liquidlight" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/liquidlight/pen/KgLGqR/">Vue Router - Loop through data</a> by Liquid Light (<a href="http://codepen.io/liquidlight">@liquidlight</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="300" data-theme-id="light" data-slug-hash="KgLGqR" data-default-tab="js,result" data-user="liquidlight" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/liquidlight/pen/KgLGqR/">Vue Router - Loop through data</a> by Liquid Light (<a href="https://codepen.io/liquidlight">@liquidlight</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 In the example above, I’ve made a template in the HTML using the `<template>` element - this is then referenced from the component using the `id` attribute. I found this was the neatest way of handling multi-line HTML and separating out template code from logic.
 
@@ -57,7 +57,7 @@ In the JS, the component has been called `people-listing` and includes both the 
 
 Let’s put aside the listing component and focus on the detail view. In order to display the correct person in our template, we need to select that person from the `data` array and create a component to display the data.
 
-<p data-height="300" data-theme-id="light" data-slug-hash="ALkJoN" data-default-tab="js,result" data-user="liquidlight" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/liquidlight/pen/ALkJoN/">Vue Router - Loop through data</a> by Liquid Light (<a href="http://codepen.io/liquidlight">@liquidlight</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="300" data-theme-id="light" data-slug-hash="ALkJoN" data-default-tab="js,result" data-user="liquidlight" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/liquidlight/pen/ALkJoN/">Vue Router - Loop through data</a> by Liquid Light (<a href="https://codepen.io/liquidlight">@liquidlight</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 For this example, I’ve hard-coded a `selectedID` variable in the `data` function so we have a GUID (the `guid` variable) to match and select the correct person. Notice I have replaced the `<people-listing />` element in the main app HTML with `<people-detail v-bind:people="people" />`.
 
@@ -134,7 +134,7 @@ name: 'PeopleListing'
 
 Our Vue app should now look like:
 
-<p data-height="300" data-theme-id="light" data-slug-hash="pEmxdk" data-default-tab="js,result" data-user="liquidlight" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/liquidlight/pen/pEmxdk/">Vue Router - Loop through data</a> by Liquid Light (<a href="http://codepen.io/liquidlight">@liquidlight</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="300" data-theme-id="light" data-slug-hash="pEmxdk" data-default-tab="js,result" data-user="liquidlight" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/liquidlight/pen/pEmxdk/">Vue Router - Loop through data</a> by Liquid Light (<a href="https://codepen.io/liquidlight">@liquidlight</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 Which may seem “broken” as it’s now not outputting any data.
 
@@ -168,7 +168,7 @@ routes: [
 
 The second route now has a `name` of `person` and includes a dynamic variable in the `path`.
 
-Any links using the `router` need to be constructed using the `router-link` element. More details can be found in the [router-link documentation](http://router.vuejs.org/en/essentials/navigation.html).
+Any links using the `router` need to be constructed using the `router-link` element. More details can be found in the [router-link documentation](https://router.vuejs.org/guide/essentials/navigation.html).
 
 For example, to link to the landing/homepage you can include the following:
 

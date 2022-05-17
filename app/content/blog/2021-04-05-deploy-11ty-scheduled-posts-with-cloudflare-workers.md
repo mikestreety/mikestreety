@@ -154,7 +154,7 @@ The next step is to make a Cloudflare Worker to run as often as you wish to chec
 
 <span class="info">Note:</span> For this step, I am assuming you have a Cloudflare account and a basic understanding of [Cloudflare Workers](/blog/what-are-cloud-functions-cloudflare-workers-and-serverless).
 
-You can either make a new worker through the user interface on the CLoudflare website or you can use the [Cloudflare Wrangler](https://developers.cloudflare.com/workers/cli-wrangler) CLI.
+You can either make a new worker through the user interface on the CLoudflare website or you can use the [Cloudflare Wrangler](https://developers.cloudflare.com/workers/wrangler/) CLI.
 
 <a name="using-the-ui"></a>
 ### Using the UI

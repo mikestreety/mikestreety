@@ -17,7 +17,7 @@ Released in 2013, the Raspberry Pi is a UK creation made to promote the basics o
 
 ![](/assets/img/content/raspberry-pi-what-is-it-and-why-do-i-need-one/csm_raspberry-pi-1-scratch_f05d7c4e4d.webp)
 
-From there, the Raspberry Pi has grown massively - as of 18 February 2015, over [five million](https://www.raspberrypi.org/five-million-sold/) have been sold which makes it the fastest selling british personal computer. It’s not just schools that have taken the computer to new heights - the maker, hacker and electronic communities have found new and interesting ways to utilise the low powered micro-computer.
+From there, the Raspberry Pi has grown massively - as of 18 February 2015, over [five million](https://www.raspberrypi.com/news/five-million-sold/) have been sold which makes it the fastest selling british personal computer. It’s not just schools that have taken the computer to new heights - the maker, hacker and electronic communities have found new and interesting ways to utilise the low powered micro-computer.
 
 This blog post is a collaboration between two of our biggest Raspberry Pi fans - [Mike Street](https://www.liquidlight.co.uk/blog/mike-street/) and [Will Chidlow](https://www.liquidlight.co.uk/blog/will-chidlow/) who have been tinkering and building with these amazing computers for well over a year. It features an overview of some of the things that are possible with a Raspberry Pi. A few of us in the Liquid Light office are fortunate enough to own one (or two) and have had the opportunity to suss them out.
 
@@ -123,7 +123,7 @@ You could also have Pi powered lights & appliances - there are many pre-existing
 
 One thing Mike has done is attach two temperature sensors and an LCD to a Raspberry Pi - on a button press this shows the current temperature and forecast (obtained from an API) on the screen.
 
-The code behind this can be found on [Github](https://github.com/mikestreety/WeatherStation) - feel free to download and give it a go!
+The code behind this can be found on [Github](https://gitlab.com/mikestreety/WeatherStation) - feel free to download and give it a go!
 
 ![](/assets/img/content/raspberry-pi-what-is-it-and-why-do-i-need-one/raspberry-pi-4-retro-music-box.jpeg)
 

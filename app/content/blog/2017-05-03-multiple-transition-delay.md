@@ -34,5 +34,5 @@ div:hover {
 
 See an example on Codepen:
 
-<p data-height="335" data-theme-id="light" data-slug-hash="jmLLXK" data-default-tab="css,result" data-user="mikestreety" data-embed-version="2" data-pen-title="Transition delay" class="codepen">See the Pen <a href="https://codepen.io/mikestreety/pen/jmLLXK/">Transition delay</a> by mikestreety (<a href="http://codepen.io/mikestreety">@mikestreety</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="335" data-theme-id="light" data-slug-hash="jmLLXK" data-default-tab="css,result" data-user="mikestreety" data-embed-version="2" data-pen-title="Transition delay" class="codepen">See the Pen <a href="https://codepen.io/mikestreety/pen/jmLLXK/">Transition delay</a> by mikestreety (<a href="https://codepen.io/mikestreety">@mikestreety</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

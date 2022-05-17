@@ -311,8 +311,8 @@ Pressing enter will open a command line text editor. By default, Git chooses `na
 
 I would suggest getting to know command line text editors before trying to commit. The most popular two are:
 
-- [nano](https://wiki.gentoo.org/wiki/Nano/Basics_Guide)
-- [vim](http://www.linux.com/learn/tutorials/228600-vim-101-a-beginners-guide-to-vim)
+- [nano](https://wiki.gentoo.org/wiki/Nano)
+- [vim](https://www.rosehosting.com/blog/ultimate-beginners-guide-to-vim/)
 
 Write your commit message with as much explanation as you can manage - not forgetting a blank line between your title and body. For example:
 
