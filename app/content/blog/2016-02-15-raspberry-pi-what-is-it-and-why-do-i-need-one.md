@@ -157,7 +157,7 @@ If you want to try the different operating systems - Raspberry Pi provide a “[
 
 ## Top 9 things to do with a Raspberry Pi
 
-1. **Practice your command line skills** - download Raspbian, hook up your Pi to a monitor, grab a keyboard and get practicing. If you’re new to Git it’s a perfect place to get started with our [blog post](/blog/article/git-for-beginners-an-overview-and-basic-workflow/).
+1. **Practice your command line skills** - download Raspbian, hook up your Pi to a monitor, grab a keyboard and get practicing. If you’re new to Git it’s a perfect place to get started with our [blog post](/blog/git-for-beginners-an-overview-and-basic-workflow/).
 2. **Make a retro gaming console** - [PetRockBlogs’s](http://blog.petrockblock.com/retropie/) easy guide make it a breeze to get set up and enjoying your favorite retro console games
 3. **Build a music box** - [Volumio](https://volumio.org/), [Rune audio](http://www.runeaudio.com/) and [Pi Musicbox](http://www.pimusicbox.com/) all offer software solutions to getting up and running with your very own audio player
 4. **Automate your home** - the Raspberry Pi blog has lots of [home automation](https://www.raspberrypi.org/blog/tag/home-automation/) posts for inspiration to get you started
