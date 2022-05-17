@@ -2,7 +2,7 @@
 title: Using lego to build a device lab
 date: 2016-07-13
 updated: 2016-07-14
-canonical: https://www.liquidlight.co.uk/blog/article/using-lego-to-build-a-device-lab/
+canonical: https://www.liquidlight.co.uk/blog/using-lego-to-build-a-device-lab/
 publication: Liquid Light
 permalink: "blog/using-lego-to-build-a-device-lab/"
 tags:
@@ -53,7 +53,7 @@ The next step was to jump into illustrator and create a diagram to scale. Not on
 
 We decided on 1 inch (25.4mm) thick wood for the main board, and ¾ inch (19mm) wood for the supports. This was thick enough for screws to go into the supports without splitting the wood.
 
-You can download a copy of our [Device Lab Plans](/assets/img/content/using-lego-to-build-a-device-lab/device-lab-dimensions.pdf).
+You can download a copy of our [Device Lab Plans](https://www.liquidlight.co.uk/fileadmin/uploads/ll/Photos/Img_blog/device-lab-dimensions.pdf).
 
 ![plans](/assets/img/content/using-lego-to-build-a-device-lab/design-template.png)
 

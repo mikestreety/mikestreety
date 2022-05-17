@@ -20,7 +20,7 @@ Writing a book can seem like a daunting process and was certainly something I ha
 
 If you wish the write a book yourself, the first piece of advice I have is to start a blog for yourself. Don’t write the posts for other people, but instead explain things for yourself - nothing cements an idea better than having to re-write and explain an idea or a method. Don’t be put off writing about “easy” or “simple” topics either if you didn't know it, neither do other people.
 
-It was through blog post writing that I was approached by the publisher PacktPub to write the Vue.js book. They found me through my blog post about Building a Vue v2 JS app using Vue-router, along with other [Vue.js posts](https://www.mikestreety.co.uk/category/web/vuejs) on my personal website.
+It was through blog post writing that I was approached by the publisher PacktPub to write the Vue.js book. They found me through my blog post about Building a Vue v2 JS app using Vue-router, along with other [Vue.js posts](https://www.mikestreety.co.uk/category/vuejs) on my personal website.
 
 If you have the desire to write a book, you don't have to wait for the publishers to find you. Each publisher has a link on their website allowing potential authors to submit proposals. Go out there, find a publisher you like the look of and submit an idea.
 

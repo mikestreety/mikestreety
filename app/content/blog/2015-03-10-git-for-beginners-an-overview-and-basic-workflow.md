@@ -3,7 +3,7 @@ title: "Git for Beginners: An Overview and Basic Workflow"
 date: 2015-03-10
 updated: 2021-03-20
 intro: Git is a tricky subject to get your head around. Knowing the commands is one thing, but knowing how to use them is another. This article will walk you through a simple, single developer Git workflow - covering the commands that you would use at each stage.
-canonical: https://www.liquidlight.co.uk/blog/article/git-for-beginners-an-overview-and-basic-workflow/
+canonical: https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-basic-workflow/
 publication: Liquid Light
 permalink: "blog/git-for-beginners-an-overview-and-basic-workflow/"
 tags:
