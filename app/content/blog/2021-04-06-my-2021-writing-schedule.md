@@ -52,7 +52,7 @@ When it is in the future, it appears on on [scheduled](/scheduled/) page. These 
 
 ## Publish it
 
-With the post scheduled, the [Cloudflare worker I set up](/blog/deploy-11ty-scheduled-posts-with-cloudflare-workers/) checks the date of the next upcoming post and, if it is "now", rebuilds the site to set the post live. This includes the post in the [RSS feed](/rss) and adds it to the main [blog listing page](/blog/).
+With the post scheduled, the [Cloudflare worker I set up](/blog/deploy-11ty-scheduled-posts-with-cloudflare-workers/) checks the date of the next upcoming post and, if it is "now", rebuilds the site to set the post live. This includes the post in the [RSS feed](/rss.xml) and adds it to the main [blog listing page](/blog/).
 
 ---
 
