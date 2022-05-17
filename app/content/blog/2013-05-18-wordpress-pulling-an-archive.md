@@ -53,6 +53,6 @@ To display the posts, you now just need to loop through the results with a while
 <?php endwhile; ?>
 ```
 
-The keen eyed will notice that the content is being output through a function. This function was taken from Wordpress' core, so that the double lines get converted to `<p>` tags - something which `<?=the_content()?>` passes through. More details about the `wpautop` function, can be found in the [codex](http://codex.wordpress.org/Function_Reference/wpautop).
+The keen eyed will notice that the content is being output through a function. This function was taken from Wordpress' core, so that the double lines get converted to `<p>` tags - something which `<?=the_content()?>` passes through. More details about the `wpautop` function, can be found in the [codex](https://developer.wordpress.org/reference/functions/wpautop/).
 
 As I said, this is not the most elegant way of doing it, but it works and means that my Wordpress posts have not been lost.

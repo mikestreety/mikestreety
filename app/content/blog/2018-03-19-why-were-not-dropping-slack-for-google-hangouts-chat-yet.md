@@ -17,7 +17,7 @@ Hangouts Chat is not to be confused with Google Hangouts. Although they share a 
 
 ## Why would we switch?
 
-Slack has everything we need and has managed to fulfil those needs since [November 2014](/blog/article/using-slack-to-improve-team-communication/). The only bug-bear we have with the free tier of the messaging service, is the restriction on the message history. Those who use Slack will know that on the free tier you _only_ get 10,000 messages before your history gets truncated. This may seem like a lot to begin with, but when you add several integrations and automated updates, that message limit soon gets eaten up. Unfortunately, more than £60 a month on just a chat application to view the full history is not a justifiable expense.
+Slack has everything we need and has managed to fulfil those needs since [November 2014](/blog/using-slack-to-improve-team-communication/). The only bug-bear we have with the free tier of the messaging service, is the restriction on the message history. Those who use Slack will know that on the free tier you _only_ get 10,000 messages before your history gets truncated. This may seem like a lot to begin with, but when you add several integrations and automated updates, that message limit soon gets eaten up. Unfortunately, more than £60 a month on just a chat application to view the full history is not a justifiable expense.
 
 That is where Google Hangouts Chat comes in, as we are paying for Google Suite, it makes sense to utilise all of their offerings including the unlimited message history that comes with it.
 

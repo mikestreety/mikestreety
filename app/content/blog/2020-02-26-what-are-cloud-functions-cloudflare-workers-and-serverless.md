@@ -50,4 +50,4 @@ This is the part I'm still understanding. You can use it like a service worker, 
 
 ## What should they be used for?
 
-In my opinion, they shouldn't be used to host sites or full-blown apps, but help with resources, APIs & helping you scale. The other thing, along with the podcast, that helped serverless "click" was the Cloudflare Workers [template gallery](https://developers.cloudflare.com/workers/templates/). Have a look through there for some great examples (and code snippets) of how to get started.
+In my opinion, they shouldn't be used to host sites or full-blown apps, but help with resources, APIs & helping you scale. The other thing, along with the podcast, that helped serverless "click" was the Cloudflare Workers [template gallery](https://developers.cloudflare.com/workers/examples/). Have a look through there for some great examples (and code snippets) of how to get started.

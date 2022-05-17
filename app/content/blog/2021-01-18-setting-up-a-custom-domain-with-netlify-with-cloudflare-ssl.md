@@ -52,7 +52,7 @@ We are going to:
 1. Copy the following from Cloudflare and paste into Netlify (starting with `- - ---BEGIN XXX- - ---` and ending with `- - ---END XXX- - ---`)
 	- **Origin Certificate** => **Certificate** field on Netlify
 	- **Private key** => **Private key** field on Netlify
-1. For the **Intermediate certs** on Netlify, copy the **Cloudflare Origin CA — RSA Root** from the [Cloudflare Origin CA certificates](https://support.cloudflare.com/hc/en-us/articles/115000479507#h_30cc332c-8f6e-42d8-9c59-6c1f06650639) page
+1. For the **Intermediate certs** on Netlify, copy the **Cloudflare Origin CA — RSA Root** from the [Cloudflare Origin CA certificates](https://developers.cloudflare.com/ssl/origin-configuration/origin-ca) page
 1. Lastly, click **Install certificate**
 1. Once complete, you should see the details of the certificate displayed e.g: `Domains *.viewthesource.dev, viewthesource.dev, CloudFlare Origin Certificate`
 1. There may be a call to action to force HTTPS redirects in Netlify - click this as this ensures your site will always be served over `https`.

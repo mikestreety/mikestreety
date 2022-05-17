@@ -20,7 +20,7 @@ But this is not the case. At [Liquid Light](https://www.liquidlight.co.uk/) we 
 
 Just today, we launched [ADR UK](https://www.adruk.org/), a kick-ass corporate website which looks damn sexy and scores top marks in all the tools - despite using jQuery!
 
-![ADRUK scores top marks on Google Lighthouse](/images/Screenshot-2019-07-31-at-19.09.10.png)
+![ADRUK scores top marks on Google Lighthouse](/assets/img/content/lighthouse-top-marks.png)
 
 We've also done websites for companies that [build machines that measure light](https://www.bentham.co.uk/), or that try to [highlight the disability gap](https://www.disabilitydataportal.com/). They are not cool, they are not using a hipster tech stack, but they are accessible, performant _and they work._ 
 

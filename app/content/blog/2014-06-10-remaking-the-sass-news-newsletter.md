@@ -10,7 +10,7 @@ tags:
  - CSS
 ---
 
-With the weekly golden nectar of [Sass News](https://twitter.com/SassNews) winging its way into my inbox every week, I decided to take on the challenge of giving the newsletter a facelift (if you're not subscribed and you like Sass - [you should do it](http://sassnews.us7.list-manage.com/subscribe?u=b4a4054cce715a3b0ae5e7d35&id=f7c505323d))
+With the weekly golden nectar of [Sass News](https://twitter.com/SassNews) winging its way into my inbox every week, I decided to take on the challenge of giving the newsletter a facelift.
 
 Many people would run away at the thought of designing and making a HTML newsletter, but I strangely enjoy it!
 

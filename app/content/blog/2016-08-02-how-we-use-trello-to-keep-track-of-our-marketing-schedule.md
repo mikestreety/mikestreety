@@ -19,7 +19,7 @@ Here at Liquid Light, we use Trello for _a lot_ of things - ranging from keeping
 One of the uses we have for Trello is keeping track of our marketing activity - specifically [blog posts](https://www.liquidlight.co.uk/blog/) and [case studies](https://www.liquidlight.co.uk/case-studies/). Each marketing item (blog post, case study) has a Trello card. This allows us to categorise by marketing activity, move through task lists, assign to members of the team and keep track of the status of the item.
 
 <figure class="csc-textpic-image">
-	<img loading="lazy" class="image-embed-item" src="/assets/img/content/how-we-use-trello-to-keep-track-of-our-marketing-schedule/csm__Liquid_Light__How_we_use_trello_to_keep_track_of_our_marketing_schedule_-_1_82ac882d96.png" width="1200" height="76" alt="Screenshot of our Trello board">
+	<img loading="lazy" class="image-embed-item" src="/assets/img/content/how-we-use-trello-to-keep-track-of-our-marketing-schedule/csm__Liquid_Light__How_we_use_trello_to_keep_track_of_our_marketing_schedule_-_1_82ac882d96.webp" width="1200" height="76" alt="Screenshot of our Trello board">
 </figure>
 
 ### Keeping track of the status

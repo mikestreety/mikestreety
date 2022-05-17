@@ -49,7 +49,7 @@ I also spoke to someone who helps run inbound.org - a community for marketers. T
 
 ## Communities
 
-![Screenshot of slack directory website](/assets/img/content/using-slack-to-improve-team-communication/3.png)
+![Screenshot of slack directory website](/assets/img/content/using-slack-to-improve-team-communication/3.webp)
 
 Slack is also used not just for work. There is a whole world of [Slack communities](http://www.slackchats.com/) and non-work related [chat rooms](http://chats.directory/) slowly growing, where you can apply to be a part of all kinds of conversations, depending on your interests.
 

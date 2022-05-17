@@ -18,9 +18,9 @@ I have recently properly got into Twitter. Before it was just a laborious update
 
 My Twitter gets updated by numerous things, but more on that later. I love the fact you can integrate Twitter with EVERYTHING. As I said, my Twitter was hooked up with Facebook and Linked In. But recently I've been using Twitter a lot more and I didn't want to bombard, my Facebook friends (all 6 of them) and Linked In connections (2 of these!) with mindless bore of me talking to someone on Twitter.
 
-I used to use the [Twitter Application for Facebook](http://www.facebook.com/home.php?#!/apps/application.php?id=2231777543&ref=ts) for the integration that way, and LinkedIn has its own integration option but this published everything I put on Twitter - including Retweets and Replies, which with the more I used Twitter, came more and more frequent. So it took it off.
+I used to use the Twitter Application for Facebook for the integration that way, and LinkedIn has its own integration option but this published everything I put on Twitter - including Retweets and Replies, which with the more I used Twitter, came more and more frequent. So it took it off.
 
-I still _have_ Facebook integration for my Twitter, in case I want to update them both, but i now use an Application called '[Selective Tweets](http://www.facebook.com/home.php?#!/selectivetwitter)'. This is a fantastic bit of code that looks at my tweets and only publishes the ones with **#fb** at the end, which means My Facebook buddies only get a few updates a week. Rather than 3 an hour.
+I still _have_ Facebook integration for my Twitter, in case I want to update them both, but i now use an Application called 'Selective Tweets'. This is a fantastic bit of code that looks at my tweets and only publishes the ones with **#fb** at the end, which means My Facebook buddies only get a few updates a week. Rather than 3 an hour.
 
 The same goes for my LinkedIn. Only tweets with an **#in** somewhere in the tweet makes its way OVER.
 

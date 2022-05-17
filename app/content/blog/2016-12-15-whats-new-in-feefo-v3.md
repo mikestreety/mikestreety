@@ -18,7 +18,7 @@ The big, noticeable change for Feefo is that they’ve moved from a four point r
 
 The four point rating ranged from two pluses, which was the highest rating, to two minuses, which was the lowest. To total score was also rated as a percentage, which has now been converted to a rating out of 5. The rating can be converted back to percentage though, if required.
 
-Updating the results, and mapping to the new ratings is outlined on the [Feefo website](https://support.feefo.com/support/solutions/articles/8000042936-mapping-four-point-scores-to-a-five-star-rating-), but to summarise how they’ve mapped them, we’ve outlined below.
+Updating the results, and mapping to the new ratings is outlined on the Feefo website, but to summarise how they’ve mapped them, we’ve outlined below.
 
 | Old Rating | New Rating |
 |---|---|
