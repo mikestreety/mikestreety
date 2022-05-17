@@ -85,6 +85,8 @@
 
 	{% if canonical is defined  %}
 	<link rel="canonical" href="{{ canonical }}" />
+	{% else %}
+	<link rel="canonical" href="{{ meta.site.url }}{{ page.url }}" />
 	{% endif %}
 
 	<link rel="stylesheet" href="/assets/css/style.css">

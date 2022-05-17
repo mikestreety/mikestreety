@@ -9,7 +9,7 @@ tags:
  - Raspberry Pi
 ---
 
-<div class="info">Make sure you <a href="http://www.mikestreety.co.uk/blog/hacking-with-a-raspberry-pi-an-introduction">read the introduction to this series</a></div>
+<div class="info">Make sure you <a href="/blog/hacking-with-a-raspberry-pi-an-introduction/">read the introduction to this series</a></div>
 So you want the start hacking with your Raspberry Pi? There are a few things you need to do before you can start poking at the General Purpose Input/Output (or **GPIO**).
 
 ### Install an operating system
@@ -144,12 +144,12 @@ network={
 
 Reboot your Pi - you should now be able to access the internet! If you had to set up WiFi before installing modules - make sure you head back up there!
 
-<div class="info">Check out this post if you want to <a href="http://www.mikestreety.co.uk/blog/use-a-raspberry-pi-with-multiple-wifi-networks">use your Raspberry Pi with multiple networks</a></div>
+<div class="info">Check out this post if you want to <a href="/blog/use-a-raspberry-pi-with-multiple-wifi-networks/">use your Raspberry Pi with multiple networks</a></div>
 
 ### Blog Posts in the Series
 
-- [Hacking with a Raspberry Pi: An Introduction](http://www.mikestreety.co.uk/blog/hacking-with-a-raspberry-pi-an-introduction)
-- [Setting Up Your Raspberry Pi for Input and Output](http://www.mikestreety.co.uk/blog/setting-up-your-raspberry-pi-for-input-and-output)
-- [Raspberry Pi Timelapse](http://www.mikestreety.co.uk/blog/raspberry-pi-timelapse)
-- [Use a Raspberry Pi with multiple WiFi networks](http://www.mikestreety.co.uk/blog/use-a-raspberry-pi-with-multiple-wifi-networks)
+- [Hacking with a Raspberry Pi: An Introduction](/blog/hacking-with-a-raspberry-pi-an-introduction/)
+- [Setting Up Your Raspberry Pi for Input and Output](/blog/setting-up-your-raspberry-pi-for-input-and-output/)
+- [Raspberry Pi Timelapse](/blog/raspberry-pi-timelapse)
+- [Use a Raspberry Pi with multiple WiFi networks](/blog/use-a-raspberry-pi-with-multiple-wifi-networks/)
 - [Raspberry Pi: what is it and why do i need one?](https://www.liquidlight.co.uk/blog/article/raspberry-pi-what-is-it-and-why-do-i-need-one/)

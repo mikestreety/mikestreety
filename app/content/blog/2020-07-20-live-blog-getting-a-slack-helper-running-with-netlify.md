@@ -180,7 +180,7 @@ I did manage to also run a `netlify deploy` to get the code up on the live envir
 
 ### To do:
 
-- <s>Use environment variables for the Slack bearer</s> - This can be found in [Part 2](https://www.mikestreety.co.uk/blog/getting-a-slack-helper-running-with-netlify-part-2)
-- <s>Lock functions down to IP address (maybe with an extra auth token?) so it can't be updated by anyone</s> - This can be found in [Part 2](https://www.mikestreety.co.uk/blog/getting-a-slack-helper-running-with-netlify-part-2)
+- <s>Use environment variables for the Slack bearer</s> - This can be found in [Part 2](https://www.mikestreety.co.uk/blog/getting-a-slack-helper-running-with-netlify-part-2/)
+- <s>Lock functions down to IP address (maybe with an extra auth token?) so it can't be updated by anyone</s> - This can be found in [Part 2](https://www.mikestreety.co.uk/blog/getting-a-slack-helper-running-with-netlify-part-2/)
 - Create a front-end to call the different URLs for quick status update
 - Turn into a PWA so it can be installed

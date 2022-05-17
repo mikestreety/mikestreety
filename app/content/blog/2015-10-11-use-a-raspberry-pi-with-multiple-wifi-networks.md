@@ -84,8 +84,8 @@ If you have any problems, don't hesitate to [drop me a tweet](http://www.twitter
 
 ### Blog Posts in the Series
 
-- [Hacking with a Raspberry Pi: An Introduction](/blog/hacking-with-a-raspberry-pi-an-introduction)
-- [Setting Up Your Raspberry Pi for Input and Output](/blog/setting-up-your-raspberry-pi-for-input-and-output)
-- [Raspberry Pi Timelapse](/blog/raspberry-pi-timelapse)
-- [Use a Raspberry Pi with multiple WiFi networks](/blog/use-a-raspberry-pi-with-multiple-wifi-networks)
+- [Hacking with a Raspberry Pi: An Introduction](/blog/hacking-with-a-raspberry-pi-an-introduction/)
+- [Setting Up Your Raspberry Pi for Input and Output](/blog/setting-up-your-raspberry-pi-for-input-and-output/)
+- [Raspberry Pi Timelapse](/blog/raspberry-pi-timelapse/)
+- [Use a Raspberry Pi with multiple WiFi networks](/blog/use-a-raspberry-pi-with-multiple-wifi-networks/)
 - [Raspberry Pi: what is it and why do i need one?](https://www.liquidlight.co.uk/blog/article/raspberry-pi-what-is-it-and-why-do-i-need-one/)

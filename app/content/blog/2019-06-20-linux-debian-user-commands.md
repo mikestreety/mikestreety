@@ -10,7 +10,7 @@ tags:
  - Linux
 ---
 
-These commands have come in handy a lot over the last couple of days, as I have been [setting up Xen](/blog/getting-started-with-xen-setting-up-virtual-machines) with a few Virtual Machines.
+These commands have come in handy a lot over the last couple of days, as I have been [setting up Xen](/blog/getting-started-with-xen-setting-up-virtual-machines/) with a few Virtual Machines.
 
 Replace `[user]` in the commands below with the name of your user (e.g. `mike`). If you need a good password it is recommended you [use a strong one](https://passwordsgenerator.net/).
 

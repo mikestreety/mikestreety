@@ -9,7 +9,7 @@ tags:
  - Javascript
 ---
 
-<div class="info">This is carrying on from <a href="/blog/live-blog-getting-a-slack-helper-running-with-netlify">Part 1</a> which was a "live blog" style (at the time)</div>
+<div class="info">This is carrying on from <a href="/blog/live-blog-getting-a-slack-helper-running-with-netlify/">Part 1</a> which was a "live blog" style (at the time)</div>
 
 One thing I missed out from the end of the previous post is deploying - `netlify deploy` will give you a staging/preview URL. From there you can do a `netlify deploy --prod` to get your work live
 

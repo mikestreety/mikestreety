@@ -81,4 +81,4 @@ $ xl shutdown mikevm
 
 - - -
 
-Once your VM is up and running, you may wish to set it up [as a server](/blog/set-up-a-new-virtual-private-server-vps) or for something else.
+Once your VM is up and running, you may wish to set it up [as a server](/blog/set-up-a-new-virtual-private-server-vps/) or for something else.

@@ -10,7 +10,7 @@ tags:
  - Wordpress
 ---
 
-As I mentioned in my [first post](/blog/starting-afresh-starting-anew) I have made an archive of my previous Wordpress blog posts into a static page. This is done through some SQL and PHP.
+As I mentioned in my [first post](/blog/starting-afresh-starting-anew/) I have made an archive of my previous Wordpress blog posts into a static page. This is done through some SQL and PHP.
 
 _**note:** There may be better ways to do this - I am not a back end developer_
 
