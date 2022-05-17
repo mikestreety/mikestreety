@@ -7,7 +7,7 @@ tags:
  - Composer
 ---
 
-Packagist is a great resource for Composer packages; the NPM of the PHP world and composer is already set up to work with it. However, there may be times where you wish to include a local package or pull in a package from somewhere else - such as a self-hosted [Private Packagist](https://packagist.com/) or [Gitlab](https://gitlab.com/) package repository.
+Packagist is a great resource for Composer packages; the NPM of the PHP world and composer is already set up to work with it. However, there may be times where you wish to include a local package or pull in a package from somewhere else - such as a self-hosted [Private Packagist](https://packagist.com/) or [Gitlab](https://about.gitlab.com/) package repository.
 
 With Composer, you can specify in your `composer.json` where you wish to pull the packages from.
 

@@ -25,7 +25,7 @@ I, along with a few other collegues, have started going back into the office. I'
 
 As mentioned, I got an Xbox at the start of the year and have been very much enjoying Forza Horizon 5.
 
-I managed to create and sort out a [stats page](/stats) for my end-of-year blog posts, which is great to see all that data in one place. I've already thought of a couple more data points I can add.
+I managed to create and sort out a [stats page](/stats/) for my end-of-year blog posts, which is great to see all that data in one place. I've already thought of a couple more data points I can add.
 
 I purchased a new (well, Apple refurbished) MacBook Air, after my 2016 MacBook Pro decided not to let me [open it more than 45°](https://twitter.com/mikestreety/status/1487815579574718467/photo/1). I went for a refurbished (and an Air) as it is just a personal laptop that gets used for blog writing and web surfing - it doesn't need to be all powerful. It has the M1 chip (and a fingerprint reader) which are already a huge improvement.
 

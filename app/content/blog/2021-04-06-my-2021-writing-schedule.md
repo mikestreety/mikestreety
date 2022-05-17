@@ -18,7 +18,7 @@ This bi-weekly (fortnightly) schedule has got me writing more, too. As I write t
 
 With my move to 11ty, I wanted to expose my drafts and scheduled posts - no more "writing in the dark". The ones that get scheduled are there purely for my vanity, for my routine rather than having to wait until that date. They are set up so I can look back when I do my [2021 in review](/blog/2021-in-review/) and have something to talk about.
 
-You can find all my [upcoming posts](/scheduled) listed on a page, along with the true [drafts](/drafts). Having a site powered by markdown also affords me to [have my site on Gitlab](https://gitlab.com/mikestreety/mikestreety), allowing technical readers to raise issues or suggest edits.
+You can find all my [upcoming posts](/scheduled/) listed on a page, along with the true [drafts](/drafts/). Having a site powered by markdown also affords me to [have my site on Gitlab](https://gitlab.com/mikestreety/mikestreety), allowing technical readers to raise issues or suggest edits.
 
 ## Writing process
 
@@ -26,7 +26,7 @@ So what is my writing process? How does it work?
 
 ### Have an idea
 
-If I have an idea for a blog post, even if it is something I have just done that might, one day, serve as a useful post, I make a stub file in the [drafts folder](https://gitlab.com/mikestreety/mikestreety/-/tree/master/app/content/drafts).
+If I have an idea for a blog post, even if it is something I have just done that might, one day, serve as a useful post, I make a stub file in the [drafts folder](https://gitlab.com/mikestreety/mikestreety/-/tree/main/app/content/drafts).
 
 If in the drafts folder, they automatically get a status of "draft". Alternatively, this can be applied by adding `draft: true` in the front matter. The stub files have no title, no permalink, no description or context. They are often just a paste of code or a reminder to myself.
 
@@ -38,7 +38,7 @@ Posts which are marked as draft get the `nofollow` meta tag:
 
 For those interested, this is done [with Nunjucks](https://gitlab.com/mikestreety/mikestreety/-/commit/a343dc3c0595d443bdcb19f08d5d13e16f0beff1).
 
-All these appear on the [drafts](/drafts) page.
+All these appear on the [drafts](/drafts/) page.
 
 ## Expand on that idea
 
@@ -46,13 +46,13 @@ When I have the time, or inclination, to work on that particular post, I will ex
 
 ## Schedule it
 
-When the post is ready, it gets moved into the [blog folder](https://gitlab.com/mikestreety/mikestreety/-/tree/master/app/content/blog). Here the `draft` status gets removed and it gets a date. The date is generally two mondays after the previously scheduled post. Sometimes, if I think the post is "time-sensitive" I will schedule it next and bump all the other posts up. Other times, like this one, I just go rogue.
+When the post is ready, it gets moved into the [blog folder](https://gitlab.com/mikestreety/mikestreety/-/tree/main/app/content/blog). Here the `draft` status gets removed and it gets a date. The date is generally two mondays after the previously scheduled post. Sometimes, if I think the post is "time-sensitive" I will schedule it next and bump all the other posts up. Other times, like this one, I just go rogue.
 
-When it is in the future, it appears on on [scheduled](/scheduled) page. These posts have the `noindex` meta tag removed and are fully crawlable by search engines. All the posts also appear in the sitemap XML (just not the RSS). To be brutally honest, part of the reason I'm writing this post is to expose the links a bit more to encourage crawlability 😉.
+When it is in the future, it appears on on [scheduled](/scheduled/) page. These posts have the `noindex` meta tag removed and are fully crawlable by search engines. All the posts also appear in the sitemap XML (just not the RSS). To be brutally honest, part of the reason I'm writing this post is to expose the links a bit more to encourage crawlability 😉.
 
 ## Publish it
 
-With the post scheduled, the [Cloudflare worker I set up](/blog/deploy-11ty-scheduled-posts-with-cloudflare-workers/) checks the date of the next upcoming post and, if it is "now", rebuilds the site to set the post live. This includes the post in the [RSS feed](/rss) and adds it to the main [blog listing page](/blog).
+With the post scheduled, the [Cloudflare worker I set up](/blog/deploy-11ty-scheduled-posts-with-cloudflare-workers/) checks the date of the next upcoming post and, if it is "now", rebuilds the site to set the post live. This includes the post in the [RSS feed](/rss) and adds it to the main [blog listing page](/blog/).
 
 ---
 

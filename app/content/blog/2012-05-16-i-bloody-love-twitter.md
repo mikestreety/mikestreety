@@ -29,4 +29,4 @@ At the FOWD conf, I met up with people who I know on twitter, and I met people w
 
 Twitter also allows you to realise that people are just that, people. That amazing web guy, or celebrity you love? Follow them on twitter and you realise that they get cramp, or spots, or colds and it makes you love the more, because they're human. Its also a portal to start a conversation with said mega-star and who knows, you might become friends.
 
-So love twitter, and I would love to hear your twitter experiences. In fact, [croydon creatives](http://www.croydoncreativ.es/) is perfect example of some good twitters.
+So love twitter, and I would love to hear your twitter experiences. In fact, [croydon creatives](http://croydoncreativ.es/) is perfect example of some good twitters.

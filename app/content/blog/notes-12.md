@@ -35,7 +35,7 @@ The poem is by [Marianne Williamson](https://en.wikiquote.org/wiki/Marianne_Will
 
 Another takeaway was from the episode I listened too today ([Episode 15](https://workingcode.dev/episodes/015-potluck-1/)). The phrase "building as you climb". was mentioned and I really liked it as a methodology. To paraphrase; As you solve a problem, once you cross the ravine, you should build a bridge so the person that follows you doesn't need to build a bridge for themselves and can go further than you. It's a great ethos to carry and has reminded me why I write so much goddam documentation at work.
 
-This reminded me of my post about [delegation](/blog/making-sure-youre-not-doing-everything-at-work) in which I said
+This reminded me of my post about [delegation](/blog/making-sure-youre-not-doing-everything-at-work/) in which I said
 
 > you should train your team to be as good as you, and then push them to be better
 

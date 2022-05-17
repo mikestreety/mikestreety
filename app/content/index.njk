@@ -52,35 +52,6 @@ eleventyNavigation:
 		</div>
 	</div>
 	<div class="container center">
-		<a href="/blog" class="button">View more blog posts</a>
+		<a href="/blog/" class="button">View more blog posts</a>
 	</div>
 </section>
-
-{#
-
-<section class="post-listing">
-	<div class="container">
-		<h2>Projects</h2>
-	</div>
-	<div class="horizonal-listing container">
-		{% set pageEntries = craft.entries.section(['projects']).all() %}
-		<div class="post-listing">
-			<ul class="post-listing-full">
-				{% for entry in pageEntries %}
-				<li>
-					<article class="article {{ (entry.externalUrl) ? 'externalArticle' : '' }}">
-						<h3>
-							<a href="{{ entry.externalUrl }}">{{ entry.title }}</a>
-						</h3>
-
-						{{ entry.body }}
-
-						<p><strong><a href="{{ entry.externalUrl }}">Visit {{ entry.title }}</a></strong></p>
-					</article>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
-</section>
-#}

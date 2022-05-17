@@ -31,7 +31,7 @@ My aim when building it was not to be bogged down with writing code perfection -
 
 ### Framework
 
-The whole site is run on **[SlimPHP](http://www.slimframework.com/)**. This is a great framework for getting a website up and running. I use the Twig extension for my templates and abstracted all of the functionality out into classes, so my `index.php` is as clean as possible. Using Slim is very similar to Laravel (and Lumen, which I use a lot) and so PHP development was quick.
+The whole site is run on **[SlimPHP](https://www.slimframework.com/)**. This is a great framework for getting a website up and running. I use the Twig extension for my templates and abstracted all of the functionality out into classes, so my `index.php` is as clean as possible. Using Slim is very similar to Laravel (and Lumen, which I use a lot) and so PHP development was quick.
 
 ### Data
 
