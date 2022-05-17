@@ -23,7 +23,7 @@ Anyway, I digress. Whatever your reasons for using Cloudflare with Netlify, you 
 
 Running on Cloudflare, you can leave your domain in "Flexible" mode - this would serve unencrypted traffic from Netlify to Cloudflare and then Encrypt from Cloudflare to the User. This is fine for most sites but not helpful for this tutorial! We are going to use the "Full" mode - which requires an SSL certificate (can be self signed) on the origin server (aka Netlify)
 
-<div class="info">If you would like to know more about Cloudflare's different SSL modes, you can read more in this blog: <a href="https://www.mikestreety.co.uk/blog/what-are-the-different-ssl-modes-on-cloudflare">What are the different SSL modes on Cloudflare?</a></div>
+<div class="info">If you would like to know more about Cloudflare's different SSL modes, you can read more in this blog: <a href="/blog/what-are-the-different-ssl-modes-on-cloudflare/">What are the different SSL modes on Cloudflare?</a></div>
 
 ## Objectives
 

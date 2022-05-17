@@ -2,7 +2,7 @@
 title: The Real World of Web Development
 date: 2019-07-31
 updated: 2019-11-11
-intro: I read "The Real Dark Web", a blog post from @sonniesedge and within a few paragraphs it really hit home. There are a few noisy web developers who are innovating, ...
+intro: I read "The Real Dark Web", a blog post from @whalecoiner and within a few paragraphs it really hit home. There are a few noisy web developers who are innovating, ...
 permalink: "blog/the-real-world-of-web-development/"
 tags:
  - Web
@@ -10,7 +10,7 @@ tags:
  - Thoughts
 ---
 
-I read "[The Real Dark Web](https://www.sonniesedge.net/posts/real-dark-web/)", a blog post from [@sonniesedge](https://twitter.com/sonniesedge) and within a few paragraphs it really hit home. There are a few noisy web developers who are innovating, but their innovations are not realistic in the "Real world".
+I read "[The Real Dark Web](https://whalecoiner.com/articles/real-dark-web/)", a blog post from [@whalecoiner](https://twitter.com/whalecoiner) and within a few paragraphs it really hit home. There are a few noisy web developers who are innovating, but their innovations are not realistic in the "Real world".
 
 > Yet [we] are told, mostly implicitly, sometimes directly, that if [we're] not innovating and using the latest tools that [we] are somehow a failure. This feeling of failure for not implementing the latest tech permeates our industry.
 
@@ -26,4 +26,4 @@ We've also done websites for companies that [build machines that measure light](
 
 So next time you are feeling insignificant, or like you're not using the greatest tools, just remember: You are not alone, nor in the minority.
 
-**Read the original blog post - "[The Real Dark Web](https://www.sonniesedge.net/posts/real-dark-web/)".**
+**Read the original blog post - "[The Real Dark Web]((https://whalecoiner.com/articles/real-dark-web/)".**

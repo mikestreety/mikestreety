@@ -19,7 +19,7 @@ These steps are mainly for the music industry people, but can also be applied to
 
 With that, you can then **set up a [twitter](http://www.twitter.com) account**. Facebook and twitter can now talk to each other very easily, so you can update one account and the other updates automagically. If you want to offer Twitter or Facebook only offers, if you have it set up right, you can still log in and post separately.
 
-**Sign Up to** [**MySpace**](http://www.myspace.com) - chuck some sample tracks up there. It is not crucial that you keep this one updated as much, but having a MySpace means more exposure, more chance of being found. Twitter can also update your MySpace status, so no need to keep logging in!
+**Sign Up to** [**MySpace**](https://myspace.com/) - chuck some sample tracks up there. It is not crucial that you keep this one updated as much, but having a MySpace means more exposure, more chance of being found. Twitter can also update your MySpace status, so no need to keep logging in!
 
 **Set up a [bandcamp](http://www.bandcamp.com)** - This site is fairly new, but this lets you upload your tracks and sell them - For free! You can also include mini media players from bandcamp onto your new website, giving people the chance to buy the tracks there and then.
 

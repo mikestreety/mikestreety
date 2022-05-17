@@ -60,7 +60,7 @@ To get your 11ty site onto Netlify with git:
 	- Publish directory is your `output` directory specified in your `.eleventy.js` file
 1. Click "deploy site"
 
-Netlify will take a few minutes to deploy your website but, once complete you are provided with a random `.netlify.app` URL to view your website. You can rename this or you can link a custom domain (even [using Cloudflare](https://www.mikestreety.co.uk/blog/setting-up-a-custom-domain-with-netlify-with-cloudflare-ssl)).
+Netlify will take a few minutes to deploy your website but, once complete you are provided with a random `.netlify.app` URL to view your website. You can rename this or you can link a custom domain (even [using Cloudflare](/blog/setting-up-a-custom-domain-with-netlify-with-cloudflare-ssl/)).
 
 If you don't want to/can't connect your git provider (or your 11ty site isn't in a git repo), Netlify offer a drag and drop interface (at the bottom of the "Sites" page). Run the 11ty compilation steps locally and upload the output directory.
 

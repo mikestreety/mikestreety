@@ -20,7 +20,7 @@ The "problem" is I have to carry my device with me to skip tracks or stop playba
 
 ### The Dream
 
-What I'm after is an internal music server (like [Runeaudio](http://www.runeaudio.com/) or [Moodeaudio](http://moodeaudio.org/)) running on a Raspberry Pi which is web accessible and can stream to a Chromecast. This means I can change the playlist or pause playback from any device with a browser.
+What I'm after is an internal music server (like [Runeaudio](http://www.runeaudio.com/) or [Moodeaudio](https://moodeaudio.org/)) running on a Raspberry Pi which is web accessible and can stream to a Chromecast. This means I can change the playlist or pause playback from any device with a browser.
 
 ### Can you help?
 

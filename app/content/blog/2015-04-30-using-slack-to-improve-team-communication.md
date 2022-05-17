@@ -11,7 +11,7 @@ tags:
  - Thoughts
 ---
 
-Slack is a hugely popular communication team tool which has grown from strength to strength over the last year. It was publicly released in February 2014 and has recently been valued at [$3.8 billion](http://techcrunch.com/2016/04/01/slack-raises-200m-at-3-8b-valuation-for-business-messaging/). For such a “simple” idea (and one that started off as a web based game) Slack’s fanbase is loyal and big - with well over 500,000 2.3 million daily active users.
+Slack is a hugely popular communication team tool which has grown from strength to strength over the last year. It was publicly released in February 2014 and has recently been valued at [$3.8 billion](https://techcrunch.com/2016/04/01/slack-raises-200m-at-3-8b-valuation-for-business-messaging/). For such a “simple” idea (and one that started off as a web based game) Slack’s fanbase is loyal and big - with well over 500,000 2.3 million daily active users.
 
 We adopted Slack in November 2014 and haven’t looked back since. Liquid Light are a relatively small agency, with about 12 employees. Everyone is in the same room so having conversations and keeping up to date on happenings isn’t too difficult - however, not everyone wanted to be interrupted to watch a video of a dog that [can’t catch food](https://www.youtube.com/watch?v=6w2UxDdhZPk) (or discuss web technology related topics - which is what we are really doing, honest!).
 

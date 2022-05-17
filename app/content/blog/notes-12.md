@@ -15,7 +15,7 @@ Since converting my site to 11ty, I've been finding opportunities for new 11ty s
 
 ## Working Code Podcast
 
-As mentioned in my [last note](/blog/notes-11), I've been listening to [Working Code](https://workingcode.dev/) a coding podcast which doesn't cover one specific language, but the ideas and methodologies behind coding. Every episode seems to have a takeaway, even if it is from "Triumphs and Fails" at the beginning.
+As mentioned in my [last note](/blog/notes-11/), I've been listening to [Working Code](https://workingcode.dev/) a coding podcast which doesn't cover one specific language, but the ideas and methodologies behind coding. Every episode seems to have a takeaway, even if it is from "Triumphs and Fails" at the beginning.
 
 A few weeks ago, in [Episode 13](https://workingcode.dev/episodes/013-do-what-you-love-and-youll-never-work-a-day-in-your-life/), one of the hosts Ben shared a poem which really resonated with me. I'm not normally a poem guy (I couldn't recite one, that's for sure) but, I was listening to this particular episode the day after I published my post about [Imposter Syndrome](/blog/side-project-imposter-syndrome/) and something clicked.
 

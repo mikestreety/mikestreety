@@ -129,7 +129,7 @@ The code behind this can be found on [Github](https://github.com/mikestreety/Wea
 
 ### Music box
 
-Using Volumio, one of the audio installations mentioned earlier on, Will recently made his own stereo system; restoring a 1940’s radio into a modern internet radio and music streaming box complete with airplay and bluetooth. It was a fun project that kept him out of mischief for a couple of months and taught him a great deal about the (incredibly difficult!) art of acoustics! The whole process is available as a post on [Medium](https://medium.com/@Terminallywill/create-a-tech-filled-stereo-out-of-a-vintage-1940-s-radio-b99ac9b57777).
+Using Volumio, one of the audio installations mentioned earlier on, Will recently made his own stereo system; restoring a 1940’s radio into a modern internet radio and music streaming box complete with airplay and bluetooth. It was a fun project that kept him out of mischief for a couple of months and taught him a great deal about the (incredibly difficult!) art of acoustics! The whole process is available as a post on [Medium](https://medium.com/@willchidlow/create-a-tech-filled-stereo-out-of-a-vintage-1940-s-radio-b99ac9b57777).
 
 ### Media Centre
 
