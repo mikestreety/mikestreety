@@ -195,12 +195,6 @@ The last step is displaying the correct data at this point. You can remove the f
 
 Success! You now have a web app which displays data and has shareable links for each person.
 
-[View it in action on JS Bin](https://jsbin.com/bikadol/edit?html,js,output)
-
-If you view the bin in "output" mode, you'll notice the URL changing too:
-
-[Working Vue Router example](https://output.jsbin.com/bikadol/)
-
 Let me know in the comments below if you have any problems or have a better way of using the Vue router on the client side.
 
 - - -

@@ -34,7 +34,7 @@ They all did brilliantly and based on the tweets, were all well recieved.
 
 ## Sponsors
 
-The amount of generous people out there is phenomenal and there was no exception when it came to Points. We had books and t-shirts from [No Starch Press](http://nostarch.com/), books from [A Book Apart](http://www.abookapart.com/), t-shirts from [Belong](http://wearyoubelong.com/), several copies of Introducing HTML5 by Remy Sharp and Bruce Lawson, a book on mobile development from [Tipsy & Tumbler](http://www.tipsyandtumbler.co.uk/) and books and t-shirts from [5 Simple Steps](http://www.fivesimplesteps.com/).
+The amount of generous people out there is phenomenal and there was no exception when it came to Points. We had books and t-shirts from [No Starch Press](http://nostarch.com/), books from [A Book Apart](http://www.abookapart.com/), t-shirts from [Belong](http://wearyoubelong.com/), several copies of Introducing HTML5 by Remy Sharp and Bruce Lawson, a book on mobile development from Tipsy & Tumbler and books and t-shirts from [5 Simple Steps](http://www.fivesimplesteps.com/).
 
 We also had some beautiful postcards designed and printed by [Hatched](http://www.hatchedlondon.com/) and [T/OD](http://www.toduk.com/). The alcohol and drinks were provided by [Bozboz](http://www.bozboz.co.uk) and the venue kindly donated by [The Skiff](http://www.theskiff.org/).
 

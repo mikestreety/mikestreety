@@ -32,11 +32,11 @@ With Cloudflare workers, you can click the navigation at the top and select work
 
 I will do a follow-up article about locally developing and deploying, so for now, I will talk about the quick edit. Cloudflare Workers are written in JavaScript which runs on the *server* side. This means your browser doesn't need JavaScript enabled for the worker to run.
 
-As a quick example, I [review beers on Instagram](https://twitter.com/mikestreety/status/1232439555359297536) and have created a [mini-site](https://beer.mikestreety.co.uk/) which pulls in the data and allows it to be searched.
+As a quick example, I [review beers on Instagram](https://twitter.com/mikestreety/status/1232439555359297536) and have created a [mini-site](https://alehouse.rocks/) which pulls in the data and allows it to be searched.
 
-In this process I also create two json files, [one for the beers](https://beer.mikestreety.co.uk/api/beers.json) and a [second for the breweries](https://beer.mikestreety.co.uk/api/breweries.json)
+In this process I also create two json files, [one for the beers](https://alehouse.rocks/api/breweries.json) and a [second for the breweries](https://alehouse.rocks/api/beers.json)
 
-Using a Cloudflare worker, I wrote the javascript to parse the beer json file and give me [7 random hashtags which I have used more than 5 times](https://beer-hashtags.mikestreety.workers.dev/).
+Using a Cloudflare worker, I wrote the javascript to parse the beer json file and give me 7 random hashtags which I have used more than 5 times.
 
 This is a very silly example, but the rapid prototyping and instant feedback that developing this in the browser gave me was invaluable. It is now also on the Cloudflare CDN, which takes the load off the server.
 

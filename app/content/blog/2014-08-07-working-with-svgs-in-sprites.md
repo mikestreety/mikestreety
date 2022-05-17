@@ -60,7 +60,7 @@ Below are the settings we use to export our icons as SVGs - converting the text 
 
 ![Adobe Illustrator SVG Settings](/assets/img/content/working-with-svgs-in-sprites/3.png)
 
-Once exported as an SVG, it is advised to run the generated files through an SVG optimiser. For that we used [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) or [SVGO](https://github.com/svg/svgo) (which has gulp/grunt modules or a GUI). There is also an online [SVG Editor](https://petercollingridge.appspot.com/svg-editor) which features previews of your optimisation.
+Once exported as an SVG, it is advised to run the generated files through an SVG optimiser. For that we used [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) or [SVGO](https://github.com/svg/svgo) (which has gulp/grunt modules or a GUI). There is also an online SVG Editor which features previews of your optimisation.
 
 If supporting less than IE9, you will also need to export a PNG file of the same sprite - we generated our SVG sprite and PNG file automatically from separate SVG icons using [gulp-svg-sprites](https://www.npmjs.org/package/gulp-svg-sprites), but exporting straight from your graphics program will do the same job.
 

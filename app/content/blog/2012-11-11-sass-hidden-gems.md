@@ -24,7 +24,6 @@ Below are some resources i've found which has helped me understand the hidden 'g
 
 - [http://sass-lang.com/docs/yardoc/file.SASS\_REFERENCE.html](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html) - the official sass documentation
 - [https://gist.github.com/3181172/0c6a8d7050413ca9ad9fcd4cdc53890ceed8b7c5](https://gist.github.com/3181172/0c6a8d7050413ca9ad9fcd4cdc53890ceed8b7c5) - a gist from phil documenting some of the built in mixins
-- [http://jc-designs.net/blog/2010/10/sass-scss-and-compass-cheat-sheet/](http://jc-designs.net/blog/2010/10/sass-scss-and-compass-cheat-sheet/) - a cheat sheet
 - [http://compass-style.org/](http://compass-style.org/) - One of the best 'hidden' features (apparently) of Sass
 - [http://compass-recipes.moox.fr/](http://compass-recipes.moox.fr/) - more recipes for the compass
 - [http://singularity.gs/](http://singularity.gs/) - A responsive grid system
