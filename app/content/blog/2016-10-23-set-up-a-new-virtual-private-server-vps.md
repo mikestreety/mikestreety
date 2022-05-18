@@ -18,19 +18,6 @@ The following commands are ones I run to set up a new Virtual Private Server wit
 
 _All the following commands assume you are logged in as the root user and you have command line experience_
 
-## Table of contents
-
-- [Install Packages](https://www.mikestreety.co.uk/blog/set-up-a-new-virtual-private-server-vps#install-packages)
-- [Install MySQL and phpMyAdmin](https://www.mikestreety.co.uk/blog/set-up-a-new-virtual-private-server-vps#install-mySQL-and-phpMyAdmin)
-- [Enable Bash Colours](https://www.mikestreety.co.uk/blog/set-up-a-new-virtual-private-server-vps#enable-bash-colours)
-- [Set the time](https://www.mikestreety.co.uk/blog/set-up-a-new-virtual-private-server-vps#set-the-time)
-- [Updates and upgrades](https://www.mikestreety.co.uk/blog/set-up-a-new-virtual-private-server-vps#updates-and-upgrades)
-- [Install composer](https://www.mikestreety.co.uk/blog/set-up-a-new-virtual-private-server-vps#install-composer)
-- [Install Node & npm](https://www.mikestreety.co.uk/blog/set-up-a-new-virtual-private-server-vps#install-node-amp-npm)
-- [Disable root password](https://www.mikestreety.co.uk/blog/set-up-a-new-virtual-private-server-vps#disable-root-password)
-- [Serving up websites](https://www.mikestreety.co.uk/blog/set-up-a-new-virtual-private-server-vps#serving-up-websites)
-- [Serving up websites over HTTPS with an origin certificate](https://www.mikestreety.co.uk/blog/set-up-a-new-virtual-private-server-vps#serving-up-websites-over-https-with-an-origin-certificate)
-
 ### Create users
 
 I have written a blog post with various Linux user commands:
