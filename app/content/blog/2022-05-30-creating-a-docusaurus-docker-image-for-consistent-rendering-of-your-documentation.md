@@ -10,7 +10,7 @@ tags:
 
 We recently transitioned to keeping our client-documentation in the site repositories themselves (rather than a central documentation platform) and I needed a way to quickly spin up a new site without much configuration.
 
-[Docusaurus](https://docusaurus.io/) is a fantastic documentation tool/wrapper that, once you've seen it, makes you realise how many people use it and has a fairly "straight-forward" on boarding process in comparison to a lot of other frameworks. The big requirement I had was search functionality that didn't reply on third party (and didn't require the site to be public).
+[Docusaurus](https://docusaurus.io/) is a fantastic documentation tool/wrapper that, once you've seen it, makes you realise how many people use it and has a fairly "straight-forward" on boarding process in comparison to a lot of other frameworks. The big requirement I had was search functionality that didn't rely on third party (and didn't require the site to be public).
 
 My first step was to get a site set up how I wanted - this involved trawling through the Docusaurus documentation and following tutorials to enable features nestled deep in the code. Once "finished" (is anything truly finished) I ended up with the following files:
 
