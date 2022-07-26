@@ -1,8 +1,8 @@
 ---
-title: Version contrains in JSON files
+title: Version constraints in JSON files
 date: 2022-07-22
-intro: NPM and Composer have different syntax for version contrains which tripped me up recently
-permalink: "blog/version-contraints-in-json-files/"
+intro: NPM and Composer have different syntax for version constraints which tripped me up recently
+permalink: "blog/version-constraints-in-json-files/"
 tags:
  - Composer
  - NPM
