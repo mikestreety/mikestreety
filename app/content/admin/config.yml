@@ -18,3 +18,4 @@ collections:
       - { label: "publication", name: "publication", widget: "string" }
       - { label: "permalink", name: "permalink", widget: "string" }
       - { label: "tags", name: "tags", widget: "list" }
+      - { label: "body", name: "body", widget: "markdown" }
