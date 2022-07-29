@@ -97,7 +97,6 @@
 		navigator.serviceWorker.register('/sw.js?1');
 	}
 	</script>
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body {% if bodyclass is defined %}class="{{ bodyclass }}"{% endif %}>
@@ -147,17 +146,6 @@
 			"https://www.instagram.com/mikestreety/"
 		]
 	}
-	</script>
-	<script>
-		if (window.netlifyIdentity) {
-			window.netlifyIdentity.on("init", user => {
-				if (!user) {
-					window.netlifyIdentity.on("login", () => {
-						document.location.href = "/admin/";
-					});
-				}
-			});
-		}
 	</script>
 </body>
 </html>
