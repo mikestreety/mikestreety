@@ -1,6 +1,8 @@
 const {blog, drafts, scheduled} = require('./app/filters/posts');
 
 module.exports = function (config) {
+	config.addPassthroughCopy('./app/content/admin');
+
 	config.addCollection('blog', blog);
 	config.addCollection('drafts', drafts);
 	config.addCollection('scheduled', scheduled);
