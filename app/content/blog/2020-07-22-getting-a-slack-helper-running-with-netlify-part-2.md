@@ -35,7 +35,7 @@ Then from there, we can include it in our functions file at the top and utilise 
 
 That was for using locally. To use in Netlify go to the **Site -> Settings ->  Build and Deploy -> Environment** and add a new variable there.
 
-## Lock down to local access
+## Lock down to local access
 
 The next thing we want is to lock down the function to only be accessed from the site itself - we don't want people just randomly pinging the function and updating my slack status!
 
