@@ -1,6 +1,6 @@
 ---
 title: Programmatically Commit to Gitlab via Node.js
-date: 2022-07-29
+date: 2022-08-27
 intro: Committing to a Gitlab repository programmatically, can be achieved with a NPM package and a few lines of Javascript
 permalink: blog/programmatically-commit-to-gitlab-via-nodejs/
 tags:
