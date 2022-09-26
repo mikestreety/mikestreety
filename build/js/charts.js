@@ -68,7 +68,7 @@ new ApexCharts(document.querySelector("#postsLiquidLight"), {
 	...chartOptions,
 	series: [{
 		name: 'Posts',
-		data: [3, 3, 8, 6, 3, 4, 2, 4]
+		data: [3, 3, 8, 6, 3, 4, 2, 3]
 	}],
 	xaxis: {
 		categories: [2014, 2015, 2016, ...chartOptions.xaxis.categories]
