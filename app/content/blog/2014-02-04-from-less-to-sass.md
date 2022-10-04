@@ -29,7 +29,7 @@ I started looking into command line compiler for Less - these are few are far be
 
 I kept looking for alternatives but nothing struck me as being _the one_. I hunted round and slowly learned and borrowed code and, with enough knowledge gained, managed to put together a pure `bash` script that used `inotifytools` to watch the files. We used this for several months as we slowly tweaked and optimised our workflow.
 
-**More about this can be [read here](/blog/compiling-less-on-the-command-line)**
+**More about this can be [read here](/blog/compiling-less-on-the-command-line/)**
 
 This still wasn't perfect and could be temperamental - it would sometimes take a while to compile and required a specific folder structure to run.
 
@@ -37,7 +37,7 @@ In the back of my mind I had been looking at Sass for a while. I was initially p
 
 > If you're compiling Less on the command line - you may as well use Sass
 
-So I started investigating and as we came across problems like the [placeholder styling issue](/blog/a-placeholder-mixin-for-less-and-scss) in our day to day work, the signs we pointing towards the big pink Sass.
+So I started investigating and as we came across problems like the [placeholder styling issue](/blog/a-placeholder-mixin-for-less-and-scss/) in our day to day work, the signs we pointing towards the big pink Sass.
 
 Working with, and being the leader of, a small front-end team makes it not a decision I can just make, try out on one project and switch - I need to clear it with the other guys first, make sure they are happy and see the advantages.
 

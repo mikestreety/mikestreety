@@ -22,7 +22,7 @@ _All the following commands assume you are logged in as the root user and you ha
 
 I have written a blog post with various Linux user commands:
 
-[Linux Debian user commands](https://www.mikestreety.co.uk/blog/linux-debian-user-commands)
+[Linux Debian user commands](https://www.mikestreety.co.uk/blog/linux-debian-user-commands/)
 
 ### Install Packages
 

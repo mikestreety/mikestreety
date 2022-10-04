@@ -11,7 +11,7 @@ tags:
  - Cloudflare
 ---
 
-Just over a week has passed since I wrote a blog post on [what Cloudflare Workers were](https://www.mikestreety.co.uk/blog/what-are-cloud-functions-cloudflare-workers-and-serverless) and I already have a practical example. Last week was a rollercoaster, going from not even understanding one to deploying one in production in 5 days. There is a [tweet thread](https://twitter.com/mikestreety/status/1231994282988449792) of my journey.
+Just over a week has passed since I wrote a blog post on [what Cloudflare Workers were](https://www.mikestreety.co.uk/blog/what-are-cloud-functions-cloudflare-workers-and-serverless/) and I already have a practical example. Last week was a rollercoaster, going from not even understanding one to deploying one in production in 5 days. There is a [tweet thread](https://twitter.com/mikestreety/status/1231994282988449792) of my journey.
 
 ## What does it do?
 

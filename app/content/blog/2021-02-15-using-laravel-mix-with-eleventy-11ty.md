@@ -11,7 +11,7 @@ tags:
  - Laravel Mix
 ---
 
-I've used Laravel Mix for a lot of my side projects and love its simple set up, combined with powerful features. If you want to learn how to set up Laravel Mix, it is worth reading [Setting up Laravel Mix](https://www.mikestreety.co.uk/blog/how-to-set-up-and-use-laravel-mix-with-your-project) first.
+I've used Laravel Mix for a lot of my side projects and love its simple set up, combined with powerful features. If you want to learn how to set up Laravel Mix, it is worth reading [Setting up Laravel Mix](https://www.mikestreety.co.uk/blog/how-to-set-up-and-use-laravel-mix-with-your-project/) first.
 
 Both Laravel Mix and 11ty can be used in "watch" mode, which recompiles as you save, along with a "compile/production" mode which will minify and ready your assets for production environment. If you followed the post above (and have already set up 11ty) your `package.json` files should contain something along the lines of:
 

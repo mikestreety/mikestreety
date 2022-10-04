@@ -12,9 +12,9 @@ tags:
 
 <div class="info"><strong>Note</strong>: This post is from 2014 and so some links or practices may not be those advised today. It also uses Gulp 3 and so may not work with Gulp 4</div>
 
-With gulp starting to find itself into my everyday workflow - I've started to understand its quirks and twists, and how to get along with it. My baseline `gulpfile.js` has become a lot neater and advanced in its functionality that the one I [originally developed](/blog/a-simple-sass-compilation-gulpfile-js) back in March.
+With gulp starting to find itself into my everyday workflow - I've started to understand its quirks and twists, and how to get along with it. My baseline `gulpfile.js` has become a lot neater and advanced in its functionality that the one I [originally developed](/blog/a-simple-sass-compilation-gulpfile-js/) back in March.
 
-Along with Gulp, I have also started integrating [Bower](/blog/bower), a front-end package manager, into my workflow. I now use Bower to download the assets and plugins and gulp to compile, concatenate and minify them. [Luigi](http://bower.io/search/?q=luigi) is installed by default - but I also use it for Fancybox, jQuery and other front-end packages.
+Along with Gulp, I have also started integrating [Bower](/blog/bower/), a front-end package manager, into my workflow. I now use Bower to download the assets and plugins and gulp to compile, concatenate and minify them. [Luigi](http://bower.io/search/?q=luigi) is installed by default - but I also use it for Fancybox, jQuery and other front-end packages.
 
 **The full code including the `bower.json` and `package.json` files can be found over on [Gitlab](https://gitlab.com/mikestreety/advanced-gulp-file).**
 

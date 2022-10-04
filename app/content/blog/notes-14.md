@@ -5,7 +5,7 @@ tags:
   - Notes
 ---
 
-I was looking through my [diary](/diary) the other day and noted how little I hast posted over the last month or so compared to the rest of the year. I also remembered that I had gone through a blog writing marathon earlier in the year and scheduled posts for months to come - so it's not that I have _recently_ stopped writing, I've just not written anything (except the odd post here or there) since about April.
+I was looking through my [diary](/diary/) the other day and noted how little I hast posted over the last month or so compared to the rest of the year. I also remembered that I had gone through a blog writing marathon earlier in the year and scheduled posts for months to come - so it's not that I have _recently_ stopped writing, I've just not written anything (except the odd post here or there) since about April.
 
 Over the last few weeks, however, there have been a couple of events I wanted to make a note of. Not for anyone, really, except myself.
 

@@ -20,7 +20,7 @@ To fully benefit from this blog post, you should be familiar with Vue.js and Vue
 
 Vuex should be considered if you have more than a couple of components in your application and wish to share data between them. Do consider about page weight though, if you only need to store a couple of variables, using events might be more efficient then adding an extra 10kb by including Vuex.
 
-The screencast and implementation can be found in the follow-up blog post on [implmenting Vuex](https://www.mikestreety.co.uk/blog/introduction-to-vuex-implementation-part-2-video)
+The screencast and implementation can be found in the follow-up blog post on [implmenting Vuex](https://www.mikestreety.co.uk/blog/introduction-to-vuex-implementation-part-2-video/)
 
 ## Initialising and using Vuex
 
@@ -205,4 +205,4 @@ Getters are called in a similar way to how we accessed the `state` properties at
 this.$store.getters.person; // Would output "Mike has a count of 0"
 ```
 
-With the introduction into Vuex now complete, head over to part two of the series to learn how to [implement Vuex with a practical example](https://www.mikestreety.co.uk/blog/introduction-to-vuex-implementation-part-2-video).
+With the introduction into Vuex now complete, head over to part two of the series to learn how to [implement Vuex with a practical example](https://www.mikestreety.co.uk/blog/introduction-to-vuex-implementation-part-2-video/).

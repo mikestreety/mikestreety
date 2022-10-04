@@ -97,7 +97,7 @@ gulp.task('default', ['sass'], function() {
 
 The gulpfile and associated package.json can be found as a [github gist](https://gist.github.com/mikestreety/9525414) - feel free to comment/fork. I will keep this simple but updated where necessary.
 
-<div class="info">I have since written a more advanced article - <a href="https://www.mikestreety.co.uk/blog/advanced-gulp-file">Advanced Gulp File</a></div>
+<div class="info">I have since written a more advanced article - <a href="https://www.mikestreety.co.uk/blog/advanced-gulp-file/">Advanced Gulp File</a></div>
 
 An introduction to gulp:
 

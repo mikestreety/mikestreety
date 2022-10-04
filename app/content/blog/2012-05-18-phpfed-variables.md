@@ -11,7 +11,7 @@ tags:
  - PHPFED
 ---
 
-Before you continue - make sure you understand [the story.](/blog/php-for-front-end-devs-the-story "PHP for Front-End Devs: The Story")
+Before you continue - make sure you understand [the story.](/blog/php-for-front-end-devs-the-story/ "PHP for Front-End Devs: The Story")
 
 The next thing is that php lines always need to end with a semi-colon (;). This tells php that the line has finished and to run it. Without this you will experience 'Unexpected' errors.
 

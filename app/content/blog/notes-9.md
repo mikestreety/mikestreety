@@ -8,7 +8,7 @@ tags:
 
 Long time no notes 🙄
 
-- I have pushed a beta to my [Socket RSS](/blog/socket-rss-making-rss-your-mindless-scrolling-app) reader out to the public. I've already had a bit of feedback which is a great little incentive to keep working on it
+- I have pushed a beta to my [Socket RSS](/blog/socket-rss-making-rss-your-mindless-scrolling-app/) reader out to the public. I've already had a bit of feedback which is a great little incentive to keep working on it
 - Over the last few weeks, me and a couple of friends have been [recording a podcast](https://makelifeworkpodcast.com/). It's an [OnTheSide](http://ontheside.network) takeover, so the conversation circles around side projects (I talk a lot about RSS...)
 - Turns out using a [controversial podcast title](https://twitter.com/MakeLifeWorkPod/status/1363780845581070336) gets a lot of attention. Who knew click baiting worked?!
 - [Ale House Rock](https://www.instagram.com/ale_house_rock/) has been filling up nicely since Lockdown 3.0 started
