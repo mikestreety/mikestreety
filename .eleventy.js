@@ -6,6 +6,7 @@ module.exports = function (config) {
 	config.addCollection('blog', blog);
 	config.addCollection('drafts', drafts);
 	config.addCollection('scheduled', scheduled);
+	config.addCollection('all', blog);
 
 	config.addFilter('findPost', function(slug) {
 		return this.ctx.collections.blog.filter(a => a.url == slug)[0];
