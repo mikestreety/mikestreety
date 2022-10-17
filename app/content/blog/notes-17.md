@@ -1,11 +1,16 @@
 ---
-title: 'Notes: #16'
+title: 'Notes: #17'
 date: 2022-10-17
 tags:
   - Notes
 ---
 
 Has it really been 5 months since I last wrote a Notes?! I've had my head down on creating and re-creating side projects that I've not really given a moments thought about writing a blog post.
+
+- I'm still riding the Cargo bike - so far done nearly 1400 miles on it
+- My wife has borrowed a bike from her mum, so we've been heading out on rides as a family which is lovely
+- I've switch analytics on a couple of my sites away from the very buggy and locked down "Cloudflare Analytics" to [microanalytics.io](https://microanalytics.io/) - in fact, you can see the analytics [for this very site](https://microanalytics.io/mikestreety.co.uk)
+-
 
 ### Behind the Source - the Podcast
 
