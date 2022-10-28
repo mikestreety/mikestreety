@@ -1,4 +1,3 @@
-
 ---
 title: "Creating Backend Layouts with TYPO3 CMS to build better looking pages"
 date: 2022-10-20
@@ -73,7 +72,7 @@ mod.web_layout.BackendLayouts {
 
 Once we have the initial code, we can tweak and update each cell, to make the names and widths more user-friendly.
 
-First, we can update the `exampleKey` to `two_column`. The names (e.g. `0x2`) can be changed to "Content", "Sidebar" etc. Each cell also needs a `colPos`, so TYPO3 knows which cell to put each bit of content. 
+First, we can update the `exampleKey` to `two_column`. The names (e.g. `0x2`) can be changed to "Content", "Sidebar" etc. Each cell also needs a `colPos`, so TYPO3 knows which cell to put each bit of content.
 
 The `colPos` assigns a number to that particular content section which is how TYPO3 tracks which content is where (e.g.`pid` 123 with `colPos` 2). If you have multiple templates with overlapping `colPos` numbers (e.g. if you always assign your main content area as `colPos` "5") then switching templates will keep content in those areas.
 
@@ -133,7 +132,7 @@ mod.web_layout.BackendLayouts {
 
 **Note:** If you choose to save your layout in TYPO3, then the following steps don't need to be carried out - however we store our backend layouts in code so they can be Git tracked. If you are doing that, copy the TypoScript and exit the GUI editor in TYPO3
 
-With the TypoScript created, we can now save it in in the following file: 
+With the TypoScript created, we can now save it in in the following file:
 
 ```
 Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts/TwoColumn.tsconfig
