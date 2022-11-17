@@ -1,5 +1,6 @@
+const sanitizeHTML = require('sanitize-html')
+
 const {blog, drafts, scheduled} = require('./app/filters/posts');
-const absoluteUrl = require("./app/filters/absoluteUrl");
 
 module.exports = function (config) {
 	config.addPassthroughCopy('./app/content/admin');
@@ -21,13 +22,12 @@ module.exports = function (config) {
 		label: "mins",
 		wpm: 290
 	});
-	config.addNunjucksFilter("absoluteUrl", absoluteUrl);
 	// WEBMENTIONS FILTER
 	config.addFilter('webmentionsForUrl', (webmentions, url) => {
 		// define which types of webmentions should be included per URL.
 		// possible values listed here:
 		// https://github.com/aaronpk/webmention.io#find-links-of-a-specific-type-to-a-specific-page
-		const allowedTypes = ['mention-of', 'in-reply-to']
+		const allowedTypes = ['like-of', 'mention-of', 'in-reply-to']
 
 		// define which HTML tags you want to allow in the webmention body content
 		// https://github.com/apostrophecms/sanitize-html#what-are-the-default-options
@@ -40,17 +40,19 @@ module.exports = function (config) {
 
 		// clean webmention content for output
 		const clean = (entry) => {
-		  const { html, text } = entry.content
+			if(entry.hasOwnProperty('content')) {
+				const { html, text } = entry.content
 
-		  if (html) {
-			// really long html mentions, usually newsletters or compilations
-			entry.content.value =
-			  html.length > 2000
-				? `mentioned this in <a href="${entry['wm-source']}">${entry['wm-source']}</a>`
-				: sanitizeHTML(html, allowedHTML)
-		  } else {
-			entry.content.value = sanitizeHTML(text, allowedHTML)
-		  }
+				if (html) {
+				  // really long html mentions, usually newsletters or compilations
+				  entry.content.value =
+					html.length > 2000
+					  ? `mentioned this in <a href="${entry['wm-source']}">${entry['wm-source']}</a>`
+					  : sanitizeHTML(html, allowedHTML)
+				} else {
+				  entry.content.value = sanitizeHTML(text, allowedHTML)
+				}
+			}
 
 		  return entry
 		}
@@ -61,8 +63,8 @@ module.exports = function (config) {
 
 		// only allow webmentions that have an author name and a timestamp
 		const checkRequiredFields = (entry) => {
-		  const { author, published } = entry
-		  return !!author && !!author.name && !!published
+		  const { author } = entry
+		  return !!author && !!author.name
 		}
 
 		// run all of the above for each webmention that targets the current URL
