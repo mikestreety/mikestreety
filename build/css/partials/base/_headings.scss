@@ -10,8 +10,9 @@ h4 {
 	ul + &,
 	ol + &,
 	table + &,
+	pre + &,
 	blockquote + & {
-		margin-top: var(--gutter);
+		margin-top: var(--gutterLarge);
 	}
 }
 
