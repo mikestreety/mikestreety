@@ -4,3 +4,4 @@ html/
 # Local Netlify folder
 .netlify
 
+_cache
