@@ -64,9 +64,8 @@ layout: default.njk
 		<p class="meta source">
 			<a href="https://gitlab.com/mikestreety/mikestreety/-/blob/main/{{ page.inputPath }}" title="{{ page.inputPath }}">View this post on Gitlab</a>
 		</p>
+		{% include "webmentions.njk" %}
 	</article>
-
-	{% include "webmentionlist.njk" %}
 
 	<h2 class="h3">You might also enjoy&hellip;</h2>
 	<div class="post-listing grid-listing">

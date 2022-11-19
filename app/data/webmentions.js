@@ -12,96 +12,96 @@ const API_ORIGIN = 'https://webmention.io/api/mentions.jf2'
 const TOKEN = 'lId0N38z8IMrDHih2VFZ7Q'
 
 async function fetchWebmentions(since) {
-  const domain = 'www.mikestreety.co.uk';
+	const domain = 'www.mikestreety.co.uk';
 
-  if (!domain || domain === 'myurl.com') {
-    // If we dont have a domain name, abort
-    console.warn(
-      'unable to fetch webmentions: no domain specified in metadata.'
-    )
-    return false
-  }
-  if (!TOKEN) {
-    // If we dont have a domain access token, abort
-    console.warn(
-      'unable to fetch webmentions: no access token specified in environment.'
-    )
-    return false
-  }
+	if (!domain || domain === 'myurl.com') {
+		// If we dont have a domain name, abort
+		console.warn(
+			'unable to fetch webmentions: no domain specified in metadata.'
+		)
+		return false
+	}
+	if (!TOKEN) {
+		// If we dont have a domain access token, abort
+		console.warn(
+			'unable to fetch webmentions: no access token specified in environment.'
+		)
+		return false
+	}
 
-  let url = `${API_ORIGIN}?domain=${domain}&token=${TOKEN}`
-  if (since) {
-    url += `&per-page=100&&since=${since}`
-  } else {
-    url += `&per-page=999`
-  }
+	let url = `${API_ORIGIN}?domain=${domain}&token=${TOKEN}`
+	if (since) {
+		url += `&per-page=100&&since=${since}`
+	} else {
+		url += `&per-page=999`
+	}
 
-  const response = await fetch(url)
-  if (response.ok) {
-    const feed = await response.json()
-    console.log(
-      `${feed.children.length} webmentions fetched from ${API_ORIGIN}`
-    )
-    return feed
-  }
+	const response = await fetch(url)
+	if (response.ok) {
+		const feed = await response.json()
+		console.log(
+			`${feed.children.length} webmentions fetched from ${API_ORIGIN}`
+		)
+		return feed
+	}
 
-  return null
+	return null
 }
 
 // Merge fresh webmentions with cached entries, unique per id
 function mergeWebmentions(a, b) {
-  return unionBy(a.children, b.children, 'wm-id')
+	return unionBy(a.children, b.children, 'wm-id')
 }
 
 // save combined webmentions in cache file
 function writeToCache(data) {
-  const filePath = `${CACHE_DIR}/webmentions.json`
-  const fileContent = JSON.stringify(data, null, 2)
+	const filePath = `${CACHE_DIR}/webmentions.json`
+	const fileContent = JSON.stringify(data, null, 2)
 
-  // create cache folder if it doesnt exist already
-  if (!fs.existsSync(CACHE_DIR)) {
-    fs.mkdirSync(CACHE_DIR)
-  }
-  // write data to cache json file
-  fs.writeFile(filePath, fileContent, err => {
-    if (err) throw err
-    console.log(`webmentions cached to ${filePath}`)
-  })
+	// create cache folder if it doesnt exist already
+	if (!fs.existsSync(CACHE_DIR)) {
+		fs.mkdirSync(CACHE_DIR)
+	}
+	// write data to cache json file
+	fs.writeFile(filePath, fileContent, err => {
+		if (err) throw err
+		console.log(`webmentions cached to ${filePath}`)
+	})
 }
 
 // get cache contents from json file
 function readFromCache() {
-  const filePath = `${CACHE_DIR}/webmentions.json`
+	const filePath = `${CACHE_DIR}/webmentions.json`
 
-  if (fs.existsSync(filePath)) {
-    const cacheFile = fs.readFileSync(filePath)
-    return JSON.parse(cacheFile)
-  }
-  return {
-    lastFetched: null,
-    children: []
-  }
+	if (fs.existsSync(filePath)) {
+		const cacheFile = fs.readFileSync(filePath)
+		return JSON.parse(cacheFile)
+	}
+	return {
+		lastFetched: null,
+		children: []
+	}
 }
 
 module.exports = async function() {
-  const cache = readFromCache()
-  const { lastFetched } = cache
+	const cache = readFromCache()
+	const { lastFetched } = cache
 
-  // Only fetch new mentions in production
-  if (process.env.ELEVENTY_ENV === 'production' || !lastFetched) {
-    const feed = await fetchWebmentions(lastFetched)
+	// Only fetch new mentions in production
+	if (process.env.ELEVENTY_ENV === 'production' || !lastFetched) {
+		const feed = await fetchWebmentions(lastFetched)
 
-    if (feed) {
-      const webmentions = {
-        lastFetched: new Date().toISOString(),
-        children: mergeWebmentions(cache, feed)
-      }
+		if (feed) {
+			const webmentions = {
+				lastFetched: new Date().toISOString(),
+				children: mergeWebmentions(cache, feed)
+			}
 
-      writeToCache(webmentions)
-      return webmentions
-    }
-  }
+			writeToCache(webmentions)
+			return webmentions
+		}
+	}
 
-  console.log(`${cache.children.length} webmentions loaded from cache`)
-  return cache
+	console.log(`${cache.children.length} webmentions loaded from cache`)
+	return cache
 }

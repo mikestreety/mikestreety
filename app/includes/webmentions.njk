@@ -1,0 +1,44 @@
+{%- set mentions = webmentions.children | webmentionsForUrl('https://www.mikestreety.co.uk' + page.url) -%}
+<aside>
+{% if (mentions.likes | length) or (mentions.comments | length) %}
+	<small class="wm-note">Powered by webmentions</small>
+{% endif %}
+{% if mentions.likes | length %}
+	<h3>Likes & Reposts</h3>
+	<div class="wm-facepile">
+		{% for webmention in mentions.likes | reverse %}
+			<a href="{% if webmention.url %}{{ webmention.url }}{% endif %}" class="wm-{{ webmention['wm-property'] }}">
+				<img src="{% if webmention.author.photo %}{{ webmention.author.photo }}{% else %}{{ '/assets/img/avatar.svg' | url }}{% endif %}" title="{{ webmention.author.name }}" alt="{{ webmention.author.name }}" class="wm-face" />
+			</a>
+		{% endfor %}
+	</div>
+{% endif %}
+{% if mentions.comments | length %}
+	<h3>Comments</h3>
+	<div class="wm-comments">
+		{% for webmention in mentions.comments | reverse %}
+		<div class="webmention" id="wm-{{ webmention['wm-id'] }}">
+			<div class="wm-meta">
+				{% if webmention.author %}
+					<a class="wm-authorImage" href="{{ webmention.url }}"rel="noopener noreferrer">
+						<img class="wm-face" src="{% if webmention.author.photo %}{{ webmention.author.photo }}{% else %}{{ '/assets/img/avatar.svg' | url }}{% endif %}" alt="{{ webmention.author.name }}">
+					</a>
+				{% endif %}
+				<div class="wm-author">
+					{% if webmention.author %}
+					<h4 class="p-name"><a href="{{ webmention.url }}"rel="noopener noreferrer">{{ webmention.author.name }}</a></h4>
+					{% endif %}
+					{% if webmention.published %}
+						<time class="wm-pubdate dt-published" datetime="{{ webmention.published }}">{{ webmention.published | dateLong }}</time>
+					{% endif %}
+				</div>
+			</div>
+			<div class="wm-content p-content">
+				{{ webmention.content.value | safe }}
+			</div>
+		</div>
+		{% endfor %}
+
+	</div>
+{% endif %}
+</aside>

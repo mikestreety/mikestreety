@@ -1,58 +1,80 @@
-/* Webmention Section */
-
-.webmentions {
-	display:block;
-	text-align: left;
+.wm-note {
+	display: block;
+	margin-bottom: 1rem;
 }
-.webmentions__facepile {
+.wm-facepile {
 	display:flex;
 	align-items: center;
 	flex-wrap: wrap;
-	padding-left: 1rem;
+	margin-bottom: vaR(--gutter);
+	a {
+		box-shadow: none;
+		position: relative;
+		transition: transform 0.3s ease;
+		&:hover {
+			transform: translateY(-0.2rem);
+		}
+
+		&.wm-like-of,
+		&.wm-repost-of {
+			&::before {
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				background: var(--neutralLightest);
+				width: 1.2rem;
+				height: 1.2rem;
+				border-radius: 50%;
+				background: url('/assets/img/star.svg') no-repeat var(--neutralLightest) center;
+				background-size: 0.75rem 0.75rem;
+			}
+		}
+		&.wm-repost-of {
+			&::before {
+				background-image: url('/assets/img/repost.svg');
+			}
+		}
+	}
+
 }
-.webmentions__face {
+.wm-face {
 	width: 3rem;
 	height: 3rem;
-	border-radius: 50%;
+	border-radius: 0.75rem;
 	object-fit: cover;
 	flex: none;
-	margin-left: -1rem;
-}
-.webmentions__list {
-	list-style-type: none;
-	padding:0;
-}
-.webmentions__item {
-	margin-bottom: 2rem;
 }
 
-/* Single Webmention */
-
-.webmention {
-	display:block;
-	padding: var(--gutter);
-	background: var(--neutralLight);
-}
-.webmention__meta,
-.webmention__author {
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	box-shadow: none;
-}
-.webmention__meta {
-	margin-bottom:.5rem;
-}
-.webmention__author {
-	margin-right:.25rem;
-}
-.webmention__author__photo {
-	height: 3rem;
-	width: 3rem;
-	border-radius: 50%;
-	object-fit: cover;
-	margin-right:.5rem;
-}
-.webmention__pubdate {
-	font-style: italic;
+.wm-comments {
+	margin-bottom: var(--gutter);
+	.webmention {
+		background: var(--neutralLight);
+		padding: 1.25rem;
+		margin-bottom: 1rem;
+		border-radius: 1rem;
+	}
+	.wm-meta {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		margin-bottom: 1rem;
+		.wm-author {
+			margin-left: 1rem;
+			h4 {
+				margin-bottom: 0.3rem;
+			}
+		}
+		.wm-authorImage {
+			box-shadow: none;
+			display: block;
+			img {
+				display: block;
+			}
+		}
+		.wm-pubdate {
+			font-size: 0.85rem;
+		}
+	}
 }
