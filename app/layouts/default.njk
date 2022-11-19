@@ -90,7 +90,7 @@
 	<link rel="canonical" href="{{ meta.site.url }}{{ page.url }}" />
 	{% endif %}
 
-	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/css/style.css?{{ now | dateISOShort }}">
 
 	<script>
 	if ('serviceWorker' in navigator) {
