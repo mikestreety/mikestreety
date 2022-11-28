@@ -131,12 +131,13 @@ This is a bit of a bonus and assumes you have your own custom runners. If you ha
 
 <div class="info"><strong>Note:</strong> This assumes you already have an existing <a href="https://docs.gitlab.com/runner/">custom runner</a> set up</div>
 
-
 Start off, as you have with each of the steps, by creating a bucket (I called my `gitlab-ci`).
 
 Next, `ssh` into your Gitlab runner server and edit the config file - `/etc/gitlab-runner/config.toml`.
 
-The next step is a bit laborious as you need to add the following block _to each configured runner_
+The next step is a bit laborious as you need to add the following block _to each configured runner_. 
+
+<strong class="info">Note:</strong> The IP/URL to the MinIO instance should <strong>not</strong> have `http` or `https` before it.
 
 ```toml
 [runners.cache]
