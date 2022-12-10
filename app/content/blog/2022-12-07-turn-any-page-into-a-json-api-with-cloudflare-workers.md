@@ -4,7 +4,7 @@ date: 2022-12-07
 intro: Using the HTMLRewriter and Cloudflare workers, you can turn any webpage into a JSON endpoint
 permalink: "blog/turn-any-page-into-a-json-api-with-cloudflare-workers/"
 tags:
- - cloudflare
+ - Cloudflare
 ---
 
 Cloudflare workers are Cloudflare's answer to edge/serverless functions. Code that lives "on the edge". You can read more about them here:
