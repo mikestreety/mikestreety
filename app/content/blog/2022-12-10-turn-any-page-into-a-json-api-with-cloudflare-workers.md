@@ -1,6 +1,6 @@
 ---
 title: Turn any page into a JSON API with Cloudflare Workers
-date: 2022-12-07
+date: 2022-12-10
 intro: Using the HTMLRewriter and Cloudflare workers, you can turn any webpage into a JSON endpoint
 permalink: "blog/turn-any-page-into-a-json-api-with-cloudflare-workers/"
 tags:
