@@ -37,7 +37,7 @@ var chartOptions = {
 	},
 	xaxis: {
 		tickAmount: 3,
-		categories: [2017, 2018, 2019, 2020, 2021]
+		categories: [2017, 2018, 2019, 2020, 2021, 2022]
 	},
 	yaxis: {
 		tickAmount: 4,
@@ -56,7 +56,7 @@ new ApexCharts(document.querySelector("#postsPersonal"), {
 	...chartOptions,
 	series: [{
 		name: 'Posts',
-		data: [4, 7, 7, 18, 10, 16, 9, 9, 19, 6, 12, 21, 32]
+		data: [4, 7, 7, 18, 10, 16, 9, 9, 19, 6, 12, 21, 32, 19]
 	}],
 	xaxis: {
 		categories: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
@@ -68,7 +68,7 @@ new ApexCharts(document.querySelector("#postsLiquidLight"), {
 	...chartOptions,
 	series: [{
 		name: 'Posts',
-		data: [3, 3, 8, 6, 3, 4, 2, 3]
+		data: [3, 3, 8, 6, 3, 4, 2, 3, 1]
 	}],
 	xaxis: {
 		categories: [2014, 2015, 2016, ...chartOptions.xaxis.categories]
@@ -83,7 +83,7 @@ new ApexCharts(document.querySelector("#instagramPersonal"), {
 	...chartOptions,
 	series: [{
 		name: 'Photos',
-		data: [39, 24, 29, 6, 17]
+		data: [39, 24, 29, 6, 17, 11]
 	}],
 	colors: ['#35eb93']
 }).render();
@@ -92,7 +92,7 @@ new ApexCharts(document.querySelector("#instagramAleHouseRock"), {
 	...chartOptions,
 	series: [{
 		name: 'Reviews',
-		data: [28, 62, 102, 76, 136, 196],
+		data: [28, 62, 102, 76, 136, 196, 155], // (755)
 	}],
 	xaxis: {
 		categories: [2016, ...chartOptions.xaxis.categories]
@@ -107,7 +107,7 @@ new ApexCharts(document.querySelector("#cyclingDistance"), {
 	...chartOptions,
 	series: [{
 		name: 'Distance (miles)',
-		data: ['623.3', '341.6', '2611.0', '2464.2', '2585.8', '2249.7', '3273.5', '2689.4', '1927.3', '1004']
+		data: ['623.3', '341.6', '2611.0', '2464.2', '2585.8', '2249.7', '3273.5', '2689.4', '1927.3', '1004', '1604.5']
 	}],
 	xaxis: {
 		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
@@ -119,7 +119,8 @@ new ApexCharts(document.querySelector("#cyclingTime"), {
 	...chartOptions,
 	series: [{
 		name: 'Time spent cycling',
-		data: [2516, 1354, 11388, 11223, 11431, 10816, 14124, 10725, 7976, 4375]
+		// Minutes
+		data: [2516, 1354, 11388, 11223, 11431, 10816, 14124, 10725, 7976, 4375, 7274]
 	}],
 	xaxis: {
 		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
@@ -145,7 +146,7 @@ new ApexCharts(document.querySelector("#cyclingElevation"), {
 	...chartOptions,
 	series: [{
 		name: 'Elevation (ft)',
-		data: [26932, 15515, 146033, 148222, 154823 , 134459, 112178, 46368, 69400, 19925]
+		data: [26932, 15515, 146033, 148222, 154823, 134459, 112178, 46368, 69400, 19925, 22753]
 	}],
 	xaxis: {
 		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
@@ -157,7 +158,7 @@ new ApexCharts(document.querySelector("#cyclingRides"), {
 	...chartOptions,
 	series: [{
 		name: 'Number of rides',
-		data: [35, 14, 351, 433, 453, 443, 291, 288, 149, 111]
+		data: [35, 14, 351, 433, 453, 443, 291, 288, 149, 111, 200]
 	}],
 	xaxis: {
 		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
@@ -186,7 +187,7 @@ new ApexCharts(document.querySelector("#walkingSteps"), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Steps',
-		data: ['2659838', '2126312', '2562958']
+		data: ['2659838', '2126312', '2562958', '2433968']
 	}],
 }).render();
 
@@ -194,7 +195,7 @@ new ApexCharts(document.querySelector("#walkingFloors"), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Floors climbed',
-		data: ['4583', '2690', '3393']
+		data: ['4583', '2690', '3393', '3643']
 	}],
 }).render();
 
@@ -202,7 +203,7 @@ new ApexCharts(document.querySelector("#walkingCalories"), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Calories',
-		data: ['1033167', '1020728', '1052978']
+		data: ['1033167', '1020728', '1052978', '1141732']
 	}],
 }).render();
 
@@ -213,7 +214,7 @@ new ApexCharts(document.querySelector("#geocaches"), {
 	...chartOptions,
 	series: [{
 		name: 'Geocaches Found',
-		data: [1, 0 , 5, 210, 375, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18]
+		data: [1, 0, 5, 210, 375, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 174]
 	}],
 	colors: ['#02874d'],
 	xaxis: {
