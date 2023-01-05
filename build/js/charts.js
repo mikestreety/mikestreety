@@ -221,3 +221,20 @@ new ApexCharts(document.querySelector("#geocaches"), {
 		categories: [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
 	}
 }).render();
+
+/**
+ * Last FM scrobbles
+ *
+ * https://www.last.fm/user/mikestreety/library
+ */
+new ApexCharts(document.querySelector("#lastFmScrobbles"), {
+	...chartOptions,
+	series: [{
+		name: 'Listens',
+		data: [1956, 8153, 4426, 12915, 14102, 10300, 21055],
+	}],
+	xaxis: {
+		categories: [2016, ...chartOptions.xaxis.categories]
+	},
+	colors: ['#bb0001']
+}).render();
