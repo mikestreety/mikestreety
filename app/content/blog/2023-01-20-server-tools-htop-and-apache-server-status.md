@@ -1,8 +1,7 @@
 ---
 title: Server tools - htop and apache server status
-date: 2021-06-15
+date: 2023-01-20
 intro: As a starting point with the server tool debugging, this blog post explores htop and setting up a server status page with Apache
-draft: true
 permalink: "blog/server-tools-htop-and-apache-server-status/"
 tags:
  - DevOps
@@ -13,8 +12,6 @@ tags:
 When starting to debug server performance, a good place to start is the tools built into the server. Before you start installing extra utilities, it is worth checking to see if anything obvious sticks out.
 
 Below we walk through using a `htop` command line tool along with setting up a server status page.
-
-<span class="info">Note:</span> This post is part of a mini-series exploring debugging and monitoring server performance. All the posts can be found under the [Server Tools - Introduction](/blog/server-tools-introduction/) post.
 
 
 ## (h)top
