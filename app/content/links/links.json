@@ -1,0 +1,6 @@
+{
+	"layout": "single-link.njk",
+
+	"parent": "link",
+	"parentTitle": "Links"
+}
