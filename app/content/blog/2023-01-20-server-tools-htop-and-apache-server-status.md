@@ -68,6 +68,4 @@ Look for the line starting `Require ip` that is commented out by default
 
 Restart apache and this will then give you a quick snapshot of the server by navigating to `/server-status`. You can add `?refresh=n` to the end of the URL, where `n` is a number of seconds the page will automatically refresh.
 
-E.g. (where 1.1.1.1 is your server IP)
-
-http://1.1.1.1/server-status?refresh=2
+E.g. (where 1.1.1.1 is your server IP) `http://1.1.1.1/server-status?refresh=2`
