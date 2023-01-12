@@ -5,17 +5,21 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: app/content/links
-  label: Links
+  path: app/content/notes
+  label: Notes
   create: documents
   match: "**/*"
+  exclude: "*.json"
   new_doc_ext: md
 - type: directory
   path: app/content/blog
   label: Blog
   create: documents
   match: "**/*"
+  exclude: "*.json"
   new_doc_ext: md
+  templates:
+  - blog
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
