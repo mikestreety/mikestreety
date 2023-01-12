@@ -11,9 +11,15 @@ fields:
 - type: datetime
   name: updated
   label: updated
-- type: text
+- type: textarea
   name: intro
   label: intro
+- type: text
+  name: canonical
+  label: canonical
+- type: text
+  name: publication
+  label: publication
 - type: text
   name: permalink
   label: permalink
