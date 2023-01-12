@@ -1,0 +1,6 @@
+{
+	"layout": "single-note.njk",
+
+	"parent": "note",
+	"parentTitle": "Notes"
+}
