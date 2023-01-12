@@ -8,9 +8,9 @@
     "watch:11ty": "npx @11ty/eleventy --serve",
     "prod:assets": "mix --production",
     "watch:assets": "mix watch",
-    "watch": "npm run watch:assets & npm run watch:11ty",
+    "watch": "tinacms dev -c \"npm run watch:assets & npm run watch:11ty\"",
     "dev": "npm run watch",
-    "prod": "npm run prod:assets && npm run prod:11ty",
+    "prod": "tinacms build && npm run prod:assets && npm run prod:11ty",
     "build": "npm run prod"
   },
   "keywords": [],
