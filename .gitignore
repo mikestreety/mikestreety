@@ -5,3 +5,7 @@ html/
 .netlify
 
 _cache
+
+node_modules
+
+.tina/__generated__
