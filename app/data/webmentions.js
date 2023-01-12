@@ -1,5 +1,5 @@
+const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const fs = require('fs')
-const fetch = require('node-fetch')
 const unionBy = require('lodash/unionBy')
 
 // Load .env variables with dotenv
