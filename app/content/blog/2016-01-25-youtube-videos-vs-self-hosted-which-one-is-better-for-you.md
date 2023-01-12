@@ -1,16 +1,18 @@
 ---
-title: YouTube videos vs self-hosted&#58; Which one is better for you?
+title: 'YouTube videos vs self-hosted: Which one is better for you?'
 date: 2016-01-25
 updated: 2019-03-27
-intro: We are often asked whether videos for your website should be uploaded and hosted on your own website and server or if they should be uploaded to a social website ...
+intro: We are often asked whether videos for your website should be uploaded and hosted
+  on your own website and server or if they should be uploaded to a social website
+  ...
 canonical: https://www.liquidlight.co.uk/blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/
 publication: Liquid Light
-permalink: "blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/"
+permalink: blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/
 tags:
- - General
- - Thoughts
----
+- General
+- Thoughts
 
+---
 <figure><img loading="lazy" class="image-embed-item" src="/assets/img/content/youtube-videos-vs-self-hosted-which-one-is-better-for-you/image.webp" width="450" height="388" alt="Screenshot of the TYPO3 redirect module"></figure>
 
 We are often asked whether videos for your website should be uploaded and hosted on your own website and server or if they should be uploaded to a social website such as YouTube, Vimeo or Facebook and then embedded. As with anything on the web, there isn’t a straightforward answer - however we’ve tried to help by outlining the the advantages of each below.
