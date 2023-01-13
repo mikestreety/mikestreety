@@ -2,8 +2,6 @@
 title: 'Notes #7'
 date: 2020-09-16
 updated: 2020-09-15
-tags:
-  - Notes
 ---
 
 So this isn't really "#7", it's more [#6](/blog/notes-6/) part 2 as I am writing them both at the same time. However, this note tries to fill the July - Mid-September void.

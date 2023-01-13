@@ -2,8 +2,6 @@
 title: 'Notes #5'
 date: 2020-06-06
 updated: 2020-06-06
-tags:
-  - Notes
 ---
 
 ### Black lives matter

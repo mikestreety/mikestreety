@@ -2,8 +2,6 @@
 title: 'Notes: #0'
 date: 2019-11-13
 updated: 2021-03-28
-tags:
- - Notes
 ---
 
 ## Performance in Analytics

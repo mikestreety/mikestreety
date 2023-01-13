@@ -1,8 +1,6 @@
 ---
 title: 'Notes: #15'
 date: 2022-02-09
-tags:
-  - Notes
 ---
 
 I can't believe that we're already a third of the way through the second month of the year and this is my first post of 2022; and it's not even a real post.

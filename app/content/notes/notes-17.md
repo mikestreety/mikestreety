@@ -1,8 +1,6 @@
 ---
 title: 'Notes: #17'
 date: 2022-10-17
-tags:
-  - Notes
 ---
 
 Has it really been 5 months since I last wrote a Notes?! I've had my head down on creating and re-creating side projects that I've not really given a moments thought about writing a blog post.

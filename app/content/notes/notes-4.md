@@ -2,8 +2,6 @@
 title: 'Notes #4'
 date: 2020-05-18
 updated: 2020-06-06
-tags:
-  - Notes
 ---
 
 ### Behind the Source going well

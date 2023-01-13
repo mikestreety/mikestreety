@@ -1,8 +1,6 @@
 ---
 title: 'Notes: #11'
 date: 2021-03-23
-tags:
-  - Notes
 ---
 
 Trying to get a bit better at these now!

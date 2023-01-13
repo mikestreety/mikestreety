@@ -23,5 +23,14 @@ module.exports = {
 			.sort(function(a, b) {
 				return a.date - b.date;
 			});
-	}
+	},
+
+	notes: (collection) => {
+		return collection
+			.getFilteredByGlob('./app/content/notes/*.md')
+			.filter((p) => (p.date <= now && !p.data.draft))
+			.sort(function (a, b) {
+				return b.date - a.date;
+			});
+	},
 }

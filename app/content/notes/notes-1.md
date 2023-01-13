@@ -2,8 +2,6 @@
 title: 'Notes #1'
 date: 2020-04-10
 updated: 2020-04-10
-tags:
-  - Notes
 ---
 
 So yes, I'm getting on the Weeknote train. They won't always be weekly, but a series of small notes, achievements and somewhere for me to dump my mind.

@@ -1,0 +1,32 @@
+<li>
+	<article class="article">
+		<h3>
+			<a href="{{ entry.url }}">{{ entry.data.title if entry.data.title else entry.url }}</a>
+		</h3>
+		<p class="date">
+			{% if entry.date %}
+				<time class="dt-published is-hidden">{{ entry.date | dateISO }}</time>
+				{% if entry.date > now %}
+					Scheduled for <strong>{{ entry.date | dateLong }}</strong>.
+				{% else %}
+					Posted on <strong>{{ entry.date | dateLong }}</strong>.
+				{% endif %}
+			{% endif %}
+		</p>
+
+		<p class="abstract">
+			{{ entry.content }}
+
+			{% if entry.data.link %}
+			<A href="{{ entry.data.link }}">{{ entry.data.link }}</a>
+			{% endif %}
+		</p>
+
+		<div class="meta categories">
+			{% for tag in entry.data.tags %}
+				{% include 'tag.njk' %}
+			{% endfor %}
+		</div>
+
+	</article>
+</li>

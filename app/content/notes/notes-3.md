@@ -2,8 +2,6 @@
 title: 'Notes #3'
 date: 2020-05-01
 updated: 2020-05-01
-tags:
-  - Notes
 ---
 
 ### Lockdown continues

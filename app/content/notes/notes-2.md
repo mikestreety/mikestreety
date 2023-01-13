@@ -2,8 +2,6 @@
 title: 'Notes #2'
 date: 2020-04-19
 updated: 2020-04-21
-tags:
-  - Notes
 ---
 
 ### New Site

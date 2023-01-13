@@ -1,4 +1,4 @@
-const {blog, drafts, scheduled} = require('./app/filters/posts');
+const {blog, drafts, scheduled, notes} = require('./app/filters/posts');
 const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
 
 module.exports = function (config) {
@@ -8,6 +8,7 @@ module.exports = function (config) {
 	config.addCollection('drafts', drafts);
 	config.addCollection('scheduled', scheduled);
 	config.addCollection('all', blog);
+	config.addCollection('notes', notes);
 
 	config.addFilter('findPost', function(slug) {
 		return this.ctx.collections.blog.filter(a => a.url == slug)[0];

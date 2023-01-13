@@ -2,8 +2,6 @@
 title: 'Notes: #9'
 date: 2021-02-23
 updated: 2021-02-23
-tags:
-  - Notes
 ---
 
 Long time no notes 🙄

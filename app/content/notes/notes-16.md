@@ -1,8 +1,6 @@
 ---
 title: 'Notes: #16'
 date: 2022-05-07
-tags:
-  - Notes
 ---
 
 Every one of my notes seems to start with a "can't believe time has flown", so I'm going to skip that bit

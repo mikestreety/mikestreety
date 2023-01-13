@@ -1,8 +1,6 @@
 ---
 title: 'Notes: #13'
 date: 2021-08-22
-tags:
-  - Notes
 ---
 
 It's been over 4 months since my last Notes but it seems like only yesterday. I'll put that down to me having another child not long after my previous Notes post. Having another child really knocks all your motivation and time for side projects and blog posts. Fortunately, my [posting schedule](/blog/my-2021-writing-schedule/) has kept this blog alive (although we have nearly caught up with the [scheduled posts](/scheduled/)).

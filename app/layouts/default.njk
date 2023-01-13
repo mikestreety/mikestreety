@@ -46,6 +46,9 @@
 	{% endif %}
 	<meta property="og:description" property="twitter:description" content="{{ intro if intro else description }}">
 
+	<link rel="alternate" type="application/rss+xml" title="Mike Street's Blog Posts" ref="/rss.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Mike Street's Notes" ref="/rss-notes.xml" />
+
 	{% if sitemapIgnore or draft %}
 	<meta name="robots" content="noindex, nofollow" />
 	{% endif %}

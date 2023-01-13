@@ -1,8 +1,6 @@
 ---
 title: 'Notes: #12'
 date: 2021-04-11
-tags:
-  - Notes
 ---
 
 ## Postings
@@ -38,5 +36,3 @@ Another takeaway was from the episode I listened too today ([Episode 15](https:/
 This reminded me of my post about [delegation](/blog/making-sure-youre-not-doing-everything-at-work/) in which I said
 
 > you should train your team to be as good as you, and then push them to be better
-
-

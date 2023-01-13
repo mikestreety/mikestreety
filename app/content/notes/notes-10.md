@@ -1,8 +1,6 @@
 ---
 title: 'Notes: #10'
 date: 2021-03-11
-tags:
-  - Notes
 ---
 
 I've have finally pushed a new update to my website. Moving away from Craft CMS, this site is now powered by [11ty](https://www.11ty.dev/).
