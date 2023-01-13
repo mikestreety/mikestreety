@@ -1,5 +1,25 @@
 import { defineConfig } from "tinacms";
 
+const slugIt = function (str) {
+	if (str) {
+		str = str.replace(/^\s+|\s+$/g, ''); // trim
+		str = str.toLowerCase();
+
+		// remove accents, swap ñ for n, etc
+		var from = "àáäâèéëêìíïîòóöôùúüûñç·/_,:;";
+		var to = "aaaaeeeeiiiioooouuuunc------";
+		for (var i = 0, l = from.length; i < l; i++) {
+			str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+		}
+
+		str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+			.replace(/\s+/g, '-') // collapse whitespace and replace by -
+			.replace(/-+/g, '-'); // collapse dashes
+	}
+
+	return str;
+};
+
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
@@ -26,11 +46,15 @@ export default defineConfig({
 				format: "md",
 				ui: {
 					filename: {
-						readonly: true,
 						slugify: (values) => {
-							return `${values?.title?.toLowerCase().replace(/ /g, "-")}`;
+							return slugIt(values?.title);
 						},
-					},
+					}
+				},
+				defaultItem: () => {
+					return {
+						date: new Date().toISOString(),
+					}
 				},
 				fields: [
 					{
@@ -42,6 +66,15 @@ export default defineConfig({
 						type: "string",
 						name: "link",
 						label: "link",
+					},
+					{
+						type: "datetime",
+						name: "date",
+						label: "date",
+						ui: {
+							dateFormat: 'YYYY-MM-DD',
+							timeFormat: 'HH:MM:SS'
+						}
 					},
 					{
 						type: "rich-text",
