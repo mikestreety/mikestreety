@@ -3,4 +3,4 @@ title: This site now uses Tina CMS
 link: 'https://tina.io/'
 ---
 
-It was pretty straight-forward to set up, it's just a  I'm going to have to move my site away from Gitlab
+Came accross Tina yesterday. Despite the fact I needed to move my site to Github (they don't support Gitlab), it has slotted into 11ty really well. Very impressed so far and perfect for editing blogs or making quick notes.
