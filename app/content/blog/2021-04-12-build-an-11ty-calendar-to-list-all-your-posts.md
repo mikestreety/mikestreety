@@ -15,7 +15,7 @@ I have previously thought about doing this, but the performance implications of 
 
 ## Finished Result
 
-If you would like to see what this looks like, you can head to [the diary](/diary). If you're interested in the code, you can [find it on Gitlab](https://gitlab.com/mikestreety/mikestreety/-/blob/f56e426e3565513d6e27e76e4d54f02a3f3c8df7/app/content/diary.njk) with the [accompanying data file](https://gitlab.com/mikestreety/mikestreety/-/blob/f56e426e3565513d6e27e76e4d54f02a3f3c8df7/app/content/diary.11tydata.js).
+If you would like to see what this looks like, you can head to [the diary](/diary). If you're interested in the code, you can [find it on Gitlab](https://github.com/mikestreety/mikestreety/blob/f56e426e3565513d6e27e76e4d54f02a3f3c8df7/app/content/diary.njk) with the [accompanying data file](https://github.com/mikestreety/mikestreety/blob/f56e426e3565513d6e27e76e4d54f02a3f3c8df7/app/content/diary.11tydata.js).
 
 ## Grouping by year
 
