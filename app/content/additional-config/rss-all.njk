@@ -1,0 +1,41 @@
+---
+permalink: rss-all.xml
+sitemapIgnore: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ meta.site.title }}</title>
+		<link>{{ meta.site.url }}</link>
+		<description>{{ meta.site.description }}</description>
+		<language>en-us</language>
+		<pubDate>{{ page.date | dateUTC }}</pubDate>
+		<lastBuildDate>{{ page.date | dateUTC }}</lastBuildDate>
+		<atom:link href="{{ meta.site.url }}/{{ permalink }}" rel="alternate" type="application/xml" />
+		<image>
+			<url>{{ meta.site.url }}/assets/img/favicon-512.png</url>
+			<title>{{ meta.site.title }}</title>
+			<link>{{ meta.site.url }}</link>
+			<width>144</width>
+			<height>144</height>
+			<description>{{ meta.site.description }}</description>
+		</image>
+		{% for entry in collections.live | limit(15) %}
+		{% set comma = joiner() %}
+		<item>
+			<title>{{ entry.data.title }}</title>
+			<link>{{ meta.site.url }}{{ entry.url }}</link>
+			<pubDate>{{ entry.date | dateUTC }}</pubDate>
+			<guid>{{ meta.site.url }}{{ entry.url }}</guid>
+			<description><![CDATA[
+				{{ entry.templateContent | safe  }}
+
+				{% if entry.data.link %}
+				<a href="{{ entry.data.link }}">{{ entry.data.link }}</a>
+				{% endif %}
+			]]></description>
+		</item>
+		{% endfor %}
+
+	</channel>
+</rss>

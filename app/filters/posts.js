@@ -1,6 +1,14 @@
 const now = new Date();
 
 module.exports = {
+	live: (collection) => {
+		return collection
+			.getFilteredByGlob('./app/content/{blog,notes}/*.md')
+			.filter((p) => (p.date <= now && !p.data.draft))
+			.sort(function(a, b) {
+				return b.date - a.date;
+			});
+	},
 	blog: (collection) => {
 		return collection
 			.getFilteredByGlob('./app/content/blog/*.md')

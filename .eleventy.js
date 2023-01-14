@@ -1,4 +1,4 @@
-const {blog, drafts, scheduled, notes} = require('./app/filters/posts');
+const {live, blog, drafts, scheduled, notes} = require('./app/filters/posts');
 const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
 
 module.exports = function (config) {
@@ -7,7 +7,7 @@ module.exports = function (config) {
 	config.addCollection('blog', blog);
 	config.addCollection('drafts', drafts);
 	config.addCollection('scheduled', scheduled);
-	config.addCollection('all', blog);
+	config.addCollection('live', live);
 	config.addCollection('notes', notes);
 
 	config.addFilter('findPost', function(slug) {
