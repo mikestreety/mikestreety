@@ -1,6 +1,6 @@
 ---
 title: Server tools - htop and apache server status
-date: 2023-01-20
+date: 2023-02-05
 intro: As a starting point with the server tool debugging, this blog post explores htop and setting up a server status page with Apache
 permalink: "blog/server-tools-htop-and-apache-server-status/"
 tags:
