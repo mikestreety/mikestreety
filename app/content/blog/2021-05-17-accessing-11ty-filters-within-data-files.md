@@ -11,7 +11,7 @@ tags:
 
 I spent a good half-hour searching for a solution to my problem the other night, only to realise it was a Javascript solution, not an 11ty problem.
 
-My website contains [several filters](https://gitlab.com/mikestreety/mikestreety/-/tree/master/app/filters) which allow me to process data (e.g. `slugify`).
+My website contains [several filters](https://github.com/mikestreety/mikestreety/tree/main/app/filters) which allow me to process data (e.g. `slugify`).
 
 These allow me to process data in my 11ty templates, layouts and content.
 

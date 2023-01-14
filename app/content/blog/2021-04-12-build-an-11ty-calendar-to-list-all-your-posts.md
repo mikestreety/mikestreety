@@ -63,13 +63,13 @@ Originally I was developing with the JavaScript code in the Front Matter:
 
 However, after reviewing the size of the code, I opted to use a [directory specific data file](https://www.11ty.dev/docs/data-template-dir/) by creating a `diary.11tydata.js` alongside my `diary.njk`.
 
-This makes the variables declared in here available in the corresponding file (or folder). I've used directory data files for other parts of my site, including applying a draft status to all [draft posts](https://gitlab.com/mikestreety/mikestreety/-/blob/master/app/content/drafts/drafts.json).
+This makes the variables declared in here available in the corresponding file (or folder). I've used directory data files for other parts of my site, including applying a draft status to all [draft posts](https://github.com/mikestreety/mikestreety/tree/main/app/content/drafts/drafts.json).
 
 ## The collection code
 
 So this is what you are here for, the code.
 
-You can see the final file [on Gitlab](https://gitlab.com/mikestreety/mikestreety/-/blob/master/app/content/diary.11tydata.js), but thought I would walk through each bit here.
+You can see the final file [on Gitlab](https://github.com/mikestreety/mikestreety/tree/main/app/content/diary.11tydata.js), but thought I would walk through each bit here.
 
 First step is to declare some date related functions - getting nice month names along with calculating the date ordinal (e.g. 3**rd** or 19**th**)
 

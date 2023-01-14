@@ -66,7 +66,7 @@ In the examples below, I've kept all the variables the same so you can hopefully
 
 ## Committing a new file
 
-The API & Gitbreaker are fantastically done and the code to commit is minimal. Grab the **Repository ID** from Gitlab - this is found under the name at the top of the repository (e.g. the ID for [mikestreety](https://gitlab.com/mikestreety/mikestreety) is `22464377`).
+The API & Gitbreaker are fantastically done and the code to commit is minimal. Grab the **Repository ID** from Gitlab - this is found under the name at the top of the repository (e.g. the ID for [mikestreety](https://github.com/mikestreety/mikestreety) is `22464377`).
 
 <div class="warning">Make sure the user you generated the access token for above has write access to the repository. If user, permissions and policies allow it, maybe consider creating a new user with <em>only</em> access to the repositories you want to update - as there could be big security vulnerabilities if your access token gets leaked.</div>
 

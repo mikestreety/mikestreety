@@ -55,7 +55,7 @@ With the preamble out the way we are going to
 ## TL:DR;
 
 
-1. Create an `upcoming.json` or similar file to list your next post ([Example on Gitlab](https://gitlab.com/mikestreety/mikestreety/-/blob/master/app/content/upcoming.json.njk))
+1. Create an `upcoming.json` or similar file to list your next post ([Example on Gitlab](https://github.com/mikestreety/mikestreety/blob/main/app/content/upcoming.json.njk))
 1. Host your site with Netlify and get the build hook
 1. Set up a scheduled Cloudflare Worker ([Gitlab repo](https://gitlab.com/mikestreety-components/netlify-scheduled-build)) to check the file regularly
 
