@@ -4,6 +4,16 @@
 		Content-Type = "text/xml"
 
 [[headers]]
+	for = "/rss-notes.xml"
+	[headers.values]
+		Content-Type = "text/xml"
+
+[[headers]]
+	for = "/rss-all.xml"
+	[headers.values]
+		Content-Type = "text/xml"
+
+[[headers]]
 	for = "/sitemap.xml"
 	[headers.values]
 		Content-Type = "text/xml"
