@@ -1,11 +1,8 @@
 .menu {
 	font-size: 1.1rem;
 	font-weight: 800;
-	margin-top: var(--gutterLarge);
+	margin-bottom: var(--gutter);
 
-	@include mq($phone) {
-		margin-top: 0
-	}
 	ul,
 	li {
 		margin: 0;
@@ -20,6 +17,9 @@
 	}
 	li {
 		margin-right: var(--gutter);
+		&:last-child {
+			margin-right: 0
+		}
 	}
 
 	a {

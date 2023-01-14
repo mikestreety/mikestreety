@@ -3,9 +3,15 @@
 	font-weight: 600;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	display: flex;
 	align-items: center;
+	margin-bottom: var(--gutter);
+	margin-right: 1rem;
+
+	@include mq($phone) {
+		font-size: 1.4rem;
+	}
 	a {
 		display: block;
 		--color: var(--neutralLightest);
@@ -26,9 +32,15 @@
 
 	svg {
 		display: block;
-		width: 3rem;
-		height: 3rem;
-		margin-right: 0.75rem;
+		width: 1.7rem;
+		height: 1.7rem;
+		margin-right: 0.25rem;
+
+		@include mq($phone) {
+			margin-right: 0.75rem;
+			width: 3rem;
+			height: 3rem;
+		}
 
 		path {
 			transition: transform 0.35s ease;
@@ -51,7 +63,7 @@
 	position: relative;
 	z-index: 1;
 	padding-top: var(--gutter);
-	padding-bottom: var(--gutter);
+	padding-bottom: 0.1rem;
 	background: var(--base);
 	margin-bottom: var(--gutter);
 
