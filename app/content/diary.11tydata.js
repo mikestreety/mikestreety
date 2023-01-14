@@ -3,7 +3,7 @@ const {year, month, monthName, dayOrdinal} = require('@mikestreety/11ty-utils/fi
 module.exports = {
 	diary: function() {
 		// Select the collection we want to loop
-		let entries = this.ctx.collections.blog,
+		let entries = this.ctx.collections.live,
 			// Create our placeholder array
 			output = [];
 

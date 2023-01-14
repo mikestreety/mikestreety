@@ -9,9 +9,8 @@
 	<meta name="generator" content="{{ eleventy.generator }}">
 
 	<link rel="manifest" href="/site.webmanifest">
-	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon-180.png">
+	<link rel="apple-touch-icon" sizes="512x512" href="/assets/img/favicon-512.png">
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="shortcut icon" href="/assets/img/favicon.ico">
 	<meta name="msapplication-TileColor" content="{{ meta.themeColour }}">
@@ -108,8 +107,17 @@
 		<header class="header">
 			<div class="container">
 				<div class="title">
+					<a href="/" class="logo">
+						<svg xmlns="http://www.w3.org/2000/svg" width="493" height="493" viewbox="0 0 493 493">
+							<g fill="none" fill-rule="evenodd">
+								<path fill="#fff" d="M492.54 1h.374v325.637H327.51v-106.46L492.538 1Z"/>
+								<path fill="#fff" d="m167.604.914 78.8 107.634L326.675.914h165.93L492.54 1H327.51l-.002 219.176-.833 1.108-80.271 105.439L.605.913h166.999Z"/>
+								<path fill="#35eb93" d="M492.54 1 327.507 220.178 327.51 1h165.03ZM325.607 382.038h166.998v110.876H325.607zM.605 382.038h166.998v110.876H.605z"/>
+							</g>
+						</svg>
+					</a>
 					<a href="/">
-						{{ meta.site.title }}
+						<span>{{ meta.site.title }}</span>
 					</a>
 				</div>
 				<nav class="menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
@@ -133,7 +141,7 @@
 		<footer class="footer">
 			<div class="container">
 				{% include 'social.njk' %}
-				<p><a href="/scheduled/"><strong>View upcoming posts</strong></a>. <a href="/diary/">The diary</a>. <a class="h-card" rel="me" href="https://www.mikestreety.co.uk/">{{ meta.site.title }}</a>. <a href="/rss.xml">RSS Feed</a>. <a href="https://microanalytics.io/mikestreety.co.uk">View analytics</a></p>
+				<p><a href="/scheduled/"><strong>View upcoming posts</strong></a>. <a href="/diary/">The diary</a>. <a href="/rss.xml">Blog RSS</a>.  <a href="/rss-notes.xml">Notes RSS</a>.  <a href="/rss-all.xml">Full RSS Feed</a>. <a class="h-card" rel="me" href="https://www.mikestreety.co.uk/">{{ meta.site.title }}</a>. <a href="https://microanalytics.io/mikestreety.co.uk">View analytics</a></p>
 			</div>
 		</footer>
 	</div>

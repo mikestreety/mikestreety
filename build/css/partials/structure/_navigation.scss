@@ -1,6 +1,11 @@
 .menu {
 	font-size: 1.1rem;
 	font-weight: 800;
+	margin-top: var(--gutterLarge);
+
+	@include mq($phone) {
+		margin-top: 0
+	}
 	ul,
 	li {
 		margin: 0;
@@ -18,13 +23,14 @@
 	}
 
 	a {
-		--color: var(--neutralDark);
+		--color: var(--neutralLightest);
+
+		&:hover {
+			--boxshadowcolor: var(--neutralLightest);
+			--boxshadowheight: -1.3rem;
+		}
 	}
 	li a.active {
-		--color: var(--base);
+		--color: var(--tertiaryLight);
 	}
-}
-
-.header:hover a {
-	--color: var(--primary);
 }

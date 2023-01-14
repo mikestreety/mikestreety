@@ -1,0 +1,23 @@
+.home {
+	.header {
+		background: var(--neutralLightest);
+		margin-bottom: 0;
+
+		path[fill="#fff"] {
+			fill: var(--base);
+		}
+
+		.title a {
+			--color: var(--base);
+		}
+
+		.menu a {
+			--color: var(--base);
+
+			&:hover {
+				--boxshadowcolor: var(--tertiary);
+				--boxshadowheight: -1.3rem;
+			}
+		}
+	}
+}

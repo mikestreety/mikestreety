@@ -12,7 +12,7 @@ a {
 	}
 
 	&:hover {
-		box-shadow: inset 0 -0.9em 0 0 var(--tertiaryLight);
+		box-shadow: inset 0 var(--boxshadowheight, -0.9em) 0 0 var(--boxshadowcolor, var(--tertiaryLight));
 		color: var(--base);
 	}
 }
