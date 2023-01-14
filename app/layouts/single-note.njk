@@ -1,8 +1,8 @@
 ---
 layout: default.njk
 ---
-<div class="container blog-container">
-	<div class="article single-article">
+<div class="container blog-container h-entry">
+	<div class="article single-article h-entry">
 		<div class="breadcrumb meta">
 			<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
 				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
@@ -32,8 +32,8 @@ layout: default.njk
 			{% endif %}
 		</div>
 
-		<div class="single-content h-entry">
-			<div class="e-content">{{ content | safe }}</div>
+		<div class="single-content e-content">
+			{{ content | safe }}
 
 			{% if link %}
 			<a href="{{ link }}" class="u-in-reply-to">{{ link }}</a>
