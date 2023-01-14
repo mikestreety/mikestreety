@@ -12,7 +12,12 @@ module.exports = function (config) {
 
 	config.addFilter('findPost', function(slug) {
 		return this.ctx.collections.blog.filter(a => a.url == slug)[0];
-	})
+	});
+	config.addFilter('time', (date) => {
+		let dateParse = (date) => new Date(Date.parse(date));
+		let d = dateParse(date);
+		return `${(d.getHours() < 10 ? '0' : '') + d.getHours()}:${(d.getMinutes() < 10 ? '0' : '') + d.getMinutes()}`;
+	});
 
 	config.addPlugin(require('@mikestreety/11ty-utils'));
 	config.addPlugin(require('@11ty/eleventy-navigation'));

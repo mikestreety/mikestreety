@@ -28,7 +28,7 @@ layout: default.njk
 		<div class="meta post-meta">
 			{% if date %}
 			<time class="dt-published is-hidden">{{ date | dateISO }}</time>
-			Posted on <strong>{{ date | dateLong }}</strong>.
+			Posted on <strong>{{ date | dateLong }} {{ date | time }}</strong>.
 			{% endif %}
 		</div>
 
