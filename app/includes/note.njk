@@ -15,7 +15,7 @@
 		</p>
 
 		<p class="abstract">
-			{{ entry.content }}
+			{{ entry.templateContent | safe  }}
 
 			{% if entry.data.link %}
 			<A href="{{ entry.data.link }}">{{ entry.data.link }}</a>

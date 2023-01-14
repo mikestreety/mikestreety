@@ -5,7 +5,6 @@ sitemapIgnore: true
 
 /rss	/rss.xml
 /rss/	/rss.xml
-/notes	/category/notes/
 /search	https://www.google.com/search?q=site:mikestreety.co.uk
 
 # Blog pagination
@@ -26,6 +25,10 @@ sitemapIgnore: true
 /blog/p16	/blog/15/
 /blog/p17	/blog/16/
 /blog/p18	/blog/17/
+
+{%- for item in [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16] %}
+/blog/notes-{{ item }}/	/notes/notes-{{ item }}/
+{%- endfor %}
 
 # Blog posts
 /blog/reminder-git-analytics-tina-and-js	/blog/notes-0/
