@@ -1,7 +1,11 @@
 .menu {
-	font-size: 1.1rem;
+	font-size: 0.9rem;
 	font-weight: 800;
 	margin-bottom: var(--gutter);
+
+	@include mq($phone) {
+		font-size: 1.1rem;
+	}
 
 	ul,
 	li {
