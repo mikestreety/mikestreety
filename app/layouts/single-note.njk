@@ -25,6 +25,12 @@ layout: default.njk
 
 		<h1>{{ title }}</h1>
 
+		<div class="meta post-meta">
+			{% if date %}
+			<time class="dt-published is-hidden">{{ date | dateISO }}</time>
+			Posted on <strong>{{ date | dateLong }}</strong>.
+			{% endif %}
+		</div>
 
 		<div class="single-content e-content">
 			{{ content | safe }}
