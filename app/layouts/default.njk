@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
+	<meta charset="utf-8">
 	<title>{{ title }}{{ " - " if title }}{{ meta.site.title }} - {{ meta.site.description }}</title>
-	<link rel="home" href="{{ meta.site.url }}/" />
+	<link rel="home" href="{{ meta.site.url }}/">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
 	<meta name="generator" content="{{ eleventy.generator }}">
@@ -17,15 +17,15 @@
 	<meta name="msapplication-config" content="/browserconfig.xml">
 	<meta name="theme-color" content="{{ meta.themeColour }}">
 
-	<meta name="description" content="{{ intro if intro else description }}"/>
+	<meta name="description" content="{{ intro if intro else description }}">
 	<meta name="author" content="{{ meta.author.first_name }} {{ meta.author.last_name }}">
-	<meta property="profile:first_name" content="{{ meta.author.first_name }}" />
-	<meta property="profile:last_name" content="{{ meta.author.last_name }}" />
-	<meta property="profile:username" content="{{ meta.social.twitter }}" />
+	<meta property="profile:first_name" content="{{ meta.author.first_name }}">
+	<meta property="profile:last_name" content="{{ meta.author.last_name }}">
+	<meta property="profile:username" content="{{ meta.social.twitter }}">
 
 
-	<link rel="webmention" href="https://webmention.io/www.mikestreety.co.uk/webmention" />
-	<link rel="pingback" href="https://webmention.io/www.mikestreety.co.uk/xmlrpc" />
+	<link rel="webmention" href="https://webmention.io/www.mikestreety.co.uk/webmention">
+	<link rel="pingback" href="https://webmention.io/www.mikestreety.co.uk/xmlrpc">
 
 	<meta property="twitter:card" content="summary">
 	<meta property="twitter:site" content="@{{ meta.social.twitter }}">
@@ -45,21 +45,21 @@
 	{% endif %}
 	<meta property="og:description" property="twitter:description" content="{{ intro if intro else description }}">
 
-	<link rel="alternate" type="application/rss+xml" title="Mike Street's Blog Posts" ref="/rss.xml" />
-	<link rel="alternate" type="application/rss+xml" title="Mike Street's Notes" ref="/rss-notes.xml" />
-	<link rel="alternate" type="application/rss+xml" title="Mike Street's Blogs &amp; Notes" ref="/rss-all.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Mike Street's Blog Posts" href="/rss.xml">
+	<link rel="alternate" type="application/rss+xml" title="Mike Street's Notes" href="/rss-notes.xml">
+	<link rel="alternate" type="application/rss+xml" title="Mike Street's Blogs &amp; Notes" href="/rss-all.xml">
 
 	{% if sitemapIgnore or draft %}
-	<meta name="robots" content="noindex, nofollow" />
+	<meta name="robots" content="noindex, nofollow">
 	{% endif %}
 
 	{% set count = 1 %}
 
 	{% if tags %}
-	<meta property="article:published_time" content="{{ date | dateISO }}" />
+	<meta property="article:published_time" content="{{ date | dateISO }}">
 
 	{% for tag in tags -%}
-	<meta property="article:tag" content="{{ tag }}" />
+	<meta property="article:tag" content="{{ tag }}">
 	{%- endfor %}
 
 	{% set comma = joiner() %}
@@ -88,9 +88,9 @@
 	<meta name="monetization" content="$ilp.uphold.com/R6wFMN3kXQbL">
 
 	{% if canonical is defined  %}
-	<link rel="canonical" href="{{ canonical }}" />
+	<link rel="canonical" href="{{ canonical }}">
 	{% else %}
-	<link rel="canonical" href="{{ meta.site.url }}{{ page.url }}" />
+	<link rel="canonical" href="{{ meta.site.url }}{{ page.url }}">
 	{% endif %}
 
 	<link rel="stylesheet" href="/assets/css/style.css?{{ now | dateISOShort }}">
@@ -144,8 +144,9 @@
 				<p><a href="/scheduled/"><strong>View upcoming posts</strong></a>. <a href="/diary/">The diary</a>. <a href="/rss.xml">Blog RSS</a>.  <a href="/rss-notes.xml">Notes RSS</a>.  <a href="/rss-all.xml">Full RSS Feed</a>. <a class="h-card" rel="me" href="https://www.mikestreety.co.uk/">{{ meta.site.title }}</a>. <a href="https://microanalytics.io/mikestreety.co.uk">View analytics</a></p>
 			</div>
 		</footer>
+
+		<link itemprop="url" href="https://www.mikestreety.co.uk/">
 	</div>
-	<link itemprop="url" href="https://www.mikestreety.co.uk/"/>
 	<script type="application/ld+json">
 	{
 		"@context" : "http://schema.org",

@@ -1,5 +1,7 @@
 hr {
 	margin: var(--gutter) 0;
 	border: 0;
-	border-bottom: 0.25rem solid var(--neutralLight);
+	border-bottom: 0.25rem solid var(--base);
+	width: 75%;
+	opacity: 0.7;
 }
