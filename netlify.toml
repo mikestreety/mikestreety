@@ -2,26 +2,31 @@
 	for = "/rss.xml"
 	[headers.values]
 		Content-Type = "text/xml"
+		Content-Encoding = "utf8"
 
 [[headers]]
 	for = "/rss-notes.xml"
 	[headers.values]
 		Content-Type = "text/xml"
+		Content-Encoding = "utf8"
 
 [[headers]]
 	for = "/rss-notes-plain.xml"
 	[headers.values]
 		Content-Type = "text/xml"
+		Content-Encoding = "utf8"
 
 [[headers]]
 	for = "/rss-all.xml"
 	[headers.values]
 		Content-Type = "text/xml"
+		Content-Encoding = "utf8"
 
 [[headers]]
 	for = "/sitemap.xml"
 	[headers.values]
 		Content-Type = "text/xml"
+		Content-Encoding = "utf8"
 
 [[redirects]]
 	from = "/.well-known/host-meta*"
