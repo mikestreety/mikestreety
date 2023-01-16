@@ -1,0 +1,8 @@
+- 11ty
+- Laravel Mix
+- TinaCMS
+- Webmention tags
+- Bridgy
+- IFTTT
+  - Post webmentions
+  - Post to Mastodon
