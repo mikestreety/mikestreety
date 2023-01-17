@@ -1,4 +1,5 @@
 const {live, blog, drafts, scheduled, notes} = require('./app/filters/posts');
+const { convert } = require('html-to-text');
 const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
 
 module.exports = function (config) {
@@ -9,6 +10,15 @@ module.exports = function (config) {
 	config.addCollection('scheduled', scheduled);
 	config.addCollection('live', live);
 	config.addCollection('notes', notes);
+
+	config.addFilter('htmlToText', function(html) {
+		return convert(html, {
+			wordwrap: 130,
+			selectors: [
+				{ selector: 'a', options: { baseUrl: 'https://www.mikestreety.co.uk' } }
+			]
+		});
+	});
 
 	config.addFilter('findPost', function(slug) {
 		return this.ctx.collections.blog.filter(a => a.url == slug)[0];

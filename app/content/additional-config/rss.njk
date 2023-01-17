@@ -28,7 +28,7 @@ sitemapIgnore: true
 			<pubDate>{{ entry.date | dateUTC }}</pubDate>
 			<guid>{{ meta.site.url }}{{ entry.url }}</guid>
 			<description><![CDATA[
-				{{ entry.templateContent | safe }}
+				{{ entry.templateContent | htmlToText | safe }}
 				<p><strong>Read time:</strong> {{ entry.templateContent | emojiReadTime }}</p>
 				<p><strong>Tags:</strong>{% for tag in entry.data.tags -%}{{ comma() }} {{ tag }}{%- endfor %}</p>
 			]]></description>
