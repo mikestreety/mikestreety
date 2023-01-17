@@ -1,3 +1,0 @@
-- Spotify is endless
-- Used to have CDs and pick from there
-- struggle so end up listening to the same 3 artists
