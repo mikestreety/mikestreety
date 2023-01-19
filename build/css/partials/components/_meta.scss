@@ -2,18 +2,6 @@
 	line-height: 1;
 	font-size: 0.8rem;
 	a {
-		--color: var(--neutralDark);
-	}
-	.active {
-		--color: var(--primary);
-	}
-	span {
-		margin-top: 0.5rem;
-		display: inline-block;
-	}
-	span:not(:last-child) {
-		padding-right: 0.5rem;
-		margin-right: 0.5rem;
-		border-right: thin solid var(--neutralMid);
+		--color: var(--base);
 	}
 }

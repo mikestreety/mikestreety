@@ -45,8 +45,8 @@ eleventyNavigation:
 		<h2>Latest Posts</h2>
 	</div>
 	<div class="horizonal-listing container">
-		<div class="post-listing grid-listing">
-			<ul class="post-listing-full">
+		<div class="post-listing">
+			<ul>
 			{% set postslist = collections.blog | limit(6) %}
 			{%- for entry in postslist -%}
 				{% include 'entry.njk' %}

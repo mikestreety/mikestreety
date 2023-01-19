@@ -1,0 +1,24 @@
+.meta.categories {
+	margin-top: var(--gutter);
+	a {
+		box-shadow: none;
+		padding: 0.2rem 0.5rem;
+		line-height: 1;
+		border-radius: 0.2rem;
+		background: var(--neutralLight);
+		font-weight: bold;
+		border: 0.125rem solid var(--neutralMid);
+		transition: 0.2s ease;
+		transition-property: border, background;
+		&::before {
+			content: '#';
+			opacity: 0.5;
+			padding-right: 0.2rem;
+		}
+
+		&:hover {
+			background: var(--primaryLighter);
+			border-color: var(--primary);
+		}
+	}
+}

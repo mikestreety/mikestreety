@@ -1,20 +1,21 @@
 <li>
 	<article class="article">
-		<h3>
-			<a href="{{ entry.url }}">{{ entry.data.title if entry.data.title else entry.url }}</a>
-		</h3>
+		<a href="{{ entry.url }}" class="icon"></a>
 		<p class="date">
 			{% if entry.date %}
 				<time class="dt-published is-hidden">{{ entry.date | dateISO }}</time>
 				{% if entry.date > now %}
-					Scheduled for <strong>{{ entry.date | dateLong }}</strong>.
+					Scheduled for {{ entry.date | dateLong }}
 				{% else %}
-					Posted on <strong>{{ entry.date | dateLong }}</strong>.
+					{{ entry.date | dateLong }}
 				{% endif %}
 			{% endif %}
-			{% if entry.data.publication %}Written For <strong>{{ entry.data.publication }}</strong>{% endif %}
-			{% if entry.url.includes('/drafts/') or entry.data.draft %}<span class="info">Draft</span>{% endif %}
 		</p>
+		<h3>
+			<a href="{{ entry.url }}">{{ entry.data.title if entry.data.title else entry.url }}</a> {% if entry.url.includes('/drafts/') or entry.data.draft %}<span class="info">Draft</span>{% endif %}
+		</h3>
+
+		{% if entry.data.publication %}<p>Written For <strong>{{ entry.data.publication }}</strong></p>{% endif %}
 
 		<p class="abstract">
 			{{ entry.data.intro }}

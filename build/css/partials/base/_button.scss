@@ -1,21 +1,14 @@
 
 .button {
-	padding: 0.5rem 1.5rem 0.7rem 2rem;
-	border-radius: 2rem;
-	background: linear-gradient(to right, var(--secondary), var(--primary), var(--primaryLight));
-	line-height: 1.5;
-	color: var(--neutralLightest);
-	font-size: 1.2rem;
+	padding: 0.5rem 0.75rem;
+	border: 0.2rem solid var(--tertiary);
+	box-shadow: none;
 	font-weight: bold;
-	transition: 0.35s ease;
-	transition-property: box-shadow, color;
-	border-width: 0;
-	display: inline-block;
-
-	&.historical {
-		padding-right: 2rem;
-		padding-left: 1.5rem;
-	}
+	background: var(--tertiaryLight);
+	color: var(--base);
+	border-radius: 0.2rem;
+	transition: 0.2s ease;
+	transition-property: border, background;
 
 	&::after,
 	&.historical::before {
@@ -23,12 +16,12 @@
 		font-size: 1.7rem;
 		line-height: 0.5;
 		display: inline-block;
-		margin-left: 0.75rem;
+		margin-left: 0.3rem;
 		transform: translateY(0.1em);
 	}
 	&.historical::before {
 		margin-left: 0;
-		margin-right: 0.75rem;
+		margin-right: 0.3rem;
 		content: '‹';
 	}
 	&.historical::after {
@@ -36,7 +29,9 @@
 	}
 
 	&:hover {
-		box-shadow: inset 0 -2.5em 0 0 var(--tertiaryLight);
+		background: var(--primaryLighter);
+		border-color: var(--primary);
 		color: var(--base);
+		box-shadow: none;
 	}
 }
