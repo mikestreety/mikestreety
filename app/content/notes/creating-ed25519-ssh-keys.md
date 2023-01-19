@@ -1,5 +1,5 @@
 ---
-title: ' Creating ED25519 SSH keys'
+title: Creating ED25519 SSH keys
 link: 'https://www.mebmc.uk/posts/creating_ed25519_ssh_keys.html'
 date: '2023-01-18T11:29:34.065Z'
 ---
