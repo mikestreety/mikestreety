@@ -13,7 +13,11 @@ body {
 	font-family: $baseFont;
 	line-height: 1.5;
 	color: var(--base);
+	font-size: 0.9rem;
 
+	@include mq($phone) {
+		font-size: 1rem;
+	}
 	@include mq($desktop) {
 		font-size: 1.125rem;
 	}

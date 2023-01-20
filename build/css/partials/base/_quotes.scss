@@ -1,10 +1,13 @@
 blockquote {
-	--color: vaR(--neutralMid);
-	padding: 1rem var(--gutter);
-	border-bottom: 0.2rem solid var(--color);
+	--color: var(--neutralMid);
+	padding-left: 1.5rem;
+	// border-left: 0.25em solid var(--tertiary);
 	margin: 0 0 var(--gutter);
 	position: relative;
 	font-family: 'Mikestreety', $baseFont;
+	font-weight: normal;
+	font-size: 0.9em;
+	opacity: 0.8;
 
 	p {
 		margin-bottom: 0;
@@ -14,30 +17,12 @@ blockquote {
 	}
 
 	&::before {
-		content: '';
-		display: block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: var(--color);
-		opacity: 0.1;
-		z-index: -1;
+		content: '\201C';
+		font-size: 2.5rem;
+		color: var(--tertiary);
+		float: left;
+		line-height: 1.2;
+		margin-left: -1.5rem;
 	}
 
-	&::after {
-		content: '\201C';
-		left: 0;
-		top: 0;
-		font-size: 600%;
-		color: var(--neutralDark);
-		position: absolute;
-		opacity: 0.2;
-		z-index: -1;
-		line-height: 1;
-		background: none;
-		width: auto;
-		height: auto;
-	}
 }

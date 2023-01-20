@@ -3,13 +3,9 @@ a {
 	color: var(--color, var(--primary));
 	transition: ease 0.3s;
 	transition-property: color, box-shadow, opacity;
-	box-shadow: inset 0 -0.05em 0 0 var(--boxshadowcolor, currentColor);
 	display: inline;
+	box-shadow: inset 0 -0.1rem 0 0 var(--boxshadowcolor, currentColor);
 
-	@include mq($phone) {
-		box-shadow: inset 0 -0.1em 0 0 var(--boxshadowcolor, currentColor);
-
-	}
 
 	&:hover {
 		box-shadow: inset 0 var(--boxshadowheight, -0.9em) 0 0 var(--boxshadowcolor, var(--tertiaryLight));

@@ -11,9 +11,22 @@
 	h3 {
 		margin-top: 0;
 		--color: var(--base);
+
+		a {
+			--boxshadowcolor: rgba(0, 0, 0, 0.3);
+			@include mq($phone) {
+				--boxshadowcolor: currentColor;
+			}
+			&:hover {
+				--boxshadowcolor: var(--tertiaryLight);
+			}
+		}
 	}
 	p {
 		margin-bottom: 0.75rem;
+	}
+	a {
+		overflow-wrap: break-word;
 	}
 	.icon {
 		--color: var(--base);
