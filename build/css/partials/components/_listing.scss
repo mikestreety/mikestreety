@@ -67,6 +67,10 @@
 		&:hover::before {
 			border-color: var(--primary);
 		}
+
+		span {
+			display: none;
+		}
 	}
 
 	.diary {

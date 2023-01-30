@@ -1,5 +1,5 @@
 .footer {
-	color: var(--neutralDark);
+	color: var(--neutralLight);
 	margin-top: var(--gutterLarge);
 	background: var(--base);
 
@@ -15,6 +15,7 @@
 	a {
 		--color: var(--neutralLightest);
 		--boxshadowcolor: transparent;
+		padding: 0 0.2rem;
 
 		&:hover {
 			--boxshadowcolor: var(--neutralLightest);
