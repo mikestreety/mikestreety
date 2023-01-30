@@ -1,6 +1,6 @@
 <li>
 	<article class="article">
-		<a href="{{ entry.url }}" class="icon"><span>{{ entry.data.title if entry.data.title else entry.url }}</span></a>
+		<a href="{{ entry.url }}" class="icon" title="{{ entry.data.title if entry.data.title else entry.url }}"><span>{{ entry.data.title if entry.data.title else entry.url }}</span></a>
 		<p class="date">
 			{% if entry.date %}
 				<time class="dt-published is-hidden">{{ entry.date | dateISO }}</time>
