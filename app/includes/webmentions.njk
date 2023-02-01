@@ -1,7 +1,8 @@
 {%- set mentions = webmentions.children | webmentionsForUrl('https://www.mikestreety.co.uk' + page.url) -%}
+
 <aside>
-{% if (mentions.likes | length) or (mentions.comments | length) %}
-	<small class="wm-note">Powered by webmentions</small>
+{% if (mentions.likes | length) or (mentions.comments | length) or (mentions.links | length) %}
+	<small class="wm-note">Powered by <a href="https://webmention.io/">webmentions</a></small>
 {% endif %}
 {% if mentions.likes | length %}
 	<h3>Likes & Reposts</h3>
@@ -10,6 +11,18 @@
 			<a href="{% if webmention.url %}{{ webmention.url }}{% endif %}" class="wm-{{ webmention['wm-property'] }}">
 				<img src="{% if webmention.author.photo %}{{ webmention.author.photo }}{% else %}{{ '/assets/img/avatar.svg' | url }}{% endif %}" title="{{ webmention.author.name }}" alt="{{ webmention.author.name }}" class="wm-face" />
 			</a>
+		{% endfor %}
+	</div>
+{% endif %}
+{% if mentions.links | length %}
+	<h3>Links</h3>
+	<div class="wm-links">
+		{% for webmention in mentions.links | reverse %}
+		<div class="webmention" id="wm-{{ webmention['wm-id'] }}">
+			<div class="wm-content p-content">
+				🔗 {{ webmention.content.value | safe }}
+			</div>
+		</div>
 		{% endfor %}
 	</div>
 {% endif %}

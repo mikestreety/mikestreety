@@ -24,7 +24,7 @@ module.exports = (webmentions, url) => {
 				// really long html mentions, usually newsletters or compilations
 				entry.content.value =
 				html.length > 2000
-					? `mentioned this in <a href="${entry['wm-source']}">${entry['wm-source']}</a>`
+					? `<a href="${entry['wm-source']}">${entry['name']}</a>`
 					: sanitizeHTML(html, allowedHTML)
 			} else {
 				entry.content.value = sanitizeHTML(text, allowedHTML)
@@ -47,16 +47,24 @@ module.exports = (webmentions, url) => {
 	let wm = webmentions
 		.filter((entry) => entry['wm-target'] === url)
 		.filter((entry) => allowedTypes.includes(entry['wm-property']))
-		.filter(checkRequiredFields)
 		.sort(orderByDate)
 		.map(clean)
 
 	let likes = wm.filter((entry) => ['like-of', 'repost-of'].includes(entry['wm-property']));
-	let comments = wm.filter((entry) => !['like-of', 'repost-of'].includes(entry['wm-property']));
+	let commentsLinks = wm.filter((entry) => !['like-of', 'repost-of'].includes(entry['wm-property']));
+	let comments = commentsLinks.filter((entry) => {
+		const { author } = entry
+		return !!author && !!author.name
+	});
+	let links = commentsLinks.filter((entry) => {
+		const { author } = entry
+		return !author || !author.name
+	});
 
 	// run all of the above for each webmention that targets the current URL
 	return {
 		likes,
-		comments
+		comments,
+		links
 	}
 };
