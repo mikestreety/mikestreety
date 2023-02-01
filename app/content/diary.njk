@@ -18,7 +18,7 @@ layout: page.njk
 
 				<ol class="diaryEntries">
 				{% for entry in month.entries %}
-					<li class="{{ entry.type }}">{{ entry.date }} - [{{ entry.type | capitalize }}] <a href="{{ entry.url }}">{{ entry.title }}</a> {% if entry.publication %} for {{ entry.publication }}{% endif %}</li>
+					<li class="{{ entry.type }}">{{ entry.date }} <a href="{{ entry.url }}">{{ entry.title }}</a> {% if entry.publication %} for {{ entry.publication }}{% endif %}</li>
 				{% endfor %}
 				</ol>
 			{% endfor %}
