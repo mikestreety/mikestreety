@@ -90,6 +90,18 @@ export default defineConfig({
 				name: "blog",
 				path: "app/content/blog",
 				format: "md",
+				ui: {
+					permalink: {
+						slugify: (values) => {
+							return slugIt(values?.title);
+						},
+					}
+				},
+				defaultItem: () => {
+					return {
+						date: new Date().toISOString(),
+					}
+				},
 				fields: [
 					{
 						type: "string",
