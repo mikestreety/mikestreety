@@ -1,0 +1,112 @@
+---
+pagination:
+  data: collections.live
+  size: 1
+  alias: item
+permalink: "images/og/{{ item.data.page.url }}/"
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Open Graph Image</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			@font-face {
+				font-family: 'Mikestreety';
+				font-style: normal;
+				font-weight: 700;
+				font-display: swap;
+				src: url('/assets/fonts/poppins-v8-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+					url('/assets/fonts/poppins-v8-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+			}
+			html,
+			body {
+				width: 1200px;
+				height: 630px;
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				display: flex;
+				align-items: stretch;
+				font-family: 'Mikestreety';
+				border: 10px solid #35eb93;
+			}
+			aside {
+				background: #1c1e21;
+				padding: 4rem 3rem 2rem;
+				width: 20%;
+			}
+			svg {
+				width: 100%;
+				height: auto;
+			}
+			section {
+				padding: 4rem 2rem 2rem;
+				display: flex;
+				align-items: flex-start;
+				justify-content: flex-start;
+				flex-direction: column;
+				width: 80%;
+			}
+			h2 {
+				font-size: 40px;
+				color: #666;
+				line-height: 1;
+				display: block;
+				margin-bottom: 1rem;
+			}
+			h1 {
+				font-size: 50px;
+				margin: 0;
+			}
+			.meta.categories {
+				margin-top: 1rem;
+				font-size: 35px;
+			}
+
+			.meta.categories a {
+				background: #6af0b0;
+				border: .125rem solid #35eb93;
+				border-radius: .2rem;
+				box-shadow: none;
+				font-weight: 700;
+				line-height: 1;
+				padding: .2rem .5rem;
+				transition: .2s ease;
+				transition-property: border,background;
+				color: #1c1e21;
+				text-decoration: none;
+				margin-right: 0.75rem;
+			}
+
+			.meta.categories a:before {
+				content: "#";
+				opacity: .5;
+				padding-right: .2rem
+			}
+		</style>
+	</head>
+	<body>
+		<aside>
+			<svg xmlns="http://www.w3.org/2000/svg" width="493" height="493" viewBox="0 0 493 493">
+			<g fill="none" fill-rule="evenodd">
+			<path fill="#fff" d="M492.54 1h.374v325.637H327.51v-106.46L492.538 1Z"></path>
+			<path fill="#fff" d="m167.604.914 78.8 107.634L326.675.914h165.93L492.54 1H327.51l-.002 219.176-.833 1.108-80.271 105.439L.605.913h166.999Z"></path>
+			<path fill="#35eb93" d="M492.54 1 327.507 220.178 327.51 1h165.03ZM325.607 382.038h166.998v110.876H325.607zM.605 382.038h166.998v110.876H.605z"></path>
+			</g>
+			</svg>
+
+		</aside>
+		<section>
+			<h2>www.mikestreety.co.uk</h2>
+			<h1>{{ item.data.title }}</h1>
+			<div class="meta categories">
+				{% for tag in item.data.tags %}
+					{% include 'tag.njk' %}
+				{% endfor %}
+			</div>
+		</section>
+	</body>
+</html>
