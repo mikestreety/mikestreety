@@ -16,7 +16,9 @@ It's not easy creating evergreen content - I envy those that can come up with ph
 
 I have managed to write *some* evergreen blog posts - my [Git commit hash](/blog/the-git-commit-hash/) and "[Making sure you're not doing everything at work](/blog/making-sure-youre-not-doing-everything-at-work/)" posts don't have an expiry date (unless Git fundamentally change the way hashes are made) but the [majority of my posts](/diary/) are fixed to a specific time.
 
-I see posts and opinions crop up and sometimes kick myself. Blogs which get the web development community rallying behind express views which I hold, and have done for a while, I just never considered it blog worthy enough (or a popular enough opinion). Perhaps I need to stop holding back with writing about my opinion on things. Perhaps I need to _just_ type whatever is on my mind or put down thoughts whenever I roll my eyes or tut at something in the industry. On the flip side, I should write more about the positive things I see on the web.
+I see posts and opinions crop up and sometimes kick myself. Blogs which get the web development community rallying behind expressed views which I hold, and have done for a while, I just never considered it blog worthy enough (or a popular enough opinion). Perhaps I need to stop holding back when it comes to writing about my opinion. Perhaps I need to _just_ type whatever is on my mind or put down thoughts whenever I roll my eyes or tut at something in the industry. On the flip side, I should write more about the positive things I see on the web - as much as the moans and groans get the most traction, it's good to see some good things.
+
+The irony is not lost on me - me writing an evergreen blog post about not being able to write evergreen blog posts!
 
 As an aside, I logged into [ChatGPT](https://chat.openai.com/) to see what it could suggest for "**Web development evergreen topic ideas**" and the list it has generated is something I might lean on in the future.
 
@@ -44,4 +46,6 @@ If I wanted to stir things up, I could write about one of the following "**Argum
 - The pros and cons of using CSS preprocessors like Sass and Less.
 - The debate over the use of proprietary software vs. open-source tools in web development.
 
-Although in hindsight, I wouldn't say much of this is "argumentative" as you could answer every one of those statements with "it depends".
+Although, in hindsight, I wouldn't say much of this is "argumentative" as you could answer every one of those statements with "it depends" (although, can't you with every argument?)
+
+Generating any kind of evergreen content is hard. Scrap that, generate any kind of content is hard. Perhaps we should all ["just" post](https://andy-bell.co.uk/just-post/) whatever is on our mind.
