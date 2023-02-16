@@ -19,6 +19,7 @@ My thought was to loop through my collections and use [node-html-to-image](https
 
 Below is the build-breaking code I wrote, I thought I would post it for prosperity, in case I need to refer back to something at a later date.
 
+{% raw %}
 
 ```js
 const nodeHtmlToImage = require('node-html-to-image');
@@ -41,9 +42,9 @@ class Image {
 
 	async render(data) {
 		return await nodeHtmlToImage({
-			html: '<html><body>{{title}}</body></html>',
+			html: '<html><body>{{postTitle}}</body></html>',
 			content: {
-				title: data.item.data.title
+				postTitle: data.item.data.title
 			}
 		})
 	}
@@ -51,3 +52,4 @@ class Image {
 
 module.exports = Image;
 ```
+{% endraw %}
