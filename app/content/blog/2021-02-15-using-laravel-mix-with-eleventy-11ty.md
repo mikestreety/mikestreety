@@ -41,7 +41,7 @@ When you are ready to start developing, you can run the following:
 
 ```bash
 npm run watch
-``` .
+```
 
 A complete `package.json` file might look like:
 
