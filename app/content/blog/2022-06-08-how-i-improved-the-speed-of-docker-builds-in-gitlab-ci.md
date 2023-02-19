@@ -5,6 +5,7 @@ intro: I reduced our Gitlab CI powered Docker build by 80% - taking it more than
 permalink: "blog/how-i-improved-the-speed-of-docker-builds-in-gitlab-ci/"
 tags:
   - Docker
+  - Gitlab
   - Gitlab CI
 ---
 

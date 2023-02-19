@@ -5,6 +5,7 @@ intro: Gitlab can utilise MinIO (S3 replacement) for caching built images, packa
 permalink: blog/use-minio-to-cache-gitlab-containers-and-runners/
 tags:
   - Gitlab CI
+  - Gitlab
   - Docker
 ---
 
@@ -135,7 +136,7 @@ Start off, as you have with each of the steps, by creating a bucket (I called my
 
 Next, `ssh` into your Gitlab runner server and edit the config file - `/etc/gitlab-runner/config.toml`.
 
-The next step is a bit laborious as you need to add the following block _to each configured runner_. 
+The next step is a bit laborious as you need to add the following block _to each configured runner_.
 
 <strong class="info">Note:</strong> The IP/URL to the MinIO instance should <strong>not</strong> have `http` or `https` before it.
 

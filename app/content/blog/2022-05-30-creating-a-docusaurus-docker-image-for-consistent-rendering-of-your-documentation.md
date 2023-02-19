@@ -6,6 +6,7 @@ permalink: "blog/creating-a-docusaurus-docker-image-for-consistent-rendering-of-
 tags:
  - Docker
  - Gitlab CI
+ - Gitlab
 ---
 
 We recently transitioned to keeping our client-documentation in the site repositories themselves (rather than a central documentation platform) and I needed a way to quickly spin up a new site without much configuration.

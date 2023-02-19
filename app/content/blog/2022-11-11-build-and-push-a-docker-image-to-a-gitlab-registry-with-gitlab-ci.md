@@ -5,6 +5,7 @@ intro: Gitlab can host your Docker images with the container registry, this blog
 permalink: blog/build-and-push-a-docker-image-to-a-private-registry-with-gitlab-ci/
 tags:
   - Gitlab CI
+  - Gitlab
   - Docker
 ---
 
