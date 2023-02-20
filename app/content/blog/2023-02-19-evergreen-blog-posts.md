@@ -1,9 +1,7 @@
 ---
-title: Writing more evergreen blog post topics
+title: Writing more evergreen blog post topics is hard
 date: '2023-02-19T00:00:00.000Z'
-intro: >-
-  Writing evergreen content is the golden egg, but it's not as easy as one might
-  think
+intro: Writing evergreen content is the golden egg, but it's not as easy as one might think
 permalink: blog/writing-more-evergreen-blog-post-topics/
 tags:
   - General
