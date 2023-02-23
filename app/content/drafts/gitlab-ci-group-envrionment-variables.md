@@ -1,6 +1,8 @@
 
 - instead of setting env in CI/CD variables add variables to each stage
 
+ALso variables in the project override these
+
 ```yaml
 non_production:deploy:
   stage: deploy_non_production
