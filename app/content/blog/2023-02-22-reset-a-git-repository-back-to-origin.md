@@ -15,7 +15,7 @@ I recently had to help a colleague get their local Git repo back to what was on 
 
 We ran through the following commands which got the local repository nice and clean and back to it's original state.
 
-**Delete all local branches *except* `main`** 
+**Delete all local branches *except* `main`**
 
 Replace `main` with your primary branch name below.
 
@@ -45,10 +45,10 @@ This last one only works correctly as a `git fetch origin` was run beforehand. I
 
 **Remove everything in your repository that shouldn't be there**
 
-If you want to get rid of everything that is not committed (or in `.gitignore`) you can run the following command.
+If you want to get rid of everything that is not committed (and not `.gitignored`) you can run the following command.
 
 ```
 git clean
 ```
 
-**Be aware** though, with the (in)correct flags it may remove config files & `node_modules` folders too. Run `git clean --help` to begin. It is worth noting there is also an interative mode (`--interactive`) which will ask you about specific files and/or folders.
+**Be aware** though, with the (in)correct flags it may remove config files & folders too. Run `git clean --help` to begin. It is worth noting there is also an interative mode (`--interactive`) which will ask you about specific files and/or folders. I encountered mis-deletetion when combined with DDEV.
