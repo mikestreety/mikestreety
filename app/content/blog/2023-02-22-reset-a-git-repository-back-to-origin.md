@@ -18,7 +18,7 @@ We ran through the following commands which got the local repository nice and cl
 **Delete all local branches *except* `main`**
 
 ```bash
-git branch | grep - v "main" | xargs git branch - D
+git branch | grep -v "main" | xargs git branch -D
 ```
 
 **Clean any remote branches your repository thinks it knows about that no longer exist**
