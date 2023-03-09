@@ -86,9 +86,9 @@ If that is the case there is a solution, which was posted in the official [Gitla
 
 ```bash
 Project.all.each {|p| p.change_head(p.default_branch) }
-``
+```
 
-_Note: I\'m not quite sure where you would run this_
+_Note: I'm not quite sure where you would run this_
 
 ## Finished
 
