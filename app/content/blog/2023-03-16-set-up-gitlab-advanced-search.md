@@ -1,7 +1,7 @@
 ---
 title: Setting up Gitlab Advanced search
 date: 2023-03-16
-intro:
+intro: Using Advanced search in Gitlab premium requires an Elasticsearch server setting up
 permalink: "blog/set-up-gitlab-advanced-search/"
 tags:
  - Gitlab
