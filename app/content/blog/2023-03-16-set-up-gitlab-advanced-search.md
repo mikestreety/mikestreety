@@ -30,4 +30,6 @@ cluster.initial_master_nodes: node-1
 
 The first one makes it accessible to other servers, the second is required for "production mode".
 
-From there, I followed the Gitlab tutorial ofr setting up the Advanced Search. I restricted the Elasticsearch server by IP instead of adding authorisation as it was for testing purposes.
+From there, I followed the Gitlab tutorial for setting up the Advanced Search. I restricted the Elasticsearch server by IP instead of adding authorisation as it was for testing purposes.
+
+Note: For a 35GB Gitlab install, Elasticsearch uses 4GB.
