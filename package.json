@@ -10,7 +10,7 @@
     "watch:assets": "mix watch",
     "watch": "tinacms dev -c \"npm run dev\"",
     "dev": "npm run datacollector:collect && npm run watch:assets & npm run watch:11ty",
-    "prod": "tinacms build && npm run prod:assets && npm run prod:11ty && npm run datacollector:collect",
+    "prod": "tinacms build && npm run prod:assets && npm run prod:11ty",
     "build": "npm run prod",
     "datacollector:collect": "npm run dc:webmentions && npm run dc:letterboxd",
     "dc:webmentions": "datacollector webmentions app/data/webmentions.json -d www.mikestreety.co.uk -t lId0N38z8IMrDHih2VFZ7Q",
