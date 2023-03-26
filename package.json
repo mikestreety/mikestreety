@@ -9,9 +9,12 @@
     "prod:assets": "mix --production",
     "watch:assets": "mix watch",
     "watch": "tinacms dev -c \"npm run dev\"",
-    "dev": "npm run watch:assets & npm run watch:11ty",
-    "prod": "tinacms build && npm run prod:assets && npm run prod:11ty",
-    "build": "npm run prod"
+    "dev": "npm run datacollector:collect && npm run watch:assets & npm run watch:11ty",
+    "prod": "tinacms build && npm run prod:assets && npm run prod:11ty && npm run datacollector:collect",
+    "build": "npm run prod",
+    "datacollector:collect": "npm run dc:webmentions && npm run dc:letterboxd",
+    "dc:webmentions": "datacollector webmentions app/data/webmentions.json -d www.mikestreety.co.uk -t lId0N38z8IMrDHih2VFZ7Q",
+    "dc:letterboxd": "datacollector letterboxd app/data/letterboxd.json -u mikestreety"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +25,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "@mikestreety/11ty-utils": "^1.3",
+    "@mikestreety/data-collector": "^0.2.0",
     "@tinacms/cli": "^1.1.0",
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.3",
