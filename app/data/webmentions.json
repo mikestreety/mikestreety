@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-04-03T10:56:44.784Z",
+  "lastFetched": "2023-05-02T09:29:31.454Z",
   "children": [
     {
       "type": "entry",
@@ -6144,6 +6144,270 @@
       "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110065820107588737/109525081204886704",
       "wm-target": "https://www.mikestreety.co.uk/category/gitlab/",
       "repost-of": "https://www.mikestreety.co.uk/category/gitlab/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Carl Poppa 🛸",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/f37de21f3ec03e70b5d473988907be45bda42f7aaff7664bed6f81677b1d3af7.png",
+        "url": "https://alpaca.gold/@poppacalypse"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110264780000043566#favorited-by-109647109427542326",
+      "published": null,
+      "wm-received": "2023-04-27T13:50:29Z",
+      "wm-id": 1667210,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110264780000043566/109647109427542326",
+      "wm-target": "https://www.mikestreety.co.uk/notes/mastodon-is-doomed/",
+      "like-of": "https://www.mikestreety.co.uk/notes/mastodon-is-doomed/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Si Jobling :verified:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/e3b96504aed2787da8a831a73cb3f2d74ca5031b17ebb47d83c236b57ebd4ec2.jpg",
+        "url": "https://managingengineers.net/@si"
+      },
+      "url": "https://managingengineers.net/@si/110264888477099628",
+      "published": "2023-04-26T11:31:14",
+      "wm-received": "2023-04-26T11:47:37Z",
+      "wm-id": 1666804,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/110264780000043566/110264888511739305",
+      "wm-target": "https://www.mikestreety.co.uk/notes/mastodon-is-doomed/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@mikestreety\" class=\"u-url\">@<span>mikestreety</span></a></span> interesting take. I don't necessarily disagree with Justin's concerns and hope a sustainable model allows Mastodon to continue. </p><p>This quote is quite pertinent to the onboarding process too:</p><p>\"Communities are not siloed independent bubbles. People are Venn diagrams of lots of communities and interests. Selecting a username can be difficult, deciding which community you want as part of your identity—even if you can change it—is too much.\"</p><p>I fear this is a common blocker for many.</p>\n<a class=\"u-mention\" href=\"https://justingarrison.com/blog/2023-04-24-mastodon-is-doomed/\"></a>",
+        "text": "@mikestreety interesting take. I don't necessarily disagree with Justin's concerns and hope a sustainable model allows Mastodon to continue. This quote is quite pertinent to the onboarding process too:\"Communities are not siloed independent bubbles. People are Venn diagrams of lots of communities and interests. Selecting a username can be difficult, deciding which community you want as part of your identity—even if you can change it—is too much.\"I fear this is a common blocker for many."
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/notes/mastodon-is-doomed/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/acf170f4322b97c934d6a0e2b651d5c836f312a39bb1a0a1287a913c4fc4a7da.gif",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://seocommunity.social/@simoncox/110264811874354995",
+      "published": "2023-04-26T11:11:45",
+      "wm-received": "2023-04-26T11:17:54Z",
+      "wm-id": 1666794,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/110264780000043566/110264811915631140",
+      "wm-target": "https://www.mikestreety.co.uk/notes/mastodon-is-doomed/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@mikestreety\" class=\"u-url\">@<span>mikestreety</span></a></span> Read that this morning and it is a bit gloomy! I think a bigger threat to Mastodon is Twitter collapsing completely. I'm quite happy for it to continue and keep the hoards of pond life away from here.</p>\n<a class=\"u-mention\" href=\"https://justingarrison.com/blog/2023-04-24-mastodon-is-doomed/\"></a>",
+        "text": "@mikestreety Read that this morning and it is a bit gloomy! I think a bigger threat to Mastodon is Twitter collapsing completely. I'm quite happy for it to continue and keep the hoards of pond life away from here."
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/notes/mastodon-is-doomed/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aaron",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/922cfde58de13ede047b8a880f608a4063dac7c59dfe1117dd3923b06965f284.png",
+        "url": "https://hachyderm.io/@aaronw"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110255335790086219#favorited-by-109382936500957551",
+      "published": null,
+      "wm-received": "2023-04-25T07:32:51Z",
+      "wm-id": 1666404,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110255335790086219/109382936500957551",
+      "wm-target": "https://www.mikestreety.co.uk/notes/orbstack/",
+      "like-of": "https://www.mikestreety.co.uk/notes/orbstack/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/79a8663c89209b98bd36255260a2438b764157006e08f091e9dcf8164072d930.jpg",
+        "url": "https://hachyderm.io/@mikestreety"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110180679214363989",
+      "published": "2023-04-11T14:35:42",
+      "wm-received": "2023-04-11T14:42:00Z",
+      "wm-id": 1660790,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/110180547969389630/110180679214363989",
+      "wm-target": "https://www.mikestreety.co.uk/notes/falsehoods-programmers-believe-about-names/",
+      "content": {
+        "html": "<p>I really need to sort out the encoding in the RSS feed so IFTTT doesn't cut off posts with quotes...</p>\n<a class=\"u-mention\" href=\"https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/\"></a>",
+        "text": "I really need to sort out the encoding in the RSS feed so IFTTT doesn't cut off posts with quotes..."
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/notes/falsehoods-programmers-believe-about-names/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Si Jobling :verified:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/e3b96504aed2787da8a831a73cb3f2d74ca5031b17ebb47d83c236b57ebd4ec2.jpg",
+        "url": "https://managingengineers.net/@si"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110168276643080620#favorited-by-109449544956589423",
+      "published": null,
+      "wm-received": "2023-04-10T06:37:23Z",
+      "wm-id": 1660209,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110168276643080620/109449544956589423",
+      "wm-target": "https://www.mikestreety.co.uk/notes/emojinator/",
+      "like-of": "https://www.mikestreety.co.uk/notes/emojinator/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sophie Koonin",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/eed3a9fce77404857b15aeaf1070e04a814daa2a094e7520f12cd028cbfbd638.jpg",
+        "url": "https://social.lol/@sophie"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110168276643080620#favorited-by-109513729578527144",
+      "published": null,
+      "wm-received": "2023-04-09T13:59:17Z",
+      "wm-id": 1660002,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110168276643080620/109513729578527144",
+      "wm-target": "https://www.mikestreety.co.uk/notes/emojinator/",
+      "like-of": "https://www.mikestreety.co.uk/notes/emojinator/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Seoseb 🔎 Seb Adler",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/156d79fa71dd059412466b27526caee6b936afd8e73f7c706805cdac0b138656.png",
+        "url": "https://seocommunity.social/@seoseb"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110150288908424860#favorited-by-109462774697172917",
+      "published": null,
+      "wm-received": "2023-04-06T18:40:18Z",
+      "wm-id": 1658979,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110150288908424860/109462774697172917",
+      "wm-target": "https://www.mikestreety.co.uk/notes/assitivlabs/",
+      "like-of": "https://www.mikestreety.co.uk/notes/assitivlabs/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/acf170f4322b97c934d6a0e2b651d5c836f312a39bb1a0a1287a913c4fc4a7da.gif",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110150288908424860#favorited-by-109298770510051442",
+      "published": null,
+      "wm-received": "2023-04-06T06:35:41Z",
+      "wm-id": 1658815,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110150288908424860/109298770510051442",
+      "wm-target": "https://www.mikestreety.co.uk/notes/assitivlabs/",
+      "like-of": "https://www.mikestreety.co.uk/notes/assitivlabs/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/acf170f4322b97c934d6a0e2b651d5c836f312a39bb1a0a1287a913c4fc4a7da.gif",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110150288908424860#reblogged-by-109298770510051442",
+      "published": null,
+      "wm-received": "2023-04-06T06:35:13Z",
+      "wm-id": 1658814,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110150288908424860/109298770510051442",
+      "wm-target": "https://www.mikestreety.co.uk/notes/assitivlabs/",
+      "repost-of": "https://www.mikestreety.co.uk/notes/assitivlabs/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Roberts",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/15a92e7fec9235bee01753c31b11648f0eba02396e581363aa58d9917e93fedc.jpg",
+        "url": "https://xoxo.zone/@marcroberts"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110145388287761807#reblogged-by-109355910128502310",
+      "published": null,
+      "wm-received": "2023-04-05T16:54:19Z",
+      "wm-id": 1658549,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110145388287761807/109355910128502310",
+      "wm-target": "https://www.mikestreety.co.uk/notes/keep-a-blag-document/",
+      "repost-of": "https://www.mikestreety.co.uk/notes/keep-a-blag-document/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Roberts",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/15a92e7fec9235bee01753c31b11648f0eba02396e581363aa58d9917e93fedc.jpg",
+        "url": "https://xoxo.zone/@marcroberts"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110145388287761807#favorited-by-109355910128502310",
+      "published": null,
+      "wm-received": "2023-04-05T16:54:19Z",
+      "wm-id": 1658550,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110145388287761807/109355910128502310",
+      "wm-target": "https://www.mikestreety.co.uk/notes/keep-a-blag-document/",
+      "like-of": "https://www.mikestreety.co.uk/notes/keep-a-blag-document/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ondrej Sevcik",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/c9cb185bd38f0dce1bd9e0ea28ebeae2464b6ca3fd0e40f91d55be7e30d1f5f4.jpg",
+        "url": "https://hachyderm.io/@ondrejsevcik"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110145388287761807#favorited-by-109693583623833001",
+      "published": null,
+      "wm-received": "2023-04-05T14:06:02Z",
+      "wm-id": 1658454,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110145388287761807/109693583623833001",
+      "wm-target": "https://www.mikestreety.co.uk/notes/keep-a-blag-document/",
+      "like-of": "https://www.mikestreety.co.uk/notes/keep-a-blag-document/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sean Murthy",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/c82af1739a47d5ba4265db796345eb03ecfd608e6c5104b631677c99928488e6.jpg",
+        "url": "https://hachyderm.io/@smurthys"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110135479545013847#reblogged-by-109832254728348537",
+      "published": null,
+      "wm-received": "2023-04-04T01:05:47Z",
+      "wm-id": 1657430,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110135479545013847/109832254728348537",
+      "wm-target": "https://www.mikestreety.co.uk/notes/runme/",
+      "repost-of": "https://www.mikestreety.co.uk/notes/runme/",
       "wm-property": "repost-of",
       "wm-private": false
     }
