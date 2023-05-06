@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-05-04T08:06:16.294Z",
+  "lastFetched": "2023-05-06T09:03:35.323Z",
   "items": [
     {
       "creator": "Mike Street",
@@ -146,6 +146,36 @@
       "contentSnippet": "Jungle Cruise",
       "guid": "letterboxd-list-31141097",
       "isoDate": "2023-02-05T22:22:17.000Z"
+    },
+    {
+      "creator": "Mike Street",
+      "title": "Rio, 2011 - ★★★½",
+      "link": "https://letterboxd.com/mikestreety/film/rio-2011/",
+      "pubDate": "Fri, 5 May 2023 06:12:00 +1200",
+      "content": " <p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/9/1/2/2/19122-rio-0-600-0-900-crop.jpg?v=dd4c1aac72\"/></p> <p>Watched on Thursday May 4, 2023.</p> ",
+      "contentSnippet": "Watched on Thursday May 4, 2023.",
+      "guid": "letterboxd-watch-385456650",
+      "isoDate": "2023-05-04T18:12:00.000Z",
+      "filmTitle": "Rio",
+      "watchedDate": "2023-05-04",
+      "filmYear": "2011",
+      "memberRating": "3.5",
+      "rewatch": "No"
+    },
+    {
+      "creator": "Mike Street",
+      "title": "Ghosted, 2023 - ★★★★",
+      "link": "https://letterboxd.com/mikestreety/film/ghosted-2023/",
+      "pubDate": "Fri, 5 May 2023 06:11:47 +1200",
+      "content": " <p><img src=\"https://a.ltrbxd.com/resized/film-poster/7/8/0/7/2/4/780724-ghosted-0-600-0-900-crop.jpg?v=6882cab5b5\"/></p> <p>Watched on Thursday May 4, 2023.</p> ",
+      "contentSnippet": "Watched on Thursday May 4, 2023.",
+      "guid": "letterboxd-watch-385456583",
+      "isoDate": "2023-05-04T18:11:47.000Z",
+      "filmTitle": "Ghosted",
+      "watchedDate": "2023-05-04",
+      "filmYear": "2023",
+      "memberRating": "4.0",
+      "rewatch": "No"
     }
   ]
 }
