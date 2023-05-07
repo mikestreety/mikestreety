@@ -18,3 +18,13 @@ I'll go into more detail below, but the workflow is:
 - (Optional) Release
 
 ## Make an Issue
+
+The issue should contain as much information as possible. We have a few templates which feature some prompts such as how to find the feature/bug, is it related to a ticket on an internal system or is there a suggested solution. Sometimes, Issues are raised retrospectively - even if you already have a fix/have fixed it on a branch. For every fix or feature to the project or package, an Issue should exist to give more context & background.
+
+## Create a Merge Request
+
+Unlike the Issue, Merge (or Pull) Requests can be sparse. As a minimum, it should contain the ID of the issue it closes, but we don't see a need to repeat all the data available in the issue itself. Merge Requests (and the corresponding branches) are normally created from the built-in Gitlab (or Github) buttons.
+
+## Work on the code
+
+Once the Issue, Merge Request (and branch) are in place, you can begin work. We have an in-house developed linter and commit using the [Conventional Commits](https://www.conventionalcommits.org/) specification.
