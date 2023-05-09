@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-05-06T14:03:20.217Z",
+  "lastFetched": "2023-05-09T14:43:12.003Z",
   "children": [
     {
       "type": "entry",
@@ -6589,6 +6589,248 @@
       "wm-target": "https://www.mikestreety.co.uk/notes/just-simply/",
       "repost-of": "https://www.mikestreety.co.uk/notes/just-simply/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Carl Poppa 🛸",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/f37de21f3ec03e70b5d473988907be45bda42f7aaff7664bed6f81677b1d3af7.png",
+        "url": "https://alpaca.gold/@poppacalypse"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110325946753655286#favorited-by-109647109427542326",
+      "published": null,
+      "wm-received": "2023-05-08T03:12:58Z",
+      "wm-id": 1672048,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110325946753655286/109647109427542326",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "like-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Bob Monsour",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/9bcf154a86ff3cdf9e00050ba7a40f0020d4bc1c52a748eefc2fed94aa02bd6b.png",
+        "url": "https://indieweb.social/@bobmonsour"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110325946753655286#favorited-by-109407071975344529",
+      "published": null,
+      "wm-received": "2023-05-07T13:08:50Z",
+      "wm-id": 1671909,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110325946753655286/109407071975344529",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "like-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Keith J Grant",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/90b351e1fea993e897233bfe8b5098ddd353cae4487d09673e3deead75abc344.jpg",
+        "url": "https://front-end.social/@keithjgrant"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110325946753655286#favorited-by-109288295805894607",
+      "published": null,
+      "wm-received": "2023-05-07T13:08:50Z",
+      "wm-id": 1671910,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110325946753655286/109288295805894607",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "like-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/acf170f4322b97c934d6a0e2b651d5c836f312a39bb1a0a1287a913c4fc4a7da.gif",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110325946753655286#reblogged-by-109298770510051442",
+      "published": null,
+      "wm-received": "2023-05-07T09:17:44Z",
+      "wm-id": 1671886,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110325946753655286/109298770510051442",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "repost-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/acf170f4322b97c934d6a0e2b651d5c836f312a39bb1a0a1287a913c4fc4a7da.gif",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110325946753655286#favorited-by-109298770510051442",
+      "published": null,
+      "wm-received": "2023-05-07T09:17:44Z",
+      "wm-id": 1671887,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110325946753655286/109298770510051442",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "like-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Elly Loel ✨🌱",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/2906f05fbc1fff47b76e9bd51804d1618a81be8f3062fc8c5a2e0f18d02f8559.png",
+        "url": "https://front-end.social/@elly"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110325946753655286#favorited-by-109446903991887251",
+      "published": null,
+      "wm-received": "2023-05-07T07:45:29Z",
+      "wm-id": 1671878,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110325946753655286/109446903991887251",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "like-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam Fields",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/907fc52186a9c617c994e7d3228197c5be51f399fb3f0407cff9f9a2995537f5.jpg",
+        "url": "https://hachyderm.io/@fields"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110322121339641183#favorited-by-109343410797196127",
+      "published": null,
+      "wm-received": "2023-05-06T14:59:47Z",
+      "wm-id": 1671681,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110322121339641183/109343410797196127",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "like-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam Fields",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/907fc52186a9c617c994e7d3228197c5be51f399fb3f0407cff9f9a2995537f5.jpg",
+        "url": "https://hachyderm.io/@fields"
+      },
+      "url": "https://hachyderm.io/@fields/110322216313843155",
+      "published": "2023-05-06T14:30:27",
+      "wm-received": "2023-05-06T14:59:45Z",
+      "wm-id": 1671680,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/110322121339641183/110322216313843155",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@mikestreety\" class=\"u-url\">@<span>mikestreety</span></a></span> I feel this hard. Mastodon could fix these UX issues, but that’s tough and I don’t know if they will or will anytime soon, or if doing so will actually bring more people at this point. One thing is very clear to me - an algorithmic timeline of some kind is absolutely required to give a network a sense of energy and happening. It’s not enough to just follow people (or even hashtags) and see their collective posts in reverse chronological order.</p>",
+        "text": "@mikestreety I feel this hard. Mastodon could fix these UX issues, but that’s tough and I don’t know if they will or will anytime soon, or if doing so will actually bring more people at this point. One thing is very clear to me - an algorithmic timeline of some kind is absolutely required to give a network a sense of energy and happening. It’s not enough to just follow people (or even hashtags) and see their collective posts in reverse chronological order."
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Josh Bruce",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/a8134392c966794f2ba66103f85d99461a26b2955320088a9a31c985e096642a.jpg",
+        "url": "https://phpc.social/@itsjoshbruce"
+      },
+      "url": "https://phpc.social/@itsjoshbruce/110322198916645756",
+      "published": "2023-05-06T14:26:02",
+      "wm-received": "2023-05-06T14:59:45Z",
+      "wm-id": 1671679,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/110322121339641183/110322198977468230",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@mikestreety\" class=\"u-url\">@<span>mikestreety</span></a></span>: I’ve always felt the scattered pull to multiple networks. I was the distributed, decentralized part of the system; because not everyone I wanted to follow chose the same platforms.</p><p>That feeling is still there. I too don’t have a solution. I only have what worked for me and my goals—cross-posting wasn’t it. </p><p>Feel you.</p>",
+        "text": "@mikestreety: I’ve always felt the scattered pull to multiple networks. I was the distributed, decentralized part of the system; because not everyone I wanted to follow chose the same platforms.That feeling is still there. I too don’t have a solution. I only have what worked for me and my goals—cross-posting wasn’t it. Feel you."
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam Fields",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/907fc52186a9c617c994e7d3228197c5be51f399fb3f0407cff9f9a2995537f5.jpg",
+        "url": "https://hachyderm.io/@fields"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110322121339641183#reblogged-by-109343410797196127",
+      "published": null,
+      "wm-received": "2023-05-06T14:59:16Z",
+      "wm-id": 1671678,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110322121339641183/109343410797196127",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "repost-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Hilarious",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/89b411dbc3dfbf3e297ac86b10b6f7eb1db56c9c84cb54d2246c7d3ef12b1fa2.jpg",
+        "url": "https://mastodon.xyz/@hilarious"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110322121339641183#favorited-by-110298490620218479",
+      "published": null,
+      "wm-received": "2023-05-06T14:25:56Z",
+      "wm-id": 1671674,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110322121339641183/110298490620218479",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "like-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Josh Bruce",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/a8134392c966794f2ba66103f85d99461a26b2955320088a9a31c985e096642a.jpg",
+        "url": "https://phpc.social/@itsjoshbruce"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110322121339641183#reblogged-by-109332431620364296",
+      "published": null,
+      "wm-received": "2023-05-06T14:25:55Z",
+      "wm-id": 1671672,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110322121339641183/109332431620364296",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "repost-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/acf170f4322b97c934d6a0e2b651d5c836f312a39bb1a0a1287a913c4fc4a7da.gif",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110322121339641183#favorited-by-109298770510051442",
+      "published": null,
+      "wm-received": "2023-05-06T14:25:55Z",
+      "wm-id": 1671673,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110322121339641183/109298770510051442",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "like-of": "https://www.mikestreety.co.uk/blog/the-end-of-the-social-network-school-year/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]

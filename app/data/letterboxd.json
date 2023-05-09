@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-05-06T14:03:21.411Z",
+  "lastFetched": "2023-05-09T14:43:13.005Z",
   "items": [
     {
       "creator": "Mike Street",
@@ -175,6 +175,36 @@
       "watchedDate": "2023-05-04",
       "filmYear": "2023",
       "memberRating": "4.0",
+      "rewatch": "No"
+    },
+    {
+      "creator": "Mike Street",
+      "title": "Rio 2, 2014 - ★★★",
+      "link": "https://letterboxd.com/mikestreety/film/rio-2/",
+      "pubDate": "Mon, 8 May 2023 18:59:28 +1200",
+      "content": " <p><img src=\"https://a.ltrbxd.com/resized/film-poster/1/2/6/5/6/4/126564-rio-2-0-600-0-900-crop.jpg?v=58a63c8414\"/></p> <p>Watched on Monday May 8, 2023.</p> ",
+      "contentSnippet": "Watched on Monday May 8, 2023.",
+      "guid": "letterboxd-watch-386991943",
+      "isoDate": "2023-05-08T06:59:28.000Z",
+      "filmTitle": "Rio 2",
+      "watchedDate": "2023-05-08",
+      "filmYear": "2014",
+      "memberRating": "3.0",
+      "rewatch": "No"
+    },
+    {
+      "creator": "Mike Street",
+      "title": "Bolt, 2008 - ★★",
+      "link": "https://letterboxd.com/mikestreety/film/bolt/",
+      "pubDate": "Mon, 8 May 2023 18:59:14 +1200",
+      "content": " <p><img src=\"https://a.ltrbxd.com/resized/sm/upload/5q/da/f1/rt/6pTNDqXPPZmN6I5buVeTEnwbjn0-0-600-0-900-crop.jpg?v=ff50fd01d6\"/></p> <p>Watched on Monday May 8, 2023.</p> ",
+      "contentSnippet": "Watched on Monday May 8, 2023.",
+      "guid": "letterboxd-watch-386991908",
+      "isoDate": "2023-05-08T06:59:14.000Z",
+      "filmTitle": "Bolt",
+      "watchedDate": "2023-05-08",
+      "filmYear": "2008",
+      "memberRating": "2.0",
       "rewatch": "No"
     }
   ]

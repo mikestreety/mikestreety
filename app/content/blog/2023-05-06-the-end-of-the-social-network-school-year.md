@@ -31,3 +31,7 @@ It's like the end of a School year where everyone is going off to different Univ
 I don't have a solution, I don't even know the point in this post - I just needed to get my thoughts out somewhere.
 
 I hope the next year or so sees a progression in the technology. An adoption of one specification that means we can use the Fediverse (or whatever is there) to combine all of the social networks into one stream. Let me follow people on Twitter, Mastodon or RSS feeds from one place.
+
+## Related reading
+
+- [The Webdev Social Schism](https://keithjgrant.com/posts/2023/05/the-webdev-social-schism/)
