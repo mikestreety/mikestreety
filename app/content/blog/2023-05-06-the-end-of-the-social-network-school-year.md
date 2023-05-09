@@ -35,3 +35,4 @@ I hope the next year or so sees a progression in the technology. An adoption of 
 ## Related reading
 
 - [The Webdev Social Schism](https://keithjgrant.com/posts/2023/05/the-webdev-social-schism/)
+- [Mastodon Is Doomed](https://justingarrison.com/blog/2023-04-24-mastodon-is-doomed/)
