@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-05-09T14:43:13.005Z",
+  "lastFetched": "2023-06-20T14:17:06.605Z",
   "items": [
     {
       "creator": "Mike Street",
@@ -205,6 +205,21 @@
       "watchedDate": "2023-05-08",
       "filmYear": "2008",
       "memberRating": "2.0",
+      "rewatch": "No"
+    },
+    {
+      "creator": "Mike Street",
+      "title": "Army of Thieves, 2021 - ★★★½",
+      "link": "https://letterboxd.com/mikestreety/film/army-of-thieves/",
+      "pubDate": "Mon, 19 Jun 2023 09:14:09 +1200",
+      "content": " <p><img src=\"https://a.ltrbxd.com/resized/film-poster/7/1/4/2/7/9/714279-army-of-thieves-0-600-0-900-crop.jpg?v=7a2e61004c\"/></p> <p>Watched on Sunday June 18, 2023.</p> ",
+      "contentSnippet": "Watched on Sunday June 18, 2023.",
+      "guid": "letterboxd-watch-402730918",
+      "isoDate": "2023-06-18T21:14:09.000Z",
+      "filmTitle": "Army of Thieves",
+      "watchedDate": "2023-06-18",
+      "filmYear": "2021",
+      "memberRating": "3.5",
       "rewatch": "No"
     }
   ]
