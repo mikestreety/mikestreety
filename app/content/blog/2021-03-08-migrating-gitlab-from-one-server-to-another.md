@@ -23,7 +23,7 @@ You can only backup & restore to/from Gitlab running the same versions. To avoid
 
 All the tutorials tell you to create your backup first, however I found it easier to set the new server up as the first step. **Make sure you are installing the correct version**. I lost a couple of hours after I had followed the [Gitlab tutorial](https://about.gitlab.com/install/) - this sets up the Enterprise Edition as default, however I was running the **community edition**.
 
-**Edit:** Thanks to @mstoy on Twitter, it was pointed out there is a [**community edition** tutorial](https://about.gitlab.com/install/?version=ce) available.
+**Edit:** Thanks to @mstoy on Twitter, it was pointed out there is a [**community edition** tutorial](https://packages.gitlab.com/gitlab/gitlab-ce/install) available.
 
 I was able to do this by replacing `gitlab-ee` in the documentation with `gitlab-ce`. For example, the Debian install requires a script which is then piped through bash - it can be updated to the following:
 
@@ -37,6 +37,9 @@ We can then install `gitlab-ce` in the next step
 sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install gitlab-ce
 
 ```
+
+**Note:** If you are using the same domain, configure the the new one for the domain and let Let's Encrypt fail, you can can then reconfigure afterwards.
+
 
 ### 3. Create a backup
 
@@ -54,17 +57,21 @@ This file should be located in `/var/opt/gitlab/backups/` (unless you have chang
 
 The most straight-forward way of getting the backup to the new server is a direct `scp` or `rsync`. The backup file will be owned by root, so however you get this to the new server is down to you.
 
-I added my personal SSH key from the original server to the target server, transferred the backup file to my home directory, `chown`d it to me and `scp`d it from there.
+The files/folders you should copy are:
 
-Along with the `tar`, make sure you transfer the `gitlab` files in `/etc/gitlab/` (e.g. `/etc/gitlab/gitlab*`).
+- `/var/opt/gitlab/backups/YOURBACKUP`
+- `/etc/gitlab`
+- Any cron files you have added
 
-### 5. Move the files
+I allowed SSH from the new server to the old server and did the following:
 
-Move the files you have just transferred to the places where you found them. The `tar` goes to `/var/opt/gitlab/backups/` and the two `gitlab` files to `/etc/gitlab/`.
+```bash
+rsync -vazP old.server:/etc/gitlab/ /etc/gitlab/
+```
 
-### 6. Restore the backup
+### 5. Restore the backup
 
-The restoration is details in the [Gitlab documentation](https://docs.gitlab.com/ee/raketasks/backup_restore.html#restore-for-omnibus-gitlab-installations), however once you have stopped the services listed, you can run
+The restoration is details in the [Gitlab documentation](https://docs.gitlab.com/ee/administration/backup_restore/restore_gitlab.html), however once you have stopped the services listed (`puma` and `sidekiq`), you can run
 
 ```bash
 sudo gitlab-backup restore
@@ -78,17 +85,42 @@ For example, if the file was `1612726810_2021_02_07_13.8.3_gitlab_backup.tar` yo
 sudo gitlab-backup restore BACKUP=1612726810_2021_02_07_13.8.3
 ```
 
+### 6. Check, reconfigure & set live
+
+It's good practice to restart & reconfigure the install
+
+```bash
+sudo gitlab-ctl restart
+```
+
+```bash
+sudo gitlab-ctl restart
+sudo gitlab-rake gitlab:check SANITIZE=true
+
+sudo gitlab-rake gitlab:doctor:secrets
+
+sudo gitlab-rake gitlab:artifacts:check
+sudo gitlab-rake gitlab:lfs:check
+sudo gitlab-rake gitlab:uploads:check
+```
+
+Once you're happy with the commands, update your domain name (if you need to) and then recnfigure your install
+
+```bash
+sudo gitlab-ctl reconfigure
+```
+
 ## Non-main branches
 
 As [Tom pointed out](https://gitlab.com/mikestreety/mikestreety/-/issues/2), if you have any branches which don't use `main` as their default branch, you may get an error when cloning down a repo from your new instance.
 
-If that is the case there is a solution, which was posted in the official [Gitlab Issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/343905#note_770735311)
+If that is the case there is a solution, which was posted in the official [Gitlab Issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/343905#note_770735311). 
 
-```bash
+You can run `gitlab-rails c` and then enter the following:
+
+```ruby
 Project.all.each {|p| p.change_head(p.default_branch) }
 ```
-
-_Note: I'm not quite sure where you would run this_
 
 ## Finished
 
