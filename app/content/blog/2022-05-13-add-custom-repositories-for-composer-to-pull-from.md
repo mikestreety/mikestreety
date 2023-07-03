@@ -19,7 +19,7 @@ If you wish to use a local folder, such as `src` or `app` (such as with this exa
 {
     "name": "project/name",
     "description": "Description of your app",
-	"type": "project",
+    "type": "project",
     "repositories": [
         {
             "type": "path",
@@ -30,7 +30,6 @@ If you wish to use a local folder, such as `src` or `app` (such as with this exa
         "app/name": "@dev"
     }
 }
-
 ```
 
 Once you've included your custom location, you can include the package/extension/plugin inside your `composer.json` as though it was remote. You can use `dev-*` branches, version numbers, `*` or `@dev`. Using `@dev` indicates the _current_ branch.
@@ -39,7 +38,7 @@ Once you've included your custom location, you can include the package/extension
 {
     "name": "project/name",
     "description": "Description of your app",
-	"type": "project",
+    "type": "project",
     "repositories": [
         {
             "type": "path",
@@ -69,7 +68,7 @@ There are a few more bits to update with this one:
 {
     "name": "project/name",
     "description": "Description of your app",
-	"type": "project",
+    "type": "project",
     "config": {
         "gitlab-domains": [
             "URL.TO.GITLAB"
@@ -101,7 +100,7 @@ First step, as before is to include the custom repository location. Make sure yo
 {
     "name": "project/name",
     "description": "Description of your app",
-	"type": "project",
+    "type": "project",
     "repositories": [
         {
             "type": "git",
