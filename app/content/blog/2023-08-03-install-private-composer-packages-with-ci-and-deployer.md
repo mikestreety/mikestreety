@@ -4,7 +4,9 @@ date: 2023-08-03
 intro: Using environment variables you can install private composer packages in Gitlab CI and pass them through to Deployer
 permalink: "blog/install-private-composer-packages-with-ci-and-deployer/"
 tags:
- - Composer
+  - Composer
+  - Gitlab CI
+  - Deployer
 ---
 
 Installing private composer packages can be a bit like Crufts - you sometimes have to jump through so many hoops and tunnels and all you get at the end is a belly rub.
