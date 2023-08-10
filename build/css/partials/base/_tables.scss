@@ -12,6 +12,9 @@ table {
 	th,
 	td {
 		padding: 0.5rem;
+		code::before {
+			border: thin solid var(--neutralMid)
+		}
 		@include mq($phone) {
 			padding: 0.5rem 1rem;
 		}
@@ -19,6 +22,7 @@ table {
 
 	tr:nth-child(even) td {
 		background: var(--neutralLight);
+
 	}
 
 	.winner {
