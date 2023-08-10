@@ -90,13 +90,13 @@ By giving each stage a name, you can use the `--target` argument to stop the bui
 Update the `FROM` to include a name by using the `as` keyword:
 
 ```dockerfile
-FROM php:$PHP_VERSION-cli-alpine3.16 AS BASELINE
+FROM php:$PHP_VERSION-cli-alpine3.16 AS image_baseline
 ```
 
-Next, add another stage at the end of the file and use the `BASELINE` as the image and give it a name (in this example `DIND` {Docker in Docker})
+Next, add another stage at the end of the file and use the `image_baseline` as the image and give it a name (in this example `image_dind` {Docker in Docker})
 
 ```dockerfile
-FROM BASELINE AS DIND
+FROM image_baseline AS image_dind
 # Install dependencies
 RUN apk add \
 	--update \
@@ -105,25 +105,25 @@ RUN apk add \
 	docker
 ```
 
-We can now build a Docker image from both the `BASELINE` and `DIND` stages:
+We can now build a Docker image from both the `image_baseline` and `image_dind` stages:
 
 ```bash
-# Build a BASELINE image
+# Build a image_baseline image
 docker build \
-	--target BASELINE
+	--target image_baseline
 	--tag deployment:php8.1 \
 	--build-arg PHP_VERSION=8.1 \
 	.
 
-# Build an image from BASELINE with Docker
+# Build an image from image_baseline with Docker
 docker build \
-	--target DIND
+	--target image_dind
 	--tag deployment/docker:php8.1 \
 	--build-arg PHP_VERSION=8.1 \
 	.
 ```
 
-From there, you can build on the `BASELINE` again or even the `DIND` stage. You get all the benefits of a tidy filesystem along with each stage being cached. You also get to keep your images as small as they need to be - it's a win, win, win.
+From there, you can build on the `image_baseline` again or even the `image_dind` stage. You get all the benefits of a tidy filesystem along with each stage being cached. You also get to keep your images as small as they need to be - it's a win, win, win.
 
 ## Bonus Gitlab CI
 
@@ -153,7 +153,7 @@ services:
     # Build baseline image
     - >
       docker build
-      --target BASELINE
+      --target image_baseline
       --tag $CI_REGISTRY_IMAGE:php${PHP_VERSION}
       --build-arg PHP_VERSION=${PHP_VERSION}
       .
@@ -161,7 +161,7 @@ services:
     # Build dind image: Baseline with docker installed
     - >
       docker build
-      --target DIND
+      --target image_dind
       --tag $CI_REGISTRY_IMAGE/docker:php${PHP_VERSION}
       --build-arg PHP_VERSION=${PHP_VERSION}
       .
