@@ -18,7 +18,7 @@ If you've not come across them before, here's a quick overview.
 `$output = $value ?: 'default'` is the equivalent of writing the following
 
 ```php
-if ($v) {
+if ($value) {
 	$output = $value;
 } else {
 	$output = 'default';
@@ -63,7 +63,7 @@ They are similar, but the do have their differences and can sometimes trip you u
 - `$v` signifies the variable in the leftmost column
 - A ⚠️ signifies a PHP warning is thrown in 8.2.
 
-|  | `$v ?: 'default'` | `$v ?? 'default'` |
+|  | `$v ?? 'default'` | `$v ?: 'default'` |
 |---|---|---|
 | `$non_var;` | default | ⚠️ default |
 | `$null = null;` | default | default |
