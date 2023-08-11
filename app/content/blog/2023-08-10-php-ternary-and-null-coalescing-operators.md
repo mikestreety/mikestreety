@@ -69,6 +69,7 @@ They are similar, but the do have their differences and can sometimes trip you u
 | `$null = null;` | default | default |
 | `$booly = '1';` | 1 | 1 |
 | `$bool = true;` | 1 | 1 |
+| `$empty_string = '';` | `` | default |
 | `$string = 'string';` | string | string |
 | `$zero_string = '0';` | 0 | default |
 | `$zero = 0;` | 0 | default |
@@ -83,7 +84,7 @@ They are similar, but the do have their differences and can sometimes trip you u
 | `$array['sub_array']['null_key'] = null;` | default | default |
 
 
-The code I used to check can be seen on [onlinephp](https://onlinephp.io/c/ca318) - I've also included it below
+The code I used to check can be seen on [onlinephp](https://onlinephp.io/c/67e66) - I've also included it below
 
 ```php
 $null = null;
@@ -91,6 +92,8 @@ $null = null;
 $booly = '1';
 
 $bool = true;
+
+$empty_string = '';
 
 $string = 'string';
 
@@ -114,6 +117,7 @@ echo '| $non_var | ' . ($non_var ?? 'default') . ' | ' . ($non_var ?: 'default')
 echo '| $null | ' . ($null ?? 'default') . ' | ' . ($null ?: 'default') . ' |<br>';
 echo '| $booly | ' . ($booly ?? 'default') . ' | ' . ($booly ?: 'default') . ' |<br>';
 echo '| $bool | ' . ($bool ?? 'default') . ' | ' . ($bool ?: 'default') . ' |<br>';
+echo '| $empty_string  | ' . ($empty_string ?? 'default') . ' | ' . ($empty_string ?: 'default') . ' |<br>';
 echo '| $string | ' . ($string ?? 'default') . ' | ' . ($string ?: 'default') . ' |<br>';
 echo '| $zero_string | ' . ($zero_string ?? 'default') . ' | ' . ($zero_string ?: 'default') . ' |<br>';
 echo '| $zero | ' . ($zero ?? 'default') . ' | ' . ($zero ?: 'default') . ' |<br>';
