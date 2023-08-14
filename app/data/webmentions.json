@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-08-07T20:05:27.673Z",
+  "lastFetched": "2023-08-14T19:46:24.798Z",
   "children": [
     {
       "type": "entry",
@@ -7793,6 +7793,209 @@
       "like-of": "https://www.mikestreety.co.uk/blog/open-door-meetings-at-work/",
       "wm-property": "like-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tim Hofman",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/7125f9e40b6ddbf9256b2cc3d7a966fba52572817a19397946231d710632f900.jpg",
+        "url": "https://phpc.social/@timhofman"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110870088803800062#reblogged-by-110825944191262040",
+      "published": null,
+      "wm-received": "2023-08-12T14:41:33Z",
+      "wm-id": 1704137,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110870088803800062/110825944191262040",
+      "wm-target": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "repost-of": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "absoludo",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/b9fb512fd80146c876b3543fd418819dfbe543f5766f5ac6080298aa2992b65c.jpg",
+        "url": "https://mastodon.nl/@absoludo"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110870088803800062#reblogged-by-109343965416784084",
+      "published": null,
+      "wm-received": "2023-08-11T15:04:39Z",
+      "wm-id": 1703849,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110870088803800062/109343965416784084",
+      "wm-target": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "repost-of": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "ghorwood↙↙↙",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/1200701c8eb24e4d6cc5ab3d3b7062359831f9f306d855d03cf383a3eaa048d0.jpg",
+        "url": "https://mastodon.social/@ghorwood"
+      },
+      "url": "https://mastodon.social/@ghorwood/110871088836521321",
+      "published": "2023-08-11T12:55:57",
+      "wm-received": "2023-08-11T13:09:19Z",
+      "wm-id": 1703827,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/110870088803800062/110871088889291653",
+      "wm-target": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@mikestreety\" class=\"u-url\">@<span>mikestreety</span></a></span> i knew almost all of this intuitively from lots of trial an error, but seeing it written out was comforting. quality content!</p>",
+        "text": "@mikestreety i knew almost all of this intuitively from lots of trial an error, but seeing it written out was comforting. quality content!"
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kevin",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/869a974c9a592fad8b8a7d00a46c4fb23e9e2fd066027e5d29905266abc38ff8.jpg",
+        "url": "https://dice.camp/@kevin"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110870088803800062#favorited-by-109355562962843840",
+      "published": null,
+      "wm-received": "2023-08-11T12:41:06Z",
+      "wm-id": 1703818,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110870088803800062/109355562962843840",
+      "wm-target": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "like-of": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Chris Hartjes",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/e72c7f56c116699e00d23a742d0030585f5ce3fca522e7ae5b2818c3f1b19867.jpg",
+        "url": "https://phpc.social/@grmpyprogrammer"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110870088803800062#reblogged-by-108203629189032473",
+      "published": null,
+      "wm-received": "2023-08-11T11:21:43Z",
+      "wm-id": 1703795,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110870088803800062/108203629189032473",
+      "wm-target": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "repost-of": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Stuart Jones",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/5316434dbe62e9138a70f51b8aa5b351d2124eba1b043a199d5de2632479f889.png",
+        "url": "https://phpc.social/@horuskol"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110870088803800062#favorited-by-109362980823018829",
+      "published": null,
+      "wm-received": "2023-08-11T08:54:14Z",
+      "wm-id": 1703776,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110870088803800062/109362980823018829",
+      "wm-target": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "like-of": "https://www.mikestreety.co.uk/blog/php-ternary-and-null-coalescing-operators/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/79a8663c89209b98bd36255260a2438b764157006e08f091e9dcf8164072d930.jpg",
+        "url": "https://hachyderm.io/@mikestreety"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110850006544528086#reblogged-by-109350373710647299",
+      "published": null,
+      "wm-received": "2023-08-08T16:53:16Z",
+      "wm-id": 1703019,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/110850006544528086/109350373710647299",
+      "wm-target": "https://www.mikestreety.co.uk/blog/build-different-images-with-multi-stage-docker-builds/",
+      "repost-of": "https://www.mikestreety.co.uk/blog/build-different-images-with-multi-stage-docker-builds/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://zerobytes.monster/post/605955",
+      "published": null,
+      "wm-received": "2023-08-07T20:44:25Z",
+      "wm-id": 1702641,
+      "wm-source": "https://zerobytes.monster/post/605955",
+      "wm-target": "https://www.mikestreety.co.uk/blog/build-different-images-with-multi-stage-docker-builds/",
+      "mention-of": "https://www.mikestreety.co.uk/blog/build-different-images-with-multi-stage-docker-builds/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://zerobytes.monster/post/605955"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/",
+      "published": null,
+      "wm-received": "2023-08-07T20:38:02Z",
+      "wm-id": 1702640,
+      "wm-source": "https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/",
+      "wm-target": "https://www.mikestreety.co.uk/blog/build-different-images-with-multi-stage-docker-builds/",
+      "name": "Build different images with multi-stage Docker builds by mikestreety",
+      "content": {
+        "html": "<h5>Share This Article</h5><span><span><span>Share Post</span><span><a href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhacktech.pro%2Fbuild-different-images-with-multi-stage-docker-builds-by-mikestreety%2F\"><span><span></span></span></a><a href=\"https://twitter.com/intent/tweet?text=Build+different+images+with+multi-stage+Docker+builds+by+mikestreety&amp;url=https%3A%2F%2Fhacktech.pro%2Fbuild-different-images-with-multi-stage-docker-builds-by-mikestreety%2F\"><span><span></span></span></a><a href=\"mailto:admin@example.com\"><span><span></span></span></a><a title=\"Copy URL to clipboard\" href=\"https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/#\"><span><span></span></span></a></span></span></span>\t\t\t\t\t<h5>Newsletter</h5>\n<p>Sed ut perspiciatis unde.</p>\n<a href=\"https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/#\"><span><span></span></span><span><span>Subscribe</span></span></a>\n        <a href=\"http://news.ycombinator.com/submitlink?u=https%3A%2F%2Fhacktech.pro%2Fbuild-different-images-with-multi-stage-docker-builds-by-mikestreety%2F&amp;t=Build+different+images+with+multi-stage+Docker+builds+by+mikestreety\">\n        <img src=\"https://image.ibb.co/hbeWwz/hn.jpg\" alt=\"hn.jpg\" /><br /><span>Send to HN</span>\n        </a>\n        \n<p>I’ve written before about <a href=\"https://www.mikestreety.co.uk/blog/creating-a-multi-stage-docker-build-to-make-your-images-smaller/\">multi-stage Docker builds</a> to help you make smaller images, however today I discovered you can build images out of each of the stages.</p>\n<p>The advantage for this is being able to create two, or more, images with incremental features allowing you to used the leanest image for the function.</p>\n<p>The use-case I had was for our Gitlab CI and the images we use for deployment. Our base image needed PHP, Composer and Node, however we needed an additional image which also included Docker – so we could build a Docker image inside the CI.</p>\n<p>Rather than bloat all the base images or use two separate <code>Dockerfile</code> files, I heave lent on multi-stage Docker builds to make all the images I need.</p>\n<h2>Dockerfile</h2>\n<p>Let’s start with the Dockerfile, this below creates a minimal Linux (Alpine) based image with PHP (Version passed in via a CLI argument), NPM and tools to use image optimisation tools (such as <code>gulp-imagemin</code>)</p>\n<pre><code>\n\n\n<span><span>ARG</span> PHP_VERSION</span>\n\n\n\n\n<span><span>FROM</span> composer:2 <span>as</span> COMPOSER</span>\n\n<span><span>FROM</span> php:<span>$PHP_VERSION</span>-cli-alpine3.16</span>\n\n\n<span><span>COPY</span> <span><span>--from</span><span>=</span><span>COMPOSER</span></span> /usr/bin/composer /usr/bin/composer</span>\n\n\n<span><span>RUN</span> apk add <span></span>\n\t--update <span></span>\n\t--no-cache <span></span>\n\t\n\tbash <span></span>\n\tgit <span></span>\n\topenssh <span></span>\n\trsync <span></span>\n\t\n\tnodejs <span></span>\n\tnpm <span></span>\n\t\n\tautoconf <span></span>\n\tautomake <span></span>\n\tg++ <span></span>\n\tgcc <span></span>\n\tjpeg <span></span>\n\tlibc6-compat <span></span>\n\tlibjpeg-turbo-dev <span></span>\n\tlibpng-dev <span></span>\n\tlibtool <span></span>\n\tmake <span></span>\n\tmusl-dev <span></span>\n\tnasm <span></span>\n\ttiff <span></span>\n\tzlib <span></span>\n\tzlib-dev</span>\n\n\n<span><span>RUN</span> mkdir /root/.ssh <span></span>\n\t&amp;&amp; touch /root/.ssh/id_ed25519 <span></span>\n\t&amp;&amp; chmod 700 /root/.ssh; <span></span>\n\tchmod 600 /root/.ssh/id_ed25519;</span>\n\n<span><span>ENTRYPOINT</span> [<span>\"/bin/sh\"</span>, <span>\"-c\"</span>]</span></code></pre>\n<p>We can build this, and specify the PHP version when doing so:</p>\n<pre><code> <span>docker</span> build <span></span>\n\t<span>--tag</span> deployment:php8.1 <span></span>\n\t--build-arg <span>PHP_VERSION</span><span>=</span><span>8.1</span> <span></span>\n\t<span>.</span></code></pre>\n<p>If we wanted to create a second image with more applications than the first, we can do this with staged builds.</p>\n<p>By giving each stage a na</p>\n\n<p><a href=\"https://www.mikestreety.co.uk/blog/build-different-images-with-multi-stage-docker-builds/\">Read More</a></p>",
+        "text": "Share This ArticleShare Post\t\t\t\t\tNewsletter\nSed ut perspiciatis unde.\nSubscribe\n        \n        \nSend to HN\n        \n        \nI’ve written before about multi-stage Docker builds to help you make smaller images, however today I discovered you can build images out of each of the stages.\nThe advantage for this is being able to create two, or more, images with incremental features allowing you to used the leanest image for the function.\nThe use-case I had was for our Gitlab CI and the images we use for deployment. Our base image needed PHP, Composer and Node, however we needed an additional image which also included Docker – so we could build a Docker image inside the CI.\nRather than bloat all the base images or use two separate Dockerfile files, I heave lent on multi-stage Docker builds to make all the images I need.\nDockerfile\nLet’s start with the Dockerfile, this below creates a minimal Linux (Alpine) based image with PHP (Version passed in via a CLI argument), NPM and tools to use image optimisation tools (such as gulp-imagemin)\n\n\n\nARG PHP_VERSION\n\n\n\n\nFROM composer:2 as COMPOSER\n\nFROM php:$PHP_VERSION-cli-alpine3.16\n\n\nCOPY --from=COMPOSER /usr/bin/composer /usr/bin/composer\n\n\nRUN apk add \n\t--update \n\t--no-cache \n\t\n\tbash \n\tgit \n\topenssh \n\trsync \n\t\n\tnodejs \n\tnpm \n\t\n\tautoconf \n\tautomake \n\tg++ \n\tgcc \n\tjpeg \n\tlibc6-compat \n\tlibjpeg-turbo-dev \n\tlibpng-dev \n\tlibtool \n\tmake \n\tmusl-dev \n\tnasm \n\ttiff \n\tzlib \n\tzlib-dev\n\n\nRUN mkdir /root/.ssh \n\t&& touch /root/.ssh/id_ed25519 \n\t&& chmod 700 /root/.ssh; \n\tchmod 600 /root/.ssh/id_ed25519;\n\nENTRYPOINT [\"/bin/sh\", \"-c\"]\nWe can build this, and specify the PHP version when doing so:\n docker build \n\t--tag deployment:php8.1 \n\t--build-arg PHP_VERSION=8.1 \n\t.\nIf we wanted to create a second image with more applications than the first, we can do this with staged builds.\nBy giving each stage a na\n\nRead More"
+      },
+      "mention-of": "https://www.mikestreety.co.uk/blog/build-different-images-with-multi-stage-docker-builds/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/",
+      "published": null,
+      "wm-received": "2023-08-07T20:38:01Z",
+      "wm-id": 1702639,
+      "wm-source": "https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/",
+      "wm-target": "https://www.mikestreety.co.uk/blog/creating-a-multi-stage-docker-build-to-make-your-images-smaller/",
+      "name": "Build different images with multi-stage Docker builds by mikestreety",
+      "content": {
+        "html": "<h5>Share This Article</h5><span><span><span>Share Post</span><span><a href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhacktech.pro%2Fbuild-different-images-with-multi-stage-docker-builds-by-mikestreety%2F\"><span><span></span></span></a><a href=\"https://twitter.com/intent/tweet?text=Build+different+images+with+multi-stage+Docker+builds+by+mikestreety&amp;url=https%3A%2F%2Fhacktech.pro%2Fbuild-different-images-with-multi-stage-docker-builds-by-mikestreety%2F\"><span><span></span></span></a><a href=\"mailto:admin@example.com\"><span><span></span></span></a><a title=\"Copy URL to clipboard\" href=\"https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/#\"><span><span></span></span></a></span></span></span>\t\t\t\t\t<h5>Newsletter</h5>\n<p>Sed ut perspiciatis unde.</p>\n<a href=\"https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/#\"><span><span></span></span><span><span>Subscribe</span></span></a>\n        <a href=\"http://news.ycombinator.com/submitlink?u=https%3A%2F%2Fhacktech.pro%2Fbuild-different-images-with-multi-stage-docker-builds-by-mikestreety%2F&amp;t=Build+different+images+with+multi-stage+Docker+builds+by+mikestreety\">\n        <img src=\"https://image.ibb.co/hbeWwz/hn.jpg\" alt=\"hn.jpg\" /><br /><span>Send to HN</span>\n        </a>\n        \n<p>I’ve written before about <a href=\"https://www.mikestreety.co.uk/blog/creating-a-multi-stage-docker-build-to-make-your-images-smaller/\">multi-stage Docker builds</a> to help you make smaller images, however today I discovered you can build images out of each of the stages.</p>\n<p>The advantage for this is being able to create two, or more, images with incremental features allowing you to used the leanest image for the function.</p>\n<p>The use-case I had was for our Gitlab CI and the images we use for deployment. Our base image needed PHP, Composer and Node, however we needed an additional image which also included Docker – so we could build a Docker image inside the CI.</p>\n<p>Rather than bloat all the base images or use two separate <code>Dockerfile</code> files, I heave lent on multi-stage Docker builds to make all the images I need.</p>\n<h2>Dockerfile</h2>\n<p>Let’s start with the Dockerfile, this below creates a minimal Linux (Alpine) based image with PHP (Version passed in via a CLI argument), NPM and tools to use image optimisation tools (such as <code>gulp-imagemin</code>)</p>\n<pre><code>\n\n\n<span><span>ARG</span> PHP_VERSION</span>\n\n\n\n\n<span><span>FROM</span> composer:2 <span>as</span> COMPOSER</span>\n\n<span><span>FROM</span> php:<span>$PHP_VERSION</span>-cli-alpine3.16</span>\n\n\n<span><span>COPY</span> <span><span>--from</span><span>=</span><span>COMPOSER</span></span> /usr/bin/composer /usr/bin/composer</span>\n\n\n<span><span>RUN</span> apk add <span></span>\n\t--update <span></span>\n\t--no-cache <span></span>\n\t\n\tbash <span></span>\n\tgit <span></span>\n\topenssh <span></span>\n\trsync <span></span>\n\t\n\tnodejs <span></span>\n\tnpm <span></span>\n\t\n\tautoconf <span></span>\n\tautomake <span></span>\n\tg++ <span></span>\n\tgcc <span></span>\n\tjpeg <span></span>\n\tlibc6-compat <span></span>\n\tlibjpeg-turbo-dev <span></span>\n\tlibpng-dev <span></span>\n\tlibtool <span></span>\n\tmake <span></span>\n\tmusl-dev <span></span>\n\tnasm <span></span>\n\ttiff <span></span>\n\tzlib <span></span>\n\tzlib-dev</span>\n\n\n<span><span>RUN</span> mkdir /root/.ssh <span></span>\n\t&amp;&amp; touch /root/.ssh/id_ed25519 <span></span>\n\t&amp;&amp; chmod 700 /root/.ssh; <span></span>\n\tchmod 600 /root/.ssh/id_ed25519;</span>\n\n<span><span>ENTRYPOINT</span> [<span>\"/bin/sh\"</span>, <span>\"-c\"</span>]</span></code></pre>\n<p>We can build this, and specify the PHP version when doing so:</p>\n<pre><code> <span>docker</span> build <span></span>\n\t<span>--tag</span> deployment:php8.1 <span></span>\n\t--build-arg <span>PHP_VERSION</span><span>=</span><span>8.1</span> <span></span>\n\t<span>.</span></code></pre>\n<p>If we wanted to create a second image with more applications than the first, we can do this with staged builds.</p>\n<p>By giving each stage a na</p>\n\n<p><a href=\"https://www.mikestreety.co.uk/blog/build-different-images-with-multi-stage-docker-builds/\">Read More</a></p>",
+        "text": "Share This ArticleShare Post\t\t\t\t\tNewsletter\nSed ut perspiciatis unde.\nSubscribe\n        \n        \nSend to HN\n        \n        \nI’ve written before about multi-stage Docker builds to help you make smaller images, however today I discovered you can build images out of each of the stages.\nThe advantage for this is being able to create two, or more, images with incremental features allowing you to used the leanest image for the function.\nThe use-case I had was for our Gitlab CI and the images we use for deployment. Our base image needed PHP, Composer and Node, however we needed an additional image which also included Docker – so we could build a Docker image inside the CI.\nRather than bloat all the base images or use two separate Dockerfile files, I heave lent on multi-stage Docker builds to make all the images I need.\nDockerfile\nLet’s start with the Dockerfile, this below creates a minimal Linux (Alpine) based image with PHP (Version passed in via a CLI argument), NPM and tools to use image optimisation tools (such as gulp-imagemin)\n\n\n\nARG PHP_VERSION\n\n\n\n\nFROM composer:2 as COMPOSER\n\nFROM php:$PHP_VERSION-cli-alpine3.16\n\n\nCOPY --from=COMPOSER /usr/bin/composer /usr/bin/composer\n\n\nRUN apk add \n\t--update \n\t--no-cache \n\t\n\tbash \n\tgit \n\topenssh \n\trsync \n\t\n\tnodejs \n\tnpm \n\t\n\tautoconf \n\tautomake \n\tg++ \n\tgcc \n\tjpeg \n\tlibc6-compat \n\tlibjpeg-turbo-dev \n\tlibpng-dev \n\tlibtool \n\tmake \n\tmusl-dev \n\tnasm \n\ttiff \n\tzlib \n\tzlib-dev\n\n\nRUN mkdir /root/.ssh \n\t&& touch /root/.ssh/id_ed25519 \n\t&& chmod 700 /root/.ssh; \n\tchmod 600 /root/.ssh/id_ed25519;\n\nENTRYPOINT [\"/bin/sh\", \"-c\"]\nWe can build this, and specify the PHP version when doing so:\n docker build \n\t--tag deployment:php8.1 \n\t--build-arg PHP_VERSION=8.1 \n\t.\nIf we wanted to create a second image with more applications than the first, we can do this with staged builds.\nBy giving each stage a na\n\nRead More"
+      },
+      "mention-of": "https://www.mikestreety.co.uk/blog/creating-a-multi-stage-docker-build-to-make-your-images-smaller/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/"
+      }
     }
   ]
 }

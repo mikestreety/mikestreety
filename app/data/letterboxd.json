@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-08-07T20:05:28.728Z",
+  "lastFetched": "2023-08-14T19:46:26.034Z",
   "items": [
     {
       "creator": "Mike Street",
@@ -250,6 +250,21 @@
       "watchedDate": "2023-06-24",
       "filmYear": "2022",
       "memberRating": "4.5",
+      "rewatch": "No"
+    },
+    {
+      "creator": "Mike Street",
+      "title": "The Out-Laws, 2023 - ★★★★",
+      "link": "https://letterboxd.com/mikestreety/film/the-out-laws/",
+      "pubDate": "Sun, 13 Aug 2023 07:01:35 +1200",
+      "content": " <p><img src=\"https://a.ltrbxd.com/resized/film-poster/8/2/7/3/8/0/827380-the-out-laws-0-600-0-900-crop.jpg?v=fcca47b3f4\"/></p> <p>Watched on Friday August 11, 2023.</p> ",
+      "contentSnippet": "Watched on Friday August 11, 2023.",
+      "guid": "letterboxd-watch-429377932",
+      "isoDate": "2023-08-12T19:01:35.000Z",
+      "filmTitle": "The Out-Laws",
+      "watchedDate": "2023-08-11",
+      "filmYear": "2023",
+      "memberRating": "4.0",
       "rewatch": "No"
     }
   ]
