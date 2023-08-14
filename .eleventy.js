@@ -2,6 +2,7 @@ const {live, blog, drafts, scheduled, notes} = require('./app/filters/posts');
 const { convert } = require('html-to-text');
 const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
 
+
 module.exports = function (config) {
 	config.addPassthroughCopy('./app/content/admin');
 
@@ -29,6 +30,7 @@ module.exports = function (config) {
 		return `${(d.getHours() < 10 ? '0' : '') + d.getHours()}:${(d.getMinutes() < 10 ? '0' : '') + d.getMinutes()}`;
 	});
 
+	config.addPlugin(require('@orchidjs/eleventy-plugin-ids'));
 	config.addPlugin(require('@mikestreety/11ty-utils'));
 	config.addPlugin(require('@11ty/eleventy-navigation'));
 	config.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
