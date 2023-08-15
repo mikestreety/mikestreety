@@ -2,7 +2,7 @@
 title: Deploying a Docker image to a remote private registry with Gitlab CI
 date: 2023-03-01
 intro: Deploying an image to a remote Docker registry can be achieved with Gitlab CI
-permalink: "blog/`deploying-a-docker-image-to-a-remote-private-registry-with-gitlab-ci`/"
+permalink: "blog/deploying-a-docker-image-to-a-remote-private-registry-with-gitlab-ci/"
 tags:
   - Docker
   - Gitlab
