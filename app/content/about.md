@@ -37,7 +37,7 @@ I started looking into [**Gitlab CI**](/category/gitlab-ci/) - after a previous 
 
 With the progression of **[TYPO3](/category/typo3/)**, we needed to convert all of our projects to using **Composer**. I researched and [utilised our self-hosted **Gitlab**](/blog/build-and-release-composer-packages-using-a-self-hosted-gitlab/) to host our own private packages. Once completed I set out a workflow for our upgrade chain which includes converting to the use of **`.env` files** rather than committing secrets to the Git repositories.
 
-To optimise our workflow further, I created a deployment workflow with **[PHP Deployer](/blog/automatically-deploying-your-lumen-app-with-php-deployer-and-zero-downtime-so-you-dont-have-to-manually-do-it/)** and integrated it into our Gitlab CI process. All our SSH connections now go through a **Bastion/Jump server**, which means we can lock down incoming connections to just those IPs and ensure tight secrutiy on the interim servers.
+To optimise our workflow further, I created a deployment workflow with **[PHP Deployer](/blog/automatically-deploying-your-lumen-app-with-php-deployer-and-zero-downtime-so-you-dont-have-to-manually-do-it/)** and integrated it into our Gitlab CI process. All our SSH connections now go through a **Bastion/Jump server**, which means we can lock down incoming connections to just those IPs and ensure tight security on the interim servers.
 
 For both the CI processes and a requirement for some of our clients, I created several **[Docker](/category/docker/)** images, fine-tuning and ensuring they are as lean and optimised as possible. Similar to the packages, I developed a CI pipeline which built and pushed the Docker images to the private, [Gitlab-hosted registry](/blog/deploying-a-docker-image-to-a-remote-private-registry-with-gitlab-ci/).
 
@@ -55,6 +55,6 @@ In 2020 I [**interviewed 8 web-folk**](https://www.behindthesource.co.uk/intervi
 
 I also featured on [Series 5](https://makelifeworkpodcast.com/tag/season-5/) of the **Make Life Work** podcast alongside Si and Sam, featured as an "[**On the Side**](http://ontheside.network/)" takeover.
 
-In my time I have also organised several mini-conferences, starting with [**Points**](/category/events/) and moving onto [**Bytes**](https://www.bytesconf.co.uk/). Ruinning these events also gave me the opportuntiy to feature in the, then, [**.net magazine**](https://www.mikestreety.co.uk/blog/start-your-own-event/).
+In my time I have also organised several mini-conferences, starting with [**Points**](/category/events/) and moving onto [**Bytes**](https://www.bytesconf.co.uk/). Running these events also gave me the opportunity to feature in the, then, [**.net magazine**](https://www.mikestreety.co.uk/blog/start-your-own-event/).
 
 I review beers and [post them online](https://alehouse.rocks/) to create a searchable, filterable and stat-gathering 11ty powered website. It uses **Cloudflare Workers** to convert Untappd reviews to **JSON**, this is then absorbed by a **Netlify function** to commit to the repository.
