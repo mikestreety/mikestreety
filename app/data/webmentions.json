@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-08-14T19:46:24.798Z",
+  "lastFetched": "2023-08-17T20:18:57.984Z",
   "children": [
     {
       "type": "entry",
@@ -7996,6 +7996,42 @@
       "rels": {
         "canonical": "https://hacktech.pro/build-different-images-with-multi-stage-docker-builds-by-mikestreety/"
       }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/acf170f4322b97c934d6a0e2b651d5c836f312a39bb1a0a1287a913c4fc4a7da.gif",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110898012923883190#favorited-by-109298770510051442",
+      "published": null,
+      "wm-received": "2023-08-16T07:58:57Z",
+      "wm-id": 1705395,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110898012923883190/109298770510051442",
+      "wm-target": "https://www.mikestreety.co.uk/about/",
+      "like-of": "https://www.mikestreety.co.uk/about/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adrian Lansdown",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/b15fe7c4903425fa3453a5de069f7283f8314cff700000f2f9460e3edf9ed2d1.png",
+        "url": "https://managingengineers.net/@Adrian"
+      },
+      "url": "https://hachyderm.io/@mikestreety/110898012923883190#favorited-by-109446601760534860",
+      "published": null,
+      "wm-received": "2023-08-16T07:26:43Z",
+      "wm-id": 1705391,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/110898012923883190/109446601760534860",
+      "wm-target": "https://www.mikestreety.co.uk/about/",
+      "like-of": "https://www.mikestreety.co.uk/about/",
+      "wm-property": "like-of",
+      "wm-private": false
     }
   ]
 }

@@ -12,9 +12,11 @@
     "dev": "npm run datacollector:collect && npm run watch:assets & npm run watch:11ty",
     "prod": "tinacms build && npm run prod:assets && npm run prod:11ty",
     "build": "npm run prod",
-    "datacollector:collect": "npm run dc:webmentions && npm run dc:letterboxd",
+    "datacollector": "datacollector",
+    "datacollector:collect": "npm run dc:webmentions && npm run dc:letterboxd && npm run dc:lastfm",
     "dc:webmentions": "datacollector webmentions app/data/webmentions.json -d www.mikestreety.co.uk -t lId0N38z8IMrDHih2VFZ7Q",
-    "dc:letterboxd": "datacollector letterboxd app/data/letterboxd.json -u mikestreety"
+    "dc:letterboxd": "datacollector letterboxd app/data/letterboxd.json -u mikestreety",
+    "dc:lastfm": "datacollector rss app/data/lastfm.json -f https://lfm.xiffy.nl/mikestreety"
   },
   "keywords": [],
   "author": "",
