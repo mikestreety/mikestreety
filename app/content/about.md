@@ -9,7 +9,7 @@ eleventyNavigation:
 
 # About Mike Street
 
-I am a process driven fullstack developer who specialises in **PHP**, **MySQL**, **(S)CSS**, **JavaScript** & **jQuery** (yes, it's still a thing), **CI/CD** and **DevOps**. I enjoy find better, faster, more efficient ways of doings things and am driven by automating as much as possible. From code minification to spreadsheets, I geek out on making things work.
+I am a process driven fullstack developer who specialises in **PHP**, **MySQL**, **(S)CSS**, **JavaScript** & **jQuery** (yes, it's still a thing), **CI/CD** and **DevOps**. I enjoy finding better, faster, more efficient ways of doings things and am driven by automating as much as possible. From code minification to spreadsheets, I geek out on making things work.
 
 ## A brief history
 
@@ -58,3 +58,10 @@ I also featured on [Series 5](https://makelifeworkpodcast.com/tag/season-5/) of 
 In my time I have also organised several mini-conferences, starting with [**Points**](/category/events/) and moving onto [**Bytes**](https://www.bytesconf.co.uk/). Running these events also gave me the opportunity to feature in the, then, [**.net magazine**](https://www.mikestreety.co.uk/blog/start-your-own-event/).
 
 I review beers and [post them online](https://alehouse.rocks/) to create a searchable, filterable and stat-gathering 11ty powered website. It uses **Cloudflare Workers** to convert Untappd reviews to **JSON**, this is then absorbed by a **Netlify function** to commit to the repository.
+
+<div class="cta-box">
+	<div class="container">
+		<h2>Want to talk?</h2>
+		<p>If you have any questions about anything mentioned on this page or are looking for some consultation in any of the topics, then please <a href="/contact/">Get in touch</a></p>
+	</div>
+</div>

@@ -40,6 +40,14 @@ eleventyNavigation:
 	</div>
 </div>
 
+<div class="container">
+	<div class="cta-box">
+		<h2>Want to talk?</h2>
+		<p>Are you looking for a <strong>consultation</strong> on CI/CD, DevOps, Docker, Git, or  any other web development process? Perhaps you have <strong>questions</strong> about one of my blogs or related topics? Are you looking for a <strong>mentor</strong> or someone to bounce ideas off?</p>
+		<p><a href="/contact/" class="button">Get in touch</a></p>
+	</div>
+</div>
+
 <section class="post-listing">
 	<div class="container">
 		<h2>Latest Posts</h2>
@@ -47,7 +55,7 @@ eleventyNavigation:
 	<div class="horizonal-listing container">
 		<div class="post-listing">
 			<ul>
-			{% set postslist = collections.blog | limit(6) %}
+			{% set postslist = collections.blog | limit(2) %}
 			{%- for entry in postslist -%}
 				{% include 'entry.njk' %}
 			{% endfor %}
