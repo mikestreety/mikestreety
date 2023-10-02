@@ -13,13 +13,12 @@ At Liquid Light, we maintain several [public](https://github.com/orgs/liquidligh
 
 I'll go into more detail below, but the workflow is:
 
-- [Workflow](#workflow)
 - [Make an Issue](#make-an-issue)
 - [Create a Merge Request](#create-a-merge-request)
 - [Work on the code](#work-on-the-code)
 - [Update `UPCOMING.md`](#update-upcomingmd)
 - [Push branch and request peer review](#push-branch-and-request-peer-review)
-- [Merge with merge commit \& test the merged result](#merge-with-merge-commit-test-the-merged-result)
+- [Merge with merge commit & test the merged result](#merge-with-merge-commit-and-test-the-merged-result)
 - [Release](#release)
 
 ## Make an Issue
