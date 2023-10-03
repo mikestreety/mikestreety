@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-10-01T19:42:13.871Z",
+  "lastFetched": "2023-10-03T22:10:21.161Z",
   "children": [
     {
       "type": "entry",
@@ -8266,6 +8266,66 @@
       "wm-target": "https://www.mikestreety.co.uk/notes/everyone-has-javascript-right/",
       "wm-protocol": "webmention",
       "like-of": "https://www.mikestreety.co.uk/notes/everyone-has-javascript-right/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://devstacktips.com/a-release-process-for-our-npm-and-composer-packages/",
+      "published": null,
+      "wm-received": "2023-10-02T22:01:51Z",
+      "wm-id": 1722846,
+      "wm-source": "https://devstacktips.com/a-release-process-for-our-npm-and-composer-packages/",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-release-process-for-our-npm-and-composer-packages/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://www.mikestreety.co.uk/blog/a-release-process-for-our-npm-and-composer-packages/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://www.mikestreety.co.uk/blog/a-release-process-for-our-npm-and-composer-packages/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/acf170f4322b97c934d6a0e2b651d5c836f312a39bb1a0a1287a913c4fc4a7da.gif",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/111166259230725549#favorited-by-109298770510051442",
+      "published": null,
+      "wm-received": "2023-10-02T16:35:58Z",
+      "wm-id": 1722715,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/111166259230725549/109298770510051442",
+      "wm-target": "https://www.mikestreety.co.uk/notes/introducing-selectorhound/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/notes/introducing-selectorhound/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/79a8663c89209b98bd36255260a2438b764157006e08f091e9dcf8164072d930.jpg",
+        "url": "https://hachyderm.io/@mikestreety"
+      },
+      "url": "https://hachyderm.io/@mikestreety/111135412879752038#favorited-by-109350373710647299",
+      "published": null,
+      "wm-received": "2023-10-01T20:18:56Z",
+      "wm-id": 1722338,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/111135412879752038/109350373710647299",
+      "wm-target": "https://www.mikestreety.co.uk/notes/i-find-ai-so-uninteresting/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/notes/i-find-ai-so-uninteresting/",
       "wm-property": "like-of",
       "wm-private": false
     }
