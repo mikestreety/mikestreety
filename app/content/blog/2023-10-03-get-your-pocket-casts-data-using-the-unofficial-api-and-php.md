@@ -12,7 +12,7 @@ Pocket Casts is a Android podcast player I've been using for some time. I wanted
 
 Pocket Casts doesn't offer an official API, unfortunately, but does have some data available on `https://api.pocketcasts.com` - which I assume is what the web application uses to get data behind the scenes.
 
-Using hints from the [`pocketcasts`` NPM package](https://www.npmjs.com/package/pocketcasts), I backwards engineered the code below which requires "logging in" and then accessing other endpoints with a Bearer token.
+Using hints from the [`pocketcasts` NPM package](https://www.npmjs.com/package/pocketcasts), I backwards engineered the code below which requires "logging in" and then accessing other endpoints with a Bearer token.
 
 <div class="warning">For the code below to work, you need to have access to the web player which, at the time of writing, needs "Pocket Casts Plus" - the paid-for service</div>
 
@@ -89,4 +89,4 @@ A lot of the code is similar to that of above, so consider putting it in a funct
 
 You can now access a lot of data on Pocket Casts using the examples above.
 
-I'm not actually going to be using this as the history doesn't tell you when you _actually_ listened to it, nor does it give more than 100 results.
+I'm not going to be using this as the history doesn't tell you when you _actually_ listened to it, nor does it give more than 100 results on desktop - which is annoying.
