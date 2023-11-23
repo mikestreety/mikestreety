@@ -12,7 +12,7 @@ For a recent project I needed to automate something which was only available in 
 
 A working example of this code can be found in this [git repository](https://github.com/liquidlight/puppeteer-typo3-translations).
 
-## What is Puppeteer
+## What is Puppeteer?
 
 [Puppeteer](https://pptr.dev/) is a Node/NPM package which allows you to create & control a headless Chrome instance, allowing you to do front-end/UI based tasks programmatically. It is hugely powerful and worth investigating if that is your thing. One of the most common examples is opening a page and taking a screenshot or submitting a form for testing.
 
