@@ -129,7 +129,7 @@ const run = async () => {
 	});
 
 	// Create a new page in the browser
-	page = await browser.newPage();
+	const page = await browser.newPage();
 
 	// Load the cookies
 	await loadCookie(page);
