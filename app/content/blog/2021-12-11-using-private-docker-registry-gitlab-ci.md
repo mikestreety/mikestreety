@@ -22,7 +22,7 @@ In the steps below, replace `registry.private.com` with the URL to your private 
 1. If your registry is hosted on Gitlab: Generate a Gitlab Access Token (on the instance where the registry is) which, as a minimum, has `read_registry` access (if you need to build and push you will also need `write_registry`).
 2. Make a note of your token and, on your local machine, check it works with `docker login registry.private.com -u [username] -p [password/token]`
 3. Once verified, generate a base64 encoding of your username and password: `echo -n "my_username:my_password" | base64` - make a note of the result
-4. In the Gitlab instance you wish to use your private registry from, make a new CI/CD variable called `DOCKER_AUTH_CONFIG` - in it, paste the following (replacing both the registry URL and base64 output):
+4. In the Gitlab instance you wish to use your private registry from, make a new CI/CD variable of type 'File' called `DOCKER_AUTH_CONFIG` - in it, paste the following (replacing both the registry URL and base64 output):
 ```json
 {
     "auths": {
