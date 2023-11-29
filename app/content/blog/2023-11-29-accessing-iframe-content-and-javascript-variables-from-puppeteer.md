@@ -86,10 +86,6 @@ const run = async () => {
     // Create a new page in the browser
     const page = await browser.newPage();
 
-
-    // Close the browser once you have finished
-    browser.close();
-
     // Go to the page and wait for everything to load - this ensures the iframe has loaded
    await page.goto('https://iframetester.com/?url=https://www.wikipedia.org/', {
         waitUntil: ['domcontentloaded', 'networkidle2'],
@@ -105,6 +101,7 @@ const run = async () => {
 +   // Output the src
 +   console.log(src);
 
+    // Close the browser once you have finished
     browser.close();
 };
 
@@ -142,10 +139,6 @@ const run = async () => {
     // Create a new page in the browser
     const page = await browser.newPage();
 
-
-    // Close the browser once you have finished
-    browser.close();
-
     // Go to the page and wait for everything to load - this ensures the iframe has loaded
    await page.goto('https://iframetester.com/?url=https://www.wikipedia.org/', {
         waitUntil: ['domcontentloaded', 'networkidle2'],
@@ -164,6 +157,7 @@ const run = async () => {
     // Log the output of the variable
 	console.log(rtlLangs);
 
+    // Close the browser once you have finished
     browser.close();
 };
 
