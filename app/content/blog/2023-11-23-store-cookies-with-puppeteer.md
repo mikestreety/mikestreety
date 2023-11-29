@@ -6,6 +6,7 @@ permalink: "blog/login-with-puppeteer-and-re-use-cookies-for-another-window/"
 tags:
  - Node
  - NPM
+ - Puppeteer
 ---
 
 For a recent project I needed to automate something which was only available in the CMS via a login. To help speed to process up, I created a script which can login with supplied credentials and store the cookies in a local file. The main process can then use these cookies to carry out the task rather than needing to login each time.
@@ -43,46 +44,46 @@ const fs = require('fs');
 
 // Login credentials
 const url = '',
-	username = '',
-	password = '';
+    username = '',
+    password = '';
 
 // Create a login function
 const login = async () => {
-	// Create a new puppeteer browser
-	const browser = await puppeteer.launch({
-		// Change to `false` if you want to open the window
-		headless: 'new',
-	});
+    // Create a new puppeteer browser
+    const browser = await puppeteer.launch({
+        // Change to `false` if you want to open the window
+        headless: 'new',
+    });
 
-	// Create a new browser page
-	const page = await browser.newPage();
+    // Create a new browser page
+    const page = await browser.newPage();
 
-	// Go to the URL
-	await page.goto(url);
+    // Go to the URL
+    await page.goto(url);
 
-	// Input username (selector may need updating)
-	await page.type('input[type=text]', username);
-	// Input password (selector may need updating)
-	await page.type('input[type=password]', password);
-	// Click the submit button
-	await page.click('button[type=submit]');
+    // Input username (selector may need updating)
+    await page.type('input[type=text]', username);
+    // Input password (selector may need updating)
+    await page.type('input[type=password]', password);
+    // Click the submit button
+    await page.click('button[type=submit]');
 
-	// Wait for a selector to be loaded on the page -
-	// this helps make sure the page is fully loaded so you capture all the cookies
-	await page.waitForSelector('main');
+    // Wait for a selector to be loaded on the page -
+    // this helps make sure the page is fully loaded so you capture all the cookies
+    await page.waitForSelector('main');
 
-	const cookies = JSON.stringify(await page.cookies());
-	await fs.writeFileSync('./cookies.json', cookies);
+    const cookies = JSON.stringify(await page.cookies());
+    await fs.writeFileSync('./cookies.json', cookies);
 
-	// Optional - sessions & local storage
-	// const sessionStorage = await page.evaluate(() => JSON.stringify(sessionStorage));
-	// await fs.writeFileSync('./sessionStorage.json', cookies);
+    // Optional - sessions & local storage
+    // const sessionStorage = await page.evaluate(() => JSON.stringify(sessionStorage));
+    // await fs.writeFileSync('./sessionStorage.json', cookies);
 
-	// const localStorage = await page.evaluate(() => JSON.stringify(localStorage));
-	// await fs.writeFileSync('./localStorage.json', cookies);
+    // const localStorage = await page.evaluate(() => JSON.stringify(localStorage));
+    // await fs.writeFileSync('./localStorage.json', cookies);
 
-	// Close the browser once you have finished
-	browser.close();
+    // Close the browser once you have finished
+    browser.close();
 };
 
 // Fire the function
@@ -110,37 +111,37 @@ const fs = require('fs');
 
 // Load the cookies into the page passed in
 const loadCookie = async (page) => {
-	// Load the cookie JSON file
-	const cookieJson = await fs.readFileSync('./cookies.json');
+    // Load the cookie JSON file
+    const cookieJson = await fs.readFileSync('./cookies.json');
 
-	// Parse the text file as JSON
-	const cookies = JSON.parse(cookieJson);
+    // Parse the text file as JSON
+    const cookies = JSON.parse(cookieJson);
 
-	// Set the cookies on the page
-	await page.setCookie(...cookies);
+    // Set the cookies on the page
+    await page.setCookie(...cookies);
 }
 
 // Our main function
 const run = async () => {
-	// Create a new puppeteer browser
-	const browser = await puppeteer.launch({
-		// Change to `false` if you want to open the window
-		headless: 'new',
-	});
+    // Create a new puppeteer browser
+    const browser = await puppeteer.launch({
+        // Change to `false` if you want to open the window
+        headless: 'new',
+    });
 
-	// Create a new page in the browser
-	const page = await browser.newPage();
+    // Create a new page in the browser
+    const page = await browser.newPage();
 
-	// Load the cookies
-	await loadCookie(page);
+    // Load the cookies
+    await loadCookie(page);
 
-	// Load your super secure URL
-	// await page.goto(https://super.secure/url);
-	// Do more work
-	// Profit
+    // Load your super secure URL
+    // await page.goto(https://super.secure/url);
+    // Do more work
+    // Profit
 
-	// Close the browser once you have finished
-	browser.close();
+    // Close the browser once you have finished
+    browser.close();
 }
 
 // Run it all
