@@ -40,7 +40,7 @@ npm i @liquidlight/docusaurus-framework --save
 ```
 
 
-This package allows for a lightweight [Docusauruas](https://docusaurus.io/) site to be set up in an existing repo (e.g. in a `docs` folder). It requires a small `docusaurus.config.js` and a minimal `package.json` which then generates a nice-looking, clean documentation site with some sensible defaults.
+This package allows for a lightweight [Docusaurus](https://docusaurus.io/) site to be set up in an existing repo (e.g. in a `docs` folder). It requires a small `docusaurus.config.js` and a minimal `package.json` which then generates a nice-looking, clean documentation site with some sensible defaults.
 
 ```js
 module.exports = require('@liquidlight/docusaurus-framework/docusaurus.config')({
@@ -58,7 +58,7 @@ View [docusaurus-framework on GitHub](https://github.com/liquidlight/docusaurus-
 npm i @liquidlight/backstopjs-framework -D --save
 ```
 
-This framework reduces the config needed to get started with [BackstopJs](https://github.com/garris/BackstopJS) and introduces a hierarchy for URLs, allowing you to specify a base domain and add several pages to that site. It allows passing of options and parameters to domains instead of every page tested on the site.
+This framework reduces the config needed to get started with [BackstopJS](https://github.com/garris/BackstopJS) and introduces a hierarchy for URLs, allowing you to specify a base domain and add several pages to that site. It allows passing of options and parameters to domains instead of every page tested on the site.
 
 Create a `backstop.config.js` to begin your visual regression tests.
 
