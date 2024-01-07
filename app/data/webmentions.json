@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-11-29T20:45:46.077Z",
+  "lastFetched": "2024-01-07T20:03:44.767Z",
   "children": [
     {
       "type": "entry",
@@ -8597,6 +8597,47 @@
       "wm-protocol": "webmention",
       "like-of": "https://www.mikestreety.co.uk/notes/i-find-ai-so-uninteresting/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://www.thecoderscamp.com/how-to-make-desktop-app-with-electron-js-and-vue-offline-having-server-side-lara-in-vuejs/",
+      "published": null,
+      "wm-received": "2023-12-06T02:38:06Z",
+      "wm-id": 1749625,
+      "wm-source": "https://www.thecoderscamp.com/how-to-make-desktop-app-with-electron-js-and-vue-offline-having-server-side-lara-in-vuejs/",
+      "wm-target": "https://www.mikestreety.co.uk/blog/vue-js-using-localstorage-with-the-vuex-store",
+      "wm-protocol": "pingback",
+      "mention-of": "https://www.mikestreety.co.uk/blog/vue-js-using-localstorage-with-the-vuex-store",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://www.thecoderscamp.com/how-to-make-desktop-app-with-electron-js-and-vue-offline-having-server-side-lara-in-vuejs/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Josh Bruce",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/a8134392c966794f2ba66103f85d99461a26b2955320088a9a31c985e096642a.jpg",
+        "url": "https://phpc.social/@itsjoshbruce"
+      },
+      "url": "https://hachyderm.io/@mikestreety/111528174447147020#reblogged-by-109332431620364296",
+      "published": null,
+      "wm-received": "2023-12-06T02:19:50Z",
+      "wm-id": 1749608,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/111528174447147020/109332431620364296",
+      "wm-target": "https://www.mikestreety.co.uk/notes/unrotlink/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/notes/unrotlink/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
