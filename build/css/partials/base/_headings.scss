@@ -12,7 +12,7 @@ h4 {
 	table + &,
 	pre + &,
 	blockquote + & {
-		margin-top: 1.75em
+		margin-top: 1.75em;
 	}
 }
 
@@ -21,6 +21,7 @@ h1 {
 	margin-bottom: var(--gutter);
 	line-height: 1.2;
 }
+
 h2 {
 	font-size: 2rem;
 }

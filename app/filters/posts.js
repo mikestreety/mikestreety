@@ -37,8 +37,8 @@ module.exports = {
 		return collection
 			.getFilteredByGlob('./app/content/notes/*.md')
 			.filter((p) => (p.date <= now && !p.data.draft))
-			.sort(function (a, b) {
+			.sort(function(a, b) {
 				return b.date - a.date;
 			});
-	},
-}
+	}
+};

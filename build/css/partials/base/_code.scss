@@ -4,9 +4,10 @@ code {
 	color: var(--quaternary);
 	display: inline-block;
 	padding: 0.1rem 0.4rem;
-	font-size: .875em;
-	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-size: 0.875em;
+	font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", 'Liberation Mono', 'Courier New', monospace;
 }
+
 code::before {
 	content: '';
 	position: absolute;
@@ -20,11 +21,12 @@ code::before {
 }
 
 pre,
-pre[class*="language-"] {
+pre[class*='language-'] {
 	font-size: 0.9rem;
 	tab-size: 4;
 	margin: var(--gutter) 0;
 }
+
 pre code {
 	color: var(--neutralLight);
 	display: block;
@@ -36,22 +38,28 @@ pre code {
 	&::before {
 		display: none;
 	}
+
 	mark {
 		color: inherit;
 		background: rgba(255, 255, 255, 0.15);
 		padding: 0.1em;
 		display: block;
+
 		+ br {
 			display: none;
 		}
 	}
-	.token.deleted:not(.prefix), .token.inserted:not(.prefix) {
+
+	.token.deleted:not(.prefix),
+ .token.inserted:not(.prefix) {
 		display: block;
 	}
+
 	.token.inserted {
-		background-color: hsl(120deg 73% 75% / 20%);
+		background-color: hsl(120deg 73% 75% / 0.2);
 	}
+
 	.token.deleted {
-		background-color: hsl(350deg 100% 88% / 20%);
+		background-color: hsl(350deg 100% 88% / 0.2);
 	}
 }

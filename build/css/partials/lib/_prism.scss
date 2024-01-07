@@ -7,56 +7,56 @@
 * @license MIT
 */
 pre,
-code[class*="language-"],
-pre[class*="language-"] {
+code[class*='language-'],
+pre[class*='language-'] {
 	color: #e3eaf2;
 	background: none;
-	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	font-family: "Consolas", "Monaco", 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
 	tab-size: 4;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
+	tab-size: 4;
+	tab-size: 4;
+	hyphens: none;
+	hyphens: none;
+	hyphens: none;
 	hyphens: none;
 }
 
-pre[class*="language-"]::-moz-selection,
-pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection,
-code[class*="language-"] ::-moz-selection {
+pre[class*='language-']::selection,
+pre[class*='language-'] ::-moz-selection,
+code[class*='language-']::-moz-selection,
+code[class*='language-'] ::-moz-selection {
 	background: #3c526d;
 }
 
-pre[class*="language-"]::selection,
-pre[class*="language-"] ::selection,
-code[class*="language-"]::selection,
-code[class*="language-"] ::selection {
+pre[class*='language-']::selection,
+pre[class*='language-'] ::selection,
+code[class*='language-']::selection,
+code[class*='language-'] ::selection {
 	background: #3c526d;
 }
 
 /* Code blocks */
 pre,
-pre[class*="language-"] {
+pre[class*='language-'] {
 	padding: 1em;
 	margin: 0.5em 0;
 	overflow: auto;
 }
 
-:not(pre) > code[class*="language-"],
-pre[class*="language-"],
+:not(pre) > code[class*='language-'],
+pre[class*='language-'],
 pre {
 	background: #111b27;
 }
 
 /* Inline code */
-:not(pre) > code[class*="language-"] {
+:not(pre) > code[class*='language-'] {
 	padding: 0.1em 0.3em;
 	border-radius: 0.3em;
 	white-space: normal;
@@ -77,7 +77,7 @@ pre {
 .token.selector .parent,
 .token.tag,
 .token.tag .token.punctuation {
-	color: #66cccc;
+	color: #6cc;
 }
 
 .token.attr-name,
@@ -171,7 +171,7 @@ pre {
 }
 
 .language-markdown .token.code {
-	color: #66cccc;
+	color: #6cc;
 }
 
 .language-markdown .token.hr.punctuation {
@@ -199,16 +199,16 @@ pre {
 }
 
 .language-scss .token.variable {
-	color: #66cccc;
+	color: #6cc;
 }
 
 /* overrides color-values for the Show Invisibles plugin
 * https://prismjs.com/plugins/show-invisibles/
 */
-.token.tab:not(:empty):before,
-.token.cr:before,
-.token.lf:before,
-.token.space:before {
+.token.tab:not(:empty)::before,
+.token.cr::before,
+.token.lf::before,
+.token.space::before {
 	color: #8da1b9;
 }
 
@@ -241,18 +241,17 @@ div.code-toolbar > .toolbar span:focus {
 * http://prismjs.com/plugins/line-highlight/
 */
 .line-highlight {
-	background: #3c526d5f;
 	background: linear-gradient(to right, #3c526d5f 70%, #3c526d55);
 }
 
-.line-highlight:before,
-.line-highlight[data-end]:after {
+.line-highlight::before,
+.line-highlight[data-end]::after {
 	background-color: #8da1b9;
 	color: #111b27;
 	box-shadow: 0 1px #3c526d;
 }
 
-pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
+pre[id].linkable-line-numbers span.line-numbers-rows > span:hover::before {
 	background-color: #8da1b918;
 }
 
@@ -264,7 +263,7 @@ pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
 	background: #0b121b7a;
 }
 
-.line-numbers-rows > span:before {
+.line-numbers-rows > span::before {
 	color: #8da1b9da;
 }
 
@@ -315,6 +314,6 @@ pre > code.diff-highlight .token.inserted:not(.prefix) {
 	border-right: 1px solid #0b121b;
 }
 
-.command-line-prompt > span:before {
+.command-line-prompt > span::before {
 	color: #8da1b9da;
 }

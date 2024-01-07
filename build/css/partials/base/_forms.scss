@@ -1,10 +1,12 @@
 form {
 	margin-bottom: var(--gutterLarge);
 	overflow: hidden;
+
 	@include mq($tablet) {
 		margin-bottom: 1.5rem;
 	}
 }
+
 input[type='text'] {
 	width: 100%;
 	padding: 0.7rem;

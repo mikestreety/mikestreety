@@ -24,6 +24,7 @@
 		z-index: -1;
 	}
 }
+
 div.info,
 div.warning,
 div.alt,
@@ -32,6 +33,7 @@ div.error {
 	// margin-left: calc(var(--gutter) * -1);
 	// width: calc(100% + calc(var(--gutter) * 2));
 }
+
 span.info,
 span.warning,
 span.alt,
@@ -41,10 +43,11 @@ strong.info,
 strong.warning,
 strong.alt,
 strong.success,
-strong.error  {
+strong.error {
 	padding: 0.3rem 0.4rem;
 	border-width: 0.125rem;
 	border-radius: 0.5rem;
+
 	&::before {
 		border-radius: 0.5rem;
 	}
@@ -53,12 +56,15 @@ strong.error  {
 .alt {
 	--boxcolor: var(--secondary);
 }
+
 .success {
 	--boxcolor: var(--tertiary);
 }
+
 .warning {
 	--boxcolor: var(--quinary);
 }
+
 .error {
 	--boxcolor: var(--quaternary);
 }

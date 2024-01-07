@@ -1,33 +1,40 @@
 .post-listing {
 	ul {
-		padding-left: 0;
 		border-left: 0.5rem solid var(--neutralLight);
 		padding-left: var(--gutter);
 	}
+
 	li {
 		list-style: none;
 		position: relative;
 	}
+
 	h3 {
 		margin-top: 0;
+
 		--color: var(--base);
 
 		a {
 			--boxshadowcolor: rgba(0, 0, 0, 0.3);
+
 			@include mq($phone) {
 				--boxshadowcolor: currentColor;
 			}
+
 			&:hover {
 				--boxshadowcolor: var(--tertiaryLight);
 			}
 		}
 	}
+
 	p {
 		margin-bottom: 0.75rem;
 	}
+
 	a {
 		overflow-wrap: break-word;
 	}
+
 	.icon {
 		--color: var(--base);
 		display: block;
@@ -60,10 +67,12 @@
 				border-radius: 2rem;
 				left: -2.25rem;
 			}
+
 			@include mq($tablet) {
 				left: -2.75rem;
 			}
 		}
+
 		&:hover::before {
 			border-color: var(--primary);
 		}
@@ -75,6 +84,7 @@
 
 	.diary {
 		font-size: 0.9rem;
+
 		ol,
 		li {
 			margin: 0;
@@ -108,7 +118,6 @@
 				opacity: 0.7;
 			}
 		}
-
 
 		h3 {
 			font-size: 1.1rem;

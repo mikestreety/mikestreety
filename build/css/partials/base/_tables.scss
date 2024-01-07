@@ -5,6 +5,7 @@ table {
 	display: block;
 	font-size: 0.95rem;
 	margin-bottom: var(--gutterLarge);
+
 	@include mq($phone) {
 		display: table;
 	}
@@ -12,9 +13,11 @@ table {
 	th,
 	td {
 		padding: 0.5rem;
+
 		code::before {
-			border: thin solid var(--neutralMid)
+			border: thin solid var(--neutralMid);
 		}
+
 		@include mq($phone) {
 			padding: 0.5rem 1rem;
 		}
@@ -22,12 +25,12 @@ table {
 
 	tr:nth-child(even) td {
 		background: var(--neutralLight);
-
 	}
 
 	.winner {
 		background: #cdfde9;
 	}
+
 	tr:nth-child(even) .winner {
 		background: #ccf2df;
 	}
@@ -35,6 +38,7 @@ table {
 	.loser {
 		background: #ffd8d6;
 	}
+
 	tr:nth-child(even) .loser {
 		background: #fdcfcd;
 	}
@@ -42,10 +46,12 @@ table {
 	&.fixed {
 		table-layout: fixed;
 	}
+
 	&.fixed td {
 		width: 100%;
 	}
 }
+
 tbody {
 	width: 100%;
 }

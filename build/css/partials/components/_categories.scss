@@ -1,5 +1,6 @@
 .meta.categories {
 	margin-top: var(--gutter);
+
 	a {
 		box-shadow: none;
 		padding: 0.2rem 0.5rem;
@@ -10,6 +11,7 @@
 		border: 0.125rem solid var(--tertiary);
 		transition: 0.2s ease;
 		transition-property: border, background;
+
 		&::before {
 			content: '#';
 			opacity: 0.5;

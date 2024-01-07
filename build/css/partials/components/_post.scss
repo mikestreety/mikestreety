@@ -4,6 +4,7 @@
 	margin-bottom: var(--gutter);
 	padding-bottom: var(--gutter);
 	font-size: 0.9rem;
+
 	time {
 		font-weight: bold;
 	}
@@ -40,6 +41,7 @@
 	position: relative;
 	margin: var(--gutter) 0 0;
 	font-size: 1rem;
+
 	&::before {
 		content: '';
 		position: absolute;
@@ -52,7 +54,7 @@
 }
 
 .single-article .source {
-	margin-top:  var(--gutter);
+	margin-top: var(--gutter);
 }
 
 .article {
@@ -98,5 +100,4 @@
 	p {
 		margin-bottom: 0.3rem;
 	}
-
 }

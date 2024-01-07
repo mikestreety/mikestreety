@@ -2,10 +2,30 @@
  * Vanilla JavaScript Tabs v1.0.0
  * https://zoltantothcom.github.io/vanilla-js-tabs
  */
- var Tabs=function(e){var n=document.getElementById(e.elem),a=e.open||0,r="js-tabs__title",c="js-tabs__title-active",l="js-tabs__content",o=n.querySelectorAll("."+r).length;function t(e){n.addEventListener("click",i);for(var t=u(null==e?a:e),l=0;l<o;l++)n.querySelectorAll("."+r)[l].setAttribute("data-index",l),l===t&&f(l)}function i(e){-1!==e.target.className.indexOf(r)&&(e.preventDefault(),f(e.target.getAttribute("data-index")))}function s(){[].forEach.call(n.querySelectorAll("."+l),function(e){e.style.display="none"}),[].forEach.call(n.querySelectorAll("."+r),function(e){var t,l;e.className=(t=e.className,l=new RegExp("( )"+c+"()","g"),t.replace(l,""))})}function u(e){return e<0||isNaN(e)||o<e?0:e}function f(e){s();var t=u(e);n.querySelectorAll("."+r)[t].className+=" "+c,n.querySelectorAll("."+l)[t].style.display=""}function d(){n.removeEventListener("click",i)}return t(),{open:f,update:function(e){d(),s(),t(e)},destroy:d}};
+var Tabs = function(e){
+	var n = document.getElementById(e.elem), a = e.open || 0, r = 'js-tabs__title', c = 'js-tabs__title-active', l = 'js-tabs__content', o = n.querySelectorAll('.' + r).length; function t(e){
+		n.addEventListener('click', i); for(var t = u(null == e ? a : e), l = 0; l < o; l++)n.querySelectorAll('.' + r)[l].setAttribute('data-index', l), l === t && f(l);
+	}function i(e){
+		-1 !== e.target.className.indexOf(r) && (e.preventDefault(), f(e.target.getAttribute('data-index')));
+	}function s(){
+		[].forEach.call(n.querySelectorAll('.' + l), function(e){
+			e.style.display = 'none';
+		}), [].forEach.call(n.querySelectorAll('.' + r), function(e){
+			var t, l; e.className = (t = e.className, l = new RegExp('( )' + c + '()', 'g'), t.replace(l, ''));
+		});
+	}function u(e){
+		return e < 0 || isNaN(e) || o < e ? 0 : e;
+	}function f(e){
+		s(); var t = u(e); n.querySelectorAll('.' + r)[t].className += ' ' + c, n.querySelectorAll('.' + l)[t].style.display = '';
+	}function d(){
+		n.removeEventListener('click', i);
+	}return t(), {open: f, update: function(e){
+		d(), s(), t(e);
+	}, destroy: d};
+};
 
- var tabs = new Tabs({
-	elem: "tabs"
+var tabs = new Tabs({
+	elem: 'tabs'
 });
 
 var chartOptions = {
@@ -16,7 +36,7 @@ var chartOptions = {
 			show: false
 		},
 		zoom: {
-			enabled: false,
+			enabled: false
 		}
 	},
 	stroke: {
@@ -26,7 +46,7 @@ var chartOptions = {
 		enabled: false
 	},
 	fill: {
-		type: "gradient",
+		type: 'gradient',
 		gradient: {
 			shadeIntensity: 1,
 			inverseColors: false,
@@ -43,16 +63,16 @@ var chartOptions = {
 		tickAmount: 4,
 		labels: {
 			formatter: function(val) {
-				return Number(val).toLocaleString()
+				return Number(val).toLocaleString();
 			}
 		}
 	}
-}
+};
 
 /**
  * Blog Posts
  */
-new ApexCharts(document.querySelector("#postsPersonal"), {
+new ApexCharts(document.querySelector('#postsPersonal'), {
 	...chartOptions,
 	series: [{
 		name: 'Posts',
@@ -67,7 +87,7 @@ new ApexCharts(document.querySelector("#postsPersonal"), {
 /**
  * Instagram
  */
-new ApexCharts(document.querySelector("#instagramPersonal"), {
+new ApexCharts(document.querySelector('#instagramPersonal'), {
 	...chartOptions,
 	series: [{
 		name: 'Photos',
@@ -76,11 +96,11 @@ new ApexCharts(document.querySelector("#instagramPersonal"), {
 	colors: ['#35eb93']
 }).render();
 
-new ApexCharts(document.querySelector("#instagramAleHouseRock"), {
+new ApexCharts(document.querySelector('#instagramAleHouseRock'), {
 	...chartOptions,
 	series: [{
 		name: 'Reviews',
-		data: [28, 62, 102, 76, 136, 196, 155], // (755)
+		data: [28, 62, 102, 76, 136, 196, 155] // (755)
 	}],
 	xaxis: {
 		categories: [2016, ...chartOptions.xaxis.categories]
@@ -91,7 +111,7 @@ new ApexCharts(document.querySelector("#instagramAleHouseRock"), {
 /**
  * Cycling
  */
-new ApexCharts(document.querySelector("#cyclingDistance"), {
+new ApexCharts(document.querySelector('#cyclingDistance'), {
 	...chartOptions,
 	series: [{
 		name: 'Distance (miles)',
@@ -103,7 +123,7 @@ new ApexCharts(document.querySelector("#cyclingDistance"), {
 	colors: ['#fc5200']
 }).render();
 
-new ApexCharts(document.querySelector("#cyclingTime"), {
+new ApexCharts(document.querySelector('#cyclingTime'), {
 	...chartOptions,
 	series: [{
 		name: 'Time spent cycling',
@@ -117,7 +137,7 @@ new ApexCharts(document.querySelector("#cyclingTime"), {
 	yaxis: {
 		labels: {
 			formatter: function(val) {
-				return Math.floor(val / 60)
+				return Math.floor(val / 60);
 			}
 		}
 	},
@@ -130,7 +150,7 @@ new ApexCharts(document.querySelector("#cyclingTime"), {
 	}
 }).render();
 
-new ApexCharts(document.querySelector("#cyclingElevation"), {
+new ApexCharts(document.querySelector('#cyclingElevation'), {
 	...chartOptions,
 	series: [{
 		name: 'Elevation (ft)',
@@ -142,7 +162,7 @@ new ApexCharts(document.querySelector("#cyclingElevation"), {
 	colors: ['#fc5200']
 }).render();
 
-new ApexCharts(document.querySelector("#cyclingRides"), {
+new ApexCharts(document.querySelector('#cyclingRides'), {
 	...chartOptions,
 	series: [{
 		name: 'Number of rides',
@@ -166,39 +186,39 @@ walkingChartOptions.xaxis.categories = walkingChartOptions.xaxis.categories.filt
 walkingChartOptions.yaxis = {
 	labels: {
 		formatter: function(val) {
-			return Number(val).toLocaleString()
+			return Number(val).toLocaleString();
 		}
 	}
-}
+};
 
-new ApexCharts(document.querySelector("#walkingSteps"), {
+new ApexCharts(document.querySelector('#walkingSteps'), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Steps',
 		data: ['2659838', '2126312', '2562958', '2433968']
-	}],
+	}]
 }).render();
 
-new ApexCharts(document.querySelector("#walkingFloors"), {
+new ApexCharts(document.querySelector('#walkingFloors'), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Floors climbed',
 		data: ['4583', '2690', '3393', '3643']
-	}],
+	}]
 }).render();
 
-new ApexCharts(document.querySelector("#walkingCalories"), {
+new ApexCharts(document.querySelector('#walkingCalories'), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Calories',
 		data: ['1033167', '1020728', '1052978', '1141732']
-	}],
+	}]
 }).render();
 
 /**
  * Geocaches
  */
-new ApexCharts(document.querySelector("#geocaches"), {
+new ApexCharts(document.querySelector('#geocaches'), {
 	...chartOptions,
 	series: [{
 		name: 'Geocaches Found',
@@ -215,11 +235,11 @@ new ApexCharts(document.querySelector("#geocaches"), {
  *
  * https://www.last.fm/user/mikestreety/library
  */
-new ApexCharts(document.querySelector("#lastFmScrobbles"), {
+new ApexCharts(document.querySelector('#lastFmScrobbles'), {
 	...chartOptions,
 	series: [{
 		name: 'Listens',
-		data: [1956, 8153, 4426, 12915, 14102, 10300, 21055],
+		data: [1956, 8153, 4426, 12915, 14102, 10300, 21055]
 	}],
 	xaxis: {
 		categories: [2016, ...chartOptions.xaxis.categories]

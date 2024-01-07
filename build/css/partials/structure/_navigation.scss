@@ -19,10 +19,12 @@
 		align-items: center;
 		justify-content: flex-start;
 	}
+
 	li {
 		margin-right: var(--gutter);
+
 		&:last-child {
-			margin-right: 0
+			margin-right: 0;
 		}
 	}
 
@@ -34,6 +36,7 @@
 			--boxshadowheight: -1.3rem;
 		}
 	}
+
 	li a.active {
 		--color: var(--tertiaryLight);
 	}

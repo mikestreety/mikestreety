@@ -1,6 +1,7 @@
 blockquote {
 	--color: var(--neutralMid);
 	padding-left: 1.5rem;
+
 	// border-left: 0.25em solid var(--tertiary);
 	margin: 0 0 var(--gutter);
 	position: relative;
@@ -11,6 +12,7 @@ blockquote {
 
 	p {
 		margin-bottom: 0;
+
 		+ p {
 			margin-top: var(--gutter);
 		}
@@ -24,5 +26,4 @@ blockquote {
 		line-height: 1.2;
 		margin-left: -1.5rem;
 	}
-
 }

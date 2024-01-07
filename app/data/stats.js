@@ -61,7 +61,7 @@ module.exports = () => {
 			'/blog/vue-js-filters-what-are-they-how-do-you-use-them-and-how-do-you-make-them-video/',
 			'/blog/filtering-tables/',
 			'/blog/a-simple-sass-compilation-gulpfile-js/',
-			'/blog/introduction-to-vuex-implementation-part-2-video/',
+			'/blog/introduction-to-vuex-implementation-part-2-video/'
 		],
 
 		'2017': [
@@ -74,9 +74,9 @@ module.exports = () => {
 			'/blog/vue-js-filters-what-are-they-how-do-you-use-them-and-how-do-you-make-them-video/',
 			'/blog/get-background-image-information-if-element-has-a-one-in-jquery/',
 			'/blog/raspberry-pi-timelapse/',
-			'/blog/filtering-tables/',
+			'/blog/filtering-tables/'
 		]
-	}
+	};
 
 	let posts_output = [];
 
@@ -87,8 +87,8 @@ module.exports = () => {
 				posts: []
 			},
 			year = popular_posts[current_year];
-			previous_year = popular_posts[current_year - 1] ? popular_posts[current_year - 1] : false,
-			post_index = 1
+		previous_year = popular_posts[current_year - 1] ? popular_posts[current_year - 1] : false,
+		post_index = 1;
 
 		for(let post of year) {
 
@@ -109,5 +109,5 @@ module.exports = () => {
 
 	return {
 		posts: posts_output.reverse()
-	}
-}
+	};
+};

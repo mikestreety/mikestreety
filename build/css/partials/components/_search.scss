@@ -1,5 +1,5 @@
 .search {
-	input[name="q"] {
+	input[name='q'] {
 		flex-grow: 1;
 		border: 0.2rem solid currentColor;
 		transition: 0.3s ease border;
@@ -10,6 +10,7 @@
 			outline: none;
 		}
 	}
+
 	.button {
 		margin-top: 0;
 		float: right;

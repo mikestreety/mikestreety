@@ -39,7 +39,7 @@ module.exports = {
 					type: item.data.parent,
 					publication: item.data.publication ? item.data.publication : false,
 					// This is just the date plus ordinal (e.g. 23rd)
-					date: dayOrdinal(item.date),
+					date: dayOrdinal(item.date)
 				});
 			}
 		}
@@ -67,4 +67,4 @@ module.exports = {
 			// Reverse the years (recent first)
 			.reverse();
 	 }
-}
+};

@@ -16,8 +16,8 @@
 	&.post-listing {
 		padding-top: 0;
 	}
-
 }
+
 .center {
 	text-align: center;
 }
@@ -27,16 +27,17 @@
 	padding: var(--gutter) 0;
 	padding-top: 0.5rem;
 	min-height: 90vh;
-	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: center;
 	justify-content: center;
 }
+
 .section > .container {
 	padding: var(--gutter);
 }
+
 .section::before {
 	content: '';
 	border-top: 0.5rem solid var(--neutralLight);

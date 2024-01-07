@@ -1,11 +1,8 @@
 @import './partials/lib/prism';
-
 @import './partials/variables';
 @import './partials/normalize';
-
 @import './partials/base/document';
 @import './partials/base/fonts';
-
 @import './partials/base/button';
 @import './partials/base/code';
 @import './partials/base/divider';
@@ -19,12 +16,10 @@
 @import './partials/base/svg';
 @import './partials/base/tables';
 @import './partials/base/typography';
-
 @import './partials/structure/footer';
 @import './partials/structure/header';
 @import './partials/structure/navigation';
 @import './partials/structure/page';
-
 @import './partials/components/breadcrumb';
 @import './partials/components/categories';
 @import './partials/components/charts';
@@ -42,7 +37,5 @@
 @import './partials/components/tabs';
 @import './partials/components/video';
 @import './partials/components/webmentions';
-
 @import './partials/components/overrides';
-
 @import './partials/overrides/home';
