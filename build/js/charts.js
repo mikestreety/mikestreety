@@ -37,7 +37,7 @@ var chartOptions = {
 	},
 	xaxis: {
 		tickAmount: 3,
-		categories: [2017, 2018, 2019, 2020, 2021, 2022]
+		categories: [2017, 2018, 2019, 2020, 2021, 2022, 2023]
 	},
 	yaxis: {
 		tickAmount: 4,
@@ -56,24 +56,12 @@ new ApexCharts(document.querySelector("#postsPersonal"), {
 	...chartOptions,
 	series: [{
 		name: 'Posts',
-		data: [4, 7, 7, 18, 10, 16, 9, 9, 19, 6, 12, 21, 32, 19]
+		data: [4, 7, 7, 18, 11, 17, 13, 19, 24, 9, 12, 15, 28, 18, 27]
 	}],
 	xaxis: {
 		categories: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
 	},
 	colors: ['#35eb93']
-}).render();
-
-new ApexCharts(document.querySelector("#postsLiquidLight"), {
-	...chartOptions,
-	series: [{
-		name: 'Posts',
-		data: [3, 3, 8, 6, 3, 4, 2, 3, 1]
-	}],
-	xaxis: {
-		categories: [2014, 2015, 2016, ...chartOptions.xaxis.categories]
-	},
-	colors: ['#dd2c41']
 }).render();
 
 /**
@@ -214,7 +202,7 @@ new ApexCharts(document.querySelector("#geocaches"), {
 	...chartOptions,
 	series: [{
 		name: 'Geocaches Found',
-		data: [1, 0, 5, 210, 375, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 174]
+		data: [1, 0, 5, 210, 375, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 174, 96]
 	}],
 	colors: ['#02874d'],
 	xaxis: {

@@ -44,6 +44,17 @@ module.exports = {
 			}
 		}
 
+		output = output.map(y => {
+			y.count = 0;
+			for(let m of y.months) {
+				if(m && m.entries) {
+					y.count += m.entries.length;
+				}
+			}
+
+			return y;
+		});
+
 		// Return our array
 		return output
 			// Reverse the months (most recent first)

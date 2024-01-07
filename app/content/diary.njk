@@ -10,7 +10,7 @@ layout: page.njk
 	<ol class="diary">
 	{% for year in diary() %}
 		<li>
-			<div><h2 id="{{ year.title }}">{{ year.title }}</h2></div>
+			<div><h2 id="{{ year.title }}">{{ year.title }} <small>({{ year.count }})</small></h2></div>
 
 			<ol>
 			{% for month in year.months %}
