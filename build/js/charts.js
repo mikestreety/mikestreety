@@ -115,7 +115,7 @@ new ApexCharts(document.querySelector('#cyclingDistance'), {
 	...chartOptions,
 	series: [{
 		name: 'Distance (miles)',
-		data: ['623.3', '341.6', '2611.0', '2464.2', '2585.8', '2249.7', '3273.5', '2689.4', '1927.3', '1004', '1604.5']
+		data: ['623.3', '341.6', '2611.0', '2464.2', '2585.8', '2249.7', '3273.5', '2689.4', '1927.3', '1031.3', '1934.7', '2571.9']
 	}],
 	xaxis: {
 		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
@@ -128,7 +128,7 @@ new ApexCharts(document.querySelector('#cyclingTime'), {
 	series: [{
 		name: 'Time spent cycling',
 		// Minutes
-		data: [2516, 1354, 11388, 11223, 11431, 10816, 14124, 10725, 7976, 4375, 7274]
+		data: [2516, 1354, 11388, 11223, 11431, 10816, 14124, 10725, 7976, 4484, 9031, 11423]
 	}],
 	xaxis: {
 		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
@@ -154,7 +154,7 @@ new ApexCharts(document.querySelector('#cyclingElevation'), {
 	...chartOptions,
 	series: [{
 		name: 'Elevation (ft)',
-		data: [26932, 15515, 146033, 148222, 154823, 134459, 112178, 46368, 69400, 19925, 22753]
+		data: [26932, 15515, 146033, 148222, 154823, 134459, 112178, 46368, 69400, 20016, 30144, 48688]
 	}],
 	xaxis: {
 		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
@@ -166,7 +166,7 @@ new ApexCharts(document.querySelector('#cyclingRides'), {
 	...chartOptions,
 	series: [{
 		name: 'Number of rides',
-		data: [35, 14, 351, 433, 453, 443, 291, 288, 149, 111, 200]
+		data: [35, 14, 351, 433, 453, 443, 291, 288, 149, 114, 262, 366]
 	}],
 	xaxis: {
 		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]

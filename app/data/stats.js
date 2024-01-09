@@ -1,5 +1,17 @@
 module.exports = () => {
 	const popular_posts = {
+		'2023': [
+			'/blog/migrating-gitlab-from-one-server-to-another/',
+			'/blog/vue-js-using-localstorage-with-the-vuex-store/',
+			'/blog/the-git-commit-hash/',
+			'/blog/using-private-docker-registry-gitlab-ci/',
+			'/blog/build-and-push-a-docker-image-to-a-private-registry-with-gitlab-ci/',
+			'/blog/npm-install-without-modifying-package-lock/',
+			'/blog/use-minio-to-cache-gitlab-containers-and-runners/',
+			'/blog/add-custom-repositories-for-composer-to-pull-from/',
+			'/blog/how-to-use-fetch-in-javascript-to-get-or-post-data/',
+			'/blog/posting-to-slack-from-gitlab-ci/'
+		],
 		'2022': [
 			'/blog/migrating-gitlab-from-one-server-to-another/',
 			'/blog/vue-js-using-localstorage-with-the-vuex-store/',
@@ -8,8 +20,6 @@ module.exports = () => {
 			'/blog/how-to-set-up-and-use-laravel-mix-with-your-project/',
 			'/blog/how-to-use-fetch-in-javascript-to-get-or-post-data/',
 			'/blog/creating-a-docusaurus-docker-image-for-consistent-rendering-of-your-documentation/',
-			'/blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path/',
-			'/blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path/',
 			'/blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path/'
 		],
 
