@@ -239,7 +239,7 @@ new ApexCharts(document.querySelector('#lastFmScrobbles'), {
 	...chartOptions,
 	series: [{
 		name: 'Listens',
-		data: [1956, 8153, 4426, 12915, 14102, 10300, 21055]
+		data: [1956, 8153, 4426, 12915, 14102, 10300, 21055, 15158]
 	}],
 	xaxis: {
 		categories: [2016, ...chartOptions.xaxis.categories]
