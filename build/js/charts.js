@@ -91,7 +91,7 @@ new ApexCharts(document.querySelector('#instagramPersonal'), {
 	...chartOptions,
 	series: [{
 		name: 'Photos',
-		data: [39, 24, 29, 6, 17, 11]
+		data: [39, 24, 29, 6, 17, 11, 1]
 	}],
 	colors: ['#35eb93']
 }).render();
@@ -195,15 +195,7 @@ new ApexCharts(document.querySelector('#walkingSteps'), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Steps',
-		data: ['2659838', '2126312', '2562958', '2433968']
-	}]
-}).render();
-
-new ApexCharts(document.querySelector('#walkingFloors'), {
-	...walkingChartOptions,
-	series: [{
-		name: 'Floors climbed',
-		data: ['4583', '2690', '3393', '3643']
+		data: ['2659838', '2126312', '2562958', '2433968', '2796309']
 	}]
 }).render();
 
@@ -211,14 +203,14 @@ new ApexCharts(document.querySelector('#walkingCalories'), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Calories',
-		data: ['1033167', '1020728', '1052978', '1141732']
+		data: ['1033167', '1020728', '1052978', '1141732', '1125108']
 	}]
 }).render();
 
 /**
  * Geocaches
  */
-new ApexCharts(document.querySelector('#geocaches'), {
+new ApexCharts(document.querySelector('#geocachesFound'), {
 	...chartOptions,
 	series: [{
 		name: 'Geocaches Found',
