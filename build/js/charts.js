@@ -100,7 +100,7 @@ new ApexCharts(document.querySelector('#instagramAleHouseRock'), {
 	...chartOptions,
 	series: [{
 		name: 'Reviews',
-		data: [28, 62, 102, 76, 136, 196, 155] // (755)
+		data: [28, 62, 102, 76, 136, 196, 155, 129] // (884)
 	}],
 	xaxis: {
 		categories: [2016, ...chartOptions.xaxis.categories]
