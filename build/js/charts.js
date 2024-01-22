@@ -76,7 +76,7 @@ new ApexCharts(document.querySelector('#postsPersonal'), {
 	...chartOptions,
 	series: [{
 		name: 'Posts',
-		data: [4, 7, 7, 18, 11, 17, 13, 19, 24, 9, 12, 15, 28, 18, 27]
+		data: [4, 7, 7, 18, 11, 17, 13, 19, 24, 10, 12, 15, 28, 18, 27]
 	}],
 	xaxis: {
 		categories: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
