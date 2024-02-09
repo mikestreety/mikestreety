@@ -1,6 +1,6 @@
 ---
 title: Tweetback
-date: 2024-02-04
+date: 2024-02-09
 intro: I set up a self-hosted read-only archive of my tweets
 permalink: "blog/tweetback/"
 tags:
