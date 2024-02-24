@@ -52,16 +52,16 @@ Lastly, create a `playwright.config.ts` file in the root of your project. If you
 
 ```ts
 import { defineConfig } from '@playwright/test';
-import typo3Sites from '@liquidlight/playwright-framework/typo3';
+import typo3Config from '@liquidlight/playwright-framework/typo3';
 
-const config = require('@liquidlight/playwright-framework')(
-  typo3Sites()
-);
+const config = require('@liquidlight/playwright-framework')([
+    typo3Config('[site]', './path/to/files')
+]);
 
 module.exports = defineConfig(config);
 ```
 
-This looks in `app/sites/*` for the same folder name as the site config. From there, it matches any tests with the base URLs, so you don't have to specify the name. It also means you can specify an environment variable of `PLAYWRIGHT_ENV` to use Production/Staging or Dev URLs.
+From there, it matches any tests with the base URLs, so you don't have to specify the name. It also means you can specify an environment variable of `PLAYWRIGHT_ENV` to use Production/Staging or Dev URLs.
 
 ## Add a test
 
@@ -95,6 +95,26 @@ test('"Dialog Content" opens in a Fancybox', async ({ page }) => {
 ```
 
 On our test pages, we have a link of "Link to Fancybox", which opens the modal. We can assert the modal loads when Playwright can find the text inside.
+
+### Accessibility Test Example
+
+The playwright framework also includes accessibility testing which automatically attaches the reports to the Playwright output.
+
+This is done using the AXE plugin and can be activated like so:
+
+```typescript
+import { test } from '@playwright/test';
+import { assertPageIsAccessible } from '@liquidlight/playwright-framework/tests';
+
+/**
+ * Ensure our base page template is accessible
+ */
+test('"Tests" page is accessible', async ({ page }, testInfo) => {
+    await page.goto('/');
+
+    await assertPageIsAccessible(page, testInfo);
+});
+```
 
 ## Playwright Testing Tips
 
