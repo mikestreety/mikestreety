@@ -2,7 +2,6 @@ const {live, blog, drafts, scheduled, notes} = require('./app/filters/posts');
 const { convert } = require('html-to-text');
 const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
 
-
 module.exports = function (config) {
 	config.addPassthroughCopy('./app/content/admin');
 
@@ -24,6 +23,7 @@ module.exports = function (config) {
 	config.addFilter('findPost', function(slug) {
 		return this.ctx.collections.blog.filter(a => a.url == slug)[0];
 	});
+
 	config.addFilter('time', (date) => {
 		let dateParse = (date) => new Date(Date.parse(date));
 		let d = dateParse(date);
