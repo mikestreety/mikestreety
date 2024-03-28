@@ -2,5 +2,7 @@
 	"layout": "single.njk",
 
 	"parent": "blog",
-	"parentTitle": "Blog"
+	"parentTitle": "Blog",
+
+	"permalink": "/blog/{{ title | slugify }}/"
 }
