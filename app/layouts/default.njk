@@ -56,7 +56,7 @@
 	{% set count = 1 %}
 
 	{% if tags %}
-	<meta property="article:published_time" content="{{ date | dateISO }}">
+	<meta property="article:published_time" content="{{ page.date | dateISO }}">
 
 	{% for tag in tags -%}
 	<meta property="article:tag" content="{{ tag }}">

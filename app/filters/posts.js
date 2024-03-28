@@ -3,7 +3,7 @@ const now = new Date();
 module.exports = {
 	live: (collection) => {
 		return collection
-			.getFilteredByGlob('./app/content/{blog,notes}/*.md')
+			.getFilteredByGlob('./app/content/{blog/*,notes}/*.md')
 			.filter((p) => (p.date <= now && !p.data.draft))
 			.sort(function(a, b) {
 				return b.date - a.date;
@@ -11,7 +11,7 @@ module.exports = {
 	},
 	blog: (collection) => {
 		return collection
-			.getFilteredByGlob('./app/content/blog/*.md')
+			.getFilteredByGlob('./app/content/blog/*/*.md')
 			.filter((p) => (p.date <= now && !p.data.draft))
 			.sort(function(a, b) {
 				return b.date - a.date;
@@ -19,14 +19,14 @@ module.exports = {
 	},
 	drafts: (collection) => {
 		return collection
-			.getFilteredByGlob('./app/content/{blog,drafts}/*.md')
+			.getFilteredByGlob('./app/content/{blog/*,drafts}/*.md')
 			.filter((p) => (p.data.draft))
 			.reverse();
 	},
 
 	scheduled: (collection) => {
 		return collection
-			.getFilteredByGlob('./app/content/blog/*.md')
+			.getFilteredByGlob('./app/content/blog/*/*.md')
 			.filter((p) => (p.date > now && !p.data.draft))
 			.sort(function(a, b) {
 				return a.date - b.date;

@@ -1,8 +1,6 @@
 ---
 title: Scanning your code with Bearer; a Gitlab compatible SAST
-date: 2024-03-27
 intro: Set up Bearer to scan for vulnerabilities in your code, available for use with the free tier
-permalink: "blog/scanning-your-code-with-a-bearer-gitlab-compatible-sast/"
 tags:
  - Gitlab
  - Security
