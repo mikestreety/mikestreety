@@ -60,7 +60,7 @@ docker run --rm -v $PWD:/app bearer/bearer scan /app --scanner=sast,secrets --fo
 
 Once you have run the scan, you can open the `security-scan.html` file in your browser and review the issues & vulnerabilities found
 
-### Ignoring Rules
+### Ignoring Rules
 
 It may be that Bearer has flagged some false positives - in that it has highlight "issues" that are actually expected or purposeful. There are two ways you can ignore issues - either via the CLI (which creates a file for you to commit) or via a code comment before the line.
 
