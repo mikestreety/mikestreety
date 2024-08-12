@@ -93,7 +93,6 @@ See other days:
 	- `npm add -D sass`
 	- Each extension gets an alias based on TYPO3 extension name (e.g. `@site_package`)
 
-
 ## Responsive Images - Helmut Hummel
 
 [T3DD Schedule Link](https://t3dd24.typo3.com/program/sessions/responsive-images-817) / Slides (tbc) / Video (tbc)
@@ -137,7 +136,7 @@ See other days:
 	- Perceived complexity
 	- IESafari
 	- Market push
-- 20 years ago, Chris wrote a blog post about "Unobtrusive Javascript"
+- 20 years ago, Chris wrote a blog post about "[Unobtrusive Javascript](https://web.archive.org/web/20040612050256/http://www.onlinetools.org/articles/unobtrusivejavascript/)"
 - The web used to be HTML & CSS and is now super complicated
 - Facts
 	- Browsers are constantly updated
