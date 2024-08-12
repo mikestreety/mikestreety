@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2024-03-19T19:29:49.820Z",
+  "lastFetched": "2024-08-12T07:34:31.627Z",
   "children": [
     {
       "type": "entry",
@@ -12010,6 +12010,565 @@
       "wm-target": "https://www.mikestreety.co.uk/blog/tweetback/",
       "wm-protocol": "webmention",
       "like-of": "https://www.mikestreety.co.uk/blog/tweetback/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/79a8663c89209b98bd36255260a2438b764157006e08f091e9dcf8164072d930.jpg",
+        "url": "https://hachyderm.io/@mikestreety"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112549401131893227",
+      "published": "2024-06-02T22:32:50+00:00",
+      "wm-received": "2024-06-03T10:34:16Z",
+      "wm-id": 1833060,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/112548423400452400/112549401131893227",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://mstdn.social/@jim_easterbrook\" class=\"u-url\">@<span>jim_easterbrook</span></a></span> love the colour of it! I've never got to the point where I'm doing wheels. Did you learn from someone or was it YouTube?</p>",
+        "text": "@jim_easterbrook love the colour of it! I've never got to the point where I'm doing wheels. Did you learn from someone or was it YouTube?"
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/79a8663c89209b98bd36255260a2438b764157006e08f091e9dcf8164072d930.jpg",
+        "url": "https://hachyderm.io/@mikestreety"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112552158136559748",
+      "published": "2024-06-03T10:13:59+00:00",
+      "wm-received": "2024-06-03T10:34:16Z",
+      "wm-id": 1833061,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/112548423400452400/112552158136559748",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p>I can confirm I put the bike back correctly (well, correctly enough for me to go for a bike ride this morning).</p><p>The <a href=\"https://hachyderm.io/tags/sussex\">#<span>sussex</span></a> countryside was lovely and peaceful this morning - only shattered once by me with a loud expletive at a car who came too close for the second time (I'd already caught up with them once...)</p>\n<a class=\"p-category\" href=\"https://hachyderm.io/tags/sussex\">sussex</a>",
+        "text": "I can confirm I put the bike back correctly (well, correctly enough for me to go for a bike ride this morning).\n\nThe #sussex countryside was lovely and peaceful this morning - only shattered once by me with a loud expletive at a car who came too close for the second time (I'd already caught up with them once...)\nsussex"
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mattias Schlenker",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/26a2be5a0fd9566d06dc3e1f8ef10ec835fe449c98395bee3b84f741f64ca625.jpg",
+        "url": "https://toot.bike/@mattias"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#favorited-by-109307514789906765",
+      "published": null,
+      "wm-received": "2024-06-03T03:49:04Z",
+      "wm-id": 1832993,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112548423400452400/109307514789906765",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Martin ????",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/083b6206eb6aa788921945e091543797203667adf2a27318b0e23041c8c7270f.jpg",
+        "url": "https://mstdn.social/@geospatialist"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#reblogged-by-109383278294458554",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:26Z",
+      "wm-id": 1832945,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112548423400452400/109383278294458554",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Carlos Froh",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/6fc101b9e8b479abb878891c0ebc17c4b8eb2b2541749d222fd19204ffab1956.jpg",
+        "url": "https://toot.bike/@carlosfroh"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#reblogged-by-109315394192560469",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:25Z",
+      "wm-id": 1832944,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112548423400452400/109315394192560469",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Martin ????",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/083b6206eb6aa788921945e091543797203667adf2a27318b0e23041c8c7270f.jpg",
+        "url": "https://mstdn.social/@geospatialist"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#favorited-by-109383278294458554",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:24Z",
+      "wm-id": 1832942,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112548423400452400/109383278294458554",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/c25f602d3ff14afc9b47c9d29f45d1f796b6a9108acc745ca0af7967b4294f18.jpg",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#favorited-by-109298770510051442",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:24Z",
+      "wm-id": 1832943,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112548423400452400/109298770510051442",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "seanhecking",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/cc5ef452566a857186ebcb1171c9729be5f49016ad6bc10fbb60e1bb4788de52.png",
+        "url": "https://mastodon.online/@seanhecking"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#favorited-by-109542909259265188",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:23Z",
+      "wm-id": 1832941,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112548423400452400/109542909259265188",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "bicionado",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/4dfd367e3b92736cf80c25450410831d439b63c31fe15ef76f80fb57f9f545c9.jpg",
+        "url": "https://toot.bike/@bicionado"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#favorited-by-109383277897103858",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:21Z",
+      "wm-id": 1832939,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112548423400452400/109383277897103858",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Krzysztof Jeziorny",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/38c57595c344fed3071d65ac7f18c3aa655ce5519f5786bace415abda48b4b55.jpg",
+        "url": "https://fosstodon.org/@konsonantenboy"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#favorited-by-109371368849010161",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:21Z",
+      "wm-id": 1832940,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112548423400452400/109371368849010161",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Robin Jayasinghe",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/11743a6e0fe71765094410678e8279111ea23a4b81a5ded075f99ccd18ff6d7d.jpg",
+        "url": "https://chaos.social/@rjayasinghe"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#favorited-by-108354825292226012",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:20Z",
+      "wm-id": 1832938,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112548423400452400/108354825292226012",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Duncan Horne",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/5818c6986dde04ba3604c65a392110cbfaee7319a4fdff8be12e7ef26aed65aa.png",
+        "url": "https://mastodon.design/@duncandesi9n"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#favorited-by-109751424437424744",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:19Z",
+      "wm-id": 1832936,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112548423400452400/109751424437424744",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "derliebewolf",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/75007d3ac6be633a3160381e0ecb9e1eb5c0ff7766cc2fd265aae9b7a199548e.jpg",
+        "url": "https://chaos.social/@derliebwolf"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#favorited-by-109403192393244484",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:19Z",
+      "wm-id": 1832937,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112548423400452400/109403192393244484",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marc Hedlund",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/77d34bd3e810b4d460be00dcfa1266e0973164838e694884034bd46212bd8c99.jpg",
+        "url": "https://xoxo.zone/@marcprecipice"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112548423400452400#favorited-by-109300652342512514",
+      "published": null,
+      "wm-received": "2024-06-02T22:09:17Z",
+      "wm-id": 1832934,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112548423400452400/109300652342512514",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jim Easterbrook",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/d1832a5bf76d36711cfc3accecd4ce410a701bf406c9360411c20adb26519847.png",
+        "url": "https://mstdn.social/@jim_easterbrook"
+      },
+      "url": "https://mstdn.social/@jim_easterbrook/112548664276955389",
+      "published": "2024-06-02T19:25:27+00:00",
+      "wm-received": "2024-06-02T22:09:17Z",
+      "wm-id": 1832935,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/112548423400452400/112548664293086674",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@mikestreety\" class=\"u-url\">@<span>mikestreety</span></a></span> Here's my pride and joy, built longer ago than I care to remember. I no longer cycle to work (job relocation followed by retirement) but it's still a useful utility machine.<br /><a href=\"https://www.jim-easterbrook.me.uk/cycling/\"><span>https://www.</span><span>jim-easterbrook.me.uk/cycling/</span><span></span></a></p><p>The real satisfaction comes from building my own wheels, which have never needed re-truing.</p>\n<a href=\"https://www.jim-easterbrook.me.uk/cycling/\">Jim’s cycling page – Jim Easterbrook</a>",
+        "text": "@mikestreety Here's my pride and joy, built longer ago than I care to remember. I no longer cycle to work (job relocation followed by retirement) but it's still a useful utility machine.\nhttps://www.jim-easterbrook.me.uk/cycling/\n\nThe real satisfaction comes from building my own wheels, which have never needed re-truing.\nJim’s cycling page – Jim Easterbrook"
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "seanhecking",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/cc5ef452566a857186ebcb1171c9729be5f49016ad6bc10fbb60e1bb4788de52.png",
+        "url": "https://mastodon.online/@seanhecking"
+      },
+      "url": "https://mastodon.online/@seanhecking/112548648697165488",
+      "published": "2024-06-02T19:21:29+00:00",
+      "wm-received": "2024-06-02T22:09:15Z",
+      "wm-id": 1832933,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/112548423400452400/112548648719582075",
+      "wm-target": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@mikestreety\" class=\"u-url\">@<span>mikestreety</span></a></span> looks great nice work!</p>",
+        "text": "@mikestreety looks great nice work!"
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/mike-builds-a-bike/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "xorox",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/e3693974904ab7d878fd6b116aaf835b54789a3966a71cca8b5d2ae9b3980b48.jpg",
+        "url": "https://mastodon.social/@xorgrox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112411114688630839#reblogged-by-112198218093200522",
+      "published": null,
+      "wm-received": "2024-05-10T01:02:24Z",
+      "wm-id": 1825838,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112411114688630839/112198218093200522",
+      "wm-target": "https://www.mikestreety.co.uk/blog/run-unit-tests-in-playwright/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/run-unit-tests-in-playwright/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "xorox",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/e3693974904ab7d878fd6b116aaf835b54789a3966a71cca8b5d2ae9b3980b48.jpg",
+        "url": "https://mastodon.social/@xorgrox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112411114688630839#favorited-by-112198218093200522",
+      "published": null,
+      "wm-received": "2024-05-10T01:02:24Z",
+      "wm-id": 1825839,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112411114688630839/112198218093200522",
+      "wm-target": "https://www.mikestreety.co.uk/blog/run-unit-tests-in-playwright/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/run-unit-tests-in-playwright/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://glasskube.dev/guides/git/",
+      "published": null,
+      "wm-received": "2024-04-26T06:35:44Z",
+      "wm-id": 1816018,
+      "wm-source": "https://glasskube.dev/guides/git/",
+      "wm-target": "https://www.mikestreety.co.uk/blog/the-git-commit-hash/",
+      "wm-protocol": "webmention",
+      "mention-of": "https://www.mikestreety.co.uk/blog/the-git-commit-hash/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://glasskube.dev/guides/git/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sal Ferrarello",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/584c29a1e16a80bbb35e5bde171758525b48d6abaa91e0a7be551fa0d2a55874.jpg",
+        "url": "https://phpc.social/@salcode"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112178367027379762#favorited-by-109286395692777313",
+      "published": null,
+      "wm-received": "2024-03-29T11:52:55Z",
+      "wm-id": 1799050,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112178367027379762/109286395692777313",
+      "wm-target": "https://www.mikestreety.co.uk/blog/how-to-install-only-npm-dev-dependencies/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/how-to-install-only-npm-dev-dependencies/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tom",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/5d6b2bc6ba717a91200b3ec8d1eb33a1260a526de30acaf7828ee1aaef65c563.jpg",
+        "url": "https://fosstodon.org/@ttntm"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112178367027379762#favorited-by-109413569200605086",
+      "published": null,
+      "wm-received": "2024-03-29T11:21:28Z",
+      "wm-id": 1799047,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112178367027379762/109413569200605086",
+      "wm-target": "https://www.mikestreety.co.uk/blog/how-to-install-only-npm-dev-dependencies/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/how-to-install-only-npm-dev-dependencies/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Juan Fernandes",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/739c2658ba6ce4991ce5ce7d0d38c3dab6024885bdfd93c51b3b6663e6530d47.jpg",
+        "url": "https://hachyderm.io/@juanfernandes"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112178367027379762#favorited-by-109400914427263061",
+      "published": null,
+      "wm-received": "2024-03-29T10:19:03Z",
+      "wm-id": 1799037,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112178367027379762/109400914427263061",
+      "wm-target": "https://www.mikestreety.co.uk/blog/how-to-install-only-npm-dev-dependencies/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/how-to-install-only-npm-dev-dependencies/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ludo Hartzema",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/6f39310b7e9870f4a4ae7cd684a9ccd1f89669bb5256b24f0b406fc00ac77287.jpg",
+        "url": "https://mastodon.nl/@absoludo"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112168959519389108#reblogged-by-109343965416784084",
+      "published": null,
+      "wm-received": "2024-03-27T22:09:00Z",
+      "wm-id": 1798562,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112168959519389108/109343965416784084",
+      "wm-target": "https://www.mikestreety.co.uk/blog/scanning-your-code-with-a-bearer-gitlab-compatible-sast/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/scanning-your-code-with-a-bearer-gitlab-compatible-sast/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sara Joy :happy_pepper:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/a06118ca119ec1183309db1aa65689d6bd69349b68713fd0c3f49cc5de8ca683.jpg",
+        "url": "https://front-end.social/@sarajw"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112124244526754864#favorited-by-109297952731474651",
+      "published": null,
+      "wm-received": "2024-03-19T23:59:43Z",
+      "wm-id": 1795503,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112124244526754864/109297952731474651",
+      "wm-target": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Sara Joy :happy_pepper:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/a06118ca119ec1183309db1aa65689d6bd69349b68713fd0c3f49cc5de8ca683.jpg",
+        "url": "https://front-end.social/@sarajw"
+      },
+      "url": "https://front-end.social/@sarajw/112124267403132171",
+      "published": "2024-03-19T20:35:45+00:00",
+      "wm-received": "2024-03-19T23:59:42Z",
+      "wm-id": 1795501,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/112124244526754864/112124267429447800",
+      "wm-target": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@mikestreety\" class=\"u-url\">@<span>mikestreety</span></a></span> woop! Well done :)</p>",
+        "text": "@mikestreety woop! Well done :)"
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Juan Fernandes",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/739c2658ba6ce4991ce5ce7d0d38c3dab6024885bdfd93c51b3b6663e6530d47.jpg",
+        "url": "https://hachyderm.io/@juanfernandes"
+      },
+      "url": "https://hachyderm.io/@juanfernandes/112124271799828054",
+      "published": "2024-03-19T20:36:52+00:00",
+      "wm-received": "2024-03-19T23:59:42Z",
+      "wm-id": 1795502,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/112124244526754864/112124271799828054",
+      "wm-target": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://front-end.social/@sarajw\" class=\"u-url\">@<span>sarajw</span></a></span> <span class=\"h-card\"><a href=\"https://hachyderm.io/@mikestreety\" class=\"u-url\">@<span>mikestreety</span></a></span> yup I always forget to blog about stuff. Then it gets added to a list and then by the time I get to it I’ve forgotten what did lol</p>",
+        "text": "@sarajw @mikestreety yup I always forget to blog about stuff. Then it gets added to a list and then by the time I get to it I’ve forgotten what did lol"
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andrew Feeney",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/caa97746f35b86d08e759d4cdad7cb41ffa4751272482c9d555b8c3439b7054b.jpg",
+        "url": "https://phpc.social/@andrewfeeney"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112124265539786654#reblogged-by-109313344617036947",
+      "published": null,
+      "wm-received": "2024-03-19T23:59:38Z",
+      "wm-id": 1795499,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112124265539786654/109313344617036947",
+      "wm-target": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andrew Feeney",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/caa97746f35b86d08e759d4cdad7cb41ffa4751272482c9d555b8c3439b7054b.jpg",
+        "url": "https://phpc.social/@andrewfeeney"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112124265539786654#favorited-by-109313344617036947",
+      "published": null,
+      "wm-received": "2024-03-19T23:59:38Z",
+      "wm-id": 1795500,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112124265539786654/109313344617036947",
+      "wm-target": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
       "wm-property": "like-of",
       "wm-private": false
     }
