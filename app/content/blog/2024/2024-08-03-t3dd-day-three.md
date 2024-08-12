@@ -123,7 +123,7 @@ See other days:
 
 ## Let's make a simpler, more accessible web - Christian Heilmann
 
-[T3DD Schedule Link](https://t3dd24.typo3.com/program/sessions/lets-make-a-simpler-more-accessible-web-819) / Slides (tbc) / Video (tbc)
+[T3DD Schedule Link](https://t3dd24.typo3.com/program/sessions/lets-make-a-simpler-more-accessible-web-819) / [Slides](https://christianheilmann.com/2024/08/05/talk-notes-lets-make-a-simpler-more-accessible-web/) / Video (tbc)
 
 - We've made the web for developers, not users
 - Why are we looking at spinners and loads and not content?
