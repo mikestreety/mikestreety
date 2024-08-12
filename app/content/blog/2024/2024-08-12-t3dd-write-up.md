@@ -43,3 +43,9 @@ The talks are only half of what makes a conference great. The people truly make 
 I got to meet many incredible people, and it was great that the speakers stayed and mingled so we could pick their brains over a few evenings. There nearly as many (undocumented) takeaways and learnings from the evenings as there were during the day.
 
 All in all, it was a fantastic, educational, and welcoming atmosphere. As long as time and circumstances allow, I will certainly be back for future TYPO3 Developer Days.
+
+## Other write-ups
+
+- [A Recap of TYPO3 Developer Days 2024](https://typo3.com/blog/t3dd24-recap) from TYPO3
+- [TYPO3 Developer Days 2024](https://praterraines.co.uk/typo3-developer-days-2024/) from Prater Raines
+- [My brief review of the TYPO3 Developer Days 2024](https://wwagner.net/en/blog/a/my-brief-review-of-the-typo3-developer-days-2024) by Wolfgang Wagner
