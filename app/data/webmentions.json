@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2024-08-12T07:34:31.627Z",
+  "lastFetched": "2024-09-23T19:36:40.608Z",
   "children": [
     {
       "type": "entry",
@@ -12569,6 +12569,333 @@
       "wm-target": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
       "wm-protocol": "webmention",
       "like-of": "https://www.mikestreety.co.uk/blog/validate-a-json-api-with-playwright-and-json-schema/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "jan",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/7fd24dac7afa63d3b1bd211734940a0ef663504cb49e32a912eb11101f226a21.jpg",
+        "url": "https://mastodon.scot/@jan"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#favorited-by-109596330776104005",
+      "published": null,
+      "wm-received": "2024-09-12T08:39:31Z",
+      "wm-id": 1846984,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112954089722140558/109596330776104005",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mathias Bolt Lesniak",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/eab6bdfb6f07cd48fe8803429d57ed9e815b668bd8faedc9e44b3af80d873e96.jpg",
+        "url": "https://fosstodon.org/@ProvenPudding"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#favorited-by-111307024948586472",
+      "published": null,
+      "wm-received": "2024-08-14T20:21:02Z",
+      "wm-id": 1843213,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112954089722140558/111307024948586472",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mario Rimann",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/9abd86efd79ad1a84cfcfcbc90bf4a1dc913d5e4c09c502808e5f573a931acf2.jpg",
+        "url": "https://neos.social/@mario"
+      },
+      "url": "https://neos.social/@mario/112960240750502471",
+      "published": "2024-08-14T11:54:46+00:00",
+      "wm-received": "2024-08-14T12:23:45Z",
+      "wm-id": 1843168,
+      "wm-source": "https://brid.gy/comment/mastodon/@mikestreety@hachyderm.io/112954089722140558/112960240771315249",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@mikestreety\" class=\"u-url\">@<span>mikestreety</span></a></span> Thanks for sharing! Nice to read that the spirit of \"the DevDays\" are still unbroken :-) And a pity I couldn't attend this year.</p>",
+        "text": "@mikestreety Thanks for sharing! Nice to read that the spirit of \"the DevDays\" are still unbroken :-) And a pity I couldn't attend this year."
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mario Rimann",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/9abd86efd79ad1a84cfcfcbc90bf4a1dc913d5e4c09c502808e5f573a931acf2.jpg",
+        "url": "https://neos.social/@mario"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#favorited-by-109305772303801085",
+      "published": null,
+      "wm-received": "2024-08-14T12:23:44Z",
+      "wm-id": 1843167,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112954089722140558/109305772303801085",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Patrick Schriner",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/d00666c2384738abefac48a1d228ca19701011e687a08511ddcfa01aaf3e1fd0.png",
+        "url": "https://mastodon.social/@pschriner"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#favorited-by-109255931556948251",
+      "published": null,
+      "wm-received": "2024-08-14T01:03:20Z",
+      "wm-id": 1843133,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112954089722140558/109255931556948251",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "falkovdg",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/fc3d1af19b66e22214b6b08946dbb3cf37ee3f070d7be8c8449547356727d969.png",
+        "url": "https://gruene.social/@falkovdg"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#reblogged-by-109754286531412318",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:25Z",
+      "wm-id": 1843132,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112954089722140558/109754286531412318",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Praetorius",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/5b86f0a788f0a2a3e46d358a409928047e322b4122e55671cc52ced699f7e93f.jpg",
+        "url": "https://norden.social/@s2b"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#reblogged-by-109364392597664160",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:24Z",
+      "wm-id": 1843131,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112954089722140558/109364392597664160",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Symfony Station",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/5e904a15855ed23072362ecea8562c92bfd4aca665587d3d1a39a00aedfa3267.jpg",
+        "url": "https://drupal.community/@SymfonyStation"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#reblogged-by-112186037251067033",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:23Z",
+      "wm-id": 1843130,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112954089722140558/112186037251067033",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "MarcusSchwemer",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/83454807a9200deb480fe6592037a5bbdcc25a79ca252e71fdc6c57910c2b0fb.png",
+        "url": "https://muenchen.social/@MarcusSchwemer"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#reblogged-by-109301309911933057",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:22Z",
+      "wm-id": 1843129,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112954089722140558/109301309911933057",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Wolfgang Wagner",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/ff89ec0e9030404d797bf988915c6b9c1ef2c7b94575a97015b5605bf555d97d.jpg",
+        "url": "https://techhub.social/@wowa_TYPO3"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#reblogged-by-109726564911689651",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:21Z",
+      "wm-id": 1843126,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112954089722140558/109726564911689651",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Peter Kraume :typo3:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/bbaeeafb29333bbc2d3e89453fc3d0b2b227783760e6536fea63bdc5f82a845d.jpg",
+        "url": "https://phpc.social/@cybersmog"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#reblogged-by-109315193882121796",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:21Z",
+      "wm-id": 1843127,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112954089722140558/109315193882121796",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marco Huber",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/d6c9302713a2571bbb4e8a60a695af010ca529687ed7ec451ed03384af63b924.jpg",
+        "url": "https://troet.cafe/@mhuber84"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#reblogged-by-110140553267548268",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:21Z",
+      "wm-id": 1843128,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/112954089722140558/110140553267548268",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Peter Kraume :typo3:",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/bbaeeafb29333bbc2d3e89453fc3d0b2b227783760e6536fea63bdc5f82a845d.jpg",
+        "url": "https://phpc.social/@cybersmog"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#favorited-by-109315193882121796",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:20Z",
+      "wm-id": 1843125,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112954089722140558/109315193882121796",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Torben Hansen",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/8e40dbd36b5042bf83a9c63d93c2fcffb733ff4a99cdaba7e985d213d0eaa586.jpg",
+        "url": "https://phpc.social/@derhansen"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#favorited-by-109381758033166108",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:16Z",
+      "wm-id": 1843121,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112954089722140558/109381758033166108",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "neamil",
+        "photo": "https://webmention.io/avatar/hachyderm.io/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://mastodon.social/@neamil"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#favorited-by-110308904759169073",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:16Z",
+      "wm-id": 1843122,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112954089722140558/110308904759169073",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Daniel Siepmann",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/c9c2a9e5f1a8d658753bda290170999b44493c075c3d26e87922738acbecf709.jpg",
+        "url": "https://friendica.daniel-siepmann.de/profile/danielsiepmann"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#favorited-by-108989905764363341",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:16Z",
+      "wm-id": 1843123,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112954089722140558/108989905764363341",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Wolfgang Wagner",
+        "photo": "https://webmention.io/avatar/media.hachyderm.io/ff89ec0e9030404d797bf988915c6b9c1ef2c7b94575a97015b5605bf555d97d.jpg",
+        "url": "https://techhub.social/@wowa_TYPO3"
+      },
+      "url": "https://hachyderm.io/@mikestreety/112954089722140558#favorited-by-109726564911689651",
+      "published": null,
+      "wm-received": "2024-08-14T00:29:16Z",
+      "wm-id": 1843124,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/112954089722140558/109726564911689651",
+      "wm-target": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/a-summary-of-typo3-developer-days-2024/",
       "wm-property": "like-of",
       "wm-private": false
     }
