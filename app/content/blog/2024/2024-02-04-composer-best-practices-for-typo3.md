@@ -2,7 +2,6 @@
 title: Composer Best Practices for TYPO3
 date: 2024-02-04
 intro: This post runs through the composer conventions and best practices we use for our TYPO3 based websites
-permalink: "blog/composer-best-practices-for-typo3/"
 tags:
  - TYPO3
  - Composer

@@ -1,19 +1,46 @@
+---
+title: Bulk create populated Google Docs from a Google Spreadsheet
+date: 2024-10-04
+intro: How to create Google Docs from a single Google Spreadsheet with variables for mail-merge style creation.
+tags:
+ - Google
+ - Javascript
+---
 
-Original: https://www.pbainbridge.co.uk/2020/05/bulk-create-google-docs-from-google.html
+<div class="info">
+The original code & concept was adapted from Phil Bainbridge and the code provided in his [Bulk create Google Docs from Google Sheet data](https://www.pbainbridge.co.uk/2020/05/bulk-create-google-docs-from-google.html) blog post.
+</div>
 
-1. Create a new folder in Google Drive
-2. Create a new spreadsheet in that folder with your data
-	- The script will use a "Title" column as the document name if it exists, otherwise it will use "Row: X" where X is the row number
-	- If you want a link to the doc to be generated, add a "Link" column
-3. Go to Extensions -> App Scripts and paste the below code - click Save
-4. Go back to your spreadsheet and refresh, there should be a "Scripts" menu item with "Create Docs from this Spreadsheet" option - click that
+There is often the time, during a website content creation phase, where people have time and resources to spend writing and adapting content, but the new website is not yet set up. During this phase, we opt for writing content in Google Docs, as this prevents anyone being blocked - the clients can continue with content while we configure the CMS. It also means there is content readily available for designers and developers alike.
 
-Some notes:
+Using the method below, we create documents for each page of the website. This is generated from a Google Sheet (which is usually generating from a website sitemap/scraping tool).
 
-- If the folder contains a document called "Template" if will use that as a basis for all documents
-- If the template contains "variables", these will be replaced
+The script has the ability to "mail merge". Any column titles surrounded by `<<` quotes `>>` will be replaced with the cell contents. It also has the ability to retroactively update variables/placeholders.
+
+## Notes
+
+Some noteworthy features and/or differences to the original
+
+- Documents will be created in the same folder as the spreadsheet
+- If a document already exists with the same name, it will use that file for any variable updates
+- If the folder contains a document called "Template" if will copy tha as a basis for all documents, otherwise it will make an empty document
+- If the document (or template) contains "variables", these will be replaced
 	- Variables are a sluggified version of the column title surrounded by `<< >>` (e.g. Description will be `<<description>>`)
 	- To check what your column name will be, you can use the following: https://slugify.online/
+- If you have a sheet/page called "Log" in your spreadsheet, an log of events will be output so you can track it's progress
+
+## Setup
+
+1. Create a new folder in Google Drive
+2. Create a new spreadsheet in that folder
+3. Populate the first sheet with your document titles and any other (although not necessary, I would advise having at least a **Title** and **Link** column)
+	- The script will use a **Title** column as the document name if it exists, otherwise it will use "Row: X" where X is the row number
+	- If you want a link to the doc to be generated, add a **Link** column
+4. Go to Extensions -> App Scripts and paste the below code - click Save
+5. Go back to your spreadsheet and refresh, there should be a "Scripts" menu item with "Create Docs from this Spreadsheet" option - click that
+	- The process can take a while - about 10 seconds per page. So set it running and got and grab a coffee.
+
+## The code
 
 ```js
 /*
@@ -103,7 +130,7 @@ function createDocuments(dataSheet, folder, existingFiles, template) {
 	// Log starting createDocs Function
 	logEvent('Starting createDocuments Function');
 
-	// Get the formatted sreadsheet data
+	// Get the formatted spreadsheet data
 	let headers,
 		data;
 	[headers, data] = formatRows(dataSheet.getDataRange().getValues())
@@ -116,24 +143,21 @@ function createDocuments(dataSheet, folder, existingFiles, template) {
 		// Create a file name
 		let fileName = page.title ? page.title : 'Row: ' + page.row;
 
-		logEvent('Creating: ' + fileName);
-
 		// Find or create a new file (maybe from the template)
+		logEvent('Looking for: ' + fileName);
 		let file = getOrMakeFile(fileName, existingFiles, template, folder)
 
 		if(!file) {
 			continue;
 		}
 
-		// POpulate the template variables if present
+		// Pppulate any variables - even if it's an existing sheet
 		let fileId = file.getId();
-		if(template && template.id) {
-			populateTemplateVariables(fileId, page);
-		}
+		populateTemplateVariables(fileId, page);
 
 		// Get the column with a title of "Link"
-		let linkColumn = headers.map(a => a.slug).indexOf('link');
-		if(linkColumn) {
+		let linkColumn = (headers.map(a => a.slug)).indexOf('link');
+		if(linkColumn >= 0) {
 			// If it exists, add the URL
 			dataSheet.getRange(page.row, (linkColumn + 1)).setFormula('=HYPERLINK("' + file.getUrl() + '","' + fileName + '")');
 		}
@@ -156,8 +180,10 @@ function getOrMakeFile(fileName, existingFiles, template, folder)
 		existingFile = matchingFileList.length ? matchingFileList[0] : false;
 
 	if(existingFile) {
+		logEvent('Already exists: ' + fileName);
 		file = DriveApp.getFileById(existingFile.id)
 	} else if(template && template.id) {
+		logEvent('Creating from template: ' + fileName);
 		try {
 			file = DriveApp.getFileById(template.id).makeCopy(fileName, folder);
 		}
@@ -167,6 +193,7 @@ function getOrMakeFile(fileName, existingFiles, template, folder)
 		}
 
 	} else {
+		logEvent('Creating empty file: ' + fileName);
 		try {
 			file = DocumentApp.create(fileName)
 			file = DriveApp.getFileById(file.getId())
