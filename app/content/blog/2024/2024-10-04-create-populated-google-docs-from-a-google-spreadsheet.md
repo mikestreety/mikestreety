@@ -8,7 +8,7 @@ tags:
 ---
 
 <div class="info">
-The original code & concept was adapted from Phil Bainbridge and the code provided in his [Bulk create Google Docs from Google Sheet data](https://www.pbainbridge.co.uk/2020/05/bulk-create-google-docs-from-google.html) blog post.
+The original code & concept was adapted from Phil Bainbridge and the code provided in his <a href="https://www.pbainbridge.co.uk/2020/05/bulk-create-google-docs-from-google.html">Bulk create Google Docs from Google Sheet data</a> blog post.
 </div>
 
 There is often the time, during a website content creation phase, where people have time and resources to spend writing and adapting content, but the new website is not yet set up. During this phase, we opt for writing content in Google Docs, as this prevents anyone being blocked - the clients can continue with content while we configure the CMS. It also means there is content readily available for designers and developers alike.
@@ -34,18 +34,18 @@ Some noteworthy features and/or differences to the original
 1. Create a new folder in Google Drive
 2. Create a new spreadsheet in that folder
 3. Populate the first sheet with your document titles and any other (although not necessary, I would advise having at least a **Title** and **Link** column)
-	- The script will use a **Title** column as the document name if it exists, otherwise it will use "Row: X" where X is the row number
-	- If you want a link to the doc to be generated, add a **Link** column
-4. Go to Extensions -> App Scripts and paste the below code - click Save
-5. Go back to your spreadsheet and refresh, there should be a "Scripts" menu item with "Create Docs from this Spreadsheet" option - click that
+	- The script will use a _Title_ column as the document name if it exists, otherwise it will use "Row: X" where X is the row number
+	- If you want a link to the doc to be generated, add a _Link_ column
+4. Go to **Extensions** -> **App Scripts** and paste the below code - click Save
+5. Go back to your spreadsheet and refresh, there should be a **Scripts** menu item with **Create Docs from this Spreadsheet** option - click that
 	- The process can take a while - about 10 seconds per page. So set it running and got and grab a coffee.
 
 ## The code
 
 ```js
 /*
-* This overall script is designed to bulk create Google Docs from data within a Google Sheet.
-*/
+ * This overall script is designed to bulk create Google Docs from data within a Google Sheet.
+ */
 
 /**
  * The main script
