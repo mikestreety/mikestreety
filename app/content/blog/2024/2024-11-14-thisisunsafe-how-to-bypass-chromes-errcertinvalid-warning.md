@@ -6,7 +6,7 @@ tags:
  - General
 ---
 
-**TL:DR;** Focus the chrome window and type the letters `thisisunsafe` - the window should refresh with the website.
+**TL:DR;** If presented with a `NET::ERR_CERT_INVALID` Chrome error then focus the chrome window and type the letters `thisisunsafe` - the window should refresh with the website.
 
 During a website prelaunch, you may wish to preview the new website on an existing domain. To do this, you can update your host file, flush the DNS cache and open your browser.
 
