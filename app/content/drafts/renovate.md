@@ -6,7 +6,7 @@ Tools such as [Dependabot](https://github.com/dependabot) exist, however we were
 
 After a couple of false starts I came across **[Renovate](https://www.mend.io/renovate/)** - a tool which ticked every single box I had - including being able to run it privately on our self-hosted Gitlab install, meaning everything can sit in the comfort of our ecosystem.
 
-This blog post is a bit of a beast, I've include some jump links below and have hopefully broken it up in sensible places. I also repeat bits throughout in the thought you are more likely to scan through this looking for something specific rather than read it top to bottom. [Give me a shout on Mastodon](https://hachyderm.io/@mikestreety) if you have any questions.
+This blog post is a bit of a beast, I've included some jump links below and have hopefully broken it up in sensible places. I also repeat bits throughout in the thought you are more likely to scan through this looking for something specific rather than read it top to bottom. [Give me a shout on Mastodon](https://hachyderm.io/@mikestreety) if you have any questions.
 
 - [Overview](#overview)
 	- [Configuration](#configuration)
@@ -24,11 +24,11 @@ Renovate is a behemoth that can be configured in a myriad of different ways. Rat
 
 ### Configuration
 
-We have a single "Renovate" repository which has the central config. This runs regularly and has the list of target repositories stored within - in theory nothing needs to be changed in the target repository itself for Renovate to start updating it. There is a option which allows you to have optional configuration files in the target repositories.
+We have a single "Renovate" repository which has the central config. This runs regularly and has the list of target repositories stored within - in theory, nothing needs to be changed in the target repository itself for Renovate to start updating it. There is a option which allows you to have optional configuration files in the target repositories.
 
 I use a central `config.js` within the Renovate repository and then, if overrides are required, add a `renovate.json` file to the target repository.
 
-**For example**: We have our Renovate instance updating the Renovate repository itself. In the default config,  we have it set so all minor updates are required to be merged by a human, however, with the [rate Renovate release](https://github.com/renovatebot/renovate/releases) it required several merge requests a day.
+**For example**: We have our Renovate instance updating the Renovate repository itself. In the default config, we have it set so all minor updates are required to be merged by a human, however, with the [rate Renovate release](https://github.com/renovatebot/renovate/releases) it required several merge requests a day.
 
 In the Renovate repository, there is a config override stating minor updates can be automerged:
 
@@ -112,7 +112,7 @@ renovate:
 
 I separated the scheduled & manual tasks out separately in case I want to set some overrides for specific circumstances.
 
-With the version number in both `package.json` and `package.json`, you can see why I have Renovate updating Renovate.
+With the version number in both `package.json` and `.gitlab-ci.yml`, you can see why I have Renovate updating Renovate.
 
 ## Environment variables
 
@@ -130,11 +130,11 @@ try {
 const { repositories } = require('./repositories.js');
 
 const urls = {
-		gitlab: process.env.GITLAB_URL,
-		composer: `${process.env.GITLAB_URL.replace(/\/$/, '')}/group/63/-/packages/composer`,
-		npm: `${process.env.GITLAB_URL.replace(/\/$/, '')}/packages/npm/`,
-		docker: process.env.DOCKER_REGISTRY
-	};
+	gitlab: process.env.GITLAB_URL,
+	composer: `${process.env.GITLAB_URL.replace(/\/$/, '')}/group/63/-/packages/composer`,
+	npm: `${process.env.GITLAB_URL.replace(/\/$/, '')}/packages/npm/`,
+	docker: process.env.DOCKER_REGISTRY
+};
 
 
 // This is necessary, because the env is preset by Gitlab and overrides any Git config done by Renovate.
@@ -147,134 +147,287 @@ Object.assign(process.env, {
 
 module.exports = {
 	/**
-	 * Repositories
-	 */
-	repositories,
-
-	/**
 	 * Base Config Extensions
 	 */
 	extends: [
-		// https://docs.renovatebot.com/presets-default/#ignoremodulesandtests
-		':ignoreModulesAndTests',
 		// https://docs.renovatebot.com/presets-group/#groupmonorepos
 		'group:monorepos',
+
 		// https://docs.renovatebot.com/presets-group/#grouprecommended
 		'group:recommended',
+
 		// https://docs.renovatebot.com/presets-workarounds/#workaroundsall
 		'workarounds:all'
 	],
 
 	/**
+	 * Repositories
+	 */
+
+	repositories,
+
+	/**
+	 * Managers
+	 */
+
+	// What dependencies are we updating?
+	enabledManagers: [
+		'dockerfile',
+		'gitlabci',
+		'composer',
+		'npm'
+	],
+
+	/**
+	 * Global Path & Package Rules
+	 */
+
+	// Skip any package file whose path matches one of these. Can be a string or glob pattern.
+	ignorePaths: [
+		// Copied from https://docs.renovatebot.com/presets-default/#ignoremodulesandtests
+		'**/node_modules/**',
+		'**/bower_components/**',
+		'**/vendor/**',
+		'**/examples/**',
+		'**/__tests__/**',
+		'**/test/**',
+		'**/tests/**',
+		'**/__fixtures__/**',
+
+		// Custom additions
+		'**/app/*/*/Resources/Public/**'
+	],
+
+	ignoreDeps: [
+		"php",
+		"node"
+	],
+
+	/**
 	 * General Config
 	 */
+
 	// Disable all major updates
 	major: {
 		enabled: false
 	},
+
 	// Wait 5 days before creating the MR (the branch is made at the time)
 	minimumReleaseAge: '5 days',
-	// Bump composer & npm files to keep range but use current version as minimum
-	rangeStrategy: 'bump',
+
+	// Pin packages by default
+	rangeStrategy: 'auto',
+
+	// Set this to true to allow passing of all environment variables to package managers.
+	exposeAllEnv: true,
+
+	// Enable Renovate configuration migration PRs when needed.
+	configMigration: true,
 
 	/**
 	 * Dependency Dashboard
 	 */
+
 	// Create an issue with the pending updates
-	dependencyDashboard: true,
-	dependencyDashboardLabels: ['bot'],
+	dependencyDashboard: false,
 
 	/**
 	 * Git & PR settings
 	 */
+
 	// Who to commit as
-	gitAuthor: 'RenovateBot <email@domain.com>',
+	gitAuthor: 'RenovateBot <developers+renovate@liquidlight.co.uk>',
+
 	// Enable semantic commits
 	semanticCommits: 'enabled',
+
 	// Set the semantic commit type to build
 	semanticCommitType: 'build',
+
 	// append a table in the commit message body describing all updates in the commit.
 	commitBodyTable: true,
+
 	// Who to assign the MR to
 	assignees: [],
+
 	// Rebase open PRs with default branch
 	rebaseWhen: 'behind-base-branch',
+
 	// How often to make a PR
 	prHourlyLimit: 0,
+
 	// Concurrent limit
 	prConcurrentLimit: 0,
+
 	// When should it automerge?
-	automergeSchedule: ['after 7:30am and before 4pm every weekday'],
+	automergeSchedule: ['after 7:30am and before 5pm every weekday'],
+
 	// Labels to add to the PR
-	labels: ['bot'],
+	labels: ['Author: Bot'],
+
+	/**
+	 * Setup
+	 */
+
+	// Should an onboard PR be made?
+	onboarding: false,
+	// Do we require config? (set to optional so the repo can have it if needed)
+	requireConfig: 'optional',
+
+	/**
+	 * Platform
+	 */
+
+	platform: 'gitlab',
+	endpoint: urls.gitlab + '/',
+	token: process.env.GITLAB_API_PRIVATE_TOKEN,
+
+	// Get to private Gitlab packages
+	hostRules: [
+		{
+			hostType: 'packagist',
+			matchHost: urls.composer,
+			token: process.env.PACKAGE_CI_TOKEN
+		},
+		{
+			hostType: 'docker',
+			matchHost: urls.docker,
+			username: process.env.DOCKER_REGISTRY_USER,
+			password: process.env.DOCKER_REGISTRY_PASS
+		}
+	],
+
+	// Get to private NPM packages
+	npmrc: `@packages:registry=${urls.npm}\n${urls.npm.replace('https://', '//')}:_authToken=${process.env.PACKAGE_CI_TOKEN}`,
+
+	/**
+	 * Lockfile Maintenance
+	 */
+
+	lockFileMaintenance: {
+		enabled: !!process.env.LOCKFILE_UPDATE,
+		automerge: true,
+		automergeType: 'branch',
+		branchTopic: 'lock-file-maintenance',
+		schedule: ['before 5pm']
+	},
 
 	/**
 	 * Post Upgrade
 	 */
+
 	// What post upgrade commands are allowed
 	allowedPostUpgradeCommands: [
-		"composer update {{{depName}}}:{{{newVersion}}} --no-scripts --no-progress --no-interaction",
-		"npm update {{{depName}}} --save --ignore-scripts"
+		'composer update --no-scripts --no-progress --no-interaction',
+		'npm install --save --ignore-scripts'
 	],
 
 	/**
 	 * Package Rules
 	 */
+
 	packageRules: [
 		/**
 		 * Specific packages
 		 */
+
+		// Local packages
+		{
+			matchCurrentVersion: '0.0.0',
+			enabled: false
+		},
+
 		// TYPO3
 		{
-			matchPackagePatterns: ['^typo3\/'],
+			matchPackageNames: ['^typo3/'],
+			rangeStrategy: 'pin',
 			minimumReleaseAge: null
 		},
-		// Liquid Light
+
 		{
-			matchPackagePatterns: ['^liquidlight/'],
+			matchManagers: ['composer'],
+			rangeStrategy: 'pin',
+		},
+
+		/**
+		 * Dev Depndencies
+		 */
+
+		{
+			matchDepTypes: [
+			  'devDependencies',
+			  'require-dev'
+			],
+			rangeStrategy: 'auto',
+			automerge: true,
+		},
+
+		// Liquid Light - composer
+		{
+			groupName: 'Liquid Light composer packages',
+			matchPackageNames: ['^liquidlight/'],
+			automerge: true,
+			rangeStrategy: 'pin',
+			automergeType: 'branch',
+			addLabels: ['Action: Will Automerge'],
+			minimumReleaseAge: '1 day',
 			registryUrls: [
 				urls.composer,
 				'https://packagist.org'
-			],
+			]
+		},
+
+		// Liquid Light - NPM
+		{
+			groupName: 'Liquid Light NPM packages',
+			matchPackageNames: ['^@packages/'],
+			automerge: true,
+			automergeType: 'branch',
+			addLabels: ['Action: Will Automerge'],
 		},
 
 		/**
 		 * Update Types
 		 */
+
 		{
 			matchUpdateTypes: ['minor'],
-			addLabels: ['review-required']
+			addLabels: ['Action: Review Required', 'Review: With Developer']
 		},
+
 		{
 			matchUpdateTypes: ['patch'],
 			commitMessageSuffix: '[patch]',
 			automerge: true,
 			automergeType: 'branch',
-			addLabels: ['automerge']
+			addLabels: ['Action: Will Automerge']
 		},
 
 		/**
 		 * NPM Packages
 		 */
+
 		{
 			groupName: 'NPM dependencies',
 			matchManagers: ['npm'],
 			matchUpdateTypes: ['minor', 'patch'],
 			semanticCommitScope: 'npm',
-			addLabels: ['npm'],
+			addLabels: ['Tech: NPM'],
 			postUpgradeTasks: {
 				commands: [
-					"npm update {{{depName}}} --save --ignore-scripts"
+					'npm install --save --ignore-scripts'
 				],
-				fileFilters: ["package-lock.json"],
-				executionMode: "update"
+				fileFilters: ['package-lock.json'],
+				executionMode: 'branch'
 			}
 		},
+
 		{
 			matchManagers: ['npm'],
 			matchUpdateTypes: ['patch'],
 			groupSlug: 'npm-patch'
 		},
+
 		{
 			matchManagers: ['npm'],
 			matchUpdateTypes: ['minor'],
@@ -284,25 +437,28 @@ module.exports = {
 		/**
 		 * Composer packages
 		 */
+
 		{
 			groupName: 'Composer dependencies',
 			matchManagers: ['composer'],
 			matchUpdateTypes: ['minor', 'patch'],
-			addLabels: ['composer'],
+			addLabels: ['Tech: Composer'],
 			semanticCommitScope: 'composer',
 			postUpgradeTasks: {
 				commands: [
-					"composer update {{{depName}}}:{{{newVersion}}} --no-scripts --no-progress --no-interaction"
+					'composer update --no-scripts --no-progress --no-interaction'
 				],
-				fileFilters: ["composer.lock"],
-				executionMode: "update"
+				fileFilters: ['composer.lock'],
+				executionMode: 'branch'
 			}
 		},
+
 		{
 			matchManagers: ['composer'],
 			matchUpdateTypes: ['patch'],
 			groupSlug: 'composer-patch'
 		},
+
 		{
 			matchManagers: ['composer'],
 			matchUpdateTypes: ['minor'],
@@ -312,73 +468,28 @@ module.exports = {
 		/**
 		 * Docker dependencies
 		 */
+
 		{
 			groupName: 'Docker dependencies',
 			matchManagers: ['dockerfile'],
+			addLabels: ['Tech: Docker'],
 			semanticCommitScope: 'docker',
+			rangeStrategy: 'auto',
 		},
 
 		/**
 		 * Gitlab CI dependencies
 		 */
+
 		{
 			groupName: 'Gitlab dependencies',
 			matchManagers: ['gitlabci'],
-			semanticCommitScope: 'ci',
+			addLabels: ['Tech: Gitlab CI'],
+			semanticCommitType: 'ci',
+			semanticCommitScope: 'gitlab',
+			rangeStrategy: 'auto',
 		}
-	],
-
-	// Keep lockfiles up-to-date
-	lockFileMaintenance: {
-		enabled: true,
-		automerge: true,
-		automergeType: "branch",
-		branchTopic: 'lock-file-maintenance',
-		schedule: ['before 4pm on the first day of the month'],
-	},
-
-	/**
-	 * Setup
-	 */
-	// Should an onboard PR be made?
-	onboarding: false,
-	// Do we require config? (set to optional so the repo can have it if needed)
-	requireConfig: 'optional',
-
-	/**
-	 * Platform
-	 */
-	platform: 'gitlab',
-	endpoint: urls.gitlab + '/',
-	token: process.env.GITLAB_API_PRIVATE_TOKEN,
-
-	/**
-	 * Managers
-	 */
-	// What dependencies are we updating?
-	enabledManagers: [
-		'dockerfile',
-		'gitlabci',
-		'composer',
-		'npm',
-	],
-	// Get to private Gitlab packages
-	hostRules: [
-		{
-			hostType: 'packagist',
-			matchHost: urls.composer,
-			username: '___token___',
-			password: process.env.PACKAGE_CI_TOKEN,
-		},
-		{
-			hostType: 'docker',
-			matchHost: urls.docker,
-			username: process.env.DOCKER_REGISTRY_USER,
-			password: process.env.DOCKER_REGISTRY_PASS,
-		}
-	],
-	// Get to private NPM packages
-	npmrc: `@packages:registry=${urls.npm}\n${urls.npm.replace('https://', '//')}:_authToken=${process.env.PACKAGE_CI_TOKEN}`
+	]
 };
 ```
 {% endraw %}
