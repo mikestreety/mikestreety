@@ -2,7 +2,7 @@
 title: Validate a JSON API with Playwright & JSON Schema
 date: 2024-03-19
 intro: Learn how to validate a JSON API with Playwright
-permalink: "blog/validate-a-json-API-with-playwright-and-json-schema/"
+permalink: "blog/validate-a-json-api-with-playwright-and-json-schema/"
 tags:
  - Playwright
  - Testing

@@ -1,5 +1,18 @@
 module.exports = () => {
 	const popular_posts = {
+		'2024': [
+			'/blog/migrating-gitlab-from-one-server-to-another/',
+			'/blog/npm-install-without-modifying-package-lock/',
+			'/blog/git-clone-a-repository-without-the-history/',
+			'/blog/vue-js-using-localstorage-with-the-vuex-store/',
+			'/blog/validate-a-json-api-with-playwright-and-json-schema/',
+			'/blog/deploying-a-docker-image-to-a-remote-private-registry-with-gitlab-ci/',
+			'/blog/the-git-commit-hash/',
+			'/blog/using-private-docker-registry-gitlab-ci/',
+			'/blog/login-with-puppeteer-and-re-use-cookies-for-another-window/',
+			'/blog/build-and-push-a-docker-image-to-a-private-registry-with-gitlab-ci/'
+		],
+
 		'2023': [
 			'/blog/migrating-gitlab-from-one-server-to-another/',
 			'/blog/vue-js-using-localstorage-with-the-vuex-store/',
@@ -12,6 +25,7 @@ module.exports = () => {
 			'/blog/how-to-use-fetch-in-javascript-to-get-or-post-data/',
 			'/blog/posting-to-slack-from-gitlab-ci/'
 		],
+
 		'2022': [
 			'/blog/migrating-gitlab-from-one-server-to-another/',
 			'/blog/vue-js-using-localstorage-with-the-vuex-store/',
