@@ -195,7 +195,7 @@ new ApexCharts(document.querySelector('#walkingSteps'), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Steps',
-		data: ['2659838', '2126312', '2562958', '2433968', '2796309']
+		data: ['2659838', '2126312', '2562958', '2433968', '2796309', '3207971']
 	}]
 }).render();
 
@@ -203,7 +203,7 @@ new ApexCharts(document.querySelector('#walkingCalories'), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Calories',
-		data: ['1033167', '1020728', '1052978', '1141732', '1125108']
+		data: ['1033167', '1020728', '1052978', '1141732', '1125108', '1154373']
 	}]
 }).render();
 
