@@ -1,6 +1,5 @@
 ---
 title: Slow upload speed with Apple MacOS - how to debug and what to check
-date: 2024-12-05
 intro: Recently the upload speed on my MacOS devices suddenly dropped - debugging was a nightmare
 tags:
  - General

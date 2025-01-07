@@ -1,8 +1,6 @@
 ---
 title: Post to Slack from Gitlab CI
-date: 2023-03-24
 intro: Posting a customised message to Slack via a bash script
-permalink: "blog/posting-to-slack-from-gitlab-ci/"
 tags:
  - Gitlab
 ---

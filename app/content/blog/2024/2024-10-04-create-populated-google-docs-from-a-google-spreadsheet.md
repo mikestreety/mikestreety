@@ -1,6 +1,5 @@
 ---
 title: Bulk create populated Google Docs from a Google Spreadsheet
-date: 2024-10-04
 intro: How to create Google Docs from a single Google Spreadsheet with variables for mail-merge style creation.
 tags:
  - Google

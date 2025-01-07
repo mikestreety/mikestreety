@@ -1,6 +1,5 @@
 ---
 title: 2024 Quiz of the Year
-date: 2024-12-23
 intro: A Christmas quiz for (nearly) all ages
 tags:
  - General
