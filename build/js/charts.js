@@ -32,6 +32,7 @@ var chartOptions = {
 	chart: {
 		height: 250,
 		type: 'area',
+		stacked: true,
 		toolbar: {
 			show: false
 		},
@@ -56,8 +57,7 @@ var chartOptions = {
 		}
 	},
 	xaxis: {
-		tickAmount: 3,
-		categories: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+		tickAmount: 5
 	},
 	yaxis: {
 		tickAmount: 4,
@@ -69,18 +69,255 @@ var chartOptions = {
 	}
 };
 
+const data = {
+	2006: {
+		geocachesFound: 1
+	},
+	2007: {
+		geocachesFound: 0
+	},
+	2008: {
+		geocachesFound: 5
+	},
+	2009: {
+		postsPersonal: 4,
+		geocachesFound: 210
+	},
+	2010: {
+		postsPersonal: 7,
+		geocachesFound: 375
+	},
+	2011: {
+		postsPersonal: 7,
+		geocachesFound: 129
+	},
+	2012: {
+		postsPersonal: 18,
+		cycling: {
+			rides: [35, 0],
+			distance: [623.3, 0],
+			elevation: [26930, 0],
+			time: [2516, 0]
+		},
+		geocachesFound: 0
+	},
+	2013: {
+		postsPersonal: 11,
+		cycling: {
+			rides: [14, 0],
+			distance: [341.6, 0],
+			elevation: [15517, 0],
+			time: [1354, 0]
+		},
+		geocachesFound: 0
+	},
+	2014: {
+		postsPersonal: 17,
+		cycling: {
+			rides: [351, 0],
+			distance: [2611.0, 0],
+			elevation: [146034, 0],
+			time: [11388, 0]
+		},
+		geocachesFound: 0
+	},
+	2015: {
+		postsPersonal: 13,
+		cycling: {
+			rides: [433, 0],
+			distance: [2464.2, 0],
+			elevation: [148223, 0],
+			time: [11223, 0]
+		},
+		geocachesFound: 0
+	},
+	2016: {
+		postsPersonal: 19,
+		instagramAleHouseRock: 28,
+		cycling: {
+			rides: [453, 1],
+			distance: [2585.8, 1.1],
+			elevation: [154822, 156],
+			time: [11431, 269]
+		},
+		geocachesFound: 0,
+		lastFmScrobbles: 1956
+	},
+	2017: {
+		postsPersonal: 24,
+		instagramPersonal: 39,
+		instagramAleHouseRock: 62,
+		cycling: {
+			rides: [438, 0],
+			distance: [2266.7, 0],
+			elevation: [136484, 0],
+			time: [10889, 0]
+		},
+		walking: {
+			steps: 2659838,
+			calories: 1033167
+		},
+		lastFmScrobbles: 8153,
+		geocachesFound: 0
+	},
+	2018: {
+		postsPersonal: 10,
+		instagramPersonal: 24,
+		instagramAleHouseRock: 102,
+		cycling: {
+			rides: [301, 0],
+			distance: [3523.3, 0],
+			elevation: [126183, 0],
+			time: [15084, 0]
+		},
+		walking: {
+			steps: 2126312,
+			calories: 1020728
+		},
+		lastFmScrobbles: 4426,
+		geocachesFound: 0
+	},
+	2019: {
+		postsPersonal: 12,
+		instagramPersonal: 29,
+		instagramAleHouseRock: 76,
+		cycling: {
+			rides: [288, 0],
+			distance: [2689.4, 0],
+			elevation: [46368, 0],
+			time: [10725, 0]
+		},
+		walking: {
+			steps: 2562958,
+			calories: 1052978
+		},
+		lastFmScrobbles: 12915,
+		geocachesFound: 0
+	},
+	2020: {
+		postsPersonal: 15,
+		instagramPersonal: 6,
+		instagramAleHouseRock: 136,
+		cycling: {
+			rides: [149, 0],
+			distance: [1927.3, 0],
+			elevation: [69416, 0],
+			time: [7954, 0]
+		},
+		walking: {
+			steps: 2433968,
+			calories: 1141732
+		},
+		lastFmScrobbles: 14102,
+		geocachesFound: 0
+	},
+	2021: {
+		postsPersonal: 28,
+		instagramPersonal: 17,
+		instagramAleHouseRock: 196,
+		cycling: {
+			rides: [114, 50],
+			distance: [1031.3, 367.3],
+			elevation: [18471, 4329],
+			time: [4484, 1759]
+		},
+		walking: {
+			steps: 2796309,
+			calories: 1125108
+		},
+		lastFmScrobbles: 10300,
+		geocachesFound: 18
+	},
+	2022: {
+		postsPersonal: 18,
+		instagramPersonal: 11,
+		instagramAleHouseRock: 155,
+		cycling: {
+			rides: [262, 200],
+			distance: [1934.7, 1604.5],
+			elevation: [30152, 22760],
+			time: [9031, 7274]
+		},
+		walking: {
+			steps: 3207971,
+			calories: 1154373
+		},
+		lastFmScrobbles: 21055,
+		geocachesFound: 174
+	},
+	2023: {
+		postsPersonal: 27,
+		instagramPersonal: 1,
+		instagramAleHouseRock: 129,
+		cycling: {
+			rides: [368, 200],
+			distance: [2593, 1598],
+			elevation: [48896, 22207],
+			time: [11517, 7075]
+		},
+		lastFmScrobbles: 15158,
+		geocachesFound: 96
+	},
+	2024: {
+		postsPersonal: 17,
+		instagramPersonal: 0,
+		instagramAleHouseRock: 119,
+		cycling: {
+			rides: [316, 174],
+			distance: [2513.9, 1566.3],
+			elevation: [39993, 22686],
+			time: [10941, 6883]
+		},
+		lastFmScrobbles: 14942,
+		geocachesFound: 201
+	}
+};
+
+/**
+ * Generate series data for ApexCharts
+ * @param {Object} data - The structured data object
+ * @param {String} key - The key to extract data for (e.g., "cycling", "postsPersonal")
+ * @param {String} subKey - The sub-key to extract (for grouped data like "cycling.distance"), optional
+ * @returns {Array} - ApexCharts-compatible series data
+ */
+function generateSeries(data, key, subKey = null) {
+	const seriesData = [];
+
+	for (const year in data) {
+		if (data[year].hasOwnProperty(key)) {
+			if (subKey && typeof data[year][key] === 'object') {
+				// Handle grouped data with sub-keys (e.g., "cycling.distance")
+				if (data[year][key][subKey]) {
+					seriesData.push({
+						x: parseInt(year, 10),
+						y: data[year][key][subKey]
+					});
+				}
+			} else if (!subKey) {
+				// Handle flat keys (e.g., "postsPersonal")
+				seriesData.push({
+					x: parseInt(year, 10),
+					y: data[year][key]
+				});
+			}
+		}
+	}
+
+	return seriesData;
+}
+
+
 /**
  * Blog Posts
  */
 new ApexCharts(document.querySelector('#postsPersonal'), {
 	...chartOptions,
-	series: [{
-		name: 'Posts',
-		data: [4, 7, 7, 18, 11, 17, 13, 19, 24, 10, 12, 15, 28, 18, 27, 17]
-	}],
-	xaxis: {
-		categories: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
-	},
+	series: [
+		{
+			name: 'Posts',
+			data: generateSeries(data, 'postsPersonal')
+		}
+	],
 	colors: ['#35eb93']
 }).render();
 
@@ -91,7 +328,7 @@ new ApexCharts(document.querySelector('#instagramPersonal'), {
 	...chartOptions,
 	series: [{
 		name: 'Photos',
-		data: [39, 24, 29, 6, 17, 11, 1, 0]
+		data: generateSeries(data, 'instagramPersonal')
 	}],
 	colors: ['#35eb93']
 }).render();
@@ -100,40 +337,43 @@ new ApexCharts(document.querySelector('#instagramAleHouseRock'), {
 	...chartOptions,
 	series: [{
 		name: 'Reviews',
-		data: [28, 62, 102, 76, 136, 196, 155, 129, 119] // (1003)
+		data: generateSeries(data, 'instagramAleHouseRock') // (1003)
 	}],
-	xaxis: {
-		categories: [2016, ...chartOptions.xaxis.categories]
-	},
 	colors: ['#2b76b9']
 }).render();
 
 /**
  * Cycling
  */
-new ApexCharts(document.querySelector('#cyclingDistance'), {
+const strava = {
 	...chartOptions,
+	colors: ['#fc5200', '#6134ff']
+}
+
+const cyclingDistanceSeries = generateSeries(data, 'cycling', 'distance');
+new ApexCharts(document.querySelector('#cyclingDistance'), {
+	...strava,
 	series: [{
 		name: 'Distance (miles)',
-		data: ['623.3', '341.6', '2611.0', '2464.2', '2585.8', '2249.7', '3273.5', '2689.4', '1927.30', '1398.60', '3539.20', '4191.00', '4059.20']
-	}],
-	xaxis: {
-		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
-	},
-	colors: ['#fc5200']
+		data: cyclingDistanceSeries.map(item => ({ x: item.x, y: item.y[0] }))
+	}, {
+		name: 'Distance (miles) [eBike]',
+		data: cyclingDistanceSeries.map(item => ({ x: item.x, y: item.y[1] }))
+	}]
 }).render();
 
+const cyclingTimeSeries = generateSeries(data, 'cycling', 'distance');
 new ApexCharts(document.querySelector('#cyclingTime'), {
-	...chartOptions,
+	...strava,
 	series: [{
 		name: 'Time spent cycling',
 		// Minutes
-		data: [2516, 1354, 11388, 11223, 11431, 10816, 14124, 10725, 7954, 6243, 16305, 18652, 17798]
+		data: cyclingTimeSeries.map(item => ({ x: item.x, y: item.y[0] }))
+	}, {
+		name: 'Time spent cycling [eBike]',
+		// Minutes
+		data: cyclingTimeSeries.map(item => ({ x: item.x, y: item.y[1] }))
 	}],
-	xaxis: {
-		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
-	},
-	colors: ['#fc5200'],
 	yaxis: {
 		labels: {
 			formatter: function(val) {
@@ -150,28 +390,28 @@ new ApexCharts(document.querySelector('#cyclingTime'), {
 	}
 }).render();
 
+const cyclingElevationSeries = generateSeries(data, 'cycling', 'distance');
 new ApexCharts(document.querySelector('#cyclingElevation'), {
-	...chartOptions,
+	...strava,
 	series: [{
 		name: 'Elevation (ft)',
-		data: [26932, 15515, 146033, 148222, 154823, 134459, 112178, 46368, 69416, 22800, 52912, 71103, 62472]
+		data: cyclingElevationSeries.map(item => ({ x: item.x, y: item.y[0] }))
+	}, {
+		name: 'Elevation (ft) [eBike]',
+		data: cyclingElevationSeries.map(item => ({ x: item.x, y: item.y[1] }))
 	}],
-	xaxis: {
-		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
-	},
-	colors: ['#fc5200']
 }).render();
 
+const cyclingRidesSeries = generateSeries(data, 'cycling', 'rides');
 new ApexCharts(document.querySelector('#cyclingRides'), {
-	...chartOptions,
+	...strava,
 	series: [{
 		name: 'Number of rides',
-		data: [35, 14, 351, 433, 453, 443, 291, 288, 149, 164, 462, 568, 488]
+		data: cyclingRidesSeries.map(item => ({ x: item.x, y: item.y[0] }))
+	}, {
+		name: 'Number of rides [eBike]',
+		data: cyclingRidesSeries.map(item => ({ x: item.x, y: item.y[1] }))
 	}],
-	xaxis: {
-		categories: [2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
-	},
-	colors: ['#fc5200']
 }).render();
 
 /**
@@ -180,9 +420,7 @@ new ApexCharts(document.querySelector('#cyclingRides'), {
 
 let walkingChartOptions = JSON.parse(JSON.stringify(chartOptions));
 walkingChartOptions.colors = ['#000'];
-walkingChartOptions.xaxis.categories = walkingChartOptions.xaxis.categories.filter(
-	x => ![2017, 2018].includes(x)
-);
+
 walkingChartOptions.yaxis = {
 	labels: {
 		formatter: function(val) {
@@ -195,16 +433,16 @@ new ApexCharts(document.querySelector('#walkingSteps'), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Steps',
-		data: ['2659838', '2126312', '2562958', '2433968', '2796309', '3207971']
-	}]
+		data: generateSeries(data, 'walking', 'steps')
+	}],
 }).render();
 
 new ApexCharts(document.querySelector('#walkingCalories'), {
 	...walkingChartOptions,
 	series: [{
 		name: 'Calories',
-		data: ['1033167', '1020728', '1052978', '1141732', '1125108', '1154373']
-	}]
+		data: generateSeries(data, 'walking', 'calories')
+	}],
 }).render();
 
 /**
@@ -214,13 +452,12 @@ new ApexCharts(document.querySelector('#geocachesFound'), {
 	...chartOptions,
 	series: [{
 		name: 'Geocaches Found',
-		data: [1, 0, 5, 210, 375, 129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 174, 96, 201]
+		data: generateSeries(data, 'geocachesFound')
 	}],
 	colors: ['#02874d'],
-	xaxis: {
-		categories: [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, ...chartOptions.xaxis.categories]
-	}
 }).render();
+
+console.log(generateSeries(data, 'geocachesFound'));
 
 /**
  * Last FM scrobbles
@@ -231,10 +468,7 @@ new ApexCharts(document.querySelector('#lastFmScrobbles'), {
 	...chartOptions,
 	series: [{
 		name: 'Listens',
-		data: [1956, 8153, 4426, 12915, 14102, 10300, 21055, 15158, 14942]
+		data: generateSeries(data, 'lastFmScrobbles')
 	}],
-	xaxis: {
-		categories: [2016, ...chartOptions.xaxis.categories]
-	},
 	colors: ['#bb0001']
 }).render();
