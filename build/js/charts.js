@@ -56,9 +56,6 @@ var chartOptions = {
 			stops: [20, 100]
 		}
 	},
-	xaxis: {
-		tickAmount: 5
-	},
 	yaxis: {
 		tickAmount: 4,
 		labels: {
@@ -347,7 +344,10 @@ new ApexCharts(document.querySelector('#instagramAleHouseRock'), {
  */
 const strava = {
 	...chartOptions,
-	colors: ['#fc5200', '#6134ff']
+	colors: ['#fc5200', '#6134ff'],
+	xaxis: {
+		tickAmount: 6
+	}
 }
 
 const cyclingDistanceSeries = generateSeries(data, 'cycling', 'distance');
@@ -384,7 +384,7 @@ new ApexCharts(document.querySelector('#cyclingTime'), {
 	tooltip: {
 		y: {
 			formatter: function(val) {
-				return Math.floor(val / 60) + 'h ' + (val % 60) + 'm';
+				// return Math.floor(val / 60) + 'h ' + Math.floor(val % 60) + 'm';
 			}
 		}
 	}
