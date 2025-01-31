@@ -10,7 +10,6 @@ Gigs, live music, shows and nights out I've attended
 
 ## Historial record
 
-
 | Title | Location | Date |
 | -------- | ------- | ------- |
 | Bastille (Dan Solo) | Resident Records, Brighton | 8/12/2024 |
