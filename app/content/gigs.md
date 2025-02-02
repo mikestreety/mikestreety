@@ -17,8 +17,10 @@ Gigs, live music, shows and nights out I've attended
 | Hamilton | Victoria Palace Theatre, London | 02/11/2024 |
 | Stranger Things - The First Shadow | London | 01/11/2024 |
 | Bastille | O2 Shepherd's Bush Empire, London | 17/11/2024 |
+| Mrs. Doubtfire | Shaftesbury Theatre, Brighton | 28/07/2024 |
 | Bluey's Big Show | Brighton Centre, Brighton | 07/07/2024 |
 | Frozen The Musical | Dury Lane, London | 02/03/2024 |
+| Mark Watson | Worthing Pavilion, Worthing | 20/01/2024 |
 | Russell Howard | Brighton Dome, Brighton | 03/07/2023 |
 | Six | Eastbourne Congress Theatre, Eastbourne | 04/06/2022 |
 | Bastille | Brighton Centre, Brighton | 18/04/2022 |
@@ -55,9 +57,7 @@ Gigs, live music, shows and nights out I've attended
 
 ## Missing date
 
-- Mrs Doubtfire
 - Wicked
-- Mark Watson - Worthing Pavilion
 - Orchestra - Worthing Assembly Halls (free tickets)
 - Stereophonics - Earles Court
 - Travis - Brighton Centre
