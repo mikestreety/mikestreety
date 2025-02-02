@@ -42,10 +42,13 @@ Gigs, live music, shows and nights out I've attended
 | Luke Concanon | The Brunswick, Hove | 22/11/2013 |
 | Jimmy Carr | Worthing Assembly Halls, Worthing | 22/09/2012 |
 | Athlete | Concorde 2, Brighton | 16/06/2009 |
+| The Fray | Roundhouse, London | 06/05/2009 |
+| Boy Kill Boy | The Freebutt, Brighton | 24/03/2009 |
 | Das Pop | New Hero, Brighton | 13/02/2009 |
 | Alphabeat | Concorde 2, Brighton | 03/11/2008 |
 | The Great Escape Festival | Various Venues, Brighton | 17-19/05/2007 |
 | The Go! Team | Brighton Dome, Brighton | 28/10/2006 |
+| Panic! At The Disco | Brixton Academy, London | 22/10/2006 |
 | Nizlopi | Concorde 2, Brighton | 04/09/2006 |
 | Athlete | Brighton Centre, Brighton | 31/10/2005 |
 | Red Hot Chilli Peppers | Hyde Park, London | 19/06/2004 |
@@ -59,5 +62,4 @@ Gigs, live music, shows and nights out I've attended
 - Stereophonics - Earles Court
 - Travis - Brighton Centre
 - Luke Concanon - Portsmouth - 24/11/2014
-- Boy Kill Boy, Brighton
 - 36crazyfists - concorde 2
