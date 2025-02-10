@@ -12,7 +12,8 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
-| Bastille (Dan Solo) | Resident Records, Brighton | 8/12/2024 |
+| Just Floyd | The Factory Live, Worthing | 08/02/2025
+| Bastille (Dan Solo) | Resident Records, Brighton | 08/12/2024 |
 | Embrace | Chalk, Brighton | 26/11/2024 |
 | Hamilton | Victoria Palace Theatre, London | 02/11/2024 |
 | Stranger Things - The First Shadow | London | 01/11/2024 |
@@ -43,6 +44,7 @@ Gigs, live music, shows and nights out I've attended
 | Luke Concanon | Latest Music Bar, Brighton | 25/03/2014 |
 | Luke Concanon | The Brunswick, Hove | 22/11/2013 |
 | Jimmy Carr | Worthing Assembly Halls, Worthing | 22/09/2012 |
+| (Floyd) In the Flesh | Theatre Royal, Brighton | 20/01/2011 |
 | Athlete | Concorde 2, Brighton | 16/06/2009 |
 | The Fray | Roundhouse, London | 06/05/2009 |
 | Boy Kill Boy | The Freebutt, Brighton | 24/03/2009 |
