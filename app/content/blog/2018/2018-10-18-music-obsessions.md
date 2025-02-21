@@ -8,6 +8,9 @@ tags:
  - General
  - Music
 ---
+
+**The most up-to-date version can be found [elsewhere on the site](/music-obsessions/)**
+
 The table below details what I've been listening to, what I am listening to, or albums I've discovered. There is no shame in this list, these are things you'll catch me listening to. They are albums I reach for when wanting something comfortable.
 
 I'm always open to recommendations, so let me know if there should be something added to this list.
