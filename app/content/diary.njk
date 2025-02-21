@@ -5,7 +5,7 @@ layout: page.njk
 ---
 
 <h1>Diary</h1>
-<p>All my blog posts & notes, chronologically ordered from now back in time.
+<p>All {{ collections.blog.length }} of my blog posts, chronologically ordered from now back in time.
 <div class="post-listing">
 	<ol class="diary">
 	{% for year in diary() %}
