@@ -16,7 +16,7 @@ As we have NPM, Composer, Docker and Gitlab CI dependencies updated by Renovate,
 Becuase of that, we now have the following command running weekly:
 
 ```bash
-docker rmi `docker image ls | egrep "^renovate/" | awk '{print$3}'
+docker rmi `docker image ls | egrep "^renovate/" | awk '{print$3}'`
 ```
 
 This finds all the images that start with renovate and deletes them. When Renovate next runs, it will pull down the image it needs.
