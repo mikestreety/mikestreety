@@ -27,8 +27,8 @@ Gigs, live music, shows and nights out I've attended
 | Bastille | Brighton Centre, Brighton | 18/04/2022 |
 | Chris Ramsey | Portsmouth Guildhall, Portsmouth | 12/03/2022 |
 | Lazybones |  | 17/10/2018 |
-| Book of Mormon | London | 23/08/2018 |
-| Harry Potter and the Cursed Child (1 & 2) | London | 22/08/2018 |
+| Book of Mormon | Prince of Wales Theatre, London | 23/08/2018 |
+| Harry Potter and the Cursed Child (1 & 2) | Palace Theatre, London | 22/08/2018 |
 | Hamilton | Victoria Palace Theatre, London | 31/05/2018 |
 | Lazybones |  | 12/03/2018 |
 | Scott Bradlee's Postmodern Jukebox | Brighton Dome, Brighton | 05/03/2018 |
