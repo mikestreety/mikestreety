@@ -31,8 +31,7 @@ Create a new test and use the `setContent` function ([setContent in the Playwrig
 
 **Tip:** Browsers will add a `<head>` and `<body>` element if they don't exist so, unless your JavaScript explicitly requires these, you can omit them from your HTML
 
-```js
-
+```typescript
 import { test, expect } from '@playwright/test';
 
 test('Checks the site selector correctly updates & navigates when isolated',  async({ page }) => {
@@ -48,7 +47,7 @@ The next thing we do is load the JavaScript. We do this using the `addScriptTag`
 This takes a JavaScript file and loads it into the page itself - this means the JS file doesn't need to be "accessible" on a URL and helps keep the test contained
 
 
-```js
+```typescript
 import { test, expect } from '@playwright/test';
 
 test('Checks the site selector correctly updates & navigates when isolated',  async({ page }) => {
@@ -81,7 +80,7 @@ npx playwright test --grep @ci
 
 Our two tests would look something like this:
 
-```js
+```typescript
 import { test, expect } from '@playwright/test';
 
 test.describe('Alert test', () => {
