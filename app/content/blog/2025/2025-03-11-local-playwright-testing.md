@@ -1,5 +1,5 @@
 ---
-title: Test isolated HTML with a Playwright test
+title: Test isolated HTML with Playwright
 intro: Isolating and testing HTML in your traditional LAMP stack application can help catch any CMS controlled content changing
 tags:
   - Node
@@ -21,7 +21,7 @@ The general principle behind our CI tests is isolating HTML while using the appl
 1. Our bundler (webpack, in this instance) converts ESM-based JavaScript to be cross-browser
 2. This more simulates the "real-world" and allows us to check that a JavaScript change elsewhere hasn't broken some functionality
 
-## Isolating HTML
+## Isolating HTML
 
 The first step is to isolate the HTML from your application which is specific to the bit of JavaScript you wish to test. Although we including the full JS bundle, we only want to test specific functionality.
 
