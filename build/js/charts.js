@@ -347,7 +347,7 @@ const strava = {
 	colors: ['#fc5200', '#6134ff'],
 	xaxis: {
 		tickAmount: 6
-	}
+	},
 }
 
 const cyclingDistanceSeries = generateSeries(data, 'cycling', 'distance');
