@@ -5,8 +5,7 @@ const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
 module.exports = async function (config) {
 	const { IdAttributePlugin } = await import("@11ty/eleventy");
 
-
-	config.addPassthroughCopy('./app/content/admin');
+	config.addPassthroughCopy('./app/content/talks');
 
 	config.addCollection('blog', blog);
 	config.addCollection('drafts', drafts);
