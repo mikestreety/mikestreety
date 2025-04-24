@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2025-03-10T21:17:34.797Z",
+  "lastFetched": "2025-04-24T19:32:55.879Z",
   "children": [
     {
       "type": "entry",
@@ -12992,6 +12992,82 @@
       "wm-protocol": "webmention",
       "repost-of": "https://www.mikestreety.co.uk/blog/slow-upload-speed-with-apple-macos-how-to-debug-and-what-to-check/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ana Rodrigues",
+        "photo": "https://avatars.webmention.io/media.hachyderm.io/aad59fcbf06e359b5b46a2b994a35e0c17a73acc974bf4a634fb5cc5781c6ac4.jpg",
+        "url": "https://front-end.social/@anarodrigues"
+      },
+      "url": "https://hachyderm.io/@mikestreety/114148304252318207#favorited-by-112003031299375981",
+      "published": null,
+      "wm-received": "2025-03-12T08:46:06Z",
+      "wm-id": 1892280,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/114148304252318207/112003031299375981",
+      "wm-target": "https://www.mikestreety.co.uk/blog/test-isolated-html-with-playwright/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/test-isolated-html-with-playwright/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "falkovdg",
+        "photo": "https://avatars.webmention.io/media.hachyderm.io/fc3d1af19b66e22214b6b08946dbb3cf37ee3f070d7be8c8449547356727d969.png",
+        "url": "https://gruene.social/@falkovdg"
+      },
+      "url": "https://hachyderm.io/@mikestreety/114148304252318207#reblogged-by-109754286531412318",
+      "published": null,
+      "wm-received": "2025-03-12T08:46:06Z",
+      "wm-id": 1892281,
+      "wm-source": "https://brid.gy/repost/mastodon/@mikestreety@hachyderm.io/114148304252318207/109754286531412318",
+      "wm-target": "https://www.mikestreety.co.uk/blog/test-isolated-html-with-playwright/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.mikestreety.co.uk/blog/test-isolated-html-with-playwright/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "falkovdg",
+        "photo": "https://avatars.webmention.io/media.hachyderm.io/fc3d1af19b66e22214b6b08946dbb3cf37ee3f070d7be8c8449547356727d969.png",
+        "url": "https://gruene.social/@falkovdg"
+      },
+      "url": "https://hachyderm.io/@mikestreety/114148304252318207#favorited-by-109754286531412318",
+      "published": null,
+      "wm-received": "2025-03-12T08:46:04Z",
+      "wm-id": 1892278,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/114148304252318207/109754286531412318",
+      "wm-target": "https://www.mikestreety.co.uk/blog/test-isolated-html-with-playwright/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/test-isolated-html-with-playwright/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://avatars.webmention.io/media.hachyderm.io/c25f602d3ff14afc9b47c9d29f45d1f796b6a9108acc745ca0af7967b4294f18.jpg",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/114148304252318207#favorited-by-109298770510051442",
+      "published": null,
+      "wm-received": "2025-03-12T08:46:04Z",
+      "wm-id": 1892279,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/114148304252318207/109298770510051442",
+      "wm-target": "https://www.mikestreety.co.uk/blog/test-isolated-html-with-playwright/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/test-isolated-html-with-playwright/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
