@@ -1,0 +1,8 @@
+{
+	"layout": "single-talk.njk",
+
+	"parent": "talks",
+	"parentTitle": "Talks",
+
+	"permalink": "/talks/{{ title | slugify }}/"
+}

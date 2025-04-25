@@ -16,6 +16,7 @@
 		</h3>
 
 		{% if entry.data.publication %}<p>Written For <strong>{{ entry.data.publication }}</strong></p>{% endif %}
+		{% if entry.data.for %}<p><strong>{{ entry.data.for }}</strong></p>{% endif %}
 
 		<p class="abstract">
 			{{ entry.data.intro }}

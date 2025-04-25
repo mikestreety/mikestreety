@@ -1,0 +1,76 @@
+---
+layout: default.njk
+---
+<div class="container blog-container h-entry">
+	<div class="article single-article h-entry">
+		<div class="breadcrumb meta">
+			<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemprop="item" href="{{ meta.site.url }}/">
+					<span itemprop="name">Home</span></a>
+					<meta itemprop="position" content="1">
+				</li>
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a itemprop="item" href="{{ meta.site.url }}/{{ parent }}/"><span itemprop="name">{{ parentTitle }}</span></a>
+					<meta itemprop="position" content="2">
+				</li>
+				<li class="isHidden" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+					<a itemprop="item" href="{{ meta.site.url }}{{ page.url }}">
+						<span itemprop="name">{{ title }}</span>
+					</a>
+					<meta itemprop="position" content="3">
+				</li>
+			</ol>
+		</div>
+
+		<h1>{{ title }}</h1>
+
+		<div class="meta post-meta">
+			<time class="dt-published is-hidden">{{ page.date | dateISO }}</time>
+			On <strong>{{ page.date | dateLong }}</strong>
+			for
+			{% if for %}
+				{% if forUrl %}
+				<strong><a href="{{ forUrl }}">{{ for }}</a></strong>.
+				{% else %}
+				<strong>{{ for }}</strong>.
+				{% endif %}
+			{% endif %}
+		</div>
+
+		<div class="single-content e-content">
+			{% if video %}
+			<h2>Watch</h2>
+			<div class="video">
+				<iframe frameborder="0" src="{{ video }}"></iframe>
+			</div>
+			{% endif %}
+
+			{% if audio %}
+			<h2>Listen</h2>
+			<iframe frameborder="0" width="100%" height="200" src="{{ audio }}"></iframe>
+			{% endif %}
+
+			{% if slides %}
+			<h2>Slides</h2>
+			<div class="video">
+				<iframe frameborder="0" src="{{ slides }}"></iframe>
+			</div>
+			{% endif %}
+
+			<h2>Description</h2>
+			{{ content | safe }}
+		</div>
+
+		<div class="meta categories">
+			{% for tag in tags %}{% include 'tag.njk' %}{% endfor %}
+		</div>
+
+		<p class="meta source">
+			<a href="https://github.com/mikestreety/mikestreety/tree/main/{{ page.inputPath }}" title="{{ page.inputPath }}">View this post on Github</a>
+		</p>
+
+		{% include "webmentions.njk" %}
+		<a class="u-bridgy-fed" href="https://fed.brid.gy/"></a>
+	</div>
+</div>

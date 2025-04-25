@@ -1,4 +1,4 @@
-const {live, blog, drafts, scheduled, notes} = require('./app/filters/posts');
+const {live, blog, drafts, scheduled, notes, talks} = require('./app/filters/posts');
 const { convert } = require('html-to-text');
 const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
 
@@ -12,6 +12,7 @@ module.exports = async function (config) {
 	config.addCollection('scheduled', scheduled);
 	config.addCollection('live', live);
 	config.addCollection('notes', notes);
+	config.addCollection('talks', talks);
 
 	config.addFilter('htmlToText', function(html) {
 		return convert(html, {

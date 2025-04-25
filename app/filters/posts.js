@@ -40,5 +40,13 @@ module.exports = {
 			.sort(function(a, b) {
 				return b.date - a.date;
 			});
+	},
+
+	talks: (collection) => {
+		return collection
+			.getFilteredByGlob('./app/content/talks/*/*.md')
+			.sort(function(a, b) {
+				return b.date - a.date;
+			});
 	}
 };
