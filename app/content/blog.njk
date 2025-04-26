@@ -1,7 +1,7 @@
 ---
-layout: page.njk
+layout: list.njk
 eleventyComputed:
-  title: "{% if pagination.pageNumber %}Page {{ (pagination.pageNumber + 1) }} - {% endif %}Blog"
+  title: "Blog"
   description: "{% if pagination.pageNumber %}Page {{ (pagination.pageNumber + 1) }} of blog{% else %}Blog{% endif %} posts by Mike Street, developer and side-project-aholic from the South of England"
 eleventyNavigation:
   key: Blog
@@ -10,42 +10,3 @@ pagination:
   data: collections.blog
   size: 10
 ---
-<h1>Blog {% if pagination.pageNumber %}- page {{ (pagination.pageNumber + 1) }}{% endif %}</h1>
-
-<div class="breadcrumb meta">
-	<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
-		<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-			<a itemprop="item" href="{{ meta.site.url }}/">
-				<span itemprop="name">Home</span>
-			</a>
-			<meta itemprop="position" content="1">
-		</li>
-		<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-			<a itemprop="item" href="{{ meta.site.url }}/blog/">
-				<span itemprop="name">Blog</span>
-			</a>
-			<meta itemprop="position" content="2">
-		</li>
-	</ol>
-</div>
-
-<div class="post-listing">
-	<ul class="post-listing-full">
-	{% for entry in pagination.items %}
-		{% include 'entry.njk' %}
-	{% endfor %}
-	</ul>
-
-	<nav class="pagination">
-		{% if pagination.href.previous %}
-		<a class="button button-small" rel="prev" href="{{ pagination.href.previous }}">
-			Newer Posts
-		</a>
-		{% endif %}
-		{% if pagination.href.next %}
-		<a class="button button-small historical" rel="next" href="{{ pagination.href.next }}">
-			Older Posts
-		</a>
-		{% endif %}
-	</nav>
-</div>

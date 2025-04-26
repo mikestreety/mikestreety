@@ -4,7 +4,7 @@ title: "About Mike Street"
 permalink: /about/
 eleventyNavigation:
   key: About
-  order: 4
+  order: 5
 ---
 
 # About Mike Street

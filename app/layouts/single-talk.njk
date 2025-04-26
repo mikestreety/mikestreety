@@ -3,26 +3,6 @@ layout: default.njk
 ---
 <div class="container blog-container h-entry">
 	<div class="article single-article h-entry">
-		<div class="breadcrumb meta">
-			<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
-				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemprop="item" href="{{ meta.site.url }}/">
-					<span itemprop="name">Home</span></a>
-					<meta itemprop="position" content="1">
-				</li>
-				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemprop="item" href="{{ meta.site.url }}/{{ parent }}/"><span itemprop="name">{{ parentTitle }}</span></a>
-					<meta itemprop="position" content="2">
-				</li>
-				<li class="isHidden" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-					<a itemprop="item" href="{{ meta.site.url }}{{ page.url }}">
-						<span itemprop="name">{{ title }}</span>
-					</a>
-					<meta itemprop="position" content="3">
-				</li>
-			</ol>
-		</div>
-
 		<h1>{{ title }}</h1>
 
 		<div class="meta post-meta">

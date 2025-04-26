@@ -18,7 +18,7 @@ This bi-weekly (fortnightly) schedule has got me writing more, too. As I write t
 
 With my move to 11ty, I wanted to expose my drafts and scheduled posts - no more "writing in the dark". The ones that get scheduled are there purely for my vanity, for my routine rather than having to wait until that date. They are set up so I can look back when I do my [2021 in review](/blog/2021-in-review/) and have something to talk about.
 
-You can find all my [upcoming posts](/scheduled/) listed on a page, along with the true [drafts](/drafts/). Having a site powered by markdown also affords me to [have my site on Gitlab](https://github.com/mikestreety/mikestreety), allowing technical readers to raise issues or suggest edits.
+Having a site powered by markdown also affords me to [have my site on Gitlab](https://github.com/mikestreety/mikestreety), allowing technical readers to raise issues or suggest edits.
 
 ## Writing process
 
@@ -47,8 +47,6 @@ When I have the time, or inclination, to work on that particular post, I will ex
 ## Schedule it
 
 When the post is ready, it gets moved into the [blog folder](https://github.com/mikestreety/mikestreety/tree/main/app/content/blog). Here the `draft` status gets removed and it gets a date. The date is generally two mondays after the previously scheduled post. Sometimes, if I think the post is "time-sensitive" I will schedule it next and bump all the other posts up. Other times, like this one, I just go rogue.
-
-When it is in the future, it appears on on [scheduled](/scheduled/) page. These posts have the `noindex` meta tag removed and are fully crawlable by search engines. All the posts also appear in the sitemap XML (just not the RSS). To be brutally honest, part of the reason I'm writing this post is to expose the links a bit more to encourage crawlability 😉.
 
 ## Publish it
 

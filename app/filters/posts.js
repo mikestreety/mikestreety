@@ -24,15 +24,6 @@ module.exports = {
 			.reverse();
 	},
 
-	scheduled: (collection) => {
-		return collection
-			.getFilteredByGlob('./app/content/blog/*/*.md')
-			.filter((p) => (p.date > now && !p.data.draft))
-			.sort(function(a, b) {
-				return a.date - b.date;
-			});
-	},
-
 	notes: (collection) => {
 		return collection
 			.getFilteredByGlob('./app/content/notes/*.md')

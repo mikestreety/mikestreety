@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>{{ title }}{{ " - " if title }}{{ meta.site.title }} - {{ meta.site.description }}</title>
+	<title>
+		{% if pagination.pageNumber %}Page {{ (pagination.pageNumber + 1) }} - {% endif %}
+		{{ title }}{{ " - " if title }}{{ meta.site.title }} - {{ meta.site.description }}</title>
 	<link rel="home" href="{{ meta.site.url }}/">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
@@ -148,7 +150,7 @@
 		<footer class="footer">
 			<div class="container">
 				{% include 'social.njk' %}
-				<p><a href="/scheduled/"><strong>View upcoming posts</strong></a> | <a href="/diary/">The diary</a><br><a class="h-card" rel="me" href="https://www.mikestreety.co.uk/">{{ meta.site.title }}</a> | <a href="/rss.xml">Blog RSS</a> | <a href="/rss-notes.xml">Notes RSS</a> | <a href="/rss-all.xml">Full RSS Feed</a>.</p>
+				<p><a href="/diary/">The diary</a><br><a class="h-card" rel="me" href="https://www.mikestreety.co.uk/">{{ meta.site.title }}</a> | <a href="/rss.xml">Blog RSS</a> | <a href="/rss-notes.xml">Notes RSS</a> | <a href="/rss-all.xml">Full RSS Feed</a>.</p>
 			</div>
 		</footer>
 

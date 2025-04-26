@@ -3,26 +3,6 @@ layout: default.njk
 ---
 <div class="container blog-container h-entry">
 	<article class="article single-article h-entry">
-		<div class="breadcrumb meta">
-			<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
-				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemprop="item" href="{{ meta.site.url }}/">
-					<span itemprop="name">Home</span></a>
-					<meta itemprop="position" content="1">
-				</li>
-				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				<a itemprop="item" href="{{ meta.site.url }}/{{ parent }}/"><span itemprop="name">{{ parentTitle }}</span></a>
-					<meta itemprop="position" content="2">
-				</li>
-				<li class="isHidden" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-					<a itemprop="item" href="{{ meta.site.url }}{{ page.url }}">
-						<span itemprop="name">{{ title }}</span>
-					</a>
-					<meta itemprop="position" content="3">
-				</li>
-			</ol>
-		</div>
-
 		<h1>{{ title }}</h1>
 
 		{% if publication is defined  %}
@@ -49,7 +29,7 @@ layout: default.njk
 		{% if page.date > now %}
 		<div class="success hiddenMessage" id="future">
 			<p><strong>A post from the future!</strong></p>
-			<p>You may have noticed this post is dated in the future. I do this to keep myself on a regular writing schedule and to mask the flurries of activity I'm prone to. You can see all of my <a href="/scheduled/">upcoming posts</a> if you want a sneak peak</p>
+			<p>You may have noticed this post is dated in the future. I do this to keep myself on a regular writing schedule and to mask the flurries of activity I'm prone to.</p>
 			<p>Please feel free to read and share as you normally would.</p>
 		</div>
 		{% endif %}
