@@ -1,10 +1,11 @@
 const {live, blog, drafts, notes, talks} = require('./app/filters/posts');
 const { convert } = require('html-to-text');
 const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
-const inspect = require("util").inspect;
 
 module.exports = async function (config) {
 	const { IdAttributePlugin } = await import("@11ty/eleventy");
+
+	config.addPassthroughCopy('admin');
 
 	config.addCollection('blog', blog);
 	config.addCollection('drafts', drafts);
