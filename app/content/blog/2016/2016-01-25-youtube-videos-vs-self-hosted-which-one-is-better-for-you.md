@@ -6,7 +6,7 @@ intro: We are often asked whether videos for your website should be uploaded and
   on your own website and server or if they should be uploaded to a social website
   ...
 canonical: https://www.liquidlight.co.uk/blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/
-publication: Liquid Light
+who: Liquid Light
 permalink: blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/
 tags:
 - General

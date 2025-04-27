@@ -4,7 +4,7 @@ date: 2017-08-15
 updated: 2019-03-27
 intro: Navigation drop-downs, or mega menus as they are sometimes dubbed, are becoming more and more common on the web. A drop-down menu is a navigation block which appears when a ...
 canonical: https://www.liquidlight.co.uk/blog/navigation-drop-downs-should-they-be-hover-or-click/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/navigation-drop-downs-should-they-be-hover-or-click/"
 tags:
  - Web

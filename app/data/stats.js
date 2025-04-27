@@ -111,6 +111,7 @@ module.exports = () => {
 				posts: []
 			},
 			year = popular_posts[current_year];
+
 		previous_year = popular_posts[current_year - 1] ? popular_posts[current_year - 1] : false,
 		post_index = 1;
 

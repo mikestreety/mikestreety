@@ -1,7 +1,6 @@
 ---
 title: What is a side project if not a safe place to get imposter syndrome?
-for: Make Life Work
-forUrl: https://makelifeworkpodcast.com/
+who: Make Life Work
 audioFile: https://pinecast.com/listen/f07a2d7b-f241-442b-adae-d8f5d8b87554.mp3
 link: https://makelifeworkpodcast.com/what-is-a-side-project-if-not-a-safe-place-to-get-imposter-syndrome/
 tags:

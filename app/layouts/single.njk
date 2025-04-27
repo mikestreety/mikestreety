@@ -5,8 +5,8 @@ layout: default.njk
 	<article class="article single-article h-entry">
 		<h1>{{ title }}</h1>
 
-		{% if publication is defined  %}
-		<p class="subtitle">Originally posted on <strong><a href="{{ canonical }}">{{ publication }}</a></strong></p>
+		{% if who is defined  %}
+		<p class="subtitle"><strong><a href="{{ link if link else canonical }}">{{ who }}</a></strong></p>
 		{% endif %}
 
 		<h3 class="is-hidden">

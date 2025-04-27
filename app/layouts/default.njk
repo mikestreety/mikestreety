@@ -74,9 +74,9 @@
 	{% set count = count + 1 %}
 	{% endif %}
 
-	{% if publication %}
-	<meta property="twitter:label{{ count }}" value="Written for">
-	<meta property="twitter:data{{ count }}" value="{{ publication }}">
+	{% if who %}
+	<meta property="twitter:label{{ count }}" value="For">
+	<meta property="twitter:data{{ count }}" value="{{ who }}">
 	{% set count = count + 1 %}
 	{% endif %}
 
@@ -149,8 +149,50 @@
 
 		<footer class="footer">
 			<div class="container">
-				{% include 'social.njk' %}
-				<p><a href="/diary/">The diary</a><br><a class="h-card" rel="me" href="https://www.mikestreety.co.uk/">{{ meta.site.title }}</a> | <a href="/rss.xml">Blog RSS</a> | <a href="/rss-notes.xml">Notes RSS</a> | <a href="/rss-all.xml">Full RSS Feed</a>.</p>
+				<ul class="social">
+					<li class="mastodon">
+						<a rel="me" href="https://hachyderm.io/@mikestreety" title="Follow me on Mastodon">
+							Mastodon
+						</a>
+					</li>
+
+					<li class="twitter">
+						<a href="https://www.linkedin.com/in/mikestreety/" rel="me">
+							LinkedIn
+						</a>
+					</li>
+
+					<li class="instagram">
+						<a href="https://bsky.app/profile/mikestreety.co.uk"  rel="me">
+							Bluesky
+						</a>
+					</li>
+
+					<li class="github">
+						<a href="https://github.com/mikestreety/" title="Check out my Github" rel="me">
+							Github
+						</a>
+					</li>
+
+					<li class="gitlab">
+						<a href="https://gitlab.com/mikestreety" title="Check out my Gitlab" rel="me">
+							Gitlab
+						</a>
+					</li>
+
+					<li class="coffee">
+						<a href="https://www.buymeacoffee.com/mikestreety" title="Buy me a Coffee">
+							Buy me a Coffee
+						</a>
+					</li>
+				</ul>
+
+				<p>
+					<a href="/diary/">The diary</a> |
+					<a href="/stats/">Stats</a> |
+					<a href="/contact/">Contact</a>
+					</br>
+					<a class="h-card" rel="me" href="https://www.mikestreety.co.uk/">{{ meta.site.title }}</a> | <a href="/rss.xml">Blog RSS</a> | <a href="/rss-notes.xml">Notes RSS</a> | <a href="/rss-all.xml">Full RSS Feed</a>.</p>
 			</div>
 		</footer>
 

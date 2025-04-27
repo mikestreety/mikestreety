@@ -3,7 +3,7 @@ title: "Using a post-merge git hook to clean up old branches"
 date: 2019-03-28
 intro: When you've been working on a project for a while, you might find you have a few stale branches hanging around. At Liquid Light we have a git hook which tidies up after a merge
 canonical: https://www.liquidlight.co.uk/blog/using-a-post-merge-git-hook-to-clean-up-old-branches/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/using-a-post-merge-git-hook-to-clean-up-old-branches/"
 tags:
  - Git

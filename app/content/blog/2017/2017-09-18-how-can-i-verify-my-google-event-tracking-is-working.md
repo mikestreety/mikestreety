@@ -4,7 +4,7 @@ date: 2017-09-18
 updated: 2021-03-28
 intro: Validating your Google Event tracking is working can be a tricky business. This blog post walks you through checking the data being sent to Google Analytics, so you can verify the information is correct.
 canonical: https://www.liquidlight.co.uk/blog/how-can-i-verify-my-google-event-tracking-is-working/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/how-can-i-verify-my-google-event-tracking-is-working/"
 tags:
  - Web

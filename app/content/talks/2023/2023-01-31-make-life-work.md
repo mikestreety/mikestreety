@@ -1,7 +1,6 @@
 ---
 title: On The Side Reunion with Mike & Sam
-for: Make Life Work
-forUrl: https://makelifeworkpodcast.com/
+who: Make Life Work
 audioFile: https://pinecast.com/listen/04a3fa6a-fd13-4a0e-8ce4-e63948b9f3cd.mp3
 link: https://makelifeworkpodcast.com/on-the-side-reunion-mike-sam/
 tags:

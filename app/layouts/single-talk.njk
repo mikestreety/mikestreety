@@ -8,45 +8,33 @@ layout: default.njk
 		<div class="meta post-meta">
 			<time class="dt-published is-hidden">{{ page.date | dateISO }}</time>
 			On <strong>{{ page.date | dateLong }}</strong>
-			for
-			{% if for %}
-				{% if forUrl %}
-				<strong><a href="{{ forUrl }}">{{ for }}</a></strong>.
-				{% else %}
-				<strong>{{ for }}</strong>.
-				{% endif %}
-			{% endif %}
+			for <strong><a href="{{ link }}">{{ who }}</a></strong>.
 		</div>
 
 		<div class="single-content e-content">
 			{% if video %}
-			<h2>Watch</h2>
 			<div class="video">
 				<iframe frameborder="0" src="{{ video }}"></iframe>
 			</div>
 			{% endif %}
 
 			{% if audio %}
-			<h2>Listen</h2>
 			<iframe frameborder="0" width="100%" height="200" src="{{ audio }}"></iframe>
 			{% endif %}
 
 			{% if audioFile %}
-			<h2>Listen</h2>
 			<audio controls>
 				<source src="{{ audioFile }}">
 			</audio>
 			{% endif %}
 
 			{% if slides %}
-			<h2>Slides</h2>
 			<div class="video">
 				<iframe frameborder="0" src="{{ slides }}"></iframe>
 			</div>
 			{% endif %}
 
 			{% if content %}
-			<h2>Description</h2>
 			{{ content | safe }}
 			{% endif %}
 

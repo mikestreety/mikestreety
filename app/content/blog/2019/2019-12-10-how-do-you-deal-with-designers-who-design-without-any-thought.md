@@ -4,7 +4,7 @@ date: 2019-12-10
 updated: 2021-03-28
 intro: As a developer, dealing with designers and their creations can sometimes be challenging. At Liquid Light we've honed our process to ensure minimum friction between both developers and designers.
 canonical: https://www.liquidlight.co.uk/blog/how-do-you-deal-with-designers-who-design-without-any-thought/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/how-do-you-deal-with-designers-who-design-without-any-thought/"
 tags:
  - Web

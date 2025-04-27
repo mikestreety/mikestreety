@@ -4,7 +4,7 @@ date: 2016-11-03
 updated: 2021-03-17
 intro: Vue JS is a javascript framework which has recently released version 2. Allowing you to display, manipulate and navigate data, Vue is a React, Knockout and Angular competitor. This blog post walks through building a web app with Vue Router.
 canonical: https://www.liquidlight.co.uk/blog/building-a-vue-v2-js-app-using-vue-router/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/building-a-vue-v2-js-app-using-vue-router/"
 tags:
  - Web

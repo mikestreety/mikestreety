@@ -4,7 +4,7 @@ date: 2020-04-20
 updated: 2020-04-20
 intro: Cloudflare is a service which, among other things, provides a CDN (Content Delivery Network), firewall, and performance layer for your website. It has plenty of paid upgrades and features and ...
 canonical: https://www.liquidlight.co.uk/blog/why-should-you-consider-cloudflare-for-your-website/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/why-should-you-consider-cloudflare-for-your-website/"
 tags:
  - Web

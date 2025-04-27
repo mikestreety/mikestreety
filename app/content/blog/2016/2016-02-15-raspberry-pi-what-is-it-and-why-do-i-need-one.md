@@ -5,7 +5,7 @@ updated: 2021-09-19
 intro: The Raspberry Pi is a credit card sized computer which has taken the technical world by storm. Originally developed to encourage children and schools to get into programming - the cheap device has been picked up by the development and hacking industries and has been the central device in projects no-one would have dreamed of while it was being developed.
 permalink: "blog/raspberry-pi-what-is-it-and-why-do-i-need-one/"
 canonical: https://www.liquidlight.co.uk/blog/raspberry-pi-what-is-it-and-why-do-i-need-one/
-publication: Liquid Light
+who: Liquid Light
 tags:
  - Geekery
  - Raspberry Pi

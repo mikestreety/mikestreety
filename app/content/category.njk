@@ -4,6 +4,12 @@ pagination:
   data: collections
   size: 1
   alias: tag
+  filter:
+    - blog
+    - talks
+    - notes
+    - drafts
+    - all
 permalink: /category/{{ tag | slugify }}/
 eleventyComputed:
   title: "{{ tag }}"

@@ -1,7 +1,6 @@
 ---
 title: Selfish Problem Solving
-for: Make Life Work
-forUrl: https://makelifeworkpodcast.com/
+who: Make Life Work
 audioFile: https://pinecast.com/listen/93ca874c-7c34-40b7-992b-dc1e8b7df51e.mp3
 link: https://makelifeworkpodcast.com/selfish-problem-solving/
 tags:

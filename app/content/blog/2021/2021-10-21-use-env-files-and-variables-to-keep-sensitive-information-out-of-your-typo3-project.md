@@ -3,7 +3,7 @@ title: "Use env files and variables to keep sensitive information out of your TY
 date: 2021-10-21
 intro: Environment variables are a great way of keeping sensitive information, such as passwords and API keys out of your project and git repository. Thos blog walks through setting them up with TYPO3
 canonical: https://www.liquidlight.co.uk/blog/use-env-files-and-variables-to-keep-sensitive-information-out-of-your-typo3-project/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/use-env-files-and-variables-to-keep-sensitive-information-out-of-your-typo3-project/"
 tags:
  - TYPO3

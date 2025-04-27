@@ -4,7 +4,7 @@ date: 2016-08-02
 updated: 2021-03-28
 intro: Trello is a great tool which lets you easily manage projects. Ranging from websites to weddings, Trello helps you create tag and move cards. At Liquid Light, we use Trello to keep track of our marketing output - this blog explains how.
 canonical: https://www.liquidlight.co.uk/blog/how-we-use-trello-to-keep-track-of-our-marketing-schedule/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/how-we-use-trello-to-keep-track-of-our-marketing-schedule/"
 tags:
  - Web

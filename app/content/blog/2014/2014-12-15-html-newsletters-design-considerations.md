@@ -4,7 +4,7 @@ date: 2014-12-15
 updated: 2021-03-29
 intro: HTML emails are a great way of keeping your customers up-to-date, but are not as versatile as web pages. Here's our list of things to consider when designing and building HTML emails.
 canonical: https://www.liquidlight.co.uk/blog/article/html-newsletters-design-considerations/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/html-newsletters-design-considerations/"
 tags:
  - Web

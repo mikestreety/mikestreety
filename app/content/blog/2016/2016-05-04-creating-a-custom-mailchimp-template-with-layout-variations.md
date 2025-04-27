@@ -4,7 +4,7 @@ date: 2016-05-04
 updated: 2021-03-19
 intro: Creating a responsive, HTML email template is not as easy as it first appears. Email clients are still behind with web standards and supporting latest web technologies, so HTML emails need to be built using the table element and inline styles. This blog will walk you through creating a custom template while still using Mailchimp's WYSIWYG and Image editor
 canonical: https://www.liquidlight.co.uk/blog/creating-a-custom-mailchimp-template-with-layout-variations/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/creating-a-custom-mailchimp-template-with-layout-variations/"
 tags:
  - Web

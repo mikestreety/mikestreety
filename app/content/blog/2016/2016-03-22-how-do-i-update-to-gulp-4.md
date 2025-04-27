@@ -4,7 +4,7 @@ date: 2016-03-22
 updated: 2021-03-28
 intro: Gulp is a task runner used for compiling SCSS to CSS, minifying JS and creating SVG sprites. Version 4 is about to be released and this blog post runs you through how to update and use the new features of gulp.
 canonical: https://www.liquidlight.co.uk/blog/how-do-i-update-to-gulp-4/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/how-do-i-update-to-gulp-4/"
 tags:
  - Web

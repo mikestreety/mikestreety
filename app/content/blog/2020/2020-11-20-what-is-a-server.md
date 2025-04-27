@@ -3,7 +3,7 @@ title: "What is a server?"
 date: 2020-11-20
 intro: Servers power the internet and have done since the creation of it. All the websites in the world run on servers (with varying levels of web interfaces & logins). So what are they, how do they work and what do Liquid Light typically use?
 canonical: https://www.liquidlight.co.uk/blog/what-is-a-server/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/what-is-a-server/"
 tags:
  - General

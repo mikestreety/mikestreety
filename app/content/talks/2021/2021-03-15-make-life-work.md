@@ -1,7 +1,6 @@
 ---
 title: Tingle of Completion
-for: Make Life Work
-forUrl: https://makelifeworkpodcast.com/
+who: Make Life Work
 audioFile: https://pinecast.com/listen/1863f609-60cd-49fd-8f9d-632cd1a04fd4.mp3
 link: https://makelifeworkpodcast.com/tingle-of-completion/
 tags:

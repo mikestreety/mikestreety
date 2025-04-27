@@ -4,7 +4,7 @@ date: 2018-03-19
 updated: 2019-03-27
 intro: At the beginning of this month, Google announced they were rolling out Hangouts Chat to all users of Google Suite over a week or so. Our suite was finally updated ...
 canonical: https://www.liquidlight.co.uk/blog/why-were-not-dropping-slack-for-google-hangouts-chat-yet/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/why-were-not-dropping-slack-for-google-hangouts-chat-yet/"
 tags:
  - General

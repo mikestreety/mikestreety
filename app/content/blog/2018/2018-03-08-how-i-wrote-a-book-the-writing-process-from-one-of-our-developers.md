@@ -4,7 +4,7 @@ date: 2018-03-08
 updated: 2021-03-28
 intro: In 2017, one of our front-end developers wrote and released a book about the JavaScript library; Vue.js. This blog post explains the process he went through to get the book from his mind to print.
 canonical: https://www.liquidlight.co.uk/blog/how-i-wrote-a-book-the-writing-process-from-one-of-our-developers/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/how-i-wrote-a-book-the-writing-process-from-one-of-our-developers/"
 tags:
  - General

@@ -4,7 +4,7 @@ date: 2014-08-07
 updated: 2016-06-20
 intro: This article will explain how and why you would want to use SVGs and what advantages using them in a sprite can bring. It will also cover scaling the images ...
 canonical: https://www.liquidlight.co.uk/blog/article/working-with-svgs-in-sprites/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/working-with-svgs-in-sprites/"
 tags:
  - Web

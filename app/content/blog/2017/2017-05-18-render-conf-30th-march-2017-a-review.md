@@ -4,7 +4,7 @@ date: 2017-05-18
 updated: 2019-03-27
 intro: On 30th March, I took the many trains over the many hours required to get to Oxford from Brighton and attended Render Conf. In it’s second year, this conference ...
 canonical: https://www.liquidlight.co.uk/blog/render-conf-30th-march-2017-a-review/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/render-conf-30th-march-2017-a-review/"
 tags:
  - General

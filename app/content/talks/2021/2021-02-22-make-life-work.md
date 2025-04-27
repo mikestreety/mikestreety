@@ -1,7 +1,6 @@
 ---
 title: Should Side Projects Be A Job Requirement?
-for: Make Life Work
-forUrl: https://makelifeworkpodcast.com/
+who: Make Life Work
 audioFile: https://pinecast.com/listen/e3db4bd9-f149-43d8-adf0-0d081765e1e2.mp3
 link: https://makelifeworkpodcast.com/should-side-projects-be-a-job-requirement/
 tags:

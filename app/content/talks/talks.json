@@ -4,5 +4,5 @@
 	"parent": "talks",
 	"parentTitle": "Talks",
 
-	"permalink": "/talks/{{ title | slugify }}/"
+	"permalink": "/talks/{{ title | slugify }}-{{ who | slugify }}/"
 }

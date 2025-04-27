@@ -1,7 +1,6 @@
 ---
 title: Collaborate or Go Solo?
-for: Make Life Work
-forUrl: https://makelifeworkpodcast.com/
+who: Make Life Work
 audioFile: https://pinecast.com/listen/a798bca1-f1c4-41ec-9d71-c6223648d737.mp3
 link: https://makelifeworkpodcast.com/collaborate-or-go-solo/
 tags:

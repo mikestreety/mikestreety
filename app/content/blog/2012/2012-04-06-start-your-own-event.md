@@ -4,7 +4,7 @@ date: 2012-08-29
 updated: 2021-04-06
 intro: This article first appeared in issue 230 of .net magazine – the world's best-selling magazine for web designers and developers. Conferences are great. You get to meet fantastic people, you learn ...
 canonical: https://www.creativebloq.com/netmag/start-your-own-event-8126128
-publication: .net magazine
+who: .net magazine
 permalink: "blog/start-your-own-event/"
 tags:
  - General

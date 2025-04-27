@@ -4,7 +4,7 @@ date: 2015-11-02
 updated: 2016-06-20
 intro: Making sure your typography is readable on every display is arguably one of the most important aspects of front-end development. If your users can’t read the content on the ...
 canonical: https://www.liquidlight.co.uk/blog/article/responsive-typography-in-scss/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/responsive-typography-in-scss/"
 tags:
  - Web
@@ -142,7 +142,7 @@ h1 {
 
 With this example, it’s might be difficult to see why you would use a mixin - but when you start to have several typographic elements, it really comes into a world of it’s own.
 
-To give you an example of a bigger, real-world version - I’ve copied the typography map from our [latest project](https://www.liquidlight.co.uk/projects/project/barbican-insurance/). To save bloating this blog post i’ve put it on sassmeister below.
+To give you an example of a bigger, real-world version - I’ve copied the typography map from our latest project. To save bloating this blog post i’ve put it on sassmeister below.
 
 **[Responsive typography with Scss](http://sassmeister.com/gist/c3f431aabdf95b644d42)**
 

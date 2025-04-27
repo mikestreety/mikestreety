@@ -3,7 +3,7 @@ title: Using the TYPO3 redirects module to ensure your visitors don't end up at 
 date: 2021-04-15
 intro: With version 9, TYPO3 introduced a native redirects module - not only does it give you a place to centrally manage your redirects, it gracefully handles page renaming
 canonical: https://www.liquidlight.co.uk/blog/using-the-typo3-redirects-module-to-ensure-your-visitors-dont-end-up-at-a-dead-end/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/using-the-typo3-redirects-module-to-ensure-your-visitors-dont-end-up-at-a-dead-end/"
 tags:
  - Development

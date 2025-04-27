@@ -4,7 +4,7 @@ date: 2015-12-03
 updated: 2019-03-27
 intro: For website creators, making sure a website looks good across device and browsers is our biggest challenge. Websites don’t have to look the same, but they do have to ...
 canonical: https://www.liquidlight.co.uk/blog/lets-drop-ie8/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/lets-drop-ie8/"
 tags:
  - General

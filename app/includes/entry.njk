@@ -1,25 +1,28 @@
 <li>
 	<article class="article">
 		<a href="{{ entry.url }}" class="icon" title="{{ entry.data.title if entry.data.title else entry.url }}"><span>{{ entry.data.title if entry.data.title else entry.url }}</span></a>
+
 		<p class="date">
 			{% if entry.date %}
 				<time class="dt-published is-hidden">{{ entry.date | dateISO }}</time>
-				{% if entry.date > now %}
-					Scheduled for {{ entry.date | dateLong }}
-				{% else %}
-					{{ entry.date | dateLong }}
-				{% endif %}
+				{% if entry.date > now %}Scheduled for {% endif %}{{ entry.date | dateLong }}
 			{% endif %}
 		</p>
+
 		<h3>
 			<a href="{{ entry.url }}">{{ entry.data.title if entry.data.title else entry.url }}</a> {% if entry.url.includes('/drafts/') or entry.data.draft %}<span class="info">Draft</span>{% endif %}
 		</h3>
 
-		{% if entry.data.publication %}<p>Written For <strong>{{ entry.data.publication }}</strong></p>{% endif %}
-		{% if entry.data.for %}<p><strong>{{ entry.data.for }}</strong></p>{% endif %}
+		{% if entry.data.who %}
+			<p>
+				<a href="{{ entry.data.link if entry.data.link else entry.data.canonical }}">
+					<strong>{{ entry.data.who }}</strong>
+				</a>
+			</p>
+		{% endif %}
 
 		<p class="abstract">
-			{{ entry.data.intro }}
+			{{ entry.data.intro if entry.data.intro else entry.content | safe | truncate }}
 		</p>
 
 		<div class="meta categories">

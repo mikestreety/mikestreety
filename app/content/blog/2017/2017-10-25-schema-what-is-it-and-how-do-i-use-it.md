@@ -4,7 +4,7 @@ date: 2017-10-25
 updated: 2019-03-27
 intro: Schema is a way of structuring your code to make your content available in a "richer" format.
 canonical: https://www.liquidlight.co.uk/blog/schema-what-is-it-and-how-do-i-use-it/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/schema-what-is-it-and-how-do-i-use-it/"
 tags:
  - Web

@@ -4,7 +4,7 @@ date: 2014-11-11
 updated: 2021-03-19
 intro: Following on from our recent blog post about SVG Sprites which gave an introduction and overview to using SVGs in a sprite, this post will outline the processes and tools ...
 canonical: https://www.liquidlight.co.uk/blog/article/creating-svg-sprites-using-gulp-and-sass/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/creating-svg-sprites-using-gulp-and-sass/"
 tags:
  - Web

@@ -3,7 +3,7 @@ title: "Incremental updates don't win awards"
 date: 2021-06-28
 intro: The web industry thrives on “the big reveal” of new designs and websites but we don't believe that should ever be the case.
 canonical: https://www.liquidlight.co.uk/blog/incremental-updates-dont-win-awards/
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/incremental-updates-dont-win-awards/"
 tags:
  - Ramblings

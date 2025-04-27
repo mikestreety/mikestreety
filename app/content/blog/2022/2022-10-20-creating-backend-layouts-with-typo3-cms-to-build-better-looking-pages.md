@@ -3,7 +3,7 @@ title: "Creating Backend Layouts with TYPO3 CMS to build better looking pages"
 date: 2022-10-20
 intro: This blog post walks through creating, selecting and using Backend Layouts in TYPO3.
 canonical: https://www.liquidlight.co.uk/blog/creating-backend-layouts-with-typo3-cms-to-build-better-looking-pages/?no_cache=1
-publication: Liquid Light
+who: Liquid Light
 permalink: "blog/creating-backend-layouts-with-typo3-cms-to-build-better-looking-pages/"
 tags:
  - TYPO3
