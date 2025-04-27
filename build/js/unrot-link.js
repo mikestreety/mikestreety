@@ -11,3 +11,12 @@ if(globalThis.fetch){
 		console.log('unrot.link is unreachable - possibly remove this script');
 	});
 }
+if (window.netlifyIdentity) {
+	window.netlifyIdentity.on("init", user => {
+		if (!user) {
+			window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			});
+		}
+	});
+}
