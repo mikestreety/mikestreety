@@ -5,8 +5,6 @@ const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
 module.exports = async function (config) {
 	const { IdAttributePlugin } = await import("@11ty/eleventy");
 
-	config.addPassthroughCopy('admin');
-
 	config.addCollection('blog', blog);
 	config.addCollection('drafts', drafts);
 	config.addCollection('live', live);
@@ -45,6 +43,8 @@ module.exports = async function (config) {
 	config.addFilter('webmentionsForUrl', webmentionsForUrl)
 
 	config.setDataDeepMerge(true);
+
+	config.addPassthroughCopy('./app/content/admin');
 
 	return {
 		dir: {
