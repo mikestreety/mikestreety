@@ -3,7 +3,6 @@ content:
     label: Notes
     path: app/content/notes
     type: collection
-    format: yaml-frontmatter
     subfolders: false
     fields:
       - name: title
