@@ -8,6 +8,11 @@ content:
       - name: title
         label: Title
         type: string
+      - name: date
+        label: Date
+        type: date
+        options:
+          time: true
       - name: body
         label: Body
         type: rich-text
