@@ -8,7 +8,7 @@ content:
     fields:
       - name: title
         label: Title
-        type: text
+        type: string
       - name: date
         label: Date
         type: date
@@ -18,7 +18,7 @@ content:
         label: Body
         type: rich-text
     view:
-      fields: [ title ]
+      fields: [ title, date ]
       primary: title
       sort: [ date, title ]
       default:
