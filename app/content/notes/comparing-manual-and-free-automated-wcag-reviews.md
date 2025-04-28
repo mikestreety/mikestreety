@@ -2,7 +2,7 @@
 title: Comparing Manual and Free Automated WCAG Reviews
 link: >-
   https://adrianroselli.com/2023/01/comparing-manual-and-free-automated-wcag-reviews.html
-date: '2023-01-19 19:28:35Z'
+date: 2023-01-19 19:28:35Z
 ---
 
 ﻿Fascinating post from @aardrian@toot.cafe about the use of automated tools Vs human accessibility testers. This paragraph near the end pretty much sums it up:
