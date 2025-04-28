@@ -17,7 +17,7 @@ content:
         label: Date
         type: date
         options:
-          format: yyyy-MM-dd\THH:mm:ssXX
+          format: yyyy-MM-dd HH:mm:ssXX
           time: true
       - name: body
         label: Body
