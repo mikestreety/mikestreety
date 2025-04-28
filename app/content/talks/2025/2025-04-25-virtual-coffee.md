@@ -3,6 +3,7 @@ title: "Unravelling Git: The secrets of the commit hash"
 who: "Virtual Coffee"
 slides: https://mikestreety-talks.netlify.app/2025/04-25-virtual-coffee-unravelling-git/dist
 link: https://cfe.dev/sessions/vc2025-unravelling-git/
+video: https://www.youtube.com/embed/qrnVwyp1SVo?si=2qKItOx01xB4dqDc
 tags:
  - Talk
 ---

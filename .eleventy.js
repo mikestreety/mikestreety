@@ -44,8 +44,6 @@ module.exports = async function (config) {
 
 	config.setDataDeepMerge(true);
 
-	config.addPassthroughCopy('./app/content/admin');
-
 	return {
 		dir: {
 			input: 'app/content',
