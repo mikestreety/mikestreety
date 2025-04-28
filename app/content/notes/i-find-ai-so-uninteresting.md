@@ -1,7 +1,7 @@
 ---
 title: I find AI so uninteresting
 link: 'https://hachyderm.io/@mikestreety/111135412879752038'
-date: 2023-10-01T19:46:56.140Z
+date: 2023-10-01 19:46:56Z
 ---
 
 Anyone else see "AI" and just switch off?

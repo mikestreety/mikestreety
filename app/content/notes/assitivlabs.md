@@ -1,7 +1,7 @@
 ---
 title: AssitivLabs
 link: 'https://assistivlabs.com/'
-date: '2023-04-06T05:18:49.332Z'
+date: '2023-04-06 05:18:49Z'
 ---
 
-﻿It is like BrowserStack, but for accessibility 
+﻿It is like BrowserStack, but for accessibility

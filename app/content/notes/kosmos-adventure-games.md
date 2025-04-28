@@ -1,7 +1,7 @@
 ---
 title: Kosmos Adventure Games
 link: 'https://store.thamesandkosmos.com/collections/adventure-games'
-date: '2023-01-14T23:13:56.498Z'
+date: '2023-01-14 23:13:56Z'
 ---
 
 ﻿All the Kosmos games are great. The EXIT games are like escape rooms to play at home, while the adventure games are replayable "point and click" computer games but with cards.&#x20;

@@ -9,7 +9,7 @@ Been a few weeks since my last notes & I've been collating a few points (and try
 
 My [posting schedule](/blog/my-2021-writing-schedule/) is full steam ahead. For a little while I've had posts up until July! I figured that is far enough in the future for now and so I am peppering additional posts in between (a lot can happen to a site in a few months!)
 
-Since converting my site to 11ty, I've been finding opportunities for new 11ty sites everywhere. Just the other day I was talking to a friend about having a site with his YouTube videos on and within a few hours I had a prototype up and running by using an [RSS feed](/blog/create-11ty-collection-from-rss/).
+Since converting my site to 11ty, I've been finding opportunities for new 11ty sites everywhere. Just the other day I was talking to a friend about having a site with his YouTube videos on and within a few hours I had a prototype up and running by using an [RSS feed](/blog/create-11 y-collection-from-rss/).
 
 ## Working Code Podcast
 
