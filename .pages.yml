@@ -15,4 +15,4 @@ content:
           time: true
       - name: body
         label: Body
-        type: rich-text
+        type: text
