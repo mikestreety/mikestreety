@@ -11,11 +11,3 @@ content:
       - name: body
         label: Body
         type: rich-text
-    view:
-      fields: [ title, date ]
-      primary: title
-      sort: [ date, title ]
-      default:
-        search: ''
-        sort: date
-        order: desc
