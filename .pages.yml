@@ -4,9 +4,13 @@ content:
     path: app/content/notes
     type: collection
     subfolders: false
+    format: yaml-frontmatter
     fields:
       - name: title
         label: Title
+        type: string
+      - name: link
+        label: Link
         type: string
       - name: date
         label: Date
@@ -16,3 +20,11 @@ content:
       - name: body
         label: Body
         type: text
+    view:
+      fields: [ title, date ]
+      primary: title
+      sort: [ date, title ]
+      default:
+        search: ''
+        sort: date
+        order: desc
