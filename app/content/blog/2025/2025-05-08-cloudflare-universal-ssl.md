@@ -66,7 +66,7 @@ curl https://api.cloudflare.com/client/v4/zones/$ZONE_ID/ssl/verification \
 
 Armed with the `cert_pack_uuid`, you can then edit the SSL [certificate pack validation method](https://developers.cloudflare.com/api/resources/ssl/subresources/verification/methods/edit/). This needs to be called for each of the domains (and sub-domains if using the CNAME/partial setup)
 
-```
+```bash
 curl https://api.cloudflare.com/client/v4/zones/$ZONE_ID/ssl/verification/$CERTIFICATE_PACK_ID \
     -X PATCH \
     -H 'Content-Type: application/json' \
