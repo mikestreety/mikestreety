@@ -1,43 +1,27 @@
 const now = new Date();
 
-module.exports = {
-	live: (collection) => {
-		return collection
-			.getFilteredByGlob('./app/content/{blog/*,notes}/*.md')
-			.filter((p) => (p.date <= now && !p.data.draft))
-			.sort(function(a, b) {
-				return b.date - a.date;
-			});
-	},
-	blog: (collection) => {
-		return collection
-			.getFilteredByGlob('./app/content/blog/*/*.md')
-			.filter((p) => (p.date <= now && !p.data.draft))
-			.sort(function(a, b) {
-				return b.date - a.date;
-			});
-	},
-	drafts: (collection) => {
-		return collection
-			.getFilteredByGlob('./app/content/{blog/*,drafts}/*.md')
+function getCollection(collection, folders, draft = false)
+{
+	const posts =  collection
+		.getFilteredByGlob(`./app/content/${folders}/*.md`);
+
+	if (draft) {
+		return posts
 			.filter((p) => (p.data.draft))
 			.reverse();
-	},
-
-	notes: (collection) => {
-		return collection
-			.getFilteredByGlob('./app/content/notes/*.md')
-			.filter((p) => (p.date <= now && !p.data.draft))
-			.sort(function(a, b) {
-				return b.date - a.date;
-			});
-	},
-
-	talks: (collection) => {
-		return collection
-			.getFilteredByGlob('./app/content/talks/*/*.md')
-			.sort(function(a, b) {
-				return b.date - a.date;
-			});
 	}
+
+	return posts
+		.filter((p) => (p.date <= now && !p.data.draft))
+		.sort(function (a, b) {
+			return b.date - a.date;
+		});
+}
+
+module.exports = {
+	live: (collection) => getCollection(collection, '{blog/*,talks/*,notes}'),
+	drafts: (collection) => getCollection(collection, '{blog/*,drafts}', true),
+	blog: (collection) => getCollection(collection, 'blog/*'),
+	notes: (collection) => getCollection(collection, 'notes'),
+	talks: (collection) => getCollection(collection, 'talks/*'),
 };
