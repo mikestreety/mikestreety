@@ -10,7 +10,7 @@ tags:
  - VueJS
 ---
 
-<div class="info">I wrote a book about Vue.js! <a href="https://www.packtpub.com/application-development/vuejs-2x-example">Vue.js 2.x by Example</a> is available as from Packt and covers Vue, Vuex and VueRouter.</div>
+<div class="info">I wrote a book about Vue.js! <a href="https://www.packtpub.com/en-us/product/vuejs-2x-by-example-9781788297479">Vue.js 2.x by Example</a> is available as from Packt and covers Vue, Vuex and VueRouter.</div>
 
 ** Before proceeding, ensure you have read Part 1 of this blog post - [An Introduction to Vuex Part 1](https://www.mikestreety.co.uk/blog/introduction-to-vuex-managing-state-storage-and-sharing-data-between-components/) - managing state, storage and sharing data between components.**
 

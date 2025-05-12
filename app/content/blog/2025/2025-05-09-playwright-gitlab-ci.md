@@ -1,6 +1,6 @@
 ---
 title: Running Playwright in Gitlab CI
-intro: Some learnings and links from my recent expedition into the realm of Universal SSL certificates from Cloudflare
+intro: A delve into a version mismatch issue when running Playwright tests in GitLab CI.
 tags:
   - Gitlab CI
   - Playwright

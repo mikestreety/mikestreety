@@ -10,7 +10,7 @@ tags:
  - VueJS
 ---
 
-<div class="info">I wrote a book about Vue.js! <a href="https://www.packtpub.com/application-development/vuejs-2x-example">Vue.js 2.x by Example</a> is available as from Packt and covers Vue, Vuex and VueRouter.</div>
+<div class="info">I wrote a book about Vue.js! <a href="https://www.packtpub.com/en-us/product/vuejs-2x-by-example-9781788297479">Vue.js 2.x by Example</a> is available as from Packt and covers Vue, Vuex and VueRouter.</div>
 
 [Vuex](https://vuex.vuejs.org/) is a _"centralised state management pattern + library"_ for Vue.js. If you're starting out with Vue, Vuex may seem very convoluted and over-engineered (it certainly was to me), but as you start to create more advanced Vue applications with components and pages, you may wish to have a central storage location for data.
 

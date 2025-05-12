@@ -14,7 +14,7 @@ tags:
 
 {% raw %}
 
-Over the second half of 2017, I spent my spare time writing a book on Vue.js and its official plugins; [Vue.js 2.x by Example](https://www.packtpub.com/application-development/vuejs-2x-example). The book was then published at the end of December.
+Over the second half of 2017, I spent my spare time writing a book on Vue.js and its official plugins; [Vue.js 2.x by Example](https://www.packtpub.com/en-us/product/vuejs-2x-by-example-9781788297479). The book was then published at the end of December.
 
 Writing a book can seem like a daunting process and was certainly something I had never considered before. I’ve outlined the writing process below and how I approached the “mammoth” task.
 
@@ -63,7 +63,7 @@ The other advantage to writing code as the book is written is allowing the user 
 
 ## A book snippet
 
-I’ve included an excerpt from the book below, to give you a taste of the contents. If you are interested in buying a copy, you can do so from [the publisher's website](https://www.packtpub.com/application-development/vuejs-2x-example) or from [Amazon](https://www.amazon.co.uk/Vue-js-2-x-Example-Example-driven-beginners/dp/1788293460). A bigger sample of the book can be found on [Google Books](https://books.google.co.uk/books?id=OPNFDwAAQBAJ&pg=PP1&lpg=PP1&dq=vue.js+2.x+by+example&source=bl&ots=-zybyFHveX&sig=K_mO-b_7yUXsRJiREorMcYb99T4&hl=en&sa=X&ved=0ahUKEwjD_qr6mYXZAhXLCMAKHWeUCkAQ6AEIXDAI).
+I’ve included an excerpt from the book below, to give you a taste of the contents. If you are interested in buying a copy, you can do so from [the publisher's website](https://www.packtpub.com/en-us/product/vuejs-2x-by-example-9781788297479) or from [Amazon](https://www.amazon.co.uk/Vue-js-2-x-Example-Example-driven-beginners/dp/1788293460). A bigger sample of the book can be found on [Google Books](https://books.google.co.uk/books?id=OPNFDwAAQBAJ&pg=PP1&lpg=PP1&dq=vue.js+2.x+by+example&source=bl&ots=-zybyFHveX&sig=K_mO-b_7yUXsRJiREorMcYb99T4&hl=en&sa=X&ved=0ahUKEwjD_qr6mYXZAhXLCMAKHWeUCkAQ6AEIXDAI).
 
 As mentioned above, the book covers the development process of building three web apps. The apps developed during the book are:
 

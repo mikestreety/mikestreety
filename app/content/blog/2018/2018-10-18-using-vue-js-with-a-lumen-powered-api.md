@@ -256,6 +256,6 @@ If you now wish to retrieve data from your API within Vue, you can either do thi
 
 <div class="divider"><hr></div>
 
-I hope that helps get you started with Lumen and Vue.js, if you would like to know more about using Vue.js, I have written a book - [Vue.js 2.x by Example](https://www.packtpub.com/application-development/vuejs-2x-example) in which I detail the use of Vue, Vue Router, Vuex and using `fetch` to retrieve data.
+I hope that helps get you started with Lumen and Vue.js, if you would like to know more about using Vue.js, I have written a book - [Vue.js 2.x by Example](https://www.packtpub.com/en-us/product/vuejs-2x-by-example-9781788297479) in which I detail the use of Vue, Vue Router, Vuex and using `fetch` to retrieve data.
 
 If you have any issues, comments or questions - feel free to use the comment form below.

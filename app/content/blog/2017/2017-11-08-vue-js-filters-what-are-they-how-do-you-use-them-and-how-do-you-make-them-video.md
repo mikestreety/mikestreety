@@ -12,7 +12,7 @@ tags:
 ---
 {% raw %}
 
-<div class="info">I wrote a book about Vue.js! <a href="https://www.packtpub.com/application-development/vuejs-2x-example">Vue.js 2.x by Example</a> is available as from Packt and covers Vue, Vuex and VueRouter.</div>
+<div class="info">I wrote a book about Vue.js! <a href="https://www.packtpub.com/en-us/product/vuejs-2x-by-example-9781788297479">Vue.js 2.x by Example</a> is available as from Packt and covers Vue, Vuex and VueRouter.</div>
 
 <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ENoDtf-2RNw" frameborder="0" allowfullscreen></iframe></div>
 
@@ -169,4 +169,3 @@ new Vue({
 _Using ES6, we do not need to specify `currency: currency` in the `toLocaleString` function._
 
 {% endraw %}
-
