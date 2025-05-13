@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2025-05-12T19:40:54.961Z",
+  "lastFetched": "2025-05-13T12:50:46.448Z",
   "children": [
     {
       "type": "entry",
@@ -13257,6 +13257,25 @@
       "wm-target": "https://www.mikestreety.co.uk/blog/running-playwright-in-gitlab-ci/",
       "wm-protocol": "webmention",
       "like-of": "https://www.mikestreety.co.uk/blog/running-playwright-in-gitlab-ci/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michael Hitzler",
+        "photo": "https://avatars.webmention.io/media.hachyderm.io/ce0e5f5aeaca9b9fd75f08bed1e59df2cea40443cdad203d138986018a0c8e9d.jpg",
+        "url": "https://fosstodon.org/@MichaelHitzler"
+      },
+      "url": "https://hachyderm.io/@mikestreety/114457162019591468#favorited-by-109386322007791173",
+      "published": null,
+      "wm-received": "2025-05-13T07:16:59Z",
+      "wm-id": 1910870,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/114457162019591468/109386322007791173",
+      "wm-target": "https://www.mikestreety.co.uk/blog/use-playwright-to-smoke-test-your-deployments/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/use-playwright-to-smoke-test-your-deployments/",
       "wm-property": "like-of",
       "wm-private": false
     }
