@@ -12,6 +12,7 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| Matilda | Cambridge Theatre, London | 07/05/2025
 | Just Floyd | The Factory Live, Worthing | 08/02/2025
 | Bastille (Dan Solo) | Resident Records, Brighton | 08/12/2024 |
 | Embrace | Chalk, Brighton | 26/11/2024 |
