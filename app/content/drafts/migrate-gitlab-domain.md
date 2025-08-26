@@ -1,40 +1,41 @@
+# Migrating GitLab to a New Domain
 
-In the examples below I will be using the two domains
+In the examples below, I'll be using two domains:
 
-- `old.gitlab-company.org` - This will represent the old/existing domain Gitlab currently runs on
-- `new.gitlab-instance.com` - This is the domain we are migrating to
+- `old.gitlab-company.org` - This represents the old/existing domain GitLab currently runs on
+- `new.gitlab-instance.com` - This is the domain we're migrating to
 
-## Add the second domain
+## Add the Second Domain
 
-The first step is to allow Gitlab to accept connections from the new domain.
+The first step is to allow GitLab to accept connections from the new domain.
 
-Once you point the domain record to your Gitlab instance, you will see you can navigate to it and click around - Gitlab doesn't try to redirect you off to the primary domain. You may, however, encounter an SSL error. This can be resolved by adding the secondary domain to Let's Encrypt and allowing Gitlab to generate an SSL certificate for it.
+Once you point the domain record to your GitLab instance, you'll find you can navigate to it and click around - GitLab doesn't try to redirect you back to the primary domain. You may, however, encounter an SSL error. This can be resolved by adding the secondary domain to Let's Encrypt and allowing GitLab to generate an SSL certificate for it.
 
-Edit the Gitlab config file `/etc/gitlab/gitlab.rb` and add the following
+Edit the GitLab config file `/etc/gitlab/gitlab.rb` and add the following:
 
 ```
 letsencrypt['alt_names'] = ['new.gitlab-instance.com', 'registry.new.gitlab-instance.com']
 ```
 
-**Note:** If you have a container registry or any other sub-domains, these will need to be added to.
+**Note:** If you have a container registry or any other subdomains, these will need to be added too.
 
-Reconfigure the instance
+Reconfigure the instance:
 
 ```
 gitlab-ctl reconfigure
 ```
 
-This will generate the SSL certificates while reconfiguring and will error if there are any subdomains it can't generate SSL certificates for.
+This will generate the SSL certificates while reconfiguring and will error if there are any subdomains it can't generate certificates for.
 
-I would encourage using this new domain for a day or two (navigating, cloning projects etc.) to ensure no basic issues arise.
+I'd encourage using this new domain for a day or two (navigating, cloning projects, etc.) to ensure no basic issues arise.
 
-## Switch the instance domain
+## Switch the Instance Domain
 
-The next step is to change the instance URL. This won't force a redirect but will mean Gitlab will respond with the new URL for API and internal requests. You will still be able to navigate on the old URL, clone projects etc.
+The next step is to change the instance URL. This won't force a redirect but will mean GitLab responds with the new URL for API and internal requests. You'll still be able to navigate on the old URL, clone projects, and so on.
 
-However, this is where you will begin to see issues. If you use your Gitlab instance as a Docker or Package registry, you will need to ensure you have auth'd with all your package manaagers.
+However, this is where you'll begin to see issues. If you use your GitLab instance as a Docker or package registry, you'll need to ensure you've authenticated with all your package managers using the new domain.
 
-Edit the Gitlab config file `/etc/gitlab/gitlab.rb` and update the `external_url` and `letsencrypt['alt_names']`.
+Edit the GitLab config file `/etc/gitlab/gitlab.rb` and update the `external_url` and `letsencrypt['alt_names']`:
 
 ```
 external_url 'https://new.gitlab-instance.com'
@@ -43,27 +44,27 @@ registry_external_url 'https://registry.new.gitlab-instance.com'
 letsencrypt['alt_names'] = ['old.gitlab-company.org', 'registry.old.gitlab-company.org']
 ```
 
-Reconfigure the Gitlab instance with `gitlab-ctl reconfigure`
+Reconfigure the GitLab instance with `gitlab-ctl reconfigure`
 
-I would advise using this new domain and Gitlab for a week or two. It won't redirect you to the new domain, but clone URLs and other requests will use the new domain.
+I'd advise using this new domain with GitLab for a week or two. It won't redirect you to the new domain, but clone URLs and other requests will use the new domain.
 
-If you use Gitlab as your NPM registry, this will be the biggest pain as it will update your `package-lock.json` but then refuse to let you install them if you haven't auth'd with the new domain. If you use something like [Renovate](https://docs.renovatebot.com/), this can help in your migrating but it takes a lot of planning (and a lot of head scratching). 
+If you use GitLab as your NPM registry, this will be the biggest pain. It'll update your `package-lock.json` but then refuse to let you install packages if you haven't authenticated with the new domain. If you use something like [Renovate](https://docs.renovatebot.com/), this can help with migration, but it takes a lot of planning (and a lot of head scratching).
 
-[Get in touch](/contact/) if you need some advice with your specific set-up and I might be able to help.
+[Get in touch](/contact/) if you need advice with your specific setup - I might be able to help.
 
-## Redirect to the new domain
+## Redirect to the New Domain
 
-With the new instance battletested and working, it's time to set up a redirect. You may choose to do this when you switch above, but I left it a week or two in case we needed to get back to the old domain.
+With the new instance battle-tested and working, it's time to set up a redirect. You may choose to do this when you switch the instance domain above, but I left it a week or two in case we needed to fall back to the old domain.
 
-Edit the Gitlab config file `/etc/gitlab/gitlab.rb` and add the options to allow custom nginx configuration
+Edit the GitLab config file `/etc/gitlab/gitlab.rb` and add the option to allow custom nginx configuration:
 
 ```
 nginx['custom_nginx_config'] = 'include /etc/gitlab/nginx-extra.conf;'
 ```
 
-Next, create a config file - `/etc/gitlab/nginx-extra.conf`. I chose to not redirect the registry, but if you do there is an example in [Running Gitlab simultaneously on two domains](https://robinopletal.com/posts/gitlab-on-two-domains).
+Next, create a config file - `/etc/gitlab/nginx-extra.conf`. I chose not to redirect the registry, but if you need to, there's an example in [Running GitLab simultaneously on two domains](https://robinopletal.com/posts/gitlab-on-two-domains).
 
-Before you reconfigure the Gitlab instance, ensure the SSL certificates are in the location specified below
+Before you reconfigure the GitLab instance, ensure the SSL certificates are in the location specified below:
 
 ```
 # web
@@ -85,4 +86,4 @@ server {
 }
 ```
 
-Reconfigure the Gitlab instance: `gitlab-ctl reconfigure`
+Reconfigure the GitLab instance: `gitlab-ctl reconfigure`
