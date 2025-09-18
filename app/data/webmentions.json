@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2025-05-13T12:50:46.448Z",
+  "lastFetched": "2025-09-18T20:14:18.213Z",
   "children": [
     {
       "type": "entry",
@@ -13277,6 +13277,29 @@
       "wm-protocol": "webmention",
       "like-of": "https://www.mikestreety.co.uk/blog/use-playwright-to-smoke-test-your-deployments/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike",
+        "photo": "https://avatars.webmention.io/media.social.lol/80ed298da0454d02fd19bbaeb73496e091e4c15be720b2a2e0cacda88feaa553.jpg",
+        "url": "https://hachyderm.io/@mikestreety"
+      },
+      "url": "https://hachyderm.io/@mikestreety/114915843641456463",
+      "published": "2025-07-25T20:50:18+00:00",
+      "wm-received": "2025-07-25T21:00:01Z",
+      "wm-id": 1926462,
+      "wm-source": "https://brid.gy/comment/mastodon/@flamed@social.lol/114915843669113864/114915843669113864",
+      "wm-target": "https://www.mikestreety.co.uk/blog/turn-any-page-into-a-json-api-with-cloudflare-workers/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://social.lol/@flamed\" class=\"u-url\">@<span>flamed</span></a></span> ah, fair enough. </p><p>In case you want to cancel the subscription, I scrape the review using a Cloudflare worker and turn it into JSON which then gets parsed and committed to my repo as a markdown file</p><p>More info here: <a href=\"https://www.mikestreety.co.uk/blog/turn-any-page-into-a-json-api-with-cloudflare-workers/\"><span>https://www.</span><span>mikestreety.co.uk/blog/turn-an</span><span>y-page-into-a-json-api-with-cloudflare-workers/</span></a></p><p>Happy to share the specific untappd code if you're interested ????</p>\n<a href=\"https://www.mikestreety.co.uk/blog/turn-any-page-into-a-json-api-with-cloudflare-workers/\">Turn any page into a JSON API with Cloudflare Workers</a>",
+        "text": "@flamed ah, fair enough. \n\nIn case you want to cancel the subscription, I scrape the review using a Cloudflare worker and turn it into JSON which then gets parsed and committed to my repo as a markdown file\n\nMore info here: https://www.mikestreety.co.uk/blog/turn-any-page-into-a-json-api-with-cloudflare-workers/\n\nHappy to share the specific untappd code if you're interested ????\nTurn any page into a JSON API with Cloudflare Workers"
+      },
+      "in-reply-to": "https://www.mikestreety.co.uk/blog/turn-any-page-into-a-json-api-with-cloudflare-workers/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
