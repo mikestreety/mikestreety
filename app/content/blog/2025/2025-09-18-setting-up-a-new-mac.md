@@ -138,7 +138,9 @@ If you have a previous computer (and access to it) you can copy the `~/.ssh` fol
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-### Git
+<details>
+
+<summary>Git</summary>
 
 We have some sensible Git config options we enable globally:
 
@@ -156,6 +158,8 @@ And then you can configure your user config:
 git config --global user.name "Your Name"
 git config --global user.email "name@domain.example"
 ```
+
+</details>
 
 <details>
 
@@ -192,4 +196,35 @@ E.g, for me, I have `Caps Lock + E` to open ITerm and `Caps Lock + C` to open th
 - Window Management
 - [Auto-join Meetings](https://one-tip-a-week.beehiiv.com/p/one-tip-a-week-raycast-s-auto-join-for-meetings)
 
+</details>
+
+<details>
+
+<summary>iTerm</summary>
+
+- General
+	- Startup
+		- Window restoration policy: Ony Restore Hotkey Window
+- Appearance
+	- General
+		- Theme: Minimal
+- Profiles
+	- Colours
+		- Modes: ❌ Use separate colours for light and dark mode
+		- Color Preset: Tango Dark
+	- Text
+		- Cursor: `|`
+		- Font
+			- MesloLGSNF, 
+			- Weight: Regular
+			- Size: 14, 
+			- Letter spacing: 100
+			- Line-height: 120
+	- Window
+		- New Windows: 235 columns by 40 rows
+		- ❌ Use transparency
+	- Terminal
+		- Scrollback lines: ✅ Unlimited scrollback
+		- Bell: ✅ Silence bell
+    
 </details>
