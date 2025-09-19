@@ -1,11 +1,14 @@
 ---
 title: Setting up a new Apple computer for web development
 intro: Settings, apps, tips and tricks for setting up a new Apple computer for web development
+tags:
+  - General
+  - Apple
 ---
 
 I've been fortunate enough to get a new computer for work. Rather than migrate my old one, I always take it as an opportunity to start afresh. I've honed the apps I work with, so I know what I want, but I use it as an excuse to really question if everything is the right thing. I also use it as a test-case for running through our documentation for new starters, in case I've missed anything.
 
-This isn't a "must follow", but thought I would share the apps and settings I have, should anyone wish to take inspiration.
+This isn't a "must follow", but thought I would share the apps and settings I have, should anyone wish to take inspiration. [This isn't the first time I've done this](https://www.mikestreety.co.uk/blog/setting-up-a-new-apple-computer/), but this post is more comprehensive than the post from 2022.
 
 ## Settings
 
@@ -128,6 +131,10 @@ Once AppCleaner is installed, I then uninstall
 - Garageband
 - iMovie
 
+## Restart
+
+Make sure you restart your computer during the setup, as some apps and settings need a clear cache to work effectively.
+
 ## Configuration
 
 With the applications set up, it's time to start configuring them
@@ -207,6 +214,8 @@ E.g, for me, I have `Caps Lock + E` to open ITerm and `Caps Lock + C` to open th
 - General
 	- Startup
 		- Window restoration policy: Ony Restore Hotkey Window
+  Selection
+    - ❌ Clicking on a command selects it to restrict Find and Filter.
 - Appearance
 	- General
 		- Theme: Minimal
