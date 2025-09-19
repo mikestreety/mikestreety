@@ -211,6 +211,10 @@ E.g, for me, I have `Caps Lock + E` to open ITerm and `Caps Lock + C` to open th
 
 <summary>iTerm</summary>
 
+First, we need to set up our [Vim config](https://www.mikestreety.co.uk/blog/syntax-highlighting-and-other-enhancements-for-vim/)
+
+Then edit the iTerm preferences:
+
 - General
 	- Startup
 		- Window restoration policy: Ony Restore Hotkey Window
