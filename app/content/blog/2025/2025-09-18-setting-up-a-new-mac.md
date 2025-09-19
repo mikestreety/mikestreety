@@ -95,6 +95,8 @@ I've tried to break apps down by category, but these are the ones I tend to have
 - Slack (🍺 `slack`)
 - Raycast (🍺 `raycast`)
 - Hyperkey (🍺 `hyperkey`)
+- Viscosity (🍺 `viscosity`)
+- [Spark (Classic)](https://apps.apple.com/us/app/spark-classic-email-app/id1176895641?mt=12)
 
 ### Development
 
@@ -130,7 +132,7 @@ Once AppCleaner is installed, I then uninstall
 
 With the applications set up, it's time to start configuring them
 
-### SSH Access
+### SSH Access
 
 If you have a previous computer (and access to it) you can copy the `~/.ssh` folder across to allow you access to all your SSH places (such as Github, servers etc). If not, you'll need to generate a new key:
 
@@ -215,7 +217,7 @@ E.g, for me, I have `Caps Lock + E` to open ITerm and `Caps Lock + C` to open th
 	- Text
 		- Cursor: `|`
 		- Font
-			- MesloLGSNF, 
+			- MesloLGSNF
 			- Weight: Regular
 			- Size: 14, 
 			- Letter spacing: 100
@@ -226,5 +228,5 @@ E.g, for me, I have `Caps Lock + E` to open ITerm and `Caps Lock + C` to open th
 	- Terminal
 		- Scrollback lines: ✅ Unlimited scrollback
 		- Bell: ✅ Silence bell
-    
+
 </details>
