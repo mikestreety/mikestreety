@@ -157,7 +157,9 @@ git config --global user.name "Your Name"
 git config --global user.email "name@domain.example"
 ```
 
-### Raycast
+<details>
+
+<summary>Raycast</summary>
 
 I use RayCast as a Spotlight replacement. To do so, I disable Spotlight:
 
@@ -189,3 +191,5 @@ E.g, for me, I have `Caps Lock + E` to open ITerm and `Caps Lock + C` to open th
 - Clipboard history
 - Window Management
 - [Auto-join Meetings](https://one-tip-a-week.beehiiv.com/p/one-tip-a-week-raycast-s-auto-join-for-meetings)
+
+</details>
