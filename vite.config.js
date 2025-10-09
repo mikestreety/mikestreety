@@ -17,18 +17,11 @@ export default defineConfig({
 					if (['png', 'jpg', 'jpeg', 'svg', 'gif', 'webp'].includes(extType)) return 'img/[name][extname]';
 					return '[name][extname]';
 				}
-			},
-			external: [
-				'/assets/fonts/poppins-v8-latin-700.woff2',
-				'/assets/fonts/poppins-v8-latin-700.woff',
-				'/assets/img/star.svg',
-				'/assets/img/repost.svg'
-			]
+			}
 		}
 	},
 	resolve: {
 		alias: {
-			'/assets/fonts': resolve(__dirname, 'build/fonts'),
 			'/assets/img': resolve(__dirname, 'build/img')
 		}
 	},
