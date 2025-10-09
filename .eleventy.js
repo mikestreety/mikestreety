@@ -4,6 +4,7 @@ const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
 
 module.exports = async function (config) {
 	const { IdAttributePlugin } = await import("@11ty/eleventy");
+	const EleventyVitePlugin = await import("@11ty/eleventy-plugin-vite");
 
 	config.addCollection('blog', blog);
 	config.addCollection('drafts', drafts);
@@ -39,6 +40,22 @@ module.exports = async function (config) {
 		label: "mins",
 		wpm: 290
 	});
+
+	// Add Vite plugin for development
+	config.addPlugin(EleventyVitePlugin.default, {
+		viteOptions: {
+			clearScreen: false,
+			appType: 'mpa',
+			server: {
+				mode: "development",
+				middlewareMode: true,
+			},
+			build: {
+				mode: "production"
+			}
+		}
+	});
+
 	// WEBMENTIONS FILTER
 	config.addFilter('webmentionsForUrl', webmentionsForUrl)
 
