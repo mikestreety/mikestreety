@@ -1,3 +1,5 @@
+@use '../index' as *;
+
 .post-listing {
 	ul {
 		border-left: 0.5rem solid var(--neutralLight);

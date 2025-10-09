@@ -4,8 +4,10 @@ $phone: 'screen and (min-width: 27em)';
 $tablet: 'screen and (min-width: 45em)';
 $desktop: 'screen and (min-width: 60em)';
 
+@use "sass:string";
+
 @mixin mq($device) {
-	@media #{unquote($device)} {
+	@media #{string.unquote($device)} {
 		@content;
 	}
 }

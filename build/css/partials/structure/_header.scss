@@ -1,3 +1,5 @@
+@use '../index' as *;
+
 .title {
 	font-family: 'Mikestreety', $baseFont;
 	font-weight: 600;

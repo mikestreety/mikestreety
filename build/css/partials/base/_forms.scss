@@ -1,3 +1,5 @@
+@use '../index' as *;
+
 form {
 	margin-bottom: var(--gutterLarge);
 	overflow: hidden;

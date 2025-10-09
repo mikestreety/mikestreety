@@ -1,0 +1,4 @@
+// Modern SCSS architecture using @forward
+// This file makes all variables and mixins globally available
+
+@forward 'variables';
