@@ -1,0 +1,10 @@
+- How I use AI (get agents of work mac)
+- Shower thoughts
+  - Teeth cleaning skelton
+  - Practicing sleep
+  - Square photos round cameras
+- Bike tips
+  - Stand up, change gear
+  - Cadence
+- How we improved CI times
+- Installing RustFS 
