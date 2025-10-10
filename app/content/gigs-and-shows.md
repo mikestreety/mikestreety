@@ -30,7 +30,6 @@ Gigs, live music, shows and nights out I've attended
 | Six | Eastbourne Congress Theatre, Eastbourne | 04/06/2022 |
 | Bastille | Brighton Centre, Brighton | 18/04/2022 |
 | Chris Ramsey | Portsmouth Guildhall, Portsmouth | 12/03/2022 |
-| Lazybones |  | 17/10/2018 |
 | Book of Mormon | Prince of Wales Theatre, London | 23/08/2018 |
 | Harry Potter and the Cursed Child (1 & 2) | Palace Theatre, London | 22/08/2018 |
 | Hamilton | Victoria Palace Theatre, London | 31/05/2018 |
@@ -44,6 +43,7 @@ Gigs, live music, shows and nights out I've attended
 | Bill Bailey | Brighton Centre, Brighton | 03/12/2015 |
 | Nizlopi | Komedia, Brighton | 04/11/2015 |
 | Luke Concanon | The Brunswick, Hove | 11/09/2015 |
+| Love Supreme Festival | Glynde Place, Lewes | 05/07/2015 |
 | Return to the Forbidden Planet | Theatre Royal, Brighton | 24/01/2015 |
 | Luke Concanon | Latest Music Bar, Brighton | 25/03/2014 |
 | Luke Concanon | The Brunswick, Hove | 22/11/2013 |
@@ -73,5 +73,5 @@ Gigs, live music, shows and nights out I've attended
 | 36crazyfists | Concorde 2, Brighton |  | |
 | Starlight Express | London |  | With school |
 | The Lion King | London |  | With school |
-| Chris Ramsey | Portsmouth |  |  |
+| Lazybones |  | 17/10/2018 |
 | Russell Howard | Brighton Dome, Brighton |  | With siblings |
