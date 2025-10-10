@@ -6,4 +6,3 @@
   - Stand up, change gear
   - Cadence
 - How we improved CI times
-- Installing RustFS
