@@ -21,12 +21,12 @@ layout: page.njk
 	<p>My 10 most popular blog posts of the year and their rank in comparison to the previous year</p>
 	<div class="js-tabs" id="tabs">
 		<ul class="js-tabs__header">
-			{% for posts in stats.posts %}
+			{% for posts in stats.default.posts %}
 			<li><a class="js-tabs__title" href="#">{{ posts.title }}</a></li>
 			{% endfor %}
 		</ul>
 
-		{% for posts in stats.posts %}
+		{% for posts in stats.default.posts %}
 		<div class="js-tabs__content">
 			<h3>{{ posts.title }}</h3>
 			<table>

@@ -29,7 +29,8 @@ export default defineConfig({
 		viteStaticCopy({
 			targets: [
 				{ src: 'build/fonts/*', dest: 'fonts' },
-				{ src: 'build/img/**/*', dest: 'img' }
+				{ src: 'build/img/**/*', dest: 'img' },
+				{ src: 'build/js/charts.js', dest: 'js' }
 			]
 		})
 	]

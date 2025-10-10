@@ -1,4 +1,4 @@
-module.exports = () => {
+const generateStats = () => {
 	const popular_posts = {
 		'2024': [
 			'/blog/migrating-gitlab-from-one-server-to-another/',
@@ -110,15 +110,13 @@ module.exports = () => {
 				title: current_year,
 				posts: []
 			},
-			year = popular_posts[current_year];
-
-		previous_year = popular_posts[current_year - 1] ? popular_posts[current_year - 1] : false,
-		post_index = 1;
+			year = popular_posts[current_year],
+			previous_year = popular_posts[current_year - 1] || false,
+			post_index = 1;
 
 		for(let post of year) {
-
-			let previous_place = (previous_year !== false && previous_year.includes(post)) ? (previous_year.indexOf(post) + 1) : false,
-				position_change = previous_place ? previous_place - post_index : false;
+			const previous_place = previous_year ? previous_year.indexOf(post) : -1;
+			const position_change = previous_place !== -1 ? (previous_place + 1) - post_index : false;
 
 			year_format.posts.push({
 				slug: post,
@@ -136,3 +134,6 @@ module.exports = () => {
 		posts: posts_output.reverse()
 	};
 };
+
+// Call the function and export the result
+module.exports = generateStats();

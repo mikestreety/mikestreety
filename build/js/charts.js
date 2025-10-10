@@ -362,7 +362,7 @@ new ApexCharts(document.querySelector('#cyclingDistance'), {
 	}]
 }).render();
 
-const cyclingTimeSeries = generateSeries(data, 'cycling', 'distance');
+const cyclingTimeSeries = generateSeries(data, 'cycling', 'time');
 new ApexCharts(document.querySelector('#cyclingTime'), {
 	...strava,
 	series: [{
@@ -390,7 +390,7 @@ new ApexCharts(document.querySelector('#cyclingTime'), {
 	}
 }).render();
 
-const cyclingElevationSeries = generateSeries(data, 'cycling', 'distance');
+const cyclingElevationSeries = generateSeries(data, 'cycling', 'elevation');
 new ApexCharts(document.querySelector('#cyclingElevation'), {
 	...strava,
 	series: [{
@@ -418,13 +418,14 @@ new ApexCharts(document.querySelector('#cyclingRides'), {
  * Walking
  */
 
-let walkingChartOptions = JSON.parse(JSON.stringify(chartOptions));
-walkingChartOptions.colors = ['#000'];
-
-walkingChartOptions.yaxis = {
-	labels: {
-		formatter: function(val) {
-			return Number(val).toLocaleString();
+const walkingChartOptions = {
+	...chartOptions,
+	colors: ['#000'],
+	yaxis: {
+		labels: {
+			formatter: function(val) {
+				return Number(val).toLocaleString();
+			}
 		}
 	}
 };
@@ -456,8 +457,6 @@ new ApexCharts(document.querySelector('#geocachesFound'), {
 	}],
 	colors: ['#02874d'],
 }).render();
-
-console.log(generateSeries(data, 'geocachesFound'));
 
 /**
  * Last FM scrobbles
