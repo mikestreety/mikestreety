@@ -1,6 +1,6 @@
 ---
-title: Add a space to your OSX doc for organsiation
-intro: I like to seperate out my apps in my dock by using spacers
+title: Add a space to your OSX doc for organisation
+intro: I like to separate out my apps in my dock by using spacers
 tags:
   - General
   - Apple

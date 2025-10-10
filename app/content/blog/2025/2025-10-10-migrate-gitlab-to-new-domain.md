@@ -1,3 +1,10 @@
+---
+title: Migrate your GitLab instance to a new domain
+intro: How to move your GitLab instance to a new domain while keeping the infrastructure
+tags:
+  - Gitlab
+---
+
 # Migrating GitLab to a New Domain
 
 In the examples below, I'll be using two domains:
@@ -87,3 +94,12 @@ server {
 ```
 
 Reconfigure the GitLab instance: `gitlab-ctl reconfigure`
+
+# Clean-up
+
+After some time, you can
+
+- Delete `/etc/gitlab/nginx-extra.conf`
+- Remove `nginx['custom_nginx_config']` from `/etc/gitlab/gitlab.rb`
+- Remove any references to the old domain in `/etc/gitlab/gitlab.rb`
+- Delete any references from your browser history
