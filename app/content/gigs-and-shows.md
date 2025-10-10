@@ -12,12 +12,15 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
-| Matilda | Cambridge Theatre, London | 07/05/2025
-| Just Floyd | The Factory Live, Worthing | 08/02/2025
+| Seriously Collins | The Ropetackle, Shoreham | 27/09/2025 |
+| OneRepublic | The O2, London | 26/09/2025 |
+| Starlight Express | Troubadour Wembley Park Theatre, London | 25/08/2025 |
+| Matilda | Cambridge Theatre, London | 07/05/2025 |
+| Just Floyd | The Factory Live, Worthing | 08/02/2025 |
 | Bastille (Dan Solo) | Resident Records, Brighton | 08/12/2024 |
 | Embrace | Chalk, Brighton | 26/11/2024 |
 | Hamilton | Victoria Palace Theatre, London | 02/11/2024 |
-| Stranger Things - The First Shadow | London | 01/11/2024 |
+| Stranger Things - The First Shadow | Phoenix Theatre, London | 01/11/2024 |
 | Bastille | O2 Shepherd's Bush Empire, London | 17/11/2024 |
 | Mrs. Doubtfire | Shaftesbury Theatre, Brighton | 28/07/2024 |
 | Bluey's Big Show | Brighton Centre, Brighton | 07/07/2024 |
@@ -58,11 +61,17 @@ Gigs, live music, shows and nights out I've attended
 | Athlete | Brighton Centre, Brighton | 31/10/2005 |
 | Red Hot Chilli Peppers | Hyde Park, London | 19/06/2004 |
 
-## Missing date
+## Missing data
 
-- Wicked
-- Orchestra - Worthing Assembly Halls (free tickets)
-- Stereophonics - Earles Court
-- Travis - Brighton Centre
-- Luke Concanon - Portsmouth - 24/11/2014
-- 36crazyfists - concorde 2
+| Title | Location | Date | Notes |
+| ----- | -------- | ---- | ----- |
+| Wicked |  |  | |
+| Orchestra | Assembly Halls, Worthing | | Free tickets |
+| Stereophonics | Earles Court, London | | |
+| Travis | Brighton Centre, Brighton | | |
+| Luke Concanon | ???, Portsmouth | 24/11/2014 | |
+| 36crazyfists | Concorde 2, Brighton |  | |
+| Starlight Express | London |  | With school |
+| The Lion King | London |  | With school |
+| Chris Ramsey | Portsmouth |  |  |
+| Russell Howard | Brighton Dome, Brighton |  | With siblings |
