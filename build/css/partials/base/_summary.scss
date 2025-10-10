@@ -1,12 +1,64 @@
 details {
 	margin-bottom: var(--gutter);
 	margin-top: var(--gutter);
+	border: .15rem solid var(--neutralDark);
+	border-radius: .3rem;
+	overflow: hidden;
+	transition: border-color .2s ease;
+	padding-inline: var(--gutter) ;
+
+	&:hover {
+		border-color: var(--primary);
+	}
+
+	&[open] {
+		border-color: var(--primary);
+		padding-bottom: var(--gutter);
+
+		summary {
+			border-bottom: .15rem solid var(--primary);
+			margin-bottom: var(--gutter);
+		}
+
+		> *:not(summary) {
+			animation: slideDown 0.2s ease-out;
+		}
+	}
 }
 
+
+
 summary {
-	padding: calc(var(--gutter) / 3) var(--gutter);
-	background: var(--primaryLighter);
+	padding: calc(var(--gutter) / 2);
+	background: var(--neutralLight);
 	font-weight: 700;
 	cursor: pointer;
 	display: list-item;
+	transition: background .2s ease;
+	position: relative;
+	font-family: Mikestreety, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol;
+	width: calc(100% + calc(var(--gutter) * 2));
+	margin-left: calc(var(--gutter) * -1);
+
+	&:hover {
+		background: var(--tertiary);
+	}
+
+	// Style the marker/arrow
+	&::marker {
+		color: var(--base);
+	}
+}
+
+
+
+@keyframes slideDown {
+	from {
+		opacity: 0;
+		transform: translateY(-0.5rem);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
