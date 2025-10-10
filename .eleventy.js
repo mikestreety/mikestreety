@@ -41,20 +41,22 @@ module.exports = async function (config) {
 		wpm: 290
 	});
 
-	// Add Vite plugin for development
-	config.addPlugin(EleventyVitePlugin.default, {
-		viteOptions: {
-			clearScreen: false,
-			appType: 'mpa',
-			server: {
-				mode: "development",
-				middlewareMode: true,
-			},
-			build: {
-				mode: "production"
+	// Pass through assets directory (built by Vite)
+	config.addPassthroughCopy("html/assets");
+
+	// Add Vite plugin for development only
+	if (process.env.ELEVENTY_RUN_MODE !== 'build') {
+		config.addPlugin(EleventyVitePlugin.default, {
+			viteOptions: {
+				clearScreen: false,
+				appType: 'mpa',
+				server: {
+					mode: "development",
+					middlewareMode: true,
+				}
 			}
-		}
-	});
+		});
+	}
 
 	// WEBMENTIONS FILTER
 	config.addFilter('webmentionsForUrl', webmentionsForUrl)
