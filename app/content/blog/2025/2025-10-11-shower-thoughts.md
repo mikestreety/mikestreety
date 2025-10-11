@@ -21,4 +21,4 @@ Surely the lens is capturing more of the photo then we ever see?
 
 > Have you ever walked in a "space" of the earth that no human has before?
 
-Doesn't matter what is actually under your feed, but has a human ever been to that lat/long before?
+Doesn't matter what is actually under your feet, but has a human ever been to that lat/long before?
