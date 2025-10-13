@@ -12,6 +12,7 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| Nizlopi | The Water Rats, London | 12/10/2025 |
 | Seriously Collins | The Ropetackle, Shoreham | 27/09/2025 |
 | OneRepublic | The O2, London | 26/09/2025 |
 | Starlight Express | Troubadour Wembley Park Theatre, London | 25/08/2025 |
@@ -30,29 +31,33 @@ Gigs, live music, shows and nights out I've attended
 | Six | Eastbourne Congress Theatre, Eastbourne | 04/06/2022 |
 | Bastille | Brighton Centre, Brighton | 18/04/2022 |
 | Chris Ramsey | Portsmouth Guildhall, Portsmouth | 12/03/2022 |
+| Lazybones | Green Door Store, Brighton | 17/10/2018 |
 | Book of Mormon | Prince of Wales Theatre, London | 23/08/2018 |
 | Harry Potter and the Cursed Child (1 & 2) | Palace Theatre, London | 22/08/2018 |
 | Hamilton | Victoria Palace Theatre, London | 31/05/2018 |
-| Lazybones |  | 12/03/2018 |
+| Lazybones | Prince Albert, Brighton | 12/03/2018 |
 | Scott Bradlee's Postmodern Jukebox | Brighton Dome, Brighton | 05/03/2018 |
-| Lazybones |  | 22/12/2017 |
+| Lazybones | Sticky Mike's Frog Bar, Brighton | 22/12/2017 |
 | Lazybones | Green Door Store, Brighton | 31/10/2017 |
 | Charlie and the Chocolate Factory | Dury Lane, Brighton | 27/12/2016 |
 | Passenger | Brighton Dome, Brighton | 19/11/2016 |
 | Les Misérables | Sondheim Theatre, London | 19/03/2016 |
 | Bill Bailey | Brighton Centre, Brighton | 03/12/2015 |
 | Nizlopi | Komedia, Brighton | 04/11/2015 |
-| Luke Concanon | The Brunswick, Hove | 11/09/2015 |
+| Luke Concannon | The Brunswick, Hove | 11/09/2015 |
 | Love Supreme Festival | Glynde Place, Lewes | 05/07/2015 |
 | Return to the Forbidden Planet | Theatre Royal, Brighton | 24/01/2015 |
-| Luke Concanon | Latest Music Bar, Brighton | 25/03/2014 |
-| Luke Concanon | The Brunswick, Hove | 22/11/2013 |
+| Nizlopi | Wedgewood Rooms Portsmouth | 24/11/2014 |
+| Luke Concannon | Latest Music Bar, Brighton | 25/03/2014 |
+| Luke Concannon | The Brunswick, Hove | 22/11/2013 |
 | Jimmy Carr | Worthing Assembly Halls, Worthing | 22/09/2012 |
+| Elbow | Brighton Centre, Brighton | 27/03/2011 |
 | (Floyd) In the Flesh | Theatre Royal, Brighton | 20/01/2011 |
 | Athlete | Concorde 2, Brighton | 16/06/2009 |
 | The Fray | Roundhouse, London | 06/05/2009 |
 | Boy Kill Boy | The Freebutt, Brighton | 24/03/2009 |
 | Das Pop | New Hero, Brighton | 13/02/2009 |
+| Snow Patrol | BIC, Bournemouth | 23/02/2009 |
 | Alphabeat | Concorde 2, Brighton | 03/11/2008 |
 | The Great Escape Festival | Various Venues, Brighton | 17-19/05/2007 |
 | The Go! Team | Brighton Dome, Brighton | 28/10/2006 |
@@ -60,6 +65,8 @@ Gigs, live music, shows and nights out I've attended
 | Nizlopi | Concorde 2, Brighton | 04/09/2006 |
 | Athlete | Brighton Centre, Brighton | 31/10/2005 |
 | Red Hot Chilli Peppers | Hyde Park, London | 19/06/2004 |
+| Stereophonics | Earls Court Exhibition Centre, London | 16/12/2003 |
+| Travis | Brighton Centre, Brighton | 14/12/2001 |
 
 ## Missing data
 
@@ -67,11 +74,7 @@ Gigs, live music, shows and nights out I've attended
 | ----- | -------- | ---- | ----- |
 | Wicked |  |  | |
 | Orchestra | Assembly Halls, Worthing | | Free tickets |
-| Stereophonics | Earles Court, London | | |
-| Travis | Brighton Centre, Brighton | | |
-| Luke Concanon | ???, Portsmouth | 24/11/2014 | |
 | 36crazyfists | Concorde 2, Brighton |  | |
 | Starlight Express | London |  | With school |
 | The Lion King | London |  | With school |
-| Lazybones |  | 17/10/2018 |
 | Russell Howard | Brighton Dome, Brighton |  | With siblings |
