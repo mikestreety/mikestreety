@@ -45,6 +45,14 @@ table {
 		background: #fdcfcd;
 	}
 
+	.new {
+		background: #d6ebff;
+	}
+
+	tr:nth-child(even) .new {
+		background: #cde0f2;
+	}
+
 	&.fixed {
 		table-layout: fixed;
 	}
