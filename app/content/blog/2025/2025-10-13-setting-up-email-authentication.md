@@ -1,5 +1,9 @@
 ---
 title: Email authentication records to improve deliverability
+intro: Ensuring email deliverability is a tricky business - this post walks through hints and tips for improving domain authority
+tags:
+  - DNS
+  - Email
 ---
 
 
