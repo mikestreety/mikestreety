@@ -5,10 +5,6 @@ tags:
   - Gitlab
 ---
 
----
-title: Migrate your GitLab instance to a new domain
----
-
 We were sunsetting a domain and wanted to migrate our GitLab instance to a different URL.
 
 GitLab doesn't make this easy. There's no big "Change Domain" button, and if you're using package registries, you're in for a proper adventure and need to get your team on board.
