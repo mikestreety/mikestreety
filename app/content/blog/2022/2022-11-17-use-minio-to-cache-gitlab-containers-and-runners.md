@@ -11,6 +11,8 @@ tags:
 
 Gitlab can utilise [Amazon S3](https://aws.amazon.com/s3/) for several things throughout the application. If you have an existing sever, you may wish to self-host an S3 replacement, which is where [MinIO](https://min.io/) comes in.
 
+<div class="info"><strong>Note:</strong> <a href="/blog/setting-up-rustfs-as-an-amazon-s3-replacement/">RustFS</a> can be substitued for MinIO in this post with the same settings</div>
+
 MinIO has Amazon S3 compatible APIs, which means it can be a replacement without any additional development work.
 
 Object Storage in Gitlab can be used for [distributed runner caching](https://docs.gitlab.com/runner/configuration/autoscale.html#distributed-runners-caching) along with storing built docker containers.
