@@ -34,6 +34,7 @@ Gigs, live music, shows and nights out I've attended
 | Six | Eastbourne Congress Theatre, Eastbourne | 04/06/2022 |
 | Bastille | Brighton Centre, Brighton | 18/04/2022 |
 | Chris Ramsey | Portsmouth Guildhall, Portsmouth | 12/03/2022 |
+| Worthing Symphony Orchestra | Assembly Halls, Worthing | 10/03/2019 |
 | Lazybones | Green Door Store, Brighton | 17/10/2018 |
 | Book of Mormon | Prince of Wales Theatre, London | 23/08/2018 |
 | Harry Potter and the Cursed Child (1 & 2) | Palace Theatre, London | 22/08/2018 |
@@ -76,7 +77,7 @@ Gigs, live music, shows and nights out I've attended
 | Title | Location | Date | Notes |
 | ----- | -------- | ---- | ----- |
 | Wicked |  |  | |
-| Orchestra | Assembly Halls, Worthing | | Free tickets |
+
 | 36crazyfists | Concorde 2, Brighton |  | |
 | Starlight Express | London |  | With school |
 | The Lion King | London |  | With school |
