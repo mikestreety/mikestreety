@@ -12,6 +12,9 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| Bastille | Brighton Centre, Brighton | 16/11/2025 |
+| George Lewis | Theatre Royal, Brighton | 19/10/2025 |
+| Self Esteem | Brighton Centre, Brighton | 17/10/2025 |
 | Nizlopi | The Water Rats, London | 12/10/2025 |
 | Seriously Collins | The Ropetackle, Shoreham | 27/09/2025 |
 | OneRepublic | The O2, London | 26/09/2025 |
@@ -78,3 +81,5 @@ Gigs, live music, shows and nights out I've attended
 | Starlight Express | London |  | With school |
 | The Lion King | London |  | With school |
 | Russell Howard | Brighton Dome, Brighton |  | With siblings |
+| Tim Vine | Theatre Royal, Brighton |  | With mum and dad |
+| Tim Vine | Theatre Royal, Brighton |  | With Grant and Dave |
