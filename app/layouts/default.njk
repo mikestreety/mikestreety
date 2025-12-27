@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>
-		{% if pagination.pageNumber %}Page {{ (pagination.pageNumber + 1) }} - {% endif %}
+		{% if pagination.size !== 1 and pagination.pageNumber %}Page {{ (pagination.pageNumber + 1) }} - {% endif %}
 		{{ title }}{{ " - " if title }}{{ meta.site.title }} - {{ meta.site.description }}</title>
 	<link rel="home" href="{{ meta.site.url }}/">
 

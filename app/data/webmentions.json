@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2025-10-13T20:12:52.436Z",
+  "lastFetched": "2025-12-27T21:01:28.064Z",
   "children": [
     {
       "type": "entry",
@@ -13300,6 +13300,44 @@
       },
       "in-reply-to": "https://www.mikestreety.co.uk/blog/turn-any-page-into-a-json-api-with-cloudflare-workers/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Matti",
+        "photo": "https://avatars.webmention.io/media.hachyderm.io/c22f0e5d643ff0a4b30f94515a8a6f06273bdde6d244778a687e624b3b8549b9.jpg",
+        "url": "https://hachyderm.io/@finn_matti"
+      },
+      "url": "https://hachyderm.io/@mikestreety/115368700720099176#favorited-by-115225522134461416",
+      "published": null,
+      "wm-received": "2025-10-15T02:01:40Z",
+      "wm-id": 1947398,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/115368700720099176/115225522134461416",
+      "wm-target": "https://www.mikestreety.co.uk/blog/shower-thoughts-that-live-in-my-head-rent-free/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/shower-thoughts-that-live-in-my-head-rent-free/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Simon Cox :SEO:",
+        "photo": "https://avatars.webmention.io/media.hachyderm.io/c25f602d3ff14afc9b47c9d29f45d1f796b6a9108acc745ca0af7967b4294f18.jpg",
+        "url": "https://seocommunity.social/@simoncox"
+      },
+      "url": "https://hachyderm.io/@mikestreety/115368700720099176#favorited-by-109298770510051442",
+      "published": null,
+      "wm-received": "2025-10-14T05:13:18Z",
+      "wm-id": 1947176,
+      "wm-source": "https://brid.gy/like/mastodon/@mikestreety@hachyderm.io/115368700720099176/109298770510051442",
+      "wm-target": "https://www.mikestreety.co.uk/blog/shower-thoughts-that-live-in-my-head-rent-free/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/shower-thoughts-that-live-in-my-head-rent-free/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
