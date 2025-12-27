@@ -12,6 +12,7 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| Stereophonics | The 02, Brighton | 18/12/2025 |
 | Bastille | Brighton Centre, Brighton | 16/11/2025 |
 | George Lewis | Theatre Royal, Brighton | 19/10/2025 |
 | Self Esteem | Brighton Centre, Brighton | 17/10/2025 |
