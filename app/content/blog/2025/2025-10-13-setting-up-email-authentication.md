@@ -6,7 +6,6 @@ tags:
   - Email
 ---
 
-
 Sending emails in this mad world of spam is a tricky business. Spoofing and phishing are all too common, and email providers try to be smart to it, although sometimes at the detriment to honest and "real" emails.
 
 If your website is sending emails at all (even to you for contact form responses), it is worth considering spending time to verify that you own the domain and you are allowed to send emails from it. Word of warning: this isn't going to be the most thrilling post, but it's one of those things that'll save you a proper headache down the line when your carefully crafted emails end up in spam folders.
