@@ -91,40 +91,40 @@ const data = {
 	2012: {
 		postsPersonal: 18,
 		cycling: {
-			rides: [35, 0],
-			distance: [623.3, 0],
-			elevation: [26930, 0],
-			time: [2516, 0]
+			rides: [35, 0, 0],
+			distance: [623.3, 0, 0],
+			elevation: [26930, 0, 0],
+			time: [2516, 0, 0]
 		},
 		geocachesFound: 0
 	},
 	2013: {
 		postsPersonal: 11,
 		cycling: {
-			rides: [14, 0],
-			distance: [341.6, 0],
-			elevation: [15517, 0],
-			time: [1354, 0]
+			rides: [14, 0, 0],
+			distance: [341.6, 0, 0],
+			elevation: [15517, 0, 0],
+			time: [1354, 0, 0]
 		},
 		geocachesFound: 0
 	},
 	2014: {
 		postsPersonal: 17,
 		cycling: {
-			rides: [351, 0],
-			distance: [2611.0, 0],
-			elevation: [146034, 0],
-			time: [11388, 0]
+			rides: [351, 0, 0],
+			distance: [2611.0, 0, 0],
+			elevation: [146034, 0, 0],
+			time: [11388, 0, 0]
 		},
 		geocachesFound: 0
 	},
 	2015: {
 		postsPersonal: 13,
 		cycling: {
-			rides: [433, 0],
-			distance: [2464.2, 0],
-			elevation: [148223, 0],
-			time: [11223, 0]
+			rides: [433, 0, 0],
+			distance: [2464.2, 0, 0],
+			elevation: [148223, 0, 0],
+			time: [11223, 0, 0]
 		},
 		geocachesFound: 0
 	},
@@ -132,10 +132,10 @@ const data = {
 		postsPersonal: 19,
 		instagramAleHouseRock: 28,
 		cycling: {
-			rides: [453, 1],
-			distance: [2585.8, 1.1],
-			elevation: [154822, 156],
-			time: [11431, 269]
+			rides: [453, 1, 0],
+			distance: [2585.8, 1.1, 0],
+			elevation: [154822, 156, 0],
+			time: [11431, 269, 0]
 		},
 		geocachesFound: 0,
 		lastFmScrobbles: 1956
@@ -145,15 +145,12 @@ const data = {
 		instagramPersonal: 39,
 		instagramAleHouseRock: 62,
 		cycling: {
-			rides: [438, 0],
-			distance: [2266.7, 0],
-			elevation: [136484, 0],
-			time: [10889, 0]
+			rides: [438, 0, 0],
+			distance: [2266.7, 0, 0],
+			elevation: [136484, 0, 0],
+			time: [10889, 0, 0]
 		},
-		walking: {
-			steps: 2659838,
-			calories: 1033167
-		},
+		steps: 2659838,
 		lastFmScrobbles: 8153,
 		geocachesFound: 0
 	},
@@ -162,15 +159,12 @@ const data = {
 		instagramPersonal: 24,
 		instagramAleHouseRock: 102,
 		cycling: {
-			rides: [301, 0],
-			distance: [3523.3, 0],
-			elevation: [126183, 0],
-			time: [15084, 0]
+			rides: [301, 0, 0],
+			distance: [3523.3, 0, 0],
+			elevation: [126183, 0, 0],
+			time: [15084, 0, 0]
 		},
-		walking: {
-			steps: 2126312,
-			calories: 1020728
-		},
+		steps: 2126312,
 		lastFmScrobbles: 4426,
 		geocachesFound: 0
 	},
@@ -179,15 +173,12 @@ const data = {
 		instagramPersonal: 29,
 		instagramAleHouseRock: 76,
 		cycling: {
-			rides: [288, 0],
-			distance: [2689.4, 0],
-			elevation: [46368, 0],
-			time: [10725, 0]
+			rides: [288, 0, 0],
+			distance: [2689.4, 0, 0],
+			elevation: [46368, 0, 0],
+			time: [10725, 0, 0]
 		},
-		walking: {
-			steps: 2562958,
-			calories: 1052978
-		},
+		steps: 2562958,
 		lastFmScrobbles: 12915,
 		geocachesFound: 0
 	},
@@ -196,15 +187,12 @@ const data = {
 		instagramPersonal: 6,
 		instagramAleHouseRock: 136,
 		cycling: {
-			rides: [149, 0],
-			distance: [1927.3, 0],
-			elevation: [69416, 0],
-			time: [7954, 0]
+			rides: [149, 0, 0],
+			distance: [1927.3, 0, 0],
+			elevation: [69416, 0, 0],
+			time: [7954, 0, 0]
 		},
-		walking: {
-			steps: 2433968,
-			calories: 1141732
-		},
+		steps: 2433968,
 		lastFmScrobbles: 14102,
 		geocachesFound: 0
 	},
@@ -213,15 +201,12 @@ const data = {
 		instagramPersonal: 17,
 		instagramAleHouseRock: 196,
 		cycling: {
-			rides: [114, 50],
-			distance: [1031.3, 367.3],
-			elevation: [18471, 4329],
-			time: [4484, 1759]
+			rides: [64, 50, 0],
+			distance: [664, 367, 0],
+			elevation: [14142, 4329, 0],
+			time: [2724, 1759, 0]
 		},
-		walking: {
-			steps: 2796309,
-			calories: 1125108
-		},
+		steps: 2796309,
 		lastFmScrobbles: 10300,
 		geocachesFound: 18
 	},
@@ -230,15 +215,12 @@ const data = {
 		instagramPersonal: 11,
 		instagramAleHouseRock: 155,
 		cycling: {
-			rides: [262, 200],
-			distance: [1934.7, 1604.5],
-			elevation: [30152, 22760],
-			time: [9031, 7274]
+			rides: [62, 200, 0],
+			distance: [330, 1605, 0],
+			elevation: [7392, 22760, 0],
+			time: [1758, 7274, 0]
 		},
-		walking: {
-			steps: 3207971,
-			calories: 1154373
-		},
+		steps: 3207971,
 		lastFmScrobbles: 21055,
 		geocachesFound: 174
 	},
@@ -247,11 +229,12 @@ const data = {
 		instagramPersonal: 1,
 		instagramAleHouseRock: 129,
 		cycling: {
-			rides: [368, 200],
-			distance: [2593, 1598],
-			elevation: [48896, 22207],
-			time: [11517, 7075]
+			rides: [165, 200, 0],
+			distance: [977, 1598, 0],
+			elevation: [26511, 22207, 0],
+			time: [4338, 7075, 0]
 		},
+		steps: 2791343,
 		lastFmScrobbles: 15158,
 		geocachesFound: 96
 	},
@@ -260,13 +243,27 @@ const data = {
 		instagramPersonal: 0,
 		instagramAleHouseRock: 119,
 		cycling: {
-			rides: [316, 174],
-			distance: [2513.9, 1566.3],
-			elevation: [39993, 22686],
-			time: [10941, 6883]
+			rides: [134, 174, 8],
+			distance: [861, 1566, 86],
+			elevation: [14775, 22687, 2533],
+			time: [3774, 6883, 288]
 		},
+		steps: 3191609,
 		lastFmScrobbles: 14942,
 		geocachesFound: 201
+	// },
+	// 2025: {
+	// 	postsPersonal: ,
+	// 	instagramPersonal: 1,
+	// 	instagramAleHouseRock: ,
+	// 	cycling: {
+	// 		rides: [134, 174, 8],
+	// 		distance: [861, 1566, 86],
+	// 		elevation: [14775, 22687, 2533],
+	// 		time: [3774, 6883, 288]
+	// 	},
+	// 	lastFmScrobbles: ,
+	// 	geocachesFound: 2
 	}
 };
 
@@ -344,10 +341,19 @@ new ApexCharts(document.querySelector('#instagramAleHouseRock'), {
  */
 const strava = {
 	...chartOptions,
-	colors: ['#fc5200', '#6134ff'],
+	colors: ['#fc5200', '#6633cc', '#FF00FF'],
+	chart: {
+		...chartOptions.chart,
+		type: 'bar',
+		stacked: true
+	},
+	fill: {
+		...chartOptions.fill,
+		type: 'solid',
+	},
 	xaxis: {
 		tickAmount: 6
-	},
+	}
 }
 
 const cyclingDistanceSeries = generateSeries(data, 'cycling', 'distance');
@@ -359,6 +365,9 @@ new ApexCharts(document.querySelector('#cyclingDistance'), {
 	}, {
 		name: 'Distance (miles) [eBike]',
 		data: cyclingDistanceSeries.map(item => ({ x: item.x, y: item.y[1] }))
+	}, {
+		name: 'Distance (miles) [Virtual]',
+		data: cyclingDistanceSeries.map(item => ({ x: item.x, y: item.y[2] }))
 	}]
 }).render();
 
@@ -373,6 +382,10 @@ new ApexCharts(document.querySelector('#cyclingTime'), {
 		name: 'Time spent cycling [eBike]',
 		// Minutes
 		data: cyclingTimeSeries.map(item => ({ x: item.x, y: item.y[1] }))
+	}, {
+		name: 'Time spent cycling [Virtual]',
+		// Minutes
+		data: cyclingTimeSeries.map(item => ({ x: item.x, y: item.y[2] }))
 	}],
 	yaxis: {
 		labels: {
@@ -399,6 +412,9 @@ new ApexCharts(document.querySelector('#cyclingElevation'), {
 	}, {
 		name: 'Elevation (ft) [eBike]',
 		data: cyclingElevationSeries.map(item => ({ x: item.x, y: item.y[1] }))
+	}, {
+		name: 'Elevation (ft) [Virtual]',
+		data: cyclingElevationSeries.map(item => ({ x: item.x, y: item.y[2] }))
 	}],
 }).render();
 
@@ -411,38 +427,28 @@ new ApexCharts(document.querySelector('#cyclingRides'), {
 	}, {
 		name: 'Number of rides [eBike]',
 		data: cyclingRidesSeries.map(item => ({ x: item.x, y: item.y[1] }))
+	}, {
+		name: 'Number of rides [Virtual]',
+		data: cyclingRidesSeries.map(item => ({ x: item.x, y: item.y[2] }))
 	}],
 }).render();
 
 /**
  * Walking
  */
-
-const walkingChartOptions = {
+new ApexCharts(document.querySelector('#walkingSteps'), {
 	...chartOptions,
 	colors: ['#000'],
 	yaxis: {
 		labels: {
-			formatter: function(val) {
+			formatter: function (val) {
 				return Number(val).toLocaleString();
 			}
 		}
-	}
-};
-
-new ApexCharts(document.querySelector('#walkingSteps'), {
-	...walkingChartOptions,
+	},
 	series: [{
 		name: 'Steps',
-		data: generateSeries(data, 'walking', 'steps')
-	}],
-}).render();
-
-new ApexCharts(document.querySelector('#walkingCalories'), {
-	...walkingChartOptions,
-	series: [{
-		name: 'Calories',
-		data: generateSeries(data, 'walking', 'calories')
+		data: generateSeries(data, 'steps')
 	}],
 }).render();
 
