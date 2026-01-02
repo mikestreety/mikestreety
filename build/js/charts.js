@@ -67,26 +67,47 @@ var chartOptions = {
 };
 
 const data = {
+	2001: {
+		gigsAndShows: 1,
+	},
+	2002: {
+		gigsAndShows: 0,
+	},
+	2003: {
+		gigsAndShows: 1,
+	},
+	2004: {
+		gigsAndShows: 1,
+	},
+	2005: {
+		gigsAndShows: 1,
+	},
 	2006: {
-		geocachesFound: 1
+		geocachesFound: 1,
+		gigsAndShows: 3,
 	},
 	2007: {
-		geocachesFound: 0
+		geocachesFound: 0,
+		gigsAndShows: 1,
 	},
 	2008: {
-		geocachesFound: 5
+		geocachesFound: 5,
+		gigsAndShows: 1,
 	},
 	2009: {
 		postsPersonal: 4,
-		geocachesFound: 210
+		geocachesFound: 210,
+		gigsAndShows:  5,
 	},
 	2010: {
 		postsPersonal: 7,
-		geocachesFound: 375
+		geocachesFound: 375,
+		gigsAndShows:  0,
 	},
 	2011: {
 		postsPersonal: 7,
-		geocachesFound: 129
+		geocachesFound: 129,
+		gigsAndShows:  2,
 	},
 	2012: {
 		postsPersonal: 18,
@@ -96,7 +117,8 @@ const data = {
 			elevation: [26930, 0, 0],
 			time: [2516, 0, 0]
 		},
-		geocachesFound: 0
+		geocachesFound: 0,
+		gigsAndShows: 1,
 	},
 	2013: {
 		postsPersonal: 11,
@@ -106,7 +128,8 @@ const data = {
 			elevation: [15517, 0, 0],
 			time: [1354, 0, 0]
 		},
-		geocachesFound: 0
+		geocachesFound: 0,
+		gigsAndShows: 1,
 	},
 	2014: {
 		postsPersonal: 17,
@@ -116,7 +139,8 @@ const data = {
 			elevation: [146034, 0, 0],
 			time: [11388, 0, 0]
 		},
-		geocachesFound: 0
+		geocachesFound: 0,
+		gigsAndShows: 2,
 	},
 	2015: {
 		postsPersonal: 13,
@@ -126,7 +150,8 @@ const data = {
 			elevation: [148223, 0, 0],
 			time: [11223, 0, 0]
 		},
-		geocachesFound: 0
+		geocachesFound: 0,
+		gigsAndShows: 5,
 	},
 	2016: {
 		postsPersonal: 19,
@@ -138,6 +163,7 @@ const data = {
 			time: [11431, 269, 0]
 		},
 		geocachesFound: 0,
+		gigsAndShows:  3,
 		lastFmScrobbles: 1956
 	},
 	2017: {
@@ -152,12 +178,13 @@ const data = {
 		},
 		steps: 2659838,
 		lastFmScrobbles: 8153,
-		geocachesFound: 0
+		geocachesFound: 0,
+		gigsAndShows: 2,
 	},
 	2018: {
 		postsPersonal: 10,
 		instagramPersonal: 24,
-		instagramAleHouseRock: 102,
+		instagramAleHouseRock: 101,
 		cycling: {
 			rides: [301, 0, 0],
 			distance: [3523.3, 0, 0],
@@ -166,7 +193,8 @@ const data = {
 		},
 		steps: 2126312,
 		lastFmScrobbles: 4426,
-		geocachesFound: 0
+		geocachesFound: 0,
+		gigsAndShows: 6,
 	},
 	2019: {
 		postsPersonal: 12,
@@ -180,7 +208,8 @@ const data = {
 		},
 		steps: 2562958,
 		lastFmScrobbles: 12915,
-		geocachesFound: 0
+		geocachesFound: 0,
+		gigsAndShows: 1,
 	},
 	2020: {
 		postsPersonal: 15,
@@ -194,7 +223,8 @@ const data = {
 		},
 		steps: 2433968,
 		lastFmScrobbles: 14102,
-		geocachesFound: 0
+		geocachesFound: 0,
+		gigsAndShows: 0,
 	},
 	2021: {
 		postsPersonal: 28,
@@ -208,7 +238,8 @@ const data = {
 		},
 		steps: 2796309,
 		lastFmScrobbles: 10300,
-		geocachesFound: 18
+		geocachesFound: 18,
+		gigsAndShows:  0,
 	},
 	2022: {
 		postsPersonal: 18,
@@ -222,12 +253,13 @@ const data = {
 		},
 		steps: 3207971,
 		lastFmScrobbles: 21055,
-		geocachesFound: 174
+		geocachesFound: 174,
+		gigsAndShows: 3,
 	},
 	2023: {
 		postsPersonal: 27,
 		instagramPersonal: 1,
-		instagramAleHouseRock: 129,
+		instagramAleHouseRock: 131,
 		cycling: {
 			rides: [165, 200, 0],
 			distance: [977, 1598, 0],
@@ -236,12 +268,13 @@ const data = {
 		},
 		steps: 2791343,
 		lastFmScrobbles: 15158,
-		geocachesFound: 96
+		geocachesFound: 96,
+		gigsAndShows:  1,
 	},
 	2024: {
 		postsPersonal: 17,
 		instagramPersonal: 0,
-		instagramAleHouseRock: 119,
+		instagramAleHouseRock: 118,
 		cycling: {
 			rides: [134, 174, 8],
 			distance: [861, 1566, 86],
@@ -250,20 +283,23 @@ const data = {
 		},
 		steps: 3191609,
 		lastFmScrobbles: 14942,
-		geocachesFound: 201
-	// },
-	// 2025: {
-	// 	postsPersonal: ,
-	// 	instagramPersonal: 1,
-	// 	instagramAleHouseRock: ,
-	// 	cycling: {
-	// 		rides: [134, 174, 8],
-	// 		distance: [861, 1566, 86],
-	// 		elevation: [14775, 22687, 2533],
-	// 		time: [3774, 6883, 288]
-	// 	},
-	// 	lastFmScrobbles: ,
-	// 	geocachesFound: 2
+		geocachesFound: 201,
+		gigsAndShows:  9,
+	},
+	2025: {
+		postsPersonal: 21,
+		instagramPersonal: 1,
+		instagramAleHouseRock: 117,
+		cycling: {
+			rides: [152, 154, 90],
+			distance: [1432, 1275, 1347],
+			elevation: [34768, 18157, 56880],
+			time: [5850, 5688, 4080]
+		},
+		steps: 2926193,
+		lastFmScrobbles: 18155,
+		geocachesFound: 2,
+		gigsAndShows: 10,
 	}
 };
 
@@ -453,13 +489,24 @@ new ApexCharts(document.querySelector('#walkingSteps'), {
 }).render();
 
 /**
+ * Gigs and Shows
+ */
+new ApexCharts(document.querySelector('#gigsAndShows'), {
+	...chartOptions,
+	series: [{
+		name: 'Gigs and Shows',
+		data: generateSeries(data, 'gigsAndShows'),
+	}]
+}).render();
+
+/**
  * Geocaches
  */
 new ApexCharts(document.querySelector('#geocachesFound'), {
 	...chartOptions,
 	series: [{
 		name: 'Geocaches Found',
-		data: generateSeries(data, 'geocachesFound')
+		data: generateSeries(data, 'geocachesFound'),
 	}],
 	colors: ['#02874d'],
 }).render();

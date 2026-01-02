@@ -2,18 +2,18 @@
 module.exports = {
 	stats: function () {
 		const popular_posts = {
-			// '2025': [
-			// 	'/blog/thisisunsafe-how-to-bypass-chromes-err-cert-invalid-warning/',
-			// 	'/blog/migrating-gitlab-from-one-server-to-another/',
-			// 	'/blog/git-clone-a-repository-without-the-history/',
-			// 	'/blog/npm-install-without-modifying-package-lock/',
-			// 	'/blog/validate-a-json-api-with-playwright-and-json-schema/',
-			// 	'/blog/slow-upload-speed-with-apple-macos-how-to-debug-and-what-to-check/',
-			// 	'/blog/deploying-a-docker-image-to-a-remote-private-registry-with-gitlab-ci/',
-			// 	'/blog/how-i-improved-the-speed-of-docker-builds-in-gitlab-ci/',
-			// 	'/blog/use-local-filesystem-for-gitlab-ci-cache/',
-			// 	'/blog/login-with-puppeteer-and-re-use-cookies-for-another-window/'
-			// ],
+			'2025': [
+				'/blog/thisisunsafe-how-to-bypass-chromes-err-cert-invalid-warning/',
+				'/blog/migrating-gitlab-from-one-server-to-another/',
+				'/blog/git-clone-a-repository-without-the-history/',
+				'/blog/npm-install-without-modifying-package-lock/',
+				'/blog/validate-a-json-api-with-playwright-and-json-schema/',
+				'/blog/slow-upload-speed-with-apple-macos-how-to-debug-and-what-to-check/',
+				'/blog/deploying-a-docker-image-to-a-remote-private-registry-with-gitlab-ci/',
+				'/blog/how-i-improved-the-speed-of-docker-builds-in-gitlab-ci/',
+				'/blog/use-local-filesystem-for-gitlab-ci-cache/',
+				'/blog/login-with-puppeteer-and-re-use-cookies-for-another-window/'
+			],
 			'2024': [
 				'/blog/migrating-gitlab-from-one-server-to-another/',
 				'/blog/npm-install-without-modifying-package-lock/',
