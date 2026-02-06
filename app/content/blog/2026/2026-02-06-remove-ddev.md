@@ -13,7 +13,7 @@ With the help of Claude, I created a bash script which will run through and dele
 
 [Completely remove DDEV](https://gist.github.com/mikestreety/07d531b346ab8ce9c62ec655dd4274a4).
 
-## Steps
+## Steps
 
 1. Copy the contents or download the zip
 2. Make the file executeable - `cd path/to/file` and `chmod +x ./remove-ddev.sh`
