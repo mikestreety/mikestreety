@@ -12,6 +12,7 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| The Hunger Games | Troubadour Theatre, London | 18/01/2026 |
 | Stereophonics | The 02, Brighton | 18/12/2025 |
 | Bastille | Brighton Centre, Brighton | 16/11/2025 |
 | George Lewis | Theatre Royal, Brighton | 19/10/2025 |
