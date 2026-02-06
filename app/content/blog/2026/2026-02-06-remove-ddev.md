@@ -11,7 +11,7 @@ Eventually, my DDEV got confused and started producing 404s. With mixed version 
 
 With the help of Claude, I created a bash script which will run through and delete every DDEV related configuration.
 
-[Completely remove DDEV](https://gist.github.com/mikestreety/07d531b346ab8ce9c62ec655dd4274a4).
+<a href="https://gist.github.com/mikestreety/07d531b346ab8ce9c62ec655dd4274a4" class="button">Completely remove DDEV</a>
 
 ## Steps
 
