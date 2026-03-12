@@ -12,6 +12,8 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| Harry Baker | Komedia, Brighton | 08/03/2026 |
+| Paddington The Musical | Savoy Theatre, London | 07/03/2026 |
 | The Hunger Games | Troubadour Theatre, London | 18/01/2026 |
 | Stereophonics | The 02, Brighton | 18/12/2025 |
 | Bastille | Brighton Centre, Brighton | 16/11/2025 |
@@ -78,8 +80,7 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date | Notes |
 | ----- | -------- | ---- | ----- |
-| Wicked |  |  | |
-
+| Wicked |  | 2007/2008 | |
 | 36crazyfists | Concorde 2, Brighton |  | |
 | Starlight Express | London |  | With school |
 | The Lion King | London |  | With school |
