@@ -12,6 +12,8 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| Josh Widdicombe | Brighton Dome, Brighton | 24/04/2026 
+| Cat Burns | Brighton Dome, Brighton | 14/04/2026 |
 | Harry Baker | Komedia, Brighton | 08/03/2026 |
 | Paddington The Musical | Savoy Theatre, London | 07/03/2026 |
 | The Hunger Games | Troubadour Theatre, London | 18/01/2026 |
