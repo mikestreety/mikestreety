@@ -12,6 +12,7 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| Raye | The O2, London | 20/05/2026 |
 | The Budapest Cafe Orchestra | The Ropetackle, Shoreham | 13/05/2026 |
 | Josh Widdicombe | Brighton Dome, Brighton | 24/04/2026 |
 | Cat Burns | Brighton Dome, Brighton | 14/04/2026 |
