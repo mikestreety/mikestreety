@@ -1,10 +1,23 @@
-# Packeton on Hetzner — Setup Guide
+---
+title: Set up a private packagist using a server and open source
+intro: Packeton is an open source clone of Packagist you can run yourself
+tags:
+  - CLI
+---
 
-## 1. Provision a Hetzner server
+Publishing private composer packages is a fiddly business - especially if you want a usable UI along with it.
 
-CX22 or CX32 is sufficient. Use Ubuntu 24.04 LTS, add your SSH key during creation.
+After much research I came across [Packeton](https://github.com/vtsykun/packeton) - an open source fork of Packagist which you can run on a web server.
 
-## 2. Initial server setup
+The following how-to runs through setting it up and some hurdles I came across. It expects CLI experience and you need to be comfortable with SSH.
+
+## Where to run
+
+You need a server or VPS for this - I opted for a cloud server from [Hetzner](https://www.hetzner.com/) with Ubuntu 24 running.
+
+## Server set up
+
+Update the server applications and install caddy (which allows web traffic to docker images) and docker itself.
 
 ```bash
 apt update && apt upgrade -y
@@ -12,13 +25,13 @@ apt install -y caddy
 curl -fsSL https://get.docker.com | sh
 ```
 
-## 3. DNS
+## DNS
 
-Point your domain (e.g. `packages.yourdomain.com`) at the server's public IP via an A record.
+Point your domain (e.g. `packages.yourdomain.com`) at the server's public IP
 
-## 4. Firewall
+## Firewall
 
-In the Hetzner Cloud UI, create a firewall with three inbound rules:
+Set up a firewall with the following inbound rules - I used the firewall built into the Hetzner control panel
 
 | Port | Protocol | Source |
 |------|----------|--------|
@@ -26,7 +39,6 @@ In the Hetzner Cloud UI, create a firewall with three inbound rules:
 | 80 | TCP | Any IPv4, Any IPv6 |
 | 443 | TCP | Any IPv4, Any IPv6 |
 
-Leave outbound rules as-is.
 
 ## 5. Generate an app secret
 
