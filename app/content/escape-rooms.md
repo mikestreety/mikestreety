@@ -8,6 +8,6 @@ permalink: /escape-rooms/
 
 A log of escape rooms I've done
 
-| Company | Room | Address | Who with | Rating |
-| ------- | ---- | ------- | -------- | ------ |
-| Tulleys Escape Rooms | Mutiny | | Chilly | |
+| Date | Company | Room | Who with | Rating |
+| ---- | ------- | ---- | -------- | ------ |
+| 27/02/2026 | Tulleys Escape Rooms | Mutiny | Chilly | 5/5 |
