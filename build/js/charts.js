@@ -180,6 +180,7 @@ const data = {
 		lastFmScrobbles: 8153,
 		geocachesFound: 0,
 		gigsAndShows: 2,
+		escapeRooms: 1,
 	},
 	2018: {
 		postsPersonal: 10,
@@ -270,6 +271,7 @@ const data = {
 		lastFmScrobbles: 15158,
 		geocachesFound: 96,
 		gigsAndShows:  1,
+		escapeRooms: 2,
 	},
 	2024: {
 		postsPersonal: 17,
@@ -285,6 +287,7 @@ const data = {
 		lastFmScrobbles: 14942,
 		geocachesFound: 201,
 		gigsAndShows:  9,
+		escapeRooms: 2,
 	},
 	2025: {
 		postsPersonal: 21,
@@ -300,6 +303,11 @@ const data = {
 		lastFmScrobbles: 18155,
 		geocachesFound: 2,
 		gigsAndShows: 10,
+		escapeRooms: 2,
+	},
+	2026: {
+		gigsAndShows: 7,
+		escapeRooms: 3,
 	}
 };
 

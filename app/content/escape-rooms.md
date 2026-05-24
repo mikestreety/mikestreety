@@ -8,6 +8,12 @@ permalink: /escape-rooms/
 
 A log of escape rooms I've done
 
+<div class="chartWrap">
+	<div class="chart chartFullwidth">
+		<div id="escapeRoomsChart"></div>
+	</div>
+</div>
+
 | Date | Company | Room | Who with | Rating |
 | ---- | ------- | ---- | -------- | ------ |
 | 23/05/2026 | Pier Pressure | Pavilion Perplex | Chris, Laurz | 7/10 |
@@ -20,3 +26,45 @@ A log of escape rooms I've done
 | 11/12/2023 | Mindworks | Mission Berlin | Chris, Helen, Chilly | 9/10 |
 | 21/01/2023 | Mindworks | Strapped for Cash | Chris, Helen, Chilly | 10/10 |
 | 07/05/2017 | Escape Game Brighton |  | Sam, Charlotte, Chilly |  |
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+new ApexCharts(document.querySelector('#escapeRoomsChart'), {
+	chart: {
+		height: 250,
+		type: 'area',
+		stacked: true,
+		toolbar: { show: false },
+		zoom: { enabled: false }
+	},
+	stroke: { curve: 'smooth' },
+	dataLabels: { enabled: false },
+	fill: {
+		type: 'gradient',
+		gradient: {
+			shadeIntensity: 1,
+			inverseColors: false,
+			opacityFrom: 0.45,
+			opacityTo: 0.05,
+			stops: [20, 100]
+		}
+	},
+	yaxis: {
+		tickAmount: 4,
+		labels: {
+			formatter: function(val) { return Math.round(val); }
+		}
+	},
+	series: [{
+		name: 'Escape Rooms',
+		data: [
+			{ x: 2017, y: 1 },
+			{ x: 2023, y: 2 },
+			{ x: 2024, y: 2 },
+			{ x: 2025, y: 2 },
+			{ x: 2026, y: 3 }
+		]
+	}],
+	colors: ['#35eb93']
+}).render();
+</script>

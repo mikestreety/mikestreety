@@ -8,6 +8,12 @@ permalink: /gigs-and-shows/
 
 Gigs, live music, shows and nights out I've attended
 
+<div class="chartWrap">
+	<div class="chart chartFullwidth">
+		<div id="gigsChart"></div>
+	</div>
+</div>
+
 ## Historial record
 
 | Title | Location | Date |
@@ -79,6 +85,69 @@ Gigs, live music, shows and nights out I've attended
 | Red Hot Chilli Peppers | Hyde Park, London | 19/06/2004 |
 | Stereophonics | Earls Court Exhibition Centre, London | 16/12/2003 |
 | Travis | Brighton Centre, Brighton | 14/12/2001 |
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+new ApexCharts(document.querySelector('#gigsChart'), {
+	chart: {
+		height: 250,
+		type: 'area',
+		stacked: true,
+		toolbar: { show: false },
+		zoom: { enabled: false }
+	},
+	stroke: { curve: 'smooth' },
+	dataLabels: { enabled: false },
+	fill: {
+		type: 'gradient',
+		gradient: {
+			shadeIntensity: 1,
+			inverseColors: false,
+			opacityFrom: 0.45,
+			opacityTo: 0.05,
+			stops: [20, 100]
+		}
+	},
+	yaxis: {
+		tickAmount: 4,
+		labels: {
+			formatter: function(val) { return Math.round(val); }
+		}
+	},
+	series: [{
+		name: 'Gigs & Shows',
+		data: [
+			{ x: 2001, y: 1 },
+			{ x: 2002, y: 0 },
+			{ x: 2003, y: 1 },
+			{ x: 2004, y: 1 },
+			{ x: 2005, y: 1 },
+			{ x: 2006, y: 3 },
+			{ x: 2007, y: 1 },
+			{ x: 2008, y: 1 },
+			{ x: 2009, y: 5 },
+			{ x: 2010, y: 0 },
+			{ x: 2011, y: 2 },
+			{ x: 2012, y: 1 },
+			{ x: 2013, y: 1 },
+			{ x: 2014, y: 2 },
+			{ x: 2015, y: 5 },
+			{ x: 2016, y: 3 },
+			{ x: 2017, y: 2 },
+			{ x: 2018, y: 6 },
+			{ x: 2019, y: 1 },
+			{ x: 2020, y: 0 },
+			{ x: 2021, y: 0 },
+			{ x: 2022, y: 3 },
+			{ x: 2023, y: 1 },
+			{ x: 2024, y: 9 },
+			{ x: 2025, y: 10 },
+			{ x: 2026, y: 7 }
+		]
+	}],
+	colors: ['#35eb93']
+}).render();
+</script>
 
 ## Missing data
 
