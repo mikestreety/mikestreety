@@ -19,4 +19,4 @@ A log of escape rooms I've done
 | 17/01/2024 | Bewilder Box | Judgement D.A.V.E | Chilly | 7/10 |
 | 11/12/2023 | Mindworks | Mission Berlin | Chris, Helen, Chilly | 9/10 |
 | 21/01/2023 | Mindworks | Strapped for Cash | Chris, Helen, Chilly | 10/10 |
-| 07/05/2017 | Escape Game Brighton |  | Sam, Charlotte, Chilly |  |
+| 07/05/2017 | Escape Game Brighton | Murder at the Pier: Revenge | Sam, Charlotte, Chilly |  |
