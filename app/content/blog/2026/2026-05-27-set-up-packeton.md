@@ -7,7 +7,9 @@ tags:
 
 Publishing private composer packages is a fiddly business - especially if you want a usable UI along with it.
 
-After much research I came across [Packeton](https://github.com/vtsykun/packeton) - an open source fork of Packagist which you can run on a web server.
+After much research I came across [Packeton](https://github.com/vtsykun/packeton) - an open source fork of Packagist which you can run on a web server of your choosing.
+
+This walkthrough sets Packeton up with Docker which requires the least amount of server setup.
 
 The following how-to runs through setting it up and some hurdles I came across. It expects CLI experience and you need to be comfortable with SSH.
 
@@ -40,7 +42,9 @@ Set up a firewall with the following inbound rules - I used the firewall built i
 | 443 | TCP | Any IPv4, Any IPv6 |
 
 
-## 5. Generate an app secret
+## Generate an app secret
+
+This can be run on the server or your local machine - you just need a 32 character string
 
 ```bash
 openssl rand -hex 32
@@ -48,12 +52,19 @@ openssl rand -hex 32
 
 Copy the output for use in the next step. Keep it static — it's used to encrypt SSH keys in the database.
 
-## 6. Create your compose file
+## Create your Docker compose file
+
+I chose to keep all my Packeton-related files in `/opt/packeton`. Start off by making the folder & file
 
 ```bash
 mkdir -p /opt/packeton
 nano /opt/packeton/docker-compose.yml
 ```
+
+This utilises a few different settings & configuration. Some points worth noting
+
+- This include configuration for using Mailgun (we use it on the free tier) for sending the password reset emails
+- This includes `watchtower` which will keep packeton updated
 
 ```yaml
 services:
@@ -84,11 +95,13 @@ services:
     command: --interval 86400
 ```
 
-> **Note:** `ADMIN_USER` and `ADMIN_PASSWORD` only apply on first run. Change the password afterwards via the console (see Post-setup).
+<div class="info"><strong>Note:</strong> <code>ADMIN_USER</code> and <code>ADMIN_PASSWORD</code> only apply on first run. Change the password afterwards via the console (see Post-setup).</div>
 
-> **Note:** If using Mailgun, make sure you use the EU SMTP host (`smtp.eu.mailgun.org`) if your domain is on the EU region. Use the full email address as the SMTP username, URL-encoding the `@` as `%40`.
+<div class="info"><strong>Note:</strong> If using Mailgun, make sure you use the EU SMTP host (<code>smtp.eu.mailgun.org</code>) if your domain is on the EU region. Use the full email address as the SMTP username, URL-encoding the <code>@</code> as <code>%40</code>.</div>
 
-## 7. Configure Caddy
+## Configure Caddy
+
+Caddy allows a domain name to be forwarded to a running docker container.
 
 Replace the entire contents of `/etc/caddy/Caddyfile` with:
 
@@ -98,24 +111,22 @@ packages.yourdomain.com {
 }
 ```
 
-Then reload:
+Then reload caddy:
 
 ```bash
 systemctl reload caddy
 ```
 
-## 8. Start Packeton
+## Start Packeton
 
 ```bash
 cd /opt/packeton
 docker compose up -d
 ```
 
-## 9. Verify
+## Verify it all works
 
 Visit `https://packages.yourdomain.com` and log in with the admin credentials you set.
-
----
 
 ## Post-setup
 
@@ -166,15 +177,13 @@ docker compose restart packeton
 
 Then go to the Packeton integrations page in the UI and click Install Integration, then Connect to complete the OAuth flow.
 
----
+## Bonus Notes
 
-## Data
+### Data
 
 All Packeton data lives in `/opt/packeton/data` on the host, mapped to `/data` inside the container. Back this directory up — it contains the database, config, and any stored artifacts.
 
----
-
-## Ongoing maintenance
+### Ongoing maintenance
 
 Watchtower checks for a new `packeton/packeton:latest` image daily and recreates the container automatically. No action needed.
 
