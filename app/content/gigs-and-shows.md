@@ -12,6 +12,7 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| SpitNights | The Old Market, Hove | 30/05/2026 |
 | Raye | The O2, London | 20/05/2026 |
 | The Budapest Cafe Orchestra | The Ropetackle, Shoreham | 13/05/2026 |
 | Josh Widdicombe | Brighton Dome, Brighton | 24/04/2026 |
