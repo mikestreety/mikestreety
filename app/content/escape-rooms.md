@@ -11,6 +11,16 @@ A log of escape rooms I've done
 <div class="escape-rooms">
 
 <div class="escape-room">
+<div class="escape-room__image"><img src="/assets/img/escape-rooms/spell-craft.jpg" alt="Spell Craft"></div>
+<div class="escape-room__body">
+<p class="escape-room__title">Spell Craft</p>
+<p class="escape-room__company">Tulleys Escape Rooms</p>
+<p class="escape-room__who">Chris, Helen, Chilly</p>
+<div class="escape-room__footer"><span class="escape-room__date">31/05/2026</span><span class="escape-room__rating">8/10</span></div>
+</div>
+</div>
+
+<div class="escape-room">
 <div class="escape-room__image"><img src="/assets/img/escape-rooms/pavilion-perplex.jpg" alt="Pavilion Perplex"></div>
 <div class="escape-room__body">
 <p class="escape-room__title">Pavilion Perplex</p>
