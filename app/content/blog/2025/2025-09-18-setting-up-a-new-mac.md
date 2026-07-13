@@ -119,6 +119,7 @@ I've tried to break apps down by category, but these are the ones I tend to have
 - AppCleaner (🍺 `appcleaner`)
 - Spotify (🍺 `spotify`)
 - Claude & Claude code (🍺 `claude claude-code`)
+- [Claude usage tracker](https://github.com/hamed-elfayome/Claude-Usage-Tracker) (🍺 see repo for instructions)
 - [Oh My ZSH](https://ohmyz.sh/)
   - powerlevel10k (🍺 `powerlevel10k`)
     - Run `echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc`
@@ -218,7 +219,7 @@ Then edit the iTerm preferences:
 - General
 	- Startup
 		- Window restoration policy: Ony Restore Hotkey Window
-  Selection
+  - Selection
     - ❌ Clicking on a command selects it to restrict Find and Filter.
 - Appearance
 	- General

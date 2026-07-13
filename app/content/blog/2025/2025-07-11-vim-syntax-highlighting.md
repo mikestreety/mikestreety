@@ -26,7 +26,6 @@ set smartindent
 " enable showing of matching braces
 set showmatch
 set mat=5
-set list
 
 "Solarized colors!
 set background=dark
@@ -49,7 +48,6 @@ This is a file i've copied and pasted between a few machines. So I could So I co
 - `⁠set smartindent`: Provides enhanced automatic indentation for programming languages, particularly useful for C-like languages.
 - `⁠set showmatch`: Highlights matching parentheses, brackets, and braces when the cursor is placed on one, aiding in code structure visualization.
 - `⁠set mat=5`: Sets the time (in tenths of a second) Vim will wait before highlighting matching braces, with a value of 5 meaning half a second.
-- `⁠set list`: Enables the display of whitespace characters (like tabs and spaces) to help visualize formatting issues.
 - `⁠set background=dark`: Configures the color scheme to a dark background, improving visibility when using dark themes.
 - `⁠if ! has('gui_running')`: Checks if Vim is not running in a graphical user interface (GUI) environment to apply terminal-specific settings.
 - `⁠let g:solarized_termcolors=256`: Sets the variable for the Solarized color scheme to use 256 colors when in a terminal.
