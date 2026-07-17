@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prod:11ty": "npx @11ty/eleventy",
+    "prod:11ty": "ELEVENTY_RUN_MODE=build npx @11ty/eleventy",
     "watch:11ty": "npx @11ty/eleventy --serve",
     "prod:assets": "vite build",
     "watch:assets": "vite build --watch",

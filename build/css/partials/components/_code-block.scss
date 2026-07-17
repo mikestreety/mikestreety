@@ -1,0 +1,95 @@
+// Wraps server-highlighted <pre class="language-*"> blocks once
+// build/js/code-blocks.js has run. Falls back to the plain
+// pre/code styling in base/_code.scss when JS is disabled.
+.code-block {
+	position: relative;
+	margin: var(--gutter) 0;
+}
+
+.code-block__pre,
+.code-block__pre[class*='language-'] {
+	margin: 0;
+}
+
+.code-block--numbered .code-block__pre {
+	padding-left: 3.5em;
+}
+
+.code-block__toolbar {
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+	z-index: 2;
+}
+
+.code-block__copy {
+	border: none;
+	border-radius: 0.2rem;
+	padding: 0.3em 0.6em;
+	font-size: 0.8rem;
+	font-family: inherit;
+	line-height: 1.4;
+	cursor: pointer;
+	color: var(--base);
+	background: var(--neutralMid);
+	opacity: 0.85;
+	transition: 0.2s ease;
+	transition-property: opacity, background;
+
+	&:hover,
+	&:focus-visible {
+		opacity: 1;
+		background: var(--primaryLighter);
+	}
+
+	&.code-block__copy--done {
+		background: var(--tertiary);
+		opacity: 1;
+	}
+}
+
+// Fixed gutter: lives outside the scrolling <pre>, so it never
+// scrolls away horizontally, and holds the raw source out of it
+// so the copy button can never pick numbers up.
+.line-numbers-rows {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3.5em;
+	padding-top: 1em;
+	font-size: 0.95rem;
+	line-height: 1.4;
+	user-select: none;
+	pointer-events: none;
+	counter-reset: linenumber;
+
+	> span {
+		display: block;
+		padding-right: 0.8em;
+		text-align: right;
+
+		&::before {
+			counter-increment: linenumber;
+			content: counter(linenumber);
+		}
+	}
+}
+
+// Thin, theme-coloured scrollbar for the horizontally-scrolling code.
+.code-block__pre code {
+	scrollbar-width: thin;
+	scrollbar-color: var(--neutralMid) transparent;
+
+	&::-webkit-scrollbar {
+		height: 0.5em;
+	}
+
+	&::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: var(--neutralMid);
+		border-radius: 0.3em;
+	}
+}
