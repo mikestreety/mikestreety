@@ -12,7 +12,7 @@ Our [sshpiper](https://github.com/tg123/sshpiper) setup takes a different approa
 
 To make this work, we built a custom notification plugin that sits between the existing [fail2ban](https://github.com/tg123/sshpiper/blob/master/plugin/failtoban) and [workingdir](https://github.com/tg123/sshpiper/blob/master/plugin/workingdir) plugins.
 
-<div class="note">A working sshpiper install is required for this</div>
+<div class="info">A working sshpiper install is required for this</div>
 
 ## Overview
 
@@ -163,7 +163,7 @@ nano /etc/sshpiperd/slack-webhook-url
 
 We then need to lock down the permissions as best we can on the file
 
-```
+```bash
 chown sshpiper:sshpiper /etc/sshpiperd/slack-webhook-url
 chmod 600 /etc/sshpiperd/slack-webhook-url
 ```
