@@ -12,6 +12,7 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| Maxïmo Park | Chalk, Brighton | 17/07/2026 |
 | SpitNights | The Old Market, Hove | 30/05/2026 |
 | Raye | The O2, London | 20/05/2026 |
 | The Budapest Cafe Orchestra | The Ropetackle, Shoreham | 13/05/2026 |
