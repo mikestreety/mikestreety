@@ -37,6 +37,11 @@
 		Content-Type = "text/xml; charset=utf-8"
 
 [[headers]]
+	for = "/feed.json"
+	[headers.values]
+		Content-Type = "application/feed+json; charset=utf-8"
+
+[[headers]]
 	for = "/sitemap.xml"
 	[headers.values]
 		Content-Type = "text/xml; charset=utf-8"

@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const {live, blog, drafts, notes, talks} = require('./app/filters/posts');
 const { convert } = require('html-to-text');
 const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
@@ -60,6 +62,10 @@ module.exports = async function (config) {
 
 	// WEBMENTIONS FILTER
 	config.addFilter('webmentionsForUrl', webmentionsForUrl)
+
+	// The webmentions data file writes its cache/fallback file back to disk
+	// in dev - don't let that trigger a rebuild loop.
+	config.watchIgnores.add('app/webmentions.cache.json');
 
 	config.setDataDeepMerge(true);
 

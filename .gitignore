@@ -7,3 +7,5 @@ html/
 _cache
 
 node_modules
+
+.env

@@ -50,6 +50,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Mike Street's Blog Posts" href="/rss.xml">
 	<link rel="alternate" type="application/rss+xml" title="Mike Street's Notes" href="/rss-notes.xml">
 	<link rel="alternate" type="application/rss+xml" title="Mike Street's Blogs &amp; Notes" href="/rss-all.xml">
+	<link rel="alternate" type="application/feed+json" title="Mike Street's Blogs &amp; Notes (JSON Feed)" href="/feed.json">
 
 	{% if sitemapIgnore or draft %}
 	<meta name="robots" content="noindex, nofollow">
@@ -153,31 +154,31 @@
 			<div class="container">
 				<ul class="social">
 					<li class="mastodon">
-						<a rel="me" href="https://hachyderm.io/@mikestreety" title="Follow me on Mastodon">
+						<a rel="me" href="{{ meta.social.mastodon.url }}" title="Follow me on Mastodon">
 							Mastodon
 						</a>
 					</li>
 
-					<li class="twitter">
-						<a href="https://www.linkedin.com/in/mikestreety/" rel="me">
-							LinkedIn
-						</a>
-					</li>
-
-					<li class="instagram">
-						<a href="https://bsky.app/profile/mikestreety.co.uk"  rel="me">
+					<li class="bluesky">
+						<a href="{{ meta.social.bluesky.url }}" rel="me" title="Follow me on Bluesky">
 							Bluesky
 						</a>
 					</li>
 
+					<li class="linkedin">
+						<a href="{{ meta.social.linkedin.url }}" rel="me" title="Connect on LinkedIn">
+							LinkedIn
+						</a>
+					</li>
+
 					<li class="github">
-						<a href="https://github.com/mikestreety/" title="Check out my Github" rel="me">
+						<a href="{{ meta.social.github.url }}" title="Check out my Github" rel="me">
 							Github
 						</a>
 					</li>
 
 					<li class="gitlab">
-						<a href="https://gitlab.com/mikestreety" title="Check out my Gitlab" rel="me">
+						<a href="{{ meta.social.gitlab.url }}" title="Check out my Gitlab" rel="me">
 							Gitlab
 						</a>
 					</li>
@@ -209,7 +210,11 @@
 		"homeLocation": "Brighton",
 		"sameAs" : [
 			"https://twitter.com/mikestreety",
-			"https://www.instagram.com/mikestreety/"
+			"{{ meta.social.mastodon.url }}",
+			"{{ meta.social.bluesky.url }}",
+			"{{ meta.social.github.url }}",
+			"{{ meta.social.gitlab.url }}",
+			"{{ meta.social.linkedin.url }}"
 		]
 	}
 	</script>

@@ -10,6 +10,23 @@
 		"description": "Lead Developer and CTO"
 	},
 	"social": {
-		"twitter": "mikestreety"
+		"twitter": "mikestreety",
+		"mastodon": {
+			"handle": "@mikestreety@hachyderm.io",
+			"url": "https://hachyderm.io/@mikestreety"
+		},
+		"bluesky": {
+			"handle": "mikestreety.co.uk",
+			"url": "https://bsky.app/profile/mikestreety.co.uk"
+		},
+		"linkedin": {
+			"url": "https://www.linkedin.com/in/mikestreety/"
+		},
+		"github": {
+			"url": "https://github.com/mikestreety/"
+		},
+		"gitlab": {
+			"url": "https://gitlab.com/mikestreety"
+		}
 	}
 }

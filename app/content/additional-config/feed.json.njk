@@ -1,0 +1,37 @@
+---
+permalink: feed.json
+sitemapIgnore: true
+---
+{%- set comma = joiner(",") -%}
+{
+	"version": "https://jsonfeed.org/version/1.1",
+	"title": "Mike Street's Blog & Notes",
+	"home_page_url": "{{ meta.site.url }}",
+	"feed_url": "{{ meta.site.url }}/feed.json",
+	"description": "Blog posts, notes and links from Mike Street (mikestreety.co.uk)",
+	"icon": "{{ meta.site.url }}/assets/img/favicon-512.png",
+	"authors": [
+		{
+			"name": "{{ meta.author.first_name }} {{ meta.author.last_name }}",
+			"url": "{{ meta.site.url }}"
+		}
+	],
+	"language": "en-GB",
+	"items": [
+		{% for entry in collections.live | limit(15) -%}
+		{{ comma() }}{
+			"id": "{{ meta.site.url }}{{ entry.url }}",
+			"url": "{{ meta.site.url }}{{ entry.url }}",
+			"title": {{ entry.data.title | dump | safe }},
+			"content_html": {{ entry.templateContent | dump | safe }},
+			"date_published": "{{ entry.date | dateISO }}"
+			{%- if entry.data.link %},
+			"external_url": "{{ entry.data.link }}"
+			{%- endif %}
+			{%- if entry.data.tags %},
+			"tags": {{ entry.data.tags | dump | safe }}
+			{%- endif %}
+		}
+		{% endfor %}
+	]
+}
