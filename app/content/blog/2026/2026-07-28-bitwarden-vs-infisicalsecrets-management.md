@@ -137,7 +137,7 @@ bws secret list 7b006643-89c1-4202-a5ca-90510f566030  -o env > .env
 
 At time of writing, for unlimited projects:
 
-- Bitwarden is $6 per user per month (up to 20 machine accounts)
+- Bitwarden is $6 per user per month (with up to 20 machine accounts)
 - Infisical is $20 per _identity_ per month (note: even machine accounts count as identities)
 
 However, you can [self-host](https://infisical.com/docs/self-hosting/overview) Infisical for the cost of a small VPS (around $8 a month) - although you have the added "cost" of maintenance and updates (and security).
