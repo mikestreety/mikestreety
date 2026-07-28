@@ -7,35 +7,35 @@ tags:
 
 We've been reviewing our secret management process and have been evaluating tools to help with streamlining it.
 
-Looking at our current services and platforms, we have narrowed it down to either Bitwarden and Infiscial (more details below). This post discusses the differences and compares features.
+Looking at our current services and platforms, we have narrowed it down to either Bitwarden or Infisical (more details below). This post discusses the differences and compares features.
 
 We have a few specific requirements for our secret management tool; the main one being that the production site/application should not rely on it to run day-to-day.
 
-<div class="note">Although we will discuss pricing at various points, most of the below was carried out on their free tiers</div>
+<div class="info">Although we will discuss pricing at various points, most of the below was carried out on their free tiers</div>
 
 ## Overview
 
 ### Bitwarden Secrets Manager
 
-[Bitwarden Secrets Manager](https://bitwarden.com/en-gb/products/secrets-manager/) I a service provided by the password management tool we use. If you don't use Bitwarden, I wouldn't expect you to be considering it, however [1Password](https://1password.com/developers/secrets-management) and other password managers often offer a secret management service which, I suspect, acts in the same way
+[Bitwarden Secrets Manager](https://bitwarden.com/en-gb/products/secrets-manager/) is a service provided by the password management tool we use. If you don't use Bitwarden, I wouldn't expect you to be considering it. However, [1Password](https://1password.com/developers/secrets-management) and other password managers often offer a secret management service which, I suspect, acts in the same way.
 
-### Infiscial
+### Infisical
 
-[Infiscial](https://infisical.com/) is a separate, dedicated, secret management platform.
+[Infisical](https://infisical.com/) is a separate, dedicated, secret management platform.
 
 ## Sign up
 
-Signing up for both is fairly straight forward. It's worth noting that they both offer US/EU hosting (it seems to be a very small option on the sign up page for both of them). Unfortunately, for both services, it doesn't seem like it is possible to migrate your data between instances - so make sure you pick the right one.
+Signing up for both is fairly straightforward. It's worth noting that they both offer US/EU hosting (it seems to be a very small option on the sign up page for both of them). Unfortunately, for both services, it doesn't seem like it is possible to migrate your data between instances - so make sure you pick the right one.
 
 If you already use Bitwarden, adding on the Secrets Manager is a case of visiting your billing profile. One thing that wasn't clear was that you don't have to pay for every person in your company - you can select who has access to the secrets manager and only pay for them.
 
 ## Adding secrets
 
-Infiscial has the idea of projects and environments. Once you make a project, you can add a secret to an environment (one or many). You can then see which environments have which secrets and copy between (should you need to). When calling it, you can pass in an `--env` flag to get the different environment secrets.
+Infisical has the idea of projects and environments. Once you make a project, you can add a secret to an environment (one or many). You can then see which environments have which secrets and copy between (should you need to). When calling it, you can pass in an `--env` flag to get the different environment secrets.
 
-Bitwarden is a more of a flat structure - there is a project which has secrets. If you wish to have different "environments" then you would use multiple projects. This is managed by passing in the `project-id`.
+Bitwarden is more of a flat structure - there is a project which has secrets. If you wish to have different "environments", then you would use multiple projects. This is managed by passing in the `project-id`.
 
-Infiscial has an interface which allows you to paste an existing `.env` file and import the secrets from there. With Bitwarden, you have to added them individually.
+Infisical has an interface which allows you to paste an existing `.env` file and import the secrets from there. With Bitwarden, you have to add them individually.
 
 ## Local Installation
 
@@ -55,7 +55,7 @@ infisical login
 
 Infisical login is interactive and loads the browser for access.
 
-Once, for each project, you then will need to run the following
+For each project, you'll then need to run the following:
 
 ```bash
 infisical init
@@ -82,11 +82,11 @@ export BWS_ACCESS_TOKEN=0.48c78342-1...Iq6Bow==
 
 ### ddev
 
-The first requirement is for local development - we use DDEV for our TYPO3 sites and both CLIs offer an out-the-box method of injecting the environment variables into the ddev container at runtime rather than leaving `.env` files laying around.
+The first requirement is for local development - we use DDEV for our TYPO3 sites and both CLIs offer an out-of-the-box method of injecting the environment variables into the ddev container at runtime rather than leaving `.env` files lying around.
 
-By adding an extra step it is then a concious decision to include the secrets, rather then them being there by default.
+By adding an extra step, it is then a conscious decision to include the secrets, rather than them being there by default.
 
-<strong class="info">Note</strong>: When using a secrets manager with ddev, you need to specify each variable in your `.ddev/config.yaml` file:
+<div class="note">When using a secrets manager with ddev, you need to specify each variable in your `.ddev/config.yaml` file:</div>
 
 ```yaml
 web_environment:
@@ -137,13 +137,19 @@ bws secret list 7b006643-89c1-4202-a5ca-90510f566030  -o env > .env
 
 At time of writing, for unlimited projects:
 
-- Bitwarden is $6 per user per month
-- Infisical is $20 per _identity_ per month (note: Even machine accounts count as identifies)
+- Bitwarden is $6 per user per month (up to 20 machine accounts)
+- Infisical is $20 per _identity_ per month (note: even machine accounts count as identities)
 
 However, you can [self-host](https://infisical.com/docs/self-hosting/overview) Infisical for the cost of a small VPS (around $8 a month) - although you have the added "cost" of maintenance and updates (and security).
 
 ## A note on projects
 
-With Infisical, the `.infisical.json` file is native - it keeps you (and your team mates) project in sync with the Infisical project and the environments can be switched with a `--env` flag.
+With Infisical, the `.infisical.json` file is native - it keeps you and your teammates in sync on the project, and the environments can be switched with a `--env` flag.
 
 With Bitwarden, the project ID needs to be stored somewhere, or accessed each time. This could be used as an extra security step but could lead to project secrets being injected into the wrong project. A minor issue in development but a major one if done on production.
+
+## Conclusion
+
+For now, we're still in discussions as to how we want to work and what we want. We are already in the Bitwarden ecosystem, but the features of Infisical are appealing.
+
+Let me know if you've faced a similar decision and what you ended up with.
