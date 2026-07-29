@@ -20,7 +20,7 @@ I see AI as a force-multiplier, not a replacement. Companies laying off staff be
 
 Use it as a rubber-duck. Use it to solve that issue, tick off that lingering to-do or optimise that gnarly bash script. Use it to build internal tools for reporting and scratching that itch. Use it to aid you in solving production-ready code. Review the plans, hone the plans, craft the plans but then walk away while it does the grunt work.
 
-Take it bowling, but keep the barriers up. _That's_ how you get good results with it.
+Take it bowling, but keep the barriers up, use the ramp to push and get a near-guaranteed strike. _That's_ how you get good results with it - by putting up guardrails and guides.
 
 It's great for helping you solve that niche problem that you wouldn't find on a Reddit thread or to make sure you're not asking a ridiculous question. It's wonderful for helping my 7-year-old budding botanist identify plants and flowers.
 
