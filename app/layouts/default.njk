@@ -25,7 +25,6 @@
 	<meta property="profile:last_name" content="{{ meta.author.last_name }}">
 	<meta property="profile:username" content="{{ meta.social.twitter }}">
 
-
 	<link rel="webmention" href="https://webmention.io/www.mikestreety.co.uk/webmention">
 	<link rel="pingback" href="https://webmention.io/www.mikestreety.co.uk/xmlrpc">
 
@@ -87,9 +86,6 @@
 	{% set count = count + 1 %}
 	{% endif %}
 
-	<!-- Coil -->
-	<meta name="monetization" content="$ilp.uphold.com/R6wFMN3kXQbL">
-
 	{% if canonical is defined  %}
 	<link rel="canonical" href="{{ canonical }}">
 	{% else %}
@@ -102,13 +98,6 @@
 	if ('serviceWorker' in navigator) {
 		navigator.serviceWorker.register('/sw.js?1');
 	}
-	</script>
-	<script type="text/javascript">
-		(function(c,l,a,r,i,t,y){
-			c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-			t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-			y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-		})(window, document, "clarity", "script", "g7ya4379z5");
 	</script>
 
 	<script data-goatcounter="https://mikestreety.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
