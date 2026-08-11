@@ -30,7 +30,7 @@ apt update && apt upgrade
 apt install zip unzip
 ```
 
-Then grab the [install script](https://rustfs.com/en/download/?platform=linux):
+Then grab the [install script](https://rustfs.com/download/server/:
 
 ```bash
 curl -O https://rustfs.com/install_rustfs.sh && bash install_rustfs.sh
