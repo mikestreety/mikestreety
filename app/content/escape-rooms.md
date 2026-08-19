@@ -12,7 +12,7 @@ A log of escape rooms I've done
 | ---- | ------- | ---- | -------- | ------ |
 | 18/08/2026 | Tulleys | The Outfitters | Chilly | 8/10 |
 | 23/05/2026 | Pier Pressure | Pavilion Perplex | Chris, Laurz | 7/10 |
-| 27/02/2026 | Tulleys Escape Rooms | Mutiny | Chilly | 5/5 |
+| 27/02/2026 | Tulleys Escape Rooms | Mutiny | Chilly | 10/10 |
 | 24/01/2026 | Mindworks | Soggy Bottom | Chris, Helen, Chilly | 8/10 |
 | 20/08/2025 | Bewilder Box | The Bewilder Box Initiative | Chilly | 7/10 |
 | 22/03/2025 | Mindworks | Smugglers Ruin | Chris, Helen, Chilly | 9/10 |
