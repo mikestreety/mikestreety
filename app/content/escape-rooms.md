@@ -10,6 +10,7 @@ A log of escape rooms I've done
 
 | Date | Company | Room | Who with | Rating |
 | ---- | ------- | ---- | -------- | ------ |
+| 11/09/2026 | Pier Pressure | Raver Quest | Chris, Laurz | 7/10 |
 | 18/08/2026 | Tulleys | The Outfitters | Chilly | 8/10 |
 | 23/05/2026 | Pier Pressure | Pavilion Perplex | Chris, Laurz | 7/10 |
 | 27/02/2026 | Tulleys Escape Rooms | Mutiny | Chilly | 10/10 |
