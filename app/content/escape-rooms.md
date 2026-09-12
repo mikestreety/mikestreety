@@ -11,7 +11,7 @@ A log of escape rooms I've done
 | Photo | Date | Company | Room | Who with | Rating |
 | ----- | ---- | ------- | ---- | -------- | ------ |
 | | 11/09/2026 | Pier Pressure | Raver Quest | Chris, Laurz | 7/10 |
-| | 18/08/2026 | Tulleys | The Outfitters | Chilly | 8/10 |
+| <img src="/assets/img/escape-rooms/outfitters.jpg" alt="The Outfitters" width="50"> | 18/08/2026 | Tulleys | The Outfitters | Chilly | 8/10 |
 | <img src="/assets/img/escape-rooms/pavilion-perplex-thumb.jpg" alt="Pavilion Perplex" width="50" height="50"> | 23/05/2026 | Pier Pressure | Pavilion Perplex | Chris, Laurz | 7/10 |
 | <img src="/assets/img/escape-rooms/mutiny-thumb.jpg" alt="Mutiny" width="50" height="50"> | 27/02/2026 | Tulleys Escape Rooms | Mutiny | Chilly | 10/10 |
 | <img src="/assets/img/escape-rooms/soggy-bottom-thumb.jpg" alt="Soggy Bottom" width="50" height="50"> | 24/01/2026 | Mindworks | Soggy Bottom | Chris, Helen, Chilly | 8/10 |
