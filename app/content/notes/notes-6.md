@@ -24,7 +24,7 @@ I'll still try and get the blog post out, because hopefully it will help someone
 
 ### Email.subscribeto
 
-My early summer consisted of converting [email.subscribeto](https://email.subscribeto.at/) from a Filebase/Slim PHP project to Craft, as I thought it would be easier to administrate. Turns out, unless you want a simple page/blog site, Craft is a _PITA_ to code with. Granted, I want to do a lot of things that were edge cases, but I kind of regret doing it. Maybe I'll look at using a Static Site Generator or similar next time. For now, it works.
+My early summer consisted of converting [email.subscribeto](https://subscribeto.mikestreety.co.uk/) from a Filebase/Slim PHP project to Craft, as I thought it would be easier to administrate. Turns out, unless you want a simple page/blog site, Craft is a _PITA_ to code with. Granted, I want to do a lot of things that were edge cases, but I kind of regret doing it. Maybe I'll look at using a Static Site Generator or similar next time. For now, it works.
 
 ### Assassin's Creed: Odyssey on PS4
 

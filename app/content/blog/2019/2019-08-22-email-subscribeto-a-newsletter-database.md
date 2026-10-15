@@ -15,7 +15,7 @@ Newsletters are a funny thing, you either love them or hate them. If you love th
 
 I attempted to do this a couple of year ago. I collated the emails from my list and then the web community. This then went into a Google Sheet and was displayed in a web page using the Google Sheets API and Vue. The code that was rendering it was sloppy and thus quite fragile, but was a proof of concept and the small feedback I got from it was positive.
 
-#### Enter: [email.subscribeto](https://email.subscribeto.at/)
+#### Enter: [email.subscribeto](https://subscribeto.mikestreety.co.uk/)
 
 After 2 years a new version is now live, bigger, better and more user-friendly. Fill your boots with newsletters!
 
