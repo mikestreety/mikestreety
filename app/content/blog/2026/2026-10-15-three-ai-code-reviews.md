@@ -9,6 +9,8 @@ At work we have started using AI as a first-pass code reviewer. Nothing goes out
 
 We use AI code review as a first pass - whether it is Claude being pointed at a branch or MR/PR or [Gitlab Duo](https://docs.gitlab.com/user/gitlab_duo/code_review/) being assigned the merge request, we use a similar set of instructions for both.
 
+Having an AI do the first code review has meant that when our devs get involved in looking at code, they can focus on the bigger picture and not spend time picking out missing semi-colons and code convention differences.
+
 We have just introduced a more in-depth review skill, which looks at the code in **3 different ways** - the diff, the repository and the spec.
 
 **Note:** This is not an original idea - I heard about this idea in a webinar or on a podcast or read it somewhere. If you are the originator I would love to [hear from you](/contact/).
