@@ -1,7 +1,11 @@
 .meta.categories {
 	margin-top: var(--gutter);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
 
 	a {
+		display: inline-block;
 		box-shadow: none;
 		padding: 0.2rem 0.5rem;
 		line-height: 1;
