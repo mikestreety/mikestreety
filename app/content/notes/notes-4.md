@@ -6,7 +6,7 @@ updated: 2020-06-06
 
 ### Behind the Source going well
 
-[Behind the Source](https://www.behindthesource.co.uk/) interviews are going well and are well received. Already on the third interview today and I have had nothing but positive comments. Fortunately it is all set up beforehand, so there is minimal work each week to get it live. Unfortunately, Mailchimp have taken away the scheduling for free accounts, otherwise I could do it all automated. I'm using Figma to create the social media images (if I had more than 8 interviews I would have automated this with the command line and ImageMagick).
+[Behind the Source](https://behindthesource.mikestreety.co.uk/) interviews are going well and are well received. Already on the third interview today and I have had nothing but positive comments. Fortunately it is all set up beforehand, so there is minimal work each week to get it live. Unfortunately, Mailchimp have taken away the scheduling for free accounts, otherwise I could do it all automated. I'm using Figma to create the social media images (if I had more than 8 interviews I would have automated this with the command line and ImageMagick).
 
 ### Apache Macros
 

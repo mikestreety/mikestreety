@@ -2,7 +2,7 @@
 title: Makefile includes and other Makefile tips and tricks
 intro: How to include other Makefiles along with other Makefile tips I've picked up
 tags:
-  - CLI
+  - Command Line
 ---
 
 

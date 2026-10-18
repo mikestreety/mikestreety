@@ -9,7 +9,7 @@ tags:
  - Front-end Development
 ---
 
-Back in 2016 I wrote a blog post listing the [newsletters front-end developers should subscribe too](/blog/newsletters-for-front-end-developers). A few years have passed and my interests have changed, so here is an updated list of email newsletters that I think front-end developers would benefit from:
+Back in 2016 I wrote a blog post listing the [newsletters front-end developers should subscribe too](/blog/newsletters-for-front-end-developers/). A few years have passed and my interests have changed, so here is an updated list of email newsletters that I think front-end developers would benefit from:
 
 - [Alligator.io](https://alligator.io/)
 - [CSS Layout](http://csslayout.news/)

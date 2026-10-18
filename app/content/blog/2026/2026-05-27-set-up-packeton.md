@@ -2,7 +2,7 @@
 title: Set up a private packagist using a server and open source
 intro: Packeton is an open source clone of Packagist you can run yourself
 tags:
-  - CLI
+  - Command Line
 ---
 
 Publishing private composer packages is a fiddly business - especially if you want a usable UI along with it.

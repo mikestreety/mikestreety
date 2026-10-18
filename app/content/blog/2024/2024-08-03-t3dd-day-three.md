@@ -3,7 +3,7 @@ title: "TYPO3 Developer Days 2024: Day 3 - 3rd August 2024"
 intro: T3DD in Karlsruhe, Germany - day 3. Points of interest and tidbits
 tags:
   - TYPO3
-  - Ramblings
+  - Thoughts
 ---
 
 [TYPO3 Developer Days](https://t3dd24.typo3.com/) Day 3 notes.

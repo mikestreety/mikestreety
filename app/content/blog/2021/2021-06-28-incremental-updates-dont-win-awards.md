@@ -6,7 +6,7 @@ canonical: https://www.liquidlight.co.uk/blog/incremental-updates-dont-win-award
 who: Liquid Light
 permalink: "blog/incremental-updates-dont-win-awards/"
 tags:
- - Ramblings
+ - Thoughts
  - General
 ---
 

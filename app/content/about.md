@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: "About Mike Street"
+description: "Mike Street is CTO and Lead Developer at Liquid Light in Brighton, specialising in PHP, JavaScript, CI/CD, DevOps and process-driven web development."
 permalink: /about/
 eleventyNavigation:
   key: About
@@ -51,7 +52,7 @@ When getting and using Vue.js, I was approached to [write a book](https://www.pa
 
 Talking of this site, it has had many iterations, from **Wordpress** to **CraftCMS** to it's current version which is built with **11ty**.
 
-In 2020 I [**interviewed 8 web-folk**](https://www.behindthesource.co.uk/interviews/) for a side-project called [Behind the Source](https://www.behindthesource.co.uk/). This was followed in 2022 by a [**Podcast**](https://www.behindthesource.co.uk/podcasts/), talking about tech for people who want to get into a specific topic. We spoke about **Svelte**, **Umbraco**, **jQuery**, **Design Systems**, **Gitpod** and **Coolify**.
+In 2020 I [**interviewed 8 web-folk**](https://behindthesource.mikestreety.co.uk/interviews/) for a side-project called [Behind the Source](https://behindthesource.mikestreety.co.uk/). This was followed in 2022 by a [**Podcast**](https://behindthesource.mikestreety.co.uk/podcasts/), talking about tech for people who want to get into a specific topic. We spoke about **Svelte**, **Umbraco**, **jQuery**, **Design Systems**, **Gitpod** and **Coolify**.
 
 I also featured on [Series 5](https://makelifeworkpodcast.com/tag/season-5/) of the **Make Life Work** podcast alongside Si and Sam, featured as an "[**On the Side**](http://ontheside.network/)" takeover.
 

@@ -5,7 +5,7 @@ intro: Twitter has gone down the drain and, with it, the sense of community I us
 permalink: "blog/the-end-of-the-social-network-school-year/"
 tags:
  - General
- - Musings
+ - Thoughts
 ---
 
 Since the mass exodus of Twitter after Elon bought it, I've felt unsettled in the Social Media world; like I'm sitting in someone else's house and can't quite be as comfortable as I would like to be.

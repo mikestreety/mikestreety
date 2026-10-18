@@ -7,7 +7,6 @@ intro: Learn to add Netlify CMS to an existing 11ty site to make editing your
 permalink: blog/add-netlify-cms-to-an-existing-11ty-site/
 tags:
   - 11ty
-  - Eleventy
   - Netlify
 ---
 

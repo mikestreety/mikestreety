@@ -7,7 +7,7 @@ permalink: "blog/wordpress-pulling-an-archive/"
 tags:
  - Web
  - PHP
- - Wordpress
+ - CMS
 ---
 
 As I mentioned in my [first post](/blog/starting-afresh-starting-anew/) I have made an archive of my previous Wordpress blog posts into a static page. This is done through some SQL and PHP.

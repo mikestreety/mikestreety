@@ -7,7 +7,7 @@ permalink: "blog/redirect-to-one-central-domain-htaccess/"
 tags:
  - Web
  - Server
- - htaccess
+ - Apache
 ---
 
 If you would like to 'redirect' all your users to a central domain (for example if you would like all users to browse your site with the www or you have several parked domains) then paste the following code into your `.htaccess` file (normally located in the root) - works on Linux servers with cPanel.

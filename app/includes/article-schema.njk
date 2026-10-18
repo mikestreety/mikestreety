@@ -1,0 +1,27 @@
+{%- if not draft and not sitemapIgnore %}
+{%- set schemaDescription = (intro if intro else (description if description else (page.rawInput | excerpt))) | plainText %}
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "{{ schemaType if schemaType else 'BlogPosting' }}",
+	"@id": "{{ meta.site.url }}{{ page.url }}#article",
+	"mainEntityOfPage": "{{ meta.site.url }}{{ page.url }}",
+	"url": "{{ meta.site.url }}{{ page.url }}",
+	"headline": {{ title | dump | safe }},
+	"description": {{ schemaDescription | dump | safe }},
+	"image": "{{ meta.site.url }}{{ socialMediaPhoto if socialMediaPhoto else (page.url | ogImagePath) }}",
+	"datePublished": "{{ page.date | dateISO }}",
+	"dateModified": "{{ (updated if updated else page.date) | dateISO }}",
+	"inLanguage": "en-GB",
+	{%- if tags %}
+	"keywords": {{ tags | dump | safe }},
+	{%- endif %}
+	{%- if canonical %}
+	"isBasedOn": "{{ canonical }}",
+	{%- endif %}
+	"author": { "@id": "{{ meta.site.url }}/#person" },
+	"publisher": { "@id": "{{ meta.site.url }}/#person" },
+	"isPartOf": { "@id": "{{ meta.site.url }}/#website" }
+}
+</script>
+{%- endif %}

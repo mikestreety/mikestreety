@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
 	<meta charset="utf-8">
-	<title>
-		{% if pagination.size !== 1 and pagination.pageNumber %}Page {{ (pagination.pageNumber + 1) }} - {% endif %}
-		{{ title }}{{ " - " if title }}{{ meta.site.title }} - {{ meta.site.description }}</title>
+	{%- set pageTitle = (title + ' - ' + meta.site.title) if title else (meta.site.title + ' - ' + meta.site.description) %}
+	{%- if pagination.size !== 1 and pagination.pageNumber %}{% set pageTitle = 'Page ' + (pagination.pageNumber + 1) + ' - ' + pageTitle %}{% endif %}
+	{%- set pageDescription = (intro if intro else (description if description else (page.rawInput | excerpt))) | plainText %}
+	{%- set pageDescription = pageDescription if pageDescription else (title if title else meta.site.description) %}
+	{%- set isPost = parent and page.date and title and not sitemapIgnore %}
+	<title>{{ pageTitle }}</title>
 	<link rel="home" href="{{ meta.site.url }}/">
 
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
@@ -13,38 +16,46 @@
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon-180.png">
 	<link rel="apple-touch-icon" sizes="512x512" href="/assets/img/favicon-512.png">
-	<link rel="manifest" href="/site.webmanifest">
 	<link rel="shortcut icon" href="/assets/img/favicon.ico">
 	<meta name="msapplication-TileColor" content="{{ meta.themeColour }}">
 	<meta name="msapplication-config" content="/browserconfig.xml">
 	<meta name="theme-color" content="{{ meta.themeColour }}">
 
-	<meta name="description" content="{{ intro if intro else description }}">
+	<meta name="description" content="{{ pageDescription }}">
 	<meta name="author" content="{{ meta.author.first_name }} {{ meta.author.last_name }}">
-	<meta property="profile:first_name" content="{{ meta.author.first_name }}">
-	<meta property="profile:last_name" content="{{ meta.author.last_name }}">
-	<meta property="profile:username" content="{{ meta.social.twitter }}">
 
 	<link rel="webmention" href="https://webmention.io/www.mikestreety.co.uk/webmention">
 	<link rel="pingback" href="https://webmention.io/www.mikestreety.co.uk/xmlrpc">
 
-	<meta property="twitter:card" content="summary">
-	<meta property="twitter:site" content="@{{ meta.social.twitter }}">
-	<meta property="twitter:creator" content="@{{ meta.social.twitter }}">
-
-	<meta property="og:type" content="website">
-	<meta property="og:title" property="twitter:title" content="{{ title }}{{ " - " if title }}{{ meta.site.title }} - {{ meta.site.description }}">
+	<meta property="og:type" content="{{ 'article' if isPost else 'website' }}">
+	<meta property="og:title" content="{{ title if title else pageTitle }}">
+	<meta property="og:description" content="{{ pageDescription }}">
 	<meta property="og:url" content="{{ meta.site.url }}{{ page.url }}">
 	<meta property="og:site_name" content="{{ meta.site.title }}">
-	<meta property="og:title" content="{{ title }}">
-	{% if socialMediaPhoto is defined  %}
-	<meta property="og:image" property="twitter:image" name="image" content="{{ meta.site.url }}{{ socialMediaPhoto  }}">
+	<meta property="og:locale" content="en_GB">
+	{%- if socialMediaPhoto is defined %}
+	<meta property="og:image" content="{{ meta.site.url }}{{ socialMediaPhoto }}">
 	<meta property="og:image:width" content="1300">
 	<meta property="og:image:height" content="650">
-	{% else %}
-	<meta property="og:image" property="twitter:image" name="image" content="{{ meta.site.url }}/assets/img/mike.jpg">
-	{% endif %}
-	<meta property="og:description" property="twitter:description" content="{{ intro if intro else description }}">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="{{ meta.site.url }}{{ socialMediaPhoto }}">
+	{%- elif isPost %}
+	{%- set ogSubtitle = (parentTitle | replace('Notes', 'Note') | replace('Talks', 'Talk') | replace('Blog', 'Blog post')) + ' · ' + (page.date | dateLong) %}
+	<meta property="og:image" content="{{ meta.site.url }}{% ogImage title, ogSubtitle, page.url %}">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:alt" content="{{ title }}">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="{{ meta.site.url }}{% ogImage title, ogSubtitle, page.url %}">
+	{%- else %}
+	<meta property="og:image" content="{{ meta.site.url }}/assets/img/mike.jpg">
+	<meta property="og:image:width" content="497">
+	<meta property="og:image:height" content="500">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="{{ meta.site.url }}/assets/img/mike.jpg">
+	{%- endif %}
+	<meta name="twitter:title" content="{{ title if title else pageTitle }}">
+	<meta name="twitter:description" content="{{ pageDescription }}">
 
 	<link rel="alternate" type="application/rss+xml" title="Mike Street's Blog Posts" href="/rss.xml">
 	<link rel="alternate" type="application/rss+xml" title="Mike Street's Notes" href="/rss-notes.xml">
@@ -59,30 +70,34 @@
 
 	{% if tags %}
 	<meta property="article:published_time" content="{{ page.date | dateISO }}">
+	{%- if updated %}
+	<meta property="article:modified_time" content="{{ updated | dateISO }}">
+	{%- endif %}
+	<meta property="article:author" content="{{ meta.site.url }}/about/">
 
 	{% for tag in tags -%}
 	<meta property="article:tag" content="{{ tag }}">
 	{%- endfor %}
 
 	{% set comma = joiner() %}
-	<meta property="twitter:label{{ count }}" value="Tags">
-	<meta property="twitter:data{{ count }}" value="{% for tag in tags -%}{{ comma() }} {{ tag }}{%- endfor %}">
+	<meta name="twitter:label{{ count }}" content="Tags">
+	<meta name="twitter:data{{ count }}" content="{% for tag in tags -%}{{ comma() }} {{ tag }}{%- endfor %}">
 	{% set count = count + 1 %}
 
-	<meta property="twitter:label{{ count }}" value="Reading time">
-	<meta property="twitter:data{{ count }}" value="{{ content | emojiReadTime }}">
+	<meta name="twitter:label{{ count }}" content="Reading time">
+	<meta name="twitter:data{{ count }}" content="{{ content | emojiReadTime }}">
 	{% set count = count + 1 %}
 	{% endif %}
 
 	{% if who %}
-	<meta property="twitter:label{{ count }}" value="For">
-	<meta property="twitter:data{{ count }}" value="{{ who }}">
+	<meta name="twitter:label{{ count }}" content="For">
+	<meta name="twitter:data{{ count }}" content="{{ who }}">
 	{% set count = count + 1 %}
 	{% endif %}
 
 	{% if canonical %}
-	<meta property="twitter:label{{ count }}" value="Original link">
-	<meta property="twitter:data{{ count }}" value="{{ canonical }}">
+	<meta name="twitter:label{{ count }}" content="Original link">
+	<meta name="twitter:data{{ count }}" content="{{ canonical }}">
 	{% set count = count + 1 %}
 	{% endif %}
 
@@ -192,18 +207,42 @@
 	</div>
 	<script type="application/ld+json">
 	{
-		"@context" : "http://schema.org",
-		"@type" : "Person",
-		"name" : "Mike Street",
-		"url" : "http://www.mikestreety.co.uk",
-		"homeLocation": "Brighton",
-		"sameAs" : [
-			"https://twitter.com/mikestreety",
-			"{{ meta.social.mastodon.url }}",
-			"{{ meta.social.bluesky.url }}",
-			"{{ meta.social.github.url }}",
-			"{{ meta.social.gitlab.url }}",
-			"{{ meta.social.linkedin.url }}"
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "Person",
+				"@id": "{{ meta.site.url }}/#person",
+				"name": "{{ meta.author.first_name }} {{ meta.author.last_name }}",
+				"url": "{{ meta.site.url }}/",
+				"image": "{{ meta.site.url }}/assets/img/mike.jpg",
+				"jobTitle": "{{ meta.site.description }}",
+				"worksFor": {
+					"@type": "Organization",
+					"name": "Liquid Light",
+					"url": "https://www.liquidlight.co.uk/"
+				},
+				"homeLocation": {
+					"@type": "Place",
+					"name": "Brighton, UK"
+				},
+				"sameAs": [
+					"{{ meta.social.mastodon.url }}",
+					"{{ meta.social.bluesky.url }}",
+					"{{ meta.social.github.url }}",
+					"{{ meta.social.gitlab.url }}",
+					"{{ meta.social.linkedin.url }}",
+					"https://www.instagram.com/mikestreety/"
+				]
+			},
+			{
+				"@type": "WebSite",
+				"@id": "{{ meta.site.url }}/#website",
+				"name": "{{ meta.site.title }}",
+				"url": "{{ meta.site.url }}/",
+				"inLanguage": "en-GB",
+				"author": { "@id": "{{ meta.site.url }}/#person" },
+				"publisher": { "@id": "{{ meta.site.url }}/#person" }
+			}
 		]
 	}
 	</script>

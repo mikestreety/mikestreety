@@ -4,7 +4,7 @@ date: 2023-01-05
 intro: Let code be code and your content be content. Don't get tied into a single system for hosting your site
 permalink: "blog/be-code-agnostic/"
 tags:
- - Ramblings
+ - Thoughts
 ---
 
 I wrote a blog about being [device agnostic](https://www.liquidlight.co.uk/blog/how-to-become-device-agnostic-and-what-it-means-for-your-data/) which is an idea about ensuring your data is not tied to one kind of device, or one manufacturer. I believe you should be able to export your data regularly (in a generic format) or it should exist in a more device-fluid state. Services and devices shouldn't try to lock users in by holding their data hostage. The idea is you can move between devices (or lose a phone) and not be ground to a halt (or be worried about where your data has gone).

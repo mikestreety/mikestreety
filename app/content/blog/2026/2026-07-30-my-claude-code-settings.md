@@ -62,4 +62,4 @@ Master.dev features a [free course on Claude](https://master.dev/courses/claude-
 
 ## Conclusion
 
-And that's it, I'll update the post as I find more customisations and tweaks. For now, this is how I set up my Claude code. If you've got this far, you might be interested to read my true [feelings about AI](/blog/my-thoughts-on-ai).
+And that's it, I'll update the post as I find more customisations and tweaks. For now, this is how I set up my Claude code. If you've got this far, you might be interested to read my true [feelings about AI](/blog/old-macdonald-outsourced-his-farm-ai-ai-oh/).

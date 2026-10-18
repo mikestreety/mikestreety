@@ -9,7 +9,6 @@ permalink: "blog/how-can-i-score-100-on-google-pagespeed-insights/"
 tags:
  - Web
  - Google
- - Lighthouse
  - Performance
 ---
 

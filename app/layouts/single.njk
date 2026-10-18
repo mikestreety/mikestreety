@@ -72,40 +72,5 @@ layout: default.njk
 			<p class="p-note">Mike is a CTO and Lead Developer from Brighton, UK. He spends his time writing, cycling and coding. You can find Mike on <a href="https://hachyderm.io/@mikestreety">Mastodon</a>.</p>
 		</div>
 	</div>
-	{% if not draft %}
-	<script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "NewsArticle",
-		"mainEntityOfPage":{
-			"@type":"WebPage",
-			"@id":"{{ meta.site.url }}{{ page.url }}"
-		},
-		"headline": "{{ title }}",
-		"image": {
-			"@type": "ImageObject",
-			"url": "https://www.mikestreety.co.uk/assets/img/mike.jpg",
-			"height": 800,
-			"width": 800
-		},
-		"datePublished": "{{ page.date | dateISO }}",
-		"dateModified": "{{ (updated if updated else page.date) | dateISO }}",
-		"author": {
-			"@type": "Person",
-			"name": "Mike Street"
-		},
-		"publisher": {
-			"@type": "Organization",
-			"name": "Mike Street",
-			"logo": {
-				"@type": "ImageObject",
-				"url": "https://www.mikestreety.co.uk/assets/images/logo.png",
-				"width": 244,
-				"height": 60
-			}
-		},
-		"description": "{{ intro }}"
-	}
-	</script>
-	{% endif %}
+	{% include 'article-schema.njk' %}
 </div>

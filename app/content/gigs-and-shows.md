@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: "Gigs I've been to"
+description: "A record of the gigs, live music, comedy shows and nights out Mike Street has been to over the years."
 permalink: /gigs-and-shows/
 ---
 

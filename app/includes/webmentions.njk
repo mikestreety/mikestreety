@@ -9,7 +9,7 @@
 	<div class="wm-facepile">
 		{% for webmention in mentions.likes | reverse %}
 			<a href="{% if webmention.url %}{{ webmention.url }}{% endif %}" class="wm-{{ webmention['wm-property'] }}">
-				<img src="{% if webmention.author.photo %}{{ webmention.author.photo }}{% else %}{{ '/assets/img/avatar.svg' | url }}{% endif %}" title="{{ webmention.author.name }}" alt="{{ webmention.author.name }}" class="wm-face" />
+				<img src="{% if webmention.author.photo %}{{ webmention.author.photo }}{% else %}{{ '/assets/img/avatar.svg' | url }}{% endif %}" title="{{ webmention.author.name }}" alt="{{ webmention.author.name }}" class="wm-face" width="48" height="48" loading="lazy" />
 			</a>
 		{% endfor %}
 	</div>
@@ -34,7 +34,7 @@
 			<div class="wm-meta">
 				{% if webmention.author %}
 					<a class="wm-authorImage" href="{{ webmention.url }}"rel="noopener noreferrer">
-						<img class="wm-face" src="{% if webmention.author.photo %}{{ webmention.author.photo }}{% else %}{{ '/assets/img/avatar.svg' | url }}{% endif %}" alt="{{ webmention.author.name }}">
+						<img class="wm-face" src="{% if webmention.author.photo %}{{ webmention.author.photo }}{% else %}{{ '/assets/img/avatar.svg' | url }}{% endif %}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy">
 					</a>
 				{% endif %}
 				<div class="wm-author">

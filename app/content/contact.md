@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: "Contact Mike Street"
+description: "Get in touch with Mike Street about web development, CI/CD, DevOps, Docker or Git consultancy, mentoring, or anything you've read on the blog."
 permalink: /contact/
 ---
 

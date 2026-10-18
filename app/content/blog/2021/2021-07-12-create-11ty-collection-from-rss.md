@@ -6,7 +6,7 @@ permalink: "blog/create-11ty-collection-from-rss/"
 tags:
  - 11ty
  - Javascript
- - YouTube
+ - Video
 ---
 
 {% raw %}

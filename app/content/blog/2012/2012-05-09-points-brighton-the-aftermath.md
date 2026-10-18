@@ -25,10 +25,10 @@ All that is left is the thanks yous and the credits - so bear with me.
 
 Firstly, the reason everyone was there. The speakers. The presentations were fantastic, diverse and informative. Perfect really!
 
-- [Amber Weinberg](http://www.amberweinberg.com/) [![](https://luckysoap.com/images/twittericon.gif "Twitter")](http://www.twitter.com/amberweinberg) stepped up first talking about '**Mobile Development**' (she kindly stepped in for the afflicted [Paul Mist](http://www.aislezero.co.uk/) [![](https://luckysoap.com/images/twittericon.gif "Twitter")](http://www.twitter.com/paulmist))
-- Next was [James Seymour-Lock](http://simpleasmilk.co.uk) [![](https://luckysoap.com/images/twittericon.gif "Twitter")](http://www.twitter.com/jamesslock) discussing '**How To Achieve Your Clients Goals Through Effective Design**' ([Slides](http://speakerdeck.com/u/jamessl/p/how-to-achieve-your-clients-goals-through-effective-design))
+- [Amber Weinberg](http://www.amberweinberg.com/) [![Twitter](/assets/img/icons/twitter.svg "Twitter")](https://x.com/amberweinberg) stepped up first talking about '**Mobile Development**' (she kindly stepped in for the afflicted [Paul Mist](http://www.aislezero.co.uk/) [![Twitter](/assets/img/icons/twitter.svg "Twitter")](https://x.com/paulmist))
+- Next was [James Seymour-Lock](http://simpleasmilk.co.uk) [![Twitter](/assets/img/icons/twitter.svg "Twitter")](https://x.com/jamesslock) discussing '**How To Achieve Your Clients Goals Through Effective Design**' ([Slides](http://speakerdeck.com/u/jamessl/p/how-to-achieve-your-clients-goals-through-effective-design))
 - After, [Krystian Szastok](http://www.bozboz.co.uk), stepped up to the plate to show off his knowledge on '**The Principle Of Factor Sparsity And Seo**' ([Slides](http://prezi.com/doxamiiug8vk/the-principle-of-factor-sparsity-and-seo/))
-- and finally finishing off the evening was [David Pomfret](http://simpleasmilk.co.uk) [![](https://luckysoap.com/images/twittericon.gif "Twitter")](http://www.twitter.com/pomennedy) who told us all about '**Making Type Right'** ([Slides](http://speakerdeck.com/u/pomennedy/p/typography-basics-points-brighton))
+- and finally finishing off the evening was [David Pomfret](http://simpleasmilk.co.uk) [![Twitter](/assets/img/icons/twitter.svg "Twitter")](https://x.com/pomennedy) who told us all about '**Making Type Right'** ([Slides](http://speakerdeck.com/u/pomennedy/p/typography-basics-points-brighton))
 
 They all did brilliantly and based on the tweets, were all well recieved.
 

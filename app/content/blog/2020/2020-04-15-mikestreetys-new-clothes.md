@@ -6,14 +6,14 @@ intro: For regular readers, you will notice a fresh new face on the old dog (my 
 permalink: "blog/mikestreetys-new-clothes/"
 tags:
  - General
- - Ramblings
+ - Thoughts
 ---
 
 For regular readers, you will notice a fresh new face on the old dog (my first blog post that made the many migrations [was from 2009](/blog/css-the-basics/)!). This has been a long time coming and is a continuation of an actual theme/consistent design I'm beginning to use across all my projects.
 
 For those interested, the site is running on [Craft CMS](https://craftcms.com/), using [Laravel Mix](https://laravel-mix.com/) to compile the SCSS & JS. If you're visiting this site on an older browser, you may not see the colours, or much CSS at all in fact as I am using CSS Variables (custom properties). Looking at my analytics, I can see the visitors are mainly in Chrome/Firefox (I assume mainly developers are visiting) so I made the call to keep these in place (rather than [compiling to raw hex](/blog/css-custom-properties-everyday-applications/) like we do at Liquid Light) and benefit from their flexibility.
 
-With Craft CMS you can have many "Channels", which is exactly what this Blog, the [Notes](/category/notes/) and Projects (found on the homepage) are utilising. Having built [Behind the Source](https://www.behindthesource.co.uk/) in between the original carnation of this Craft CMS blog and this version, I learned a lot about structuring the project and templates, so I took the opportunity to backup the database and files and re-build and restructure locally, before pushing live.
+With Craft CMS you can have many "Channels", which is exactly what this Blog, the [Notes](/notes/) and Projects (found on the homepage) are utilising. Having built [Behind the Source](https://behindthesource.mikestreety.co.uk/) in between the original carnation of this Craft CMS blog and this version, I learned a lot about structuring the project and templates, so I took the opportunity to backup the database and files and re-build and restructure locally, before pushing live.
 
 ###  A walk down memory lane
 

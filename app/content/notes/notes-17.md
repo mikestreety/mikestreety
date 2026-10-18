@@ -12,9 +12,9 @@ Has it really been 5 months since I last wrote a Notes?! I've had my head down o
 
 ### Behind the Source - the Podcast
 
-Avid readers will remember the [series of interviews](https://www.behindthesource.co.uk/interviews/) I did under the "Behind the Source" name back in 2020. These featured people of the web talking about their jobs and how they got there.
+Avid readers will remember the [series of interviews](https://behindthesource.mikestreety.co.uk/interviews/) I did under the "Behind the Source" name back in 2020. These featured people of the web talking about their jobs and how they got there.
 
-2022 has seen the name evolve [into a podcast](https://www.behindthesource.co.uk/podcasts/). Rather than talk about _people_, Series 2 (aka the podcast) talks about tools, projects and processes. Each episode features an expert talking about their passion.
+2022 has seen the name evolve [into a podcast](https://behindthesource.mikestreety.co.uk/podcasts/). Rather than talk about _people_, Series 2 (aka the podcast) talks about tools, projects and processes. Each episode features an expert talking about their passion.
 
 At time of writing, 3 episodes have been released - I'm just trying to work out how to get the word out!
 
@@ -32,7 +32,7 @@ There is a small reliance on both Cloudflare and Netlify, but I want to reduce t
 
 ### Blog posts to be written
 
-Following on from the [last notes](/blog/notes-16/), here is a list of topics that are in my mind to be blogged about:
+Following on from the [last notes](/notes/notes-16/), here is a list of topics that are in my mind to be blogged about:
 
 - [ddev](https://ddev.readthedocs.io/en/stable/) - getting started, pitfalls & rolling it out to a team
 - deploying a Docker image via Gitlab CI

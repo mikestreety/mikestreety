@@ -11,7 +11,7 @@ tags:
 
 I've recently been playing around with Raspberry Pi and some hardware - seeing what else can be done with the tiny computer.
 
-I previously wrote about using the pi as a [media centre](/blog/my-media-centre-solution), but I wanted to try something else (after seeing a friend using his for house temperature readings).
+I previously wrote about using the pi as a [media centre](/blog/my-media-centre-solution/), but I wanted to try something else (after seeing a friend using his for house temperature readings).
 
 I've always wanted a basic weather station, one that just told me the temperature outside so that I knew what to wear for cycling, and this is what I set out to create.
 

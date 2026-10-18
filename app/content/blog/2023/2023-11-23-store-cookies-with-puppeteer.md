@@ -6,7 +6,7 @@ permalink: "blog/login-with-puppeteer-and-re-use-cookies-for-another-window/"
 tags:
  - Node
  - NPM
- - Puppeteer
+ - Testing
 ---
 
 For a recent project I needed to automate something which was only available in the CMS via a login. To help speed to process up, I created a script which can login with supplied credentials and store the cookies in a local file. The main process can then use these cookies to carry out the task rather than needing to login each time.

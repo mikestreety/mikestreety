@@ -3,6 +3,7 @@
 
 	"parent": "talks",
 	"parentTitle": "Talks",
+	"schemaType": "Article",
 
 	"permalink": "/talks/{{ title | slugify }}-{{ who | slugify }}/"
 }

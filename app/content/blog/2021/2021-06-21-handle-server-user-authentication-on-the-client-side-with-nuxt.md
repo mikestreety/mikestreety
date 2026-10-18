@@ -6,7 +6,6 @@ permalink: "blog/handle-server-user-authentication-on-the-client-side-with-nuxt/
 tags:
  - Web
  - VueJS
- - Nuxt
 ---
 
 I am currently in the process of making a small side-project which features a user login and register function. The backend is built using Lumen, a lightweight framework from the makers of Laravel. The API is 100% JSON based and features login and register endpoints.

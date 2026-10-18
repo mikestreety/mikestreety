@@ -2,7 +2,7 @@
 title: Comparing Bitwarden Secrets Manager to Infisical
 intro: Looking at secrets managers, this compares Bitwarden to Infisical
 tags:
-  - CLI
+  - Command Line
 ---
 
 We've been reviewing our secret management process and have been evaluating tools to help with streamlining it.

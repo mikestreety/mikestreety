@@ -65,7 +65,7 @@ Netlify will take a few minutes to deploy your website but, once complete you ar
 
 If you don't want to/can't connect your git provider (or your 11ty site isn't in a git repo), Netlify offer a drag and drop interface (at the bottom of the "Sites" page). Run the 11ty compilation steps locally and upload the output directory.
 
-Side note: This site, [Behind the Source](https://www.behindthesource.co.uk/) and [Hovélo](https://hovelo.co.uk/) are all hosted on Netlify.
+Side note: This site, [Behind the Source](https://behindthesource.mikestreety.co.uk/) and [Hovélo](https://hovelo.co.uk/) are all hosted on Netlify.
 
 <a name="vercel"></a>
 

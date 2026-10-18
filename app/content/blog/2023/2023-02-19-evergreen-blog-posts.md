@@ -5,7 +5,7 @@ intro: Writing evergreen content is the golden egg, but it's not as easy as one 
 permalink: blog/writing-more-evergreen-blog-post-topics/
 tags:
   - General
-  - Ramblings
+  - Thoughts
 ---
 
 Evergreen topics are the golden egg of blog posting; posts which don't age and don't become irrelevant over time and they are something I really wish I was able to write. A lot of my posts are about the here and now "this is how you do this thing with this technology". They might still be right in 1, 2 or 3 years time, or they might have expired before I've even built up the courage to publish.

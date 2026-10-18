@@ -7,7 +7,6 @@ permalink: "blog/automatically-deploying-your-lumen-app-with-php-deployer-and-ze
 tags:
  - Web
  - PHP
- - Lumen
  - Laravel
 ---
 {% raw %}

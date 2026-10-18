@@ -6,7 +6,7 @@ permalink: "blog/accessing-iframe-content-and-javascript-variables-from-puppetee
 tags:
  - Node
  - NPM
- - Puppeteer
+ - Testing
 ---
 
 Following on from the previous post about [logging in and saving cookies with Puppeteer](/blog/login-with-puppeteer-and-re-use-cookies-for-another-window/), I also needed to access content and, more specifically, a JavaScript variable present within the iframe itself from within Puppeteer as this contained information I was hunting down.

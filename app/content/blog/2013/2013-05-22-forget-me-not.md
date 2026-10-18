@@ -6,7 +6,7 @@ intro: Frank Turner, a wonderfully talented musician with whom I have recently e
 permalink: "blog/forget-me-not/"
 tags:
  - General
- - Ramblings
+ - Thoughts
 ---
 
 Frank Turner, a wonderfully talented musician with whom I have recently embarked a music-man crush upon, has sung some beautiful songs on his recent album. Those songs range from the most awesome, summery but yet depressing (when you actually listen to the lyrics) to the insanely wonderful. Songs which drip with the pain and heartbreak that is so obviously disguised behind the words. But I digress. Frank Turner wrote a song about having to leave.

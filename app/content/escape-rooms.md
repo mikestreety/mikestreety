@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: "Escape Rooms"
+description: "A log of every escape room Mike Street has played, with dates, companies, rooms, who he played with and a rating for each."
 permalink: /escape-rooms/
 ---
 
