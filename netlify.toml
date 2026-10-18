@@ -2,6 +2,13 @@
 	command = "npm run build"
 	publish = "html"
 
+# Keep generated social media images between builds so only new posts are rendered
+[[plugins]]
+	package = "netlify-plugin-cache"
+
+	[plugins.inputs]
+	paths = [ ".cache" ]
+
 [[plugins]]
   package = "netlify-plugin-webmentions"
 

@@ -3,6 +3,7 @@ require('dotenv').config();
 const {live, blog, drafts, notes, talks} = require('./app/filters/posts');
 const { convert } = require('html-to-text');
 const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
+const ogImage = require('./app/filters/ogImage');
 
 module.exports = async function (config) {
 	const { IdAttributePlugin } = await import("@11ty/eleventy");
@@ -22,6 +23,45 @@ module.exports = async function (config) {
 			]
 		});
 	});
+
+	config.addFilter('published', (items) => items.filter(item => !item.data.draft));
+
+	// HTML to a single line of plain text, with entities decoded - used for meta descriptions
+	const plainText = (html) => convert(html || '', {
+		wordwrap: false,
+		selectors: [
+			{ selector: 'a', options: { ignoreHref: true } },
+			{ selector: 'img', format: 'skip' },
+			{ selector: 'pre', format: 'skip' },
+			{ selector: 'h1', options: { uppercase: false } },
+			{ selector: 'h2', options: { uppercase: false } },
+			{ selector: 'h3', options: { uppercase: false } },
+		]
+	}).replace(/\s+/g, ' ').trim();
+
+	config.addFilter('plainText', plainText);
+
+	// Plain text summary of some markdown, cut at a word boundary - used for
+	// meta descriptions when a page doesn't have an intro (e.g. notes)
+	config.addFilter('excerpt', function(input, length = 155) {
+		const text = plainText((input || '')
+			.replace(/```[\s\S]*?```/g, '')
+			.replace(/^#+ .*$/gm, '')
+			.replace(/{%[\s\S]*?%}|{{[\s\S]*?}}/g, '')
+			.replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+			.replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+			.replace(/^\s*(#+|>|[-*] )\s*/gm, '')
+			.replace(/[*_`]+/g, ''));
+
+		if (text.length <= length) {
+			return text;
+		}
+
+		return text.slice(0, text.lastIndexOf(' ', length - 1)).replace(/[\s,.:;-]+$/, '') + '…';
+	});
+
+	config.addAsyncShortcode('ogImage', ogImage);
+	config.addFilter('ogImagePath', ogImage.path);
 
 	config.addFilter('findPost', function(slug) {
 		return this.ctx.collections.blog.filter(a => a.url == slug)[0];
