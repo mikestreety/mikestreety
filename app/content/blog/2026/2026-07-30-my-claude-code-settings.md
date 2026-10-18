@@ -4,6 +4,7 @@ intro: The settings I reach for when setting up Claude Code
 tags:
   - AI
   - General
+  - IDE
 ---
 
 I've recently been utilising and customising Claude Code more - rather than just sticking with what comes out of the box. With more and more of my colleagues and friends adopting AI (and, specifically, Claude), I thought I would share my go-to config when setting it all up.

@@ -5,8 +5,8 @@ intro: I reduced our Gitlab CI powered Docker build by 80% - taking it more than
 permalink: "blog/how-i-improved-the-speed-of-docker-builds-in-gitlab-ci/"
 tags:
   - Docker
-  - Gitlab
-  - Gitlab CI
+  - GitLab
+  - GitLab CI
 ---
 
 Our Gitlab CI powered Docker build is now 500% faster (I think?) - taking it more than 15 minutes to around 3 minutes to build and push to a registry.

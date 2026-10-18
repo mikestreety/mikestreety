@@ -4,7 +4,7 @@ date: 2023-09-07
 intro: How you build a Docker image with Github actions and push to the Github Package registry
 permalink: "blog/building-and-pushing-docker-images-using-github-actions/"
 tags:
- - Github
+ - GitHub
  - Docker
 ---
 

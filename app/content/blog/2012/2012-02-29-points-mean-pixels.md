@@ -5,7 +5,6 @@ updated: 2021-09-19
 intro: Points. A simple, barely-a-conference conference. For ease of reading, this post will follow a traditional approach with a modern twist&#58; Who, What, How Much, Where, When, Speakers, Sponsors Why.
 permalink: "blog/points-mean-pixels/"
 tags:
- - Web
  - Events
 ---
 

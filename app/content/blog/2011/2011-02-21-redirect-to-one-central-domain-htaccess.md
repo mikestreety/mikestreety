@@ -5,7 +5,6 @@ updated: 2016-04-08
 intro: If you would like to 'redirect' all your users to a central domain (for example if you would like all users to browse your site with the www or you have several parked domains)
 permalink: "blog/redirect-to-one-central-domain-htaccess/"
 tags:
- - Web
  - Server
  - Apache
 ---

@@ -7,10 +7,9 @@ canonical: https://www.liquidlight.co.uk/blog/article/html-newsletters-design-co
 who: Liquid Light
 permalink: "blog/html-newsletters-design-considerations/"
 tags:
- - Web
  - HTML
- - General
  - Thoughts
+ - Email
 ---
 
 Email newsletters are an effective way of letting your subscribers and customers know about news or upcoming offers. Normal text emails (or plain text emails) get the message across, but HTML emails make the information more attractive and appealing.

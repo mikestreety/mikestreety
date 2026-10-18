@@ -5,7 +5,6 @@ updated: 2016-04-08
 intro: Sometimes I wish we lived in a musical. Not not necessarily with all the singing but just with all that general happiness.
 permalink: "blog/public-relations/"
 tags:
- - General
  - Thoughts
 ---
 

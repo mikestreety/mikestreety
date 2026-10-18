@@ -5,9 +5,8 @@ updated: 2016-04-08
 intro: Just a short note on my Twitter series of posts! I thought i'd let you know about this tweeting kettle...or Twettle (seeing as it is on the title..). I ...
 permalink: "blog/twitter-twettle/"
 tags:
- - Web
- - General
  - Thoughts
+ - Twitter
 ---
 
 Just a short note on my Twitter series of posts!

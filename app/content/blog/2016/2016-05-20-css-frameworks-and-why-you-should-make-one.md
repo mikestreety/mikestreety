@@ -5,7 +5,6 @@ updated: 2021-03-19
 intro: With recent front-end twitter conversation turning to CSS frameworks, I went on a roller coaster of emotions but eventually settled on the above to sum up how I felt about the ordeal. Before we settle once more, let me take you on the journey I travelled.
 permalink: "blog/css-frameworks-and-why-you-should-make-one/"
 tags:
- - Web
  - CSS
 ---
 

@@ -5,8 +5,8 @@ intro: We keep a file in our package repositories which creates the CHANGELOG wi
 permalink: "blog/the-upcomingmd-file-in-our-packages-and-extensions/"
 tags:
  - Git
- - Github
- - Gitlab
+ - GitHub
+ - GitLab
 ---
 
 Every package that we maintain at Liquid Light, be it private or [open-source](https://github.com/orgs/liquidlight/repositories), all follow the same conventions.

@@ -5,7 +5,6 @@ updated: 2016-04-08
 intro: I’ve been commuting for nearly a year now. Proper commuting that is. Getting up at some unearthly hour to sit on a train for a bit. Living in a ...
 permalink: "blog/the-commute-the-rant/"
 tags:
- - General
  - Thoughts
 ---
 

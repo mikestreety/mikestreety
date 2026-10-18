@@ -5,7 +5,6 @@ updated: 2024-01-22
 intro: Progress of a bike build
 permalink: "blog/mike-builds-a-bike/"
 tags:
- - General
  - Thoughts
  - Cycling
 ---

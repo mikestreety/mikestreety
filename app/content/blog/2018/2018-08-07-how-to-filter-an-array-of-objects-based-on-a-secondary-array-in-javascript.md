@@ -5,8 +5,7 @@ updated: 2021-03-25
 intro: Sounds confusing, but there is a use-case, honest! Imagine you have an array with a set number of items in and you wanted to filter another array of objects based on that in your JavaScript. The post explains more!
 permalink: "blog/how-to-filter-an-array-of-objects-based-on-a-secondary-array-in-javascript/"
 tags:
- - Web
- - Javascript
+ - JavaScript
 ---
 
 _Was recently asked to help write some code for this scenario - just jotting it down in case I need it again!_

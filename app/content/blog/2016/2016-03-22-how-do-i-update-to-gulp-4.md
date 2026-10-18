@@ -7,7 +7,6 @@ canonical: https://www.liquidlight.co.uk/blog/how-do-i-update-to-gulp-4/
 who: Liquid Light
 permalink: "blog/how-do-i-update-to-gulp-4/"
 tags:
- - Web
  - Gulp
 ---
 

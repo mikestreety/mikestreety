@@ -5,8 +5,10 @@ updated: 2020-10-05
 intro: Walking through setting up Homebrew on your Mac, so you can install NPM and Eleventy.
 permalink: "blog/setting-up-homebrew-npm-and-eleventy-on-a-fresh-mac/"
 tags:
- - Web
  - Command Line
+ - Apple
+ - 11ty
+ - NPM
 ---
 
 I've recently reformatted my mac and was looking to [get started with Eleventy](https://www.11ty.dev/docs/getting-started/). Although, once you have Eleventy generating it creates static files, it requires NPM and Node to generate.

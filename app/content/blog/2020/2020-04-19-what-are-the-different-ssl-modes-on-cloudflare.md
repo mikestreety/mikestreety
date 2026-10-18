@@ -5,7 +5,6 @@ updated: 2021-01-14
 intro: Cloudflare has a few different options when it comes to selecting which TLS/SSL mode you should choose?
 permalink: "blog/what-are-the-different-ssl-modes-on-cloudflare/"
 tags:
- - Web
  - DevOps
  - Cloudflare
 ---

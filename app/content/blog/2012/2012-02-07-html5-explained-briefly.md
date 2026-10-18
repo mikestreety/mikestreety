@@ -5,7 +5,6 @@ updated: 2021-03-25
 intro: After reading the aforementioned HTML5 & CSS3 for the Real World book, I have come to realise that there are loads of changes included with HTML5.
 permalink: "blog/html5-explained-briefly/"
 tags:
- - Web
  - Front-end Development
  - HTML
 ---

@@ -5,7 +5,6 @@ updated: 2016-04-09
 intro: We've been going through a bit of a reshuffle at work with regards to our front-end conventions and layout.
 permalink: "blog/sass-rule-layout/"
 tags:
- - Web
  - CSS
  - SCSS
 ---

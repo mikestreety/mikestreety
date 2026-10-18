@@ -7,9 +7,10 @@ canonical: https://www.liquidlight.co.uk/blog/article/creating-svg-sprites-using
 who: Liquid Light
 permalink: "blog/creating-svg-sprites-using-gulp-and-sass/"
 tags:
- - Web
  - CSS
  - Gulp
+ - SVG
+ - SCSS
 ---
 
 {% raw %}

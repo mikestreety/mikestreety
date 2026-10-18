@@ -5,7 +5,6 @@ updated: 2021-09-19
 intro: When developing static sites (i.e. sites without any sort of CMS - be it Wordpress, Drupal etc.) the PHP I find the most valuable is the include.
 permalink: "blog/phpfed-includes/"
 tags:
- - Web
  - Front-end Development
  - PHP
  - PHPFED

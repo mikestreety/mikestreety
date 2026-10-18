@@ -5,9 +5,9 @@ updated: 2017-05-03
 intro: You may (or may not) have noticed that my site had a massive overhaul. With that overhaul, I changed CMS from Anchor to Craft.
 permalink: "blog/making-craft-cms-work-with-prism-js-using-pre-and-code-blocks/"
 tags:
- - Web
- - Javascript
+ - JavaScript
  - Front-end Development
+ - CMS
 ---
 
 You may (or may not) have noticed that my site had a massive overhaul. With that overhaul, I changed CMS from Anchor to Craft. Anchor was great, but didn't quite suit my needs. The nice thing about it is that you write your post in Markdown making code blocks quite easy. 

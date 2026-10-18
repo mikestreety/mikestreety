@@ -4,7 +4,7 @@ date: 2022-09-22
 intro: Adding categories/prefixes to your merge request comments help the author identify and compartmentalise comments and feedback
 permalink: blog/merge-request-conventions-for-less-cognitive-load/
 tags:
-  - Gitlab
+  - GitLab
   - Git
 ---
 

@@ -6,6 +6,7 @@ permalink: "blog/building-ale-house-rock-with-11ty/"
 tags:
  - 11ty
  - Cloudflare
+ - Projects
 ---
 
 ## Background

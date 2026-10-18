@@ -7,9 +7,9 @@ canonical: https://www.liquidlight.co.uk/blog/how-can-i-score-100-on-google-page
 who: Liquid Light
 permalink: "blog/how-can-i-score-100-on-google-pagespeed-insights/"
 tags:
- - Web
  - Google
  - Performance
+ - SEO
 ---
 
 PageSpeed Insights (PSI) is a tool developed by Google to rank the speed of your website. There are a few things it doesn’t look out for, such as code validation or usability but it’s a good starting point at getting your site up to scratch.

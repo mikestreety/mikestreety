@@ -5,8 +5,8 @@ updated: 2021-03-17
 intro: Changing permissions on files and folders can be tedious, so why not do it in one fell swoop?
 permalink: "blog/change-ownership-of-all-folders-and-subfolders-or-files/"
 tags:
- - Web
  - Command Line
+ - Server
 ---
 
 There are often times the permissions on files get a bit confounded and I wish to change them all the be a certain "number". This is different depending on if they are files or folders (and should _never_ be **777**).

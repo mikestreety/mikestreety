@@ -7,7 +7,6 @@ who: Liquid Light
 permalink: "blog/incremental-updates-dont-win-awards/"
 tags:
  - Thoughts
- - General
 ---
 
 The web industry thrives on “the big reveal”. Waiting until the last moment to launch a new website or show the client a full design. It lives on that thrill of the “will they/won’t they” mentality. Facebook updates, twitter refreshes, we’ve all been surprised or shocked by sudden changes (granted, we weren’t privy to the process) but you can sense the anticipation of getting a reaction from those involved. You just know they are waiting in the wings, watching for the gasps and feeding off the shocked tweets and status updates.

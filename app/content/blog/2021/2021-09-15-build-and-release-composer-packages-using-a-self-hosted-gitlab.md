@@ -4,7 +4,7 @@ intro: When developing with Composer, you may wish to create private packages an
 date: 2021-09-15
 permalink: "blog/build-and-release-composer-packages-using-a-self-hosted-gitlab/"
 tags:
- - Gitlab
+ - GitLab
  - Composer
 ---
 

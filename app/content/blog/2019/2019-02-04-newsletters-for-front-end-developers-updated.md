@@ -5,7 +5,6 @@ updated: 2019-08-12
 intro: Newsletters that I, as a front-end developer, have found extremely useful and insightful. This is a new list compared to the original from 2016!
 permalink: "blog/newsletters-for-front-end-developers-updated/"
 tags:
- - Web
  - Front-end Development
 ---
 

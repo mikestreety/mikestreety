@@ -4,6 +4,8 @@ intro: For transparency and audits, send Slack notifications when someone connec
 tags:
   - Command Line
   - Slack
+  - Server
+  - Security
 ---
 
 Keeping track of which developer is connecting to which server can be a job in itself. There are plenty of ways to handle it, from sending logs to dedicated software to writing them to a file that someone has to check manually.

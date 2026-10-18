@@ -5,8 +5,7 @@ updated: 2021-03-20
 intro: Recently I need to loop through elements on a page and, if the element had a background image apply a jQuery plugin. The plugin required the background image path & dimensions to function
 permalink: "blog/get-background-image-information-if-element-has-a-one-in-jquery/"
 tags:
- - Web
- - Javascript
+ - JavaScript
  - jQuery
 ---
 

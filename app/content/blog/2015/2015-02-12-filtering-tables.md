@@ -5,8 +5,7 @@ updated: 2021-03-20
 intro: I was recently asked by a friend how you would make a table filterable by using a select box & jQuery - for example "show me films made just in 2014.
 permalink: "blog/filtering-tables/"
 tags:
- - Web
- - Javascript
+ - JavaScript
  - jQuery
 ---
 

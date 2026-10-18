@@ -5,7 +5,6 @@ updated: 2021-03-20
 intro: This  PHP statement applies class="even" to every other element when in a loop.
 permalink: "blog/get-an-even-class/"
 tags:
- - Web
  - PHP
 ---
 

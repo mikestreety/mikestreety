@@ -5,9 +5,9 @@ updated: 2021-09-21
 intro: With the weekly golden nectar of Sass News winging its way into my inbox every week, I decided to take on the challenge of giving the newsletter a facelift
 permalink: "blog/remaking-the-sass-news-newsletter/"
 tags:
- - Web
  - Front-end Development
  - CSS
+ - Email
 ---
 
 With the weekly golden nectar of [Sass News](https://twitter.com/SassNews) winging its way into my inbox every week, I decided to take on the challenge of giving the newsletter a facelift.

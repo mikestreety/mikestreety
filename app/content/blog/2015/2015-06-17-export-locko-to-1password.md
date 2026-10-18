@@ -5,7 +5,6 @@ updated: 2021-03-20
 intro: Getting your passwords out of Locko into something else can be tricky due to their unique export format. This post helps with PHP
 permalink: "blog/export-locko-to-1password/"
 tags:
- - Web
  - PHP
 ---
 

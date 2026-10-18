@@ -6,7 +6,6 @@ intro: I have been searching for a solution to my problem for a while now and I 
 permalink: "blog/my-dream-multi-room-audio-with-chromecast-and-central-music-server/"
 tags:
  - Geekery
- - General
  - Thoughts
 ---
 

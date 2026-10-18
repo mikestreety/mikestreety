@@ -7,7 +7,6 @@ canonical: https://12devsofxmas.co.uk/2013/01/day-10-setting-up-a-local-developm
 who: 12 Devs of Christmas
 permalink: "blog/setting-up-a-local-development-server/"
 tags:
- - Web
  - Command Line
 ---
 

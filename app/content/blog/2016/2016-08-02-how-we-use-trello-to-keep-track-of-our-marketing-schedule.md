@@ -7,8 +7,6 @@ canonical: https://www.liquidlight.co.uk/blog/how-we-use-trello-to-keep-track-of
 who: Liquid Light
 permalink: "blog/how-we-use-trello-to-keep-track-of-our-marketing-schedule/"
 tags:
- - Web
- - General
  - Thoughts
 ---
 

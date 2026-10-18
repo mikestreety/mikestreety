@@ -7,7 +7,6 @@ canonical: https://www.liquidlight.co.uk/blog/why-should-you-consider-cloudflare
 who: Liquid Light
 permalink: "blog/why-should-you-consider-cloudflare-for-your-website/"
 tags:
- - Web
  - Cloudflare
 ---
 

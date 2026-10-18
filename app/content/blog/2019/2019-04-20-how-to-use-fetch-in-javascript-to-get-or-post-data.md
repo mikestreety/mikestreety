@@ -5,9 +5,9 @@ updated: 2021-03-28
 intro: Fetch is a fantastic JavaScript function which allows you to natively get and post data from the browser. This post includes some examples of how to use it.
 permalink: "blog/how-to-use-fetch-in-javascript-to-get-or-post-data/"
 tags:
- - Web
- - Javascript
+ - JavaScript
  - PHP
+ - API
 ---
 
 <div class="info">The code examples below are written in ES6/ES2015 code, if you require slightly older JavaScript, it can be converted to ES5 using <a href="https://es6console.com/">es6console</a></div>

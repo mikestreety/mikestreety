@@ -5,8 +5,6 @@ updated: 2021-03-20
 intro: I've always been keen to discover new newsletters and have always kept my eye out for recommendations. I decided to collate these recommendations and build a directory.
 permalink: "blog/email-subscribeto-a-newsletter-database/"
 tags:
- - Web
- - General
  - Thoughts
  - Projects
 ---

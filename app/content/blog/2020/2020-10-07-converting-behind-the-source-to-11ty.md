@@ -5,8 +5,8 @@ updated: 2021-03-19
 intro: I spent the week converting Behind the Source from Craft to Eleventy (a static site generator). Will I use it again?
 permalink: "blog/converting-behind-the-source-to-11ty/"
 tags:
- - Web
  - 11ty
+ - Projects
 ---
 
 Over the last week, I have taken upon the task of converting [Behind the Source](https://behindthesource.mikestreety.co.uk/) from Craft CMS to 11ty (said Eleventy).

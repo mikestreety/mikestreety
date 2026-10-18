@@ -7,7 +7,6 @@ canonical: https://www.sitepoint.com/12-favorite-atom-tips-and-shortcuts-to-impr
 who: Sitepoint
 permalink: "blog/12-favorite-atom-tips-and-shortcuts-to-improve-your-workflow/"
 tags:
- - Web
  - IDE
  - External
 ---

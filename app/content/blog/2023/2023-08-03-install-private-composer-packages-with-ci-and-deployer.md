@@ -5,7 +5,7 @@ intro: Using environment variables you can install private composer packages in 
 permalink: "blog/install-private-composer-packages-with-ci-and-deployer/"
 tags:
   - Composer
-  - Gitlab CI
+  - GitLab CI
   - Deployer
 ---
 

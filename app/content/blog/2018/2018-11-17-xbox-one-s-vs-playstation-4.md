@@ -5,7 +5,6 @@ updated: 2019-04-08
 intro: I recently sold my Xbox One S and bout a PlayStation 4 Pro. Why did I do this and what are the differences? This post outlines my thoughts from an "everyday consumer".
 permalink: "blog/xbox-one-s-vs-playstation-4/"
 tags:
- - General
  - Thoughts
 ---
 

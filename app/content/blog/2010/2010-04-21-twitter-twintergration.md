@@ -5,9 +5,8 @@ updated: 2016-04-08
 intro: Twitter, Twitter Twitter. How you have taken over the world? (And my life?) I have recently properly got into Twitter. Before it was just a laborious update to show I ...
 permalink: "blog/twitter-twintergration/"
 tags:
- - Web
- - General
  - Thoughts
+ - Twitter
 ---
 
 Twitter, Twitter Twitter.

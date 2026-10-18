@@ -5,6 +5,7 @@ intro: I set up a self-hosted read-only archive of my tweets
 tags:
  - Twitter
  - General
+ - Projects
 ---
 
 I finally [downloaded my ~Twitter~ X archive](https://help.twitter.com/en/managing-your-account/how-to-download-your-x-archive) as a trusty zip file and set up a version of [Tweetback](https://github.com/tweetback/tweetback).

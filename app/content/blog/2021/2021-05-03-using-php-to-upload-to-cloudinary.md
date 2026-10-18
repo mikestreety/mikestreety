@@ -6,7 +6,7 @@ permalink: "blog/using-php-to-upload-to-cloudinary/"
 tags:
  - Composer
  - PHP
- - Back-end Development
+ - Cloudinary
 ---
 
 I recently re-wrote [Ale House Rock](https://alehouse.rocks/) using 11ty to generate the list and individual pages for beer and breweries.

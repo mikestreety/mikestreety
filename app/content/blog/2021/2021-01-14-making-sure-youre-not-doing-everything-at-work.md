@@ -5,7 +5,6 @@ updated: 2021-01-14
 intro: Delegation is hard for people who find themselves in management roles. The trick is to be the overflow, not the gatekeeper.
 permalink: "blog/making-sure-youre-not-doing-everything-at-work/"
 tags:
- - General
  - Thoughts
 ---
 

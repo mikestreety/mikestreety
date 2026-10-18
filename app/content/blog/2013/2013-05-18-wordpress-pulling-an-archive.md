@@ -5,7 +5,6 @@ updated: 2020-04-15
 intro: As I mentioned in my first post I have made an archive of my previous Wordpress blog posts into a static page. This is done through some SQL and ...
 permalink: "blog/wordpress-pulling-an-archive/"
 tags:
- - Web
  - PHP
  - CMS
 ---

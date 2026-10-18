@@ -5,7 +5,7 @@ date: 2021-04-12
 permalink: "blog/build-an-11ty-calendar-to-list-all-your-posts/"
 tags:
  - 11ty
- - Javascript
+ - JavaScript
 ---
 {% raw %}
 

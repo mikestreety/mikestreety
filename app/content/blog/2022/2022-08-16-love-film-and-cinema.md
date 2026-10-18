@@ -4,7 +4,6 @@ date: 2022-08-16
 intro: Gone are the times where you would get a film in the post - how do we remove choice paralysis and actually watch a film?
 permalink: "blog/love-film-and-cinema/"
 tags:
- - General
  - Thoughts
 ---
 

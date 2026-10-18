@@ -4,7 +4,6 @@ intro: "What is a side project, if not a safe place to get imposter syndrome?"
 date: 2021-04-02
 permalink: "blog/side-project-imposter-syndrome/"
 tags:
- - General
  - Thoughts
 ---
 

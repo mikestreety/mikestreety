@@ -5,8 +5,8 @@ updated: 2021-03-20
 intro: Xen is a basic but powerful package for linux which allows you to create virtual machines, A rival to Vagrant, Xen has less configuration (but is potentially less "agile")
 permalink: "blog/getting-started-with-xen-setting-up-virtual-machines/"
 tags:
- - Web
  - Command Line
+ - Server
 ---
 
 At [work](https://www.liquidlight.co.uk/) we had a spare dev machine which we wanted to set up to run a [Gitlab runner](https://docs.gitlab.com/runner/) to run our Continuous Integration (CI) for our repositories. Rather than use the whole machine, we decided to create a VM to run it - allowing it its own little space.

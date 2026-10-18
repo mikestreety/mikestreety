@@ -7,7 +7,6 @@ canonical: https://www.liquidlight.co.uk/blog/how-to-become-device-agnostic-and-
 who: Liquid Light
 permalink: "blog/how-to-become-device-agnostic-and-what-it-means-for-your-data/"
 tags:
- - General
  - Thoughts
 ---
 

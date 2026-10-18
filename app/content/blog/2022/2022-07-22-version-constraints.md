@@ -6,6 +6,7 @@ permalink: "blog/version-constraints-in-json-files/"
 tags:
  - Composer
  - NPM
+ - JSON
 ---
 
 While running through my "recent" [11ty upgrade](/blog/upgrading-11ty-from-0-12-to-1-0/) I got caught out by a version contain syntax difference between Composer and NPM.

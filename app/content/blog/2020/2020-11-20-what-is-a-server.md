@@ -7,6 +7,7 @@ who: Liquid Light
 permalink: "blog/what-is-a-server/"
 tags:
  - General
+ - Server
 ---
 
 Servers power the internet and have done since the creation of it. All the websites in the world run on servers (with varying levels of web interfaces & logins). So what are they, how do they work and what do Liquid Light typically use?

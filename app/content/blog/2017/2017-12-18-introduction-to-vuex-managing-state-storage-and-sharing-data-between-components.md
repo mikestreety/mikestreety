@@ -5,9 +5,8 @@ updated: 2021-03-30
 intro: "This blog post covers the initialisation and basic usage of Vuex - a central store for your Vue applications. It covers the basics of the four main components of Vuex: the state, mutations, actions and getters."
 permalink: "blog/introduction-to-vuex-managing-state-storage-and-sharing-data-between-components/"
 tags:
- - Web
  - Front-end Development
- - VueJS
+ - Vue
 ---
 
 <div class="info">I wrote a book about Vue.js! <a href="https://www.packtpub.com/en-us/product/vuejs-2x-by-example-9781788297479">Vue.js 2.x by Example</a> is available as from Packt and covers Vue, Vuex and VueRouter.</div>

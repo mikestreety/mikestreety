@@ -5,9 +5,9 @@ updated: 2021-02-23
 intro: I have recently made a side project called "Socket RSS". The idea is it becomes a place for Gleefreshing, not Doomscrolling.
 permalink: "blog/socket-rss-making-rss-your-mindless-scrolling-app/"
 tags:
- - Web
- - General
  - Thoughts
+ - RSS
+ - Projects
 ---
 
 I love RSS, I love how it is like a social network without any of the nonsense. No-one seems to write flippant comments on their blog. They tend to be good, wholesome, educational content (certainly the blogs I follow are...)

@@ -5,8 +5,7 @@ updated: 2021-03-19
 intro: Using a Share This plugin (or similar) or the native sharing widgets from social networks can really bloat your page and look ugly. This code is how we, at Liquid Light, implement social sharing widgets
 permalink: "blog/build-your-own-share-this-component/"
 tags:
- - Web
- - Javascript
+ - JavaScript
  - jQuery
 ---
 

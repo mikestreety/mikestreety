@@ -5,8 +5,9 @@ updated: 2020-06-12
 intro: I set up Tiny Tiny RSS as a self-hosted feed reader, but it wasn't clear how get the application to fetch RSS feeds in the background. This blog post gives a walkthrough
 permalink: "blog/setting-up-tiny-tiny-rss/"
 tags:
- - Web
  - Command Line
+ - RSS
+ - Server
 ---
 
 I've always been a big fan of RSS and have used a desktop application ([Reeder](https://reederapp.com/) was my go-to) for many years. However, with the recent COVID-19 pandemic and a slight shift in our practices at work to allow more working from home, I found I was going several days without getting to check up on my feeds.

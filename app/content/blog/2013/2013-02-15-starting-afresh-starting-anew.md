@@ -5,7 +5,6 @@ updated: 2019-03-27
 intro: So like my good friends Anthony and Kris, I've realised how little i've blogged over the last year. Looking at my archive the last 6 months of 2012 played host to just 1 ...
 permalink: "blog/starting-afresh-starting-anew/"
 tags:
- - General
  - Thoughts
 ---
 

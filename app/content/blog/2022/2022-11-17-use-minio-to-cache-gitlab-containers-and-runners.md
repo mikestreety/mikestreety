@@ -4,8 +4,8 @@ date: 2022-11-17
 intro: Gitlab can utilise MinIO (S3 replacement) for caching built images, packages, uploads and for runner caches
 permalink: blog/use-minio-to-cache-gitlab-containers-and-runners/
 tags:
-  - Gitlab CI
-  - Gitlab
+  - GitLab CI
+  - GitLab
   - Docker
 ---
 

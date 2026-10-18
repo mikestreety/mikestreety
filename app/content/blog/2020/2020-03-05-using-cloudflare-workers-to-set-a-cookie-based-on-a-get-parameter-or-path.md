@@ -5,9 +5,7 @@ updated: 2021-04-01
 intro: An example of how to use Cloudflare Workers to set a cookie on your page without modifying code on your server. This Worker can set a cookie based on either a GET parameter in the URL or a particular file path
 permalink: "blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path/"
 tags:
- - Web
  - Front-end Development
- - Back-end Development
  - Cloudflare
 ---
 

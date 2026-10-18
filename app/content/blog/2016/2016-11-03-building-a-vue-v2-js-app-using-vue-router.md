@@ -7,10 +7,9 @@ canonical: https://www.liquidlight.co.uk/blog/building-a-vue-v2-js-app-using-vue
 who: Liquid Light
 permalink: "blog/building-a-vue-v2-js-app-using-vue-router/"
 tags:
- - Web
- - Javascript
+ - JavaScript
  - Front-end Development
- - VueJS
+ - Vue
 ---
 {% raw %}
 

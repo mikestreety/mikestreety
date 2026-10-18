@@ -5,7 +5,6 @@ updated: 2021-03-19
 intro: Whenever I am thinking about making a significant purchase, I always hunt around for reviews, check out blogs and generally search the web for word, be it good or bad.
 permalink: "blog/dahon-vitesse-speed-d7/"
 tags:
- - General
  - Thoughts
  - Cycling
 ---

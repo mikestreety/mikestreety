@@ -5,9 +5,8 @@ updated: 2021-03-30
 intro: In the second part of this series, we cover implementing a Vuex Store into a Vue.js application
 permalink: "blog/introduction-to-vuex-implementation-part-2-video/"
 tags:
- - Web
  - Front-end Development
- - VueJS
+ - Vue
 ---
 
 <div class="info">I wrote a book about Vue.js! <a href="https://www.packtpub.com/en-us/product/vuejs-2x-by-example-9781788297479">Vue.js 2.x by Example</a> is available as from Packt and covers Vue, Vuex and VueRouter.</div>

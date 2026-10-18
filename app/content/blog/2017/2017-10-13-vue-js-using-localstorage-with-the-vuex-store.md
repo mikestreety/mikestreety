@@ -5,10 +5,9 @@ updated: 2020-06-11
 intro: Using the browser's localStorage we can create a Vue app which has its Vuex store cached. This allows the user to navigate away from the app and not lose their preferences.
 permalink: "blog/vue-js-using-localstorage-with-the-vuex-store/"
 tags:
- - Web
- - Javascript
+ - JavaScript
  - Front-end Development
- - VueJS
+ - Vue
 ---
 
 <div class="info">I wrote a book about Vue.js! <a href="https://www.packtpub.com/en-us/product/vuejs-2x-by-example-9781788297479">Vue.js 2.x by Example</a> is available as from Packt and covers Vue, Vuex and VueRouter.</div>

@@ -6,6 +6,7 @@ intro: Posts round here have been a bit quite because my time has been taken up 
 permalink: "blog/hovelo-a-new-hove-based-cycling-group/"
 tags:
  - Cycling
+ - Community
 ---
 
 Posts round here have been a bit quite because my time has been taken up by starting a new cycling club - [Hovélo](https://www.hovelo.co.uk)

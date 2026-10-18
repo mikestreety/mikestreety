@@ -5,7 +5,6 @@ updated: 2016-11-17
 intro: There is so much information on the web these days about development, that I often miss out on things on twitter. For that reason, I find HTML newsletters amazingly simple but wonderfully nutritional for my front-end developer brain.
 permalink: "blog/newsletters-for-front-end-developers/"
 tags:
- - Web
  - Front-end Development
 ---
 

@@ -7,9 +7,9 @@ canonical: https://www.liquidlight.co.uk/blog/schema-what-is-it-and-how-do-i-use
 who: Liquid Light
 permalink: "blog/schema-what-is-it-and-how-do-i-use-it/"
 tags:
- - Web
  - Front-end Development
  - HTML
+ - SEO
 ---
 
 ## What is Schema?

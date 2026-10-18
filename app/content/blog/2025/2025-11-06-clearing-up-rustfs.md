@@ -3,6 +3,8 @@ title: Keeping RustFS clear of old assets
 intro: How to delete old files to save server space
 tags:
   - Command Line
+  - Server
+  - Docker
 ---
 
 After having [RustFS](/blog/setting-up-rustfs-as-an-amazon-s3-replacement/) running as our [Gitlab CI cache](/blog/use-minio-to-cache-gitlab-containers-and-runners/) for a few weeks the server (as expected) filled up.

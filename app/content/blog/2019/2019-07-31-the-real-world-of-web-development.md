@@ -5,8 +5,6 @@ updated: 2019-11-11
 intro: I read "The Real Dark Web", a blog post from @whalecoiner and within a few paragraphs it really hit home. There are a few noisy web developers who are innovating, ...
 permalink: "blog/the-real-world-of-web-development/"
 tags:
- - Web
- - General
  - Thoughts
 ---
 

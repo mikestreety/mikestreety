@@ -5,8 +5,9 @@ updated: 2021-02-20
 intro: I recently migrated our Gitlab server install from one server to another. With the help of a few tutorials it was fairly painless, however I thought I would outline the steps here
 permalink: "blog/migrating-gitlab-from-one-server-to-another/"
 tags:
- - Web
  - DevOps
+ - GitLab
+ - Server
 ---
 
 I recently migrated our Gitlab server install from one server to another. With the help of a few tutorials scattered around, it was fairly painless. I thought I would outline the steps here as there were a couple of bits that tripped me up.

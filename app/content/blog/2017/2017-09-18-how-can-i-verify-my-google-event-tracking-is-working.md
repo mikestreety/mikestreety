@@ -7,7 +7,6 @@ canonical: https://www.liquidlight.co.uk/blog/how-can-i-verify-my-google-event-t
 who: Liquid Light
 permalink: "blog/how-can-i-verify-my-google-event-tracking-is-working/"
 tags:
- - Web
  - Google
  - Analytics
 ---

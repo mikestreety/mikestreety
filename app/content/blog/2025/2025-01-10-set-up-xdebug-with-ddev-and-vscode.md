@@ -3,6 +3,8 @@ title: Set up Xdebug with DDEV and VS Code
 intro: Straight-forward config for beginning PHP debugging in VS Code and DDEV
 tags:
  - PHP
+ - DDEV
+ - IDE
 ---
 
 I don't set up Xdebug regularly enough to remember all the steps and processes in place. These steps are documented really well in the [DDEV Documentation](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug) however with those needing to cater to the many, I sometimes get waylaid or confused finding the steps for me.

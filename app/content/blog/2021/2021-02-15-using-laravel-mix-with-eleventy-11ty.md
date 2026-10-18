@@ -5,7 +5,6 @@ updated: 2021-02-11
 intro: Laravel Mix is a great asset compiler from the creators of Laravel - but you don't have to be using their framework to benefit from it. This blog walks through setting it up to run with 11ty.
 permalink: "blog/using-laravel-mix-with-eleventy-11ty/"
 tags:
- - Web
  - Front-end Development
  - 11ty
  - Laravel

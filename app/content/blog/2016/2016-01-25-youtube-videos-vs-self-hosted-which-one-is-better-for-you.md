@@ -9,7 +9,6 @@ canonical: https://www.liquidlight.co.uk/blog/youtube-videos-vs-self-hosted-whic
 who: Liquid Light
 permalink: blog/youtube-videos-vs-self-hosted-which-one-is-better-for-you/
 tags:
-- General
 - Thoughts
 
 ---

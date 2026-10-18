@@ -5,7 +5,6 @@ updated: 2016-04-08
 intro: So you've got a brand new website that you want to promote? Recently I finished a website for Frag Records. Once completed they asked me for some hints and tips ...
 permalink: "blog/the-next-step/"
 tags:
- - Web
  - General
 ---
 

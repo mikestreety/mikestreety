@@ -5,7 +5,6 @@ updated: 2021-04-04
 intro: CSS, or Cascading Style Sheets are the easiest, cleanest and most accessible way of styling a website. Tables were previously used to position objects on the page and CSS used just to make the text look pretty. Now CSS is being relied more and more to position images, text, add spacing to websites and bring the whole site together.
 permalink: "blog/css-the-basics/"
 tags:
- - Web
  - Front-end Development
  - CSS
  - HTML

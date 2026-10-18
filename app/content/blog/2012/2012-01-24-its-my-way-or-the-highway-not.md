@@ -5,7 +5,6 @@ updated: 2021-03-25
 intro: Recently with the spate of CSS3 and media queries, there has been a few debates over how development should be done.
 permalink: "blog/its-my-way-or-the-highway-not/"
 tags:
- - Web
  - CSS
 ---
 

@@ -7,8 +7,8 @@ canonical: https://www.liquidlight.co.uk/blog/article/responsive-typography-in-s
 who: Liquid Light
 permalink: "blog/responsive-typography-in-scss/"
 tags:
- - Web
  - CSS
+ - SCSS
 ---
 
 Making sure your typography is readable on every display is arguably one of the most important aspects of front-end development. If your users can’t read the content on the site, then there is generally no point in having one.

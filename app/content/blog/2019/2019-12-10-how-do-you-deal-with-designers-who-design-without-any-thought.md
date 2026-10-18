@@ -7,9 +7,7 @@ canonical: https://www.liquidlight.co.uk/blog/how-do-you-deal-with-designers-who
 who: Liquid Light
 permalink: "blog/how-do-you-deal-with-designers-who-design-without-any-thought/"
 tags:
- - Web
  - Front-end Development
- - General
  - Thoughts
 ---
 

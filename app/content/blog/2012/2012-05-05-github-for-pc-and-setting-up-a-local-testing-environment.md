@@ -4,9 +4,9 @@ date: 2012-05-05
 updated: 2021-09-19
 permalink: "blog/github-for-pc-and-setting-up-a-local-testing-environment/"
 tags:
- - Web
  - Git
  - Geekery
+ - GitHub
 ---
 
 <div class="info"><strong>Note</strong>: This post is from 2012 this is no doubt ouf-of-date. I've not used Windows since 2014 so cannot verify how accurate this post is.</div>

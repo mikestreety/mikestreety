@@ -7,8 +7,8 @@ canonical: https://www.liquidlight.co.uk/blog/render-conf-30th-march-2017-a-revi
 who: Liquid Light
 permalink: "blog/render-conf-30th-march-2017-a-review/"
 tags:
- - General
  - Thoughts
+ - Events
 ---
 
 On 30th March, I took the many trains over the many hours required to get to Oxford from Brighton and attended Render Conf. In it’s second year, this conference already seems to have gained quite an online following. The line-up was jam-packed full of reputable names you’ve heard and people with brains jam-packed full of info.

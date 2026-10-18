@@ -5,7 +5,7 @@ intro: 11ty filters can exist as JS functions inside the declared filters direct
 permalink: "blog/accessing-11ty-filters-within-data-files/"
 tags:
  - 11ty
- - Javascript
+ - JavaScript
 ---
 
 

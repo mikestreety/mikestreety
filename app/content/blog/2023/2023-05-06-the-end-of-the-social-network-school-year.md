@@ -4,7 +4,6 @@ date: 2023-05-06
 intro: Twitter has gone down the drain and, with it, the sense of community I used to have
 permalink: "blog/the-end-of-the-social-network-school-year/"
 tags:
- - General
  - Thoughts
 ---
 

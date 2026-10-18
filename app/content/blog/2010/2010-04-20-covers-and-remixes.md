@@ -5,7 +5,6 @@ updated: 2021-03-19
 intro: I have always been a music fan. Playing violin from the age of 7 and progressing onto guitar, the musical world has always intrigued me.
 permalink: "blog/covers-and-remixes/"
 tags:
- - General
  - Thoughts
  - Music
 ---

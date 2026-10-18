@@ -5,7 +5,6 @@ updated: 2021-01-14
 intro: Serverless & Cloudflare workers have been cropping up a lot recently. I try to organise my thoughts into what they are and how you can use them
 permalink: "blog/what-are-cloud-functions-cloudflare-workers-and-serverless/"
 tags:
- - Web
  - DevOps
  - Cloudflare
 ---

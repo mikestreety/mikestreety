@@ -5,8 +5,8 @@ updated: 2021-03-20
 intro: I needed to locate any folder following a particular pattern that did not have a particular file. The command allows you to locate the folders and perform actions on them.
 permalink: "blog/find-folders-on-a-linux-server-that-do-not-have-a-file/"
 tags:
- - Web
  - Command Line
+ - Server
 ---
 
 At [work](https://www.liquidlight.co.uk/) we have a `post-merge` hook which fires whenever a merge is completed. This hook asks the user if they want to delete the branch they are merging from. Since this was set up, there have been a few sites that have escaped having this installed, so I wanted to locate all the `.git/hooks` folders without this particular file:

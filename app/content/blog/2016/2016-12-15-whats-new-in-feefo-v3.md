@@ -7,7 +7,7 @@ canonical: https://www.liquidlight.co.uk/blog/whats-new-in-feefo-v3/
 who: Liquid Light
 permalink: "blog/whats-new-in-feefo-v3/"
 tags:
- - Web
+ - General
 ---
 
 Feefo, the customer feedback and review website, launched version 3 of their product at the end of September. Although customers had no choice to be updated to version 3, what does this mean for users, customers and developers using the platform? 

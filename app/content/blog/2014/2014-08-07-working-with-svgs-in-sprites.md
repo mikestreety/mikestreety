@@ -7,7 +7,6 @@ canonical: https://www.liquidlight.co.uk/blog/article/working-with-svgs-in-sprit
 who: Liquid Light
 permalink: "blog/working-with-svgs-in-sprites/"
 tags:
- - Web
  - CSS
  - SVG
 ---

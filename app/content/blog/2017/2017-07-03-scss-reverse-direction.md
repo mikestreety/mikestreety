@@ -5,7 +5,6 @@ updated: 2017-07-03
 intro: There may be a point in your CSS coding that you want to know the opposite of a direction (e.g. up, down). This function allows you to pass it a direction and get the opposite back!
 permalink: "blog/scss-reverse-direction/"
 tags:
- - Web
  - CSS
  - SCSS
 ---

@@ -5,9 +5,8 @@ updated: 2021-03-19
 intro: I've recently moved all of my git repositories to Gitlab, this blog post walks through a script I have written to clone all of my repositories locally as a backup.
 permalink: "blog/backup-gitlab-data-locally/"
 tags:
- - Web
  - PHP
- - Gitlab
+ - GitLab
 ---
 
 For a while, I hosted my own version of [Gitlab](https://gitlab.com/) and, although I owned all the data, the server I had was not powerful enough for the install and would regularly crash and need rebooting. Moving my data across to the main Gitlab site gave me peace of mind that my data was always accessible no matter what time, however, I had less control over the data itself and no way of easily backing it up.

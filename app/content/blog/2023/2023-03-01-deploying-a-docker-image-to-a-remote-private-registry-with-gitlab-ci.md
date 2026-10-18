@@ -5,8 +5,8 @@ intro: Deploying an image to a remote Docker registry can be achieved with Gitla
 permalink: "blog/deploying-a-docker-image-to-a-remote-private-registry-with-gitlab-ci/"
 tags:
   - Docker
-  - Gitlab
-  - Gitlab CI
+  - GitLab
+  - GitLab CI
 ---
 
 I am a huge fan of [Gitlab](/category/gitlab/). What you are able to get on the free tier is incredible (although I do wish their Premium tier was slightly cheaper, but I digress) and the processes and optimisations it unlocks is infinite. The CI/Pipelines are such a powerful tool (but are by no means easy to get started with). The world of Gitlab CI is mind boggling, the syntax is confusing and debugging is near impossible, however every now and then you get it right and tingle of success flutters through you.

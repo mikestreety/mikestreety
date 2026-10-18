@@ -5,7 +5,7 @@ intro: Use a Netlify function to return a Zip file using jszip
 permalink: blog/return-a-zip-file-in-node-with-a-netlify-function/
 tags:
   - Netlify
-  - Javascript
+  - JavaScript
   - Node
 ---
 

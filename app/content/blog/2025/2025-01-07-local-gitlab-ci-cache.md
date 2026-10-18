@@ -2,7 +2,8 @@
 title: Use local filesystem for Gitlab CI cache
 intro: Whether it be a mounted drive or just a local filesystem - how do you store your global runner caches locally?
 tags:
- - Gitlab
+ - GitLab
+ - GitLab CI
 ---
 
 Despite happily [using Minio to store my runner caches](/blog/use-minio-to-cache-gitlab-containers-and-runners/) for a few years now, I've been looking for a way to store my global Gitlab CI runner caches on the local filesystem.

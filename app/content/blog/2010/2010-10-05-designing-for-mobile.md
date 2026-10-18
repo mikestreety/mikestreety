@@ -5,7 +5,6 @@ updated: 2021-03-19
 intro: Recently I was tasked to transform a full website into a stripped down mobile version for those visiting on their i-whatsits.
 permalink: "blog/designing-for-mobile/"
 tags:
- - Web
  - Front-end Development
 ---
 

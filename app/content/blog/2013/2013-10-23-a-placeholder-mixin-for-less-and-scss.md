@@ -5,7 +5,6 @@ updated: 2021-03-17
 intro: Creating a Less mixin to style input placeholders without using an autoprefixer
 permalink: "blog/a-placeholder-mixin-for-less-and-scss/"
 tags:
- - Web
  - CSS
  - Less
  - SCSS

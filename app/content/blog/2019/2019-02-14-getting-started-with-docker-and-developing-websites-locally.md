@@ -5,9 +5,8 @@ updated: 2021-03-20
 intro: Docker allows you to host websites locally, which allows you can develop them within an environment which can be an exact replica of the live one. This blog post explores my first experience with Docker.
 permalink: "blog/getting-started-with-docker-and-developing-websites-locally/"
 tags:
- - Web
  - Command Line
- - Back-end Development
+ - Docker
 ---
 
 I've never used Docker before and found it quite daunting getting started. It is something I've had my eye on for a while for developing my personal website in a consistent environment.

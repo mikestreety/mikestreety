@@ -3,6 +3,8 @@ title: An unexpected hostname and how I checked before I panicked
 intro: I noticed my computer had an unusual hostname - how to check before you worry about being hacked
 tags:
   - Command Line
+  - Apple
+  - Security
 ---
 
 The other day I opened my terminal and noticed I was `mike@Clearpeak`. Considering this was my work computer (and Liquid Light is nothing like Clearpeak) alarm bells started ringing.

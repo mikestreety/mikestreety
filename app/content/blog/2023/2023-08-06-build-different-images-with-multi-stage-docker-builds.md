@@ -5,7 +5,7 @@ intro: Using multi-stage Docker builds you can create incremental images allowin
 permalink: "blog/build-different-images-with-multi-stage-docker-builds/"
 tags:
  - Docker
- - Gitlab CI
+ - GitLab CI
 ---
 
 I've written before about [multi-stage Docker builds](https://www.mikestreety.co.uk/blog/creating-a-multi-stage-docker-build-to-make-your-images-smaller/) to help you make smaller images, however today I discovered you can build images out of each of the stages.

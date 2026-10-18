@@ -5,7 +5,7 @@ updated: 2021-03-19
 intro: Many a times I have dealt with various companies and agencies about pointing different domains at our servers - what shocked me is the basic level of understanding, most of the time, is 0. I thought I would dump my brain about domains and whatnot, because then even if everyone has a basic understanding, life will be good.
 permalink: "blog/domains-pitfalls-and-propagation/"
 tags:
- - Web
+ - DNS
 ---
 
 Many a times I have dealt with various companies and agencies about pointing different domains at our servers - what shocked me is the basic level of understanding, most of the time, is 0. I thought I would dump my brain about domains and whatnot, because then even if everyone has a basic understanding, life will be good.

@@ -5,7 +5,6 @@ updated: 2016-04-08
 intro: An app for working out ratios
 permalink: "blog/ratio-a-mikestreety-app/"
 tags:
- - Web
  - Projects
 ---
 

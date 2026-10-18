@@ -4,7 +4,6 @@ date: '2023-02-19T00:00:00.000Z'
 intro: Writing evergreen content is the golden egg, but it's not as easy as one might think
 permalink: blog/writing-more-evergreen-blog-post-topics/
 tags:
-  - General
   - Thoughts
 ---
 

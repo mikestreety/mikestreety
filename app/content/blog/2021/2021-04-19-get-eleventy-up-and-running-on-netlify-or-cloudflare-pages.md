@@ -8,8 +8,8 @@ tags:
  - DevOps
  - 11ty
  - Netlify
- - Github
- - Gitlab
+ - GitHub
+ - GitLab
  - Cloudflare
 ---
 

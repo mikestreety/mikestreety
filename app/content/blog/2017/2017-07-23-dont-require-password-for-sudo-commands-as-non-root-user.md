@@ -5,8 +5,8 @@ updated: 2021-03-19
 intro: Sometimes you don't want to have to enter your password every time you run a sudo command - this blog post walks you through disabling that.
 permalink: "blog/dont-require-password-for-sudo-commands-as-non-root-user/"
 tags:
- - Web
  - Command Line
+ - Server
 ---
 
 I've recently got a new home server which will run little commands and processes at home. As is good practice - I've **disabled root login** and created a user with sudo privileges. This step is actually during the Debian install, so it was fairly easy to do.

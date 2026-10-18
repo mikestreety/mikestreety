@@ -5,7 +5,6 @@ updated: 2020-12-11
 intro: For regular readers, you will notice a fresh new face on the old dog (my first blog post that made the many migrations was from 2009!).
 permalink: "blog/mikestreetys-new-clothes/"
 tags:
- - General
  - Thoughts
 ---
 

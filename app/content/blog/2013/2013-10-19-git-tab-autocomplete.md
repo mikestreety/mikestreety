@@ -5,7 +5,6 @@ updated: 2021-03-20
 intro: A quick tip on how to enable git autocompletion on the command line
 permalink: "blog/git-tab-autocomplete/"
 tags:
- - Web
  - Command Line
  - Git
 ---

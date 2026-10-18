@@ -5,7 +5,6 @@ updated: 2021-09-19
 intro: Recently, a few friends of mine have been asking questions about PHP and want to learn the basics. I am a front-end developer for a web design agency. i.e. I mainly stick to HTML/CSS and have colleagues who do the heavy PHP stuff
 permalink: "blog/php-for-front-end-devs-the-story/"
 tags:
- - Web
  - Front-end Development
  - PHP
  - PHPFED

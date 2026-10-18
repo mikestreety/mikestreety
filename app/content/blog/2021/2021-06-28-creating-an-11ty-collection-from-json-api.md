@@ -6,6 +6,7 @@ permalink: "blog/creating-an-11ty-collection-from-json-api/"
 tags:
  - JSON
  - 11ty
+ - API
 ---
 
 {% raw %}

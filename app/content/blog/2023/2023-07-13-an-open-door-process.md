@@ -4,7 +4,6 @@ date: 2023-07-16
 intro: Appointments help us arrange meetings with other staff members without forcing them to context switch.
 permalink: "blog/open-door-meetings-at-work/"
 tags:
- - General
  - Thoughts
 ---
 

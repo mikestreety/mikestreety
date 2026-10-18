@@ -5,7 +5,6 @@ updated: 2021-03-28
 intro: It may be that you wish to include a lot of information in a Github issue (or anywhere else on the web that allows HTML) but don't want the code/error to fill out the page. Luckily, there is a way to collapse it using latest HTML tags.
 permalink: "blog/html-5-collapsable-information-works-in-a-github-gitlab-issue/"
 tags:
- - Web
  - HTML
 ---
 

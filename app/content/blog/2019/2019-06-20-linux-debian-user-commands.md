@@ -5,7 +5,6 @@ updated: 2021-04-02
 intro: To save me Googling, I have collated all the user-related commands I often use - particularly useful when setting up a new VM!
 permalink: "blog/linux-debian-user-commands/"
 tags:
- - Web
  - Command Line
  - Server
 ---

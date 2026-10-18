@@ -5,8 +5,8 @@ updated: 2019-07-25
 intro: How to set up a new VPS with all the expected features and functionality
 permalink: "blog/set-up-a-new-virtual-private-server-vps/"
 tags:
- - Web
  - Command Line
+ - Server
 ---
 
 <div class="info">Please note, these commands and steps have worked for me. I know a small bit about servers but not enough to take responsibility for anything in this post - enter the commands at your own risk!</div>

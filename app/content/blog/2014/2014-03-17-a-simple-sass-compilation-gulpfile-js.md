@@ -5,9 +5,9 @@ updated: 2021-03-17
 intro: This post introduces how to compile SCSS with Gulp along with some core concepts
 permalink: "blog/a-simple-sass-compilation-gulpfile-js/"
 tags:
- - Web
  - CSS
  - Gulp
+ - SCSS
 ---
 
 <div class="info"><strong>Note</strong>: This post is from 2014 and so some links or practices may not be those advised today. It also uses Gulp 3 and so may not work with Gulp 4</div>

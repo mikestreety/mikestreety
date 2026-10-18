@@ -7,7 +7,6 @@ canonical: https://www.creativebloq.com/netmag/start-your-own-event-8126128
 who: .net magazine
 permalink: "blog/start-your-own-event/"
 tags:
- - General
  - Thoughts
  - Events
 ---

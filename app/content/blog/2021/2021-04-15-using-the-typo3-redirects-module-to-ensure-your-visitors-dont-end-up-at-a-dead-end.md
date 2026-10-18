@@ -6,8 +6,8 @@ canonical: https://www.liquidlight.co.uk/blog/using-the-typo3-redirects-module-t
 who: Liquid Light
 permalink: "blog/using-the-typo3-redirects-module-to-ensure-your-visitors-dont-end-up-at-a-dead-end/"
 tags:
- - Web
  - TYPO3
+ - SEO
 ---
 
 In TYPO3 v9, a new module was added - **Redirects**. This allows site-editors a central place to create, edit and remove redirects within the site. This gives the administrators the flexibilty to create redirects where they see fit, manage 404s and ensure vistors don't end up at dead ends.

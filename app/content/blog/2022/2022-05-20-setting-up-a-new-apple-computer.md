@@ -5,6 +5,7 @@ intro: What steps do I go through when setting up a new computer?
 permalink: "blog/setting-up-a-new-apple-computer/"
 tags:
  - General
+ - Apple
 ---
 
 <div class="info"><p><strong>Note:</strong> I've had these notes sitting round for a few months, but they are a good starting place for anyone setting up a new Apple computer</p></div>

@@ -3,6 +3,8 @@ title: Setting up RustFS as an Amazon S3 replacement
 intro: Replacing Amazon S3 and/or MinIO with RustFS
 tags:
   - Command Line
+  - Server
+  - Docker
 ---
 
 I was at [TYPO3 Camp London](https://t3cl25.typo3.com/) recently when Martin Helmich casually dropped that [RustFS](https://rustfs.com/en/) was a solid MinIO replacement. That got my attention.

@@ -3,6 +3,8 @@ title: Setting up a central bastion/jump server
 intro: Having a central host your team uses for SSH connections centralises configuration
 tags:
   - Command Line
+  - Server
+  - Security
 ---
 
 With several developers and a great deal of production servers we need access to, managing SSH keys and access across them all was getting complex with potential for mistakes and missed authentication.

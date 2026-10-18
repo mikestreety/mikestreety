@@ -5,10 +5,9 @@ updated: 2018-01-04
 intro: This quick video walkthrough shows how you can replace any URL parameters in your components with props and how to pass them through from vue router to access them within your component
 permalink: "blog/using-props-for-accessing-url-parameters-within-components-with-vue-router/"
 tags:
- - Web
- - Javascript
+ - JavaScript
  - Front-end Development
- - VueJS
+ - Vue
  - Video
 ---
 

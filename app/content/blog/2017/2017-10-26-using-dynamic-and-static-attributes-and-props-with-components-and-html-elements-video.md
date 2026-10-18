@@ -5,9 +5,8 @@ updated: 2018-01-04
 intro: This Vue.js tutorial explains the difference between dynamic and static attributes and props. It shows how you can pass variables to components or other HTML elements to display dynamic contents.
 permalink: "blog/using-dynamic-and-static-attributes-and-props-with-components-and-html-elements-video/"
 tags:
- - Web
  - Front-end Development
- - VueJS
+ - Vue
  - Video
 ---
 

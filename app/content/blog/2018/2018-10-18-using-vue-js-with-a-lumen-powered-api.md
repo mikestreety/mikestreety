@@ -7,9 +7,10 @@ canonical: https://www.liquidlight.co.uk/blog/using-vuejs-with-a-lumen-powered-a
 who: Liquid Light
 permalink: "blog/using-vue-js-with-a-lumen-powered-api/"
 tags:
- - Web
  - PHP
- - VueJS
+ - Vue
+ - Laravel
+ - API
 ---
 
 Lumen is a micro-framework from the creators of Laravel. Using Laravel methodology, Lumen offers a leaner, cut-down version of the framework. By including less code, Lumen is able to offer a significantly faster codebase than its competitors and even its bigger brother, Laravel.

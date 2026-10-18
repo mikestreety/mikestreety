@@ -5,9 +5,7 @@ updated: 2020-07-06
 intro: It seems I have been doing a lot of command line work on Debian with MySQL recently and have been having to search the internet (or my bash history) every time I need to do something. Here is a collection of commands I have been using
 permalink: "blog/useful-command-line-mysql-commands/"
 tags:
- - Web
  - Command Line
- - Back-end Development
  - MySQL
 ---
 

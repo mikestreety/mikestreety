@@ -7,7 +7,6 @@ canonical: https://www.liquidlight.co.uk/blog/lets-drop-ie8/
 who: Liquid Light
 permalink: "blog/lets-drop-ie8/"
 tags:
- - General
  - Thoughts
 ---
 

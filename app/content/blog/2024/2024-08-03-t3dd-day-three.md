@@ -4,6 +4,7 @@ intro: T3DD in Karlsruhe, Germany - day 3. Points of interest and tidbits
 tags:
   - TYPO3
   - Thoughts
+  - Events
 ---
 
 [TYPO3 Developer Days](https://t3dd24.typo3.com/) Day 3 notes.

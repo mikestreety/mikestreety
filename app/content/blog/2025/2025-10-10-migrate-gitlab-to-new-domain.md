@@ -2,7 +2,7 @@
 title: Migrate your GitLab instance to a new domain
 intro: How to move your GitLab instance to a new domain while keeping the infrastructure
 tags:
-  - Gitlab
+  - GitLab
 ---
 
 We were sunsetting a domain and wanted to migrate our GitLab instance to a different URL.

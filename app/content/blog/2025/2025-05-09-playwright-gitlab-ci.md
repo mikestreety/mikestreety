@@ -2,7 +2,7 @@
 title: Running Playwright in Gitlab CI
 intro: A delve into a version mismatch issue when running Playwright tests in GitLab CI.
 tags:
-  - Gitlab CI
+  - GitLab CI
   - Playwright
 ---
 

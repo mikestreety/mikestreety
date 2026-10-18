@@ -7,8 +7,9 @@ canonical: https://www.liquidlight.co.uk/blog/why-were-not-dropping-slack-for-go
 who: Liquid Light
 permalink: "blog/why-were-not-dropping-slack-for-google-hangouts-chat-yet/"
 tags:
- - General
  - Thoughts
+ - Slack
+ - Google
 ---
 
 At the beginning of this month, Google announced they were rolling out [Hangouts Chat](https://gsuite.google.com/products/chat/) to all users of Google Suite over a week or so. Our suite was finally updated with this “Slack killer” so we were able to try it out and see if we would be dropping Slack for this particular competitor. We are well aware that there are a whole plethora of inter-office communicators available, however, there were several features of Hangouts Chat that appealed to us, notably the Google integration

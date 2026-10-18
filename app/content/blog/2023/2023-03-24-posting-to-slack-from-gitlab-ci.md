@@ -2,7 +2,9 @@
 title: Post to Slack from Gitlab CI
 intro: Posting a customised message to Slack via a bash script
 tags:
- - Gitlab
+ - GitLab
+ - GitLab CI
+ - Slack
 ---
 
 When deploying via Gitlab and Gitlab CI, it may be you wish to notify a channel on Slack about any deployments which have occurred. Gitlab offers Slack as an integration out the box for all tiers, however the notifications are not very customisable and there is no "deployment" notification - there is only one for pipelines. The issue with this is that if a pipeline fails due to linting or tests, the Slack notifications occur too - adding to the daily noise that people don't need to see.

@@ -5,7 +5,6 @@ updated: 2021-03-25
 intro: Road cycling. Its boring. Its rubbish. Most road cyclists just go round in circles. Up to the top of a hill, turn round and back again - wash, rinse, repeat.
 permalink: "blog/i-hate-road-cycling/"
 tags:
- - General
  - Thoughts
  - Cycling
 ---

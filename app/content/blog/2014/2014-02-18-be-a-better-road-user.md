@@ -5,7 +5,6 @@ updated: 2021-03-19
 intro: I've been cycling since I can remember, and driving since 2009. Over the last few years, I've believed something more and more and I would like to make a bold statement - Cyclists make better drivers, drivers make better cyclists
 permalink: "blog/be-a-better-road-user/"
 tags:
- - General
  - Thoughts
  - Cycling
 ---

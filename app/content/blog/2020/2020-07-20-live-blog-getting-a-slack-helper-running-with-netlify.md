@@ -5,10 +5,10 @@ updated: 2021-03-02
 intro: So I'm a bit of a dinosaur when it comes to web stacks - I'm all about LAMP (Linux, Apache, MySQL, PHP). I had an idea for a small little web app and thought it would be the perfect opportunity to give Netlify a go.
 permalink: "blog/live-blog-getting-a-slack-helper-running-with-netlify/"
 tags:
- - Web
- - Javascript
+ - JavaScript
  - Front-end Development
  - Netlify
+ - Slack
 ---
 
 <div class="info">This post was written as a "Live blog". I.e. I was updating as I went. There may be typos & coding errors, but the timestamps at the top of each section should help</div>

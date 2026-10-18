@@ -5,9 +5,9 @@ updated: 2021-02-11
 intro: PHP Deployer is a great little utility for deploying your PHP app via command line. It doesn't force you to use any specific tech stack and simplifies the process of getting your app live.
 permalink: "blog/automatically-deploying-your-lumen-app-with-php-deployer-and-zero-downtime-so-you-dont-have-to-manually-do-it/"
 tags:
- - Web
  - PHP
  - Laravel
+ - Deployer
 ---
 {% raw %}
 

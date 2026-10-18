@@ -4,6 +4,7 @@ intro: My thoughts about TYPO3 Developer Days 2024
 tags:
   - TYPO3
   - Thoughts
+  - Events
 ---
 
 Just over a week ago, I returned from Germany after attending the multi-day, multi-tracked TYPO3 conference: [TYPO3 Developer Days](https://t3dd24.typo3.com/). This conference marked several firsts for me: my first TYPO3-specific conference, my first visit to Germany, my first time traveling alone, and my first time drinking Pilsner for four consecutive evenings (for those who don't know, I [review beer](https://alehouse.rocks/) in my spare time).

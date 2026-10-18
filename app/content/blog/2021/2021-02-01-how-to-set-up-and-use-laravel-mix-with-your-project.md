@@ -5,9 +5,9 @@ updated: 2021-03-25
 intro: Despite the name, Laravel Mix isn't just for Laravel. It is a tidy, succinct task runner with understandable syntax and a single config file. This tutorial will run through setting it up with your project
 permalink: "blog/how-to-set-up-and-use-laravel-mix-with-your-project/"
 tags:
- - Web
  - Front-end Development
  - DevOps
+ - Laravel
 ---
 
 Despite the name, Laravel Mix isn't just for Laravel. It is a tidy, succinct task runner with understandable syntax and a single config file. This tutorial will run through setting it up with your project

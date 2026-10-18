@@ -4,9 +4,9 @@ intro: You may wish to use your own private registry when building Docker images
 date: 2021-12-11
 permalink: "blog/using-private-docker-registry-gitlab-ci/"
 tags:
- - Gitlab
+ - GitLab
  - Docker
- - Gitlab CI
+ - GitLab CI
 ---
 
 Whether you are using it for running the CI pipelines or need to build a Docker image with it as the base, there may be times you wish to use a Docker image or two from a private Docker registry.

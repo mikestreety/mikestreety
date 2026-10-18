@@ -5,8 +5,8 @@ updated: 2021-03-25
 intro: I bloody love twitter. It's great. Now, I'm not some twitter addict or nerd, well I am, but that's by the by.
 permalink: "blog/i-bloody-love-twitter/"
 tags:
- - General
  - Thoughts
+ - Twitter
 ---
 
 I bloody love twitter. It's great.

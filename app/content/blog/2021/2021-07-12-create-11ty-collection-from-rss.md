@@ -5,8 +5,9 @@ date: 2021-07-12
 permalink: "blog/create-11ty-collection-from-rss/"
 tags:
  - 11ty
- - Javascript
+ - JavaScript
  - Video
+ - RSS
 ---
 
 {% raw %}

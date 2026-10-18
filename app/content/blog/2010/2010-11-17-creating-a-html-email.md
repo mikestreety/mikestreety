@@ -5,9 +5,9 @@ updated: 2021-03-19
 intro: Creating a HTML email is like going back to the nineties with web design – you have to go against all your natural instincts as a web designer.
 permalink: "blog/creating-a-html-email/"
 tags:
- - Web
  - Front-end Development
  - HTML
+ - Email
 ---
 
 Creating a HTML email is like going back to the nineties with web design – you have to go against all your natural instincts as a web designer. Floats don’t work, and emails rely heavily on tables for layout. Below are the steps I follow when creating a HTML email for clients.

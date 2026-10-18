@@ -5,7 +5,6 @@ updated: 2021-03-20
 intro: I recently purchased a Western Digital EX2 NAS box for my home storage. This device is a low powered file server which is on all the time - perfect for taking care of those hefty downloads and long running tasks so I don't need to keep my laptop on.
 permalink: "blog/download-files-via-command-line/"
 tags:
- - Web
  - Command Line
 ---
 

@@ -7,7 +7,6 @@ canonical: https://www.liquidlight.co.uk/blog/git-for-beginners-an-overview-and-
 who: Liquid Light
 permalink: "blog/git-for-beginners-an-overview-and-basic-workflow/"
 tags:
- - Web
  - Command Line
  - Git
 ---

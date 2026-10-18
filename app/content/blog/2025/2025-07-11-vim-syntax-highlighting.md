@@ -4,6 +4,7 @@ intro: How to enable syntax highlighting and other useful features in Vim
 tags:
   - Bash
   - Command Line
+  - IDE
 ---
 
 Vim is my go-to command-line editor, so it's always useful to have some nice additions including syntax highlighting and nice indenting. It also enables tab behaviour which matches the context.

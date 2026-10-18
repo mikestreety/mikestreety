@@ -6,7 +6,7 @@ permalink: "blog/making-an-11ty-collection-from-a-remote-xml-file/"
 tags:
  - RSS
  - 11ty
- - Javascript
+ - JavaScript
 ---
 
 {% raw %}

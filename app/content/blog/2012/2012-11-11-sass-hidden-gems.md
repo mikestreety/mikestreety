@@ -5,9 +5,9 @@ updated: 2016-04-08
 intro: I've recently been getting into pre-processors for CSS and I have been using LESS for sometime - getting to grips with the nesting and variables while keeping a library of my own mixins.
 permalink: "blog/sass-hidden-gems/"
 tags:
- - Web
  - Front-end Development
  - CSS
+ - SCSS
 ---
 
 I've recently been getting into pre-processors for CSS and I have been using LESS for sometime - getting to grips with the nesting and variables while keeping a library of my own mixins.

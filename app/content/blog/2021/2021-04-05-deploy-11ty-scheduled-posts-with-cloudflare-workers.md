@@ -4,10 +4,11 @@ date: 2021-04-05
 intro: Learn how to schedule blog posts and other items to go live with your static site generator without having to rebuild the whole site. Get all the benefits of a dynamic CSS with static files
 permalink: "blog/deploy-11ty-scheduled-posts-with-cloudflare-workers/"
 tags:
- - Javascript
+ - JavaScript
  - DevOps
  - Netlify
  - 11ty
+ - Cloudflare
 ---
 
 <a name="intro"></a>

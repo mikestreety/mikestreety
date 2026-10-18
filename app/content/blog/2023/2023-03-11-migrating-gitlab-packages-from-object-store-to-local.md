@@ -4,7 +4,7 @@ date: 2023-03-11
 intro: How to migrate your packages from using the remote object store back to using the Gitlab server
 permalink: "blog/migrating-gitlab-packages-from-object-store-to-local/"
 tags:
- - Gitlab
+ - GitLab
 ---
 
 I was having an infrastructure sort out and wanted to move my Gitlab packages [from object storage hosted with MinIO](/blog/use-minio-to-cache-gitlab-containers-and-runners/) back to Gitlab itself.

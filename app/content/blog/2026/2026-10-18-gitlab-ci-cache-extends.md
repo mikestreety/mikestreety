@@ -2,8 +2,8 @@
 title: GitLab CI's extends overwrites cache lists
 intro: Why your template's cache disappears when a job adds its own, and how to fix it with !reference
 tags:
-  - Gitlab
-  - Gitlab CI
+  - GitLab
+  - GitLab CI
 ---
 
 Our Composer `vendor` cache is keyed on the `composer.lock` file, which means every time a dependency changes, the cache gets thrown away and Composer downloads every package from scratch. With Renovate opening merge requests all day, that's a lot of downloading.

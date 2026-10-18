@@ -7,8 +7,8 @@ canonical: https://www.liquidlight.co.uk/blog/using-slack-to-improve-team-commun
 who: Liquid Light
 permalink: "blog/using-slack-to-improve-team-communication/"
 tags:
- - General
  - Thoughts
+ - Slack
 ---
 
 Slack is a hugely popular communication team tool which has grown from strength to strength over the last year. It was publicly released in February 2014 and has recently been valued at [$3.8 billion](https://techcrunch.com/2016/04/01/slack-raises-200m-at-3-8b-valuation-for-business-messaging/). For such a “simple” idea (and one that started off as a web based game) Slack’s fanbase is loyal and big - with well over 500,000 2.3 million daily active users.

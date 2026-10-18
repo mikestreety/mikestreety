@@ -2,7 +2,7 @@
 title: GitlabForm for Gitlab repository automation
 intro: Synchronise files & settings across repositories and groups in Gitlab
 tags:
-  - Gitlab
+  - GitLab
 ---
 
 While researching something else, I stumbled upon [GitlabForm](https://gitlabform.github.io/), a nifty tool for synchronising settings and files across your GitLab repositories and groups. It's super flexible: you can apply granular control over each repo or use it as a one-and-done tool for everything. Thanks to its hierarchical configuration, it can handle pretty much anything in between.

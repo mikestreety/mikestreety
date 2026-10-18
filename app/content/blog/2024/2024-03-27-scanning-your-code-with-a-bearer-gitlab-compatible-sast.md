@@ -2,8 +2,9 @@
 title: Scanning your code with Bearer; a Gitlab compatible SAST
 intro: Set up Bearer to scan for vulnerabilities in your code, available for use with the free tier
 tags:
- - Gitlab
+ - GitLab
  - Security
+ - GitLab CI
 ---
 
 Gitlab offer Static Application Security Testing (SAST) with all tiers of their product, however for any kind of UI integration and configuration you need to be on their Ultimate tier. SAST is a way of scanning your code to highlight any known vulnerabilities. It's worth noting it scans the code in your repository, so you won't get bogged down with dependency issues.

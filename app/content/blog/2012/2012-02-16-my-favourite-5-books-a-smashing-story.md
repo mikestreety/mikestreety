@@ -5,8 +5,6 @@ updated: 2019-03-27
 intro: Recently I've been going through a fad of buying web related books. I love the feel of books, I love reading books.
 permalink: "blog/my-favourite-5-books-a-smashing-story/"
 tags:
- - Web
- - General
  - Thoughts
 ---
 

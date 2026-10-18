@@ -3,6 +3,7 @@ title: Slow upload speed with Apple MacOS - how to debug and what to check
 intro: Recently the upload speed on my MacOS devices suddenly dropped - debugging was a nightmare
 tags:
  - General
+ - Apple
 ---
 
 Monday morning I tried to upload a screenshot on my Mac Mini and it was taking a lifetime - a quick internet speedtest and my heart sank:

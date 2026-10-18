@@ -5,8 +5,8 @@ updated: 2021-03-17
 intro: I am currently in the midst of developing a new side-project and wanted to use the same class as a base for two separate elements of the project.
 permalink: "blog/composer-including-your-own-class/"
 tags:
- - Web
  - PHP
+ - Composer
 ---
 
 I am currently in the midst of developing a new side-project and wanted to use the same class as a base for two separate elements of the project. This class features some helper classes I want available. Each element has its own repo which is using [composer](https://getcomposer.org/) as its package manager. I wanted to create my own package from a git repo which will house my base class.

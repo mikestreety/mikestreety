@@ -4,6 +4,7 @@ intro: Ensuring email deliverability is a tricky business - this post walks thro
 tags:
   - DNS
   - Email
+  - Security
 ---
 
 Sending emails in this mad world of spam is a tricky business. Spoofing and phishing are all too common, and email providers try to be smart to it, although sometimes at the detriment to honest and "real" emails.

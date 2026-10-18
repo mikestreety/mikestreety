@@ -5,6 +5,9 @@ intro: A post outlining our process and workflow for releasing packages and exte
 permalink: "blog/a-release-process-for-our-npm-and-composer-packages/"
 tags:
  - Git
+ - NPM
+ - Composer
+ - TYPO3
 ---
 
 At Liquid Light, we maintain several [public](https://github.com/orgs/liquidlight/repositories) and private packages for our TYPO3 installations. Over the last couple of years, we have honed the development and release process of the packages so that 6 developers independently work on our extensions.

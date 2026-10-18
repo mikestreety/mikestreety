@@ -4,7 +4,7 @@ date: 2023-03-16
 intro: Using Advanced search in Gitlab premium requires an Elasticsearch server setting up
 permalink: "blog/set-up-gitlab-advanced-search/"
 tags:
- - Gitlab
+ - GitLab
 ---
 
 I managed to get a [Gitlab Premium](https://about.gitlab.com/pricing/premium/) trial to see if it was right for our business. The big feature I was excited to try out was the Advanced search. This brings a Gitlab.com (and Github.com) style of "global search" to the install - being able to search in all the code is going to be incredible.

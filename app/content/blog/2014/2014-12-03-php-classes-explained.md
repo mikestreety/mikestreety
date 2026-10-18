@@ -5,9 +5,7 @@ updated: 2021-09-19
 intro: To put it very simply, a PHP class is a way of grouping a set of functions and variables into entities,allowing them to be used as self-contained instances.
 permalink: "blog/php-classes-explained/"
 tags:
- - Web
  - PHP
- - Back-end Development
 ---
 
 To put it very simply, a PHP class is a way of grouping a set of functions and variables into entities,allowing them to be used as self-contained instances. It is often described as the "cookie cutter". They are the groundwork behind object oriented programming.
