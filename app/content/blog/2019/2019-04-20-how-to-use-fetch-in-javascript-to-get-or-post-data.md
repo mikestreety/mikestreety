@@ -26,7 +26,7 @@ fetch(URL)
 	.then(data => {
 		// data is your API data
 	});
-	```
+```
 
 ## POST data
 
@@ -54,8 +54,8 @@ The key is using `php://input` - which is a [readable stream](https://www.php.ne
 ```php
 <?php
 
- $input = json_decode(file_get_contents('php://input'), true);
- // $input['key'] would equal "value"
- ```
+$input = json_decode(file_get_contents('php://input'), true);
+// $input['key'] would equal "value"
+```
 
 If you were to remove the `true` from the end of the `json_decode`, your data would be available as a PHP object instead, meaning you would access "value" using `$input->key`.
