@@ -1,6 +1,5 @@
 ---
 title: GitLab CI's extends overwrites cache lists
-date: 2026-10-18
 intro: Why your template's cache disappears when a job adds its own, and how to fix it with !reference
 tags:
   - Gitlab

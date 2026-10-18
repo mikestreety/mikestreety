@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-15T20:00:15.926Z",
+  "lastFetched": "2026-10-18T16:30:48.702Z",
   "children": [
     {
       "type": "entry",
@@ -13599,6 +13599,26 @@
       },
       "in-reply-to": "https://www.mikestreety.co.uk/blog/comparing-bitwarden-secrets-manager-to-infisical/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adel Abdulazeem",
+        "photo": "https://cdn.bsky.app/img/avatar/plain/did:plc:7gpgsm2vxlobyfkhgohtioom/bafkreid2ofsmbigaenblkgy7gwtntsznauhte76fsosfnh5fporwgvtmla",
+        "url": "https://bsky.app/profile/adel-abdulazeem.bsky.social"
+      },
+      "url": "https://bsky.app/profile/mikestreety.co.uk/post/3mxwycqsupk2x#liked_by_did:plc:7gpgsm2vxlobyfkhgohtioom",
+      "published": null,
+      "published_ts": null,
+      "wm-received": "2026-10-16T08:31:53Z",
+      "wm-id": 2041242,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:t5fq52ggrseh2uktmzney6qx/at%253A%252F%252Fdid%253Aplc%253At5fq52ggrseh2uktmzney6qx%252Fapp.bsky.feed.post%252F3mxwycqsupk2x/did%253Aplc%253A7gpgsm2vxlobyfkhgohtioom",
+      "wm-target": "https://www.mikestreety.co.uk/blog/code-review-3-ais-are-better-than-none/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/code-review-3-ais-are-better-than-none/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
