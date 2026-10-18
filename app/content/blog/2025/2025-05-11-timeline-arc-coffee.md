@@ -44,7 +44,7 @@ I was flying now, each coffee I made getting better and I was starting to apprec
 
 ### Machine & Grinder: Sage Barista Express
 
-After getting a [book published](blog/how-i-wrote-a-book-the-writing-process-from-one-of-our-developers/) I used some of the money from that to upgrade my coffee equipment. Selling the Gaggia (after making a good profit, even after the upgrades) and my Smart Grinder Pro, I purchased a **Sage Barista Express** in November 2017.
+After getting a [book published](/blog/how-i-wrote-a-book-the-writing-process-from-one-of-our-developers/) I used some of the money from that to upgrade my coffee equipment. Selling the Gaggia (after making a good profit, even after the upgrades) and my Smart Grinder Pro, I purchased a **Sage Barista Express** in November 2017.
 
 ![Sage Barista Express](/assets/img/content/timeline-arc-coffee/sage-barista-express.jpg)
 
