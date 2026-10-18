@@ -9,7 +9,7 @@ tags:
  - 11ty
 ---
 
-Over the last week, I have taken upon the task of converting [Behind the Source](https://www.behindthesource.co.uk/) from Craft CMS to 11ty (said Eleventy).
+Over the last week, I have taken upon the task of converting [Behind the Source](https://behindthesource.mikestreety.co.uk/) from Craft CMS to 11ty (said Eleventy).
 
 I have nothing against Craft, it's the best CMS I've used for small sites and will still reach for it if the project calls for it. However, Behind the Source is very much a "static site" and I wanted to get more familiar with 11ty. Converting Behind the Source gave me an opportunity to work with 11ty without having to worry about styles, design or content - as it was already existing. I has now given me a framework which I can take further.
 

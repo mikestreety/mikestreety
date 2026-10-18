@@ -6,7 +6,7 @@ permalink: "blog/server-tools-htop-and-apache-server-status/"
 tags:
  - DevOps
  - Apache
- - Server Tools
+ - Server
 ---
 
 When starting to debug server performance, a good place to start is the tools built into the server. Before you start installing extra utilities, it is worth checking to see if anything obvious sticks out.

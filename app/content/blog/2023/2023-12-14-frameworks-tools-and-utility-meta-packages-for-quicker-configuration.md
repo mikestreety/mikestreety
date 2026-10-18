@@ -6,8 +6,8 @@ permalink: "blog/frameworks-tools-and-utility-meta-packages-for-quicker-configur
 tags:
  - Node
  - NPM
- - Docusaurus
- - BackstopJS
+ - CMS
+ - Testing
  - Playwright
 ---
 

@@ -2,7 +2,7 @@
 title: Notify Slack when an SSH connection is made with sshpiper
 intro: For transparency and audits, send Slack notifications when someone connects to a live server
 tags:
-  - CLI
+  - Command Line
   - Slack
 ---
 

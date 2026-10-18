@@ -7,7 +7,7 @@ permalink: "blog/linux-debian-user-commands/"
 tags:
  - Web
  - Command Line
- - Linux
+ - Server
 ---
 
 These commands have come in handy a lot over the last couple of days, as I have been [setting up Xen](/blog/getting-started-with-xen-setting-up-virtual-machines/) with a few Virtual Machines.

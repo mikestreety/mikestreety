@@ -4,6 +4,7 @@ pagination:
   data: collections
   size: 1
   alias: tag
+  addAllPagesToCollections: true
   filter:
     - blog
     - talks
@@ -13,17 +14,18 @@ pagination:
     - all
 permalink: /category/{{ tag | slugify }}/
 eleventyComputed:
-  title: "{{ tag }}"
-  description: "Posts tagged to the category {{ tag }} by Mike Street, Brighton based front-end developer"
+  title: "{{ tag }} posts"
+  description: "{{ categories[tag] if categories[tag] else 'Blog posts, notes and talks about ' + tag + ' by Mike Street, Lead Developer and CTO from Brighton.' }}"
 ---
+{% set categoryList = collections[ tag ] | published | reverse %}
 <div class="container blog-container">
 	<h1>{{ tag }}</h1>
-	<p class="subtitle">Showing posts from the category <strong>"{{ tag }}"</strong> </p>
+	<p class="subtitle">{{ description }}</p>
+	<p>There {{ 'is' if categoryList.length == 1 else 'are' }} <strong>{{ categoryList.length }}</strong> {{ 'post' if categoryList.length == 1 else 'posts' }} in the <strong>{{ tag }}</strong> category.</p>
 
 	<div class="post-listing">
 		<ul class="post-listing-full">
-		{% set categoryList = collections[ tag ] %}
-		{% for entry in categoryList | reverse %}
+		{% for entry in categoryList %}
 			{% include 'entry.njk' %}
 		{% endfor %}
 		</ul>

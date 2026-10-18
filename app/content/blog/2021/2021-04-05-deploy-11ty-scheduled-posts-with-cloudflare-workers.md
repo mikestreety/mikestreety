@@ -23,7 +23,7 @@ However, this required me to remember and be near a device that can do it (their
 
 The next approach was to use the Netlify [build hook](https://docs.netlify.com/configure-builds/build-hooks/) to trigger a rebuild every night. This would tick the automation box, but would quickly eat up my free Netlify minutes, along with doing several unnecessary builds (I publish every other week, generally).
 
-I could schedule a build every fortnight, but for those times I have a [Notes post](/category/notes) scheduled or similar, it would potentially be 2 weeks before it appears (unless I publish there and then).
+I could schedule a build every fortnight, but for those times I have a [Notes post](/notes/) scheduled or similar, it would potentially be 2 weeks before it appears (unless I publish there and then).
 
 What I wanted is for a system to know when my next scheduled post is and regularly check for that date. It can then trigger a build if required.
 
@@ -133,7 +133,7 @@ As our function returns an object, we can use Nunjucks built in functions to out
 ```
 {% endraw %}
 
-This results in what you see on [upcoming.json](/upcoming.json).
+This results in an `upcoming.json` file listing the next scheduled post.
 
 <a name="get-the-build-hook"></a>
 ### Get the build hook
@@ -152,7 +152,7 @@ We'll store that as an environment variable in our Cloudflare Worker settings.
 
 The next step is to make a Cloudflare Worker to run as often as you wish to check the date of your "pending" post.
 
-<span class="info">Note:</span> For this step, I am assuming you have a Cloudflare account and a basic understanding of [Cloudflare Workers](/blog/what-are-cloud-functions-cloudflare-workers-and-serverless).
+<span class="info">Note:</span> For this step, I am assuming you have a Cloudflare account and a basic understanding of [Cloudflare Workers](/blog/what-are-cloud-functions-cloudflare-workers-and-serverless/).
 
 You can either make a new worker through the user interface on the CLoudflare website or you can use the [Cloudflare Wrangler](https://developers.cloudflare.com/workers/wrangler/) CLI.
 

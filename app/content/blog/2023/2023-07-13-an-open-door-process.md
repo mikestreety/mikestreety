@@ -5,7 +5,7 @@ intro: Appointments help us arrange meetings with other staff members without fo
 permalink: "blog/open-door-meetings-at-work/"
 tags:
  - General
- - Ramblings
+ - Thoughts
 ---
 
 I was listening to [Episode 216](https://www.codingblocks.net/podcast/better-application-management-with-custom-apps/) of the Coding Blocks podcast and the conversation of "Open Jim" hours came up. The idea being that a senior developer has some set hours (I think it was mentioned between 9-11am) where they can be interrupted, bothered and questioned. After that, the developer can get their head down on some work. No-one enjoys being forced to context switch and this has often been posed as a solution.

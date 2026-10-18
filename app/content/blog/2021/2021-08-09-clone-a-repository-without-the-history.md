@@ -5,7 +5,7 @@ date: 2021-08-09
 permalink: "blog/git-clone-a-repository-without-the-history/"
 tags:
  - Git
- - CLI
+ - Command Line
  - Bash
 ---
 

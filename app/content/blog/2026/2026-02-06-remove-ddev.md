@@ -2,7 +2,7 @@
 title: Completely remove DDEV from your computer
 intro: Remove DDEV, it's images and all config files
 tags:
-  - CLI
+  - Command Line
 ---
 
 I recently ran into an issue with DDEV 1.25 and was upgrading and downgrading between the two versions to test, check and verify.

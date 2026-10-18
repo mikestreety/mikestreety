@@ -7,7 +7,6 @@ permalink: "blog/set-up-a-new-virtual-private-server-vps/"
 tags:
  - Web
  - Command Line
- - Web
 ---
 
 <div class="info">Please note, these commands and steps have worked for me. I know a small bit about servers but not enough to take responsibility for anything in this post - enter the commands at your own risk!</div>

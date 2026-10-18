@@ -5,7 +5,7 @@ date: 2021-04-06
 permalink: "blog/my-2021-writing-schedule/"
 tags:
  - General
- - Ramblings
+ - Thoughts
 ---
 
 Since 2021, I've given myself a regular writing schedule. Well, it isn't a _writing_ schedule, but a release schedule. Since the beginning of this year, there has been a post appearing on my blog at least every two weeks.

@@ -5,7 +5,6 @@ intro: Looking for a NetlifyCMS alternative to commit changes to the same repo, 
 permalink: "blog/adding-tina-cms-to-11ty/"
 tags:
  - 11ty
- - TinaCMS
  - CMS
 ---
 

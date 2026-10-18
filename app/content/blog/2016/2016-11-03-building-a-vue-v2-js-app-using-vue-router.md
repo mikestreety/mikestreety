@@ -10,7 +10,7 @@ tags:
  - Web
  - Javascript
  - Front-end Development
- - Vue
+ - VueJS
 ---
 {% raw %}
 

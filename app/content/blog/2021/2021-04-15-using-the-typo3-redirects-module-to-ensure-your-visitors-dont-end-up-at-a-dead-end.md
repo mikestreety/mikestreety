@@ -6,7 +6,7 @@ canonical: https://www.liquidlight.co.uk/blog/using-the-typo3-redirects-module-t
 who: Liquid Light
 permalink: "blog/using-the-typo3-redirects-module-to-ensure-your-visitors-dont-end-up-at-a-dead-end/"
 tags:
- - Development
+ - Web
  - TYPO3
 ---
 

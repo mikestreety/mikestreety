@@ -8,7 +8,7 @@ updated: 2020-04-21
 
 If you have come here before you would have noticed there is now a new face to my blog. More space, better fonts & (in my opinion) just generally nicer.
 
-I wrote a "timeline/history" about the blog/my site and dug up some Internet Archive links for each step. You can read about it in the blog post - [Mikestreety's New Clothes](/blog/mikestreetys-new-clothes)
+I wrote a "timeline/history" about the blog/my site and dug up some Internet Archive links for each step. You can read about it in the blog post - [Mikestreety's New Clothes](/blog/mikestreetys-new-clothes/)
 
 ### New Server
 
@@ -28,8 +28,8 @@ net.ipv6.conf.lo.disable_ipv6 = 0
 I seem to be on a bit of a run of blog posts about Cloudflare at the moment (not sure
 
 - [Why should you consider Cloudflare for your website?](https://www.liquidlight.co.uk/blog/why-should-you-consider-cloudflare-for-your-website/) (for Liquid Light)
-- [What are the different SSL modes on Cloudflare?](/blog/what-are-the-different-ssl-modes-on-cloudflare)
-- [Using Cloudflare Workers to set a cookie based on a GET parameter or path](/blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path)
+- [What are the different SSL modes on Cloudflare?](/blog/what-are-the-different-ssl-modes-on-cloudflare/)
+- [Using Cloudflare Workers to set a cookie based on a GET parameter or path](/blog/using-cloudflare-workers-to-set-a-cookie-based-on-a-get-parameter-or-path/)
 
 ### Personal RSS
 

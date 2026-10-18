@@ -5,7 +5,6 @@ intro: I tried to generate OG images during build and it ended up taking a long 
 permalink: blog/take-your-11ty-build-from-1-second-to-2-minutes-by-generating-og-images/
 tags:
  - 11ty
- - Eleventy
  - Node
 ---
 

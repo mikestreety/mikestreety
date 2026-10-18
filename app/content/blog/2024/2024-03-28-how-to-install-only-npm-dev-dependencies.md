@@ -3,7 +3,7 @@ title: How to install only NPM dev dependencies
 intro: There may be times where you only want to install the devDependencies listed in your package.json file
 tags:
   - NPM
-  - CLI
+  - Command Line
 ---
 
 There are some situations where you wish to only install the `devDependencies` from the `package.json`. We encountered this recently where we set [Playwright](/category/playwright/) as a development dependency and wished to install the specified version in a CI scenario.

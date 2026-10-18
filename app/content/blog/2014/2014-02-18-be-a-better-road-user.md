@@ -6,7 +6,7 @@ intro: I've been cycling since I can remember, and driving since 2009. Over the 
 permalink: "blog/be-a-better-road-user/"
 tags:
  - General
- - Ramblings
+ - Thoughts
  - Cycling
 ---
 

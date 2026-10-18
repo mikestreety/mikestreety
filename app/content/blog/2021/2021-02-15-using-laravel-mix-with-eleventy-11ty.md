@@ -8,7 +8,7 @@ tags:
  - Web
  - Front-end Development
  - 11ty
- - Laravel Mix
+ - Laravel
 ---
 
 I've used Laravel Mix for a lot of my side projects and love its simple set up, combined with powerful features. If you want to learn how to set up Laravel Mix, it is worth reading [Setting up Laravel Mix](https://www.mikestreety.co.uk/blog/how-to-set-up-and-use-laravel-mix-with-your-project/) first.

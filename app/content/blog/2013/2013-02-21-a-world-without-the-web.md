@@ -6,7 +6,7 @@ intro: For those of you that know me, you would be aware that I have recently mo
 permalink: "blog/a-world-without-the-web/"
 tags:
  - General
- - Ramblings
+ - Thoughts
 ---
 
 For those of you that know me, you would be aware that I have recently moved house. For those of you that don't, I have recently moved house.

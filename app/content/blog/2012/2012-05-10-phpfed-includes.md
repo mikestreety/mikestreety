@@ -11,7 +11,7 @@ tags:
  - PHPFED
 ---
 
-Before you continue - make sure you understand [the story.](/blog/php-for-front-end-devs-the-story "PHP for Front-End Devs: The Story")
+Before you continue - make sure you understand [the story.](/blog/php-for-front-end-devs-the-story/ "PHP for Front-End Devs: The Story")
 
 When developing static sites (i.e. sites without any sort of CMS - be it Wordpress, Drupal etc.) the PHP I find the most valuable  is the _include_.
 

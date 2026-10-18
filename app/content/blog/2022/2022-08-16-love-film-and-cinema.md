@@ -5,7 +5,7 @@ intro: Gone are the times where you would get a film in the post - how do we rem
 permalink: "blog/love-film-and-cinema/"
 tags:
  - General
- - Ramblings
+ - Thoughts
 ---
 
 Before streaming, how did people watch films without buying them? It's hard to imagine that there is a whole generation growing up that have no concept of "the time before". The time before the internet and the time before streaming.

@@ -6,7 +6,7 @@ intro: Changing habits is hard - especially when it's being part of your lifesty
 permalink: "blog/how-i-kicked-a-millennial-habit/"
 tags:
  - General
- - Ramblings
+ - Thoughts
 ---
 
 > Hello, my name is Mike Street and I'm addicted to my phone.
