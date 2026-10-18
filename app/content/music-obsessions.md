@@ -1,6 +1,7 @@
 ---
 layout: page.njk
 title: "Music I've been obsessed with"
+description: "The albums and artists Mike Street has been obsessed with - what he's listening to now and the music he keeps coming back to."
 permalink: /music-obsessions/
 ---
 

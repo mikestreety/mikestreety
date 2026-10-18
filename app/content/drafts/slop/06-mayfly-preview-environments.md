@@ -3,7 +3,7 @@ title: "Mayfly: short-lived preview environments for every merge request"
 date: 2026-10-15
 intro: Spinning up a full TYPO3 site for each merge request using DDEV and Cloudflare Tunnels
 tags:
-  - CLI
+  - Command Line
 ---
 
 <!-- TODO: I couldn't find the Mayfly details, so check this whole post. I've assumed Mayfly is the name of our DDEV + Cloudflare Tunnels setup. Fill in the repo link, how it's triggered and anything I've guessed wrong -->

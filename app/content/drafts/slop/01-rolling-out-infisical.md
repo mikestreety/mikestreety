@@ -3,7 +3,7 @@ title: Rolling out a self-hosted Infisical
 date: 2026-10-15
 intro: A couple of months on from comparing Bitwarden Secrets Manager with Infisical, here's how the rollout actually went
 tags:
-  - CLI
+  - Command Line
 ---
 
 Back in July I [compared Bitwarden Secrets Manager to Infisical](/blog/comparing-bitwarden-secrets-manager-to-infisical/). We went with Infisical, self-hosted, and it's now holding the secrets for our internal servers and a growing number of client sites.
