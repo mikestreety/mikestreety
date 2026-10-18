@@ -12,6 +12,7 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| Seriously Collins | Pavilion Theatre, Worthing | 17/10/2026 |
 | Operation Mincemeat | Congress Theatre, Eastbourne | 05/08/2026 |
 | Maxïmo Park | Chalk, Brighton | 17/07/2026 |
 | SpitNights | The Old Market, Hove | 30/05/2026 |
