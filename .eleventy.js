@@ -76,6 +76,7 @@ module.exports = async function (config) {
 	config.addPlugin(IdAttributePlugin);
 	config.addPlugin(require('@mikestreety/11ty-utils'));
 	config.addPlugin(require('@11ty/eleventy-navigation'));
+	await require('./app/filters/images')(config);
 	config.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 	config.addPlugin(require('@11tyrocks/eleventy-plugin-emoji-readtime'), {
 		showEmoji: false,
