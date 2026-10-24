@@ -7,7 +7,7 @@ export default defineConfig({
 		outDir: 'html/assets',
 		emptyOutDir: true,
 		rollupOptions: {
-			input: resolve(__dirname, 'build/js/main.js'),
+			input: resolve(import.meta.dirname, 'build/js/main.js'),
 			output: {
 				entryFileNames: 'js/[name].js',
 				assetFileNames: (assetInfo) => {
@@ -22,7 +22,7 @@ export default defineConfig({
 	},
 	resolve: {
 		alias: {
-			'/assets/img': resolve(__dirname, 'build/img')
+			'/assets/img': resolve(import.meta.dirname, 'build/img')
 		}
 	},
 	plugins: [
