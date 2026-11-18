@@ -1,12 +1,14 @@
 ---
 title: Behind the Source
-intro: Interviews with web-folk and a podcast talking about tech for people who want to get into a specific topic.
+intro: Interviews with web folk, and a podcast about tech for people who want to get into a specific topic, from Svelte to Design Systems.
 link: https://behindthesource.mikestreety.co.uk/
 order: 5
+tags:
+ - Podcast
 ---
 
-In 2020 I [interviewed 8 web-folk](https://behindthesource.mikestreety.co.uk/interviews/) for a side-project called Behind the Source.
+Behind the Source started in 2020, when I [interviewed 8 web folk](https://behindthesource.mikestreety.co.uk/interviews/) about how they work and how they got there.
 
-This was followed in 2022 by a [Podcast](https://behindthesource.mikestreety.co.uk/podcasts/), talking about tech for people who want to get into a specific topic. We spoke about **Svelte**, **Umbraco**, **jQuery**, **Design Systems**, **Gitpod** and **Coolify**.
+In 2022 it became a [podcast](https://behindthesource.mikestreety.co.uk/podcasts/), talking about tech for people who want to get into a specific topic. We spoke about **Svelte**, **Umbraco**, **jQuery**, **Design Systems**, **Gitpod** and **Coolify**.
 
-Find the episodes in the [talks section](/talks/).
+Listen on [Apple Podcasts](https://podcasts.apple.com/us/podcast/behind-the-source/id1645278976) or [subscribe with RSS](https://feeds.acast.com/public/shows/62d9b3f5f39c44001194bc1e), or find the episodes in the [talks section](/talks/).

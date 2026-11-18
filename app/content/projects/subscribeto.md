@@ -1,13 +1,21 @@
 ---
 title: email.subscribeto
-intro: A searchable, tagged directory of email newsletters, collated from my own list and recommendations from the web community.
+intro: A searchable, tagged directory of things to subscribe to - over 1,800 newsletters, 10,000 RSS feeds and 3,800 podcasts.
 link: https://subscribeto.mikestreety.co.uk/
 featured: true
 order: 3
+tags:
+ - 11ty
 ---
 
-I've always been keen to discover new newsletters and have always kept my eye out for recommendations. I decided to collate these recommendations and build a directory.
+I've always been keen to discover new newsletters, so I started collecting recommendations. That list grew into a directory, and the directory has since grown to cover **RSS feeds** and **podcasts** too.
 
-The aim was a fast, light, accessible website which works everywhere, without relying on JavaScript to render the content.
+Each type of subscription has its own section and colour, and they share one set of tags, so you can find a newsletter, a blog and a podcast on the same topic in one place.
 
-Read more about how it was built in [email.subscribeto - a newsletter database](/blog/email-subscribeto-a-newsletter-database/).
+### How it's built
+
+It started as a Google Sheet rendered with Vue, became a PHP site in 2019, and is now a static **11ty** site. The repository is the source of truth: every entry and tag is its own JSON file.
+
+New links come in through a "discover" workflow. I drop a list of URLs into a pull request and a **GitHub Action** checks each one, skips anything already listed, and finds the feed - podcasts are looked up in the Apple Podcasts directory.
+
+Read about the original version in [email.subscribeto - a newsletter database](/blog/email-subscribeto-a-newsletter-database/).
