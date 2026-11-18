@@ -1,6 +1,6 @@
 ---
 title: Vue.js 2.x by Example
-intro: A book on building web applications with Vue.js, published by Packt, with the example code on GitHub.
+intro: My book on learning Vue.js through worked examples, published by Packt in 2017.
 link: https://www.packtpub.com/product/vuejs-2x-by-example/9781788293464
 established: 2017
 noScreenshot: true
@@ -8,8 +8,6 @@ tags:
  - Vue
 ---
 
-When I was getting into Vue.js, I was approached to write a book on the subject - [Vue.js 2.x by Example](https://www.packtpub.com/product/vuejs-2x-by-example/9781788293464), published by Packt.
+While I was getting into Vue.js, Packt approached me to write a book on it. I spent the second half of 2017 writing it in my spare time, and it was published that December.
 
-As the title suggests, it teaches Vue through worked examples, and the [example code is on GitHub](https://github.com/PacktPublishing/Vue.js-2.x-by-Example).
-
-I wrote about the experience in [How I wrote a book](/blog/how-i-wrote-a-book-the-writing-process-from-one-of-our-developers/).
+The [example code is on GitHub](https://github.com/PacktPublishing/Vue.js-2.x-by-Example), and I wrote about the process in [How I wrote a book](/blog/how-i-wrote-a-book-the-writing-process-from-one-of-our-developers/).
