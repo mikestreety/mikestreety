@@ -5,6 +5,10 @@ layout: default.njk
 	<div class="article single-article">
 		<h1>{{ title }}</h1>
 
+		{% if established %}
+		<div class="meta post-meta">Established <strong>{{ established }}</strong></div>
+		{% endif %}
+
 		{% if intro %}
 		<p class="subtitle">{{ intro }}</p>
 		{% endif %}

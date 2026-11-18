@@ -2,7 +2,9 @@
 	<article class="article">
 		<a href="{{ entry.url }}" class="icon" title="{{ entry.data.title if entry.data.title else entry.url }}"><span>{{ entry.data.title if entry.data.title else entry.url }}</span></a>
 
-		{% if not entry.data.hideDate %}
+		{% if entry.data.established %}
+		<p class="date">Established {{ entry.data.established }}</p>
+		{% elif not entry.data.hideDate %}
 		<p class="date">
 			{% if entry.date %}
 				<time class="dt-published is-hidden">{{ entry.date | dateISO }}</time>

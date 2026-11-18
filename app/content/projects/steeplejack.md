@@ -2,8 +2,8 @@
 title: Steeplejack
 intro: A website audit for agencies and freelancers. More than 40 checks across speed, accessibility, security, search and AI discoverability, in about a minute.
 link: https://steeplejack.mikestreety.co.uk/
-featured: true
-order: 2
+established: 2026
+featured: 2
 tags:
  - Security
  - Laravel

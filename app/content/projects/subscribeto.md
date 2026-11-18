@@ -2,8 +2,8 @@
 title: email.subscribeto
 intro: A searchable, tagged directory of things to subscribe to - over 1,800 newsletters, 10,000 RSS feeds and 3,800 podcasts.
 link: https://subscribeto.mikestreety.co.uk/
-featured: true
-order: 3
+established: 2017
+featured: 3
 tags:
  - 11ty
 ---

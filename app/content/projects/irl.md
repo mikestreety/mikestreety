@@ -2,7 +2,7 @@
 title: Indoor Racing League (IRL)
 intro: A handicapped, ride-when-you-like indoor cycling league for groups of friends. You race your own predicted time, so the fastest rider doesn't always win.
 link: https://irl.mikestreety.co.uk/
-order: 4
+established: 2026
 tags:
  - Cycling
  - 11ty

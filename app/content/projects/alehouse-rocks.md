@@ -2,8 +2,8 @@
 title: Alehouse Rocks
 intro: Over 1,200 beer reviews since 2016, searchable and filterable by brewery, style and the shop I bought it from, with stats on what I drink.
 link: https://alehouse.rocks/
-featured: true
-order: 1
+established: 2016
+featured: 1
 tags:
  - 11ty
  - Netlify
