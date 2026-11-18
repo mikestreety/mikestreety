@@ -8,6 +8,8 @@ tags:
  - Events
 ---
 
-Bytes grew out of [Points](/category/events/), an earlier series of mini-conferences I organised.
+I have organised several mini-conferences, starting with [Points](/category/events/) and moving onto **Bytes**.
+
+Bytes was a small, accessible, Brighton-based conference talking about all things web. It ran in 2015, 2016, 2017 and 2019.
 
 Running these events also gave me the opportunity to feature in the, then, [.net magazine](/blog/start-your-own-event/).
