@@ -6,9 +6,9 @@ layout: page.njk
 
 <div class="post-listing">
 	<ul class="post-listing-full">
-	{% for entry in pagination.items %}
+	{% asyncEach entry in pagination.items %}
 		{% include 'entry.njk' %}
-	{% endfor %}
+	{% endeach %}
 	</ul>
 
 	<nav class="pagination">

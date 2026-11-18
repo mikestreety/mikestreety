@@ -72,3 +72,21 @@ eleventyNavigation:
 		<a href="/blog/" class="button">View more blog posts</a>
 	</div>
 </section>
+
+<section class="post-listing">
+	<div class="container">
+		<h2>Projects</h2>
+	</div>
+	<div class="horizonal-listing container">
+		<div class="post-listing">
+			<ul class="project-listing">
+			{%- asyncEach entry in collections.featuredProjects | limit(3) -%}
+				{% include 'entry.njk' %}
+			{% endeach %}
+			</ul>
+		</div>
+	</div>
+	<div class="container center">
+		<a href="/projects/" class="button">View all projects</a>
+	</div>
+</section>
