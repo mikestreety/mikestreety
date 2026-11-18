@@ -1,0 +1,43 @@
+---
+layout: default.njk
+---
+<div class="container blog-container">
+	<div class="article single-article">
+		<h1>{{ title }}</h1>
+
+		{% if established %}
+		<div class="meta post-meta">Established <strong>{{ established }}</strong></div>
+		{% endif %}
+
+		{% if intro %}
+		<p class="subtitle">{{ intro }}</p>
+		{% endif %}
+
+		{% if not noScreenshot %}
+		<p>
+			<a href="{{ link }}" class="project-screenshot-link">
+				{% projectScreenshot link, title, screenshot %}
+			</a>
+		</p>
+		{% endif %}
+
+		<div class="single-content">
+			{{ content | safe }}
+
+			{% if link %}
+			<p><strong><a href="{{ link }}">Visit {{ title }} &rarr;</a></strong></p>
+			{% endif %}
+		</div>
+
+		{% if tags %}
+		<div class="meta categories">
+			{% for tag in tags %}{% include 'tag.njk' %}{% endfor %}
+		</div>
+		{% endif %}
+
+		<p class="meta source">
+			<a href="https://github.com/mikestreety/mikestreety/tree/main/{{ page.inputPath }}" title="{{ page.inputPath }}">View this page on Github</a>
+		</p>
+
+	</div>
+</div>

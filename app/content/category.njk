@@ -10,6 +10,8 @@ pagination:
     - talks
     - notes
     - drafts
+    - projects
+    - featuredProjects
     - live
     - all
 permalink: /category/{{ tag | slugify }}/
@@ -25,9 +27,9 @@ eleventyComputed:
 
 	<div class="post-listing">
 		<ul class="post-listing-full">
-		{% for entry in categoryList %}
+		{% asyncEach entry in categoryList %}
 			{% include 'entry.njk' %}
-		{% endfor %}
+		{% endeach %}
 		</ul>
 	</div>
 </div>

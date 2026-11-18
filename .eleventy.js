@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const {live, blog, drafts, notes, talks} = require('./app/filters/posts');
+const {live, blog, drafts, notes, talks, projects, featuredProjects} = require('./app/filters/posts');
 const { convert } = require('html-to-text');
 const webmentionsForUrl = require('./app/filters/webmentionsForUrl');
 const ogImage = require('./app/filters/ogImage');
@@ -14,6 +14,8 @@ module.exports = async function (config) {
 	config.addCollection('live', live);
 	config.addCollection('notes', notes);
 	config.addCollection('talks', talks);
+	config.addCollection('projects', projects);
+	config.addCollection('featuredProjects', featuredProjects);
 
 	config.addFilter('htmlToText', function(html) {
 		return convert(html, {
@@ -62,6 +64,8 @@ module.exports = async function (config) {
 
 	config.addAsyncShortcode('ogImage', ogImage);
 	config.addFilter('ogImagePath', ogImage.path);
+
+	config.addAsyncShortcode('projectScreenshot', require('./app/filters/screenshot'));
 
 	config.addFilter('findPost', function(slug) {
 		return this.ctx.collections.blog.filter(a => a.url == slug)[0];
