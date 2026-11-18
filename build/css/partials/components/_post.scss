@@ -101,3 +101,8 @@
 		margin-bottom: 0.3rem;
 	}
 }
+
+// A subtitle under the meta line (e.g. project pages) needs room below the rule
+.post-meta + .subtitle {
+	margin-top: 0;
+}
