@@ -3,7 +3,7 @@ title: Vue.js 2.x by Example
 intro: A book on building web applications with Vue.js, published by Packt, with the example code on GitHub.
 link: https://www.packtpub.com/product/vuejs-2x-by-example/9781788293464
 noScreenshot: true
-order: 7
+order: 8
 tags:
  - Vue
 ---

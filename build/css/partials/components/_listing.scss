@@ -181,3 +181,8 @@
 		}
 	}
 }
+
+// Breathing room between the "View more blog posts" button and the projects
+.home-projects {
+	margin-top: calc(var(--gutter) * 3);
+}
