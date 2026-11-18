@@ -1,9 +1,0 @@
-{
-	"layout": "single-project.njk",
-
-	"parent": "projects",
-	"parentTitle": "Projects",
-	"hideDate": true,
-
-	"permalink": "/projects/{{ page.fileSlug }}/"
-}

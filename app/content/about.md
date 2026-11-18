@@ -5,7 +5,7 @@ description: "Mike Street is CTO and Lead Developer at Liquid Light in Brighton,
 permalink: /about/
 eleventyNavigation:
   key: About
-  order: 6
+  order: 5
 ---
 
 # About Mike Street
@@ -46,7 +46,7 @@ To keep packages and dependencies up-to-date, I set up **Renovate** to run regul
 
 ### Side-projects
 
-When not working, I like to keep busy with web-related side-projects - you can see some of them on the [projects page](/projects/).
+When not working, I like to keep busy with web-related side-projects.
 
 When getting and using Vue.js, I was approached to [write a book](https://www.packtpub.com/product/vuejs-2x-by-example/9781788293464) on the subject. I've also written [copious amounts of blog posts](/diary/) on this very site.
 

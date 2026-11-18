@@ -2,20 +2,12 @@
 	<article class="article">
 		<a href="{{ entry.url }}" class="icon" title="{{ entry.data.title if entry.data.title else entry.url }}"><span>{{ entry.data.title if entry.data.title else entry.url }}</span></a>
 
-		{% if not entry.data.hideDate %}
 		<p class="date">
 			{% if entry.date %}
 				<time class="dt-published is-hidden">{{ entry.date | dateISO }}</time>
 				{% if entry.date > now %}Scheduled for {% endif %}{{ entry.date | dateLong }}
 			{% endif %}
 		</p>
-		{% endif %}
-
-		{% if entry.data.parent == 'projects' and not entry.data.noScreenshot %}
-			<a href="{{ entry.url }}" class="project-screenshot-link" tabindex="-1" aria-hidden="true">
-				{% projectScreenshot entry.data.link, entry.data.title, entry.data.screenshot, 'small' %}
-			</a>
-		{% endif %}
 
 		<h3>
 			<a href="{{ entry.url }}">{{ entry.data.title if entry.data.title else entry.url }}</a> {% if entry.url.includes('/drafts/') or entry.data.draft %}<span class="info">Draft</span>{% endif %}

@@ -18,18 +18,7 @@ function getCollection(collection, folders, draft = false)
 		});
 }
 
-// Projects aren't dated, so they're ordered by their `order` front matter
-function getProjects(collection)
-{
-	return collection
-		.getFilteredByGlob('./app/content/projects/*.md')
-		.filter((p) => !p.data.draft)
-		.sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
-}
-
 module.exports = {
-	projects: getProjects,
-	featuredProjects: (collection) => getProjects(collection).filter((p) => p.data.featured),
 	live: (collection) => getCollection(collection, '{blog/*,talks/*,notes}'),
 	drafts: (collection) => getCollection(collection, '{blog/*,drafts}', true),
 	blog: (collection) => getCollection(collection, 'blog/*'),
