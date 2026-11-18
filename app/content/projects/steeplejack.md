@@ -3,7 +3,7 @@ title: Steeplejack
 intro: A website audit tool aimed at freelancers, agencies and website owners. Audits include SEO, accessibility and security, plus plenty more.
 link: https://steeplejack.mikestreety.co.uk/
 established: 2026
-featured: 2
+featured: 1
 tags:
  - Security
  - Laravel

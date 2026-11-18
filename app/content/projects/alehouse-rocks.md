@@ -3,7 +3,7 @@ title: Alehouse Rocks
 intro: Reviews of the beers I drink, including style, shop and brewery. Filterable and searchable, with plenty of data.
 link: https://alehouse.rocks/
 established: 2016
-featured: 1
+featured: 3
 tags:
  - 11ty
  - Netlify

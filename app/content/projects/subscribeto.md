@@ -3,7 +3,7 @@ title: email.subscribeto
 intro: A tagged directory of email newsletters, RSS feeds and podcasts. Discover your next subscription by exploring the interconnected resources.
 link: https://subscribeto.mikestreety.co.uk/
 established: 2017
-featured: 3
+featured: 2
 tags:
  - 11ty
 ---
