@@ -42,7 +42,7 @@ module.exports = async function (link, title, override, size = 'large') {
 		return Image.generateHTML(metadata, {
 			alt: `Screenshot of ${title}`,
 			class: 'project-screenshot',
-			sizes: size === 'small' ? '(min-width: 50em) 30vw, 100vw' : '(min-width: 50em) 50em, 100vw',
+			sizes: size === 'small' ? '(min-width: 50em) 45vw, 100vw' : '(min-width: 50em) 50em, 100vw',
 			loading: 'lazy',
 			decoding: 'async',
 			'eleventy:ignore': '',

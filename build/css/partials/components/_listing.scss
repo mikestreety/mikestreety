@@ -170,7 +170,7 @@
 .post-listing .project-listing {
 	@include mq($tablet) {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		gap: var(--gutter);
 		border-left: 0;
 		padding-left: 0;

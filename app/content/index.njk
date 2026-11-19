@@ -80,7 +80,7 @@ eleventyNavigation:
 	<div class="horizonal-listing container">
 		<div class="post-listing">
 			<ul class="project-listing">
-			{%- asyncEach entry in collections.featuredProjects | limit(3) -%}
+			{%- asyncEach entry in collections.featuredProjects | limit(4) -%}
 				{% include 'entry.njk' %}
 			{% endeach %}
 			</ul>
