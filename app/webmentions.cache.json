@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2026-10-27T21:39:45.244Z",
+  "lastFetched": "2026-11-19T13:32:35.331Z",
   "children": [
     {
       "type": "entry",
@@ -13618,6 +13618,26 @@
       "wm-target": "https://www.mikestreety.co.uk/blog/code-review-3-ais-are-better-than-none/",
       "wm-protocol": "webmention",
       "like-of": "https://www.mikestreety.co.uk/blog/code-review-3-ais-are-better-than-none/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "feedle",
+        "photo": "https://cdn.bsky.app/img/avatar/plain/did:plc:agfmq3ftvzc6ohutuue6xadl/bafkreie3td2li6td4fnyd3kym7vt5r35g6ival43hfw3lh6x27ojscjmr4",
+        "url": "https://bsky.app/profile/feedle.world"
+      },
+      "url": "https://bsky.app/profile/mikestreety.co.uk/post/3mywvrr3chc2m#liked_by_did:plc:agfmq3ftvzc6ohutuue6xadl",
+      "published": null,
+      "published_ts": null,
+      "wm-received": "2026-10-28T15:41:07Z",
+      "wm-id": 2044718,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:t5fq52ggrseh2uktmzney6qx/at%253A%252F%252Fdid%253Aplc%253At5fq52ggrseh2uktmzney6qx%252Fapp.bsky.feed.post%252F3mywvrr3chc2m/did%253Aplc%253Aagfmq3ftvzc6ohutuue6xadl",
+      "wm-target": "https://www.mikestreety.co.uk/blog/rolling-out-a-self-hosted-infisical/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.mikestreety.co.uk/blog/rolling-out-a-self-hosted-infisical/",
       "wm-property": "like-of",
       "wm-private": false
     }

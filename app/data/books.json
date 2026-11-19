@@ -7,7 +7,7 @@
 		"started": "2026-10-07",
 		"finished": "2026-10-20",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780593079645-L.jpg"
+		"cover": "/assets/img/books/9780593079645.jpg"
 	},
 	{
 		"title": "The Housemaid",
@@ -17,7 +17,7 @@
 		"started": "2026-09-24",
 		"finished": "2026-10-05",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781408728512-L.jpg"
+		"cover": "/assets/img/books/9781408728512.jpg"
 	},
 	{
 		"title": "Redemption",
@@ -27,7 +27,7 @@
 		"started": "2026-09-11",
 		"finished": "2026-09-22",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781398531598-L.jpg"
+		"cover": "/assets/img/books/9781398531598.jpg"
 	},
 	{
 		"title": "The Twist of a Knife",
@@ -37,7 +37,7 @@
 		"started": "2026-08-28",
 		"finished": "2026-09-11",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781529159370-L.jpg"
+		"cover": "/assets/img/books/9781529159370.jpg"
 	},
 	{
 		"title": "Exit",
@@ -47,7 +47,7 @@
 		"started": "2026-08-26",
 		"finished": "2026-08-28",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781784164133-L.jpg"
+		"cover": "/assets/img/books/9781784164133.jpg"
 	},
 	{
 		"title": "The Wandering Earth",
@@ -57,7 +57,7 @@
 		"started": "2026-08-10",
 		"finished": "2026-08-25",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781784978518-L.jpg"
+		"cover": "/assets/img/books/9781784978518.jpg"
 	},
 	{
 		"title": "The Lie Maker",
@@ -67,7 +67,7 @@
 		"started": "2026-07-28",
 		"finished": "2026-08-09",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780008555689-L.jpg"
+		"cover": "/assets/img/books/9780008555689.jpg"
 	},
 	{
 		"title": "The Humans",
@@ -77,7 +77,7 @@
 		"started": "2026-07-08",
 		"finished": "2026-07-27",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781786894663-L.jpg"
+		"cover": "/assets/img/books/9781786894663.jpg"
 	},
 	{
 		"title": "Broken House",
@@ -87,7 +87,7 @@
 		"started": "2026-06-27",
 		"finished": "2026-07-07",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781835980774-L.jpg"
+		"cover": "/assets/img/books/9781835980774.jpg"
 	},
 	{
 		"title": "Jurassic Park",
@@ -97,7 +97,7 @@
 		"started": "2026-06-04",
 		"finished": "2026-06-26",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781784752224-L.jpg"
+		"cover": "/assets/img/books/9781784752224.png"
 	},
 	{
 		"title": "Snap",
@@ -107,7 +107,7 @@
 		"started": "2026-05-27",
 		"finished": "2026-06-03",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781974903276-L.jpg"
+		"cover": "/assets/img/books/9781974903276.jpg"
 	},
 	{
 		"title": "In a Place of Darkness",
@@ -117,7 +117,7 @@
 		"started": "2026-05-08",
 		"finished": "2026-05-26",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780552178334-L.jpg"
+		"cover": "/assets/img/books/9780552178334.jpg"
 	},
 	{
 		"title": "Parable of the Sower",
@@ -127,7 +127,7 @@
 		"started": "2026-04-22",
 		"finished": "2026-05-07",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781472263667-L.jpg"
+		"cover": "/assets/img/books/9781472263667.jpg"
 	},
 	{
 		"title": "The Last Dance",
@@ -137,7 +137,7 @@
 		"started": "2026-04-02",
 		"finished": "2026-04-20",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781408726358-L.jpg"
+		"cover": "/assets/img/books/9781408726358.png"
 	},
 	{
 		"title": "Atom Bomb Angel",
@@ -147,7 +147,7 @@
 		"started": "2026-03-05",
 		"finished": "2026-03-31",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781509836468-L.jpg"
+		"cover": false
 	},
 	{
 		"title": "Project Hail Mary",
@@ -157,7 +157,7 @@
 		"started": "2026-03-23",
 		"finished": "2026-03-29",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781529157468-L.jpg"
+		"cover": "/assets/img/books/9781529157468.jpg"
 	},
 	{
 		"title": "The House of Silk",
@@ -167,7 +167,7 @@
 		"started": "2026-02-12",
 		"finished": "2026-03-05",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781409135982-L.jpg"
+		"cover": "/assets/img/books/9781409135982.jpg"
 	},
 	{
 		"title": "The Missing Family",
@@ -177,7 +177,7 @@
 		"started": "2026-02-01",
 		"finished": "2026-02-11",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781405953016-L.jpg"
+		"cover": "/assets/img/books/9781405953016.jpg"
 	},
 	{
 		"title": "A Beginner's Guide to Breaking and Entering",
@@ -187,7 +187,7 @@
 		"started": "2026-01-11",
 		"finished": "2026-01-31",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781804940860-L.jpg"
+		"cover": "/assets/img/books/9781804940860.jpg"
 	},
 	{
 		"title": "2001: A Space Odyssey",
@@ -197,7 +197,7 @@
 		"started": "2026-01-04",
 		"finished": "2026-01-11",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780751573756-L.jpg"
+		"cover": "/assets/img/books/9780751573756.png"
 	},
 	{
 		"title": "The Coffinmaker's Garden",
@@ -207,7 +207,7 @@
 		"started": "2026-01-03",
 		"finished": "2026-01-03",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780008208325-L.jpg"
+		"cover": "/assets/img/books/9780008208325.jpg"
 	},
 	{
 		"title": "None of This Is True",
@@ -217,7 +217,7 @@
 		"started": "2025-12-25",
 		"finished": "2025-12-25",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781804940204-L.jpg"
+		"cover": "/assets/img/books/9781804940204.jpg"
 	},
 	{
 		"title": "Love You Dead",
@@ -227,7 +227,7 @@
 		"started": "2025-12-20",
 		"finished": "2025-12-20",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781447255895-L.jpg"
+		"cover": "/assets/img/books/9781447255895.jpg"
 	},
 	{
 		"title": "Birdman",
@@ -237,7 +237,7 @@
 		"started": "2025-11-22",
 		"finished": "2025-11-22",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780553820461-L.jpg"
+		"cover": "/assets/img/books/9780553820461.jpg"
 	},
 	{
 		"title": "Memorial Park",
@@ -247,7 +247,7 @@
 		"started": "2025-11-08",
 		"finished": "2025-11-08",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781835980767-L.jpg"
+		"cover": "/assets/img/books/9781835980767.jpg"
 	},
 	{
 		"title": "In Too Deep",
@@ -257,7 +257,7 @@
 		"started": "2025-10-31",
 		"finished": "2025-10-31",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780857505606-L.jpg"
+		"cover": "/assets/img/books/9780857505606.jpg"
 	},
 	{
 		"title": "Close to Death",
@@ -267,7 +267,7 @@
 		"started": "2025-10-28",
 		"finished": "2025-10-28",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781529904239-L.jpg"
+		"cover": "/assets/img/books/9781529904239.jpg"
 	},
 	{
 		"title": "Let It Bleed",
@@ -277,7 +277,7 @@
 		"started": "2025-10-22",
 		"finished": "2025-10-22",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780752877198-L.jpg"
+		"cover": "/assets/img/books/9780752877198.jpg"
 	},
 	{
 		"title": "The Fury",
@@ -287,7 +287,7 @@
 		"started": "2025-10-07",
 		"finished": "2025-10-07",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780241575543-L.jpg"
+		"cover": "/assets/img/books/9780241575543.jpg"
 	},
 	{
 		"title": "Gallows Wood",
@@ -297,7 +297,7 @@
 		"started": "2025-09-20",
 		"finished": "2025-09-20",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781804366516-L.jpg"
+		"cover": "/assets/img/books/9781804366516.jpg"
 	},
 	{
 		"title": "Picture You Dead",
@@ -307,7 +307,7 @@
 		"started": "2025-09-11",
 		"finished": "2025-09-11",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781529004366-L.jpg"
+		"cover": "/assets/img/books/9781529004366.jpg"
 	},
 	{
 		"title": "The Bullet That Missed",
@@ -317,7 +317,7 @@
 		"started": "2025-08-26",
 		"finished": "2025-08-26",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780241512432-L.jpg"
+		"cover": "/assets/img/books/9780241512432.jpg"
 	},
 	{
 		"title": "The Countdown Killer",
@@ -327,7 +327,7 @@
 		"started": "2025-08-15",
 		"finished": "2025-08-15",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780008615154-L.jpg"
+		"cover": "/assets/img/books/9780008615154.jpg"
 	},
 	{
 		"title": "The Puppet Master",
@@ -337,7 +337,7 @@
 		"started": "2025-08-05",
 		"finished": "2025-08-05",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780008615062-L.jpg"
+		"cover": "/assets/img/books/9780008615062.jpg"
 	},
 	{
 		"title": "No Time for Goodbye",
@@ -347,7 +347,7 @@
 		"started": "2025-07-23",
 		"finished": "2025-07-23",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780752893686-L.jpg"
+		"cover": "/assets/img/books/9780752893686.jpg"
 	},
 	{
 		"title": "Breaking the Dark: A Jessica Jones Marvel Crime Novel",
@@ -357,7 +357,7 @@
 		"started": "2025-07-11",
 		"finished": "2025-07-11",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781804947906-L.jpg"
+		"cover": "/assets/img/books/9781804947906.jpg"
 	},
 	{
 		"title": "The Last Goodbye",
@@ -367,7 +367,7 @@
 		"started": "2025-06-25",
 		"finished": "2025-06-25",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781405952965-L.jpg"
+		"cover": "/assets/img/books/9781405952965.jpg"
 	},
 	{
 		"title": "Tall Oaks",
@@ -377,7 +377,7 @@
 		"started": "2025-06-06",
 		"finished": "2025-06-06",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781785770302-L.jpg"
+		"cover": "/assets/img/books/9781785770302.jpg"
 	},
 	{
 		"title": "The Missing and the Dead",
@@ -387,7 +387,7 @@
 		"started": "2025-05-25",
 		"finished": "2025-05-25",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780007494637-L.jpg"
+		"cover": "/assets/img/books/9780007494637.jpg"
 	},
 	{
 		"title": "Dead Mile: A Compulsive Locked Room Mystery with a Unique Twist, Set on a Gridlocked Motorway During Rush Hour",
@@ -397,7 +397,7 @@
 		"started": "2025-04-28",
 		"finished": "2025-04-28",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781804183441-L.jpg"
+		"cover": "/assets/img/books/9781804183441.jpg"
 	},
 	{
 		"title": "The Family Remains",
@@ -407,7 +407,7 @@
 		"started": "2025-04-19",
 		"finished": "2025-04-19",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781529158564-L.jpg"
+		"cover": "/assets/img/books/9781529158564.jpg"
 	},
 	{
 		"title": "The Twenty",
@@ -417,7 +417,7 @@
 		"started": "2025-04-05",
 		"finished": "2025-04-05",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780008461683-L.jpg"
+		"cover": "/assets/img/books/9780008461683.jpg"
 	},
 	{
 		"title": "A Song for the Dark Times",
@@ -427,7 +427,7 @@
 		"started": "2025-03-24",
 		"finished": "2025-03-24",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781398701335-L.jpg"
+		"cover": "/assets/img/books/9781398701335.jpg"
 	},
 	{
 		"title": "Extraordinary People",
@@ -437,7 +437,7 @@
 		"started": "2025-03-09",
 		"finished": "2025-03-09",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781590584606-L.jpg"
+		"cover": "/assets/img/books/9781590584606.jpg"
 	},
 	{
 		"title": "The Man Who Died Twice",
@@ -447,7 +447,7 @@
 		"started": "2025-02-27",
 		"finished": "2025-02-27",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780241988244-L.jpg"
+		"cover": "/assets/img/books/9780241988244.jpg"
 	},
 	{
 		"title": "The Family Upstairs",
@@ -457,7 +457,7 @@
 		"started": "2025-02-15",
 		"finished": "2025-02-15",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781780899213-L.jpg"
+		"cover": "/assets/img/books/9781780899213.jpg"
 	},
 	{
 		"title": "Blood Music",
@@ -467,7 +467,7 @@
 		"started": "2025-02-09",
 		"finished": "2025-02-09",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/1857987624-L.jpg"
+		"cover": "/assets/img/books/1857987624.jpg"
 	},
 	{
 		"title": "The Echo Man",
@@ -477,7 +477,7 @@
 		"started": "2025-01-24",
 		"finished": "2025-01-24",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780008461591-L.jpg"
+		"cover": "/assets/img/books/9780008461591.jpg"
 	},
 	{
 		"title": "The Sanctuary",
@@ -487,7 +487,7 @@
 		"started": "2025-01-13",
 		"finished": "2025-01-13",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781529158519-L.jpg"
+		"cover": "/assets/img/books/9781529158519.jpg"
 	},
 	{
 		"title": "Eye for an Eye",
@@ -497,7 +497,7 @@
 		"started": "2024-12-26",
 		"finished": "2024-12-26",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781472132581-L.jpg"
+		"cover": "/assets/img/books/9781472132581.jpg"
 	},
 	{
 		"title": "The Making of Us",
@@ -507,7 +507,7 @@
 		"started": "2024-12-14",
 		"finished": "2024-12-14",
 		"rating": false,
-		"cover": false
+		"cover": "/assets/img/books/the-making-of-us-lisa-jewell.jpg"
 	},
 	{
 		"title": "Bad News",
@@ -517,7 +517,7 @@
 		"started": "2024-11-23",
 		"finished": "2024-11-23",
 		"rating": false,
-		"cover": false
+		"cover": "/assets/img/books/bad-news-linwood-barclay.jpg"
 	},
 	{
 		"title": "Artemis",
@@ -527,7 +527,7 @@
 		"started": "2024-11-10",
 		"finished": "2024-11-10",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781785030253-L.jpg"
+		"cover": "/assets/img/books/9781785030253.jpg"
 	},
 	{
 		"title": "Revenge Killing",
@@ -547,7 +547,7 @@
 		"started": "2024-10-08",
 		"finished": "2024-10-08",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780008208219-L.jpg"
+		"cover": "/assets/img/books/9780008208219.jpg"
 	},
 	{
 		"title": "Dead Find",
@@ -557,7 +557,7 @@
 		"started": "2024-09-03",
 		"finished": "2024-09-03",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781408716526-L.jpg"
+		"cover": "/assets/img/books/9781408716526.jpg"
 	},
 	{
 		"title": "Good As Dead",
@@ -567,7 +567,7 @@
 		"started": "2024-08-19",
 		"finished": "2024-08-19",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780751544978-L.jpg"
+		"cover": "/assets/img/books/9780751544978.jpg"
 	},
 	{
 		"title": "Take Your Breath Away",
@@ -577,7 +577,7 @@
 		"started": "2024-07-28",
 		"finished": "2024-07-28",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780008332099-L.jpg"
+		"cover": "/assets/img/books/9780008332099.jpg"
 	},
 	{
 		"title": "I Am Missing",
@@ -587,7 +587,7 @@
 		"started": "2024-06-28",
 		"finished": "2024-06-28",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781405917841-L.jpg"
+		"cover": "/assets/img/books/9781405917841.jpg"
 	},
 	{
 		"title": "One Shot",
@@ -597,7 +597,7 @@
 		"started": "2024-05-17",
 		"finished": "2024-05-17",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780440241027-L.jpg"
+		"cover": "/assets/img/books/9780440241027.jpg"
 	},
 	{
 		"title": "The Thursday Murder Club",
@@ -607,7 +607,7 @@
 		"started": "2024-04-08",
 		"finished": "2024-04-08",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780241425459-L.jpg"
+		"cover": "/assets/img/books/9780241425459.jpg"
 	},
 	{
 		"title": "Elevator Pitch",
@@ -617,7 +617,7 @@
 		"started": "2024-01-03",
 		"finished": "2024-01-03",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780008332006-L.jpg"
+		"cover": "/assets/img/books/9780008332006.jpg"
 	},
 	{
 		"title": "Look Both Ways",
@@ -627,7 +627,7 @@
 		"started": "2023-08-04",
 		"finished": "2023-08-04",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9780008499549-L.jpg"
+		"cover": "/assets/img/books/9780008499549.png"
 	},
 	{
 		"title": "The Blackbird",
@@ -637,7 +637,7 @@
 		"started": "2023-06-24",
 		"finished": "2023-06-24",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781405943741-L.jpg"
+		"cover": "/assets/img/books/9781405943741.png"
 	},
 	{
 		"title": "No Less The Devil",
@@ -647,7 +647,7 @@
 		"started": "2023-06-07",
 		"finished": "2023-06-07",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781787634909-L.jpg"
+		"cover": "/assets/img/books/9781787634909.jpg"
 	},
 	{
 		"title": "I Found You",
@@ -657,7 +657,7 @@
 		"started": "2023-04-02",
 		"finished": "2023-04-02",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781501154591-L.jpg"
+		"cover": "/assets/img/books/9781501154591.jpg"
 	},
 	{
 		"title": "Left You Dead",
@@ -667,7 +667,7 @@
 		"started": "2023-03-29",
 		"finished": "2023-03-29",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781529004267-L.jpg"
+		"cover": "/assets/img/books/9781529004267.jpg"
 	},
 	{
 		"title": "Sparring Partners (3 Novellas).",
@@ -687,7 +687,7 @@
 		"started": "2022-12-11",
 		"finished": "2022-12-11",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781443455527-L.jpg"
+		"cover": "/assets/img/books/9781443455527.jpg"
 	},
 	{
 		"title": "Find Them Dead, Volume 16",
@@ -697,6 +697,6 @@
 		"started": "2020-10-29",
 		"finished": "2020-10-29",
 		"rating": false,
-		"cover": "https://covers.openlibrary.org/b/isbn/9781529004328-L.jpg"
+		"cover": "/assets/img/books/9781529004328.jpg"
 	}
 ]
