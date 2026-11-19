@@ -1,23 +1,28 @@
 ---
 title: Books
-description: The books Mike Street has read recently, pulled from Goodreads.
+description: The books Mike Street has read, most recent first.
 layout: page.njk
 permalink: /books/
 ---
 
 <h1>Books</h1>
-<p>The books I've finished, most recent first, from <a href="https://www.goodreads.com/">Goodreads</a>.</p>
+<p>The books I've finished, most recent first.</p>
 
 {% if books.length %}
 <ol class="books">
 	{% for book in books %}
 	<li class="book">
-		<a href="{{ book.url }}">
-			<img src="{{ book.cover }}" alt="Cover of {{ book.title }}" loading="lazy" decoding="async" width="200" height="300">
-		</a>
-		<h2 class="book-title"><a href="{{ book.url }}">{{ book.title }}</a></h2>
+		{% if book.cover %}
+		<img src="{{ book.cover }}" alt="Cover of {{ book.title }}" loading="lazy" decoding="async" width="200" height="300">
+		{% else %}
+		<div class="book-placeholder" aria-hidden="true">{{ book.title }}</div>
+		{% endif %}
+		<h2 class="book-title">{{ book.title }}</h2>
 		<p class="book-author">{{ book.author }}</p>
-		<p class="book-date"><time datetime="{{ book.date }}">{{ book.date | dateLong }}</time></p>
+		<p class="book-date">Finished <time datetime="{{ book.finished }}">{{ book.finished | dateLong }}</time></p>
+		{% if book.started != book.finished %}
+		<p class="book-started">Started <time datetime="{{ book.started }}">{{ book.started | dateLong }}</time></p>
+		{% endif %}
 	</li>
 	{% endfor %}
 </ol>

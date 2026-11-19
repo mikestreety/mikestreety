@@ -1,1 +1,702 @@
-[]
+[
+	{
+		"title": "An Unwanted Guest",
+		"author": "Shari Lapena",
+		"isbn": "9780593079645",
+		"format": "hardcover",
+		"started": "2026-10-07",
+		"finished": "2026-10-20",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780593079645-L.jpg"
+	},
+	{
+		"title": "The Housemaid",
+		"author": "Freida McFadden",
+		"isbn": "9781408728512",
+		"format": "paperback",
+		"started": "2026-09-24",
+		"finished": "2026-10-05",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781408728512-L.jpg"
+	},
+	{
+		"title": "Redemption",
+		"author": "Jack Jordan",
+		"isbn": "9781398531598",
+		"format": "paperback",
+		"started": "2026-09-11",
+		"finished": "2026-09-22",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781398531598-L.jpg"
+	},
+	{
+		"title": "The Twist of a Knife",
+		"author": "Anthony Horowitz",
+		"isbn": "9781529159370",
+		"format": "paperback",
+		"started": "2026-08-28",
+		"finished": "2026-09-11",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781529159370-L.jpg"
+	},
+	{
+		"title": "Exit",
+		"author": "Belinda Bauer",
+		"isbn": "9781784164133",
+		"format": "paperback",
+		"started": "2026-08-26",
+		"finished": "2026-08-28",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781784164133-L.jpg"
+	},
+	{
+		"title": "The Wandering Earth",
+		"author": "Cixin Liu",
+		"isbn": "9781784978518",
+		"format": "paperback",
+		"started": "2026-08-10",
+		"finished": "2026-08-25",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781784978518-L.jpg"
+	},
+	{
+		"title": "The Lie Maker",
+		"author": "Linwood Barclay",
+		"isbn": "9780008555689",
+		"format": "paperback",
+		"started": "2026-07-28",
+		"finished": "2026-08-09",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780008555689-L.jpg"
+	},
+	{
+		"title": "The Humans",
+		"author": "Matt Haig",
+		"isbn": "9781786894663",
+		"format": "paperback",
+		"started": "2026-07-08",
+		"finished": "2026-07-27",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781786894663-L.jpg"
+	},
+	{
+		"title": "Broken House",
+		"author": "Louisa Scarr",
+		"isbn": "9781835980774",
+		"format": "paperback",
+		"started": "2026-06-27",
+		"finished": "2026-07-07",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781835980774-L.jpg"
+	},
+	{
+		"title": "Jurassic Park",
+		"author": "Michael Crichton",
+		"isbn": "9781784752224",
+		"format": "paperback",
+		"started": "2026-06-04",
+		"finished": "2026-06-26",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781784752224-L.jpg"
+	},
+	{
+		"title": "Snap",
+		"author": "Belinda Bauer",
+		"isbn": "9781974903276",
+		"format": "paperback",
+		"started": "2026-05-27",
+		"finished": "2026-06-03",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781974903276-L.jpg"
+	},
+	{
+		"title": "In a Place of Darkness",
+		"author": "Stuart MacBride",
+		"isbn": "9780552178334",
+		"format": "paperback",
+		"started": "2026-05-08",
+		"finished": "2026-05-26",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780552178334-L.jpg"
+	},
+	{
+		"title": "Parable of the Sower",
+		"author": "Octavia E. Butler",
+		"isbn": "9781472263667",
+		"format": "paperback",
+		"started": "2026-04-22",
+		"finished": "2026-05-07",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781472263667-L.jpg"
+	},
+	{
+		"title": "The Last Dance",
+		"author": "Mark Billingham",
+		"isbn": "9781408726358",
+		"format": "paperback",
+		"started": "2026-04-02",
+		"finished": "2026-04-20",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781408726358-L.jpg"
+	},
+	{
+		"title": "Atom Bomb Angel",
+		"author": "Peter James",
+		"isbn": "9781509836468",
+		"format": false,
+		"started": "2026-03-05",
+		"finished": "2026-03-31",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781509836468-L.jpg"
+	},
+	{
+		"title": "Project Hail Mary",
+		"author": "Andy Weir",
+		"isbn": "9781529157468",
+		"format": "paperback",
+		"started": "2026-03-23",
+		"finished": "2026-03-29",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781529157468-L.jpg"
+	},
+	{
+		"title": "The House of Silk",
+		"author": "Anthony Horowitz",
+		"isbn": "9781409135982",
+		"format": "paperback",
+		"started": "2026-02-12",
+		"finished": "2026-03-05",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781409135982-L.jpg"
+	},
+	{
+		"title": "The Missing Family",
+		"author": "Tim Weaver",
+		"isbn": "9781405953016",
+		"format": "paperback",
+		"started": "2026-02-01",
+		"finished": "2026-02-11",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781405953016-L.jpg"
+	},
+	{
+		"title": "A Beginner's Guide to Breaking and Entering",
+		"author": "Andrew Hunter Murray",
+		"isbn": "9781804940860",
+		"format": "digital",
+		"started": "2026-01-11",
+		"finished": "2026-01-31",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781804940860-L.jpg"
+	},
+	{
+		"title": "2001: A Space Odyssey",
+		"author": "Arthur C. Clarke",
+		"isbn": "9780751573756",
+		"format": "paperback",
+		"started": "2026-01-04",
+		"finished": "2026-01-11",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780751573756-L.jpg"
+	},
+	{
+		"title": "The Coffinmaker's Garden",
+		"author": "Stuart MacBride",
+		"isbn": "9780008208325",
+		"format": "paperback",
+		"started": "2026-01-03",
+		"finished": "2026-01-03",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780008208325-L.jpg"
+	},
+	{
+		"title": "None of This Is True",
+		"author": "Lisa Jewell",
+		"isbn": "9781804940204",
+		"format": "paperback",
+		"started": "2025-12-25",
+		"finished": "2025-12-25",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781804940204-L.jpg"
+	},
+	{
+		"title": "Love You Dead",
+		"author": "Peter James",
+		"isbn": "9781447255895",
+		"format": "paperback",
+		"started": "2025-12-20",
+		"finished": "2025-12-20",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781447255895-L.jpg"
+	},
+	{
+		"title": "Birdman",
+		"author": "Mo Hayder",
+		"isbn": "9780553820461",
+		"format": "paperback",
+		"started": "2025-11-22",
+		"finished": "2025-11-22",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780553820461-L.jpg"
+	},
+	{
+		"title": "Memorial Park",
+		"author": "Louisa Scarr",
+		"isbn": "9781835980767",
+		"format": "digital",
+		"started": "2025-11-08",
+		"finished": "2025-11-08",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781835980767-L.jpg"
+	},
+	{
+		"title": "In Too Deep",
+		"author": "Lee Child, Andrew Child",
+		"isbn": "9780857505606",
+		"format": "paperback",
+		"started": "2025-10-31",
+		"finished": "2025-10-31",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780857505606-L.jpg"
+	},
+	{
+		"title": "Close to Death",
+		"author": "Anthony Horowitz",
+		"isbn": "9781529904239",
+		"format": "hardcover",
+		"started": "2025-10-28",
+		"finished": "2025-10-28",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781529904239-L.jpg"
+	},
+	{
+		"title": "Let It Bleed",
+		"author": "Ian Rankin",
+		"isbn": "9780752877198",
+		"format": "paperback",
+		"started": "2025-10-22",
+		"finished": "2025-10-22",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780752877198-L.jpg"
+	},
+	{
+		"title": "The Fury",
+		"author": "Alex Michaelides",
+		"isbn": "9780241575543",
+		"format": "paperback",
+		"started": "2025-10-07",
+		"finished": "2025-10-07",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780241575543-L.jpg"
+	},
+	{
+		"title": "Gallows Wood",
+		"author": "Louisa Scarr",
+		"isbn": "9781804366516",
+		"format": "paperback",
+		"started": "2025-09-20",
+		"finished": "2025-09-20",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781804366516-L.jpg"
+	},
+	{
+		"title": "Picture You Dead",
+		"author": "Peter James",
+		"isbn": "9781529004366",
+		"format": "hardcover",
+		"started": "2025-09-11",
+		"finished": "2025-09-11",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781529004366-L.jpg"
+	},
+	{
+		"title": "The Bullet That Missed",
+		"author": "Richard Osman",
+		"isbn": "9780241512432",
+		"format": "paperback",
+		"started": "2025-08-26",
+		"finished": "2025-08-26",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780241512432-L.jpg"
+	},
+	{
+		"title": "The Countdown Killer",
+		"author": "Sam Holland",
+		"isbn": "9780008615154",
+		"format": "paperback",
+		"started": "2025-08-15",
+		"finished": "2025-08-15",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780008615154-L.jpg"
+	},
+	{
+		"title": "The Puppet Master",
+		"author": "Sam Holland",
+		"isbn": "9780008615062",
+		"format": "paperback",
+		"started": "2025-08-05",
+		"finished": "2025-08-05",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780008615062-L.jpg"
+	},
+	{
+		"title": "No Time for Goodbye",
+		"author": "Linwood Barclay",
+		"isbn": "9780752893686",
+		"format": "paperback",
+		"started": "2025-07-23",
+		"finished": "2025-07-23",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780752893686-L.jpg"
+	},
+	{
+		"title": "Breaking the Dark: A Jessica Jones Marvel Crime Novel",
+		"author": "Lisa Jewell",
+		"isbn": "9781804947906",
+		"format": "paperback",
+		"started": "2025-07-11",
+		"finished": "2025-07-11",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781804947906-L.jpg"
+	},
+	{
+		"title": "The Last Goodbye",
+		"author": "Tim Weaver",
+		"isbn": "9781405952965",
+		"format": "paperback",
+		"started": "2025-06-25",
+		"finished": "2025-06-25",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781405952965-L.jpg"
+	},
+	{
+		"title": "Tall Oaks",
+		"author": "Chris Whitaker",
+		"isbn": "9781785770302",
+		"format": "paperback",
+		"started": "2025-06-06",
+		"finished": "2025-06-06",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781785770302-L.jpg"
+	},
+	{
+		"title": "The Missing and the Dead",
+		"author": "Stuart MacBride",
+		"isbn": "9780007494637",
+		"format": false,
+		"started": "2025-05-25",
+		"finished": "2025-05-25",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780007494637-L.jpg"
+	},
+	{
+		"title": "Dead Mile: A Compulsive Locked Room Mystery with a Unique Twist, Set on a Gridlocked Motorway During Rush Hour",
+		"author": "Jo Furniss",
+		"isbn": "9781804183441",
+		"format": "paperback",
+		"started": "2025-04-28",
+		"finished": "2025-04-28",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781804183441-L.jpg"
+	},
+	{
+		"title": "The Family Remains",
+		"author": "Lisa Jewell",
+		"isbn": "9781529158564",
+		"format": "paperback",
+		"started": "2025-04-19",
+		"finished": "2025-04-19",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781529158564-L.jpg"
+	},
+	{
+		"title": "The Twenty",
+		"author": "Sam Holland",
+		"isbn": "9780008461683",
+		"format": "paperback",
+		"started": "2025-04-05",
+		"finished": "2025-04-05",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780008461683-L.jpg"
+	},
+	{
+		"title": "A Song for the Dark Times",
+		"author": "Ian Rankin",
+		"isbn": "9781398701335",
+		"format": "paperback",
+		"started": "2025-03-24",
+		"finished": "2025-03-24",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781398701335-L.jpg"
+	},
+	{
+		"title": "Extraordinary People",
+		"author": "Peter May",
+		"isbn": "9781590584606",
+		"format": "paperback",
+		"started": "2025-03-09",
+		"finished": "2025-03-09",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781590584606-L.jpg"
+	},
+	{
+		"title": "The Man Who Died Twice",
+		"author": "Richard Osman",
+		"isbn": "9780241988244",
+		"format": "paperback",
+		"started": "2025-02-27",
+		"finished": "2025-02-27",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780241988244-L.jpg"
+	},
+	{
+		"title": "The Family Upstairs",
+		"author": "Lisa Jewell",
+		"isbn": "9781780899213",
+		"format": "paperback",
+		"started": "2025-02-15",
+		"finished": "2025-02-15",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781780899213-L.jpg"
+	},
+	{
+		"title": "Blood Music",
+		"author": "Greg Bear",
+		"isbn": "1857987624",
+		"format": "paperback",
+		"started": "2025-02-09",
+		"finished": "2025-02-09",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/1857987624-L.jpg"
+	},
+	{
+		"title": "The Echo Man",
+		"author": "Sam Holland",
+		"isbn": "9780008461591",
+		"format": "hardcover",
+		"started": "2025-01-24",
+		"finished": "2025-01-24",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780008461591-L.jpg"
+	},
+	{
+		"title": "The Sanctuary",
+		"author": "Andrew Hunter Murray",
+		"isbn": "9781529158519",
+		"format": "paperback",
+		"started": "2025-01-13",
+		"finished": "2025-01-13",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781529158519-L.jpg"
+	},
+	{
+		"title": "Eye for an Eye",
+		"author": "T.F. Muir",
+		"isbn": "9781472132581",
+		"format": false,
+		"started": "2024-12-26",
+		"finished": "2024-12-26",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781472132581-L.jpg"
+	},
+	{
+		"title": "The Making of Us",
+		"author": "Lisa Jewell",
+		"isbn": false,
+		"format": "paperback",
+		"started": "2024-12-14",
+		"finished": "2024-12-14",
+		"rating": false,
+		"cover": false
+	},
+	{
+		"title": "Bad News",
+		"author": "Linwood Barclay",
+		"isbn": false,
+		"format": "paperback",
+		"started": "2024-11-23",
+		"finished": "2024-11-23",
+		"rating": false,
+		"cover": false
+	},
+	{
+		"title": "Artemis",
+		"author": "Andy Weir",
+		"isbn": "9781785030253",
+		"format": "paperback",
+		"started": "2024-11-10",
+		"finished": "2024-11-10",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781785030253-L.jpg"
+	},
+	{
+		"title": "Revenge Killing",
+		"author": "Leigh Russell",
+		"isbn": false,
+		"format": false,
+		"started": "2024-11-02",
+		"finished": "2024-11-02",
+		"rating": false,
+		"cover": false
+	},
+	{
+		"title": "The Blood Road",
+		"author": "Stuart MacBride",
+		"isbn": "9780008208219",
+		"format": "hardcover",
+		"started": "2024-10-08",
+		"finished": "2024-10-08",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780008208219-L.jpg"
+	},
+	{
+		"title": "Dead Find",
+		"author": "T.F. Muir",
+		"isbn": "9781408716526",
+		"format": "digital",
+		"started": "2024-09-03",
+		"finished": "2024-09-03",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781408716526-L.jpg"
+	},
+	{
+		"title": "Good As Dead",
+		"author": "Mark Billingham",
+		"isbn": "9780751544978",
+		"format": "paperback",
+		"started": "2024-08-19",
+		"finished": "2024-08-19",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780751544978-L.jpg"
+	},
+	{
+		"title": "Take Your Breath Away",
+		"author": "Linwood Barclay",
+		"isbn": "9780008332099",
+		"format": "hardcover",
+		"started": "2024-07-28",
+		"finished": "2024-07-28",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780008332099-L.jpg"
+	},
+	{
+		"title": "I Am Missing",
+		"author": "Tim Weaver",
+		"isbn": "9781405917841",
+		"format": "paperback",
+		"started": "2024-06-28",
+		"finished": "2024-06-28",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781405917841-L.jpg"
+	},
+	{
+		"title": "One Shot",
+		"author": "Lee Child",
+		"isbn": "9780440241027",
+		"format": "paperback",
+		"started": "2024-05-17",
+		"finished": "2024-05-17",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780440241027-L.jpg"
+	},
+	{
+		"title": "The Thursday Murder Club",
+		"author": "Richard Osman",
+		"isbn": "9780241425459",
+		"format": "paperback",
+		"started": "2024-04-08",
+		"finished": "2024-04-08",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780241425459-L.jpg"
+	},
+	{
+		"title": "Elevator Pitch",
+		"author": "Linwood Barclay",
+		"isbn": "9780008332006",
+		"format": "hardcover",
+		"started": "2024-01-03",
+		"finished": "2024-01-03",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780008332006-L.jpg"
+	},
+	{
+		"title": "Look Both Ways",
+		"author": "Linwood Barclay",
+		"isbn": "9780008499549",
+		"format": "hardcover",
+		"started": "2023-08-04",
+		"finished": "2023-08-04",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9780008499549-L.jpg"
+	},
+	{
+		"title": "The Blackbird",
+		"author": "Tim Weaver",
+		"isbn": "9781405943741",
+		"format": "paperback",
+		"started": "2023-06-24",
+		"finished": "2023-06-24",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781405943741-L.jpg"
+	},
+	{
+		"title": "No Less The Devil",
+		"author": "Stuart MacBride",
+		"isbn": "9781787634909",
+		"format": "hardcover",
+		"started": "2023-06-07",
+		"finished": "2023-06-07",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781787634909-L.jpg"
+	},
+	{
+		"title": "I Found You",
+		"author": "Lisa Jewell",
+		"isbn": "9781501154591",
+		"format": "hardcover",
+		"started": "2023-04-02",
+		"finished": "2023-04-02",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781501154591-L.jpg"
+	},
+	{
+		"title": "Left You Dead",
+		"author": "Peter James",
+		"isbn": "9781529004267",
+		"format": "paperback",
+		"started": "2023-03-29",
+		"finished": "2023-03-29",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781529004267-L.jpg"
+	},
+	{
+		"title": "Sparring Partners (3 Novellas).",
+		"author": "John Grisham",
+		"isbn": "9781399708401",
+		"format": false,
+		"started": "2023-02-18",
+		"finished": "2023-02-18",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781399708401-L.jpg"
+	},
+	{
+		"title": "The Sentence is Death",
+		"author": "Anthony Horowitz",
+		"isbn": "9781443455527",
+		"format": "paperback",
+		"started": "2022-12-11",
+		"finished": "2022-12-11",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781443455527-L.jpg"
+	},
+	{
+		"title": "Find Them Dead, Volume 16",
+		"author": "Peter James",
+		"isbn": "9781529004328",
+		"format": "paperback",
+		"started": "2020-10-29",
+		"finished": "2020-10-29",
+		"rating": false,
+		"cover": "https://covers.openlibrary.org/b/isbn/9781529004328-L.jpg"
+	}
+]

@@ -1,77 +1,99 @@
-// Pulls the Goodreads "read" shelf RSS feed and merges it into app/data/books.json,
-// which is committed to the repo and powers the /books/ page.
+// Imports a StoryGraph CSV export into app/data/books.json, which is committed
+// to the repo and powers the /books/ page.
 //
-// Usage: GOODREADS_USER_ID=12345 npm run books   (or set it in .env)
-require('dotenv').config();
+// Usage: npm run books -- path/to/storygraph-export.csv
+//
+// Covers come from Open Library, looked up by ISBN. If Open Library can be
+// reached, each new cover is checked and books without one get a placeholder.
+// A "cover" set by hand in books.json (any URL that isn't Open Library) is
+// kept, so covers can be added or fixed and won't be overwritten on the next import.
 
 const fs = require('fs');
 const path = require('path');
 
-const USER_ID = process.env.GOODREADS_USER_ID;
 const DATA_FILE = path.join(__dirname, '..', 'app', 'data', 'books.json');
-const PER_PAGE = 100;
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-function decode(value) {
-	return value
-		.replace(/^<!\[CDATA\[([\s\S]*)\]\]>$/, '$1')
-		.replace(/&#(\d+);/g, (m, code) => String.fromCharCode(code))
-		.replace(/&#x([0-9a-f]+);/gi, (m, code) => String.fromCharCode(parseInt(code, 16)))
-		.replace(/&quot;/g, '"')
-		.replace(/&apos;/g, "'")
-		.replace(/&lt;/g, '<')
-		.replace(/&gt;/g, '>')
-		.replace(/&amp;/g, '&')
-		.trim();
+// Minimal RFC 4180 CSV parser (handles quoted fields, commas and newlines in quotes)
+function parseCsv(text) {
+	const rows = [];
+	let row = [], field = '', quoted = false;
+
+	for (let i = 0; i < text.length; i++) {
+		const char = text[i];
+
+		if (quoted) {
+			if (char === '"' && text[i + 1] === '"') {
+				field += '"';
+				i++;
+			} else if (char === '"') {
+				quoted = false;
+			} else {
+				field += char;
+			}
+		} else if (char === '"') {
+			quoted = true;
+		} else if (char === ',') {
+			row.push(field);
+			field = '';
+		} else if (char === '\n' || char === '\r') {
+			if (char === '\r' && text[i + 1] === '\n') {
+				i++;
+			}
+			row.push(field);
+			rows.push(row);
+			row = [];
+			field = '';
+		} else {
+			field += char;
+		}
+	}
+
+	if (field || row.length) {
+		row.push(field);
+		rows.push(row);
+	}
+
+	const [header, ...data] = rows.filter(r => r.some(cell => cell.trim()));
+	return data.map(r => Object.fromEntries(header.map((key, i) => [key.trim(), (r[i] || '').trim()])));
 }
 
-function tag(item, name) {
-	const match = item.match(new RegExp(`<${name}>([\\s\\S]*?)</${name}>`));
-	return match ? decode(match[1].trim()) : '';
+// "2026/03/05" -> "2026-03-05"
+const toDate = value => /^\d{4}\/\d{2}\/\d{2}$/.test(value) ? value.replace(/\//g, '-') : false;
+
+function toBook(row) {
+	// "Dates Read" is "start-end" or a single date, with multiple reads comma separated
+	const reads = (row['Dates Read'] || '').split(',').map(r => r.trim()).filter(Boolean);
+	const [start, end] = (reads[reads.length - 1] || '').split('-');
+	const finished = toDate(row['Last Date Read']) || toDate(end || start || '');
+	const isbn = row['ISBN/UID'].replace(/[^0-9X]/gi, '');
+
+	return {
+		title: row['Title'],
+		author: [...new Set(row['Authors'].split(',').map(a => a.trim()).filter(Boolean))].join(', '),
+		isbn: isbn || false,
+		format: row['Format'] || false,
+		started: toDate(start || '') || finished,
+		finished,
+		rating: row['Star Rating'] ? Number(row['Star Rating']) : false,
+	};
 }
 
-// "Mon, 20 Oct 2026 03:12:45 -0700" -> "2026-10-20" (kept as the day Goodreads shows,
-// regardless of the timezone this script runs in)
-function toDay(value) {
-	const match = value.match(/(\d{1,2}) (\w{3}) (\d{4})/);
-	if (!match) {
+const keyFor = book => book.isbn || `${book.title}|${book.author}`.toLowerCase();
+
+async function findCover(isbn) {
+	if (!isbn) {
 		return false;
 	}
-	const month = MONTHS.indexOf(match[2]) + 1;
-	return `${match[3]}-${String(month).padStart(2, '0')}-${match[1].padStart(2, '0')}`;
-}
 
-function parseFeed(xml) {
-	return (xml.match(/<item>[\s\S]*?<\/item>/g) || []).map(item => ({
-		id: tag(item, 'book_id'),
-		title: tag(item, 'title'),
-		author: tag(item, 'author_name'),
-		url: `https://www.goodreads.com/book/show/${tag(item, 'book_id')}`,
-		cover: tag(item, 'book_large_image_url') || tag(item, 'book_medium_image_url') || tag(item, 'book_image_url'),
-		// "Date added" is when the book was marked as read
-		date: toDay(tag(item, 'user_date_added')),
-	})).filter(book => book.id && book.title && book.date);
-}
+	const url = `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;
 
-async function fetchAll() {
-	const books = [];
-
-	for (let page = 1; ; page++) {
-		const url = `https://www.goodreads.com/review/list_rss/${USER_ID}?shelf=read&per_page=${PER_PAGE}&page=${page}`;
-		const response = await fetch(url, {
-			headers: { 'User-Agent': 'Mozilla/5.0 (compatible; books-updater)' }
-		});
-
-		if (!response.ok) {
-			throw new Error(`HTTP ${response.status} fetching page ${page}`);
-		}
-
-		const items = parseFeed(await response.text());
-		books.push(...items);
-
-		if (items.length < PER_PAGE) {
-			return books;
-		}
+	try {
+		// default=false makes Open Library 404 instead of returning a blank image
+		const response = await fetch(`${url}?default=false`, { method: 'HEAD', redirect: 'follow' });
+		return response.ok ? url : false;
+	} catch (error) {
+		// Couldn't check - assume it exists (a missing one renders as a blank cover)
+		return url;
 	}
 }
 
@@ -84,35 +106,47 @@ function readExisting() {
 }
 
 async function run() {
-	if (!USER_ID) {
-		console.error('GOODREADS_USER_ID is not set (add it to .env or prefix the command)');
+	const file = process.argv[2];
+
+	if (!file) {
+		console.error('Usage: npm run books -- path/to/storygraph-export.csv');
 		process.exit(1);
 	}
 
-	const existing = readExisting();
-	const fresh = await fetchAll();
+	const existing = new Map(readExisting().map(book => [keyFor(book), book]));
 
-	// Merge by book ID - fresh data wins, but anything that's dropped out of the
-	// feed is kept
-	const merged = new Map(existing.map(book => [book.id, book]));
-	for (const book of fresh) {
-		merged.set(book.id, book);
+	const books = parseCsv(fs.readFileSync(file, 'utf8'))
+		.filter(row => row['Read Status'] === 'read')
+		.map(toBook)
+		.filter(book => book.title && book.finished);
+
+	let added = 0;
+	for (const book of books) {
+		const previous = existing.get(keyFor(book));
+
+		if (previous && previous.cover && !previous.cover.includes('openlibrary.org')) {
+			book.cover = previous.cover;
+		} else {
+			book.cover = await findCover(book.isbn);
+		}
+
+		if (!previous) {
+			added++;
+		}
 	}
 
-	const books = Array.from(merged.values())
-		.sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
+	books.sort((a, b) => b.finished.localeCompare(a.finished) || a.title.localeCompare(b.title));
 
 	fs.writeFileSync(DATA_FILE, JSON.stringify(books, null, '\t') + '\n');
 
-	const added = books.length - existing.length;
-	console.log(`Fetched ${fresh.length} books from Goodreads, ${books.length} total in books.json (${added} new)`);
+	const missing = books.filter(book => !book.cover).map(book => book.title);
+	console.log(`Imported ${books.length} read books (${added} new) into app/data/books.json`);
+	if (missing.length) {
+		console.log(`No cover found for: ${missing.join('; ')}`);
+	}
 }
 
-if (require.main === module) {
-	run().catch(error => {
-		console.error(`Failed to update books: ${error.message}`);
-		process.exit(1);
-	});
-}
-
-module.exports = { parseFeed, toDay };
+run().catch(error => {
+	console.error(`Failed to import books: ${error.message}`);
+	process.exit(1);
+});
