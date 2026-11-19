@@ -13,6 +13,9 @@ Gigs, live music, shows and nights out I've attended
 
 | Title | Location | Date |
 | -------- | ------- | ------- |
+| Embrace | Brighton Dome, Brighton | 17/11/2026 |
+| Gladiators Live Tour | OVO Arena Wembley, London | 08/11/2026 |
+| SpitNights | The Old Market, Hove | 31/10/2026 |
 | Seriously Collins | Pavilion Theatre, Worthing | 17/10/2026 |
 | Operation Mincemeat | Congress Theatre, Eastbourne | 05/08/2026 |
 | Maxïmo Park | Chalk, Brighton | 17/07/2026 |
