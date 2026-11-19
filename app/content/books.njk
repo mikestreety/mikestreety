@@ -6,21 +6,21 @@ permalink: /books/
 ---
 
 <h1>Books</h1>
-<p>The latest books I've finished, pulled from {% if goodreads.profile %}<a href="{{ goodreads.profile }}">Goodreads</a>{% else %}Goodreads{% endif %}.</p>
+<p>The books I've finished, most recent first, from <a href="https://www.goodreads.com/">Goodreads</a>.</p>
 
-{% if goodreads.books.length %}
+{% if books.length %}
 <ol class="books">
-	{% for book in goodreads.books %}
+	{% for book in books %}
 	<li class="book">
 		<a href="{{ book.url }}">
 			<img src="{{ book.cover }}" alt="Cover of {{ book.title }}" loading="lazy" decoding="async" width="200" height="300">
 		</a>
 		<h2 class="book-title"><a href="{{ book.url }}">{{ book.title }}</a></h2>
 		<p class="book-author">{{ book.author }}</p>
-		<p class="book-date"><time datetime="{{ book.dateRead.toISOString() }}">{{ book.dateRead | dateLong }}</time></p>
+		<p class="book-date"><time datetime="{{ book.date }}">{{ book.date | dateLong }}</time></p>
 	</li>
 	{% endfor %}
 </ol>
 {% else %}
-<p>Couldn't load any books right now - check back later.</p>
+<p>No books yet.</p>
 {% endif %}
