@@ -19,10 +19,10 @@ permalink: /books/
 		{% endif %}
 		<h2 class="book-title">{{ book.title }}</h2>
 		<p class="book-author">{{ book.author }}</p>
-		<p class="book-date">Finished <time datetime="{{ book.finished }}">{{ book.finished | dateLong }}</time></p>
-		{% if book.started != book.finished %}
-		<p class="book-started">Started <time datetime="{{ book.started }}">{{ book.started | dateLong }}</time></p>
-		{% endif %}
+		<p class="book-date">
+			{%- if book.started != book.finished %}<time datetime="{{ book.started }}">{{ book.started | dayMonth }}</time> - {% endif -%}
+			<time datetime="{{ book.finished }}">{{ book.finished | dayMonth }}</time>
+		</p>
 	</li>
 	{% endfor %}
 </ol>

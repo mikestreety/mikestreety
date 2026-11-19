@@ -71,6 +71,12 @@ module.exports = async function (config) {
 		return this.ctx.collections.blog.filter(a => a.url == slug)[0];
 	});
 
+	// "2026-10-07" -> "7/10"
+	config.addFilter('dayMonth', (date) => {
+		const [, month, day] = String(date).split('-').map(Number);
+		return `${day}/${month}`;
+	});
+
 	config.addFilter('time', (date) => {
 		let dateParse = (date) => new Date(Date.parse(date));
 		let d = dateParse(date);
