@@ -1,0 +1,32 @@
+---
+title: Books
+description: The books Mike Street has read, most recent first.
+layout: page.njk
+permalink: /books/
+---
+
+<h1>Books</h1>
+<p>The books I've finished, most recent first.</p>
+
+{% for group in booksByYear %}
+<h2 id="{{ group.year }}">{{ group.year }} <small>({{ group.books.length }})</small></h2>
+<ol class="books">
+	{% for book in group.books %}
+	<li class="book">
+		{% if book.cover %}
+		<img src="{{ book.cover }}" alt="Cover of {{ book.title }}" loading="lazy" decoding="async" width="200" height="300">
+		{% else %}
+		<div class="book-placeholder" aria-hidden="true">{{ book.title }}</div>
+		{% endif %}
+		<h3 class="book-title">{{ book.title }}</h3>
+		<p class="book-author">{{ book.author }}</p>
+		<p class="book-date">
+			{%- if book.started != book.finished %}<time datetime="{{ book.started }}">{{ book.started | dayMonth }}</time> - {% endif -%}
+			<time datetime="{{ book.finished }}">{{ book.finished | dayMonth }}</time>
+		</p>
+	</li>
+	{% endfor %}
+</ol>
+{% else %}
+<p>No books yet.</p>
+{% endfor %}
