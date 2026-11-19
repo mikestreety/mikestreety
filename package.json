@@ -12,7 +12,8 @@
     "dev": "npm run prod:assets && npm run watch:11ty",
     "prod": "npm run prod:assets && npm run prod:11ty",
     "build": "npm run prod",
-    "books": "node scripts/update-books.js"
+    "books": "node scripts/update-books.js",
+    "books:covers": "node scripts/update-book-covers.js"
   },
   "keywords": [],
   "author": "",
